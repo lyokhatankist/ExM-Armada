@@ -2943,25 +2943,25 @@
 		waterSpecularS="0.005">
 		<Sky
 			sunriseColor="66.300 76.500 94.350"
-			dayColor="114.750 153.000 255.000"
+			dayColor="163.200 160.650 168.300"
 			sunsetColor="173.400 128.000 128.000"
 			nightColor="58.650 64.000 64.000" />
 
 		<Fog
 			sunriseColor="196.350 145.350 130.050"
-			dayColor="188.700 242.250 196.350"
+			dayColor="204.000 201.450 255.000"
 			sunsetColor="226.950 191.250 109.650"
 			nightColor="17.850 33.150 43.350" />
 
 		<Ambient
 			sunriseColor="112.200 117.300 128.000"
-			dayColor="237.150 255.000 255.000"
+			dayColor="232.050 229.500 255.000"
 			sunsetColor="128.000 128.000 128.000"
 			nightColor="25.500 35.700 61.200" />
 
 		<Diffuse
 			sunriseColor="104.550 117.300 128.000"
-			dayColor="239.700 255.000 255.000"
+			dayColor="234.600 234.600 255.000"
 			sunsetColor="128.000 128.000 128.000"
 			nightColor="25.500 43.350 64.000" />
 
@@ -2973,13 +2973,13 @@
 
 		<Plant
 			sunriseColor="112.200 119.850 128.000"
-			dayColor="234.600 255.000 255.000"
+			dayColor="234.600 232.050 255.000"
 			sunsetColor="128.000 128.000 128.000"
 			nightColor="28.050 45.900 64.000" />
 
 		<Specular
 			sunriseColor="102.000 112.200 128.000"
-			dayColor="226.950 255.000 255.000"
+			dayColor="226.950 221.850 255.000"
 			sunsetColor="128.000 128.000 128.000"
 			nightColor="28.050 45.900 64.000" />
 

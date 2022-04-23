@@ -40,8 +40,8 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 	/>
 
 	<Physics
-		DistToTurnOnPhysics		= "600"
-		DistToTurnOffPhysics	= "650"
+		DistToTurnOnPhysics		= "2000"
+		DistToTurnOffPhysics	= "2100"
 		PhysicStepTime			= "0.033"
 	/>
 

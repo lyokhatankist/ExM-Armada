@@ -10189,7 +10189,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="3.260"
+			InitVal="2.780"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10216,7 +10216,7 @@
 
 		<Unit
 			VarName="BloomThreshold"
-			InitVal="0.420"
+			InitVal="0.430"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10243,7 +10243,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.070"
+			InitVal="0.110"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -10252,7 +10252,7 @@
 
 		<Unit
 			VarName="SepiaColorR"
-			InitVal="1.000"
+			InitVal="0.850"
 			Param1="0"
 			Param2="0"
 			Param3="0"
