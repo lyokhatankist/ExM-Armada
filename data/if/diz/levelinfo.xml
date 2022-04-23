@@ -6,8 +6,9 @@
 		fullName="Море"
 		diz0=""
 		diz1=""
-		image0="data\if\map\noch.dds"
-		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\Loading_Screen_1.dds"
+		north="0 0 1"
+		image0="data\if\map\r1m1.dds"
+		image1="data\if\ico\GlobalMap\r1m1.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
 		musicBlocks="block1 r2_2 r4_2" />
 </LevelInfoResource>
