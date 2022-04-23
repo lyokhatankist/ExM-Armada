@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+$Id: Caravan.xml,v 1.11 2005/10/25 09:54:48 anton Exp $
+-->
+
+<Prototypes>
+<!--	<Prototype
+		Class="WanderersManager"
+		Name="JSinxManager">
+	</Prototype>
+
+	<Prototype
+		Class	=	"WanderersManager"
+		Name	=	"LiveCaravanManager">
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_CaravanTeam"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	"r1m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"potato	firewood">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_CaravanOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	"r1m1_CaravanCarGenerator"
+		GuardVehiclesGeneratorName	=	""
+		WaresPrototypes			=	"potato	firewood">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class					=	"CaravanTeam"
+		Name					=	"r1m1_BanditOne"
+		DecisionMatrix			=	"teammain.lua"
+		TradersVehiclesGeneratorName	=	""
+		GuardVehiclesGeneratorName	=	"r1m1_CaravanCarGuardianGenerator"
+		WaresPrototypes			=	"">
+		<Formation Prototype		=	"wedgeFormation"/>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m1_CaravanCarGenerator"
+		DesiredCount		=	"1">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanBug01"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug02"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug03"/>
+			<Vehicle Prototype	=	"r1m1_CaravanBug04"/>
+		</Vehicles>
+	</Prototype>
+
+	<Prototype
+		Class				=	"WanderersGenerator"
+		Name				=	"r1m1_CaravanCarGuardianGenerator"
+		DesiredCount		=	"1-2">
+		<Vehicles>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml101"/>
+			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml201"/>
+		</Vehicles>
+	</Prototype>
+-->
+</Prototypes>

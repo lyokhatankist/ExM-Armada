@@ -127,7 +127,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name = "Towns" File = "Towns.xml" />
 
 	<Folder Name = "Lairs">
-		<Prototype
+<!--		<Prototype
 			Class		= "Lair"
 			Name		= "someLair"
 			ModelFile	= "dungeon_1"
@@ -136,44 +136,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			MaxDefenders	= "1" 
 			
 			Vehicles	= "Scout" />
-
-		<Prototype
-			Class		= "Lair"
-			Name		= "someLair1"
-			ModelFile	= "dungeon_1_dead"
-			NodeScale	= "1 1 1"
-			MaxAttackers	= "2"
-			MaxDefenders	= "1" 
-			
-			Vehicles	= "Sml4" />
-		<Prototype
-			Class		= "Lair"
-			Name		= "someLair2"
-			ModelFile	= "dungeon_1"
-			NodeScale	= "1 1 1"
-			MaxAttackers	= "2"
-			MaxDefenders	= "1" 
-			
-			Vehicles	= "Sml3" />
-
-		<Prototype
-			Class		= "Lair"
-			Name		= "someLair3"
-			ModelFile	= "dungeon_1_dead"
-			NodeScale	= "1 1 1"
-			MaxAttackers	= "2"
-			MaxDefenders	= "1" 
-			
-			Vehicles	= "Sml2" />
-		<Prototype
-			Class		= "Lair"
-			Name		= "someLair4"
-			ModelFile	= "dungeon_1"
-			NodeScale	= "1 1 1"
-			MaxAttackers	= "2"
-			MaxDefenders	= "1" 
-			
-			Vehicles	= "Sml1" />
+-->
 	</Folder>
 
 	<Folder Name = "Chests">

@@ -3098,6 +3098,96 @@
 		trans="0" />
 <!-- vehicles -->
 	<model
+		id="destroyerChassis"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\shassis.gam">
+		<action
+			name="DEATH1"
+			skin="8">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="DEATH2"
+			skin="8">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+<!--		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_EXHAUST_SMOKE1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_PROJECTOR_TANK"
+				restartOnAnimationChange="0" />
+		</action> -->
+	</model>
+
+	<model
 		id="tankChassis"
 		shadow="1"
 		shadowVolume="1"
@@ -3187,11 +3277,15 @@
 		</action>
 	</model>
 
+<!--		file="data\models\vehicles\tank\wheel01.gam"> -->
+<!--		file="data\models\vehicles\ural\wheel01l.gam" -->
+<!--		file="data\models\vehicles\mirotvorec\wheel01.gam"> -->
+<!--		file="data\models\vehicles\belaz\wheel01L.gam"> -->
 	<model
 		id="tankWheel01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\tank\wheel01.gam">
+		file="data\models\vehicles\ural\wheel01l.gam">
 		<action
 			skin="8" 
 			name="DEATH1" >

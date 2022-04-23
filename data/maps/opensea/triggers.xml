@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers>
-<!-- ’гв ваЁЈЈҐа  -->
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -8,4 +7,22 @@
 		</script>
 	</trigger>
 
+	<trigger	Name="trFindThing"	active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomLinearVelocity(0)
+			Plf:SetThrottle(0)
+
+			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+		   trigger:Deactivate()
+		</script>
+	</trigger>
 </triggers>
