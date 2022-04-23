@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="0">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player"
+		Money="1000">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="Destroyer01"
+			Pos="4096.000 273.822 4096.000"
+			Rot="-0.007 1.000 0.001 0.021">
+			<Parts />
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>
