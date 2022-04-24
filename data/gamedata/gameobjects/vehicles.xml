@@ -5,23 +5,31 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 -->
 
 <Prototypes>
+<!-- 
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP2_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP2_MED"
+-->
 	<Prototype
 		Class				= "Vehicle"
 		Name				= "Destroyer"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "16"
-		CameraMaxDist		= "50"
+		CameraHeight		= "8"
+		CameraMaxDist		= "40"
 
-		DiffRatio			= "7.0"
-		MaxEngineRpm		= "5000"
-		LowGearShiftLimit	= "1000"
-		HighGearShiftLimit	= "2000"
+		DiffRatio			= "15.0"
+		MaxEngineRpm		= "4000"
+		LowGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "3000"
 		SteeringSpeed		= "0.1"
-		DriftCoeff			= "0.9"
+		DriftCoeff			= "0.01"
 
-		PressingForce		= "2.0"
-		MassSize			= "1 1 1"
+		AdditionalWheelsHover = "17.5"
+
+		PressingForce		= "1.0"
+		MassSize			= "5 1 5"
 		MassTranslation		= "1 1 1"
 
 		DecisionMatrix		= "vehiclemain.lua"
@@ -30,9 +38,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
-		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectBlast		= "ET_PS_VEH_EXP2_MED"
-		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP2_MED"
 		DestroyEffectWater		= "ET_PS_VEH_EXP2_MED"
 
 		Abstract 			= "true" >
@@ -48,10 +56,14 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Parts>
 
 		<Wheels>
-			<Wheel Prototype = "tankWheel01" />
-			<Wheel Prototype = "tankWheel01" />
-			<Wheel Prototype = "tankWheel01" steering = "inverse" />
-			<Wheel Prototype = "tankWheel01" steering = "inverse" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" />
+			<Wheel Prototype = "shipWheel01" steering = "inverse" />
+			<Wheel Prototype = "shipWheel01" steering = "inverse" />
 		</Wheels>
 	</Prototype>
 

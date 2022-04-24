@@ -1384,9 +1384,17 @@
 
 <!-- vehicles -->
 		<Item 
+			id="shipWheel01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="destroyerChassis" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="destroyerCab01" 
+			file="data\models\AnimModels.xml"/>
+			
 		<Item 
 			id="tankChassis" 
 			file="data\models\AnimModels.xml"/>

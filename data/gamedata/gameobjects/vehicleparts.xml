@@ -31,7 +31,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class						= "Cabin"
 			Name						= "destroyerCab01"
-			ModelFile					= "point"
+			ModelFile					= "destroyerCab01"
 			ResourceType				= "DESTROYER_CABIN"
 			NodeScale					= "1 1 1"
 
@@ -40,7 +40,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "25 20 20"
 			MaxPower					= "1200"
 			MaxTorque					= "300"
-			MaxSpeed					= "80.0"
+			MaxSpeed					= "40.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_TANK_HIGH"
@@ -86,15 +86,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Wheels">
 		<Prototype
 			Class					= "Wheel"
-			Name					= "tankWheel01"
-			ModelFile				= "tankWheel01"
+			Name					= "shipWheel01"
+			ModelFile				= "shipWheel01"
 			NodeScale				= "1 1 1"
 
-			Mass					= "5.0"
-			SuspensionModelFile		= "tankSusp01"
-			SuspensionCFM			= "0.002"
+			Mass					= "100.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.01"
 			SuspensionERP			= "0.25"
-			SuspensionRange			= "0.6"
+			SuspensionRange			= "0.35"
 			mU						= "1.0"
 			
 			EffectType				= "BIGWHEEL" />
