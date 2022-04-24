@@ -2933,7 +2933,7 @@
 		class="WeatherClear"
 		name="sea_clear"
 		skyDomeFactor="1.800"
-		waterSpeed="0.110"
+		waterSpeed="0.027"
 		waterWaveHBig="0.630"
 		waterWaveHSmall="1.160"
 		waterWaveSizeBig="0.500"
