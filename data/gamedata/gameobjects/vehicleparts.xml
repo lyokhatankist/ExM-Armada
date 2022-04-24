@@ -12,7 +12,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile		= "destroyerChassis"
 			ResourceType	= "DESTROYER_CHASSIS"
 			NodeScale		= "1 1 1"
-			Mass			= "120.0" 			
+			Mass			= "150.0" 			
 			MaxHealth		= "1500" 
 			MaxFuel			= "1000"
 			
@@ -35,11 +35,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYER_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "30.0"
+			Mass						= "750.0"
 			Durability					= "200"
 			DurCoeffsForDamageTypes		= "25 20 20"
 			MaxPower					= "1200"
-			MaxTorque					= "300"
+			MaxTorque					= "350"
 			MaxSpeed					= "40.0"
 			Price						= "1500"
 
@@ -90,11 +90,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile				= "shipWheel01"
 			NodeScale				= "1 1 1"
 
-			Mass					= "100.0"
+			Mass					= "250.0"
 			SuspensionModelFile		= "point"
-			SuspensionCFM			= "0.01"
+			SuspensionCFM			= "0.0001"
 			SuspensionERP			= "0.25"
-			SuspensionRange			= "0.35"
+			SuspensionRange			= "0.001"
 			mU						= "1.0"
 			
 			EffectType				= "BIGWHEEL" />

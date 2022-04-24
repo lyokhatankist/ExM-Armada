@@ -16,7 +16,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "Destroyer"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "8"
+		CameraHeight		= "12"
 		CameraMaxDist		= "40"
 
 		DiffRatio			= "15.0"
@@ -38,10 +38,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
-		DestroyEffectPiercing	= "ET_PS_VEH_EXP2_MED"
-		DestroyEffectBlast		= "ET_PS_VEH_EXP2_MED"
-		DestroyEffectEnergy		= "ET_PS_VEH_EXP2_MED"
-		DestroyEffectWater		= "ET_PS_VEH_EXP2_MED"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
 
 		Abstract 			= "true" >
 
