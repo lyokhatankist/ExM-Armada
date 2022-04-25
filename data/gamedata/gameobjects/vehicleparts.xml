@@ -76,7 +76,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
-			LoadPoints					= "LP_PART01 LP_PART02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription

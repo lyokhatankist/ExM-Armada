@@ -56,8 +56,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
 				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_PART01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_PART02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_FLYGUN02" />
 		</MainPartDescription>
 
 		<Parts>
