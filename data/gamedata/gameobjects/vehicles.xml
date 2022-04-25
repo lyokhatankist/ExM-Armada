@@ -45,25 +45,34 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		Abstract 			= "true" >
 
-		<MainPartDescription	id = "CHASSIS"				partResourceType = "DESTROYER_CHASSIS">
-			<PartDescription	id = "CABIN"				partResourceType = "DESTROYER_CABIN"	lpName = "LP_CAB01" />	
-			<PartDescription	id = "CHASSIS_SMALL_GUN"	partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
-			<PartDescription	id = "BASKET"				partResourceType = "FAKE_BASKET"		lpName = "LP_CAB01" />
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "DESTROYER_CHASSIS">
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" />
+			<PartDescription	id = "CABIN"					partResourceType = "DESTROYER_CABIN"	lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "DESTROYER_BASKET"	lpName = "LP_CAB01" />
+				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
+				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
+				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
+				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_PART01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_PART02" />
 		</MainPartDescription>
 
 		<Parts>
-			<Part id = "CHASSIS" Prototype = "destroyerChassis" />
+			<Part id = "CHASSIS" Prototype = "destroyerHull" />
 		</Parts>
 
 		<Wheels>
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" />
-			<Wheel Prototype = "shipWheel01" steering = "inverse" />
-			<Wheel Prototype = "shipWheel01" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
 		</Wheels>
 	</Prototype>
 
@@ -73,9 +82,18 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "Destroyer"
 		VisibleInEncyclopedia	= "true">
 		<Parts>
-			<Part id = "CABIN"				Prototype = "destroyerCab01" />
-			<Part id = "CHASSIS_SMALL_GUN"	Prototype = "tank01" />
-			<Part id = "BASKET"				Prototype = "fakeCargo" />
+			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "tank01" />
+			<Part id = "CHASSIS_SMALL_GUN_2"		Prototype = "tank01" />
+			<Part id = "CHASSIS_SMALL_GUN_3"		Prototype = "tank01" />
+			<Part id = "CHASSIS_SMALL_GUN_4"		Prototype = "tank01" />
+			<Part id = "CABIN"						Prototype = "destroyerEngine" />
+			<Part id = "BASKET"						Prototype = "destroyerArmanent" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "tank01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "tank01" />
+			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "tank01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "tank01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "octopus01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "octopus01" />
 		</Parts>
 	</Prototype>
 </Prototypes>

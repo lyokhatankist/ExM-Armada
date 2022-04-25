@@ -8,8 +8,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Chassis">
 		<Prototype
 			Class			= "Chassis"
-			Name			= "destroyerChassis"
-			ModelFile		= "destroyerChassis"
+			Name			= "destroyerHull"
+			ModelFile		= "destroyerHull"
 			ResourceType	= "DESTROYER_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "150.0" 			
@@ -19,7 +19,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
 			GearShiftSound	= "ET_S_GEAR_SHIFT01"
-			LoadPoints		= "LP_SML01"
+			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
 			BlowEffect		= "ET_PS_HARD_BLOW" >
 			<GroupsHealth
 				Main = "10000"	
@@ -30,12 +30,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Cabins">
 		<Prototype
 			Class						= "Cabin"
-			Name						= "destroyerCab01"
-			ModelFile					= "destroyerCab01"
+			Name						= "destroyerEngine"
+			ModelFile					= "point"
 			ResourceType				= "DESTROYER_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "750.0"
+			Mass						= "50.0"
 			Durability					= "200"
 			DurCoeffsForDamageTypes		= "25 20 20"
 			MaxPower					= "1200"
@@ -45,7 +45,6 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			EngineHighSound				= "ET_S_ENGINE_TANK_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
-			LoadPoints					= "LP_SML01"
 
 			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
@@ -64,30 +63,62 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		Name = "Baskets">
 		<Prototype
 			Class						= "Basket"
-			Name						= "fakeCargo"
-			ModelFile					= "point"
-			ResourceType				= "FAKE_BASKET"
+			Name						= "destroyerArmanent"
+			ModelFile					= "destroyerArmanent"
+			ResourceType				= "DESTROYER_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "5.0" 
-			Durability					= "0"
-			DurCoeffsForDamageTypes		= "0 0 0"
+			Mass						= "750.0" 
+			Durability					= "100"
+			DurCoeffsForDamageTypes		= "25 10 5"
 			Price						= "0"
 			RepairCoef					= "0"
 
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
+			LoadPoints					= "LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_PART01 LP_PART02"
+
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "2 4"/>
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 4"
+				/>
+			</RepositoryDescription>
 		</Prototype>
 	</Folder>
 
 	<Folder Name = "Wheels">
 		<Prototype
 			Class					= "Wheel"
-			Name					= "shipWheel01"
-			ModelFile				= "shipWheel01"
+			Name					= "shipWheel"
+			ModelFile				= "shipWheel"
 			NodeScale				= "1 1 1"
 
 			Mass					= "250.0"

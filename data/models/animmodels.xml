@@ -3098,17 +3098,17 @@
 		trans="0" />
 <!-- vehicles -->
 	<model
-		id="shipWheel01"
+		id="shipWheel"
 		shadow="1"
 		windwavy="0"
 		file="data\models\vehicles\ships\shipwheel.gam" />
 
 	<model
-		id="destroyerChassis"
+		id="destroyerHull"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\destroyer\shassis.gam">
+		file="data\models\vehicles\ships\destroyer\hull.gam">
 		<action
 			name="DEATH1"
 			skin="8">
@@ -3194,8 +3194,8 @@
 	</model>
 
 	<model
-		id="destroyerCab01"
-		file="data\models\vehicles\ships\destroyer\cab01.gam"
+		id="destroyerArmanent"
+		file="data\models\vehicles\ships\destroyer\armanent.gam"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
@@ -3221,30 +3221,6 @@
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -3260,30 +3236,6 @@
 				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -3296,30 +3248,6 @@
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH06"
 				effect_id="ET_PS_EXHAUST_SMOKE1"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
