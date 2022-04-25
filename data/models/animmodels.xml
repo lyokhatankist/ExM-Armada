@@ -3293,6 +3293,85 @@
 	</model>
 
 	<model
+		id="desttwin01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\desttwin.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="desttwin01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\desttwin_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_desttwin01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\mun_desttwin.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_desttwin01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\mun_desttwin_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+<!-- vanilla -->
+	<model
 		id="tankChassis"
 		shadow="1"
 		shadowVolume="1"

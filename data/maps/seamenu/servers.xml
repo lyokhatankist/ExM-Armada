@@ -1394,7 +1394,23 @@
 		<Item 
 			id="destroyerArmanent" 
 			file="data\models\AnimModels.xml"/>
-			
+
+		<Item 
+			id="desttwin01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="desttwin01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_desttwin01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_desttwin01gun" 
+			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="tankChassis" 
 			file="data\models\AnimModels.xml"/>
