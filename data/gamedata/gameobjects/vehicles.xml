@@ -82,10 +82,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "Destroyer"
 		VisibleInEncyclopedia	= "true">
 		<Parts>
-			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "tank01" />
-			<Part id = "CHASSIS_SMALL_GUN_2"		Prototype = "tank01" />
-			<Part id = "CHASSIS_SMALL_GUN_3"		Prototype = "tank01" />
-			<Part id = "CHASSIS_SMALL_GUN_4"		Prototype = "tank01" />
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "tank01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "tank01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "tank01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "tank01" />
 			<Part id = "CABIN"						Prototype = "destroyerEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerArmanent" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "tank01" />
