@@ -291,7 +291,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "BulletLauncher"
 		Name			= "tank01"
 		ModelFile		= "tank01"
-		ResourceType		= "TANK_GUN"
+		ResourceType		= "GIANT_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
 		

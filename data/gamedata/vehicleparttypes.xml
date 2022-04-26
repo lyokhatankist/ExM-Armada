@@ -173,11 +173,6 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 
 <!-- obsolete -->
 	<VehiclePart
-		PartName	="TANK_GUN"
-		ResourceName	="TANK_GUN"
-	/>                  
-
-	<VehiclePart
 		PartName	="CABIN_SMALL_GUN"
 		ResourceName	="SMALL_GUN"
 	/>
