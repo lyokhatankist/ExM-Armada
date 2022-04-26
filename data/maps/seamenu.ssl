@@ -15,7 +15,7 @@
 			name="PATH">data\maps\seamenu</Key>
 
 		<Key
-			name="LEVELNAME">Untitled</Key>
+			name="LEVELNAME">seamenu</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>

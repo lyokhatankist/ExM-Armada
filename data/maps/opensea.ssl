@@ -15,7 +15,7 @@
 			name="PATH">data\maps\opensea</Key>
 
 		<Key
-			name="LEVELNAME">Untitled</Key>
+			name="LEVELNAME">opensea</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>
