@@ -6,21 +6,24 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 <Prototypes>
 	<Folder Name = "Chassis">
+	<!--
+		BlowEffect		= "ET_PS_HARD_BLOW"
+	-->
 		<Prototype
 			Class			= "Chassis"
 			Name			= "destroyerHull"
 			ModelFile		= "destroyerHull"
 			ResourceType	= "DESTROYER_CHASSIS"
 			NodeScale		= "1 1 1"
-			Mass			= "150.0" 			
+			Mass			= "750.0" 			
 			MaxHealth		= "1500" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
 			GearShiftSound	= "ET_S_GEAR_SHIFT01"
-			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
-			BlowEffect		= "ET_PS_HARD_BLOW" >
+			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04" >
+
 			<GroupsHealth
 				Main = "10000"	
 			/>
@@ -35,7 +38,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYER_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "50.0"
+			Mass						= "400.0"
 			Durability					= "200"
 			DurCoeffsForDamageTypes		= "25 20 20"
 			MaxPower					= "1200"
@@ -68,13 +71,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYER_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "750.0" 
+			Mass						= "400.0" 
 			Durability					= "100"
 			DurCoeffsForDamageTypes		= "25 10 5"
 			Price						= "0"
 			RepairCoef					= "0"
 
-			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
 			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
 
