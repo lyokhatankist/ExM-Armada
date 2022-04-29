@@ -11,9 +11,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	-->
 		<Prototype
 			Class			= "Chassis"
-			Name			= "destroyerHull"
-			ModelFile		= "destroyerHull"
-			ResourceType	= "DESTROYER_CHASSIS"
+			Name			= "destroyerCDHull"
+			ModelFile		= "destroyerCDHull"
+			ResourceType	= "DESTROYERCD_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "750.0" 			
 			MaxHealth		= "1500" 
@@ -33,17 +33,17 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Cabins">
 		<Prototype
 			Class						= "Cabin"
-			Name						= "destroyerEngine"
+			Name						= "destroyerCDEngine"
 			ModelFile					= "point"
-			ResourceType				= "DESTROYER_CABIN"
+			ResourceType				= "DESTROYERCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "400.0"
+			Mass						= "150.0"
 			Durability					= "200"
 			DurCoeffsForDamageTypes		= "25 50 20"
 			MaxPower					= "1200"
-			MaxTorque					= "350"
-			MaxSpeed					= "40.0"
+			MaxTorque					= "650"
+			MaxSpeed					= "45.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_TANK_HIGH"
@@ -66,12 +66,64 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		Name = "Baskets">
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerArmanent"
-			ModelFile					= "destroyerArmanent"
-			ResourceType				= "DESTROYER_BASKET"
+			Name						= "destroyerCD127Armanent"
+			ModelFile					= "destroyerCDArmanent"
+			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "400.0" 
+			Mass						= "50.0" 
+			Durability					= "100"
+			DurCoeffsForDamageTypes		= "25 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 4"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCD135Armanent"
+			ModelFile					= "destroyerCDArmanent"
+			ResourceType				= "DESTROYERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
 			Durability					= "100"
 			DurCoeffsForDamageTypes		= "25 50 5"
 			Price						= "0"
@@ -124,7 +176,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile				= "shipWheel"
 			NodeScale				= "1 1 1"
 
-			Mass					= "250.0"
+			Mass					= "350.0"
 			SuspensionModelFile		= "point"
 			SuspensionCFM			= "0.0001"
 			SuspensionERP			= "0.25"

@@ -3104,7 +3104,7 @@
 		file="data\models\vehicles\ships\shipwheel.gam" />
 
 	<model
-		id="destroyerHull"
+		id="destroyerCDHull"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
@@ -3194,7 +3194,7 @@
 	</model>
 
 	<model
-		id="destroyerArmanent"
+		id="destroyerCDArmanent"
 		file="data\models\vehicles\ships\destroyer\armanent.gam"
 		shadow="1"
 		shadowVolume="1"
@@ -3293,10 +3293,10 @@
 	</model>
 
 	<model
-		id="desttwin01"
+		id="twin127CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\destroyer\desttwin.gam">
+		file="data\models\vehicles\ships\destroyer\twin127cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -3308,14 +3308,20 @@
 	</model>
 
 	<model
-		id="desttwin01gun"
+		id="twin127CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\destroyer\desttwin_gun.gam">
+		file="data\models\vehicles\ships\destroyer\twin127cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
 				effect_id="ET_PS_RAPIER01_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
@@ -3328,14 +3334,20 @@
 				effect_id="ET_PS_CANNON_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
 		</action>
 	</model>
 
 	<model
-		id="mun_desttwin01"
+		id="mun_twin127CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\destroyer\mun_desttwin.gam">
+		file="data\models\vehicles\ships\destroyer\mun_twin127cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -3347,14 +3359,20 @@
 	</model>
 
 	<model
-		id="mun_desttwin01gun"
+		id="mun_twin127CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\destroyer\mun_desttwin_gun.gam">
+		file="data\models\vehicles\ships\destroyer\mun_twin127cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
 				effect_id="ET_PS_RAPIER01_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
@@ -3364,6 +3382,114 @@
 			name="STAND1">
 			<lp
 				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin135CD01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\twin135cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin135CD01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\twin135cd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin135CD01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\mun_twin135cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin135CD01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\mun_twin135cd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_RAPIER01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
 				effect_id="ET_PS_CANNON_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />

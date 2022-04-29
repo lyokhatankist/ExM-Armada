@@ -623,12 +623,37 @@
 <!-- vehicles -->
 
 	<Item
-		id="Destroyer01"
+		id="destroyerCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+		
+	<Item
+		id="DestroyerCD127"
 		locForm="0"
 		value="Эсминец" />
 
 	<Item
-		id="destroyerCab01"
+		id="destroyerCD127Armanent"
+		locForm="0"
+		value="Орудия 127 мм" />
+
+	<Item
+		id="DestroyerCD12701"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="DestroyerCD135"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="destroyerCD135Armanent"
+		locForm="0"
+		value="Орудия 135 мм" />
+
+	<Item
+		id="DestroyerCD13501"
 		locForm="0"
 		value="Эсминец" />
 </ModelNames>

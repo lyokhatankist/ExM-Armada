@@ -1388,29 +1388,45 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerHull" 
+			id="destroyerCDHull" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerArmanent" 
+			id="destroyerCDArmanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="desttwin01" 
+			id="twin127CD01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="desttwin01gun" 
+			id="twin127CD01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="mun_desttwin01" 
+			id="mun_twin127CD01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="mun_desttwin01gun" 
+			id="mun_twin127CD01gun" 
 			file="data\models\AnimModels.xml"/>
-			
+
+		<Item 
+			id="twin135CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin135CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin135CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin135CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="tankChassis" 
 			file="data\models\AnimModels.xml"/>

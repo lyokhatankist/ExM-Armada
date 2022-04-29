@@ -6,12 +6,24 @@
 
 <!-- Vehicles ______________________________________________-->
 	<string
-		id="Destroyer01_diz"
+		id="DestroyerCD12701_diz"
+		value="Старый эсминец." />
+
+	<string
+		id="DestroyerCD13501_diz"
 		value="Старый эсминец." />
 
 <!-- Cabins and baskets ______________________________________________-->
 	<string
-		id="destroyerCab01_diz"
+		id="destroyerCDEngine_diz"
+		value="Самая простая кабина жука." />
+
+	<string
+		id="destroyerCD127Armanent_diz"
+		value="Самая простая кабина жука." />
+
+	<string
+		id="destroyerCD135Armanent_diz"
 		value="Самая простая кабина жука." />
 
 <!-- Gadgets ______________________________________________-->
