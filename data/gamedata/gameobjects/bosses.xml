@@ -217,7 +217,7 @@ $Id: Bosses.xml,v 1.38 2005/11/24 09:45:18 anton Exp $
 			ResourceType		= "BOSS03"
 
 
-			DronePrototypes		= "DestroyerCD127"
+			DronePrototypes		= "DestroyerCD"
 			MaxDrones			= "4"
 			
 			MaxHealth			= "2500"
@@ -524,7 +524,7 @@ $Id: Bosses.xml,v 1.38 2005/11/24 09:45:18 anton Exp $
 			ResourceType		= "BOSS03"
 
 
-			DronePrototypes		= "DestroyerCD127"
+			DronePrototypes		= "DestroyerCD"
 			MaxDrones			= "0"
 			
 			MaxHealth			= "2500"

@@ -96,7 +96,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 			<ObjInfo Prototype = "Breakable_Barrel2"	RelPos = "-5 0 5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_Stolb1"		RelPos = "5 0 -5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_TankEg"		RelPos = "-5 0 -5"	RelAngle = "0" />
-			<ObjInfo Prototype = "DestroyerCD12701"		RelPos = "0 0 0"	RelAngle = "45" />
 		</ObjInfos>
 	</Prototype>
 
@@ -118,7 +117,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 			<ObjInfo Prototype = "Breakable_Barrel2"	RelPos = "-5 0 5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_Stolb1"		RelPos = "5 0 -5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_TankEg"		RelPos = "-5 0 -5"	RelAngle = "0" />
-			<ObjInfo Prototype = "DestroyerCD12701"		RelPos = "0 0 0"	RelAngle = "45" />
 		</ObjInfos>
 	</Prototype>
 
@@ -152,7 +150,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "0 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "-7 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "7 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "DestroyerCD12701"				RelPos = "5 0 5"		RelAngle = "45" />
 		</ObjInfos>
 	</Prototype>
 
@@ -208,7 +205,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "0 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "-7 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "7 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "DestroyerCD12701"				RelPos = "5 0 5"		RelAngle = "45" />
 		</ObjInfos>
 	</Prototype>
 
@@ -563,8 +559,6 @@ Name="js_3barrels" Probability="0.5">
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="-8.587 0.000 7.035" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="-0.975 0.000 7.005" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="6.782 0.000 6.935" RelRot="0.0000 0.0000 0.0000 1.0000"/>
-			<ObjInfo Prototype="DestroyerCD12701" RelPos="8.355 1.584 -2.934" RelRot="0.0000 0.0000 0.0000 1.0000"/>
-			<ObjInfo Prototype="DestroyerCD12701" RelPos="-8.070 1.989 -2.374" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 		</ObjInfos>
 	</Prototype>
 	<Prototype Class="ObjPrefab" Name="js_wallwithenemy2" Probability="0.5">
@@ -575,8 +569,6 @@ Name="js_3barrels" Probability="0.5">
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="-8.752 0.000 7.178" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="-1.140 0.000 7.149" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" RelPos="6.616 0.000 7.079" RelRot="0.0000 0.0000 0.0000 1.0000"/>
-			<ObjInfo Prototype="DestroyerCD12701" RelPos="-7.072 2.025 -2.181" RelRot="0.0000 0.0000 0.0000 1.0000"/>
-			<ObjInfo Prototype="DestroyerCD12701" RelPos="8.677 1.488 -3.343" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 		</ObjInfos>
 	</Prototype>
 
