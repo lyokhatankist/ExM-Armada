@@ -5,6 +5,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 -->
 
 <Prototypes>
+<!--
 	<Prototype
 		Class			= "BulletLauncher"
 		Name			= "twin127CD01"
@@ -62,62 +63,133 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price			= "20400"
 		FiringType		= "Cannon"
 		/>
+-->
 
 	<Prototype
-		Class			= "BulletLauncher"
+		Class			= "Mortar"
+		Name			= "twin127CD01"
+		ModelFile		= "twin127CD01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "137"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "100"
+		FiringRate		= "150"
+		ChargeSize		= "2"
+		RechargingTime	= "8"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "15"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin127CD01"
+		ModelFile		= "mun_twin127CD01"
+		ResourceType	= "TWIN127MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "137"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "100"
+		FiringRate		= "150"
+		ChargeSize		= "2"
+		RechargingTime	= "8"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "15"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
 		Name			= "twin135CD01"
 		ModelFile		= "twin135CD01"
 		ResourceType	= "SMALL_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
-		
-		BulletPrototype	= "raybullet"
-		ExplosionType	= "CANNON"
+		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
-		Damage			= "160"
-		FiringRate		= "48"
-		GroupingAngle	= "0.6"
-		FiringRange		= "1200"
-		RecoilForce		= "50"
-		DamageType	= "BLAST"
-		Decal				= "DC_GUN"
 
-		ChargeSize     = "2"
-		RechargingTime = "3"
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
 
-		Durability		= "70"
-		
-		BlastWavePrototype      = "smallBlastWave"
-		Price			= "20400"
-		FiringType		= "Cannon"
-		/>
+		DamageType			= "ENERGY"
+		InitialVelocity		= "250"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "150"
+		FiringRate		= "150"
+		ChargeSize		= "2"
+		RechargingTime	= "9"
+
+		FiringRange		= "1350"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "55"
+		Durability		= "17"
+		Price			= "13310" />
 
 	<Prototype
-		Class			= "BulletLauncher"
+		Class			= "Mortar"
 		Name			= "mun_twin135CD01"
 		ModelFile		= "mun_twin135CD01"
 		ResourceType	= "TWIN135MMCD_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
-		
-		BulletPrototype	= "raybullet"
-		ExplosionType	= "CANNON"
+		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
-		Damage		= "160"
-		FiringRate		= "48"
-		GroupingAngle	= "0.6"
-		FiringRange		= "1200"
-		RecoilForce		= "50"
-		DamageType	= "ENERGY"
-		Decal				= "DC_GUN"
 
-		ChargeSize     = "2"
-		RechargingTime = "3"
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
 
-		Durability		= "70"
-		
-		BlastWavePrototype      = "smallBlastWave"		
-		Price			= "20400"
-		FiringType		= "Cannon"
-		/>
+		DamageType			= "ENERGY"
+		InitialVelocity		= "250"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "150"
+		FiringRate		= "150"
+		ChargeSize		= "2"
+		RechargingTime	= "9"
+
+		FiringRange		= "1350"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "55"
+		Durability		= "17"
+		Price			= "13310" />
 </Prototypes>
