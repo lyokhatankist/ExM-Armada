@@ -1113,7 +1113,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerCDArmanent" 
+			id="destroyerCD127Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCD135Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

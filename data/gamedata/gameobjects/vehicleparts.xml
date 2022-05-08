@@ -67,7 +67,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class						= "Basket"
 			Name						= "destroyerCD127Armanent"
-			ModelFile					= "destroyerCDArmanent"
+			ModelFile					= "destroyerCD127Armanent"
 			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -119,7 +119,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class						= "Basket"
 			Name						= "destroyerCD135Armanent"
-			ModelFile					= "destroyerCDArmanent"
+			ModelFile					= "destroyerCD135Armanent"
 			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -131,7 +131,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
-			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
