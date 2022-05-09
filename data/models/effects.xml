@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <!-- $Id: effects.xml,v 1.6 2004/11/25 10:51:16 den Exp $  -->
 <Prefabs>
+<!-- battleship -->
+	<Node name="ET_PS_SHIPEXHAUST" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
 
+	<Node name="ET_PS_SHIPEXHAUST_POW" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_POW_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHIPFIRE" multi="true">
+		<Node name="ET_PS_SHIPFIRE1" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN2" psNumEmitterMesh="-1" />
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
+		</Node>
+		<Node name="ET_PS_SHIPFIRE2" class="SgNode">
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL1_SMOKE1" psNumEmitterMesh="-1" />
+		</Node>
+		<Node name="ET_PS_SHIPFIRE3" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_MAIN2" psNumEmitterMesh="-1" />
+			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_SMOKE1" psNumEmitterMesh="-1" />
+		</Node>
+		<Node name="ET_PS_SHIPFIRE4" class="SgNode">
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED1_SMOKE1" psNumEmitterMesh="-1" />
+		</Node>
+		<Node name="ET_PS_SHIPFIRE5" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN1" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN2" psNumEmitterMesh="-1" />
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+		</Node>
+		<Node name="ET_PS_SHIPFIRE6" class="SgNode">
+			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG1_SMOKE1" psNumEmitterMesh="-1" />
+		</Node>
+	</Node>
+
+	<Node name="ET_PS_SHIPPROJECTOR" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_SHIPPROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHIPLIGHT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_HLIGHT_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HLIGHT_VOL" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgPointLightSourceNode" id="LS_LIGHT_SHIP" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHIPALARM" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_GLOW" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_LENS_D1" psNumEmitterMesh="-1" /> 
+		<Node name="Object3" class="SgPointLightSourceNode" id="LS_LIGHT_ALARM" psNumEmitterMesh="-1" />
+	</Node>
+	
+<!-- vanilla -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
 	</Node>
@@ -351,6 +408,7 @@
 	</Node>
 
 <!-- //////////////////////////////////// Прожекторы //////////////////////////////////// -->
+<!--
 	<Node name="ET_PS_PROJECTOR_DOZER_CAB01" class="SgNode">
 		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
 	</Node>
@@ -447,7 +505,7 @@
 	<Node name="ET_PS_PROJECTOR_BELAZ_CARGO02" class="SgNode">
 		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
 	</Node>
-
+-->
 	<Node name="ET_PS_PROJECTOR_TANK" class="SgNode">
 		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
 	</Node>

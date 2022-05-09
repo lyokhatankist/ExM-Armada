@@ -1500,43 +1500,183 @@
 		file="data\models\vehicles\ships\destroyer\hull.gam">
 		<action
 			name="DEATH1"
-			skin="8">
+			skin="0">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
 		</action>
 
 		<action
 			name="DEATH2"
-			skin="8">
+			skin="0">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
 		</action>
-
-<!--
-		<action
-			name="RESERVED2">
-			<lp
-				id="LP_LIGHT01"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_LIGHT02"
-				effect_id="ET_PS_HLIGHT"
-				restartOnAnimationChange="0" />
-
-			<lp
-				id="LP_PROJECTOR"
-				effect_id="ET_PS_PROJECTOR_TANK"
-				restartOnAnimationChange="0" />
-		</action>
--->
 	</model>
 
 	<model
@@ -1548,23 +1688,23 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="0" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="0" />
 
 		<action
 			name="STAND1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1573,13 +1713,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1588,13 +1728,13 @@
 			name="MOVE2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1602,38 +1742,58 @@
 		<action
 			name="RESERVED2">
 			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
 				id="LP_LIGHT01"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT02"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT03"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT06"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_PROJECTOR"
-				effect_id="ET_PS_PROJECTOR_BUG_CAB01"
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 		</action>
 	</model>
@@ -1647,23 +1807,23 @@
 		trans="0">
 		<action
 			name="DEATH1"
-			skin="8" />
+			skin="0" />
 
 		<action
 			name="DEATH2"
-			skin="8" />
+			skin="0" />
 
 		<action
 			name="STAND1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1672,13 +1832,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_POW_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1687,13 +1847,13 @@
 			name="MOVE2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_EXHAUST_SMOKE1"
+				effect_id="ET_PS_SHIPEXHAUST"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1701,38 +1861,58 @@
 		<action
 			name="RESERVED2">
 			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+				
+			<lp
 				id="LP_LIGHT01"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT02"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT03"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT04"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT05"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
 				id="LP_LIGHT06"
-				effect_id="ET_PS_HLIGHT"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 
 			<lp
-				id="LP_PROJECTOR"
-				effect_id="ET_PS_PROJECTOR_BUG_CAB01"
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
 				restartOnAnimationChange="0" />
 		</action>
 	</model>

@@ -4,6 +4,26 @@
 	<file
 		name="empty.dds"
 		path="data\models\vehicles\ships\empty.dds" />
+
+	<file
+		name="shiphull.dds"
+		path="data\models\vehicles\ships\shiphull.dds" />
+
+	<file
+		name="shipmain.dds"
+		path="data\models\vehicles\ships\shipmain.dds" />
+
+	<file
+		name="shipbigdetails.dds"
+		path="data\models\vehicles\ships\shipbigdetails.dds" />
+
+	<file
+		name="shipalphadetails.dds"
+		path="data\models\vehicles\ships\shipalphadetails.dds" />
+
+	<file
+		name="shipsmalldetails.dds"
+		path="data\models\vehicles\ships\shipsmalldetails.dds" />
 		
 <!-- vanilla -->
 	<file
