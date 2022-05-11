@@ -1487,6 +1487,79 @@
 	</model>
 <!-- vehicles -->
 	<model
+		id="heliWheel"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\heliwheel.gam" />
+
+	<model
+		id="heliChassis"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helichassis.gam" />
+
+	<model
+		id="heliCab01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helicab01.gam" />
+
+	<model
+		id="heliGun01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\heligun01.gam">
+		<action
+			name="DEATH1"
+			skin="8"/>
+
+		<action
+			name="DEATH2"
+			skin="8"/>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliGun01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\heligun01_gun.gam">
+		<action
+			name="DEATH1"
+			skin="8"/>
+
+		<action
+			name="DEATH2"
+			skin="8"/>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_OCTOPUS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_AUTOCANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="shipWheel"
 		shadow="1"
 		windwavy="0"
@@ -1722,6 +1795,48 @@
 				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -1735,6 +1850,42 @@
 			<lp
 				id="LP_EXH02"
 				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1841,6 +1992,48 @@
 				effect_id="ET_PS_SHIPEXHAUST_POW"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -1854,6 +2047,42 @@
 			<lp
 				id="LP_EXH02"
 				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>

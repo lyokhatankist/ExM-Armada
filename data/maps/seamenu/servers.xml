@@ -1103,7 +1103,27 @@
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 
-<!-- vehicles -->
+<!-- vehicles -->			
+		<Item 
+			id="heliWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliCab01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliGun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliGun01gun" 
+			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="shipWheel" 
 			file="data\models\AnimModels.xml"/>

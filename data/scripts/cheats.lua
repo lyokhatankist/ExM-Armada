@@ -6,6 +6,12 @@
 -- cheat codes for buka testers
 --------------------------------------------------
 
+function heli()
+	if testcheat()~=1 then return end
+
+	AddPlayerVehicle("Heli01")
+end
+
 function speedmeup()
 	if testcheat()~=1 then return end
 

@@ -28,7 +28,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		AdditionalWheelsHover = "17.5"
 
-		PressingForce		= "3.0"
+		PressingForce		= "1.0"
 		MassSize			= "4 4.5 12"
 		MassTranslation		= "-10.0 0.0 -10.0"
 
@@ -51,7 +51,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" />
 			<PartDescription	id = "CABIN"					partResourceType = "DESTROYERCD_CABIN"	lpName = "LP_CAB01" />	
-			<PartDescription	id = "BASKET"					partResourceType = "DESTROYERCD_BASKET"	lpName = "LP_CAB01" />
+			<PartDescription	id = "BASKET"					partResourceType = "DESTROYERCD_BASKET"	lpName = "LP_CAB01" >
 				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "TWIN127MMCD_GUN"	lpName = "LP_SML01" />
 				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "TWIN127MMCD_GUN"	lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "TWIN127MMCD_GUN"	lpName = "LP_SML03" />
@@ -60,8 +60,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML03" />
 				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SPECIAL_WEAPON"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+			</PartDescription>
 		</MainPartDescription>
 
 		<Parts>
@@ -130,6 +131,72 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "destroyerCDEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerCD127Armanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class				= "Vehicle"
+		Name				= "Heli"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "12"
+		CameraMaxDist		= "200"
+
+		DiffRatio			= "15.0"
+		MaxEngineRpm		= "12000"
+		LowGearShiftLimit	= "6000"
+		HighGearShiftLimit	= "8000"
+		SteeringSpeed		= "3.0"
+		DriftCoeff			= "0.9"
+
+		AdditionalWheelsHover = "40.5"
+
+		PressingForce		= "3.0"
+		MassSize			= "4 4.5 12"
+		MassTranslation		= "-10.0 0.0 -10.0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "200.0"
+		IntersectionRadius	= "7.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription id = "CHASSIS" partResourceType = "HELICOPTER_CHASSIS">
+			<PartDescription id = "CABIN" partResourceType = "HELICOPTER_CABIN" lpName = "LP_CAB01" >
+				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
+			</PartDescription>
+			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
+		</MainPartDescription>
+
+
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "heliChassis" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "heliWheel" steering = "correct" />
+			<Wheel Prototype = "heliWheel" steering = "correct" />
+			<Wheel Prototype = "heliWheel" />
+			<Wheel Prototype = "heliWheel" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "Heli01"
+		ParentPrototype 		= "Heli"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"						Prototype = "heliCab01" />
+			<Part id = "CABIN_SMALL_GUN"			Prototype = "heliGun01" />
+			<Part id = "BASKET"						Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>
 </Prototypes>

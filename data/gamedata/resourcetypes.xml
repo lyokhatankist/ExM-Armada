@@ -13,9 +13,11 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 	<Type Name = "VEHICLE_PART">
 		<Type Name = "CHASSIS" geomsize = "5 5">
 			<Type Name = "DESTROYERCD_CHASSIS" />
+			<Type Name = "HELICOPTER_CHASSIS" />
 		</Type>
 		
 		<Type Name = "CABIN" geomsize = "5 5">
+			<Type Name = "HELICOPTER_CABIN" />
 			<Type Name = "DESTROYERCD_CABIN" />
 		</Type>
 		
@@ -46,6 +48,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "TRIPLE152MMCIT_GUN"		geomsize = "2 3" />
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
 		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />
+
+		<Type Name = "ANTIAIR_GUN"			geomsize = "1 2" />
 
 		<Type Name = "BOSS03_GUN" />
 		<Type Name = "BOSS04_DRONE_GUN" />
