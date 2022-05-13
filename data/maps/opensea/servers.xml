@@ -1129,6 +1129,10 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="destroyerCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="destroyerCDHull" 
 			file="data\models\AnimModels.xml"/>
 

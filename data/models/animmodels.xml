@@ -1566,6 +1566,12 @@
 		file="data\models\vehicles\ships\shipwheel.gam" />
 
 	<model
+		id="destroyerCDEngine"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\destroyer\engine.gam" />
+
+	<model
 		id="destroyerCDHull"
 		shadow="1"
 		shadowVolume="1"
