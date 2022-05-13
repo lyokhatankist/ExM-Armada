@@ -9,7 +9,7 @@
 			name="WEATHERTYPE">sea_clear</Key>
 
 		<Key
-			name="CURRENTDAYTIME">1</Key>
+			name="CURRENTDAYTIME">0</Key>
 
 		<Key
 			name="PATH">data\maps\opensea</Key>
@@ -75,7 +75,7 @@
 			name="REFRACTIONTINT">0 0 0</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">8.000</Key>
+			name="SKYDOMEDIVIDER">11.750</Key>
 
 		<Key
 			name="WATERSMALLTEX">WaterSm.tga</Key>
@@ -213,19 +213,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">4193.735</Key>
+			name="X">1893.978</Key>
 
 		<Key
-			name="Y">295.899</Key>
+			name="Y">288.397</Key>
 
 		<Key
-			name="Z">4127.946</Key>
+			name="Z">1929.928</Key>
 
 		<Key
-			name="A">14.030</Key>
+			name="A">37.900</Key>
 
 		<Key
-			name="B">-0.291</Key>
+			name="B">-0.064</Key>
 
 		<Key
 			name="G">0.000</Key>
