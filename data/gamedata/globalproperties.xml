@@ -104,7 +104,7 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 		FlowWheelVelocity			= "0.2"
 		EnergyBlowDeltaTime			= "4.0"
 		EnergyVpBlowProbability		= "1.0"
-		EnergyWheelBlowProbability	= "75.0"
+		EnergyWheelBlowProbability	= "6.0"
         />
         
 	<Articles
@@ -120,11 +120,11 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 	
 
 	<InterfaceStuff
-		ColorFriend			= "ff87e400"
-		ColorEnemy			= "ffff3300"
-		ColorTargetCaptured		= "ffff8700"
-		TargetInfoContourWidth		= "0.007"
-		TargetCapturedContourWidth	= "0.007"
+		ColorFriend			= "ffffffff"
+		ColorEnemy			= "ffffffff"
+		ColorTargetCaptured		= "ffffffff"
+		TargetInfoContourWidth		= "0.0"
+		TargetCapturedContourWidth	= "0.0"
 	/>
 
 	<PlayerPassmap 

@@ -33,8 +33,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "-10.0 0.0 -10.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "200.0"
-		IntersectionRadius	= "7.0"
+		LookRadius			= "600.0"
+		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
