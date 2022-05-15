@@ -24,6 +24,26 @@
 	<file
 		name="shipsmalldetails.dds"
 		path="data\models\vehicles\ships\shipsmalldetails.dds" />
+
+	<file
+		name="vehwindow.dds"
+		path="data\models\vehicles\ships\vehwindow.dds" />
+
+	<file
+		name="vehwindowb.dds"
+		path="data\models\vehicles\ships\vehwindowb.dds" />
+
+	<file
+		name="fuselage_aircraft.dds"
+		path="data\models\vehicles\ships\fuselage_aircraft.dds" />
+
+	<file
+		name="fuselage_librium.dds"
+		path="data\models\vehicles\ships\fuselage_librium.dds" />
+
+	<file
+		name="fuselage_arjan.dds"
+		path="data\models\vehicles\ships\fuselage_arjan.dds" />
 		
 <!-- vanilla -->
 	<file

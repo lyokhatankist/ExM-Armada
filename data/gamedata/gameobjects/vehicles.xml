@@ -149,11 +149,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "40.5"
 
 		PressingForce		= "3.0"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "12 4.5 4"
+		MassTranslation		= "0.0 -10.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "200.0"
+		LookRadius			= "1200.0"
 		IntersectionRadius	= "7.0"
 		TakingRadius		= "30.0"
 
@@ -168,6 +168,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription id = "CHASSIS" partResourceType = "HELICOPTER_CHASSIS">
 			<PartDescription id = "CABIN" partResourceType = "HELICOPTER_CABIN" lpName = "LP_CAB01" >
 				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
+				<PartDescription id="CABIN_SMALL_GUN_1" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
 			</PartDescription>
 			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
 		</MainPartDescription>
@@ -180,8 +181,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "heliWheel" steering = "correct" />
 			<Wheel Prototype = "heliWheel" steering = "correct" />
-			<Wheel Prototype = "heliWheel" />
-			<Wheel Prototype = "heliWheel" />
+			<Wheel Prototype = "heliWheel" steering = "inverse" />
+			<Wheel Prototype = "heliWheel" steering = "inverse" />
 		</Wheels>
 	</Prototype>
 
@@ -193,6 +194,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "heliCab01" />
 			<Part id = "CABIN_SMALL_GUN"			Prototype = "heliGun01" />
+			<Part id = "CABIN_SMALL_GUN_1"			Prototype = "heliFuselage01" />
 			<Part id = "BASKET"						Prototype = "fakeCargo" />
 		</Parts>
 	</Prototype>

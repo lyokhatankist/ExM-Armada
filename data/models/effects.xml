@@ -23,9 +23,6 @@
 		<Node name="Object1" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object11" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
-<!--		
-		<Node name="Object3" class="SgParticlesOpaqueNode" id="PS_VEN_WSPLASH_RING" psNumEmitterMesh="-1" />
--->
 	</Node>
 
 	<Node name="ET_PS_SHIPFIRE" multi="true">
@@ -73,7 +70,12 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_LENS_D1" psNumEmitterMesh="-1" /> 
 		<Node name="Object3" class="SgPointLightSourceNode" id="LS_LIGHT_ALARM" psNumEmitterMesh="-1" />
 	</Node>
-	
+
+<!-- battleship guns -->
+	<Node name="ET_PS_NURS_FIRE" class="SgNode">
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_HURRICANE" looped="0"/>
+	</Node>
+
 <!-- vanilla -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
