@@ -166,11 +166,13 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Abstract 			= "true" >
 
 		<MainPartDescription id = "CHASSIS" partResourceType = "HELICOPTER_CHASSIS">
-			<PartDescription id = "CABIN" partResourceType = "HELICOPTER_CABIN" lpName = "LP_CAB01" >
-				<PartDescription id="CABIN_SMALL_GUN" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
-				<PartDescription id="CABIN_SMALL_GUN_1" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
+			<PartDescription id = "CABIN" partResourceType = "HELICOPTER_CABIN" lpName = "LP_CAB01" />
+			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" >
+				<PartDescription id="BASKET_SMALL_GUN_1" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN01" />
+				<PartDescription id="BASKET_SMALL_GUN_2" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN02" />
+				<PartDescription id="BASKET_SMALL_GUN_3" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN03" />
+				<PartDescription id="BASKET_SMALL_GUN_4" partResourceType = "SMALL_GUN" lpName = "LP_FLYGUN04" />
 			</PartDescription>
-			<PartDescription id = "BASKET" partResourceType="FAKE_BASKET" lpName = "LP_CAB01" />
 		</MainPartDescription>
 
 
@@ -188,14 +190,16 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "Heli01"
+		Name					= "HeliCIT01"
 		ParentPrototype 		= "Heli"
 		VisibleInEncyclopedia	= "true">
 		<Parts>
-			<Part id = "CABIN"						Prototype = "heliCab01" />
-			<Part id = "CABIN_SMALL_GUN"			Prototype = "heliGun01" />
-			<Part id = "CABIN_SMALL_GUN_1"			Prototype = "heliFuselage01" />
-			<Part id = "BASKET"						Prototype = "fakeCargo" />
+			<Part id = "CABIN"						Prototype = "heliCITEngine" />
+			<Part id = "BASKET"						Prototype = "heliCITArmanent" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliFuselage01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun01" />
+			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "heliNurs01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "heliRockets01" />
 		</Parts>
 	</Prototype>
 </Prototypes>

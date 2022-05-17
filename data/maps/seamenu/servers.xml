@@ -1113,15 +1113,39 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="heliCab01" 
+			id="heliArmanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="heliGun01" 
+			id="heliFuselage01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="heliGun01gun" 
+			id="heliMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliNurs01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliNurs01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliRockets01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliRockets01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

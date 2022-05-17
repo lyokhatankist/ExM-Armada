@@ -5,6 +5,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 -->
 
 <Prototypes>
+
+
+<!-- TWIN 127 MM CD DESTROYER GUN -->
+
+
 	<Prototype
 		Class			= "Mortar"
 		Name			= "twin127CD01"
@@ -24,17 +29,17 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		InitialVelocity		= "137"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "100"
-		FiringRate		= "150"
-		ChargeSize		= "2"
-		RechargingTime	= "8"
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
 
 		FiringRange		= "1200"
 		ActionDist		= "1350"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
-		Durability		= "15"
+		Durability		= "8"
 		Price			= "13310" />
 
 	<Prototype
@@ -66,8 +71,12 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
-		Durability		= "15"
+		Durability		= "8"
 		Price			= "13310" />
+
+
+<!-- TWIN 135 MM CD DESTROYER GUN -->
+
 
 	<Prototype
 		Class			= "Mortar"
@@ -88,17 +97,17 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		InitialVelocity		= "250"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "150"
-		FiringRate		= "150"
-		ChargeSize		= "2"
-		RechargingTime	= "9"
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
 
 		FiringRange		= "1350"
 		ActionDist		= "1500"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "55"
-		Durability		= "17"
+		Durability		= "10"
 		Price			= "13310" />
 
 	<Prototype
@@ -120,7 +129,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		InitialVelocity		= "250"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "150"
+		Damage			= "175"
 		FiringRate		= "150"
 		ChargeSize		= "2"
 		RechargingTime	= "9"
@@ -130,6 +139,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "55"
-		Durability		= "17"
+		Durability		= "10"
 		Price			= "13310" />
 </Prototypes>

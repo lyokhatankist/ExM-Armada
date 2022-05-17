@@ -1496,27 +1496,85 @@
 		id="heliChassis"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helichassis.gam" />
+		file="data\models\vehicles\ships\helichassis.gam" />
 
 	<model
-		id="heliCab01"
+		id="heliArmanent"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helicab01.gam" />
+		file="data\models\vehicles\ships\heliarmanent.gam" />
 
 	<model
-		id="heliGun01"
+		id="heliFuselage01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\heligun01.gam">
-		<action
-			name="DEATH1"
-			skin="8"/>
+		file="data\models\vehicles\ships\helibase.gam" />
 
+	<model
+		id="heliFuselage01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helifuselage01_gun.gam">
 		<action
-			name="DEATH2"
-			skin="8"/>
+			name="STAND1">
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT_SM"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
 
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliMachinegun01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam" />
+
+	<model
+		id="heliMachinegun01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helimachinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_HELIMACHINEGUN_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliNurs01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1528,10 +1586,31 @@
 	</model>
 
 	<model
-		id="heliGun01gun"
+		id="heliNurs01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\heligun01_gun.gam" />
+		file="data\models\vehicles\ships\helicopter\helinurs01_gun.gam" />
+
+	<model
+		id="heliRockets01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliRockets01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helirockets01_gun.gam" />
 
 	<model
 		id="shipWheel"
@@ -1552,8 +1631,7 @@
 		windwavy="0"
 		file="data\models\vehicles\ships\destroyer\hull.gam">
 		<action
-			name="DEATH1"
-			skin="0">
+			name="DEATH1">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
@@ -1642,8 +1720,7 @@
 		</action>
 
 		<action
-			name="DEATH2"
-			skin="0">
+			name="DEATH2">
 			<lp
 				id="w"
 				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
@@ -1739,14 +1816,6 @@
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
-		<action
-			name="DEATH1"
-			skin="0" />
-
-		<action
-			name="DEATH2"
-			skin="0" />
-
 		<action
 			name="STAND1">
 			<lp
@@ -1936,14 +2005,6 @@
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
-		<action
-			name="DEATH1"
-			skin="0" />
-
-		<action
-			name="DEATH2"
-			skin="0" />
-
 		<action
 			name="STAND1">
 			<lp

@@ -6,10 +6,44 @@
 -- cheat codes for buka testers
 --------------------------------------------------
 
-function heli()
+function heli(vae)
 	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("HeliCIT01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "heliPair"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCIT01","HeliCIT01"}, plPos, 1)
+		println(teamNamae.."; "..pos)
+	else
+		AddPlayerVehicle("HeliCIT01")
+	end
+end
 
-	AddPlayerVehicle("Heli01")
+function ship(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("DestroyerCD01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "shipGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"DestroyerCD01","DestroyerCD02"}, plPos, 1)
+		println(teamNamae.."; "..pos)
+	else
+		AddPlayerVehicle("DestroyerCD01")
+	end
 end
 
 function speedmeup()
