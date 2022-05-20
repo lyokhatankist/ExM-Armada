@@ -621,39 +621,63 @@
 		value="Противоракетная защита" />
 
 <!-- vehicles -->
+	<Item
+		id="Heli"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="HeliCIT01"
+		locForm="0"
+		value="Гриф" />
+
+	<Item
+		id="DestroyerCD"
+		locForm="0"
+		value="Эсминец" />
 
 	<Item
 		id="destroyerCDEngine"
 		locForm="0"
 		value="Силовая установка" />
-		
-	<Item
-		id="DestroyerCD127"
-		locForm="0"
-		value="Эсминец" />
 
 	<Item
 		id="destroyerCD127Armanent"
 		locForm="0"
-		value="Орудия 127 мм" />
+		value="Орудия 127-мм" />
 
 	<Item
-		id="DestroyerCD12701"
+		id="twin127CD01"
 		locForm="0"
-		value="Эсминец" />
+		value="127-мм (АР) АУ" />
 
 	<Item
-		id="DestroyerCD135"
+		id="mun_twin127CD01"
 		locForm="0"
-		value="Эсминец" />
+		value="Снаряды 127-мм (АР) ОФ" />
+
+	<Item
+		id="DestroyerCD01"
+		locForm="0"
+		value="Альбедо" />
 
 	<Item
 		id="destroyerCD135Armanent"
 		locForm="0"
-		value="Орудия 135 мм" />
+		value="Орудия 135-мм" />
 
 	<Item
-		id="DestroyerCD13501"
+		id="twin135CD01"
 		locForm="0"
-		value="Эсминец" />
+		value="135-мм (АР) АУ" />
+
+	<Item
+		id="mun_twin135CD01"
+		locForm="0"
+		value="Снаряды 135-мм (АР) ОФ" />
+
+	<Item
+		id="DestroyerCD02"
+		locForm="0"
+		value="Альбедо" />
 </ModelNames>

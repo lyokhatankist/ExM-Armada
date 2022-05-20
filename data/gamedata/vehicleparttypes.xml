@@ -203,16 +203,6 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 	/>
 
 	<VehiclePart
-		PartName	="CABIN_SMALL_GUN_3"
-		ResourceName	="SMALL_GUN"
-	/>
-
-		<VehiclePart
-		PartName	="CABIN_SMALL_GUN_4"
-		ResourceName	="SMALL_GUN"
-	/>
-
-	<VehiclePart
 		PartName	="CABIN_BIG_GUN_1"
 		ResourceName	="BIG_GUN"
 	/>
@@ -221,10 +211,16 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 		PartName	="CABIN_BIG_GUN_2"
 		ResourceName	="BIG_GUN"
 	/>
+
 	<VehiclePart
-		PartName	="CABIN_GIANT_GUN"
+		PartName	="CABIN_GIANT_GUN_1"
 		ResourceName	="GIANT_GUN"
 	/>     
+
+	<VehiclePart
+		PartName	="CABIN_GIANT_GUN_2"
+		ResourceName	="GIANT_GUN"
+	/>  
 
 	<VehiclePart
 		PartName	="BASKET_SIDE_GUN_0"

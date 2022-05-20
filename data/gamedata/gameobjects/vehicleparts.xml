@@ -153,23 +153,23 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "2 2">
 				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "1 1"
+				/>
+
+				<Slot
 					Name		= "BASKET_SMALL_GUN_1"
-					Pos		= "6 1"
+					Pos		= "4 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
-					Pos		= "6 4"
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "7 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
-					Pos		= "6 7"
-				/>
-
-				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
-					Pos		= "6 10"
+					Name		= "BASKET_GIANT_GUN_1"
+					Pos		= "4 11"
 				/>
 			</RepositoryDescription>
 		</Prototype>

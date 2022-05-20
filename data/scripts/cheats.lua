@@ -46,6 +46,28 @@ function ship(vae)
 	end
 end
 
+function retro(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	local ass = GetPlayerVehicle():GetProperty("Prototype").AsString
+	println(ass)
+	for i=0,9 do
+		println(i)
+		ass = gsub(ass, i, "")
+	end
+	println(ass)
+	if (ass ~= "HeliCD") or (ass ~= "HeliCIT") then
+		if jop == 1 then
+			AddPlayerVehicle(ass.."02")
+		else
+			AddPlayerVehicle(ass.."01")
+		end
+	end
+end
+
 function speedmeup()
 	if testcheat()~=1 then return end
 

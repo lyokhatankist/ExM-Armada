@@ -51,6 +51,11 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 
 		<Type Name = "ANTIAIR_GUN"			geomsize = "1 2" />
 
+		<Type Name = "HELIFUSELAGE_GUN"		geomsize = "2 4" />
+		<Type Name = "HELIPRIMARY_GUN"		geomsize = "1 2" />
+		<Type Name = "HELISECONDARY_GUN"	geomsize = "3 1" />
+		<Type Name = "HELITERTIARY_GUN"		geomsize = "2 1" />
+
 		<Type Name = "BOSS03_GUN" />
 		<Type Name = "BOSS04_DRONE_GUN" />
 	</Type>
