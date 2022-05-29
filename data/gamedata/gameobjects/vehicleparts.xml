@@ -63,7 +63,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxSpeed					= "240.0"
 			Price						= "1500"
 
-			EngineHighSound				= "ET_S_ENGINE_TANK_HIGH"
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
@@ -293,7 +293,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			SuspensionRange			= "0.001"
 			mU						= "1.0"
 			
-			EffectType				= "BIGWHEEL" />
+			EffectType				= "SHIPWHEEL" />
 
 		<Prototype
 			Class					= "Wheel"
@@ -308,6 +308,6 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			SuspensionRange			= "0.001"
 			mU						= "1.0"
 			
-			EffectType				= "BIGWHEEL" />
+			EffectType				= "SHIPWHEEL" />
 	</Folder>
 </Prototypes>

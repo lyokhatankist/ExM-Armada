@@ -5,10 +5,47 @@
 	<group id="SOUND2D"	volume="255" />
 
 	<group id="SOUND3D" volume="100">
+	<!-- battleship -->
+		<group 
+			id		= "HELI" 
+			volume	= "135" 
+			minDist	= "30"
+		/>
+
+		<group 
+			id		= "HELI_DISTANT" 
+			volume	= "110" 
+			minDist	= "100"
+		/>
+
+		<group
+			id		= "EXPLOSIONS_BIG"
+			volume	= "225" 
+			minDist	= "85"
+		/>
+
+		<group
+			id		= "EXPLOSIONS_MEDIUM"
+			volume	= "195" 
+			minDist	= "55"
+		/>
+
+		<group
+			id		= "EXPLOSIONS_SMALL"
+			volume	= "165" 
+			minDist	= "35"
+		/>
+
+		<group
+			id		= "EXPLOSIONS_DISTANT"
+			volume	= "155" 
+			minDist	= "175"
+		/>
+	<!-- vanilla -->
 		<group 
 			id		= "GUNFIRE" 
-			volume	= "160" 
-			minDist	= "30"
+			volume	= "120" 
+			minDist	= "45"
 		/>
 
 		<group 
@@ -25,7 +62,7 @@
 
 		<group
 			id		= "ENGINE"
-			volume	= "150" 
+			volume	= "135" 
 			minDist	= "30"
 		/>
 		
@@ -45,7 +82,7 @@
 		<group 
 			id		= "HORNS"
 			volume	= "130" 
-			minDist	= "30"
+			minDist	= "60"
 		/>
 
 		
