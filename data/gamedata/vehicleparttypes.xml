@@ -15,19 +15,190 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 		ResourceName	="CABIN"
 	/>
 
-
 	<VehiclePart
 		PartName	="BASKET"
 		ResourceName	="BASKET"
 	/>
 
+<!-- ship parttypes -->
 	<VehiclePart
-		PartName	="CABIN_SMALL_GUN"
+		PartName	="BASKET_SMALL_GUN_1"
+		ResourceName	="SMALL_GUN"
+	/>                                          
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_2"
 		ResourceName	="SMALL_GUN"
 	/>
 
 	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_3"
+		ResourceName	="SMALL_GUN"
+	/>                                          
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_4"
+		ResourceName	="SMALL_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_5"
+		ResourceName	="SMALL_GUN"
+	/>                                          
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_6"
+		ResourceName	="SMALL_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_7"
+		ResourceName	="SMALL_GUN"
+	/>                                          
+
+	<VehiclePart
+		PartName	="BASKET_SMALL_GUN_8"
+		ResourceName	="SMALL_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="BASKET_BIG_GUN_1"
+		ResourceName	="BIG_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="BASKET_BIG_GUN_2"
+		ResourceName	="BIG_GUN"
+	/>         
+
+	<VehiclePart
+		PartName	="BASKET_BIG_GUN_3"
+		ResourceName	="BIG_GUN"
+	/>
+	
+	<VehiclePart
+		PartName	="BASKET_BIG_GUN_4"
+		ResourceName	="BIG_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_GIANT_GUN_1"
+		ResourceName	="GIANT_GUN"
+	/>                  
+           
+	<VehiclePart
+		PartName	="BASKET_GIANT_GUN_2"
+		ResourceName	="GIANT_GUN"
+	/>                  
+               
+	<VehiclePart
+		PartName	="BASKET_GIANT_GUN_3"
+		ResourceName	="GIANT_GUN"
+	/>                  
+           
+	<VehiclePart
+		PartName	="BASKET_GIANT_GUN_4"
+		ResourceName	="GIANT_GUN"
+	/>                  
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_1"
+		ResourceName	="SPECIAL_WEAPON"
+	/>                                                   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_2"
+		ResourceName	="SPECIAL_WEAPON"
+	/> 
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_3"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_4"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_5"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_6"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_SMALL_GUN_1"
+		ResourceName	="SMALL_GUN"
+	/>                            
+
+	<VehiclePart
+		PartName	="CHASSIS_SMALL_GUN_2"
+		ResourceName	="SMALL_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="CHASSIS_SMALL_GUN_3"
+		ResourceName	="SMALL_GUN"
+	/>          
+
+	<VehiclePart
+		PartName	="CHASSIS_SMALL_GUN_4"
+		ResourceName	="SMALL_GUN"
+	/>          
+
+	<VehiclePart
+		PartName	="CHASSIS_BIG_GUN_1"
+		ResourceName	="BIG_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_BIG_GUN_2"
+		ResourceName	="BIG_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_BIG_GUN_3"
+		ResourceName	="BIG_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_BIG_GUN_4"
+		ResourceName	="BIG_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_GIANT_GUN_1"
+		ResourceName	="GIANT_GUN"
+	/>     
+
+	<VehiclePart
+		PartName	="CHASSIS_GIANT_GUN_2"
+		ResourceName	="GIANT_GUN"
+	/>  
+
+	<VehiclePart
+		PartName	="CHASSIS_GIANT_GUN_3"
+		ResourceName	="GIANT_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_GIANT_GUN_4"
+		ResourceName	="GIANT_GUN"
+	/>   
+
+<!-- obsolete -->
+	<VehiclePart
 		PartName	="CABIN_SMALL_GUN_1"
+		ResourceName	="SMALL_GUN"
+	/>
+
+	<VehiclePart
+		PartName	="CABIN_SMALL_GUN_2"
 		ResourceName	="SMALL_GUN"
 	/>
 
@@ -41,64 +212,18 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 		ResourceName	="BIG_GUN"
 	/>
 
-
 	<VehiclePart
-		PartName	="BASKET_SMALL_GUN_0"
-		ResourceName	="SMALL_GUN"
-	/>                                          
-
-	<VehiclePart
-		PartName	="BASKET_SMALL_GUN_1"
-		ResourceName	="SMALL_GUN"
-	/>
-
-	<VehiclePart
-		PartName	="BASKET_BIG_GUN_0"
-		ResourceName	="BIG_GUN"
-	/>
-	<VehiclePart
-		PartName	="BASKET_BIG_GUN_1"
-		ResourceName	="BIG_GUN"
-	/>
-
-	<VehiclePart
-		PartName	="CABIN_GIANT_GUN"
+		PartName	="CABIN_GIANT_GUN_1"
 		ResourceName	="GIANT_GUN"
-	/>              
-               
+	/>     
+
 	<VehiclePart
-		PartName	="BASKET_GIANT_GUN"
+		PartName	="CABIN_GIANT_GUN_2"
 		ResourceName	="GIANT_GUN"
-	/>                  
-           
-	<VehiclePart
-		PartName	="BASKET_GIANT_GUN_0"
-		ResourceName	="GIANT_GUN"
-	/>                  
-           
+	/>  
+
 	<VehiclePart
 		PartName	="BASKET_SIDE_GUN_0"
 		ResourceName	="SIDE_GUN"
 	/>                            
-
-	<VehiclePart
-		PartName	="BASKET_SPECIAL_WEAPON"
-		ResourceName	="SPECIAL_WEAPON"
-	/>                            
-
-	<VehiclePart
-		PartName	="CHASSIS_GIANT_GUN"
-		ResourceName	="GIANT_GUN"
-	/>                            
-
-	<VehiclePart
-		PartName	="CHASSIS_SMALL_GUN"
-		ResourceName	="SMALL_GUN"
-	/>                            
-
-	<VehiclePart
-		PartName	="TANK_GUN"
-		ResourceName	="TANK_GUN"
-	/>                            
-
 </VehiclePartTypes>

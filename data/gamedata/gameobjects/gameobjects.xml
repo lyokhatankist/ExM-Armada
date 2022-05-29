@@ -113,6 +113,10 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 		<Folder Name = "SideGuns"	File = "SideGuns.xml" />
 
 		<Folder Name = "GiantGuns"	File = "GiantGuns.xml" />
+
+		<Folder Name = "ShipGuns"	File = "ShipGuns.xml" />
+
+		<Folder Name = "AAGuns"		File = "AAGuns.xml" />
 	</Folder>
 
 

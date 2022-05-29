@@ -3,10 +3,13 @@
 <Servers>
 
 	<ProjectorsServer>
+		<Item id="PS_SHIPPROJECTOR" file="data/models/projectors/ship.xml"/>
 		<Item id="PS_PROJECTOR" file="data/models/projectors/test.xml"/>
 	</ProjectorsServer>
 
 	<LightsServer>
+		<Item id="LS_LIGHT_SHIP" file="data/models/lights/ship.xml"/>
+		<Item id="LS_LIGHT_ALARM" file="data/models/lights/alarm.xml"/>
 		<Item id="LS_LIGHT_TEST" file="data/models/lights/test.xml"/>
 		<Item id="LS_LIGHT_TEST2" file="data/models/lights/test2.xml"/>
 		<Item id="LS_LIGHT_YELLOW" file="data/models/lights/yellow.xml"/>

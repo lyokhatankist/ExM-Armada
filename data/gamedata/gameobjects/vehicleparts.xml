@@ -8,19 +8,39 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Chassis">
 		<Prototype
 			Class			= "Chassis"
-			Name			= "destroyerChassis"
-			ModelFile		= "destroyerChassis"
-			ResourceType	= "DESTROYER_CHASSIS"
+			Name			= "heliChassis"
+			ModelFile		= "heliChassis"
+			ResourceType	= "HELICOPTER_CHASSIS"
 			NodeScale		= "1 1 1"
-			Mass			= "120.0" 			
+			Mass			= "100.0" 			
+			MaxHealth		= "500" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "destroyerCDHull"
+			ModelFile		= "destroyerCDHull"
+			ResourceType	= "DESTROYERCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "750.0" 			
 			MaxHealth		= "1500" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
 			GearShiftSound	= "ET_S_GEAR_SHIFT01"
-			LoadPoints		= "LP_SML01"
-			BlowEffect		= "ET_PS_HARD_BLOW" >
+			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04" >
+
 			<GroupsHealth
 				Main = "10000"	
 			/>
@@ -30,22 +50,51 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Cabins">
 		<Prototype
 			Class						= "Cabin"
-			Name						= "destroyerCab01"
+			Name						= "heliCITEngine"
 			ModelFile					= "point"
-			ResourceType				= "DESTROYER_CABIN"
+			ResourceType				= "HELICOPTER_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "30.0"
-			Durability					= "200"
-			DurCoeffsForDamageTypes		= "25 20 20"
+			Mass						= "150.0"
+			Durability					= "100"
+			DurCoeffsForDamageTypes		= "100 -100 100"
 			MaxPower					= "1200"
-			MaxTorque					= "300"
-			MaxSpeed					= "80.0"
+			MaxTorque					= "2000"
+			MaxSpeed					= "240.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "destroyerCDEngine"
+			ModelFile					= "destroyerCDEngine"
+			ResourceType				= "DESTROYERCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "150.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "10 50 10"
+			MaxPower					= "1200"
+			MaxTorque					= "650"
+			MaxSpeed					= "45.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_TANK_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
-			LoadPoints					= "LP_SML01"
 
 			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
@@ -69,34 +118,196 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "FAKE_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "5.0" 
+			Mass						= "1.0" 
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "0 0 0"
 			Price						= "0"
 			RepairCoef					= "0"
 
-			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "2 4"/>
+				RepositorySize		= "2 2">
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "heliCITArmanent"
+			ModelFile					= "heliArmanent"
+			ResourceType				= "DESTROYERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "100"
+			DurCoeffsForDamageTypes		= "100 -100 100"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "2 2">
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "4 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "7 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_1"
+					Pos		= "4 11"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCD127Armanent"
+			ModelFile					= "destroyerCD127Armanent"
+			ResourceType				= "DESTROYERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "200"
+			DurCoeffsForDamageTypes		= "45 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCD135Armanent"
+			ModelFile					= "destroyerCD135Armanent"
+			ResourceType				= "DESTROYERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "275"
+			DurCoeffsForDamageTypes		= "45 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
 		</Prototype>
 	</Folder>
 
 	<Folder Name = "Wheels">
 		<Prototype
 			Class					= "Wheel"
-			Name					= "tankWheel01"
-			ModelFile				= "tankWheel01"
+			Name					= "heliWheel"
+			ModelFile				= "heliWheel"
 			NodeScale				= "1 1 1"
 
-			Mass					= "5.0"
-			SuspensionModelFile		= "tankSusp01"
-			SuspensionCFM			= "0.002"
+			Mass					= "40.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.01"
 			SuspensionERP			= "0.25"
-			SuspensionRange			= "0.6"
+			SuspensionRange			= "0.001"
 			mU						= "1.0"
 			
-			EffectType				= "BIGWHEEL" />
+			EffectType				= "SHIPWHEEL" />
+
+		<Prototype
+			Class					= "Wheel"
+			Name					= "shipWheel"
+			ModelFile				= "shipWheel"
+			NodeScale				= "1 1 1"
+
+			Mass					= "350.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.0001"
+			SuspensionERP			= "0.25"
+			SuspensionRange			= "0.001"
+			mU						= "1.0"
+			
+			EffectType				= "SHIPWHEEL" />
 	</Folder>
 </Prototypes>
