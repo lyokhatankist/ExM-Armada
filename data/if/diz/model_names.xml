@@ -632,6 +632,41 @@
 		value="Гриф" />
 
 	<Item
+		id="HeliCIT02"
+		locForm="0"
+		value="Гриф" />
+
+	<Item
+		id="HeliCIT03"
+		locForm="0"
+		value="Гриф" />
+
+	<Item
+		id="HeliCIT04"
+		locForm="0"
+		value="Гриф" />
+
+	<Item
+		id="HeliCD01"
+		locForm="0"
+		value="Москит" />
+
+	<Item
+		id="HeliCD02"
+		locForm="0"
+		value="Москит" />
+
+	<Item
+		id="HeliCD03"
+		locForm="0"
+		value="Москит" />
+
+	<Item
+		id="HeliCD04"
+		locForm="0"
+		value="Москит" />
+
+	<Item
 		id="DestroyerCD"
 		locForm="0"
 		value="Эсминец" />

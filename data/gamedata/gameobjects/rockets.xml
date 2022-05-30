@@ -5,7 +5,28 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 -->
 
 <Prototypes>
+<!-- battleship -->
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "antiairBlastWave"
 
+                Radius                  = "3.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "nursBlastWave"
+                Effect                  = "ET_PS_AIRWAVE2"
+
+                Radius                  = "10.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "25.0"
+        />
+<!-- vanilla -->
         <Prototype
                 Class                   = "SmokeScreenLocation"
                 Name                    = "smokeScreenLocation"

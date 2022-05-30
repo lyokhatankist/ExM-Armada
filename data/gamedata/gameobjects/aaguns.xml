@@ -16,7 +16,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "raybullet"
-		ExplosionType		= "AUTOCANNON"
+		ExplosionType		= "MACHINEGUN"
 		FiringType			= "MachineGun"
 		RecoilForce			= "50"
 
@@ -48,18 +48,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BulletPrototype		= "nurs01"
 		ExplosionType		= "CANNON"
 		FiringType			= "Laser"
-		RecoilForce			= "2000"
 
-		DamageType			= "BLAST"
-		BlastWavePrototype	= "smallBlastWave"
-
-		Damage			= "130"
 		FiringRate		= "0"
 		ChargeSize		= "0"
-		RechargingTime	= "30"
-
-		FiringRange		= "0"
-		GroupingAngle	= "0.3"
 
 		TurningSpeed	= "40"
 		Durability		= "0"
@@ -83,17 +74,18 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
+		BlastWavePrototype	= "antiairBlastWave"
 
 		Damage			= "3"
 		FiringRate		= "900"
 		ChargeSize     	= "240"
-		RechargingTime 	= "10"
+		RechargingTime 	= "0"
 
 		FiringRange		= "400"
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "40"
-		Durability		= "1" 
+		Durability		= "5" 
 		Price			= "32900" />
 
 	<Prototype
@@ -114,9 +106,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "1200"
 
 		DamageType			= "ENERGY"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "35"
+		Damage			= "17"
 		FiringRate		= "200"
 		ChargeSize		= "48"
 		RechargingTime	= "30"
@@ -124,20 +116,26 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringRange		= "800"
 		GroupingAngle	= "0.3"
 
+		ShellsPoolSize		= "0"
+		WithShellsPoolLimit	= "true"
+
 		TurningSpeed	= "40"
-		Durability		= "2"
+		Durability		= "5"
 		Price			= "102500" />
 
 	<Prototype
 		Class			= "PlasmaBunch"
 		Name			= "nurs01"		
-	
-		ModelFile		= "rocket_sml01"
+		ModelFile		= "rocket_long01"
 		ExplosionType	= "CANNON" 
 
-		Velocity		= "800"
-		Acceleration	= "1000"
-		FlyTime			= "5.0"
+		Price		= "210"
+		
+		Velocity			= "800"
+		Acceleration		= "1000"
+		FlyTime				= "5.0"
+		BlastWavePrototype	= "nursBlastWave"
+
 		Size			= "0.5 0.5 1" />
 
     <Prototype
@@ -158,18 +156,21 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "250"
+		Damage			= "600"
 		FiringRate		= "45"
-		ChargeSize		= "8"
-		RechargingTime	= "15"
+		ChargeSize		= "1"
+		RechargingTime	= "8"
 
-		FiringRange		= "500"
+		FiringRange		= "900"
 		GroupingAngle	= "1"
 
+		ShellsPoolSize		= "7"
+		WithShellsPoolLimit	= "true"
+
 		TurningSpeed	= "40"
-		Durability		= "1"
+		Durability		= "2"
 		Price			= "9870" />
 			
 	<Prototype
@@ -185,7 +186,117 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "5.0"
 		MinTurningRadius	= "25"
 		Size				= "0.5 0.5 2"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "nursBlastWave"
 
-		Mass		= "0.1" />
+		Mass		= "0.01" />
+
+
+
+
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "heliFuselage02"
+		ModelFile		= "heliFuselage02"
+		ResourceType	= "HELIFUSELAGE_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_LASER"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "naga01"
+		ExplosionType		= "CANNON"
+		FiringType			= "Laser"
+
+		FiringRate		= "0"
+		ChargeSize		= "0"
+
+		TurningSpeed	= "60"
+		Durability		= "0"
+		Price			= "102500" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "heliMachinegun02"
+		ModelFile		= "heliMachinegun02"
+		ResourceType	= "HELIPRIMARY_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Damage			= "8"
+		FiringRate		= "1200"
+		ChargeSize     	= "120"
+		RechargingTime 	= "0"
+
+		FiringRange		= "600"
+		GroupingAngle	= "3"
+
+		TurningSpeed	= "60"
+		Durability		= "5" 
+		Price			= "32900" />
+
+    <Prototype
+        Class			= "RocketLauncher"
+        Name			= "heliRockets02"
+        ModelFile		= "heliRockets02"
+        ResourceType	= "HELISECONDARY_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "naga01"
+		ExplosionType		= "CANNON"
+		FiringType			= "Rocket"
+		RecoilForce			= "1200"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "nursBlastWave"
+
+		Damage			= "15"
+		FiringRate		= "150"
+		ChargeSize		= "6"
+		RechargingTime	= "4"
+
+		FiringRange		= "300"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "76"
+		WithShellsPoolLimit	= "true"
+
+		TurningSpeed	= "60"
+		Durability		= "5"
+		Price			= "9870" />
+			
+	<Prototype
+		Class			= "Rocket"
+		Name			= "naga01"
+		ModelFile		= "rocket_sml01"
+		ExplosionType	= "CANNON" 
+
+		Price		= "210"
+
+		Velocity			= "300"
+		Acceleration		= "150"
+		FlyTime				= "5.0"
+		MinTurningRadius	= "25"
+		Size				= "0.5 0.5 2"
+		BlastWavePrototype	= "nursBlastWave"
+
+		Mass		= "0.01" />
 </Prototypes>

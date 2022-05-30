@@ -8,14 +8,8 @@
 	<!-- battleship -->
 		<group 
 			id		= "HELI" 
-			volume	= "135" 
-			minDist	= "30"
-		/>
-
-		<group 
-			id		= "HELI_DISTANT" 
-			volume	= "110" 
-			minDist	= "100"
+			volume	= "140" 
+			minDist	= "40"
 		/>
 
 		<group
@@ -193,7 +187,7 @@
 
 		<group
 			id		= "VEHICLEONGROUND"
-			volume	= "170" 
+			volume	= "150" 
 			minDist	= "20"
 		/>
 

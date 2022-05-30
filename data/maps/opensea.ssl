@@ -54,7 +54,7 @@
 			name="NORMALMAP">NormalMap.bin</Key>
 
 		<Key
-			name="CUBEMAP">data/models/textures/lobbycube.dds</Key>
+			name="CUBEMAP">data/models/textures/cube/lobbycube_r1m1.dds</Key>
 
 		<Key
 			name="LEVELSIZE">64</Key>
@@ -147,14 +147,8 @@
 			name="DLGSTRINGS">strings.xml</Key>
 
 		<Key
-			name="LOCALQUESTS">localQuests.xml</Key>
-
-		<Key
-			name="LOCALQUESTINFO">localQuestInfo.xml</Key>
-
-		<Key
-			name="LOCALDIALOGS">localDialogs.xml</Key>
-
+			name="ICONS">icons.xml</Key>
+			
 		<Key
 			name="SKYTYPE">1</Key>
 

@@ -8,12 +8,32 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Chassis">
 		<Prototype
 			Class			= "Chassis"
-			Name			= "heliChassis"
+			Name			= "heliCITChassis"
 			ModelFile		= "heliChassis"
 			ResourceType	= "HELICOPTER_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "100.0" 			
 			MaxHealth		= "500" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "heliCDChassis"
+			ModelFile		= "heliChassis"
+			ResourceType	= "HELICOPTER_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "100.0" 			
+			MaxHealth		= "250" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
@@ -55,12 +75,42 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "HELICOPTER_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "150.0"
+			Mass						= "40.0"
 			Durability					= "100"
 			DurCoeffsForDamageTypes		= "100 -100 100"
-			MaxPower					= "1200"
+			MaxPower					= "0"
 			MaxTorque					= "2000"
 			MaxSpeed					= "240.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "heliCDEngine"
+			ModelFile					= "point"
+			ResourceType				= "HELICOPTER_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "40.0"
+			Durability					= "70"
+			DurCoeffsForDamageTypes		= "100 -100 100"
+			MaxPower					= "0"
+			MaxTorque					= "2200"
+			MaxSpeed					= "280.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
@@ -139,7 +189,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "50.0" 
+			Mass						= "30.0" 
 			Durability					= "100"
 			DurCoeffsForDamageTypes		= "100 -100 100"
 			Price						= "0"
@@ -170,6 +220,43 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					Name		= "BASKET_GIANT_GUN_1"
 					Pos		= "4 11"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "heliCDArmanent"
+			ModelFile					= "heliArmanent"
+			ResourceType				= "DESTROYERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "30.0" 
+			Durability					= "50"
+			DurCoeffsForDamageTypes		= "100 -100 100"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "2 2">
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "4 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "7 7"
 				/>
 			</RepositoryDescription>
 		</Prototype>

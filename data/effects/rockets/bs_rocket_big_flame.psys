@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="PS221"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="0.200"
+			ParticleAgeMax="0.600"
+			MaxParticles="15"
+			EmitAtPeriod="5000.000"
+			Phase="0.000"
+			EmitLength="6.000"
+			RepeatPeriod="6.000"
+			ResetTime="10000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="2.000 0.000 0.000"
+			Max="0.500 360.000 5.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="-576873059"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-263895739"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />
+
+			<Size
+				k:0="0.000"
+				k:1="4.151"
+				k:2="3.524"
+				k:3="3.161"
+				k:4="2.963"
+				k:5="2.435"
+				k:6="1.379"
+				k:7="2.039"
+				k:8="1.940"
+				k:9="1.709"
+				k:10="1.544"
+				k:11="1.808"
+				k:12="1.709"
+				k:13="1.511"
+				k:14="0.983"
+				k:15="0.620"
+				k:16="0.719"
+				k:17="0.912"
+				k:18="0.580"
+				k:19="0.098" />
+		</Keys>
+
+		<Render
+			ShaderType="1"
+			TrailLen="9"
+			ScaleParts="0.250"
+			BlendMode="0"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\exp\exp2.tga"
+			Weather="0"
+			TexTiling="0.000"
+			ParentDependency="0.700" />
+
+		<Attr
+			Name="SpaceAttractor3"
+			Class="Space">
+			<Emitter
+				SystemMode="polar"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 0.000 0.000"
+				Max="0.000 0.000 0.000" />
+		</Attr>
+
+		<Attr
+			Name="SpaceAttractor4"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 0.000 0.000"
+				Max="0.000 0.000 0.000" />
+		</Attr>
+	</PS>
+</PSEditor>

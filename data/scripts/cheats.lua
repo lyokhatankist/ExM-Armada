@@ -6,7 +6,44 @@
 -- cheat codes for buka testers
 --------------------------------------------------
 
-function heli(vae)
+function helifighttest()
+	if testcheat()~=1 then return end
+	pl = GetPlayerVehicle()
+	citPos = pl:GetPosition()
+	citPos.x = citPos.x + 750
+	cdPos = pl:GetPosition()
+	cdPos.x = cdPos.x - 750
+	teamNamae = "heliPair"..random(99999)
+	TeamCreate(teamNamae, 1016, citPos, {"HeliCIT0"..random(4),"HeliCIT0"..random(4)}, cdPos, 1, Quaternion(0.000, -0.500, 0.000, 0.500))
+	println(teamNamae.." (CIT); "..citPos.x..", "..citPos.y..", "..citPos.z)
+	citPos.x = citPos.x + 50
+	teamNamae = "heliPair"..random(99999)
+	TeamCreate(teamNamae, 1016, citPos, {"HeliCIT0"..random(4),"HeliCIT0"..random(4)}, cdPos, 1, Quaternion(0.000, -0.500, 0.000, 0.500))
+	println(teamNamae.." (CIT); "..citPos.x..", "..citPos.y..", "..citPos.z)
+	teamNamae = "heliFlight"..random(99999)
+	TeamCreate(teamNamae, 1015, cdPos, {"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4)}, citPos, 1, Quaternion(0.000, 0.500, 0.000, 0.500))
+	println(teamNamae.." (CD); "..cdPos.x..", "..cdPos.y..", "..cdPos.z)
+	cdPos.x = cdPos.x - 50
+	teamNamae = "heliFlight"..random(99999)
+	TeamCreate(teamNamae, 1015, cdPos, {"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4)}, citPos, 1, Quaternion(0.000, 0.500, 0.000, 0.500))
+	println(teamNamae.." (CD); "..cdPos.x..", "..cdPos.y..", "..cdPos.z)
+end
+
+function heliteamtest()
+	if testcheat()~=1 then return end
+	pl = GetPlayerVehicle()
+	pos = GetCameraPos()
+	plPos = pl:GetPosition()
+	teamNamae = "heliTeam"..random(99999)
+	TeamCreate(teamNamae, 1002, pos, {"HeliCIT01","HeliCD01"}, plPos, 1, Quaternion(0.000, 0.500, 0.000, 0.500))
+	println(teamNamae.." (Test); "..pos.x..", "..pos.y..", "..pos.z)
+	local heli02 = getObj(teamNamae.."_vehicle_1")
+	heli02pos = getObj(heli02):GetPosition()
+	heli02pos.z = heli02pos.z - 20
+	heli02:SetPosition(heli02pos)
+end
+
+function heli1(vae)
 	if testcheat()~=1 then return end
 	local jop = 1
 	if vae then
@@ -19,14 +56,56 @@ function heli(vae)
 		pos = GetCameraPos()
 		plPos = pl:GetPosition()
 		teamNamae = "heliPair"..random(99999)
-		TeamCreate(teamNamae, 1002, pos, {"HeliCIT01","HeliCIT01"}, plPos, 1)
-		println(teamNamae.."; "..pos)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCIT0"..random(4),"HeliCIT0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos.x..", "..pos.y..", "..pos.z)
+	elseif jop == 3 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "heliPair"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCIT0"..random(4),"HeliCIT0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos.x..", "..pos.y..", "..pos.z)
+		pos.x = pos.x + 40
+		teamNamae = "heliPair"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCIT0"..random(4),"HeliCIT0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos.x..", "..pos.y..", "..pos.z)
 	else
 		AddPlayerVehicle("HeliCIT01")
 	end
 end
 
-function ship(vae)
+function heli2(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("HeliCD01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "heliFlight"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CD); "..pos.x..", "..pos.y..", "..pos.z)
+	elseif jop == 3 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "heliFlight"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CD); "..pos.x..", "..pos.y..", "..pos.z)
+		pos.x = pos.x + 40
+		teamNamae = "heliFlight"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4),"HeliCD0"..random(4)}, plPos, 1)
+		println(teamNamae.." (CD); "..pos.x..", "..pos.y..", "..pos.z)
+	else
+		AddPlayerVehicle("HeliCD01")
+	end
+end
+
+function dest1(vae)
 	if testcheat()~=1 then return end
 	local jop = 1
 	if vae then
@@ -38,9 +117,9 @@ function ship(vae)
 		pl = GetPlayerVehicle()
 		pos = GetCameraPos()
 		plPos = pl:GetPosition()
-		teamNamae = "shipGroup"..random(99999)
-		TeamCreate(teamNamae, 1002, pos, {"DestroyerCD01","DestroyerCD02"}, plPos, 1)
-		println(teamNamae.."; "..pos)
+		teamNamae = "destroyerGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"DestroyerCD01","DestroyerCD02","DestroyerCD01"}, plPos, 1)
+		println(teamNamae.." (CD); "..pos)
 	else
 		AddPlayerVehicle("DestroyerCD01")
 	end

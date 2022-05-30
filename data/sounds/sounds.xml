@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <sounds>
 <!-- Battleship -->
+	<model
+		id="S_MISSILE_FLAME"
+		file="data\sounds\battleship\missile.wav"
+		group="VEHICLEONGROUND"
+		/>
 
 	<model
 		id="S_EXPLDIST01"
@@ -87,21 +92,9 @@
 		/>
 
 	<model
-		id="S_HELI01DIST"
-		file="data\sounds\battleship\heli\heli01dist.wav"
-		group="HELI_DISTANT"
-		/>
-
-	<model
 		id="S_HELI02"
 		file="data\sounds\battleship\heli\heli02.wav"
 		group="HELI"
-		/>
-
-	<model
-		id="S_HELI02DIST"
-		file="data\sounds\battleship\heli\heli02dist.wav"
-		group="HELI_DISTANT"
 		/>
 
 <!-- Vanilla -->
@@ -543,12 +536,12 @@
 		/>
 		
 <!-- Starting -->
-
+<!--
 	<model
 		id="S_MISSILE_FLAME"
 		file="data\sounds\effects\Flying\fl_of_mis01.wav"
 		/>
-
+-->
 <!-- Shoot hits --> 
 
 	<model
