@@ -1415,6 +1415,12 @@
 				effect_id="ET_PS_SHELL_BIG_CANNON"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIAUTOCANNON_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
 		</action>
 	</model>
 
@@ -1523,7 +1529,7 @@
 				id="LP_GUN"
 				effect_id="ET_PS_HELI01"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 		</action>
 	</model>
 
@@ -1546,31 +1552,31 @@
 				id="LP_LIGHT01"
 				effect_id="ET_PS_HLIGHT_SM"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 
 			<lp
 				id="LP_GLOW01"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 
 			<lp
 				id="LP_GLOW02"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 
 			<lp
 				id="LP_GLOW03"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 
 			<lp
 				id="LP_GLOW04"
 				effect_id="ET_PS_GLOW"
 				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
+				ImmediateRemove="1" />
 		</action>
 	</model>
 
@@ -1636,6 +1642,133 @@
 		shadow="1"
 		windwavy="0"
 		file="data\models\vehicles\ships\helicopter\helirockets01_gun.gam" />
+
+	<model
+		id="heliFuselage02"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam">
+		<action
+			name="DEATH1"
+			skin="1" />
+
+		<action
+			name="DEATH2"
+			skin="1" />
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELI02"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+		</action>
+	</model>
+
+	<model
+		id="heliFuselage02gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helifuselage02_gun.gam">
+		<action
+			name="DEATH1"
+			skin="1" />
+
+		<action
+			name="DEATH2"
+			skin="1" />
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="1"
+				ImmediateRemove="1" />
+		</action>
+	</model>
+
+	<model
+		id="heliMachinegun02"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIAUTOCANNON_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliMachinegun02gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helimachinegun02_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_HELIAUTOCANNON_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_HELIAUTOCANNON_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliRockets02"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helibase.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliRockets02gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\helicopter\helirockets02_gun.gam" />
 
 	<model
 		id="shipWheel"
@@ -3778,7 +3911,13 @@
 			name="STAND1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_ROCKET_BIG"
+				effect_id="ET_PS_ROCKET_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_SMALL_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -3787,7 +3926,13 @@
 			name="STAND2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_ROCKET_BIG"
+				effect_id="ET_PS_ROCKET_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_SMALL_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -3803,7 +3948,13 @@
 			name="STAND1">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_ROCKET_BIG"
+				effect_id="ET_PS_ROCKET_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_SMALL_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -3812,7 +3963,13 @@
 			name="STAND2">
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_ROCKET_BIG"
+				effect_id="ET_PS_ROCKET_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_SMALL_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -3837,6 +3994,12 @@
 				id="LP_EXH01"
 				effect_id="ET_PS_ROCKET_BIG"
 				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG_TRAIL"
+				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
 
@@ -3845,6 +4008,12 @@
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_ROCKET_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>

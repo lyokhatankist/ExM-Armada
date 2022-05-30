@@ -27,6 +27,14 @@
 	</DecalsServer>
 
 	<ParticlesServer>
+<!-- battleship -->
+		<Item id="PS_BS_ROCKET_SMALL_GLOW" 		file="data\Effects\rockets\bs_rocket_small_glow.psys"/>
+		<Item id="PS_BS_ROCKET_SMALL_FLAME" 	file="data\Effects\rockets\bs_rocket_small_flame.psys"/>
+		<Item id="PS_BS_ROCKET_SMALL_SMOKE" 	file="data\Effects\rockets\bs_rocket_small_smoke.psys"/>	
+		<Item id="PS_BS_ROCKET_BIG_GLOW" 		file="data\Effects\rockets\bs_rocket_big_glow.psys"/>
+		<Item id="PS_BS_ROCKET_BIG_FLAME" 		file="data\Effects\rockets\bs_rocket_big_flame.psys"/>
+
+<!-- vanilla -->
 		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>
 
 		<Item id="PS_ROCKS1_MAIN1"       file="data\Effects\Other\rocks1_main1.psys"/>

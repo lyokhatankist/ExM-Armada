@@ -89,17 +89,35 @@
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HELI" looped="1"/>
 		<Node name="Sound2" class="SgSoundSourceNode" id="S_HELI_TURBINE" looped="1"/>
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI01" looped="1"/>
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_HELI01DIST" looped="1"/>
 	</Node>
 
 	<Node name="ET_PS_HELI02" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HELI" looped="1"/>
 		<Node name="Sound2" class="SgSoundSourceNode" id="S_HELI_TURBINE" looped="1"/>
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI02" looped="1"/>
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_HELI02DIST" looped="1"/>
 	</Node>
 
 <!-- battleship guns -->
+	<Node name="ET_PS_ROCKET_SMALL" class="SgNode">
+		<Node name="Object11" class="SgParticlesNode" id="PS_BS_ROCKET_SMALL_GLOW" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_ROCKET_SMALL_FLAME" psNumEmitterMesh="-1" />
+ 		<Node name="Sound3" class="SgSoundSourceNode" id="S_MISSILE_FLAME" looped="1" />
+	</Node>
+
+	<Node name="ET_PS_ROCKET_SMALL_TRAIL" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_ROCKET_SMALL_SMOKE" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_ROCKET_BIG" class="SgNode">
+		<Node name="Object11" class="SgParticlesNode" id="PS_BS_ROCKET_BIG_GLOW" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_ROCKET_BIG_FLAME" psNumEmitterMesh="-1" />
+ 		<Node name="Sound3" class="SgSoundSourceNode" id="S_MISSILE_FLAME" looped="1" />
+	</Node>
+
+	<Node name="ET_PS_ROCKET_BIG_TRAIL" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+		
 	<Node name="ET_PS_NURS_FIRE" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_HURRICANE" looped="0"/>
 	</Node>
@@ -112,7 +130,18 @@
 		<Node name="Object0" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
-		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KPVT" looped="1"/>
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KORD" looped="1"/>
+	</Node>
+
+	<Node name="ET_PS_HELIAUTOCANNON_FIRE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
+		<Node name="Object111" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINY" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_HELIAUTOCANNON_SOUND" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_OCTOPUS" isLooped="1" />
 	</Node>
 <!-- vanilla -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
@@ -344,14 +373,6 @@
 
 
 <!-- //////////////////////////////////// Ракеты //////////////////////////////////// -->
-	<Node name="ET_PS_ROCKET_BIG" class="SgNode">
-		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
-		<Node name="Object2" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE" psNumEmitterMesh="-1" />
-<!-- 		<Node name="Object11" class="SgParticlesNode" id="PS_ROCKET_BIG_GLOW" psNumEmitterMesh="-1" /> -->
-		<Node name="Object3" class="SgParticlesNode" id="PS_ROCKET_BIG_TRAIL" psNumEmitterMesh="-1" />
- 		<Node name="Sound3" class="SgSoundSourceNode" id="S_MISSILE_FLAME" looped="0" />
-
-	</Node>
 	<Node name="ET_PS_GR" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_GR_SMOKE" psNumEmitterMesh="-1" />
   		<Node name="S1"	 class="SgSoundSourceNode" id="S_MISSILE2" looped="0" /> 
@@ -1366,6 +1387,7 @@
 
 
 	<Node name="ET_PS_SPLINTER_WATERSPLASH" class="SgNode">
+<!--
 		<Node name="Object1" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object11" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object111" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
@@ -1374,6 +1396,7 @@
 		<Node name="Object111111" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesOpaqueNode" id="PS_VEN_WSPLASH_RING" psNumEmitterMesh="-1" />
+-->
 	</Node>
 
 
@@ -2102,7 +2125,6 @@
 		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
 		<Node name="Object111" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINY" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
-		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_OCTOPUS" isLooped="1" />
 	</Node>
 
 	<Node name="ET_PS_FLAG01_FIRE" class="SgNode">
