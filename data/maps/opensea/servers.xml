@@ -1173,6 +1173,34 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="boatWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDCannon01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDCannon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="shipWheel" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1365,6 +1393,12 @@
 		<Item id="S_HELI01" />
 		<Item id="S_HELI02" />
 		
+		<Item id="S_ENGINE_SMLBOAT" />
+		<Item id="S_ENGINE_FASTBOAT" />
+		<Item id="S_ENGINE_BOAT" />
+		<Item id="S_ENGINE_SMLSHIP" />
+		<Item id="S_ENGINE_BIGSHIP" />
+
 <!-- Vanilla -->
 
 		<Item id="S_CRASH_METAL01" />
@@ -1426,6 +1460,8 @@
 
 <!-- Shooting --> 
 
+		<Item id="S_SHOOTING_PKT" />
+		<Item id="S_SHOOTING_VECTOR" />
 		<Item id="S_SHOOTING_KORD" />
 		<Item id="S_SHOOTING_VULCAN" />
 		<Item id="S_SHOOTING_KPVT" />
