@@ -97,6 +97,35 @@
 		group="HELI"
 		/>
 
+	<model
+		id="S_ENGINE_SMLBOAT"
+		file="data\sounds\Driving\Motors\formula_driving_high.wav"
+		group="ENGINE_SML"
+		/>
+
+	<model
+		id="S_ENGINE_FASTBOAT"
+		file="data\sounds\Driving\Motors\truck06_high.wav"
+		group="ENGINE_SML"
+		/>
+
+	<model
+		id="S_ENGINE_BOAT"
+		file="data\sounds\Driving\Motors\truck09_high.wav"
+		group="ENGINE_SML"
+		/>
+
+	<model
+		id="S_ENGINE_SMLSHIP"
+		file="data\sounds\Driving\Motors\belaz2_engine_noise_high.wav"
+		group="ENGINE_MED"
+		/>
+
+	<model
+		id="S_ENGINE_BIGSHIP"
+		file="data\sounds\Driving\Motors\belaz5_engine_noise_high.wav"
+		group="ENGINE_BIG"
+		/>
 <!-- Vanilla -->
 
 	<model
@@ -332,12 +361,6 @@
 		/>
 
 	<model
-		id="S_ENGINE_SMALL_1_HIGH"
-		file="data\sounds\Driving\Motors\small_engine_noise_high.wav"
-		group="ENGINE_1"
-		/>
-
-	<model
 		id="S_ENGINE_SCOUT_1_HIGH"
 		file="data\sounds\Driving\Motors\scout_engine_noise_high.wav"
 		group="ENGINE"
@@ -364,9 +387,25 @@
 <!-- Shooting --> 
 
 	<model
+		id="S_SHOOTING_PKT"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\SmallGun\pkt_shoot.wav"
+		file_end	="data\sounds\Shooting\SmallGun\pkt_tail_shoot.wav"
+		group="GUNFIRE_SML_MG"
+		/>
+
+	<model
+		id="S_SHOOTING_VECTOR"
+		type="DOUBLE"
+		file_start	="data\sounds\Shooting\BigGun\vector_shoot.wav"
+		file_end	="data\sounds\Shooting\BigGun\vector_tail_shoot.wav"
+		group="GUNFIRE_BIG_MG"
+		/>
+		
+	<model
 		id="S_SHOOTING_RAINMETAL"
 		file="data\sounds\Shooting\BigGun\rainmetal_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_CANNON"
 		/>
 
 	<model
@@ -374,31 +413,31 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\BigGun\vulcan_shoot.wav"
 		file_end	="data\sounds\Shooting\BigGun\vulcan_tail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_MG"
 		/>
 
 	<model
 		id="S_SHOOTING_CYCLOPS"
 		file="data\sounds\Shooting\GiantGun\cyclops_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_BIG_CANNON"
 		/>
 
 	<model
 		id="S_SHOOTING_DRAGON"
 		file="data\sounds\Shooting\GiantGun\dragon_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_CANNON"
 		/>
 
 	<model
 		id="S_SHOOTING_HURRICANE"
 		file="data\sounds\Shooting\GiantGun\hurricane_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_CANNON"
 		/>
 
 	<model
 		id="S_SHOOTING_SWINGFIRE"
 		file="data\sounds\Shooting\GiantGun\swingfire_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_MED_CANNON"
 		/>
 
 	<model
@@ -406,7 +445,7 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\SmallGun\kord_shoot.wav"
 		file_end	="data\sounds\Shooting\SmallGun\kord_tail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_MG"
 		/>
 
 	<model
@@ -414,19 +453,19 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\BigGun\kpvt_shoot.wav"
 		file_end	="data\sounds\Shooting\BigGun\kpvt_tail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_BIG_MG"
 		/>
 
 	<model
 		id="S_SHOOTING_RAPIER"
 		file="data\sounds\Shooting\BigGun\rapier_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_CANNON"
 		/>
 
 	<model
 		id="S_SHOOTING_OMEGA"
 		file="data\sounds\Shooting\BigGun\omega_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_SML_CANNON"
 		/>
 
 	<model
@@ -434,7 +473,7 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\GiantGun\octopus_shoot.wav"
 		file_end	="data\sounds\Shooting\GiantGun\octopus_tail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_BIG_MG"
 		/>
 		
 	<model
@@ -442,25 +481,25 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\robotgun01_shoot.wav"
 		file_end	="data\sounds\Shooting\robotgun01_tail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_BIG_MG"
 		/>
 
 	<model
 		id="S_SHOOTING_HAIL"
 		file="data\sounds\Shooting\SideGun\hail_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_MED_CANNON"
 		/>
 
 	<model
 		id="S_SHOOTING_MRAK"
 		file="data\sounds\Shooting\SideGun\mrak_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_MED_CANNON"
 		/>
 
       <model
 		id="S_TANK_SHOOT"
 		file="data\sounds\Shooting\tank_shoot.wav"
-		group="GUNFIRE"
+		group="GUNFIRE_MED_CANNON"
 		/>
 
 <!-- Explosions --> 

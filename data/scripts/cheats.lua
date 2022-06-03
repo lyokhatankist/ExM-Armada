@@ -5,6 +5,13 @@
 --------------------------------------------------
 -- cheat codes for buka testers
 --------------------------------------------------
+function boat()
+	AddPlayerVehicle("SmlboatCD01")
+end
+
+function ship()
+	CreateEnemy("DestroyerCDTest")
+end
 
 function helifighttest()
 	if testcheat()~=1 then return end

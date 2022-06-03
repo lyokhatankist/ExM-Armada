@@ -299,4 +299,68 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "nursBlastWave"
 
 		Mass		= "0.01" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "smlboatCDMachinegun01"
+		ModelFile		= "smlboatCDMachinegun01"
+		ResourceType	= "ANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Damage			= "3"
+		FiringRate		= "600"
+		ChargeSize     	= "120"
+		RechargingTime 	= "7"
+
+		FiringRange		= "550"
+		GroupingAngle	= "1.75"
+
+		TurningSpeed	= "110"
+		Durability		= "3" 
+		Price			= "32900" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "smlboatCDCannon01"
+		ModelFile		= "smlboatCDCannon01"
+		ResourceType	= "SMLBOATCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Damage			= "6"
+		FiringRate		= "700"
+		ChargeSize     	= "90"
+		RechargingTime 	= "6.27"
+
+		FiringRange		= "700"
+		GroupingAngle	= "2.65"
+
+		TurningSpeed	= "90"
+		Durability		= "5" 
+		Price			= "32900" />
 </Prototypes>

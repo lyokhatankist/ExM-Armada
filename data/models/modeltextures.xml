@@ -34,6 +34,14 @@
 		path="data\models\vehicles\ships\vehwindowb.dds" />
 
 	<file
+		name="deck_metal.dds"
+		path="data\models\vehicles\ships\deck_metal.dds" />
+
+	<file
+		name="deck_planks.dds"
+		path="data\models\vehicles\ships\deck_planks.dds" />
+
+	<file
 		name="fuselage_aircraft.dds"
 		path="data\models\vehicles\ships\fuselage_aircraft.dds" />
 
