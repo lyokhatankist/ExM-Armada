@@ -1105,6 +1105,10 @@
 
 <!-- vehicles -->
 		<Item 
+			id="fakeChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="heliWheel" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1174,6 +1178,14 @@
 
 		<Item 
 			id="boatWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITArmanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

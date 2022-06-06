@@ -1103,7 +1103,11 @@
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 
-<!-- vehicles -->			
+<!-- vehicles -->	
+		<Item 
+			id="fakeChassis" 
+			file="data\models\AnimModels.xml"/>
+					
 		<Item 
 			id="heliWheel" 
 			file="data\models\AnimModels.xml"/>

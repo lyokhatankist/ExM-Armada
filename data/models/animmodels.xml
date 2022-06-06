@@ -1493,6 +1493,12 @@
 	</model>
 <!-- vehicles -->
 	<model
+		id="fakeChassis"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\fakechassis.gam" />
+
+	<model
 		id="heliWheel"
 		shadow="1"
 		windwavy="0"
@@ -1775,6 +1781,50 @@
 		shadow="1"
 		windwavy="0"
 		file="data\models\vehicles\ships\boatwheel.gam" />
+
+	<model
+		id="smlboatCITHull"
+		shadow="1"
+		windwavy="0"
+		file="data\models\vehicles\ships\cit_smlboat\hull.gam" />
+
+	<model
+		id="smlboatCITArmanent"
+		file="data\models\vehicles\ships\cit_smlboat\armanent01.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
 
 	<model
 		id="smlboatCDHull"
