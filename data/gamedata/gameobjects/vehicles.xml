@@ -317,8 +317,21 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "smlboatCITArmanent" />
-			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "smlboatCITMachinegun01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "SmlboatCIT02"
+		ParentPrototype 		= "SmlboatCIT"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
+			<Part id = "BASKET"						Prototype = "smlboatCITArmanent" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCITNurs01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 

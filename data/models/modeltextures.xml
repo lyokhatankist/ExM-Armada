@@ -3,55 +3,55 @@
 <!-- battleship -->
 	<file
 		name="empty.dds"
-		path="data\models\vehicles\ships\empty.dds" />
+		path="data\models\battleship\empty.dds" />
 
 	<file
 		name="shiphull.dds"
-		path="data\models\vehicles\ships\shiphull.dds" />
+		path="data\models\battleship\shiphull.dds" />
 
 	<file
 		name="shipmain.dds"
-		path="data\models\vehicles\ships\shipmain.dds" />
+		path="data\models\battleship\shipmain.dds" />
 
 	<file
 		name="shipbigdetails.dds"
-		path="data\models\vehicles\ships\shipbigdetails.dds" />
+		path="data\models\battleship\shipbigdetails.dds" />
 
 	<file
 		name="shipalphadetails.dds"
-		path="data\models\vehicles\ships\shipalphadetails.dds" />
+		path="data\models\battleship\shipalphadetails.dds" />
 
 	<file
 		name="shipsmalldetails.dds"
-		path="data\models\vehicles\ships\shipsmalldetails.dds" />
+		path="data\models\battleship\shipsmalldetails.dds" />
 
 	<file
 		name="vehwindow.dds"
-		path="data\models\vehicles\ships\vehwindow.dds" />
+		path="data\models\battleship\vehwindow.dds" />
 
 	<file
 		name="vehwindowb.dds"
-		path="data\models\vehicles\ships\vehwindowb.dds" />
+		path="data\models\battleship\vehwindowb.dds" />
 
 	<file
 		name="deck_metal.dds"
-		path="data\models\vehicles\ships\deck_metal.dds" />
+		path="data\models\battleship\deck_metal.dds" />
 
 	<file
 		name="deck_planks.dds"
-		path="data\models\vehicles\ships\deck_planks.dds" />
+		path="data\models\battleship\deck_planks.dds" />
 
 	<file
 		name="fuselage_aircraft.dds"
-		path="data\models\vehicles\ships\fuselage_aircraft.dds" />
+		path="data\models\battleship\fuselage_aircraft.dds" />
 
 	<file
 		name="fuselage_librium.dds"
-		path="data\models\vehicles\ships\fuselage_librium.dds" />
+		path="data\models\battleship\fuselage_librium.dds" />
 
 	<file
 		name="fuselage_arjan.dds"
-		path="data\models\vehicles\ships\fuselage_arjan.dds" />
+		path="data\models\battleship\fuselage_arjan.dds" />
 		
 <!-- vanilla -->
 	<file
