@@ -1468,53 +1468,59 @@
 			name="STAND1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_AUTOCANNON_STAND"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_AUTOCANNON_STAND"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE03"
-				effect_id="ET_PS_AUTOCANNON_STAND"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE04"
-				effect_id="ET_PS_AUTOCANNON_STAND"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
 	</model>
 <!-- vehicles -->
 	<model
+		id="fakeChassis"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\fakechassis.gam" />
+
+	<model
 		id="heliWheel"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\heliwheel.gam" />
+		file="data\models\battleship\heliwheel.gam" />
 
 	<model
 		id="heliChassis"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helichassis.gam" />
+		file="data\models\battleship\helichassis.gam" />
 
 	<model
 		id="heliArmanent"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\heliarmanent.gam" />
+		file="data\models\battleship\heliarmanent.gam" />
 
 	<model
 		id="heliFuselage01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="DEATH1"
 			skin="1" />
@@ -1537,7 +1543,7 @@
 		id="heliFuselage01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helifuselage01_gun.gam">
+		file="data\models\battleship\helicopter\helifuselage01_gun.gam">
 		<action
 			name="DEATH1"
 			skin="1" />
@@ -1584,18 +1590,27 @@
 		id="heliMachinegun01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam" />
+		file="data\models\battleship\helibase.gam" />
 
 	<model
 		id="heliMachinegun01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helimachinegun01_gun.gam">
+		file="data\models\battleship\helicopter\helimachinegun01_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
 				id="LP_PART01"
 				effect_id="ET_PS_HELIMACHINEGUN_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+		
+		<action
+			name="STAND1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -1605,7 +1620,7 @@
 		id="heliNurs01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1620,13 +1635,13 @@
 		id="heliNurs01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helinurs01_gun.gam" />
+		file="data\models\battleship\helicopter\helinurs01_gun.gam" />
 
 	<model
 		id="heliRockets01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1641,13 +1656,13 @@
 		id="heliRockets01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helirockets01_gun.gam" />
+		file="data\models\battleship\helicopter\helirockets01_gun.gam" />
 
 	<model
 		id="heliFuselage02"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="DEATH1"
 			skin="1" />
@@ -1670,7 +1685,7 @@
 		id="heliFuselage02gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helifuselage02_gun.gam">
+		file="data\models\battleship\helicopter\helifuselage02_gun.gam">
 		<action
 			name="DEATH1"
 			skin="1" />
@@ -1717,7 +1732,7 @@
 		id="heliMachinegun02"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1732,7 +1747,7 @@
 		id="heliMachinegun02gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helimachinegun02_gun.gam">
+		file="data\models\battleship\helicopter\helimachinegun02_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1747,13 +1762,28 @@
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
+				
+		<action
+			name="STAND1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_AUTOCANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_AUTOCANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
 	</model>
 
 	<model
 		id="heliRockets02"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helibase.gam">
+		file="data\models\battleship\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1768,23 +1798,118 @@
 		id="heliRockets02gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\helicopter\helirockets02_gun.gam" />
+		file="data\models\battleship\helicopter\helirockets02_gun.gam" />
 
 	<model
 		id="boatWheel"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\boatwheel.gam" />
+		file="data\models\battleship\boatwheel.gam" />
+
+	<model
+		id="smlboatCITHull"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_smlboat\hull.gam" />
+
+	<model
+		id="smlboatCITArmanent"
+		file="data\models\battleship\cit_smlboat\armanent01.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCITNurs01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_smlboat\nurs01.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCITNurs01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_smlboat\nurs01_gun.gam" />
+	
+	<model
+		id="smlboatCITMachinegun01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_smlboat\machinegun01.gam" />
+
+	<model
+		id="smlboatCITMachinegun01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_smlboat\machinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_KORD_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
 
 	<model
 		id="smlboatCDHull"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_smlboat\hull.gam" />
+		file="data\models\battleship\cd_smlboat\hull.gam" />
 
 	<model
 		id="smlboatCDArmanent"
-		file="data\models\vehicles\ships\cd_smlboat\armanent01.gam"
+		file="data\models\battleship\cd_smlboat\armanent01.gam"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
@@ -1840,66 +1965,12 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
-
-	<model
-		id="smlboatCDMachinegun01"
-		shadow="1"
-		windwavy="0"
-		file="data\models\vehicles\ships\cd_smlboat\machinegun01.gam">
-		<action
-			name="DEATH1"
-			skin="8"/>
-
-		<action
-			name="DEATH2"
-			skin="8"/>
-	</model>
-
-	<model
-		id="smlboatCDMachinegun01gun"
-		shadow="1"
-		windwavy="0"
-		file="data\models\vehicles\ships\cd_smlboat\machinegun01_gun.gam">
-		<action
-			name="DEATH1"
-			skin="8"/>
-
-		<action
-			name="DEATH2"
-			skin="8"/>
-
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_PKT_FIRE"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-
-		<action
-			name="STAND1">
-			<lp
-				id="LP_FIRE01"
-				effect_id="ET_PS_AUTOCANNON_STAND"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-	</model>
 	
 	<model
 		id="smlboatCDCannon01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_smlboat\cannon01.gam">
-		<action
-			name="DEATH1"
-			skin="8"/>
-
-		<action
-			name="DEATH2"
-			skin="8"/>
-
+		file="data\models\battleship\cd_smlboat\cannon01.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1914,15 +1985,7 @@
 		id="smlboatCDCannon01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_smlboat\cannon01_gun.gam">
-		<action
-			name="DEATH1"
-			skin="8"/>
-
-		<action
-			name="DEATH2"
-			skin="8"/>
-
+		file="data\models\battleship\cd_smlboat\cannon01_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1955,23 +2018,53 @@
 	</model>
 
 	<model
+		id="smlboatCDMachinegun01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_smlboat\machinegun01.gam" />
+
+	<model
+		id="smlboatCDMachinegun01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_smlboat\machinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_PKT_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="shipWheel"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\shipwheel.gam" />
+		file="data\models\battleship\shipwheel.gam" />
 
 	<model
 		id="destroyerCDEngine"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\engine.gam" />
+		file="data\models\battleship\cd_destroyer\engine.gam" />
 
 	<model
 		id="destroyerCDHull"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\hull.gam">
+		file="data\models\battleship\cd_destroyer\hull.gam">
 		<action
 			name="DEATH1">
 			<lp
@@ -2153,7 +2246,7 @@
 
 	<model
 		id="destroyerCD127Armanent"
-		file="data\models\vehicles\ships\cd_destroyer\armanent01.gam"
+		file="data\models\battleship\cd_destroyer\armanent01.gam"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
@@ -2342,7 +2435,7 @@
 
 	<model
 		id="destroyerCD135Armanent"
-		file="data\models\vehicles\ships\cd_destroyer\armanent02.gam"
+		file="data\models\battleship\cd_destroyer\armanent02.gam"
 		shadow="1"
 		shadowVolume="1"
 		windwavy="0"
@@ -2533,7 +2626,7 @@
 		id="twin127CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\twin127cd.gam">
+		file="data\models\battleship\cd_destroyer\twin127cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2548,7 +2641,7 @@
 		id="twin127CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\twin127cd_gun.gam">
+		file="data\models\battleship\cd_destroyer\twin127cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2584,7 +2677,7 @@
 		id="mun_twin127CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\mun_twin127cd.gam">
+		file="data\models\battleship\cd_destroyer\mun_twin127cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2599,7 +2692,7 @@
 		id="mun_twin127CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\mun_twin127cd_gun.gam">
+		file="data\models\battleship\cd_destroyer\mun_twin127cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2635,7 +2728,7 @@
 		id="twin135CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\twin135cd.gam">
+		file="data\models\battleship\cd_destroyer\twin135cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2650,7 +2743,7 @@
 		id="twin135CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\twin135cd_gun.gam">
+		file="data\models\battleship\cd_destroyer\twin135cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2686,7 +2779,7 @@
 		id="mun_twin135CD01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\mun_twin135cd.gam">
+		file="data\models\battleship\cd_destroyer\mun_twin135cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -2701,7 +2794,7 @@
 		id="mun_twin135CD01gun"
 		shadow="1"
 		windwavy="0"
-		file="data\models\vehicles\ships\cd_destroyer\mun_twin135cd_gun.gam">
+		file="data\models\battleship\cd_destroyer\mun_twin135cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp

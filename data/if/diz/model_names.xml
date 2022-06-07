@@ -627,6 +627,11 @@
 		value="Вертолёт" />
 
 	<Item
+		id="HeliCITForEncyclopaedia"
+		locForm="0"
+		value="Гриф" />
+
+	<Item
 		id="HeliCIT01"
 		locForm="0"
 		value="Гриф" />
@@ -645,6 +650,11 @@
 		id="HeliCIT04"
 		locForm="0"
 		value="Гриф" />
+
+	<Item
+		id="HeliCDForEncyclopaedia"
+		locForm="0"
+		value="Москит" />
 
 	<Item
 		id="HeliCD01"
@@ -667,7 +677,62 @@
 		value="Москит" />
 
 	<Item
+		id="SmlboatCIT"
+		locForm="0"
+		value="Чайка" />
+
+	<Item
+		id="SmlboatCITForEncyclopaedia"
+		locForm="0"
+		value="Чайка" />
+
+	<Item
+		id="SmlboatCIT01"
+		locForm="0"
+		value="Чайка" />
+
+	<Item
+		id="smlboatCITNurs01"
+		locForm="0"
+		value="Снасть" />
+
+	<Item
+		id="smlboatCITMachinegun01"
+		locForm="0"
+		value="Корд" />
+
+	<Item
+		id="SmlboatCD"
+		locForm="0"
+		value="Ривер" />
+
+	<Item
+		id="SmlboatCDForEncyclopaedia"
+		locForm="0"
+		value="Ривер" />
+
+	<Item
+		id="SmlboatCD01"
+		locForm="0"
+		value="Ривер" />
+
+	<Item
+		id="smlboatCDCannon01"
+		locForm="0"
+		value="Биркигт" />
+
+	<Item
+		id="smlboatCDMachinegun01"
+		locForm="0"
+		value="ПКТ" />
+
+	<Item
 		id="DestroyerCD"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="DestroyerCDForEncyclopaedia"
 		locForm="0"
 		value="Эсминец" />
 

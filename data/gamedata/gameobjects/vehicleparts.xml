@@ -8,6 +8,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 	<Folder Name = "Chassis">
 		<Prototype
 			Class			= "Chassis"
+			Name			= "fakeChassis"
+			ModelFile		= "fakeChassis"
+			ResourceType	= "DESTROYERCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "100.0" 			
+			MaxHealth		= "500" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
 			Name			= "heliCITChassis"
 			ModelFile		= "heliChassis"
 			ResourceType	= "HELICOPTER_CHASSIS"
@@ -34,6 +54,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "100.0" 			
 			MaxHealth		= "250" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "smlboatCITHull"
+			ModelFile		= "smlboatCITHull"
+			ResourceType	= "SMLBOATCIT_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "20.0" 			
+			MaxHealth		= "225" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
@@ -134,6 +174,36 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "smlboatCITEngine"
+			ModelFile					= "point"
+			ResourceType				= "SMLBOATCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 5 30"
+			MaxPower					= "1"
+			MaxTorque					= "35"
+			MaxSpeed					= "72.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLBOAT"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
@@ -343,6 +413,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
+			Name						= "smlboatCITArmanent"
+			ModelFile					= "smlboatCITArmanent"
+			ResourceType				= "SMLBOATCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "3.0" 
+			Durability					= "10"
+			DurCoeffsForDamageTypes		= "0 0 10"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "3 4">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "4 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "7 7"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
 			Name						= "smlboatCDArmanent"
 			ModelFile					= "smlboatCDArmanent"
 			ResourceType				= "SMLBOATCD_BASKET"
@@ -523,5 +625,97 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			mU						= "1.0"
 			
 			EffectType				= "SHIPWHEEL" />
+	</Folder>
+
+	<Folder Name = "Cabins">
+		<Prototype
+			Class						= "Cabin"
+			Name						= "smlboatCITEngineForEncyclopaedia"
+			ModelFile					= "smlboatCITHull"
+			ResourceType				= "SMLBOATCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 5 30"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLBOAT"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "smlboatCDEngineForEncyclopaedia"
+			ModelFile					= "smlboatCDHull"
+			ResourceType				= "SMLBOATCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 20 30"
+			MaxPower					= "1"
+			MaxTorque					= "25"
+			MaxSpeed					= "50.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLBOAT"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "destroyerCDEngineForEncyclopaedia"
+			ModelFile					= "destroyerCDHull"
+			ResourceType				= "DESTROYERCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "150.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "10 50 10"
+			MaxPower					= "1200"
+			MaxTorque					= "650"
+			MaxSpeed					= "45.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
 	</Folder>
 </Prototypes>

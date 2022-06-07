@@ -1105,6 +1105,10 @@
 
 <!-- vehicles -->
 		<Item 
+			id="fakeChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="heliWheel" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1177,6 +1181,30 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="smlboatCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITNurs01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITNurs01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="smlboatCITMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="smlboatCDHull" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1185,19 +1213,19 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="smlboatCDMachinegun01" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="smlboatCDMachinegun01gun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
 			id="smlboatCDCannon01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
 			id="smlboatCDCannon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

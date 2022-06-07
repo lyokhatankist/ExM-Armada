@@ -5,6 +5,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 -->
 
 <Prototypes>
+
+
+<!-- AA Guns-->
+
+
 	<Prototype
 		Class			= "BulletLauncher"
 		Name			= "octopus01"
@@ -32,6 +37,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Durability		= "150" 
 		Price			= "32900" />
+
+
+<!-- CIT Helicopter-->
+
 
 	<Prototype
 		Class			= "PlasmaBunchLauncher"
@@ -110,13 +119,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Damage			= "17"
 		FiringRate		= "200"
-		ChargeSize		= "48"
-		RechargingTime	= "30"
+		ChargeSize		= "24"
+		RechargingTime	= "1"
 
 		FiringRange		= "800"
 		GroupingAngle	= "0.3"
 
-		ShellsPoolSize		= "0"
+		ShellsPoolSize		= "24"
 		WithShellsPoolLimit	= "true"
 
 		TurningSpeed	= "40"
@@ -183,14 +192,15 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "300"
 		Acceleration		= "150"
-		FlyTime				= "5.0"
 		MinTurningRadius	= "25"
-		Size				= "0.5 0.5 2"
+		FlyTime				= "5.0"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Mass		= "0.01" />
+		Mass			= "0.01"
+		Size			= "0.5 0.5 2" />
+		
 
-
+<!-- CD Helicopter -->
 
 
 	<Prototype
@@ -293,12 +303,16 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "300"
 		Acceleration		= "150"
-		FlyTime				= "5.0"
 		MinTurningRadius	= "25"
-		Size				= "0.5 0.5 2"
+		FlyTime				= "5.0"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Mass		= "0.01" />
+		Mass			= "0.01" 
+		Size			= "0.5 0.5 2"/>
+
+
+<!-- CD Small Boat -->
+
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -342,7 +356,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_SML_MACHINEGUN"
 		FiringEffect	= "none"
 
-		VisibleInEncyclopedia	= "false"
+		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "raybullet"
 		ExplosionType		= "MACHINEGUN"
@@ -362,5 +376,91 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		TurningSpeed	= "90"
 		Durability		= "5" 
+		Price			= "32900" />
+
+
+<!-- CIT Small Boat -->
+
+
+	<Prototype
+		Class				= "Mortar"
+		Name				= "smlboatCITNurs01"
+		ModelFile			= "smlboatCITNurs01"
+		ResourceType		= "UNIQUE_GUN"
+		NodeScale			= "1 1 1"
+		Mass				= "1.0"
+		Decal				= "DC_GUN"
+		FiringEffect		= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "nurs02"
+		ExplosionType		= "CANNON"
+		FiringType			= "Artillery"
+		RecoilForce			= "1400"
+		
+		DamageType			= "ENERGY"
+		InitialVelocity		= "110"
+		BlastWavePrototype	= "nursBlastWave"
+
+		Damage				= "12"
+		FiringRate			= "170"
+		ChargeSize     		= "8"
+		RechargingTime 		= "2"
+
+		FiringRange			= "450"
+		ActionDist			= "600"	
+		GroupingAngle		= "0.75"	
+
+		ShellsPoolSize		= "8"
+		WithShellsPoolLimit	= "true"
+
+		TurningSpeed		= "50"
+		Durability			= "2"
+		Price				= "53408" />
+
+	<Prototype
+		Class			= "MortarShell"
+		Name			= "nurs02"			
+		ModelFile		= "rocket_sml01"
+		ExplosionType	= "CANNON" 
+
+		Price		= "300"	
+
+		FlyTime				= "15.0"
+		BlastWavePrototype	= "nursBlastWave"
+		 
+		Size				= "0.5 0.5 1" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "smlboatCITMachinegun01"
+		ModelFile		= "smlboatCITMachinegun01"
+		ResourceType	= "ANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Damage			= "4"
+		FiringRate		= "500"
+		ChargeSize     	= "80"
+		RechargingTime 	= "7.3"
+
+		FiringRange		= "550"
+		GroupingAngle	= "1.75"
+
+		TurningSpeed	= "95"
+		Durability		= "4" 
 		Price			= "32900" />
 </Prototypes>
