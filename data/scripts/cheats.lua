@@ -5,8 +5,26 @@
 --------------------------------------------------
 -- cheat codes for buka testers
 --------------------------------------------------
-function boat()
-	AddPlayerVehicle("SmlboatCD01")
+function boat(vae)
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if vae == 1 then
+		AddPlayerVehicle("SmlboatCIT02")
+	elseif vae == 2 then
+		AddPlayerVehicle("SmlboatCD01")
+	elseif vae == 3 then
+		AddPlayerVehicle("FastboatCIT01")
+	else
+		pl = GetPlayerVehicle()
+		boatPos = pl:GetPosition()
+		boatPos.x = boatPos.x + 750
+		plPos = pl:GetPosition()
+		teamNamae = "boats"..random(99999)
+		TeamCreate(teamNamae, 1002, boatPos, {"SmlboatCIT0"..random(2),"SmlboatCD01","FastboatCIT01"}, plPos, 1, Quaternion(0.000, -0.500, 0.000, 0.500))
+		println(teamNamae.." (Pirate); "..boatPos.x..", "..boatPos.y..", "..boatPos.z)
+	end
 end
 
 function ship()

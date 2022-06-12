@@ -15,7 +15,6 @@
 		
 	<Node name="ET_S_ENGINE_FAKE_HIGH" class="SgSoundSourceNode" id="S_ENGINE_FAKE_HIGH" /> 
 	<Node name="ET_S_ENGINE_SMLBOAT" class="SgSoundSourceNode" id="S_ENGINE_SMLBOAT" /> 
-	<Node name="ET_S_ENGINE_FASTBOAT" class="SgSoundSourceNode" id="S_ENGINE_FASTBOAT" />
 	<Node name="ET_S_ENGINE_BOAT" class="SgSoundSourceNode" id="S_ENGINE_BOAT" />
 	<Node name="ET_S_ENGINE_SMLSHIP" class="SgSoundSourceNode" id="S_ENGINE_SMLSHIP" />
 	<Node name="ET_S_ENGINE_BIGSHIP" class="SgSoundSourceNode" id="S_ENGINE_BIGSHIP" />
@@ -91,16 +90,18 @@
 
 	<Node name="ET_PS_HELI01" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HELI" looped="1"/>
-		<Node name="Sound2" class="SgSoundSourceNode" id="S_HELI_TURBINE" looped="1"/>
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI01" looped="1"/>
 	</Node>
 
 	<Node name="ET_PS_HELI02" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HELI" looped="1"/>
-		<Node name="Sound2" class="SgSoundSourceNode" id="S_HELI_TURBINE" looped="1"/>
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI02" looped="1"/>
 	</Node>
 
+	<Node name="ET_PS_TORPEDOTUBE_SOUND" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_TORPEDOTUBE" looped="1"/>
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_AC" looped="1"/>
+	</Node>
 <!-- battleship guns -->
 	<Node name="ET_PS_PKT_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
@@ -3097,9 +3098,10 @@
         <Node name="ET_S_ENGINE_TANK_HIGH"			class="SgSoundSourceNode" id="S_ENGINE_TANK_HIGH" /> 
 
 <!-- Missiles --> 
+<!--
 		<Node name="ET_S_MISSILE1"		class="SgSoundSourceNode" id="S_MISSILE1" /> 
 		<Node name="ET_S_MISSILE2"		class="SgSoundSourceNode" id="S_MISSILE2" /> 
-		
+-->
 <!-- //////////////////////////////////// Звуки торможения /////////////////////////////////////// -->
 
 		<Node name="ET_S_BRAKE01"		class="SgSoundSourceNode"	id="S_BRAKE01" />

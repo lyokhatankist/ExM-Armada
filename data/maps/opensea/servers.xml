@@ -1105,6 +1105,10 @@
 
 <!-- vehicles -->
 		<Item 
+			id="torpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="fakeChassis" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1226,6 +1230,30 @@
 
 		<Item 
 			id="smlboatCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -1405,24 +1433,16 @@
 	<SoundsServer>
 <!-- Battleship -->
 		<Item id="S_EXPLDIST01" />
-		<Item id="S_EXPLDIST02" />
 		<Item id="S_EXPLDIST03" />
-		<Item id="S_EXPLDIST04" />
 		<Item id="S_EXPLDIST05" />
-		<Item id="S_EXPLDIST06" />
-		<Item id="S_EXPLDIST07" />
 		<Item id="S_EXPLDIST08" />
-		<Item id="S_EXPLDIST09" />
-		<Item id="S_EXPLDIST10" />
 
 		<Item id="S_ENGINE_FAKE_HIGH" />
 		<Item id="S_HELI" />
-		<Item id="S_HELI_TURBINE" />
 		<Item id="S_HELI01" />
 		<Item id="S_HELI02" />
 		
 		<Item id="S_ENGINE_SMLBOAT" />
-		<Item id="S_ENGINE_FASTBOAT" />
 		<Item id="S_ENGINE_BOAT" />
 		<Item id="S_ENGINE_SMLSHIP" />
 		<Item id="S_ENGINE_BIGSHIP" />
@@ -1482,10 +1502,10 @@
 		<Item id="S_ENGINE_TANK_HIGH"/>
 
 <!-- Missiles --> 
-
+<!--
 		<Item id="S_MISSILE1" />
 		<Item id="S_MISSILE2" />
-
+-->
 <!-- Shooting --> 
 
 		<Item id="S_SHOOTING_PKT" />
