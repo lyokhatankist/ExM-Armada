@@ -73,7 +73,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType	= "SMLBOATCIT_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "20.0" 			
-			MaxHealth		= "225" 
+			MaxHealth		= "125" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
@@ -93,6 +93,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType	= "SMLBOATCD_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "30.0" 			
+			MaxHealth		= "200" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "fastboatCITHull"
+			ModelFile		= "fastboatCITHull"
+			ResourceType	= "FASTBOATCIT_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "40.0" 			
 			MaxHealth		= "300" 
 			MaxFuel			= "1000"
 			
@@ -135,6 +155,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "HELICOPTER_CABIN"
 			NodeScale					= "1 1 1"
 
+			FuelConsumption		= "0.0001"
+
 			Mass						= "40.0"
 			Durability					= "100"
 			DurCoeffsForDamageTypes		= "100 -100 100"
@@ -164,6 +186,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile					= "point"
 			ResourceType				= "HELICOPTER_CABIN"
 			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.0001"
 
 			Mass						= "40.0"
 			Durability					= "70"
@@ -195,9 +219,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "SMLBOATCD_CABIN"
 			NodeScale					= "1 1 1"
 
+			FuelConsumption		= "0.005"
+
 			Mass						= "5.0"
 			Durability					= "5"
-			DurCoeffsForDamageTypes		= "0 5 30"
+			DurCoeffsForDamageTypes		= "35 5 0"
 			MaxPower					= "1"
 			MaxTorque					= "35"
 			MaxSpeed					= "72.0"
@@ -225,9 +251,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "SMLBOATCD_CABIN"
 			NodeScale					= "1 1 1"
 
+			FuelConsumption		= "0.01"
+
 			Mass						= "5.0"
 			Durability					= "5"
-			DurCoeffsForDamageTypes		= "0 20 30"
+			DurCoeffsForDamageTypes		= "30 20 5"
 			MaxPower					= "1"
 			MaxTorque					= "25"
 			MaxSpeed					= "50.0"
@@ -250,10 +278,44 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
+			Name						= "fastboatCITEngine"
+			ModelFile					= "point"
+			ResourceType				= "FASTBOATCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.001"
+
+			Mass						= "10.0"
+			Durability					= "20"
+			DurCoeffsForDamageTypes		= "25 15 10"
+			MaxPower					= "2"
+			MaxTorque					= "80"
+			MaxSpeed					= "107.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_BOAT"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
 			Name						= "destroyerCDEngine"
 			ModelFile					= "destroyerCDEngine"
 			ResourceType				= "DESTROYERCD_CABIN"
 			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
 
 			Mass						= "150.0"
 			Durability					= "0"
@@ -420,7 +482,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "3.0" 
 			Durability					= "10"
-			DurCoeffsForDamageTypes		= "0 0 10"
+			DurCoeffsForDamageTypes		= "35 2 1"
 			Price						= "0"
 			RepairCoef					= "0"
 
@@ -432,12 +494,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "3 4">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SPECIAL_WEAPON_1"
 					Pos		= "4 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SPECIAL_WEAPON_2"
 					Pos		= "7 7"
 				/>
 			</RepositoryDescription>
@@ -450,9 +512,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "SMLBOATCD_BASKET"
 			NodeScale					= "1 1 1"
 
-			Mass						= "3.0" 
+			Mass						= "4.0" 
 			Durability					= "30"
-			DurCoeffsForDamageTypes		= "0 0 20"
+			DurCoeffsForDamageTypes		= "30 5 5"
 			Price						= "0"
 			RepairCoef					= "0"
 
@@ -464,17 +526,55 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "3 4">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SPECIAL_WEAPON_1"
 					Pos		= "4 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_1"
+					Name		= "BASKET_SMALL_GUN_1"
 					Pos		= "7 7"
 				/>
 			</RepositoryDescription>
 		</Prototype>
 
+		<Prototype
+			Class						= "Basket"
+			Name						= "fastboatCITArmanent"
+			ModelFile					= "fastboatCITArmanent"
+			ResourceType				= "FASTBOATCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "6.0" 
+			Durability					= "35"
+			DurCoeffsForDamageTypes		= "25 5 15"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_GIANT01"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "3 4">
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "4 4"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+<!--
+	
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "7 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SIDE_GUN_1"
+					Pos		= "9 8"
+				/>
+-->
 		<Prototype
 			Class						= "Basket"
 			Name						= "destroyerCD127Armanent"
@@ -602,12 +702,27 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ModelFile				= "boatWheel"
 			NodeScale				= "1 1 1"
 
-			Mass					= "80.0"
+			Mass					= "60.0"
 			SuspensionModelFile		= "point"
-			SuspensionCFM			= "0.01"
-			SuspensionERP			= "0.25"
+			SuspensionCFM			= "0.005"
+			SuspensionERP			= "2.0"
 			SuspensionRange			= "0.001"
 			mU						= "1.0"
+			
+			EffectType				= "SHIPWHEEL" />
+
+		<Prototype
+			Class					= "Wheel"
+			Name					= "stillboatWheel"
+			ModelFile				= "boatWheel"
+			NodeScale				= "1 1 1"
+
+			Mass					= "120.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.00001"
+			SuspensionERP			= "2.0"
+			SuspensionRange			= "0.000001"
+			mU						= "0.000001"
 			
 			EffectType				= "SHIPWHEEL" />
 
@@ -620,12 +735,16 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Mass					= "350.0"
 			SuspensionModelFile		= "point"
 			SuspensionCFM			= "0.0001"
-			SuspensionERP			= "0.25"
+			SuspensionERP			= "2.0"
 			SuspensionRange			= "0.001"
 			mU						= "1.0"
 			
 			EffectType				= "SHIPWHEEL" />
 	</Folder>
+
+
+<!-- For Encyclopaedia -->
+
 
 	<Folder Name = "Cabins">
 		<Prototype
@@ -637,13 +756,13 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "5.0"
 			Durability					= "5"
-			DurCoeffsForDamageTypes		= "0 5 30"
+			DurCoeffsForDamageTypes		= "0 0 0"
 			MaxPower					= "1"
 			MaxTorque					= "0"
 			MaxSpeed					= "0.0"
 			Price						= "1500"
 
-			EngineHighSound				= "ET_S_ENGINE_SMLBOAT"
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
@@ -667,13 +786,43 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "5.0"
 			Durability					= "5"
-			DurCoeffsForDamageTypes		= "0 20 30"
+			DurCoeffsForDamageTypes		= "0 0 0"
 			MaxPower					= "1"
-			MaxTorque					= "25"
-			MaxSpeed					= "50.0"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
 			Price						= "1500"
 
-			EngineHighSound				= "ET_S_ENGINE_SMLBOAT"
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "fastboatCITEngineForEncyclopaedia"
+			ModelFile					= "fastboatCITHull"
+			ResourceType				= "FASTBOATCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
@@ -695,15 +844,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYERCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			Mass						= "150.0"
+			Mass						= "5.0"
 			Durability					= "0"
-			DurCoeffsForDamageTypes		= "10 50 10"
-			MaxPower					= "1200"
-			MaxTorque					= "650"
-			MaxSpeed					= "45.0"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
 			Price						= "1500"
 
-			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">

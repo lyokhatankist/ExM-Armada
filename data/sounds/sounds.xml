@@ -14,20 +14,8 @@
 		/>
 
 	<model
-		id="S_EXPLDIST02"
-		file="data\sounds\battleship\expldist\expldist02.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
 		id="S_EXPLDIST03"
 		file="data\sounds\battleship\expldist\expldist03.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
-		id="S_EXPLDIST04"
-		file="data\sounds\battleship\expldist\expldist04.wav"
 		group="EXPLOSIONS_DISTANT"
 		/>
 
@@ -38,32 +26,8 @@
 		/>
 
 	<model
-		id="S_EXPLDIST06"
-		file="data\sounds\battleship\expldist\expldist06.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
-		id="S_EXPLDIST07"
-		file="data\sounds\battleship\expldist\expldist07.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
 		id="S_EXPLDIST08"
 		file="data\sounds\battleship\expldist\expldist08.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
-		id="S_EXPLDIST09"
-		file="data\sounds\battleship\expldist\expldist09.wav"
-		group="EXPLOSIONS_DISTANT"
-		/>
-
-	<model
-		id="S_EXPLDIST10"
-		file="data\sounds\battleship\expldist\expldist10.wav"
 		group="EXPLOSIONS_DISTANT"
 		/>
 
@@ -77,12 +41,6 @@
 		id="S_HELI"
 		file="data\sounds\battleship\heli\heli.wav"
 		group="HELI"
-		/>
-
-	<model
-		id="S_HELI_TURBINE"
-		file="data\sounds\Driving\Motors\hunter_engine_noise_high.wav"
-		group="BRAKE01"
 		/>
 
 	<model
@@ -104,14 +62,8 @@
 		/>
 
 	<model
-		id="S_ENGINE_FASTBOAT"
-		file="data\sounds\Driving\Motors\truck06_high.wav"
-		group="ENGINE_SML"
-		/>
-
-	<model
 		id="S_ENGINE_BOAT"
-		file="data\sounds\Driving\Motors\truck09_high.wav"
+		file="data\sounds\Driving\Motors\truck06_high.wav"
 		group="ENGINE_SML"
 		/>
 
@@ -125,6 +77,12 @@
 		id="S_ENGINE_BIGSHIP"
 		file="data\sounds\Driving\Motors\belaz5_engine_noise_high.wav"
 		group="ENGINE_BIG"
+		/>
+
+	<model
+		id="S_TORPEDOTUBE"
+		file="data\sounds\Shooting\Special\car_oil_open.wav"
+		group="BRAKE01"
 		/>
 <!-- Vanilla -->
 
@@ -373,7 +331,7 @@
 		/>
 
 <!-- Missiles --> 
-
+<!--
 	<model
 		id="S_MISSILE1"
 		file="data\sounds\Shooting\flying_of_missile01.wav"
@@ -383,7 +341,7 @@
 		id="S_MISSILE2"
 		file="data\sounds\Shooting\flying_of_missile02.wav"
 		/>
-
+-->
 <!-- Shooting --> 
 
 	<model

@@ -687,7 +687,22 @@
 		value="Чайка" />
 
 	<Item
+		id="smlboatCITEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="smlboatCITArmanent"
+		locForm="0"
+		value="Лёгкое вооружение" />
+
+	<Item
 		id="SmlboatCIT01"
+		locForm="0"
+		value="Чайка" />
+
+	<Item
+		id="SmlboatCIT02"
 		locForm="0"
 		value="Чайка" />
 
@@ -712,6 +727,16 @@
 		value="Ривер" />
 
 	<Item
+		id="smlboatCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="smlboatCDArmanent"
+		locForm="0"
+		value="Лёгкое вооружение" />
+
+	<Item
 		id="SmlboatCD01"
 		locForm="0"
 		value="Ривер" />
@@ -725,6 +750,41 @@
 		id="smlboatCDMachinegun01"
 		locForm="0"
 		value="ПКТ" />
+
+	<Item
+		id="FastboatCIT"
+		locForm="0"
+		value="Акула" />
+
+	<Item
+		id="FastboatCITForEncyclopaedia"
+		locForm="0"
+		value="Акула" />
+
+	<Item
+		id="fastboatCITEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="fastboatCITArmanent"
+		locForm="0"
+		value="Торпедный аппарат" />
+
+	<Item
+		id="FastboatCIT01"
+		locForm="0"
+		value="Акула" />
+
+	<Item
+		id="fastboatCITTorpedo01"
+		locForm="0"
+		value="МТА-1" />
+
+	<Item
+		id="fastboatCITMachinegun01"
+		locForm="0"
+		value="Корд" />
 
 	<Item
 		id="DestroyerCD"

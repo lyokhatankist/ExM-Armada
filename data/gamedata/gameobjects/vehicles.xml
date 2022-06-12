@@ -277,7 +277,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "0.0 0.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "300.0"
+		LookRadius			= "400.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
@@ -292,8 +292,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "SMLBOATCIT_CHASSIS">
 			<PartDescription	id = "CABIN"					partResourceType = "SMLBOATCIT_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "SMLBOATCIT_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
 			</PartDescription>
 		</MainPartDescription>
  
@@ -304,8 +304,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "boatWheel" />
 			<Wheel Prototype = "boatWheel" />
-			<Wheel Prototype = "boatWheel" steering = "inverse" />
-			<Wheel Prototype = "boatWheel" steering = "inverse" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
 		</Wheels>
 	</Prototype>
 
@@ -317,8 +317,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "smlboatCITArmanent" />
-			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -330,8 +330,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "smlboatCITArmanent" />
-			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCITNurs01" />
-			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITNurs01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -358,7 +358,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "0.0 0.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "300.0"
+		LookRadius			= "475.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
@@ -373,8 +373,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "SMLBOATCD_CHASSIS">
 			<PartDescription	id = "CABIN"					partResourceType = "SMLBOATCD_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "SMLBOATCD_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_BIG_GUN_1"			partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
-				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
 			</PartDescription>
 		</MainPartDescription>
  
@@ -385,8 +385,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "boatWheel" />
 			<Wheel Prototype = "boatWheel" />
-			<Wheel Prototype = "boatWheel" steering = "inverse" />
-			<Wheel Prototype = "boatWheel" steering = "inverse" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
 		</Wheels>
 	</Prototype>
 
@@ -398,8 +398,78 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCDEngine" />
 			<Part id = "BASKET"						Prototype = "smlboatCDArmanent" />
-			<Part id = "BASKET_BIG_GUN_1"			Prototype = "smlboatCDCannon01" />
-			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "smlboatCDCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class				= "Vehicle"
+		Name				= "FastboatCIT"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "3.4"
+		CameraMaxDist		= "40"
+
+		DiffRatio			= "2.0"
+		MaxEngineRpm		= "50000"
+		LowGearShiftLimit	= "27000"
+		HighGearShiftLimit	= "38000"
+		SteeringSpeed		= "0.6"
+		DriftCoeff			= "0.9"
+		SelfBrakingCoeff	= "0.000000001"	
+		
+		AdditionalWheelsHover = "19.17"
+
+		PressingForce		= "1.0"
+		MassSize			= "4 4.5 4"
+		MassTranslation		= "0.0 0.0 0.0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "600.0"
+		IntersectionRadius	= "10.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "FASTBOATCIT_CHASSIS">
+			<PartDescription	id = "CABIN"					partResourceType = "FASTBOATCIT_CABIN"	lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "FASTBOATCIT_BASKET"	lpName = "LP_CAB01" >
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "FASTBOATCITANTIAIR_GUN"	lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SIDE_GUN_1"		partResourceType = "FASTBOATCITTORPEDO_GUN"	lpName = "LP_GIANT01" />
+			</PartDescription>
+		</MainPartDescription>
+ 
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "fastboatCITHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "stillboatWheel" />
+			<Wheel Prototype = "stillboatWheel" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
+			<Wheel Prototype = "stillboatWheel" steering = "inverse" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "FastboatCIT01"
+		ParentPrototype 		= "FastboatCIT"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
+			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
+			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -425,7 +495,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "-10.0 0.0 -10.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "600.0"
+		LookRadius			= "750.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
@@ -487,8 +557,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_twin127CD01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "octopus01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "octopus01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -508,8 +578,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_twin135CD01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "octopus01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "octopus01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -576,6 +646,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
 			<Part id = "CABIN"						Prototype = "smlboatCDEngineForEncyclopaedia" />
 			<Part id = "BASKET"						Prototype = "smlboatCDArmanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "FastboatCITForEncyclopaedia"
+		ParentPrototype 		= "FastboatCIT"
+		AdditionalWheelsHover	= "0"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
+			<Part id = "CABIN"						Prototype = "fastboatCITEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 		</Parts>
 	</Prototype>
 
