@@ -313,38 +313,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 <!-- CD Small Boat -->
 
-
-	<Prototype
-		Class			= "BulletLauncher"
-		Name			= "smlboatCDCannon01"
-		ModelFile		= "smlboatCDCannon01"
-		ResourceType	= "SMLBOATCD_GUN"
-		NodeScale		= "1 1 1"
-		Mass			= "1.0"
-		Decal			= "DC_SML_MACHINEGUN"
-		FiringEffect	= "none"
-
-		VisibleInEncyclopedia	= "true"
-
-		BulletPrototype		= "raybullet"
-		ExplosionType		= "MACHINEGUN"
-		FiringType			= "MachineGun"
-		RecoilForce			= "600"
-
-		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
-
-		Damage			= "6"
-		FiringRate		= "700"
-		ChargeSize     	= "90"
-		RechargingTime 	= "6.27"
-
-		FiringRange		= "700"
-		GroupingAngle	= "2.65"
-
-		TurningSpeed	= "90"
-		Durability		= "5" 
-		Price			= "32900" />
 		
 	<Prototype
 		Class			= "BulletLauncher"
@@ -383,56 +351,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 	<Prototype
-		Class				= "Mortar"
-		Name				= "smlboatCITNurs01"
-		ModelFile			= "smlboatCITNurs01"
-		ResourceType		= "UNIQUE_GUN"
-		NodeScale			= "1 1 1"
-		Mass				= "1.0"
-		Decal				= "DC_GUN"
-		FiringEffect		= "none"
-
-		VisibleInEncyclopedia	= "true"
-
-		BulletPrototype		= "nurs02"
-		ExplosionType		= "CANNON"
-		FiringType			= "Artillery"
-		RecoilForce			= "1400"
-		
-		DamageType			= "ENERGY"
-		InitialVelocity		= "110"
-		BlastWavePrototype	= "nursBlastWave"
-
-		Damage				= "12"
-		FiringRate			= "170"
-		ChargeSize     		= "8"
-		RechargingTime 		= "2"
-
-		FiringRange			= "450"
-		ActionDist			= "600"	
-		GroupingAngle		= "0.75"	
-
-		ShellsPoolSize		= "8"
-		WithShellsPoolLimit	= "true"
-
-		TurningSpeed		= "50"
-		Durability			= "2"
-		Price				= "53408" />
-
-	<Prototype
-		Class			= "MortarShell"
-		Name			= "nurs02"			
-		ModelFile		= "rocket_sml01"
-		ExplosionType	= "CANNON" 
-
-		Price		= "300"	
-
-		FlyTime				= "15.0"
-		BlastWavePrototype	= "nursBlastWave"
-		 
-		Size				= "0.5 0.5 1" />
-
-	<Prototype
 		Class			= "BulletLauncher"
 		Name			= "smlboatCITMachinegun01"
 		ModelFile		= "smlboatCITMachinegun01"
@@ -458,97 +376,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RechargingTime 	= "7.3"
 
 		FiringRange		= "550"
-		GroupingAngle	= "2.25"
-
-		TurningSpeed	= "95"
-		Durability		= "4" 
-		Price			= "32900" />
-
-
-<!-- CIT Fast Boat -->
-
-
-
-	<Prototype
-		Class			= "RocketVolleyLauncher"
-		Name			= "fastboatCITTorpedo01"
-		ModelFile		= "fastboatCITTorpedo01"
-		ResourceType	= "FASTBOATCITTORPEDO_GUN"
-		NodeScale		= "1 1 1"
-		Mass			= "1.0"
-		FiringEffect	= "none"
-
-		VisibleInEncyclopedia	= "false"
-		ApplyAffixes			= "false"
-		WithAngleLimit			= "false"
-		
-		BulletPrototype		= "torpedo01"
-		ExplosionType		= "GRENADE"
-		FiringType			= "Rocket"
-		RecoilForce			= "5000"
-
-		DamageType			= "PIERCING"
-		BlastWavePrototype	= "nursBlastWave"
-
-		Damage			= "750"
-		FiringRate		= "100"
-		ChargeSize     	= "2"
-		RechargingTime	= "20"
-
-		FiringRange		= "350"
-		ActionDist		= "1000"	
-		GroupingAngle	= "1"
-
-		ShellsPoolSize		= "4"
-		WithShellsPoolLimit	= "false"
-
-		TurningSpeed		= "0"
-		Durability			= "6"
-		Price				= "53408" />
-
-	<Prototype
-		Class                   = "Rocket"
-		Name                    = "torpedo01"
-		ModelFile               = "torpedo01"
-		ExplosionType           = "GRENADE" 
-
-		Price			= "1000"
-
-		Velocity			= "25"
-		Acceleration		= "150"
-		MinTurningRadius	= "20000"
-		FlyTime				= "22.0"
-		BlastWavePrototype	= "nursBlastWave"
-
-		Mass			= "1.0"
-		Size			= "0.5 0.5 2"/>
-
-	<Prototype
-		Class			= "BulletLauncher"
-		Name			= "fastboatCITMachinegun01"
-		ModelFile		= "fastboatCITMachinegun01"
-		ResourceType	= "FASTBOATCITANTIAIR_GUN"
-		NodeScale		= "1 1 1"
-		Mass			= "1.0"
-		Decal			= "DC_SML_MACHINEGUN"
-		FiringEffect	= "none"
-
-		VisibleInEncyclopedia	= "false"
-
-		BulletPrototype		= "raybullet"
-		ExplosionType		= "MACHINEGUN"
-		FiringType			= "MachineGun"
-		RecoilForce			= "600"
-
-		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
-
-		Damage			= "4"
-		FiringRate		= "500"
-		ChargeSize     	= "80"
-		RechargingTime 	= "7.3"
-
-		FiringRange		= "500"
 		GroupingAngle	= "2.25"
 
 		TurningSpeed	= "95"

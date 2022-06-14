@@ -81,8 +81,8 @@
 
 	<model
 		id="S_TORPEDOTUBE"
-		file="data\sounds\Shooting\Special\car_oil_open.wav"
-		group="BRAKE01"
+		file="data\sounds\battleship\torpedotube.wav"
+		group="BURNING_SMALL"
 		/>
 <!-- Vanilla -->
 
@@ -1006,7 +1006,7 @@
 
 	<model
 		id="S_RECHARGE_WEAPON"
-		file="data\sounds\effects\Shells\gun_reload.wav"
+		file="data\sounds\effects\Shells\cannon_reload.wav"
 		group="SOUND2D"
 		/>   		
 

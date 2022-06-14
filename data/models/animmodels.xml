@@ -1505,6 +1505,12 @@
 				effect_id="ET_PS_SHIPWATERTRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_TORPEDOSTART"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -1512,6 +1518,12 @@
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_TORPEDOSTART"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -2390,6 +2402,81 @@
 				restartOnAnimationChange="0" />
 		</action>
 	</model>
+
+	<model
+		id="destroyerCDTorpedo01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_destroyer\torpedo01.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_TORPEDOTUBE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE04"
+				effect_id="ET_PS_TORPEDOTUBE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH07"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH08"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="destroyerCDTorpedo01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_destroyer\torpedo01_gun.gam" />
 
 	<model
 		id="destroyerCD127Armanent"

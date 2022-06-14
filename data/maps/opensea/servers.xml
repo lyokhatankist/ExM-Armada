@@ -1269,6 +1269,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="destroyerCDTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCDTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="destroyerCD127Armanent" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1446,6 +1454,8 @@
 		<Item id="S_ENGINE_BOAT" />
 		<Item id="S_ENGINE_SMLSHIP" />
 		<Item id="S_ENGINE_BIGSHIP" />
+
+		<Item id="S_TORPEDOTUBE" />
 
 <!-- Vanilla -->
 

@@ -98,10 +98,7 @@
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI02" looped="1"/>
 	</Node>
 
-	<Node name="ET_PS_TORPEDOTUBE_SOUND" class="SgNode">
-		<Node name="Sound1" class="SgSoundSourceNode" id="S_TORPEDOTUBE" looped="1"/>
-		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_AC" looped="1"/>
-	</Node>
+
 <!-- battleship guns -->
 	<Node name="ET_PS_PKT_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
@@ -167,6 +164,38 @@
 	<Node name="ET_PS_SMLBOATCDAUTOCANNON_SOUND" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_VECTOR" looped="1" />
 	</Node>
+
+	<Node name="ET_PS_TORPEDOTUBE_SOUND" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_TORPEDOTUBE" looped="0"/>
+	</Node>
+
+	<Node name="ET_PS_TORPEDOSTART" class="SgNode">
+<!--
+		<Node name="Object1" class="SgParticlesOpaqueNode" id="PS_WATER_AUTOCANNON_RING1" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_AUTOCANNON_EXP" psNumEmitterMesh="-1" />
+-->
+		<Node name="Object3" class="SgParticlesNode" id="PS_WATER_AUTOCANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_AC" looped="0" />
+	</Node>
+
+	<Node name="ET_PS_533MMTORPEDOSPLASH" class="SgNode">
+		<Node name="Object1" class="SgParticlesOpaqueNode" id="PS_WATER_GRENADE_RING1" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_GRENADE_EXP" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_WATER_GRENADE_TRAIL_BIG" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_EXPL" looped="0" />
+	</Node>
+
+	<Node name="ET_PS_610MMTORPEDOSPLASH" class="SgNode">
+		<Node name="Object5" class="SgParticlesOpaqueNode" id="PS_WATER_BLAST_RING" psNumEmitterMesh="-1" />
+		<Node name="Object55" class="SgParticlesOpaqueNode" id="PS_WATER_BLAST_RING1" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_WATER_BLAST_GRASS" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_WATER_BLAST_DUST" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_GR" looped="0" />
+	</Node>
+
+
+
 <!-- vanilla -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />

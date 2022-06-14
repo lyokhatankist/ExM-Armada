@@ -206,6 +206,16 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 		ResourceName	="GIANT_GUN"
 	/>   
 
+	<VehiclePart
+		PartName	="CHASSIS_SIDE_GUN_1"
+		ResourceName	="SIDE_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="CHASSIS_SIDE_GUN_2"
+		ResourceName	="SIDE_GUN"
+	/>   
+
 <!-- obsolete -->
 	<VehiclePart
 		PartName	="CABIN_SMALL_GUN_1"

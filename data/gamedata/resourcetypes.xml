@@ -56,18 +56,26 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "FASTBOATCITTORPEDO_GUN"	geomsize = "4 2" />
 		<Type Name = "FASTBOATCITANTIAIR_GUN"	geomsize = "1 2" />
 
+
+		<Type Name = "DESTROYERCDTORPEDO_GUN"	geomsize = "2 2" />
 		<Type Name = "TWIN127MMCD_GUN"			geomsize = "2 2" />
 		<Type Name = "TWIN135MMCD_GUN"			geomsize = "2 2" />
+
 		<Type Name = "TWIN203MMCD_GUN"			geomsize = "2 3" />
+
 		<Type Name = "TWIN356MMCD_GUN"			geomsize = "3 4" />
 		<Type Name = "TRIPLE406MMCD_GUN"		geomsize = "3 4" />
 
+
 		<Type Name = "SINGLE130MMCIT_GUN"		geomsize = "2 2" />
 		<Type Name = "SINGLE138MMCIT_GUN"		geomsize = "2 2" />
+
 		<Type Name = "TWIN152MMCIT_GUN"			geomsize = "2 3" />
 		<Type Name = "TRIPLE152MMCIT_GUN"		geomsize = "2 3" />
+
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
 		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />
+
 
 		<Type Name = "ANTIAIR_GUN"				geomsize = "1 2" />
 
