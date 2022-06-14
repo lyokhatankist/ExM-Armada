@@ -260,7 +260,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "2.9"
-		CameraMaxDist		= "40"
+		CameraMaxDist		= "20"
 
 		DiffRatio			= "2.0"
 		MaxEngineRpm		= "35000"
@@ -341,7 +341,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "3.3"
-		CameraMaxDist		= "40"
+		CameraMaxDist		= "20"
 
 		DiffRatio			= "2.0"
 		MaxEngineRpm		= "23300"
@@ -409,7 +409,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "3.4"
-		CameraMaxDist		= "40"
+		CameraMaxDist		= "30"
 
 		DiffRatio			= "2.0"
 		MaxEngineRpm		= "50000"
@@ -479,7 +479,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "12"
-		CameraMaxDist		= "40"
+		CameraMaxDist		= "70"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "3500"
@@ -508,6 +508,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Abstract 			= "true" >
 
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "DESTROYERCD_CHASSIS">
+			<PartDescription	id = "CHASSIS_GIANT_GUN_1"		partResourceType = "DESTROYERCDTORPEDO_GUN"		lpName = "LP_SIDE01L" />
+			<PartDescription	id = "CHASSIS_SIDE_GUN_1"		partResourceType = "DESTROYERCDTORPEDO_GUN"		lpName = "LP_SIDE01R" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
@@ -547,6 +549,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "DestroyerCD"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "destroyerCDTorpedo01" />
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin127CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin127CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin127CD01" />
@@ -568,6 +572,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ParentPrototype 		= "DestroyerCD"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "destroyerCDTorpedo01" />
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin135CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin135CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin135CD01" />
