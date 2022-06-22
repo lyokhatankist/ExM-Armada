@@ -128,18 +128,58 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Chassis"
-			Name			= "destroyerCDHull"
-			ModelFile		= "destroyerCDHull"
-			ResourceType	= "DESTROYERCD_CHASSIS"
+			Name			= "destroyerCITHull"
+			ModelFile		= "destroyerCITHull"
+			ResourceType	= "DESTROYERCIT_CHASSIS"
 			NodeScale		= "1 1 1"
-			Mass			= "750.0" 			
-			MaxHealth		= "1500" 
+			Mass			= "550.0" 			
+			MaxHealth		= "1200" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
 			GearShiftSound	= "ET_S_GEAR_SHIFT01"
 			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SIDE01L LP_SIDE01R" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "destroyerCDHull"
+			ModelFile		= "destroyerCDHull"
+			ResourceType	= "DESTROYERCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "750.0" 			
+			MaxHealth		= "1600" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SIDE01L LP_SIDE01R" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "cruiserCITHull"
+			ModelFile		= "cruiserCITHull"
+			ResourceType	= "CRUISERCIT_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "625.0" 			
+			MaxHealth		= "2000" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_BIG01 LP_BIG02 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08" >
 
 			<GroupsHealth
 				Main = "10000"	
@@ -310,6 +350,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
+			Name						= "destroyerCITEngine"
+			ModelFile					= "destroyerCITEngine"
+			ResourceType				= "DESTROYERCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.035"
+
+			Mass						= "100.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "10 50 5"
+			MaxPower					= "1200"
+			MaxTorque					= "750"
+			MaxSpeed					= "63.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
 			Name						= "destroyerCDEngine"
 			ModelFile					= "destroyerCDEngine"
 			ResourceType				= "DESTROYERCD_CABIN"
@@ -323,6 +395,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower					= "1200"
 			MaxTorque					= "650"
 			MaxSpeed					= "45.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "cruiserCITEngine"
+			ModelFile					= "cruiserCITEngine"
+			ResourceType				= "CRUISERCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
+
+			Mass						= "175.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "10 50 15"
+			MaxPower					= "1200"
+			MaxTorque					= "570"
+			MaxSpeed					= "38.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
@@ -563,18 +667,111 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				/>
 			</RepositoryDescription>
 		</Prototype>
-<!--
-	
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCIT130Armanent"
+			ModelFile					= "destroyerCIT130Armanent"
+			ResourceType				= "DESTROYERCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "40.0" 
+			Durability					= "200"
+			DurCoeffsForDamageTypes		= "50 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SPECIAL_WEAPON_2"
-					Pos		= "7 7"
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SIDE_GUN_1"
-					Pos		= "9 8"
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "6 4"
 				/>
--->
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCIT138Armanent"
+			ModelFile					= "destroyerCIT138Armanent"
+			ResourceType				= "DESTROYERCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "275"
+			DurCoeffsForDamageTypes		= "50 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
 		<Prototype
 			Class						= "Basket"
 			Name						= "destroyerCD127Armanent"
@@ -678,6 +875,160 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				/>
 			</RepositoryDescription>
 		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "cruiserCIT152Armanent"
+			ModelFile					= "cruiserCIT152Armanent"
+			ResourceType				= "CRUISERCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "250"
+			DurCoeffsForDamageTypes		= "30 50 35"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08 LP_BIG01 LP_BIG02"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_2"
+					Pos		= "1 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "13 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "13 5"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "12 7"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "cruiserCIT155Armanent"
+			ModelFile					= "cruiserCIT155Armanent"
+			ResourceType				= "DESTROYERCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "275"
+			DurCoeffsForDamageTypes		= "50 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08 LP_BIG03 LP_BIG04 LP_SIDE01L LP_SIDE01R"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_BIG_GUN_3"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_4"
+					Pos		= "1 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "6 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "10 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 5"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "13 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "13 5"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "12 7"
+				/>
+			</RepositoryDescription>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Wheels">
@@ -766,14 +1117,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+			<GadgetDescription>           
 			</GadgetDescription>
 		</Prototype>
 
@@ -796,14 +1140,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+			<GadgetDescription>          
 			</GadgetDescription>
 		</Prototype>
 
@@ -826,14 +1163,30 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+			<GadgetDescription>           
+			</GadgetDescription>
+		</Prototype>
 
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+		<Prototype
+			Class						= "Cabin"
+			Name						= "destroyerCITEngineForEncyclopaedia"
+			ModelFile					= "destroyerCITHull"
+			ResourceType				= "DESTROYERCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>           
 			</GadgetDescription>
 		</Prototype>
 
@@ -856,14 +1209,30 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
-			<GadgetDescription>
-				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+			<GadgetDescription>           
+			</GadgetDescription>
+		</Prototype>
 
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+		<Prototype
+			Class						= "Cabin"
+			Name						= "cruiserCITEngineForEncyclopaedia"
+			ModelFile					= "cruiserCITHull"
+			ResourceType				= "CRUISERCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>           
 			</GadgetDescription>
 		</Prototype>
 	</Folder>

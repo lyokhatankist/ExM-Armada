@@ -7,7 +7,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 <Prototypes>
 
 
-<!-- CD Small Boat -->
+
+
+<!-- |||||||||||||||| CD Small Boat |||||||||||||||| -->
+
+
 
 
 <Prototype
@@ -43,7 +47,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price			= "32900" />
 
 
-<!-- CIT Small Boat -->
+
+
+<!-- |||||||||||||||| CIT Small Boat |||||||||||||||| -->
+
+
 
 
 <Prototype
@@ -97,7 +105,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Size				= "0.5 0.5 1" />
 
 
-<!-- CIT Fast Boat -->
+
+
+<!-- |||||||||||||||| CIT Fast Boat |||||||||||||||| -->
+
+
 
 
 	<Prototype
@@ -187,7 +199,213 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price			= "32900" />
 
 
-<!-- CD Destroyer -->
+
+
+<!-- |||||||||||||||| CIT Destroyer |||||||||||||||| -->
+
+
+
+
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "destroyerCITTorpedo01"
+		ModelFile		= "destroyerCITTorpedo01"
+		ResourceType	= "DESTROYERCITTORPEDO_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "torpedo02"
+		ExplosionType		= "GRENADE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "torp533mmBlastWave"
+
+		Damage			= "850"
+		FiringRate		= "100"
+		ChargeSize     	= "5"
+		RechargingTime	= "40"
+
+		FiringRange		= "1000"
+		ActionDist		= "2000"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "20"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "10"
+		Durability			= "10"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "torpedo02"
+		ModelFile				= "torpedo01"
+		ExplosionType			= "GRENADE" 
+
+		Price			= "1000"
+
+		Velocity			= "25"
+		Acceleration		= "150"
+		MinTurningRadius	= "60000"
+		FlyTime				= "50.0"
+		BlastWavePrototype	= "torp533mmBlastWave"
+
+		Mass			= "0.01"
+		Size			= "0.5 0.5 2"/>
+
+
+<!-- SINGLE 130 MM CIT DESTROYER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "single130CIT01"
+		ModelFile		= "single130CIT01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "130"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "65"
+		Durability		= "8"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_single130CIT01"
+		ModelFile		= "mun_single130CIT01"
+		ResourceType	= "SINGLE130MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "130"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "140"
+		FiringRate		= "50"
+		ChargeSize		= "1"
+		RechargingTime	= "5"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "65"
+		Durability		= "9"
+		Price			= "13310" />
+
+
+<!-- SINGLE 138 MM CIT DESTROYER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "single138CIT01"
+		ModelFile		= "single138CIT01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "134"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "8"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_single138CIT01"
+		ModelFile		= "mun_single138CIT01"
+		ResourceType	= "SINGLE138MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "133"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "185"
+		FiringRate		= "50"
+		ChargeSize		= "1"
+		RechargingTime	= "5.35"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "10"
+		Price			= "13310" />
+
+
+
+
+<!-- |||||||||||||||| CD Destroyer |||||||||||||||| -->
+
+
 
 
 	<Prototype
@@ -243,6 +461,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Mass			= "0.01"
 		Size			= "0.5 0.5 2"/>
+
 
 <!-- TWIN 127 MM CD DESTROYER GUN -->
 
@@ -333,7 +552,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "250"
+		InitialVelocity		= "140"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -367,7 +586,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "250"
+		InitialVelocity		= "140"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "175"
@@ -381,5 +600,245 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		TurningSpeed	= "55"
 		Durability		= "10"
+		Price			= "13310" />
+
+
+
+
+<!-- |||||||||||||||| CIT Cruiser |||||||||||||||| -->
+
+
+
+
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiserCITTorpedo01"
+		ModelFile		= "cruiserCITTorpedo01"
+		ResourceType	= "CRUISERCITTORPEDO_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "torpedo04"
+		ExplosionType		= "GRENADE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "torp533mmBlastWave"
+
+		Damage			= "700"
+		FiringRate		= "150"
+		ChargeSize     	= "3"
+		RechargingTime	= "50"
+
+		FiringRange		= "750"
+		ActionDist		= "2000"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "10"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "15"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "torpedo04"
+		ModelFile				= "torpedo01"
+		ExplosionType			= "GRENADE" 
+
+		Price			= "1000"
+
+		Velocity			= "25"
+		Acceleration		= "150"
+		MinTurningRadius	= "60000"
+		FlyTime				= "27.5"
+		BlastWavePrototype	= "torp533mmBlastWave"
+
+		Mass			= "0.01"
+		Size			= "0.5 0.5 2"/>
+
+
+<!-- SINGLE 130 MM CIT SPONSON CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "sponson130CIT01"
+		ModelFile		= "sponson130CIT01"
+		ResourceType	= "SPONSON130MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "130"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "140"
+		FiringRate		= "50"
+		ChargeSize		= "1"
+		RechargingTime	= "5"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "40"
+		Durability		= "9"
+		Price			= "13310" />
+
+
+<!-- TWIN 152 MM CIT CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "twin152CIT01"
+		ModelFile		= "twin152CIT01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "125"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "45"
+		Durability		= "8"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin152CIT01"
+		ModelFile		= "mun_twin152CIT01"
+		ResourceType	= "TWIN152MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "125"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "170"
+		FiringRate		= "125"
+		ChargeSize		= "2"
+		RechargingTime	= "9"
+
+		FiringRange		= "1200"
+		ActionDist		= "1350"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "45"
+		Durability		= "10"
+		Price			= "13310" />
+
+
+<!-- TRIPLE 155 MM CIT CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "triple155CIT01"
+		ModelFile		= "triple155CIT01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "120"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1350"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "38"
+		Durability		= "12"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple155CIT01"
+		ModelFile		= "mun_triple155CIT01"
+		ResourceType	= "TRIPLE155MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "120"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "215"
+		FiringRate		= "245"
+		ChargeSize		= "3"
+		RechargingTime	= "11.25"
+
+		FiringRange		= "1350"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "38"
+		Durability		= "12"
 		Price			= "13310" />
 </Prototypes>
