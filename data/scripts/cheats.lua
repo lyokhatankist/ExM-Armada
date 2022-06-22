@@ -5,6 +5,22 @@
 --------------------------------------------------
 -- cheat codes for buka testers
 --------------------------------------------------
+
+function gameenc()
+	AddPlayerVehicle("DestroyerCIT01")
+	AddPlayerVehicle("DestroyerCIT02")
+	AddPlayerVehicle("DestroyerCD01")
+	AddPlayerVehicle("DestroyerCD02")
+	AddPlayerVehicle("CruiserCIT01")
+	AddPlayerVehicle("CruiserCIT02")
+	AddPlayerVehicle("SmlboatCIT01")
+	AddPlayerVehicle("SmlboatCIT02")
+	AddPlayerVehicle("SmlboatCD01")
+	AddPlayerVehicle("FastboatCIT01")
+	AddPlayerVehicle("HeliCIT01")
+	AddPlayerVehicle("HeliCD01")
+end
+
 function boat(vae)
 	local jop = 1
 	if vae then
@@ -137,6 +153,26 @@ function dest1(vae)
 		jop = vae
 	end
 	if jop == 1 then
+		CreateEnemy("DestroyerCIT01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "destroyerGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"DestroyerCIT01","DestroyerCIT02","DestroyerCIT01"}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos)
+	else
+		AddPlayerVehicle("DestroyerCIT01")
+	end
+end
+
+function dest2(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
 		CreateEnemy("DestroyerCD01")
 	elseif jop == 2 then
 		pl = GetPlayerVehicle()
@@ -147,6 +183,26 @@ function dest1(vae)
 		println(teamNamae.." (CD); "..pos)
 	else
 		AddPlayerVehicle("DestroyerCD01")
+	end
+end
+
+function cru1(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("CruiserCIT01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "cruiserGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"CruiserCIT01","CruiserCIT02","CruiserCIT01"}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos)
+	else
+		AddPlayerVehicle("CruiserCIT01")
 	end
 end
 

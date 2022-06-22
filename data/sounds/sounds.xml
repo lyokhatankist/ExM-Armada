@@ -407,6 +407,12 @@
 		/>
 
 	<model
+		id="S_SHOOTING_STORM"
+		file="data\sounds\Shooting\SmallGun\shtorm_shoot.wav"
+		group="GUNFIRE_SML_MG"
+		/>
+
+	<model
 		id="S_SHOOTING_KPVT"
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\BigGun\kpvt_shoot.wav"
@@ -421,9 +427,21 @@
 		/>
 
 	<model
+		id="S_SHOOTING_BUMBLEBEE"
+		file="data\sounds\Shooting\BigGun\bumblebee_shoot.wav"
+		group="GUNFIRE_BIG_MG"
+		/>
+
+	<model
 		id="S_SHOOTING_OMEGA"
 		file="data\sounds\Shooting\BigGun\omega_shoot.wav"
 		group="GUNFIRE_SML_CANNON"
+		/>
+
+	<model
+		id="S_SHOOTING_FLAG"
+		file="data\sounds\Shooting\BigGun\flag_shoot.wav"
+		group="GUNFIRE_BIG_MG"
 		/>
 
 	<model

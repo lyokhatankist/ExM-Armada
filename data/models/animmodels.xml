@@ -2213,6 +2213,764 @@
 		file="data\models\battleship\shipwheel.gam" />
 
 	<model
+		id="destroyerCITEngine"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\engine.gam" />
+
+	<model
+		id="destroyerCITHull"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\hull.gam">
+		<action
+			name="DEATH1">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+
+		<action
+			name="DEATH2">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="destroyerCITTorpedo01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\torpedo01.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_TORPEDOTUBE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="destroyerCITTorpedo01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\torpedo01_gun.gam" />
+
+	<model
+		id="destroyerCIT130Armanent"
+		file="data\models\battleship\cit_destroyer\armanent01.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="destroyerCIT138Armanent"
+		file="data\models\battleship\cit_destroyer\armanent02.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+				
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="single130CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\single130cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="single130CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\single130cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DESTROYER_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_single130CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\mun_single130cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_single130CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\mun_single130cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DESTROYER_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="single138CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\single138cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="single138CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\single138cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DESTROYER_MOD1_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_single138CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\mun_single138cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_SHELL_BIG_CANNON"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_single138CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_destroyer\mun_single138cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DESTROYER_MOD1_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="destroyerCDEngine"
 		shadow="1"
 		windwavy="0"
@@ -2865,7 +3623,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2880,13 +3638,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2916,7 +3674,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2931,13 +3689,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2967,7 +3725,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -2982,13 +3740,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -3018,7 +3776,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -3033,13 +3791,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_RAPIER01_FIRE"
+				effect_id="ET_PS_DESTROYER_MOD2_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -3054,6 +3812,942 @@
 
 			<lp
 				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCITEngine"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\engine.gam" />
+
+	<model
+		id="cruiserCITHull"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\hull.gam">
+		<action
+			name="DEATH1">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+
+		<action
+			name="DEATH2">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCITTorpedo01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\Ammo\loadpoint.gam" />
+
+	<model
+		id="cruiserCITTorpedo01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\torpedo01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_TORPEDOTUBE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_TORPEDOTUBE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH06"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AA76mmCannon01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\aa76cannon.gam" />
+
+	<model
+		id="AA76mmCannon01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\aa76cannon_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_76AA_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_AUTOCANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCIT152Armanent"
+		file="data\models\battleship\cit_cruiser\armanent01.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiserCIT155Armanent"
+		file="data\models\battleship\cit_cruiser\armanent02.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_SHIPPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT03"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT04"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT05"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT06"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT07"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT08"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT09"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT10"
+				effect_id="ET_PS_SHIPLIGHT"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
+
+	<model
+		id="sponson130CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\sponson130cit.gam" />
+
+	<model
+		id="sponson130CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\sponson130cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DESTROYER_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin152CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\twin152cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin152CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\twin152cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin152CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\mun_twin152cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin152CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\mun_twin152cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="triple155CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\triple155cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="triple155CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\triple155cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_triple155CIT01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\mun_triple155cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_triple155CIT01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_cruiser\mun_triple155cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_LIGHTCRUISER_MOD1_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
 				effect_id="ET_PS_CANNON_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
