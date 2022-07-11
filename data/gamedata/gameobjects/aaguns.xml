@@ -26,7 +26,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "70"
 		FiringRate		= "200"
 		GroupingAngle	= "0.1"
-		FiringRange		= "720"
+		FiringRange		= "500"
 		RecoilForce		= "50"
 		FiringType		= "Plasma"
 		ChargeSize     = "4"
@@ -34,6 +34,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Price		= "174000"
 
+		TurningSpeed	= "50"
 		Durability		= "400"/>
 
 	<Prototype
@@ -45,7 +46,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity		= "1500"
 		Acceleration	= "1000"
-		FlyTime		= "3.0"
+		FlyTime		= "1"
 		Size			= "0.5 0.5 1"
 	/>
 
@@ -129,7 +130,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     	= "240"
 		RechargingTime 	= "0"
 
-		FiringRange		= "400"
+		FiringRange		= "300"
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "40"
@@ -161,7 +162,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "24"
 		RechargingTime	= "1"
 
-		FiringRange		= "800"
+		FiringRange		= "600"
 		GroupingAngle	= "0.3"
 
 		ShellsPoolSize		= "24"
@@ -211,7 +212,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "1"
 		RechargingTime	= "8"
 
-		FiringRange		= "900"
+		FiringRange		= "750"
 		GroupingAngle	= "1"
 
 		ShellsPoolSize		= "7"
@@ -290,7 +291,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     	= "120"
 		RechargingTime 	= "0"
 
-		FiringRange		= "600"
+		FiringRange		= "450"
 		GroupingAngle	= "3"
 
 		TurningSpeed	= "60"
@@ -322,7 +323,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "6"
 		RechargingTime	= "4"
 
-		FiringRange		= "300"
+		FiringRange		= "250"
 		GroupingAngle	= "1"
 
 		ShellsPoolSize		= "76"
@@ -378,7 +379,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     	= "120"
 		RechargingTime 	= "7"
 
-		FiringRange		= "550"
+		FiringRange		= "500"
 		GroupingAngle	= "1.75"
 
 		TurningSpeed	= "110"

@@ -136,7 +136,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "750"
 		FiringRate		= "100"
 		ChargeSize     	= "2"
-		RechargingTime	= "20"
+		RechargingTime	= "25"
 
 		FiringRange		= "350"
 		ActionDist		= "1000"	
@@ -157,10 +157,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Price			= "1000"
 
-		Velocity			= "25"
+		Velocity			= "40"
 		Acceleration		= "150"
 		MinTurningRadius	= "20000"
-		FlyTime				= "22.0"
+		FlyTime				= "13.75"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Mass			= "0.01"
@@ -205,7 +205,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-
+<!-- range - 1300 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
 		Name			= "destroyerCITTorpedo01"
@@ -228,9 +228,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Damage			= "850"
-		FiringRate		= "100"
-		ChargeSize     	= "5"
-		RechargingTime	= "40"
+		FiringRate		= "300"
+		ChargeSize     	= "3"
+		RechargingTime	= "30"
 
 		FiringRange		= "1000"
 		ActionDist		= "2000"	
@@ -239,7 +239,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ShellsPoolSize		= "20"
 		WithShellsPoolLimit	= "false"
 
-		TurningSpeed		= "10"
+		TurningSpeed		= "30"
 		Durability			= "10"
 		Price				= "53408" />
 
@@ -251,10 +251,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Price			= "1000"
 
-		Velocity			= "25"
+		Velocity			= "40"
 		Acceleration		= "150"
 		MinTurningRadius	= "60000"
-		FlyTime				= "50.0"
+		FlyTime				= "31.25"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Mass			= "0.01"
@@ -274,13 +274,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "130"
+		InitialVelocity		= "133"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -288,13 +288,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "700"
+		ActionDist		= "750"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "65"
 		Durability		= "8"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "130mmCITshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "25"
+
+		FlyTime			= "5.4"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -308,13 +320,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "130"
+		InitialVelocity		= "133"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "140"
@@ -322,8 +334,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "1"
 		RechargingTime	= "5"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "700"
+		ActionDist		= "750"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "65"
@@ -344,13 +356,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "138mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "134"
+		InitialVelocity		= "128"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -358,13 +370,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "800"
+		ActionDist		= "850"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
 		Durability		= "8"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "138mmCITshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "30"
+
+		FlyTime			= "6.4"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -378,13 +402,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "138mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "133"
+		InitialVelocity		= "128"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "185"
@@ -392,8 +416,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "1"
 		RechargingTime	= "5.35"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "800"
+		ActionDist		= "850"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
@@ -407,7 +431,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-
+<!-- range - 1100 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
 		Name			= "destroyerCDTorpedo01"
@@ -456,7 +480,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Velocity			= "25"
 		Acceleration		= "150"
 		MinTurningRadius	= "60000"
-		FlyTime				= "50.0"
+		FlyTime				= "38.5"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
 		Mass			= "0.01"
@@ -476,13 +500,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "127mmCDshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "137"
+		InitialVelocity		= "136"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -490,13 +514,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "650"
+		ActionDist		= "700"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
 		Durability		= "8"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "127mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "20"
+
+		FlyTime			= "4.9"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -510,13 +546,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "127mmCDshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "137"
+		InitialVelocity		= "136"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "100"
@@ -524,8 +560,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "2"
 		RechargingTime	= "8"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "650"
+		ActionDist		= "600"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "60"
@@ -546,13 +582,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "135mmCDshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "140"
+		InitialVelocity		= "130"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -560,13 +596,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1350"
-		ActionDist		= "1500"	
+		FiringRange		= "700"
+		ActionDist		= "750"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "55"
 		Durability		= "10"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "135mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "28"
+
+		FlyTime			= "5.55"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -580,13 +628,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "135mmCDshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "140"
+		InitialVelocity		= "130"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "175"
@@ -594,8 +642,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "2"
 		RechargingTime	= "9"
 
-		FiringRange		= "1350"
-		ActionDist		= "1500"	
+		FiringRange		= "700"
+		ActionDist		= "750"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "55"
@@ -609,7 +657,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-
+<!-- range - 900 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
 		Name			= "cruiserCITTorpedo01"
@@ -655,10 +703,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Price			= "1000"
 
-		Velocity			= "25"
+		Velocity			= "40"
 		Acceleration		= "150"
 		MinTurningRadius	= "60000"
-		FlyTime				= "27.5"
+		FlyTime				= "21.85"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Mass			= "0.01"
@@ -680,13 +728,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "130"
+		InitialVelocity		= "133"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "140"
@@ -694,8 +742,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "1"
 		RechargingTime	= "5"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "700"
+		ActionDist		= "750"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "40"
@@ -716,13 +764,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "152mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "125"
+		InitialVelocity		= "122"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -730,13 +778,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "850"
+		ActionDist		= "900"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "45"
 		Durability		= "8"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "152mmCITshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "37"
+
+		FlyTime			= "7.1"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -750,13 +810,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "152mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "125"
+		InitialVelocity		= "122"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "170"
@@ -764,8 +824,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "2"
 		RechargingTime	= "9"
 
-		FiringRange		= "1200"
-		ActionDist		= "1350"	
+		FiringRange		= "800"
+		ActionDist		= "850"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "45"
@@ -786,7 +846,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_GUN"		
 		FiringEffect	= "none"
 
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "155mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
@@ -800,13 +860,25 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1350"
-		ActionDist		= "1500"	
+		FiringRange		= "900"
+		ActionDist		= "950"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "38"
 		Durability		= "12"
 		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "155mmCITshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "40"
+
+		FlyTime			= "8"
+		Size			= "0.5 0.5 1"
+	/>
 
 	<Prototype
 		Class			= "Mortar"
@@ -820,7 +892,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		VisibleInEncyclopedia	= "false"
 		
-		BulletPrototype		= "someMortarShell"
+		BulletPrototype		= "155mmCITshell"
 		ExplosionType		= "CANNON"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
@@ -834,8 +906,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "3"
 		RechargingTime	= "11.25"
 
-		FiringRange		= "1350"
-		ActionDist		= "1500"	
+		FiringRange		= "900"
+		ActionDist		= "950"	
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "38"

@@ -348,6 +348,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			</GadgetDescription>
 		</Prototype>
 
+<!-- MaxSpeed					= "65.0" -->
 		<Prototype
 			Class						= "Cabin"
 			Name						= "destroyerCITEngine"
@@ -362,7 +363,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "10 50 5"
 			MaxPower					= "1200"
 			MaxTorque					= "750"
-			MaxSpeed					= "63.0"
+			MaxSpeed					= "52.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
@@ -683,7 +684,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
-			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML01 LP_SML02 LP_SML03 LP_SML04"
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_SML01 LP_SML02 LP_SML03"
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
@@ -704,18 +705,23 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
-					Pos		= "6 10"
-				/>
-
-				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
-					Pos		= "10 2"
+					Pos		= "11 2"
 				/>
 
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_2"
-					Pos		= "10 5"
+					Pos		= "10 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "12 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "11 9"
 				/>
 			</RepositoryDescription>
 		</Prototype>
@@ -735,39 +741,44 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
 
-			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_SML04 LP_SML05 LP_SML06"
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_4"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_5"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_6"
 					Pos		= "6 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
-					Pos		= "6 10"
-				/>
-
-				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
-					Pos		= "10 2"
+					Pos		= "11 2"
 				/>
 
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_2"
-					Pos		= "10 5"
+					Pos		= "10 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "12 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "11 9"
 				/>
 			</RepositoryDescription>
 		</Prototype>
