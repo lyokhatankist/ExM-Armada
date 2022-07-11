@@ -19,6 +19,7 @@ function gameenc()
 	AddPlayerVehicle("FastboatCIT01")
 	AddPlayerVehicle("HeliCIT01")
 	AddPlayerVehicle("HeliCD01")
+	AddPlayerVehicle("DestroyerCIT01")
 end
 
 function boat(vae)

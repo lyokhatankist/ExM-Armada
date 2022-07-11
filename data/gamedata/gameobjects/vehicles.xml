@@ -479,16 +479,16 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "12"
-		CameraMaxDist		= "70"
+		CameraMaxDist		= "60"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "3500"
 		LowGearShiftLimit	= "1900"
 		HighGearShiftLimit	= "2800"
-		SteeringSpeed		= "0.1"
+		SteeringSpeed		= "0.3"
 		DriftCoeff			= "0.01"
 
-		AdditionalWheelsHover = "17.5"
+		AdditionalWheelsHover = "18.1"
 
 		PressingForce		= "1.0"
 		MassSize			= "4 4.5 12"
@@ -513,7 +513,6 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
-			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" />
 			<PartDescription	id = "CABIN"					partResourceType = "DESTROYERCIT_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "DESTROYERCIT_BASKET"	lpName = "LP_CAB01" >
 				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML01" />
@@ -522,10 +521,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML04" />
 				<PartDescription	id = "BASKET_SMALL_GUN_5"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML05" />
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML06" />
-				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML07" />
-				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML08" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN04" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -547,6 +546,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "DestroyerCIT01"
 		ParentPrototype 		= "DestroyerCIT"
+		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo01" />
@@ -554,15 +554,15 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "single130CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "single130CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
 			<Part id = "CABIN"						Prototype = "destroyerCITEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerCIT130Armanent" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA76mmCannon01" />
 		</Parts>
 	</Prototype>
 
@@ -570,6 +570,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "DestroyerCIT02"
 		ParentPrototype 		= "DestroyerCIT"
+		LookRadius				= "850.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo01" />
@@ -577,15 +578,15 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "single138CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single138CIT01" />
 			<Part id = "CABIN"						Prototype = "destroyerCITEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerCIT138Armanent" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_single138CIT01" />
-			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_single138CIT01" />
-			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA76mmCannon01" />
 		</Parts>
 	</Prototype>
 
@@ -611,7 +612,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "-10.0 0.0 -10.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "750.0"
+		LookRadius			= "700.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
@@ -663,6 +664,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "DestroyerCD01"
 		ParentPrototype 		= "DestroyerCD"
+		LookRadius				= "650.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -686,6 +688,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "DestroyerCD02"
 		ParentPrototype 		= "DestroyerCD"
+		LookRadius				= "750.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -727,7 +730,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		MassTranslation		= "-10.0 0.0 -10.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
-		LookRadius			= "750.0"
+		LookRadius			= "650.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
@@ -740,10 +743,6 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Abstract 			= "true" >
 
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "CRUISERCIT_CHASSIS">
-<!--		<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "SMALL_GUN"			lpName = "LP_SML01" />
-			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "SMALL_GUN"			lpName = "LP_SML02" />
-			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "SMALL_GUN"			lpName = "LP_SML03" />
-			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "SMALL_GUN"			lpName = "LP_SML04" /> -->
 			<PartDescription	id = "CHASSIS_TURRET_GUN_5"		partResourceType = "SMALL_GUN"			lpName = "LP_SML05" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_6"		partResourceType = "SMALL_GUN"			lpName = "LP_SML06" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_7"		partResourceType = "SMALL_GUN"			lpName = "LP_SML07" />
@@ -792,6 +791,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CruiserCIT01"
 		ParentPrototype 		= "CruiserCIT"
+		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
@@ -824,6 +824,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CruiserCIT02"
 		ParentPrototype 		= "CruiserCIT"
+		LookRadius				= "850.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
