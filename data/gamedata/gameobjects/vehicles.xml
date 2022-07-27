@@ -518,7 +518,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML01" />
 				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML03" />
-				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SINGLE130MMCIT_GUN"	lpName = "LP_SML04" />
+				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML04" />
 				<PartDescription	id = "BASKET_SMALL_GUN_5"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML05" />
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML06" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
@@ -605,7 +605,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		SteeringSpeed		= "0.1"
 		DriftCoeff			= "0.01"
 
-		AdditionalWheelsHover = "17.5"
+		AdditionalWheelsHover = "18.1"
 
 		PressingForce		= "1.0"
 		MassSize			= "4 4.5 12"
@@ -643,6 +643,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML08" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -681,6 +682,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -705,6 +707,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -762,9 +765,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "SPONSON130MMCIT_GUN"	lpName = "LP_SML03" />
 				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SPONSON130MMCIT_GUN"	lpName = "LP_SML04" />
 				<PartDescription	id = "BASKET_SMALL_GUN_5"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML05" />
-				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE138MMCIT_GUN"		lpName = "LP_SML06" />
-				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "SINGLE138MMCIT_GUN"		lpName = "LP_SML07" />
-				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "SINGLE138MMCIT_GUN"		lpName = "LP_SML08" />
+				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML06" />
+				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML07" />
+				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML08" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
