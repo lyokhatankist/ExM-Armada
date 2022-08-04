@@ -689,6 +689,36 @@
 			id="mun_triple155CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
+
+
+		<Item 
+			id="cruiserCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCD203Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+			
 <!-- quest items -->
 		<Item 
 			id="artefact1" 

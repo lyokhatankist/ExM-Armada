@@ -975,4 +975,39 @@
 		id="CruiserCIT02"
 		locForm="0"
 		value="Эгаль" />
+
+	<Item
+		id="CruiserCD"
+		locForm="0"
+		value="Ярость" />
+
+	<Item
+		id="CruiserCDForEncyclopaedia"
+		locForm="0"
+		value="Ярость" />
+
+	<Item
+		id="cruiserCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="cruiserCD203Armanent"
+		locForm="0"
+		value="Орудия 203-мм" />
+
+	<Item
+		id="twin203CD01"
+		locForm="0"
+		value="203-мм АУ (АР)" />
+
+	<Item
+		id="mun_twin203CD01"
+		locForm="0"
+		value="203-мм ОФ (АР)" />
+
+	<Item
+		id="CruiserCD01"
+		locForm="0"
+		value="Ярость" />
 </ModelNames>

@@ -277,11 +277,14 @@
 		<Node name="Sound2" class="SgSoundSourceNode" id="S_SHOOTING_OMEGA" looped="0" />
 	</Node>
 
-	<Node name="ET_PS_CRUISER_FIRE" class="SgNode">
+	<Node name="ET_PS_CRUISER_FIRE_EFFECT" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_DRAGON01_FIRE_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_CRUISER_FIRE_SOUND" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_TANK_SHOOT" isLooped="0" />
 	</Node>
 

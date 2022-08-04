@@ -913,4 +913,148 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		TurningSpeed	= "38"
 		Durability		= "12"
 		Price			= "13310" />
+
+
+
+
+<!-- |||||||||||||||| CD Cruiser |||||||||||||||| -->
+
+
+
+<!-- range - 770 m -->
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiserCDTorpedo01"
+		ModelFile		= "destroyerCDTorpedo01"
+		ResourceType	= "CRUISERCDTORPEDO_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "torpedo05"
+		ExplosionType		= "GRENADE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "torp610mmBlastWave"
+
+		Damage			= "1100"
+		FiringRate		= "350"
+		ChargeSize     	= "5"
+		RechargingTime	= "105"
+
+		FiringRange		= "750"
+		ActionDist		= "2000"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "10"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "20"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "torpedo05"
+		ModelFile				= "torpedo01"
+		ExplosionType			= "GRENADE" 
+
+		Price			= "1000"
+
+		Velocity			= "25"
+		Acceleration		= "150"
+		MinTurningRadius	= "60000"
+		FlyTime				= "27"
+		BlastWavePrototype	= "torp610mmBlastWave"
+
+		Mass			= "0.01"
+		Size			= "0.5 0.5 2"/>
+
+
+<!-- TWIN 203 MM CD CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "twin203CD01"
+		ModelFile		= "twin203CD01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "108"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "36"
+		Durability		= "11"
+		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "203mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "65"
+
+		FlyTime			= "10.35"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin203CD01"
+		ModelFile		= "mun_twin203CD01"
+		ResourceType	= "TWIN203MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "108"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "310"
+		FiringRate		= "190"
+		ChargeSize		= "2"
+		RechargingTime	= "12.5"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "36"
+		Durability		= "14"
+		Price			= "13310" />
 </Prototypes>
