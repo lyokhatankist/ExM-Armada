@@ -140,7 +140,30 @@
 	<Node name="ET_PS_ROCKET_BIG_TRAIL" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
 	</Node>
-		
+
+	<Node name="ET_PS_CRUISEMISSILE_BIG" class="SgNode">
+		<Node name="Object11" class="SgParticlesNode" id="PS_BS_ROCKET_BIG_GLOW" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_ROCKET_BIG_FLAME" psNumEmitterMesh="-1" />
+ 		<Node name="Sound3" class="SgSoundSourceNode" id="S_CRUISEMISSILE_FLAME" looped="1" />
+	</Node>
+
+	<Node name="ET_PS_CRUISEMISSILE_BIG_TRAIL" class="SgNode">
+<!--
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
+-->
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="16" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_CRUISEMISSILE_SMALL" class="SgNode">
+		<Node name="Object11" class="SgParticlesNode" id="PS_BS_ROCKET_SMALL_GLOW" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_ROCKET_SMALL_FLAME" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_CRUISERSAM_FIRE" class="SgNode">
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_CRUISERSAM" looped="0"/>
+	</Node>
+
 	<Node name="ET_PS_NURS_FIRE" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_HURRICANE" looped="0"/>
 	</Node>
@@ -198,6 +221,10 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_WATER_BLAST_DUST" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_GR" looped="0" />
+	</Node>
+
+	<Node name="ET_PS_CRUISEMISSILE_FIRE" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_DRAGON" looped="0" /> 
 	</Node>
 
 	<Node name="ET_PS_DESTROYER_FIRE" class="SgNode">
@@ -969,6 +996,7 @@
 		<Node name="16" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
 		<Node name="100" class="SgParticlesNode" id="PS_VEN_EXP1_MED_MAIN3" psNumEmitterMesh="-1" />
 
+<!-- блядообломки из-за которых пиздецово дропается фпс, я ебал такую жизнь, лучше держать это закомменченным
 		<Node name="O2" class="SgParticlesNode" id="PS_VEN_PART_EXP1" psNumEmitterMesh="-1" />
 		<Node name="O3" class="SgParticlesNode" id="PS_VEN_PART_EXP2" psNumEmitterMesh="-1" />
 		<Node name="O4" class="SgParticlesNode" id="PS_VEN_PART_EXP3" psNumEmitterMesh="-1" /> >
@@ -977,6 +1005,7 @@
 		<Node name="ss611" class="SgParticlesNode" id="PS_VEN_PART_EXP42" psNumEmitterMesh="-1" />
 		<Node name="ss6111" class="SgParticlesNode" id="PS_VEN_PART_EXP43" psNumEmitterMesh="-1" />
 		<Node name="ss61111" class="SgParticlesNode" id="PS_VEN_PART_EXP44" psNumEmitterMesh="-1" />
+-->
 	</Node>
 
 	<Node name="ET_PS_AIRWAVE" class="SgNode">

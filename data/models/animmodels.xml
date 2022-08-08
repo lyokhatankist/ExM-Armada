@@ -1530,6 +1530,176 @@
 	</model>
 
 	<model
+		id="cruise_missile01"
+		file="data\models\ammo\cruise_missile01.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_CRUISEMISSILE_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_CRUISEMISSILE_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_CRUISEMISSILE_SMALL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE4"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="sam_missile01"
+		file="data\models\ammo\sam_missile01.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="1" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_ROCKET_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="fakeChassis"
 		shadow="1"
 		windwavy="0"
@@ -5209,6 +5379,54 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
+
+	<model
+		id="cruiser_rocketCD01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\Ammo\loadpoint.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_CRUISEMISSILE_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiser_rocketCD01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_cruiser\rocketcdgun.gam" />
+
+	<model
+		id="cruiser_samCD01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_cruiser\samcd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_CRUISERSAM_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="cruiser_samCD01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cd_cruiser\samcdgun.gam" />
 
 <!-- other -->
 	<model

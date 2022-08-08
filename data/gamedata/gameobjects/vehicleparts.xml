@@ -205,6 +205,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Main = "10000"	
 			/>
 		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "semibossCDHull"
+			ModelFile		= "cruiserCDHull"
+			ResourceType	= "CRUISERCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "1500.0" 			
+			MaxHealth		= "5500" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_CANNON01 LP_CANNON02 LP_BIG01 LP_BIG04 LP_SIDE01L LP_SIDE01R LP_SIDE02L LP_SIDE02R" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Cabins">
@@ -555,7 +575,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Class						= "Basket"
 			Name						= "heliCITArmanent"
 			ModelFile					= "heliArmanent"
-			ResourceType				= "DESTROYERCD_BASKET"
+			ResourceType				= "FAKE_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "30.0" 
@@ -597,7 +617,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Class						= "Basket"
 			Name						= "heliCDArmanent"
 			ModelFile					= "heliArmanent"
-			ResourceType				= "DESTROYERCD_BASKET"
+			ResourceType				= "FAKE_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "30.0" 
@@ -1030,7 +1050,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Class						= "Basket"
 			Name						= "cruiserCIT155Armanent"
 			ModelFile					= "cruiserCIT155Armanent"
-			ResourceType				= "DESTROYERCIT_BASKET"
+			ResourceType				= "CRUISERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "50.0" 
@@ -1107,7 +1127,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Class						= "Basket"
 			Name						= "cruiserCD203Armanent"
 			ModelFile					= "cruiserCD203Armanent"
-			ResourceType				= "DESTROYERCD_BASKET"
+			ResourceType				= "CRUISERCD_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "100.0" 
@@ -1136,6 +1156,88 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					Name		= "BASKET_BIG_GUN_3"
 					Pos		= "1 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_BIG_GUN_4"
+					Pos		= "1 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_6"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_7"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_8"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_9"
+					Pos		= "4 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_10"
+					Pos		= "10 6"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "semibossCDRocketArmanent"
+			ModelFile					= "cruiserCD203Armanent"
+			ResourceType				= "CRUISERCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "100.0" 
+			Durability					= "275"
+			DurCoeffsForDamageTypes		= "65 50 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_FLYGUN06 LP_FLYGUN07 LP_FLYGUN08 LP_FLYGUN09 LP_FLYGUN10 LP_BIG01 LP_BIG02 LP_BIG03 LP_BIG04 LP_SIDE01L LP_SIDE01R LP_SIDE02L LP_SIDE02R"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_BIG_GUN_1"
+					Pos		= "1 1"
 				/>
 
 				<Slot

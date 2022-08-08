@@ -992,6 +992,11 @@
 		value="Силовая установка" />
 
 	<Item
+		id="cruiserCDTorpedo01"
+		locForm="0"
+		value="610-мм УМ-5" />
+
+	<Item
 		id="cruiserCD203Armanent"
 		locForm="0"
 		value="Орудия 203-мм" />
@@ -1010,4 +1015,24 @@
 		id="CruiserCD01"
 		locForm="0"
 		value="Ярость" />
+
+	<Item
+		id="SemibossCD01"
+		locForm="0"
+		value="Тоскана" />
+
+	<Item
+		id="semibossCDRocketArmanent"
+		locForm="0"
+		value="Крылатые ракеты" />
+
+	<Item
+		id="cruiser_rocketCD01"
+		locForm="0"
+		value="Ужас" />
+
+	<Item
+		id="cruiser_samCD01"
+		locForm="0"
+		value="Занавес" />
 </ModelNames>
