@@ -913,4 +913,264 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		TurningSpeed	= "38"
 		Durability		= "12"
 		Price			= "13310" />
+
+
+
+
+<!-- |||||||||||||||| CD Cruiser |||||||||||||||| -->
+
+
+
+<!-- range - 770 m -->
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiserCDTorpedo01"
+		ModelFile		= "destroyerCDTorpedo01"
+		ResourceType	= "CRUISERCDTORPEDO_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "torpedo05"
+		ExplosionType		= "GRENADE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "torp610mmBlastWave"
+
+		Damage			= "1100"
+		FiringRate		= "350"
+		ChargeSize     	= "5"
+		RechargingTime	= "105"
+
+		FiringRange		= "750"
+		ActionDist		= "2000"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "5"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "20"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "torpedo05"
+		ModelFile				= "torpedo01"
+		ExplosionType			= "GRENADE" 
+
+		Price			= "1000"
+
+		Velocity			= "25"
+		Acceleration		= "150"
+		MinTurningRadius	= "60000"
+		FlyTime				= "27"
+		BlastWavePrototype	= "torp610mmBlastWave"
+
+		Mass			= "0.01"
+		Size			= "0.5 0.5 2"/>
+
+
+<!-- TWIN 203 MM CD CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "twin203CD01"
+		ModelFile		= "twin203CD01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "108"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "36"
+		Durability		= "11"
+		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "203mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "GRENADE"
+
+		Price			= "65"
+
+		FlyTime			= "11.4"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin203CD01"
+		ModelFile		= "mun_twin203CD01"
+		ResourceType	= "TWIN203MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "108"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "310"
+		FiringRate		= "190"
+		ChargeSize		= "2"
+		RechargingTime	= "12.5"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "36"
+		Durability		= "14"
+		Price			= "13310" />
+
+
+<!-- CD CRUISER CRUISE MISSILE LAUNCHER -->
+
+
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiser_rocketCD01"
+		ModelFile		= "cruiser_rocketCD01"
+		ResourceType	= "CRUISERCDROCKET_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "cruise_missile01"
+		ExplosionType		= "BLAST"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Damage			= "3000"
+		FiringRate		= "20"
+		ChargeSize     	= "2"
+		RechargingTime	= "35"
+
+		FiringRange		= "7000"
+		ActionDist		= "7100"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "2"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "4"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "cruise_missile01"
+		ModelFile				= "cruise_missile01"
+		ExplosionType			= "BLAST" 
+
+		Price			= "10000"
+
+		Velocity			= "85"
+		Acceleration		= "150"
+		MinTurningRadius	= "500"
+		FlyTime				= "100"
+		BlastWavePrototype	= "antiairBlastWave"
+
+		Mass			= "0.01"
+		Size			= "4 4 6"/>
+
+
+<!-- CD CRUISER SURFACE-TO-AIR MISSILE LAUNCHER -->
+
+
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiser_samCD01"
+		ModelFile		= "cruiser_samCD01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "sam_missile01"
+		ExplosionType		= "GRENADE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "samcdBlastWave"
+
+		Damage			= "70"
+		FiringRate		= "120"
+		ChargeSize     	= "8"
+		RechargingTime	= "35"
+
+		FiringRange		= "2500"
+		ActionDist		= "2600"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "24"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "40"
+		Durability			= "8"
+		Price				= "53408" />
+
+	<Prototype
+		Class					= "Rocket"
+		Name					= "sam_missile01"
+		ModelFile				= "sam_missile01"
+		ExplosionType			= "GRENADE" 
+
+		Price			= "750"
+
+		Velocity			= "155"
+		Acceleration		= "150"
+		MinTurningRadius	= "250"
+		FlyTime				= "100"
+		BlastWavePrototype	= "samcdBlastWave"
+
+		Mass			= "0.01"
+		Size			= "4 4 6"/>
 </Prototypes>

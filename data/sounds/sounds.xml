@@ -8,6 +8,12 @@
 		/>
 
 	<model
+		id="S_CRUISEMISSILE_FLAME"
+		file="data\sounds\battleship\missile.wav"
+		group="DEATH_1"
+		/>
+
+	<model
 		id="S_EXPLDIST01"
 		file="data\sounds\battleship\expldist\expldist01.wav"
 		group="EXPLOSIONS_DISTANT"
@@ -83,6 +89,12 @@
 		id="S_TORPEDOTUBE"
 		file="data\sounds\battleship\torpedotube.wav"
 		group="BURNING_SMALL"
+		/>
+
+	<model
+		id="S_SHOOTING_CRUISERSAM"
+		file="data\sounds\battleship\cruisersamcd.wav"
+		group="GUNFIRE_MED_CANNON"
 		/>
 <!-- Vanilla -->
 
@@ -383,7 +395,7 @@
 	<model
 		id="S_SHOOTING_DRAGON"
 		file="data\sounds\Shooting\GiantGun\dragon_shoot.wav"
-		group="GUNFIRE_SML_CANNON"
+		group="GUNFIRE_BIG_CANNON"
 		/>
 
 	<model

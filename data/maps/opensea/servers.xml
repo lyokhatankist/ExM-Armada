@@ -348,6 +348,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="cruise_missile01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sam_missile01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="fakeChassis" 
 			file="data\models\AnimModels.xml"/>
 
@@ -689,6 +697,51 @@
 			id="mun_triple155CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
+
+
+		<Item 
+			id="cruiserCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCD203Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="cruiser_rocketCD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_rocketCD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_samCD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_samCD01gun" 
+			file="data\models\AnimModels.xml"/>
 <!-- quest items -->
 		<Item 
 			id="artefact1" 
@@ -912,6 +965,8 @@
 		<Item id="S_SHOOTING_ROBOTGUN_01"/>
 		<Item id="S_TANK_SHOOT" />
 
+		<Item id="S_SHOOTING_CRUISERSAM" />
+
 <!-- Explosions --> 
 
 		<Item id="S_EXPLOSION04" />
@@ -935,6 +990,7 @@
 <!-- Starting -->
 
 		<Item id="S_MISSILE_FLAME" />
+		<Item id="S_CRUISEMISSILE_FLAME" />
 
 <!-- Machinegun shoothits -->
 

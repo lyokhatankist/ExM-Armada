@@ -858,6 +858,154 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Parts>
 	</Prototype>
 
+	
+	<Prototype
+		Class				= "Vehicle"
+		Name				= "CruiserCD"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "15"
+		CameraMaxDist		= "120"
+
+		DiffRatio			= "15.0"
+		MaxEngineRpm		= "3500"
+		LowGearShiftLimit	= "1900"
+		HighGearShiftLimit	= "2800"
+		SteeringSpeed		= "0.08"
+		DriftCoeff			= "0.01"
+
+		AdditionalWheelsHover = "18.2"
+
+		PressingForce		= "1.0"
+		MassSize			= "4 4.5 12"
+		MassTranslation		= "-10.0 0.0 -10.0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "650.0"
+		IntersectionRadius	= "15.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "CRUISERCD_CHASSIS">
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "CRUISERCDROCKET_GUN"	lpName = "LP_CANNON01" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_2"		partResourceType = "CRUISERCDROCKET_GUN"	lpName = "LP_CANNON02" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "BIG_GUN"				lpName = "LP_BIG01" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "BIG_GUN"				lpName = "LP_BIG02" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "BIG_GUN"				lpName = "LP_BIG03" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "BIG_GUN"				lpName = "LP_BIG04" />
+			<PartDescription	id = "CHASSIS_GIANT_GUN_1"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01L" />
+			<PartDescription	id = "CHASSIS_SIDE_GUN_1"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01R" />
+			<PartDescription	id = "CHASSIS_GIANT_GUN_2"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02L" />
+			<PartDescription	id = "CHASSIS_SIDE_GUN_2"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02R" />
+			<PartDescription	id = "CABIN"					partResourceType = "CRUISERCD_CABIN"		lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "CRUISERCD_BASKET"		lpName = "LP_CAB01" >
+				<PartDescription	id = "BASKET_BIG_GUN_1"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG01" />
+				<PartDescription	id = "BASKET_BIG_GUN_2"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG02" />
+				<PartDescription	id = "BASKET_BIG_GUN_3"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG03" />
+				<PartDescription	id = "BASKET_BIG_GUN_4"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
+			</PartDescription>
+		</MainPartDescription>
+
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "cruiserCDHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "CruiserCD01"
+		ParentPrototype 		= "CruiserCD"
+		LookRadius				= "975.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CABIN"						Prototype = "cruiserCDEngine" />
+			<Part id = "BASKET"						Prototype = "cruiserCD203Armanent" />
+			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_BIG_GUN_2"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_BIG_GUN_3"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_BIG_GUN_4"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA76mmCannon01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "SemibossCD01"
+		ParentPrototype 		= "CruiserCD"
+		LookRadius				= "6500.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS"					Prototype = "semibossCDHull" />
+			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "cruiser_rocketCD01" />
+			<Part id = "CHASSIS_SMALL_GUN_2"		Prototype = "cruiser_rocketCD01" />
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin203CD01" />
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "cruiserCDTorpedo01" />
+			<Part id = "CABIN"						Prototype = "cruiserCDEngine" />
+			<Part id = "BASKET"						Prototype = "semibossCDRocketArmanent" />
+			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_BIG_GUN_2"			Prototype = "cruiser_samCD01" />
+			<Part id = "BASKET_BIG_GUN_3"			Prototype = "cruiser_samCD01" />
+			<Part id = "BASKET_BIG_GUN_4"			Prototype = "mun_twin203CD01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA76mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA76mmCannon01" />
+		</Parts>
+	</Prototype>
+
 	<Prototype
 		Class					= "Vehicle"
 		Name					= "DestroyerCDTest"
@@ -973,6 +1121,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
 			<Part id = "CABIN"						Prototype = "cruiserCITEngineForEncyclopaedia" />
 			<Part id = "BASKET"						Prototype = "cruiserCIT152Armanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "CruiserCDForEncyclopaedia"
+		ParentPrototype 		= "CruiserCD"
+		AdditionalWheelsHover	= "0"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
+			<Part id = "CABIN"						Prototype = "cruiserCDEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "cruiserCD203Armanent" />
 		</Parts>
 	</Prototype>
 </Prototypes>
