@@ -20,6 +20,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "DESTROYERCD_CHASSIS" />
 			<Type Name = "CRUISERCIT_CHASSIS" />
 			<Type Name = "CRUISERCD_CHASSIS" />
+			<Type Name = "BATTLESHIPCIT_CHASSIS" />
+			<Type Name = "BATTLESHIPCD_CHASSIS" />
 		</Type>
 		
 		<Type Name = "CABIN" geomsize = "5 5">
@@ -31,6 +33,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "DESTROYERCD_CABIN" />
 			<Type Name = "CRUISERCIT_CABIN" />
 			<Type Name = "CRUISERCD_CABIN" />
+			<Type Name = "BATTLESHIPCIT_CABIN" />
+			<Type Name = "BATTLESHIPCD_CABIN" />
 		</Type>
 		
 		<Type Name = "BASKET" geomsize = "5 5">
@@ -41,6 +45,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "DESTROYERCD_BASKET" />
 			<Type Name = "CRUISERCIT_BASKET" />
 			<Type Name = "CRUISERCD_BASKET" />
+			<Type Name = "BATTLESHIPCIT_BASKET" />
+			<Type Name = "BATTLESHIPCD_BASKET" />
 			<Type Name = "FAKE_BASKET" />
 		</Type>
 		
@@ -88,7 +94,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "TRIPLE155MMCIT_GUN"		geomsize = "2 3" />
 
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
-		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />
+		<Type Name = "TRIPLE457MMCIT_GUN"		geomsize = "3 4" />
 
 
 		<Type Name = "ANTIAIR_GUN"				geomsize = "1 2" />

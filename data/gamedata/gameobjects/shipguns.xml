@@ -1008,7 +1008,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ActionDist		= "1200"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "36"
+		TurningSpeed	= "28"
 		Durability		= "11"
 		Price			= "13310" />
 
@@ -1054,7 +1054,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ActionDist		= "1200"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "36"
+		TurningSpeed	= "28"
 		Durability		= "14"
 		Price			= "13310" />
 
@@ -1153,7 +1153,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ShellsPoolSize		= "24"
 		WithShellsPoolLimit	= "false"
 
-		TurningSpeed		= "40"
+		TurningSpeed		= "30"
 		Durability			= "8"
 		Price				= "53408" />
 
@@ -1173,4 +1173,168 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Mass			= "0.01"
 		Size			= "4 4 6"/>
+
+
+<!-- TWIN 356 MM CD BATLLESHIP GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "twin356CD01"
+		ModelFile		= "twin356CD01"
+		ResourceType	= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "356mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "123"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1300"
+		ActionDist		= "1400"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "15"
+		Durability		= "19"
+		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "356mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "BLAST"
+
+		Price			= "118"
+
+		FlyTime			= "13"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin356CD01"
+		ModelFile		= "mun_twin356CD01"
+		ResourceType	= "TWIN356MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "356mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "123"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "600"
+		FiringRate		= "210"
+		ChargeSize		= "2"
+		RechargingTime	= "18"
+
+		FiringRange		= "1300"
+		ActionDist		= "1400"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "15"
+		Durability		= "19"
+		Price			= "13310" />
+
+
+<!-- TRIPLE 406 MM CD BATLLESHIP GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "triple406CD01"
+		ModelFile		= "triple406CD01"
+		ResourceType	= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "406mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "121"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1400"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "13"
+		Durability		= "21"
+		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "406mmCDshell"
+		ModelFile				= "shell01"
+		ExplosionType			= "BLAST"
+
+		Price			= "118"
+
+		FlyTime			= "15"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple406CD01"
+		ModelFile		= "mun_triple406CD01"
+		ResourceType	= "TRIPLE406MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "406mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "121"
+		BlastWavePrototype	= "smallBlastWave"
+
+		Damage			= "780"
+		FiringRate		= "230"
+		ChargeSize		= "3"
+		RechargingTime	= "22"
+
+		FiringRange		= "1400"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "13"
+		Durability		= "21"
+		Price			= "13310" />
 </Prototypes>

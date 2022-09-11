@@ -742,6 +742,56 @@
 		<Item 
 			id="cruiser_samCD01gun" 
 			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="battleshipCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCD356Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCD406Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin356CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin356CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CD01gun" 
+			file="data\models\AnimModels.xml"/>
 <!-- quest items -->
 		<Item 
 			id="artefact1" 

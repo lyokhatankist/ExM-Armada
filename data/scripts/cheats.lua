@@ -228,6 +228,26 @@ function cru2(vae)
 	end
 end
 
+function bat2(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("BattleshipCD01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "battleshipGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"BattleshipCD01","BattleshipCD02"}, plPos, 1)
+		println(teamNamae.." (CD); "..pos)
+	else
+		AddPlayerVehicle("BattleshipCD01")
+	end
+end
+
 function retro(vae)
 	if testcheat()~=1 then return end
 	local jop = 1

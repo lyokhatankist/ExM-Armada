@@ -1035,4 +1035,59 @@
 		id="cruiser_samCD01"
 		locForm="0"
 		value="Занавес" />
+
+	<Item
+		id="BattleshipCD"
+		locForm="0"
+		value="Левиафан" />
+
+	<Item
+		id="BattleshipCDForEncyclopaedia"
+		locForm="0"
+		value="Левиафан" />
+
+	<Item
+		id="battleshipCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="battleshipCD356Armanent"
+		locForm="0"
+		value="Орудия 356-мм" />
+
+	<Item
+		id="twin356CD01"
+		locForm="0"
+		value="356-мм АУ (АР)" />
+
+	<Item
+		id="mun_twin356CD01"
+		locForm="0"
+		value="356-мм ОФ (АР)" />
+
+	<Item
+		id="BattleshipCD01"
+		locForm="0"
+		value="Левиафан" />
+
+	<Item
+		id="battleshipCD406Armanent"
+		locForm="0"
+		value="Орудия 406-мм" />
+
+	<Item
+		id="triple406CD01"
+		locForm="0"
+		value="406-мм АУ (АР)" />
+
+	<Item
+		id="mun_triple406CD01"
+		locForm="0"
+		value="406-мм ОФ (АР)" />
+
+	<Item
+		id="BattleshipCD02"
+		locForm="0"
+		value="Левиафан" />
 </ModelNames>
