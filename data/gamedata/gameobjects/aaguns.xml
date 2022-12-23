@@ -12,39 +12,41 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 	<Prototype
 		Class			= "PlasmaBunchLauncher"
-		Name			= "AA76mmCannon01"
-		ModelFile		= "AA76mmCannon01"
+		Name			= "AA47mmCannon01"
+		ModelFile		= "AA47mmCannon01"
 		ResourceType	= "ANTIAIR_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
-		
-		Decal				= "DC_LASER"
-
-		BulletPrototype	= "76mmAAshell"
-		ExplosionType	= "AUTOCANNON"
+		Decal			= "DC_LASER"
 		FiringEffect	= "none"
-		Damage			= "70"
+
+		BulletPrototype		= "47mmAAshell"
+		ExplosionType		= "AUTOCANNON"
+		FiringType			= "Plasma"
+		RecoilForce			= "50"
+		
+		BlastWavePrototype	= "47mmBlastWave"
+
+		Damage			= "40"
 		FiringRate		= "200"
-		GroupingAngle	= "0.1"
+		ChargeSize		= "6"
+		RechargingTime	= "4.5"
+
 		FiringRange		= "500"
-		RecoilForce		= "50"
-		FiringType		= "Plasma"
-		ChargeSize     = "4"
-		RechargingTime = "4.5"
-
-		Price		= "174000"
-
+		GroupingAngle	= "0.1"
+		
 		TurningSpeed	= "50"
-		Durability		= "400"/>
+		Durability		= "400"
+		Price			= "174000" />
 
 	<Prototype
 		Class			= "PlasmaBunch"
-		Name			= "76mmAAshell"		
+		Name			= "47mmAAshell"		
 	
 		ModelFile		= "shell01"
 		ExplosionType	= "AUTOCANNON" 
 
-		Velocity		= "1500"
+		Velocity		= "2500"
 		Acceleration	= "1000"
 		FlyTime		= "1"
 		Size			= "0.5 0.5 1"

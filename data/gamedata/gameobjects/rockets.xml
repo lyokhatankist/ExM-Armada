@@ -18,6 +18,16 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "47mmBlastWave"
+
+                Radius                  = "7.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "40.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "samcdBlastWave"
                 Effect                  = "ET_PS_AIRWAVE2"
 
