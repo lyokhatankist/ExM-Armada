@@ -292,8 +292,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "SMLBOATCIT_CHASSIS">
 			<PartDescription	id = "CABIN"					partResourceType = "SMLBOATCIT_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "SMLBOATCIT_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
 			</PartDescription>
 		</MainPartDescription>
  
@@ -374,7 +374,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription	id = "CABIN"					partResourceType = "SMLBOATCD_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "SMLBOATCD_BASKET"	lpName = "LP_CAB01" >
 				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
 			</PartDescription>
 		</MainPartDescription>
  
@@ -441,7 +441,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "FASTBOATCIT_CHASSIS">
 			<PartDescription	id = "CABIN"					partResourceType = "FASTBOATCIT_CABIN"	lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "FASTBOATCIT_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "FASTBOATCITANTIAIR_GUN"	lpName = "LP_FLYGUN02" />
 				<PartDescription	id = "BASKET_SIDE_GUN_1"		partResourceType = "FASTBOATCITTORPEDO_GUN"	lpName = "LP_GIANT01" />
 			</PartDescription>
@@ -521,10 +521,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML04" />
 				<PartDescription	id = "BASKET_SMALL_GUN_5"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML05" />
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE138MMCIT_GUN"	lpName = "LP_SML06" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN04" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -641,9 +641,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML06" />
 				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML07" />
 				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "TWIN135MMCD_GUN"	lpName = "LP_SML08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN03" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -768,11 +768,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML06" />
 				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML07" />
 				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -910,16 +910,16 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_BIG_GUN_2"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG02" />
 				<PartDescription	id = "BASKET_BIG_GUN_3"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG03" />
 				<PartDescription	id = "BASKET_BIG_GUN_4"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -1008,6 +1008,262 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class				= "Vehicle"
+		Name				= "BattleshipCIT"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "22.5"
+		CameraMaxDist		= "160"
+
+		DiffRatio			= "15.0"
+		MaxEngineRpm		= "4550"
+		LowGearShiftLimit	= "2470"
+		HighGearShiftLimit	= "3640"
+		SteeringSpeed		= "0.08"
+		DriftCoeff			= "0.01"
+
+		AdditionalWheelsHover = "17.9"
+
+		PressingForce		= "0.5"
+		MassSize			= "4 4.5 12"
+		MassTranslation		= "-10.0 0.0 -10.0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "650.0"
+		IntersectionRadius	= "15.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "BATTLESHIPCIT_CHASSIS">
+			<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "GIANT_GUN"				lpName = "LP_GIANT01" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "GIANT_GUN"				lpName = "LP_GIANT02" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "GIANT_GUN"				lpName = "LP_GIANT03" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "SMALL_GUN"				lpName = "LP_SML01" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_5"		partResourceType = "SMALL_GUN"				lpName = "LP_SML02" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_6"		partResourceType = "SMALL_GUN"				lpName = "LP_SML03" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_7"		partResourceType = "SMALL_GUN"				lpName = "LP_SML04" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_8"		partResourceType = "SMALL_GUN"				lpName = "LP_SML05" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_9"		partResourceType = "SMALL_GUN"				lpName = "LP_SML06" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_10"	partResourceType = "SMALL_GUN"				lpName = "LP_SML07" />
+			<PartDescription	id = "CHASSIS_TURRET_GUN_11"	partResourceType = "SMALL_GUN"				lpName = "LP_SML08" />
+			<PartDescription	id = "CABIN"					partResourceType = "BATTLESHIPCIT_CABIN"	lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "BATTLESHIPCIT_BASKET"	lpName = "LP_CAB01" >
+				<PartDescription	id = "BASKET_GIANT_GUN_1"		partResourceType = "TRIPLE406MMCIT_GUN"		lpName = "LP_GIANT01" />
+				<PartDescription	id = "BASKET_GIANT_GUN_2"		partResourceType = "TRIPLE406MMCIT_GUN"		lpName = "LP_GIANT02" />
+				<PartDescription	id = "BASKET_GIANT_GUN_3"		partResourceType = "TRIPLE406MMCIT_GUN"		lpName = "LP_GIANT03" />
+				<PartDescription	id = "BASKET_GIANT_GUN_4"		partResourceType = "QUADRUPLE380MMCIT_GUN"	lpName = "LP_GIANT04" />
+				<PartDescription	id = "BASKET_GIANT_GUN_5"		partResourceType = "QUADRUPLE380MMCIT_GUN"	lpName = "LP_GIANT05" />
+				<PartDescription	id = "BASKET_GIANT_GUN_6"		partResourceType = "QUADRUPLE380MMCIT_GUN"	lpName = "LP_GIANT06" />
+				<PartDescription	id = "BASKET_GIANT_GUN_7"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_GIANT07" />
+				<PartDescription	id = "BASKET_GIANT_GUN_8"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_GIANT08" />
+				<PartDescription	id = "BASKET_GIANT_GUN_9"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_LOAD01" />
+				<PartDescription	id = "BASKET_SMALL_GUN_1"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML01" />
+				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML02" />
+				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML03" />
+				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML04" />
+				<PartDescription	id = "BASKET_SMALL_GUN_5"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML05" />
+				<PartDescription	id = "BASKET_SMALL_GUN_6"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML06" />
+				<PartDescription	id = "BASKET_SMALL_GUN_7"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML07" />
+				<PartDescription	id = "BASKET_SMALL_GUN_8"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_11"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN11" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_12"	partResourceType = "BIGANTIAIR_GUN"			lpName = "LP_FLYGUN12" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_13"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN13" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_14"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN14" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_15"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN15" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_16"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN16" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_17"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN17" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_18"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN18" />
+			</PartDescription>
+		</MainPartDescription>
+
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "battleshipCITHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "BattleshipCIT01"
+		ParentPrototype 		= "BattleshipCIT"
+		LookRadius				= "1350.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "triple406CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "triple406CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "triple406CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single130CIT01" />
+			<Part id = "CABIN"						Prototype = "battleshipCITEngine" />
+			<Part id = "BASKET"						Prototype = "battleshipCIT406Armanent" />
+			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "mun_triple406CD01" />
+			<Part id = "BASKET_GIANT_GUN_2"			Prototype = "mun_triple406CD01" />
+			<Part id = "BASKET_GIANT_GUN_3"			Prototype = "mun_triple406CD01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "BattleshipCIT02"
+		ParentPrototype 		= "BattleshipCIT"
+		LookRadius				= "1400.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "quadruple380CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "quadruple380CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "quadruple380CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single130CIT01" />
+			<Part id = "CABIN"						Prototype = "battleshipCITEngine" />
+			<Part id = "BASKET"						Prototype = "battleshipCIT406Armanent" />
+			<Part id = "BASKET_GIANT_GUN_4"			Prototype = "mun_quadruple380CIT01" />
+			<Part id = "BASKET_GIANT_GUN_5"			Prototype = "mun_quadruple380CIT01" />
+			<Part id = "BASKET_GIANT_GUN_6"			Prototype = "mun_quadruple380CIT01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "BattleshipCIT03"
+		ParentPrototype 		= "BattleshipCIT"
+		LookRadius				= "1500.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "triple457CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "triple457CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "triple457CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single130CIT01" />
+			<Part id = "CABIN"						Prototype = "battleshipCITEngine" />
+			<Part id = "BASKET"						Prototype = "battleshipCIT406Armanent" />
+			<Part id = "BASKET_GIANT_GUN_7"			Prototype = "mun_triple457CIT01" />
+			<Part id = "BASKET_GIANT_GUN_8"			Prototype = "mun_triple457CIT01" />
+			<Part id = "BASKET_GIANT_GUN_9"			Prototype = "mun_triple457CIT01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_8"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class				= "Vehicle"
 		Name				= "BattleshipCD"
 		ResourceType		= "VEHICLE"
 
@@ -1063,15 +1319,15 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SMALL_GUN_2"		partResourceType = "TWIN127MMCD_GUN"		lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_3"		partResourceType = "TWIN127MMCD_GUN"		lpName = "LP_SML03" />
 				<PartDescription	id = "BASKET_SMALL_GUN_4"		partResourceType = "TWIN127MMCD_GUN"		lpName = "LP_SML04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "ANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN02" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
 			</PartDescription>
 		</MainPartDescription>
 

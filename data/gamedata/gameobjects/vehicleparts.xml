@@ -228,6 +228,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Chassis"
+			Name			= "battleshipCITHull"
+			ModelFile		= "battleshipCITHull"
+			ResourceType	= "BATTLESHIPCIT_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "1600.0" 			
+			MaxHealth		= "9000" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_GIANT01 LP_GIANT02 LP_GIANT03 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
 			Name			= "battleshipCDHull"
 			ModelFile		= "battleshipCDHull"
 			ResourceType	= "BATTLESHIPCD_CHASSIS"
@@ -534,6 +554,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
 					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "battleshipCITEngine"
+			ModelFile					= "battleshipCITEngine"
+			ResourceType				= "BATTLESHIPCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
+
+			Mass						= "650.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "0 50 25"
+			MaxPower					= "2500"
+			MaxTorque					= "1200"
+			MaxSpeed					= "19.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_BIGSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />
 			</GadgetDescription>
 		</Prototype>
 
@@ -1345,6 +1397,507 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_10"
 					Pos		= "10 6"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "battleshipCIT406Armanent"
+			ModelFile					= "battleshipCIT406Armanent"
+			ResourceType				= "BATTLESHIPCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "500.0" 
+			Durability					= "300"
+			DurCoeffsForDamageTypes		= "0 50 40"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_FLYGUN06 LP_FLYGUN07 LP_FLYGUN08 LP_FLYGUN09 LP_FLYGUN10 LP_FLYGUN11 LP_FLYGUN12 LP_FLYGUN13 LP_FLYGUN14 LP_FLYGUN15 LP_FLYGUN16 LP_FLYGUN17 LP_FLYGUN18 LP_GIANT01 LP_GIANT02 LP_GIANT03 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN_1"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_2"
+					Pos		= "1 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_3"
+					Pos		= "1 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "15 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "13 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "13 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "13 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "17 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "17 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "17 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "15 13"
+				/>
+				
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_6"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_7"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_8"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_9"
+					Pos		= "4 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_10"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_11"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_12"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_13"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_14"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_15"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_16"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_17"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_18"
+					Pos		= "4 6"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "battleshipCIT380Armanent"
+			ModelFile					= "battleshipCIT380Armanent"
+			ResourceType				= "BATTLESHIPCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "500.0" 
+			Durability					= "300"
+			DurCoeffsForDamageTypes		= "0 50 40"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_FLYGUN06 LP_FLYGUN07 LP_FLYGUN08 LP_FLYGUN09 LP_FLYGUN10 LP_FLYGUN11 LP_FLYGUN12 LP_FLYGUN13 LP_FLYGUN14 LP_FLYGUN15 LP_FLYGUN16 LP_FLYGUN17 LP_FLYGUN18 LP_GIANT04 LP_GIANT05 LP_GIANT06 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN_4"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_5"
+					Pos		= "1 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_6"
+					Pos		= "1 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "15 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "13 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "13 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "13 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "17 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "17 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "17 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "15 13"
+				/>
+				
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_6"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_7"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_8"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_9"
+					Pos		= "4 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_10"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_11"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_12"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_13"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_14"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_15"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_16"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_17"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_18"
+					Pos		= "4 6"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "battleshipCIT457Armanent"
+			ModelFile					= "battleshipCIT457Armanent"
+			ResourceType				= "BATTLESHIPCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "500.0" 
+			Durability					= "300"
+			DurCoeffsForDamageTypes		= "0 50 40"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_FLYGUN05 LP_FLYGUN06 LP_FLYGUN07 LP_FLYGUN08 LP_FLYGUN09 LP_FLYGUN10 LP_FLYGUN11 LP_FLYGUN12 LP_FLYGUN13 LP_FLYGUN14 LP_FLYGUN15 LP_FLYGUN16 LP_FLYGUN17 LP_FLYGUN18 LP_GIANT07 LP_GIANT08 LP_LOAD01 LP_SML01 LP_SML02 LP_SML03 LP_SML04 LP_SML05 LP_SML06 LP_SML07 LP_SML08"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN_7"
+					Pos		= "1 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_8"
+					Pos		= "1 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_GIANT_GUN_9"
+					Pos		= "1 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_1"
+					Pos		= "15 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_2"
+					Pos		= "13 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_3"
+					Pos		= "13 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_4"
+					Pos		= "13 10"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_5"
+					Pos		= "17 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_6"
+					Pos		= "17 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_7"
+					Pos		= "17 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SMALL_GUN_8"
+					Pos		= "15 13"
+				/>
+				
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_4"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_5"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_6"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_7"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_8"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_9"
+					Pos		= "4 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_10"
+					Pos		= "6 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_11"
+					Pos		= "8 1"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_12"
+					Pos		= "6 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_13"
+					Pos		= "8 4"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_14"
+					Pos		= "6 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_15"
+					Pos		= "8 7"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_16"
+					Pos		= "4 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_17"
+					Pos		= "10 3"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_18"
+					Pos		= "4 6"
 				/>
 			</RepositoryDescription>
 		</Prototype>

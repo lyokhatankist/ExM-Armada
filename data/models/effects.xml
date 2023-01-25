@@ -100,7 +100,7 @@
 
 
 <!-- battleship guns -->
-	<Node name="ET_PS_76AA_FIRE" class="SgNode">
+	<Node name="ET_PS_47AA_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_RAPIER01_FIRE_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Sound1" class="SgSoundSourceNode" 	id="S_SHOOTING_FLAG" looped="0"/>
@@ -338,6 +338,24 @@
 	<Node name="ET_PS_BATTLESHIP_MOD1_FIRE_SOUND" class="SgNode">
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_CYCLOPS" looped="0" />
 		<Node name="Sound2" class="SgSoundSourceNode" id="S_SHOOTING_OMEGA" looped="0" />
+	</Node>
+
+	<Node name="ET_PS_BATTLESHIP_MOD2_FIRE_EFFECT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_FLAG01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_FLAG01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_DRAGON01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object5" class="SgParticlesNode" id="PS_CYCLOPS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object6" class="SgParticlesNode" id="PS_CYCLOPS01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object7" class="SgParticlesNode" id="PS_CYCLOPS01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object8" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAINX" psNumEmitterMesh="-1" />
+		<Node name="Object9" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAINY" psNumEmitterMesh="-1" />
+		<Node name="Object10" class="SgParticlesNode" id="PS_RAPIER01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_BATTLESHIP_MOD2_FIRE_SOUND" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_SHOOTING_CYCLOPS" looped="0" />
+		<Node name="Sound2" class="SgSoundSourceNode" id="S_SHOOTING_HAMMER" looped="0" />
 	</Node>
 <!-- vanilla -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">

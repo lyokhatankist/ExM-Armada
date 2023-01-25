@@ -119,7 +119,12 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 	<VehiclePart
 		PartName	="BASKET_GIANT_GUN_8"
 		ResourceName	="GIANT_GUN"
-	/>           
+	/>         
+
+	<VehiclePart
+		PartName	="BASKET_GIANT_GUN_9"
+		ResourceName	="GIANT_GUN"
+	/>          
 
 	<VehiclePart
 		PartName	="BASKET_SPECIAL_WEAPON_1"
@@ -174,7 +179,52 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 	<VehiclePart
 		PartName	="BASKET_SPECIAL_WEAPON_11"
 		ResourceName	="SPECIAL_WEAPON"
+	/>                                                   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_12"
+		ResourceName	="SPECIAL_WEAPON"
+	/> 
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_13"
+		ResourceName	="SPECIAL_WEAPON"
 	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_14"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_15"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_16"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_17"
+		ResourceName	="SPECIAL_WEAPON"
+	/> 
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_18"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_19"
+		ResourceName	="SPECIAL_WEAPON"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SPECIAL_WEAPON_20"
+		ResourceName	="SPECIAL_WEAPON"
+	/>  
 
 	<VehiclePart
 		PartName	="BASKET_SIDE_GUN_1"

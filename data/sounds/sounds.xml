@@ -490,6 +490,12 @@
 		group="GUNFIRE_MED_CANNON"
 		/>
 
+		<model
+		id="S_SHOOTING_HAMMER"
+		file="data\sounds\Shooting\GiantGun\hammer_shoot.wav"
+		group="EXPLOSIONS_MEDIUM"
+		/>
+
 <!-- Explosions --> 
 
 	<model
