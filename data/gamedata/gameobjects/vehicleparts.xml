@@ -866,17 +866,17 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_0"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_1"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_2"
 					Pos		= "6 7"
 				/>
 
@@ -923,17 +923,17 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_3"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_4"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_5"
 					Pos		= "6 7"
 				/>
 
@@ -980,22 +980,22 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_0"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_1"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_2"
 					Pos		= "6 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_3"
 					Pos		= "6 10"
 				/>
 
@@ -1037,22 +1037,22 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_4"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_5"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_6"
 					Pos		= "6 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_7"
 					Pos		= "6 10"
 				/>
 
@@ -1094,32 +1094,32 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_BIG_GUN_1"
+					Name		= "BASKET_BIG_GUN_0"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_2"
+					Name		= "BASKET_BIG_GUN_1"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_14"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_15"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_16"
 					Pos		= "6 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_17"
 					Pos		= "6 10"
 				/>
 
@@ -1171,32 +1171,32 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_BIG_GUN_3"
+					Name		= "BASKET_BIG_GUN_2"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_4"
+					Name		= "BASKET_BIG_GUN_3"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_14"
 					Pos		= "6 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_15"
 					Pos		= "6 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_16"
 					Pos		= "6 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_17"
 					Pos		= "6 10"
 				/>
 
@@ -1248,22 +1248,22 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_BIG_GUN_1"
+					Name		= "BASKET_BIG_GUN_0"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_2"
+					Name		= "BASKET_BIG_GUN_1"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_3"
+					Name		= "BASKET_BIG_GUN_2"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_4"
+					Name		= "BASKET_BIG_GUN_3"
 					Pos		= "1 10"
 				/>
 
@@ -1340,12 +1340,12 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_BIG_GUN_1"
+					Name		= "BASKET_BIG_GUN_0"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_BIG_GUN_4"
+					Name		= "BASKET_BIG_GUN_3"
 					Pos		= "1 10"
 				/>
 
@@ -1422,57 +1422,57 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_GIANT_GUN_1"
+					Name		= "BASKET_GIANT_GUN_0"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_2"
+					Name		= "BASKET_GIANT_GUN_1"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_3"
+					Name		= "BASKET_GIANT_GUN_2"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_10"
 					Pos		= "15 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_11"
 					Pos		= "13 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_12"
 					Pos		= "13 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_13"
 					Pos		= "13 10"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_14"
 					Pos		= "17 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_15"
 					Pos		= "17 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_16"
 					Pos		= "17 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_17"
 					Pos		= "15 13"
 				/>
 				
@@ -1589,57 +1589,57 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_GIANT_GUN_4"
+					Name		= "BASKET_GIANT_GUN_3"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_5"
+					Name		= "BASKET_GIANT_GUN_4"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_6"
+					Name		= "BASKET_GIANT_GUN_5"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_10"
 					Pos		= "15 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_11"
 					Pos		= "13 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_12"
 					Pos		= "13 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_13"
 					Pos		= "13 10"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_14"
 					Pos		= "17 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_15"
 					Pos		= "17 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_16"
 					Pos		= "17 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_17"
 					Pos		= "15 13"
 				/>
 				
@@ -1756,57 +1756,57 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_GIANT_GUN_7"
+					Name		= "BASKET_GIANT_GUN_6"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_8"
+					Name		= "BASKET_GIANT_GUN_7"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_9"
+					Name		= "BASKET_GIANT_GUN_8"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_10"
 					Pos		= "15 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_11"
 					Pos		= "13 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_12"
 					Pos		= "13 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_13"
 					Pos		= "13 10"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_5"
+					Name		= "BASKET_SMALL_GUN_14"
 					Pos		= "17 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_6"
+					Name		= "BASKET_SMALL_GUN_15"
 					Pos		= "17 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_7"
+					Name		= "BASKET_SMALL_GUN_16"
 					Pos		= "17 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_8"
+					Name		= "BASKET_SMALL_GUN_17"
 					Pos		= "15 13"
 				/>
 				
@@ -1923,42 +1923,42 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_GIANT_GUN_1"
+					Name		= "BASKET_GIANT_GUN_0"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_2"
+					Name		= "BASKET_GIANT_GUN_1"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_3"
+					Name		= "BASKET_GIANT_GUN_2"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_4"
+					Name		= "BASKET_GIANT_GUN_3"
 					Pos		= "1 10"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_10"
 					Pos		= "13 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_11"
 					Pos		= "13 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_12"
 					Pos		= "13 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_13"
 					Pos		= "13 10"
 				/>
 
@@ -2030,42 +2030,42 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<RepositoryDescription
 				RepositorySize		= "6 8">
 				<Slot
-					Name		= "BASKET_GIANT_GUN_5"
+					Name		= "BASKET_GIANT_GUN_4"
 					Pos		= "1 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_6"
+					Name		= "BASKET_GIANT_GUN_5"
 					Pos		= "1 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_7"
+					Name		= "BASKET_GIANT_GUN_6"
 					Pos		= "1 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_GIANT_GUN_8"
+					Name		= "BASKET_GIANT_GUN_7"
 					Pos		= "1 10"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_1"
+					Name		= "BASKET_SMALL_GUN_10"
 					Pos		= "13 1"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_2"
+					Name		= "BASKET_SMALL_GUN_11"
 					Pos		= "13 4"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_3"
+					Name		= "BASKET_SMALL_GUN_12"
 					Pos		= "13 7"
 				/>
 
 				<Slot
-					Name		= "BASKET_SMALL_GUN_4"
+					Name		= "BASKET_SMALL_GUN_13"
 					Pos		= "13 10"
 				/>
 				

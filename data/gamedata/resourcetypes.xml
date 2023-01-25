@@ -54,9 +54,9 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 	</Type>
 	
 	<Type Name = "GUN">
-		<Type Name = "SIDE_GUN"			geomsize = "4 2" />
-		<Type Name = "GIANT_GUN"		geomsize = "3 4" />
-		<Type Name = "BIG_GUN"			geomsize = "2 3" />
+		<Type Name = "SIDE_GUN"			geomsize = "2 2" />
+		<Type Name = "GIANT_GUN"		geomsize = "2 2" />
+		<Type Name = "BIG_GUN"			geomsize = "2 2" />
 		<Type Name = "SMALL_GUN"		geomsize = "2 2" />
 		<Type Name = "SPECIAL_WEAPON"	geomsize = "1 1" />
 
@@ -77,7 +77,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "TWIN135MMCD_GUN"			geomsize = "2 2" />
 
 		<Type Name = "CRUISERCDTORPEDO_GUN"		geomsize = "4 2" />
-		<Type Name = "TWIN203MMCD_GUN"			geomsize = "2 3" />
+		<Type Name = "TWIN203MMCD_GUN"			geomsize = "2 2" />
 		<Type Name = "CRUISERCDROCKET_GUN"		geomsize = "5 3" />
 
 		<Type Name = "TWIN356MMCD_GUN"			geomsize = "3 4" />
@@ -90,8 +90,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 
 		<Type Name = "CRUISERCITTORPEDO_GUN"	geomsize = "4 2" />
 		<Type Name = "SPONSON130MMCIT_GUN"		geomsize = "2 2" />
-		<Type Name = "TWIN152MMCIT_GUN"			geomsize = "2 3" />
-		<Type Name = "TRIPLE155MMCIT_GUN"		geomsize = "2 3" />
+		<Type Name = "TWIN152MMCIT_GUN"			geomsize = "2 2" />
+		<Type Name = "TRIPLE155MMCIT_GUN"		geomsize = "2 2" />
 
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
 		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />
