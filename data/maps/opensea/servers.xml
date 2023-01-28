@@ -754,6 +754,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="AA23mmGun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA23mmGun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="battleshipCIT406Armanent" 
 			file="data\models\AnimModels.xml"/>
 

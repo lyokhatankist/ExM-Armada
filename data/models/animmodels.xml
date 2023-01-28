@@ -5900,6 +5900,81 @@
 	</model>
 
 	<model
+		id="AA23mmGun01"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_battleship\aa23gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIAUTOCANNON_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AA23mmGun01gun"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\cit_battleship\aa23gun_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_OCTOPUS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_OCTOPUS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_OCTOPUS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE04"
+				effect_id="ET_PS_OCTOPUS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE04"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="battleshipCIT406Armanent"
 		file="data\models\battleship\cit_battleship\armanent01.gam"
 		shadow="1"

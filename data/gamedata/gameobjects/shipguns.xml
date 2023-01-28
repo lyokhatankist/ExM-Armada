@@ -1212,7 +1212,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ActionDist		= "1500"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "12"
 		Durability		= "21"
 		Price			= "13310" />
 
@@ -1222,9 +1222,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ModelFile				= "shell01"
 		ExplosionType			= "BLAST"
 
-		Price			= "118"
+		Price			= "124"
 
-		FlyTime			= "15"
+		FlyTime			= "13.5"
 		Size			= "0.5 0.5 1"
 	/>
 
@@ -1249,16 +1249,16 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		InitialVelocity		= "121"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "780"
-		FiringRate		= "230"
+		Damage			= "830"
+		FiringRate		= "180"
 		ChargeSize		= "3"
-		RechargingTime	= "22"
+		RechargingTime	= "17.5"
 
 		FiringRange		= "1400"
 		ActionDist		= "1500"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "12"
 		Durability		= "21"
 		Price			= "13310" />
 
@@ -1282,7 +1282,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "121"
+		InitialVelocity		= "122"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -1290,11 +1290,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1400"
-		ActionDist		= "1500"	
+		FiringRange		= "1350"
+		ActionDist		= "1450"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "10"
 		Durability		= "21"
 		Price			= "13310" />
 
@@ -1304,9 +1304,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ModelFile				= "shell01"
 		ExplosionType			= "BLAST"
 
-		Price			= "118"
+		Price			= "108"
 
-		FlyTime			= "15"
+		FlyTime			= "12.5"
 		Size			= "0.5 0.5 1"
 	/>
 
@@ -1328,19 +1328,19 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "121"
+		InitialVelocity		= "122"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "780"
-		FiringRate		= "230"
+		Damage			= "725"
+		FiringRate		= "220"
 		ChargeSize		= "4"
-		RechargingTime	= "22"
+		RechargingTime	= "19"
 
-		FiringRange		= "1400"
-		ActionDist		= "1500"	
+		FiringRange		= "1350"
+		ActionDist		= "1450"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "10"
 		Durability		= "21"
 		Price			= "13310" />
 
@@ -1364,7 +1364,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "121"
+		InitialVelocity		= "120"
 		BlastWavePrototype	= "smallBlastWave"
 
 		Damage			= "0"
@@ -1372,11 +1372,11 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "0"
 		RechargingTime	= "45"
 
-		FiringRange		= "1400"
-		ActionDist		= "1500"	
+		FiringRange		= "1550"
+		ActionDist		= "1700"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "9"
 		Durability		= "21"
 		Price			= "13310" />
 
@@ -1386,9 +1386,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ModelFile				= "shell01"
 		ExplosionType			= "BLAST"
 
-		Price			= "118"
+		Price			= "152"
 
-		FlyTime			= "15"
+		FlyTime			= "18"
 		Size			= "0.5 0.5 1"
 	/>
 
@@ -1410,19 +1410,19 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
-		InitialVelocity		= "121"
+		InitialVelocity		= "120"
 		BlastWavePrototype	= "smallBlastWave"
 
-		Damage			= "780"
-		FiringRate		= "230"
+		Damage			= "1250"
+		FiringRate		= "200"
 		ChargeSize		= "3"
-		RechargingTime	= "22"
+		RechargingTime	= "22.5"
 
-		FiringRange		= "1400"
-		ActionDist		= "1500"	
+		FiringRange		= "1550"
+		ActionDist		= "1700"	
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "13"
+		TurningSpeed	= "9"
 		Durability		= "21"
 		Price			= "13310" />
 
