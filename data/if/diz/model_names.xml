@@ -1037,6 +1037,86 @@
 		value="Çàíàâåñ" />
 
 	<Item
+		id="BattleshipCIT"
+		locForm="0"
+		value="Ëèáðèóì" />
+
+	<Item
+		id="BattleshipCITForEncyclopaedia"
+		locForm="0"
+		value="Ëèáðèóì" />
+
+	<Item
+		id="battleshipCITEngine"
+		locForm="0"
+		value="Ñèëîâàÿ óñòàíîâêà" />
+
+	<Item
+		id="AA23mmGun01"
+		locForm="0"
+		value="23-ìì óñòàíîâêà ÏÂÎ" />
+
+	<Item
+		id="battleshipCIT406Armanent"
+		locForm="0"
+		value="Îðóäèÿ 406-ìì" />
+
+	<Item
+		id="triple406CIT01"
+		locForm="0"
+		value="406-ìì ÀÓ (ÑÍÃ)" />
+
+	<Item
+		id="mun_triple406CIT01"
+		locForm="0"
+		value="406-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="BattleshipCIT01"
+		locForm="0"
+		value="Ëèáðèóì" />
+
+	<Item
+		id="battleshipCIT380Armanent"
+		locForm="0"
+		value="Îðóäèÿ 380-ìì" />
+
+	<Item
+		id="quadruple380CIT01"
+		locForm="0"
+		value="380-ìì ÀÓ (ÑÍÃ)" />
+
+	<Item
+		id="mun_quadruple380CIT01"
+		locForm="0"
+		value="380-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="BattleshipCIT02"
+		locForm="0"
+		value="Ãåëüâåöèÿ" />
+
+	<Item
+		id="battleshipCIT457Armanent"
+		locForm="0"
+		value="Îðóäèÿ 457-ìì" />
+
+	<Item
+		id="triple457CIT01"
+		locForm="0"
+		value="457-ìì ÀÓ (ÑÍÃ)" />
+
+	<Item
+		id="mun_triple457CIT01"
+		locForm="0"
+		value="457-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="BossCIT01"
+		locForm="0"
+		value="Ëèáðèóì" />
+
+	<Item
 		id="BattleshipCD"
 		locForm="0"
 		value="Ëåâèàôàí" />
