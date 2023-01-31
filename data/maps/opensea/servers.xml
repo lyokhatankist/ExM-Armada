@@ -821,6 +821,22 @@
 			id="mun_triple457CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
 
 
 		<Item 

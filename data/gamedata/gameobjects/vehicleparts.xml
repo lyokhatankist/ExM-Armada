@@ -463,6 +463,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
+			Name						= "semibossCITEngine"
+			ModelFile					= "destroyerCITEngine"
+			ResourceType				= "DESTROYERCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.035"
+
+			Mass						= "100.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "10 50 25"
+			MaxPower					= "1200"
+			MaxTorque					= "1000"
+			MaxSpeed					= "71.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
 			Name						= "destroyerCDEngine"
 			ModelFile					= "destroyerCDEngine"
 			ResourceType				= "DESTROYERCD_CABIN"
@@ -2327,6 +2359,29 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Name						= "cruiserCDEngineForEncyclopaedia"
 			ModelFile					= "cruiserCDHull"
 			ResourceType				= "CRUISERCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>           
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "battleshipCITEngineForEncyclopaedia"
+			ModelFile					= "battleshipCITHull"
+			ResourceType				= "BATTLESHIPCIT_CABIN"
 			NodeScale					= "1 1 1"
 
 			Mass						= "5.0"

@@ -96,6 +96,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
 		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />
 		<Type Name = "TRIPLE457MMCIT_GUN"		geomsize = "3 4" />
+		<Type Name = "TWIN130MMCIT_GUN"			geomsize = "2 2" />
 
 
 		<Type Name = "SMLANTIAIR_GUN"			geomsize = "1 1" />

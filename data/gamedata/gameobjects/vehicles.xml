@@ -491,8 +491,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "18.1"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "750.0"
@@ -535,8 +535,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 		</Wheels>
@@ -573,8 +573,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius				= "850.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
-			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo01" />
-			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "destroyerCITTorpedo01" />
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo02" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "destroyerCITTorpedo02" />
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "single138CIT01" />
@@ -587,6 +587,36 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "SemibossCIT01"
+		ParentPrototype 		= "DestroyerCIT"
+		LookRadius				= "1400.0"
+		MaxEngineRpm			= "5250"
+		LowGearShiftLimit		= "2850"
+		HighGearShiftLimit		= "4200"
+		SteeringSpeed			= "0.5"
+		DriftCoeff				= "0.01"
+		PressingForce			= "1.5"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo02" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "destroyerCITTorpedo02" />
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin130CIT01" />
+			<Part id = "CABIN"						Prototype = "semibossCITEngine" />
+			<Part id = "BASKET"						Prototype = "destroyerCIT130Armanent" />
+			<Part id = "BASKET_SMALL_GUN_0"			Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA23mmGun01" />
 		</Parts>
 	</Prototype>
 
@@ -608,8 +638,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "18.1"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "700.0"
@@ -654,8 +684,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 		</Wheels>
@@ -729,8 +759,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "18"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -877,8 +907,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "18.2"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -1024,8 +1054,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "17.9"
 
 		PressingForce		= "0.5"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -1168,27 +1198,27 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "quadruple380CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "quadruple380CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "quadruple380CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single138CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single138CIT01" />
 			<Part id = "CABIN"						Prototype = "battleshipCITEngine" />
 			<Part id = "BASKET"						Prototype = "battleshipCIT380Armanent" />
 			<Part id = "BASKET_GIANT_GUN_3"			Prototype = "mun_quadruple380CIT01" />
 			<Part id = "BASKET_GIANT_GUN_4"			Prototype = "mun_quadruple380CIT01" />
 			<Part id = "BASKET_GIANT_GUN_5"			Prototype = "mun_quadruple380CIT01" />
-			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_14"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_14"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA23mmGun01" />
@@ -1220,27 +1250,27 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "triple457CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "triple457CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "triple457CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "single130CIT01" />
-			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "single130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "twin130CIT01" />
+			<Part id = "CHASSIS_TURRET_GUN_11"		Prototype = "twin130CIT01" />
 			<Part id = "CABIN"						Prototype = "battleshipCITEngine" />
 			<Part id = "BASKET"						Prototype = "battleshipCIT457Armanent" />
 			<Part id = "BASKET_GIANT_GUN_6"			Prototype = "mun_triple457CIT01" />
 			<Part id = "BASKET_GIANT_GUN_7"			Prototype = "mun_triple457CIT01" />
 			<Part id = "BASKET_GIANT_GUN_8"			Prototype = "mun_triple457CIT01" />
-			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_14"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_14"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_twin130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_twin130CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA23mmGun01" />
@@ -1280,8 +1310,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "18.2"
 
 		PressingForce		= "0.5"
-		MassSize			= "4 4.5 12"
-		MassTranslation		= "-10.0 0.0 -10.0"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -1547,6 +1577,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
 			<Part id = "CABIN"						Prototype = "cruiserCDEngineForEncyclopaedia" />
 			<Part id = "BASKET"						Prototype = "cruiserCD203Armanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "BattleshipCITForEncyclopaedia"
+		ParentPrototype 		= "BattleshipCIT"
+		AdditionalWheelsHover	= "0"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
+			<Part id = "CABIN"						Prototype = "battleshipCITEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "battleshipCIT406Armanent" />
 		</Parts>
 	</Prototype>
 

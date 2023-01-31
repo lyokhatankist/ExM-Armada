@@ -847,6 +847,11 @@
 		value="Ëèîí" />
 
 	<Item
+		id="SemibossCIT01"
+		locForm="0"
+		value="Áðåñò" />
+
+	<Item
 		id="DestroyerCD"
 		locForm="0"
 		value="Àëüáåäî" />
@@ -1110,6 +1115,16 @@
 		id="mun_triple457CIT01"
 		locForm="0"
 		value="457-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="twin130CIT01"
+		locForm="0"
+		value="130-ìì ÀÓ-II (ÑÍÃ)" />
+
+	<Item
+		id="mun_twin130CIT01"
+		locForm="0"
+		value="130-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
 		id="BossCIT01"
