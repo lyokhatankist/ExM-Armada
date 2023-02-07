@@ -642,11 +642,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="AA76mmCannon01" 
+			id="AA47mmCannon01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="AA76mmCannon01gun" 
+			id="AA47mmCannon01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -741,6 +741,100 @@
 
 		<Item 
 			id="cruiser_samCD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="battleshipCITEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA23mmGun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA23mmGun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT406Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT380Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT457Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quadruple380CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quadruple380CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_quadruple380CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_quadruple380CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple457CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple457CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple457CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple457CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
 
@@ -1014,6 +1108,7 @@
 		<Item id="S_SHOOTING_MRAK" />
 		<Item id="S_SHOOTING_ROBOTGUN_01"/>
 		<Item id="S_TANK_SHOOT" />
+		<Item id="S_SHOOTING_HAMMER" />
 
 		<Item id="S_SHOOTING_CRUISERSAM" />
 
