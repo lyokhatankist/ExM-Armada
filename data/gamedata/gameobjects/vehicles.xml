@@ -1450,6 +1450,71 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	</Prototype>
 
 	<Prototype
+		Class				= "Vehicle"
+		Name				= "MerchantCD"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "12"
+		CameraMaxDist		= "70"
+
+		DiffRatio			= "15.0"
+		MaxEngineRpm		= "4550"
+		LowGearShiftLimit	= "2470"
+		HighGearShiftLimit	= "3640"
+		SteeringSpeed		= "0.08"
+		DriftCoeff			= "0.01"
+
+		AdditionalWheelsHover = "18.2"
+
+		PressingForce		= "0.5"
+		MassSize			= "5 5 5"
+		MassTranslation		= "0.0 -15.0 0.0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "400.0"
+		IntersectionRadius	= "15.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "MERCHANTCD_CHASSIS">
+			<PartDescription	id = "CABIN"					partResourceType = "MERCHANTCD_CABIN"		lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "MERCHANTCD_BASKET"		lpName = "LP_CAB01" />
+		</MainPartDescription>
+
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "merchantCDHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "MerchantCD01"
+		ParentPrototype 		= "MerchantCD"
+		LookRadius				= "450.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CABIN"						Prototype = "merchantCDEngine" />
+			<Part id = "BASKET"						Prototype = "merchantCDArmanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
 		Class					= "Vehicle"
 		Name					= "DestroyerCDTest"
 		ParentPrototype 		= "DestroyerCD"
@@ -1603,6 +1668,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
 			<Part id = "CABIN"						Prototype = "battleshipCDEngineForEncyclopaedia" />
 			<Part id = "BASKET"						Prototype = "battleshipCD356Armanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "MerchantCDForEncyclopaedia"
+		ParentPrototype 		= "MerchantCD"
+		AdditionalWheelsHover	= "0"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
+			<Part id = "CABIN"						Prototype = "merchantCDEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "merchantCDArmanent" />
 		</Parts>
 	</Prototype>
 </Prototypes>

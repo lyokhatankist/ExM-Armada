@@ -8901,6 +8901,370 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
+
+	<model
+		id="merchantCDEngine"
+		file="data\models\battleship\cd_merchant\engine.gam"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST_POW"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART01"
+				effect_id="ET_PS_SHIPWATERSPLASH"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART08"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART09"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART10"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART11"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="MOVE2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPEXHAUST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART02"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART03"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART04"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART05"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART06"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART07"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART08"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART09"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART10"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_PART11"
+				effect_id="ET_PS_SHIPWATERTRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="merchantCDHull"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\battleship\cd_merchant\hull.gam">
+		<action
+			name="DEATH1">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW11"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+
+		<action
+			name="DEATH2">
+			<lp
+				id="w"
+				effect_id="ET_PS_VEH_EXP_SHASSIS1_BIG"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW03"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW04"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW05"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW06"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW07"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW08"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW09"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW10"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW11"
+				effect_id="ET_PS_SHIPALARM"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_EXH05"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0" />
+		</action>
+	</model>
 <!-- other -->
 	<model
 		id="submarine"

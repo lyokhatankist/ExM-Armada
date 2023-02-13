@@ -265,6 +265,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Main = "10000"	
 			/>
 		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "merchantCDHull"
+			ModelFile		= "merchantCDHull"
+			ResourceType	= "MERCHANTCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "800.0" 			
+			MaxHealth		= "2500" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Cabins">
@@ -652,6 +672,39 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 					MaxAmount		= "3" />
 			</GadgetDescription>
 		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "merchantCDEngine"
+			ModelFile					= "merchantCDEngine"
+			ResourceType				= "MERCHANTCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
+
+			Mass						= "175.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "5 50 0"
+			MaxPower					= "1200"
+			MaxTorque					= "50"
+			MaxSpeed					= "25.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
 
 		<Prototype
 			Class						= "Cabin"
@@ -2147,6 +2200,27 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				/>
 			</RepositoryDescription>
 		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "merchantCDArmanent"
+			ModelFile					= "point"
+			ResourceType				= "MERCHANTCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "50.0" 
+			Durability					= "300"
+			DurCoeffsForDamageTypes		= "15 50 0"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+			</RepositoryDescription>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Wheels">
@@ -2405,6 +2479,29 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Name						= "battleshipCDEngineForEncyclopaedia"
 			ModelFile					= "battleshipCDHull"
 			ResourceType				= "BATTLESHIPCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>           
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "merchantCDEngineForEncyclopaedia"
+			ModelFile					= "merchantCDHull"
+			ResourceType				= "MERCHANTCD_CABIN"
 			NodeScale					= "1 1 1"
 
 			Mass						= "5.0"
