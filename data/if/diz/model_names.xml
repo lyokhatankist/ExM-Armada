@@ -1185,4 +1185,29 @@
 		id="BattleshipCD02"
 		locForm="0"
 		value="Левиафан" />
+
+	<Item
+		id="MerchantCD"
+		locForm="0"
+		value="Сухогруз" />
+
+	<Item
+		id="MerchantCDForEncyclopaedia"
+		locForm="0"
+		value="Сухогруз" />
+
+	<Item
+		id="merchantCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="merchantCDArmanent"
+		locForm="0"
+		value="Трюм" />
+
+	<Item
+		id="MerchantCD01"
+		locForm="0"
+		value="Сухогруз" />
 </ModelNames>

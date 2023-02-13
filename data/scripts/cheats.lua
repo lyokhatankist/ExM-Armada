@@ -268,6 +268,26 @@ function bat2(vae)
 	end
 end
 
+function mer2(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("MerchantCD01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "merchantConvoy"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"MerchantCD01","MerchantCD01", "MerchantCD01"}, plPos, 1)
+		println(teamNamae.." (CD); "..pos)
+	else
+		AddPlayerVehicle("MerchantCD01")
+	end
+end
+
 function retro(vae)
 	if testcheat()~=1 then return end
 	local jop = 1
@@ -391,7 +411,7 @@ function ShowMap()
 	ShowRectOnMinimap(mapname, 1, 1, mapsize, mapsize)
 end
 
---„«ï ã­ ª®¢  :)
+--ï¿½ï¿½ï¿½ ï¿½ã­ ï¿½ï¿½ï¿½ï¿½ :)
 
 function god (md)
 	if testcheat()~=1 then return end
@@ -453,7 +473,7 @@ function cargo (num)
 end
 
 function giveguns ()
---“†ˆ…
+--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	if testcheat()~=1 then return end
 			local veh=GetPlayerVehicle()
 			local parts={"CABIN_","BASKET_","CHASSIS_"}

@@ -886,6 +886,16 @@
 		<Item 
 			id="mun_triple406CD01gun" 
 			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="merchantCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="merchantCDHull" 
+			file="data\models\AnimModels.xml"/>
 <!-- quest items -->
 		<Item 
 			id="artefact1" 
