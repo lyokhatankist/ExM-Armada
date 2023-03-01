@@ -20,6 +20,7 @@
 		<Item
 			id="mask_hero"
 			file="data\models\AnimModels.xml" />
+			
 <!-- objects -->
 		<Item
 			id="exit"
@@ -291,55 +292,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="MasloRazliF" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="Dimzavesa" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="meXaNizm" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="minoYkladchiK" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="Turboakselerator" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
 			id="mine02" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="MasloRazliFgun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="Dimzavesagun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="meXaNizmgun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="minoYkladchiKgun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="Turboakseleratorgun" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="minoYkladchiK_1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 
 <!-- vehicles -->
@@ -896,6 +849,12 @@
 		<Item 
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="shipbarrier" 
+			file="data\models\AnimModels.xml"/>
+
 <!-- quest items -->
 		<Item 
 			id="artefact1" 

@@ -22,4 +22,16 @@
 		image1="data\if\ico\GlobalMap\r1m1.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
 		musicBlocks="block1 r2_2 r4_2" />
+
+	<LevelInfo
+		name="archipelago"
+		file="data\maps\archipelago.ssl"
+		fullName="Архипелаг"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r1m1.dds"
+		image1="data\if\ico\GlobalMap\r1m1.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="block1 r2_2 r4_2" />
 </LevelInfoResource>
