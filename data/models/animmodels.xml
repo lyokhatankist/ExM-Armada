@@ -9274,6 +9274,206 @@
 		windwavy="0"
 		trans="0" />
 
+	<model
+		id="r1_deadtree1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\deadtree1.gam" />
+
+	<model
+		id="r1_deadtree2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\deadtree2.gam" />
+
+	<model
+		id="r1_deadtree3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\deadtree3.gam" />
+
+	<model
+		id="r1_deadtree4"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\deadtree4.gam" />
+
+	<model
+		id="r1_dub1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\dub1.gam" />
+
+	<model
+		id="r1_dub2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\dub2.gam" />
+
+	<model
+		id="r1_dub3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\dub3.gam" />
+
+	<model
+		id="r1_elka1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\elka1.gam" />
+
+	<model
+		id="r1_elka2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\elka2.gam" />
+
+	<model
+		id="r1_elka3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\elka3.gam" />
+
+	<model
+		id="r1_listvenoe1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\listvenoe1.gam" />
+
+	<model
+		id="r1_listvenoe2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\listvenoe2.gam" />
+
+	<model
+		id="r1_listvenoe3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\listvenoe3.gam" />
+
+	<model
+		id="r1_sosna1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\sosna1.gam" />
+
+	<model
+		id="r1_sosna2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\sosna2.gam" />
+
+	<model
+		id="r1_sosna3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r1\sosna3.gam" />
+
+	<model
+		id="r2_deadtree1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\deadtree1.gam" />
+
+	<model
+		id="r2_deadtree2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\deadtree2.gam" />
+
+	<model
+		id="r2_deadtree3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\deadtree3.gam" />
+
+	<model
+		id="r2_dub1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\dub1.gam" />
+
+	<model
+		id="r2_dub2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\dub2.gam" />
+
+	<model
+		id="r2_dub3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r2\dub3.gam" />
+
+	<model
+		id="r3_palm1"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r3\palm1.gam" />
+
+	<model
+		id="r3_palm2"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r3\palm2.gam" />
+
+	<model
+		id="r3_palm3"
+		shadow="1"
+		trans="1"
+		windwavy="0"
+		useImpostors = "1"
+		file="data\models\battleship\environment\trees\r3\palm3.gam" />
+
 <!-- other -->
 	<model
 		id="submarine"

@@ -3039,14 +3039,14 @@
 			nightColor="17.850 33.150 43.350" />
 
 		<Ambient
-			sunriseColor="112.200 117.300 128.000"
-			dayColor="232.050 229.500 255.000"
-			sunsetColor="128.000 128.000 128.000"
-			nightColor="25.500 35.700 61.200" />
+			sunriseColor="150.450 117.300 128.000"
+			dayColor="178.500 196.350 255.000"
+			sunsetColor="178.500 128.000 128.000"
+			nightColor="12.750 35.700 45.900" />
 
 		<Diffuse
 			sunriseColor="104.550 117.300 128.000"
-			dayColor="234.600 234.600 255.000"
+			dayColor="242.250 234.600 255.000"
 			sunsetColor="128.000 128.000 128.000"
 			nightColor="25.500 43.350 64.000" />
 
@@ -3078,13 +3078,13 @@
 			sunrise="1"
 			day="1"
 			sunset="1"
-			night="1" />
+			night="0" />
 
 		<ShadowTransparency
-			sunrise="0.500"
-			day="0.500"
-			sunset="0.500"
-			night="0.500" />
+			sunrise="30.000"
+			day="10.000"
+			sunset="20.000"
+			night="0.000" />
 
 		<cloudsSpeed
 			sunrise="0.013"

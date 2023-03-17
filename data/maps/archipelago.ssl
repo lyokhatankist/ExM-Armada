@@ -9,7 +9,7 @@
 			name="WEATHERTYPE">islands_clear</Key>
 
 		<Key
-			name="CURRENTDAYTIME">1</Key>
+			name="CURRENTDAYTIME">3</Key>
 
 		<Key
 			name="PATH">data\maps\archipelago</Key>
@@ -93,10 +93,10 @@
 			name="WATERABSBLUE">0.000</Key>
 
 		<Key
-			name="MINSAFEX">40.000</Key>
+			name="MINSAFEX">40.0</Key>
 
 		<Key
-			name="MINSAFEY">40.000</Key>
+			name="MINSAFEY">40.0</Key>
 
 		<Key
 			name="MAXSAFEX">8152.000</Key>
@@ -195,16 +195,16 @@
 			name="SUN_AZIMUTH_SPEED">0.000</Key>
 
 		<Key
-			name="SUN_AZIMUTH">45.000</Key>
+			name="SUN_AZIMUTH">10.000</Key>
 
 		<Key
 			name="SUN_DAY_ASCENTION">90.000</Key>
 
 		<Key
-			name="SUN_RISE_ASCENTION">53.000</Key>
+			name="SUN_RISE_ASCENTION">30.000</Key>
 
 		<Key
-			name="SUN_SET_ASCENTION">127.000</Key>
+			name="SUN_SET_ASCENTION">125.000</Key>
 
 		<Key
 			name="TILES">level.tile</Key>
@@ -213,19 +213,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">2357.440</Key>
+			name="X">6230.912</Key>
 
 		<Key
-			name="Y">384.180</Key>
+			name="Y">374.359</Key>
 
 		<Key
-			name="Z">3497.027</Key>
+			name="Z">4707.627</Key>
 
 		<Key
-			name="A">-1.394</Key>
+			name="A">-376.256</Key>
 
 		<Key
-			name="B">-0.641</Key>
+			name="B">-0.299</Key>
 
 		<Key
 			name="G">0.000</Key>

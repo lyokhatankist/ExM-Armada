@@ -94,6 +94,7 @@
 		<Item 
 			id="segments_big_07" 
 			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="segments_big_08"
 			file="data\models\AnimModels.xml"/>
@@ -901,6 +902,246 @@
 		<Item 
 			id="shipbarrier" 
 			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_deadtree1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_deadtree2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_deadtree3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_deadtree4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_dub1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_dub2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_dub3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_elka1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_elka2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_elka3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_listvenoe1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_listvenoe2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_listvenoe3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_sosna1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_sosna2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r1_sosna3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sedge_grass_1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sedge_grass_2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sedge_grass_4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib5" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib8" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="grib9" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_5" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_6" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_7" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_8" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_9" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_10" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_11" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_12" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_stone2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_stone3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_stone5" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="boulder_stone3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="boulder_stone4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml_stone1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sml_stone3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="machine_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="machine_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="machine_house4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_house1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_house2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_house3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_house4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="brick_house5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="helvecia"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust1_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust2_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_freehouse1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_freehouse2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_housebandit1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_housebandit2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_rr_angar1"
+			file="data\models\AnimModels.xml" />
 			
 <!-- quest items -->
 		<Item 

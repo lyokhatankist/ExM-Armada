@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="321126941">
+	LastId="321127170">
 	<Node
 		name="Object321126804"
 		class="SgAnimatedModelNode"
@@ -1092,5 +1092,2100 @@
 		rot="0.0000 0.8649 0.0000 0.5019"
 		scale="0.700 1.000 1.000"
 		id="shipbarrier"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126941"
+		class="SgAnimatedModelNode"
+		org="6618.710 -0.550 4466.278"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126942"
+		class="SgAnimatedModelNode"
+		org="6629.397 -6.327 4451.455"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="0.250 0.250 0.250"
+		id="helvecia"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126943"
+		class="SgAnimatedModelNode"
+		org="6611.410 0.000 4473.366"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126944"
+		class="SgAnimatedModelNode"
+		org="6622.564 -0.289 4501.003"
+		orgRel="1"
+		rot="0.0000 0.0523 0.0000 0.9986"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126945"
+		class="SgAnimatedModelNode"
+		org="6633.218 0.000 4461.328"
+		orgRel="1"
+		rot="0.0000 -0.8434 0.0000 0.5373"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126946"
+		class="SgAnimatedModelNode"
+		org="6630.058 0.000 4468.958"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126949"
+		class="SgAnimatedModelNode"
+		org="6641.990 0.157 4469.489"
+		orgRel="1"
+		rot="0.0000 0.4733 0.0000 0.8809"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126950"
+		class="SgAnimatedModelNode"
+		org="6645.637 -0.151 4462.899"
+		orgRel="1"
+		rot="0.0000 0.6344 0.0000 0.7730"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126951"
+		class="SgAnimatedModelNode"
+		org="6603.117 0.000 4450.781"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126952"
+		class="SgAnimatedModelNode"
+		org="6607.852 -0.550 4458.816"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126953"
+		class="SgAnimatedModelNode"
+		org="6606.097 0.000 4467.074"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126954"
+		class="SgAnimatedModelNode"
+		org="6598.609 0.000 4478.155"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126955"
+		class="SgAnimatedModelNode"
+		org="6597.513 -0.300 4467.024"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126956"
+		class="SgAnimatedModelNode"
+		org="6587.342 0.000 4470.814"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126957"
+		class="SgAnimatedModelNode"
+		org="6587.986 0.000 4454.597"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126958"
+		class="SgAnimatedModelNode"
+		org="6606.999 0.000 4428.626"
+		orgRel="1"
+		rot="0.0000 0.9999 0.0000 -0.0131"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126959"
+		class="SgAnimatedModelNode"
+		org="6621.505 0.000 4428.908"
+		orgRel="1"
+		rot="0.0000 -0.9659 0.0000 0.2588"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126960"
+		class="SgAnimatedModelNode"
+		org="6635.385 -0.300 4428.146"
+		orgRel="1"
+		rot="0.0000 -0.7561 0.0000 0.6544"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126961"
+		class="SgAnimatedModelNode"
+		org="6590.419 -0.412 4476.903"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126962"
+		class="SgAnimatedModelNode"
+		org="6601.557 -0.417 4443.390"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126963"
+		class="SgAnimatedModelNode"
+		org="6604.345 -0.550 4436.556"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126964"
+		class="SgAnimatedModelNode"
+		org="6589.602 -0.550 4444.393"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126965"
+		class="SgAnimatedModelNode"
+		org="6588.310 0.000 4432.456"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126966"
+		class="SgAnimatedModelNode"
+		org="6630.610 -0.175 4498.899"
+		orgRel="1"
+		rot="0.0000 0.1392 0.0000 0.9903"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126967"
+		class="SgAnimatedModelNode"
+		org="6639.082 -0.051 4495.254"
+		orgRel="1"
+		rot="0.0000 0.2250 0.0000 0.9744"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126968"
+		class="SgAnimatedModelNode"
+		org="6657.277 -0.020 4480.176"
+		orgRel="1"
+		rot="0.0000 0.3645 0.0000 0.9312"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126969"
+		class="SgAnimatedModelNode"
+		org="6662.604 -0.054 4472.538"
+		orgRel="1"
+		rot="0.0000 0.5206 0.0000 0.8538"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126970"
+		class="SgAnimatedModelNode"
+		org="6598.711 -0.390 4500.540"
+		orgRel="1"
+		rot="0.0000 -0.1240 0.0000 0.9923"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126971"
+		class="SgAnimatedModelNode"
+		org="6589.881 -0.436 4497.432"
+		orgRel="1"
+		rot="0.0000 -0.2100 0.0000 0.9777"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126972"
+		class="SgAnimatedModelNode"
+		org="6581.580 -0.462 4492.931"
+		orgRel="1"
+		rot="0.0000 -0.2945 0.0000 0.9557"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126973"
+		class="SgAnimatedModelNode"
+		org="6566.973 -0.617 4474.376"
+		orgRel="1"
+		rot="0.0000 -0.5281 0.0000 0.8492"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126974"
+		class="SgAnimatedModelNode"
+		org="6564.088 -0.627 4466.179"
+		orgRel="1"
+		rot="0.0000 -0.6001 0.0000 0.7999"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126975"
+		class="SgAnimatedModelNode"
+		org="6562.585 -0.717 4457.258"
+		orgRel="1"
+		rot="0.0000 -0.6675 0.0000 0.7446"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126976"
+		class="SgAnimatedModelNode"
+		org="6665.958 -0.073 4464.003"
+		orgRel="1"
+		rot="0.0000 0.5931 0.0000 0.8052"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126977"
+		class="SgAnimatedModelNode"
+		org="6619.569 -0.218 4478.112"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126982"
+		class="SgAnimatedModelNode"
+		org="6652.433 -0.364 4515.323"
+		orgRel="1"
+		rot="0.0000 0.9588 0.0000 -0.2840"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126983"
+		class="SgAnimatedModelNode"
+		org="6659.094 -0.580 4510.347"
+		orgRel="1"
+		rot="0.0000 0.9288 0.0000 -0.3706"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126984"
+		class="SgAnimatedModelNode"
+		org="6665.049 -0.307 4504.980"
+		orgRel="1"
+		rot="0.0000 0.9063 0.0000 0.4226"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126985"
+		class="SgAnimatedModelNode"
+		org="6633.317 0.122 4473.995"
+		orgRel="1"
+		rot="0.0000 -0.8290 0.0000 -0.5592"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126986"
+		class="SgAnimatedModelNode"
+		org="6572.776 -0.807 4481.746"
+		orgRel="1"
+		rot="0.0000 0.3359 0.0000 0.9419"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126987"
+		class="SgAnimatedModelNode"
+		org="6577.303 -0.546 4488.071"
+		orgRel="1"
+		rot="0.0000 -0.4087 0.0000 0.9127"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126989"
+		class="SgAnimatedModelNode"
+		org="6587.260 -0.389 4485.724"
+		orgRel="1"
+		rot="0.0000 0.8526 0.0000 -0.5225"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126990"
+		class="SgAnimatedModelNode"
+		org="6580.998 -0.546 4476.604"
+		orgRel="1"
+		rot="0.0000 0.2313 0.0000 0.9729"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126991"
+		class="SgAnimatedModelNode"
+		org="6615.892 0.205 4501.148"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126992"
+		class="SgAnimatedModelNode"
+		org="3866.447 0.000 3537.209"
+		orgRel="1"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321126993"
+		class="SgAnimatedModelNode"
+		org="3831.522 0.000 3457.911"
+		orgRel="1"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126994"
+		class="SgAnimatedModelNode"
+		org="3699.789 0.000 3538.801"
+		orgRel="1"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126995"
+		class="SgAnimatedModelNode"
+		org="6440.120 0.000 5128.086"
+		orgRel="1"
+		rot="0.0000 0.0502 0.0000 0.9987"
+		id="big_crag_2"
+		ndmAction="0"
+		passable="0" />
+
+	<Node
+		name="Object321126996"
+		class="SgAnimatedModelNode"
+		org="3931.190 0.000 3557.425"
+		orgRel="1"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126997"
+		class="SgAnimatedModelNode"
+		org="3835.908 0.000 3631.523"
+		orgRel="1"
+		id="big_crag_4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126998"
+		class="SgAnimatedModelNode"
+		org="3842.326 0.000 3607.758"
+		orgRel="1"
+		id="big_crag_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321126999"
+		class="SgAnimatedModelNode"
+		org="3853.319 0.000 3626.233"
+		orgRel="1"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127000"
+		class="SgAnimatedModelNode"
+		org="3760.367 0.000 3455.241"
+		orgRel="1"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127001"
+		class="SgAnimatedModelNode"
+		org="3731.441 0.000 3606.140"
+		orgRel="1"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127002"
+		class="SgAnimatedModelNode"
+		org="3776.025 0.000 3581.650"
+		orgRel="1"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127003"
+		class="SgAnimatedModelNode"
+		org="3818.909 0.000 3554.889"
+		orgRel="1"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127004"
+		class="SgAnimatedModelNode"
+		org="3863.824 0.000 3605.144"
+		orgRel="1"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127005"
+		class="SgAnimatedModelNode"
+		org="5706.747 -17.612 4833.423"
+		orgRel="1"
+		rot="0.0000 0.9950 0.0000 0.1002"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127006"
+		class="SgAnimatedModelNode"
+		org="6076.144 -19.009 4898.205"
+		orgRel="1"
+		rot="0.0000 0.7328 0.0000 0.6804"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127007"
+		class="SgAnimatedModelNode"
+		org="6176.208 -21.215 5200.728"
+		orgRel="1"
+		rot="0.0000 0.8204 0.0000 0.5718"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127008"
+		class="SgAnimatedModelNode"
+		org="6406.946 -13.159 5258.189"
+		orgRel="1"
+		rot="0.0000 0.4520 0.0000 0.8920"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127009"
+		class="SgAnimatedModelNode"
+		org="6352.503 -25.034 5256.667"
+		orgRel="1"
+		rot="0.0000 0.1994 0.0000 0.9799"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127010"
+		class="SgAnimatedModelNode"
+		org="6326.018 -10.497 5286.138"
+		orgRel="1"
+		rot="0.0000 -0.2819 0.0000 0.9594"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127011"
+		class="SgAnimatedModelNode"
+		org="6306.065 -26.717 5339.639"
+		orgRel="1"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127012"
+		class="SgAnimatedModelNode"
+		org="6378.154 -25.310 5227.184"
+		orgRel="1"
+		rot="0.0000 0.8013 0.0000 0.5983"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127013"
+		class="SgAnimatedModelNode"
+		org="6277.063 -40.856 5244.096"
+		orgRel="1"
+		rot="0.0000 0.6994 0.0000 -0.7148"
+		scale="1.500 1.500 1.500"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127014"
+		class="SgAnimatedModelNode"
+		org="6431.359 -33.611 5186.608"
+		orgRel="1"
+		rot="0.0000 0.8840 0.0000 0.4675"
+		scale="1.200 1.200 1.200"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127015"
+		class="SgAnimatedModelNode"
+		org="6103.085 -21.684 5152.655"
+		orgRel="1"
+		rot="0.0000 -0.9304 0.0000 -0.3665"
+		scale="1.500 1.500 1.500"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127016"
+		class="SgAnimatedModelNode"
+		org="5902.961 -42.571 5034.673"
+		orgRel="1"
+		rot="0.0000 -0.9511 0.0000 -0.3090"
+		scale="1.500 1.500 1.500"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127017"
+		class="SgAnimatedModelNode"
+		org="5734.038 -51.608 4931.932"
+		orgRel="1"
+		rot="-0.0983 -0.9759 0.0195 0.1941"
+		scale="1.300 1.300 1.300"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127018"
+		class="SgAnimatedModelNode"
+		org="5825.439 -31.617 4954.907"
+		orgRel="1"
+		rot="0.0000 0.9100 0.0000 0.4147"
+		scale="1.400 1.400 1.400"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127019"
+		class="SgAnimatedModelNode"
+		org="5916.634 -32.233 4897.138"
+		orgRel="1"
+		rot="-0.0509 0.9720 0.0120 -0.2289"
+		scale="1.300 1.300 1.300"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127020"
+		class="SgAnimatedModelNode"
+		org="5958.908 -22.900 4875.018"
+		orgRel="1"
+		rot="0.0701 0.7803 -0.0889 0.6151"
+		scale="1.100 1.100 1.100"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127021"
+		class="SgAnimatedModelNode"
+		org="6018.017 -21.086 4865.949"
+		orgRel="1"
+		rot="-0.0464 0.5727 0.0325 0.8178"
+		scale="1.200 1.200 1.200"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127022"
+		class="SgAnimatedModelNode"
+		org="6041.982 -22.752 4917.947"
+		orgRel="1"
+		rot="0.0969 -0.1514 0.0149 0.9836"
+		scale="1.250 1.250 1.250"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127023"
+		class="SgAnimatedModelNode"
+		org="6011.912 -24.759 4953.771"
+		orgRel="1"
+		rot="0.0017 -0.4540 0.0014 0.8910"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127024"
+		class="SgAnimatedModelNode"
+		org="5965.480 -40.642 4972.680"
+		orgRel="1"
+		rot="-0.0014 0.2122 -0.0064 0.9772"
+		scale="1.500 1.500 1.500"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127025"
+		class="SgAnimatedModelNode"
+		org="5959.711 -17.167 5000.915"
+		orgRel="1"
+		rot="0.0418 -0.2837 0.0124 0.9579"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127026"
+		class="SgAnimatedModelNode"
+		org="5927.209 -15.834 5059.043"
+		orgRel="1"
+		rot="0.1327 0.0000 0.0000 0.9912"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127027"
+		class="SgAnimatedModelNode"
+		org="5936.416 -7.363 5094.448"
+		orgRel="1"
+		rot="0.1522 0.2784 -0.0447 0.9473"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127028"
+		class="SgAnimatedModelNode"
+		org="5951.768 -22.660 5125.390"
+		orgRel="1"
+		rot="0.1318 0.5325 -0.0843 0.8318"
+		scale="1.100 1.100 1.100"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127029"
+		class="SgAnimatedModelNode"
+		org="5997.686 -21.462 5147.835"
+		orgRel="1"
+		rot="0.0000 0.5931 0.0000 0.8052"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127030"
+		class="SgAnimatedModelNode"
+		org="6046.258 -20.089 5158.516"
+		orgRel="1"
+		rot="-0.1304 0.9905 -0.0057 0.0432"
+		scale="1.100 1.100 1.100"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127031"
+		class="SgAnimatedModelNode"
+		org="5918.320 -11.307 5079.713"
+		orgRel="1"
+		rot="-0.1027 0.8574 0.1881 0.4679"
+		scale="0.800 0.800 0.800"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127032"
+		class="SgAnimatedModelNode"
+		org="5921.154 -28.592 5107.121"
+		orgRel="1"
+		rot="0.2303 0.5047 0.0902 0.8271"
+		scale="0.800 0.800 0.800"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127033"
+		class="SgAnimatedModelNode"
+		org="5985.312 -3.158 5069.322"
+		orgRel="1"
+		scale="0.600 0.600 0.600"
+		id="big_crag_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127034"
+		class="SgAnimatedModelNode"
+		org="5965.050 -2.954 5089.034"
+		orgRel="1"
+		rot="0.0000 0.4598 0.0000 0.8880"
+		scale="0.600 0.600 0.600"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127035"
+		class="SgAnimatedModelNode"
+		org="6030.524 -1.270 5064.297"
+		orgRel="1"
+		scale="0.600 0.600 0.600"
+		id="big_crag_4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127036"
+		class="SgAnimatedModelNode"
+		org="6022.992 -1.041 5043.994"
+		orgRel="1"
+		scale="0.600 0.600 0.600"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127037"
+		class="SgAnimatedModelNode"
+		org="6231.324 -1.877 5047.586"
+		orgRel="1"
+		rot="0.0608 0.7571 -0.0712 0.6466"
+		scale="0.800 0.800 0.800"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127038"
+		class="SgAnimatedModelNode"
+		org="6202.146 -1.919 5086.613"
+		orgRel="1"
+		scale="0.700 0.700 0.700"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127039"
+		class="SgAnimatedModelNode"
+		org="6130.921 -21.242 5182.929"
+		orgRel="1"
+		rot="0.0085 0.1863 0.0450 0.9814"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127040"
+		class="SgAnimatedModelNode"
+		org="6194.730 -0.698 5086.847"
+		orgRel="1"
+		rot="0.0000 0.8303 0.0000 0.5574"
+		scale="0.800 0.800 0.800"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127041"
+		class="SgAnimatedModelNode"
+		org="6196.073 -3.158 5080.119"
+		orgRel="1"
+		rot="0.0000 0.7373 0.0000 0.6756"
+		scale="0.600 0.600 0.600"
+		id="big_crag_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127042"
+		class="SgAnimatedModelNode"
+		org="6170.098 -1.270 5072.409"
+		orgRel="1"
+		rot="0.0000 -0.6915 0.0000 0.7224"
+		scale="0.600 0.600 0.600"
+		id="big_crag_4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127043"
+		class="SgAnimatedModelNode"
+		org="6171.719 -1.041 5077.952"
+		orgRel="1"
+		rot="0.0000 0.3338 0.0000 0.9426"
+		scale="0.600 0.600 0.600"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127044"
+		class="SgAnimatedModelNode"
+		org="6183.168 -1.919 5053.735"
+		orgRel="1"
+		rot="-0.1516 0.1843 0.0288 0.9707"
+		scale="0.700 0.700 0.700"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127045"
+		class="SgAnimatedModelNode"
+		org="6197.575 -1.603 5040.989"
+		orgRel="1"
+		rot="-0.1922 -0.2598 -0.0529 0.9449"
+		scale="0.700 0.700 0.700"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127046"
+		class="SgAnimatedModelNode"
+		org="6011.134 -5.387 4974.788"
+		orgRel="1"
+		rot="0.3466 0.5996 -0.0827 0.7166"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127047"
+		class="SgAnimatedModelNode"
+		org="6453.361 -9.796 5057.161"
+		orgRel="1"
+		rot="0.0000 0.9708 0.0000 0.2398"
+		scale="0.700 0.700 0.700"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127048"
+		class="SgAnimatedModelNode"
+		org="6450.418 -4.714 5025.736"
+		orgRel="1"
+		rot="0.0000 0.7561 0.0000 0.6544"
+		scale="0.600 0.600 0.600"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127049"
+		class="SgAnimatedModelNode"
+		org="6435.208 -4.300 5047.211"
+		orgRel="1"
+		rot="0.0000 -0.7771 0.0000 0.6293"
+		scale="0.700 0.700 0.700"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127050"
+		class="SgAnimatedModelNode"
+		org="6436.081 -14.776 5026.591"
+		orgRel="1"
+		rot="0.0000 0.9063 0.0000 0.4226"
+		scale="0.900 0.900 0.900"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127051"
+		class="SgAnimatedModelNode"
+		org="6460.389 -3.254 5012.633"
+		orgRel="1"
+		scale="0.600 0.600 0.600"
+		id="big_crag_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127052"
+		class="SgAnimatedModelNode"
+		org="6432.661 -2.562 5009.008"
+		orgRel="1"
+		rot="-0.0436 0.8327 -0.0289 0.5512"
+		scale="0.800 0.800 0.800"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127053"
+		class="SgAnimatedModelNode"
+		org="6153.771 -10.136 5045.068"
+		orgRel="1"
+		rot="0.2982 0.8911 0.1085 0.3243"
+		scale="0.700 0.700 0.700"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127054"
+		class="SgAnimatedModelNode"
+		org="6015.379 -9.059 5094.780"
+		orgRel="1"
+		rot="0.1478 0.4836 0.2522 0.8250"
+		scale="0.700 0.700 0.700"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127055"
+		class="SgAnimatedModelNode"
+		org="6222.278 -12.822 5067.212"
+		orgRel="1"
+		rot="-0.1923 0.7587 0.2576 0.5666"
+		scale="0.800 0.800 0.800"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127056"
+		class="SgAnimatedModelNode"
+		org="6238.977 -6.582 5078.818"
+		orgRel="1"
+		rot="-0.0892 -0.2519 0.3217 0.9084"
+		scale="0.700 0.700 0.700"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127057"
+		class="SgAnimatedModelNode"
+		org="6227.441 -2.378 5058.507"
+		orgRel="1"
+		rot="0.0000 0.3338 0.0000 0.9426"
+		scale="0.800 0.800 0.800"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127058"
+		class="SgAnimatedModelNode"
+		org="6212.048 -2.602 5042.970"
+		orgRel="1"
+		rot="0.0037 0.9930 -0.1131 0.0325"
+		scale="0.700 0.700 0.700"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127059"
+		class="SgAnimatedModelNode"
+		org="6208.890 -1.270 5063.443"
+		orgRel="1"
+		rot="0.1977 -0.6633 -0.0105 0.7217"
+		scale="0.900 0.900 0.900"
+		id="big_crag_4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127060"
+		class="SgAnimatedModelNode"
+		org="6363.377 -9.067 5173.995"
+		orgRel="1"
+		rot="0.0601 0.6383 0.0719 0.7641"
+		scale="0.800 0.800 0.800"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127061"
+		class="SgAnimatedModelNode"
+		org="6329.079 -9.377 5179.190"
+		orgRel="1"
+		rot="-0.0041 -0.9915 -0.0325 0.1261"
+		scale="0.800 0.800 0.800"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127062"
+		class="SgAnimatedModelNode"
+		org="6298.040 -13.273 5197.245"
+		orgRel="1"
+		rot="0.1496 0.8977 -0.0271 0.4135"
+		scale="0.800 0.800 0.800"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127063"
+		class="SgAnimatedModelNode"
+		org="6323.248 -21.709 5212.873"
+		orgRel="1"
+		rot="0.0443 0.7800 0.0354 0.6232"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127064"
+		class="SgAnimatedModelNode"
+		org="5853.461 -6.746 5106.394"
+		orgRel="1"
+		rot="0.0000 0.5428 0.0000 0.8399"
+		scale="0.900 0.900 0.900"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127065"
+		class="SgAnimatedModelNode"
+		org="5970.321 -20.415 4888.374"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127066"
+		class="SgAnimatedModelNode"
+		org="5939.051 -21.399 4924.180"
+		orgRel="1"
+		rot="0.0000 0.9280 0.0000 0.3726"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127067"
+		class="SgAnimatedModelNode"
+		org="5993.141 -14.005 4926.603"
+		orgRel="1"
+		rot="0.0000 0.7209 0.0000 0.6931"
+		scale="0.800 0.800 0.800"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127068"
+		class="SgAnimatedModelNode"
+		org="6190.631 -16.705 5245.882"
+		orgRel="1"
+		rot="0.0000 0.6053 0.0000 0.7960"
+		scale="0.800 0.800 0.800"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127069"
+		class="SgAnimatedModelNode"
+		org="6213.189 -22.022 5231.130"
+		orgRel="1"
+		rot="0.0000 0.7730 0.0000 0.6344"
+		scale="0.700 0.700 0.700"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127070"
+		class="SgAnimatedModelNode"
+		org="6256.493 -21.405 5288.855"
+		orgRel="1"
+		rot="0.0000 -0.8290 0.0000 0.5592"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127071"
+		class="SgAnimatedModelNode"
+		org="6198.803 -19.155 5267.755"
+		orgRel="1"
+		rot="0.0000 -0.7758 0.0000 0.6310"
+		scale="0.800 0.800 0.800"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127073"
+		class="SgAnimatedModelNode"
+		org="5770.942 -23.183 4965.866"
+		orgRel="1"
+		rot="0.0000 0.7431 0.0000 0.6691"
+		scale="0.900 0.900 0.900"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127074"
+		class="SgAnimatedModelNode"
+		org="5849.288 -28.294 4922.762"
+		orgRel="1"
+		rot="0.0000 0.9455 0.0000 0.3256"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127075"
+		class="SgAnimatedModelNode"
+		org="5757.375 -6.754 4970.408"
+		orgRel="1"
+		rot="0.0000 0.4733 0.0000 0.8809"
+		scale="0.800 0.800 0.800"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127076"
+		class="SgAnimatedModelNode"
+		org="5676.801 -15.153 4922.914"
+		orgRel="1"
+		rot="0.0068 -0.7839 -0.0054 0.6208"
+		scale="0.800 0.800 0.800"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127077"
+		class="SgAnimatedModelNode"
+		org="5690.887 -17.880 4878.428"
+		orgRel="1"
+		rot="0.0246 0.9136 -0.0559 0.4020"
+		scale="0.800 0.800 0.800"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127078"
+		class="SgAnimatedModelNode"
+		org="5641.430 -20.550 4916.214"
+		orgRel="1"
+		rot="-0.0156 0.9769 0.0769 0.1988"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127079"
+		class="SgAnimatedModelNode"
+		org="5668.248 -23.548 4885.368"
+		orgRel="1"
+		rot="-0.0102 0.9893 0.1171 0.0866"
+		scale="0.700 0.700 0.700"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127080"
+		class="SgAnimatedModelNode"
+		org="5684.495 -27.249 4862.928"
+		orgRel="1"
+		rot="0.0000 0.9382 0.0000 0.3461"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127081"
+		class="SgAnimatedModelNode"
+		org="5648.315 -27.177 4961.060"
+		orgRel="1"
+		rot="0.0000 0.8594 0.0000 0.5113"
+		scale="1.100 1.100 1.100"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127082"
+		class="SgAnimatedModelNode"
+		org="5607.286 -19.429 4960.929"
+		orgRel="1"
+		rot="0.0570 0.8530 -0.0953 0.5100"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127083"
+		class="SgAnimatedModelNode"
+		org="5576.485 -26.249 4990.073"
+		orgRel="1"
+		rot="0.0000 0.7102 0.0000 0.7040"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127084"
+		class="SgAnimatedModelNode"
+		org="5654.195 -15.743 4993.860"
+		orgRel="1"
+		rot="-0.0658 0.3940 0.1395 -0.9061"
+		scale="0.800 0.800 0.800"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127085"
+		class="SgAnimatedModelNode"
+		org="5652.604 -21.480 4977.162"
+		orgRel="1"
+		rot="0.0000 0.7402 0.0000 0.6724"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127086"
+		class="SgAnimatedModelNode"
+		org="5734.213 -23.424 4943.653"
+		orgRel="1"
+		rot="0.0000 0.2735 0.0000 0.9619"
+		scale="0.800 0.800 0.800"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127087"
+		class="SgAnimatedModelNode"
+		org="5751.996 -22.520 5011.184"
+		orgRel="1"
+		rot="-0.0632 0.0065 0.0004 0.9980"
+		scale="0.800 0.800 0.800"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127089"
+		class="SgAnimatedModelNode"
+		org="5698.460 -29.430 4935.490"
+		orgRel="1"
+		rot="0.0230 0.8495 -0.0371 0.5257"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127090"
+		class="SgAnimatedModelNode"
+		org="5788.944 -23.668 5007.859"
+		orgRel="1"
+		rot="0.0112 0.8655 0.0930 0.4921"
+		scale="1.200 1.200 1.200"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127091"
+		class="SgAnimatedModelNode"
+		org="5758.790 -13.063 5044.368"
+		orgRel="1"
+		rot="-0.1147 0.7641 0.1416 0.6188"
+		scale="0.700 0.700 0.700"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127092"
+		class="SgAnimatedModelNode"
+		org="5734.010 -24.279 5031.647"
+		orgRel="1"
+		rot="0.0000 0.3132 0.0000 0.9497"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127093"
+		class="SgAnimatedModelNode"
+		org="5723.447 -12.295 4980.616"
+		orgRel="1"
+		rot="-0.0811 -0.9884 -0.0536 0.1166"
+		scale="0.600 0.600 0.600"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127094"
+		class="SgAnimatedModelNode"
+		org="5848.018 -14.989 5022.412"
+		orgRel="1"
+		rot="0.2441 0.3783 0.2090 0.8681"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127095"
+		class="SgAnimatedModelNode"
+		org="5863.905 -19.876 5027.615"
+		orgRel="1"
+		rot="0.0000 -0.1349 0.0000 0.9909"
+		scale="0.900 0.900 0.900"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127096"
+		class="SgAnimatedModelNode"
+		org="5857.301 -22.747 5184.863"
+		orgRel="1"
+		rot="0.0554 -0.2837 0.0872 0.9533"
+		scale="0.900 0.900 0.900"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127097"
+		class="SgAnimatedModelNode"
+		org="5874.686 -17.248 5125.464"
+		orgRel="1"
+		rot="-0.1423 0.2685 0.0401 0.9519"
+		scale="1.100 1.100 1.100"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127099"
+		class="SgAnimatedModelNode"
+		org="5865.081 -15.941 5062.835"
+		orgRel="1"
+		rot="-0.1433 -0.5005 0.1568 0.8393"
+		scale="0.800 0.800 0.800"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127100"
+		class="SgAnimatedModelNode"
+		org="5512.946 -29.693 5018.225"
+		orgRel="1"
+		rot="0.0000 0.8077 0.0000 0.5895"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127101"
+		class="SgAnimatedModelNode"
+		org="5447.728 -18.891 5042.685"
+		orgRel="1"
+		rot="0.0000 0.9912 0.0000 0.1327"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127102"
+		class="SgAnimatedModelNode"
+		org="5463.499 -19.046 5119.468"
+		orgRel="1"
+		rot="0.0000 -0.4733 0.0000 0.8809"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127103"
+		class="SgAnimatedModelNode"
+		org="5496.947 -29.687 5070.584"
+		orgRel="1"
+		rot="0.0000 -0.9304 0.0000 0.3665"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127104"
+		class="SgAnimatedModelNode"
+		org="5468.290 -22.747 5084.967"
+		orgRel="1"
+		rot="0.0000 -0.3947 0.0000 0.9188"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127105"
+		class="SgAnimatedModelNode"
+		org="5524.780 -49.422 5109.458"
+		orgRel="1"
+		rot="-0.0305 -0.7434 -0.0793 0.6635"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127106"
+		class="SgAnimatedModelNode"
+		org="5535.586 -29.146 5101.349"
+		orgRel="1"
+		rot="-0.0123 -0.7843 -0.0486 0.6183"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127107"
+		class="SgAnimatedModelNode"
+		org="5507.337 -11.393 5052.416"
+		orgRel="1"
+		rot="-0.2089 -0.9620 0.0373 0.1718"
+		scale="0.800 0.800 0.800"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127108"
+		class="SgAnimatedModelNode"
+		org="5528.144 -18.483 5030.454"
+		orgRel="1"
+		rot="0.0000 0.7343 0.0000 0.6788"
+		scale="0.800 0.800 0.800"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127109"
+		class="SgAnimatedModelNode"
+		org="5482.956 -26.752 5001.145"
+		orgRel="1"
+		rot="-0.0360 0.7366 0.1579 0.6566"
+		scale="1.200 1.200 1.200"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127110"
+		class="SgAnimatedModelNode"
+		org="5494.487 -19.821 4982.844"
+		orgRel="1"
+		rot="0.0000 0.6931 0.0000 0.7209"
+		scale="0.800 0.800 0.800"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127111"
+		class="SgAnimatedModelNode"
+		org="5437.107 -16.859 4999.250"
+		orgRel="1"
+		rot="-0.0557 0.6218 0.1590 0.7648"
+		scale="0.700 0.700 0.700"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127112"
+		class="SgAnimatedModelNode"
+		org="5539.058 -23.401 4980.620"
+		orgRel="1"
+		rot="0.0605 0.7284 -0.0776 0.6781"
+		scale="0.700 0.700 0.700"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127113"
+		class="SgAnimatedModelNode"
+		org="5569.034 -30.511 5080.586"
+		orgRel="1"
+		rot="-0.0206 -0.7810 -0.1385 0.6086"
+		scale="1.200 1.200 1.200"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127114"
+		class="SgAnimatedModelNode"
+		org="5611.658 -17.117 5279.016"
+		orgRel="1"
+		rot="0.0986 0.1258 -0.1349 0.9779"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127115"
+		class="SgAnimatedModelNode"
+		org="5595.665 -16.336 5258.443"
+		orgRel="1"
+		rot="0.0000 0.9920 0.0000 -0.1262"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127116"
+		class="SgAnimatedModelNode"
+		org="5596.092 -23.738 5294.193"
+		orgRel="1"
+		rot="0.0000 0.9998 0.0000 0.0218"
+		scale="1.300 1.300 1.300"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127117"
+		class="SgAnimatedModelNode"
+		org="5595.904 -31.907 5313.646"
+		orgRel="1"
+		rot="0.0098 -0.9978 0.0384 0.0523"
+		scale="1.100 1.100 1.100"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127118"
+		class="SgAnimatedModelNode"
+		org="5603.032 -15.800 5368.696"
+		orgRel="1"
+		rot="-0.1301 -0.9758 -0.0832 -0.1546"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127119"
+		class="SgAnimatedModelNode"
+		org="5641.932 -19.271 5254.935"
+		orgRel="1"
+		rot="-0.1274 -0.9675 0.0285 0.2167"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127120"
+		class="SgAnimatedModelNode"
+		org="5627.460 -17.272 5228.860"
+		orgRel="1"
+		rot="-0.0885 -0.9488 0.1808 0.2434"
+		scale="0.800 0.800 0.800"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127121"
+		class="SgAnimatedModelNode"
+		org="5660.530 -11.169 5232.082"
+		orgRel="1"
+		rot="-0.2805 -0.8581 0.2063 0.3773"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127122"
+		class="SgAnimatedModelNode"
+		org="5633.344 -18.824 5202.495"
+		orgRel="1"
+		rot="0.1208 -0.9499 -0.0364 0.2859"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127123"
+		class="SgAnimatedModelNode"
+		org="5668.091 -47.805 5308.534"
+		orgRel="1"
+		rot="0.0857 -0.0430 -0.0990 0.9905"
+		scale="1.300 1.300 1.300"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127124"
+		class="SgAnimatedModelNode"
+		org="5709.545 -22.235 5303.851"
+		orgRel="1"
+		rot="0.0000 -0.5718 0.0000 0.8204"
+		scale="1.200 1.200 1.200"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127125"
+		class="SgAnimatedModelNode"
+		org="5642.926 -16.853 5448.523"
+		orgRel="1"
+		rot="-0.1770 -0.8171 0.1790 0.5186"
+		scale="1.100 1.100 1.100"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127127"
+		class="SgAnimatedModelNode"
+		org="5543.156 -11.474 5216.447"
+		orgRel="1"
+		rot="0.0000 -0.9619 0.0000 0.2735"
+		scale="0.700 0.700 0.700"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127128"
+		class="SgAnimatedModelNode"
+		org="5569.447 -28.192 5216.997"
+		orgRel="1"
+		rot="0.0000 -0.8077 0.0000 0.5895"
+		scale="1.100 1.100 1.100"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127129"
+		class="SgAnimatedModelNode"
+		org="5541.218 -21.712 5242.411"
+		orgRel="1"
+		rot="0.0000 -0.8254 0.0000 0.5646"
+		scale="0.900 0.900 0.900"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127130"
+		class="SgAnimatedModelNode"
+		org="5606.804 -19.698 5187.728"
+		orgRel="1"
+		rot="0.0000 -0.7973 0.0000 0.6036"
+		scale="0.700 0.700 0.700"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127131"
+		class="SgAnimatedModelNode"
+		org="5740.239 -36.009 5240.782"
+		orgRel="1"
+		rot="-0.0987 0.9023 -0.1429 0.3947"
+		scale="1.200 1.200 1.200"
+		id="big_crag_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127132"
+		class="SgAnimatedModelNode"
+		org="5744.384 -26.813 5287.627"
+		orgRel="1"
+		rot="0.1612 0.3370 -0.0587 0.9258"
+		scale="1.200 1.200 1.200"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127133"
+		class="SgAnimatedModelNode"
+		org="5646.015 -23.899 5163.141"
+		orgRel="1"
+		rot="-0.0204 -0.7669 0.1714 0.6182"
+		scale="1.200 1.200 1.200"
+		id="big_crag_11"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object321127134"
+		class="SgAnimatedModelNode"
+		org="5610.715 -18.851 5080.834"
+		orgRel="1"
+		rot="0.0000 -0.9897 0.0000 0.1435"
+		scale="0.900 0.900 0.900"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127135"
+		class="SgAnimatedModelNode"
+		org="5638.926 -22.140 5076.603"
+		orgRel="1"
+		rot="0.3907 0.7414 0.0564 0.5426"
+		scale="1.100 1.100 1.100"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127136"
+		class="SgAnimatedModelNode"
+		org="5665.843 -16.638 5080.076"
+		orgRel="1"
+		rot="0.0584 0.6351 0.0705 0.7670"
+		scale="0.800 0.800 0.800"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127137"
+		class="SgAnimatedModelNode"
+		org="5830.412 -21.928 5285.094"
+		orgRel="1"
+		rot="-0.0474 -0.6190 0.0598 0.7817"
+		scale="1.300 1.300 1.300"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127138"
+		class="SgAnimatedModelNode"
+		org="5864.810 -30.185 5248.682"
+		orgRel="1"
+		rot="0.1150 0.3293 -0.0404 0.9363"
+		scale="1.200 1.200 1.200"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127139"
+		class="SgAnimatedModelNode"
+		org="5788.122 -10.096 5329.719"
+		orgRel="1"
+		rot="-0.1618 -0.6739 0.1683 0.7009"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127140"
+		class="SgAnimatedModelNode"
+		org="5965.379 -12.768 5227.745"
+		orgRel="1"
+		rot="-0.1991 -0.8512 0.0323 0.4846"
+		scale="0.600 0.600 0.600"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127141"
+		class="SgAnimatedModelNode"
+		org="5793.016 -21.951 5124.034"
+		orgRel="1"
+		rot="0.0657 0.4636 0.1556 0.8698"
+		scale="1.200 1.200 1.200"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127142"
+		class="SgAnimatedModelNode"
+		org="5725.855 -8.235 5080.024"
+		orgRel="1"
+		rot="-0.1177 -0.3233 0.3211 0.8823"
+		scale="0.750 0.750 0.750"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127143"
+		class="SgAnimatedModelNode"
+		org="6158.611 -23.420 5275.794"
+		orgRel="1"
+		rot="-0.1073 -0.8019 0.0780 0.5826"
+		scale="1.200 1.200 1.200"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127144"
+		class="SgAnimatedModelNode"
+		org="6114.938 -16.252 5252.695"
+		orgRel="1"
+		rot="-0.0906 -0.9203 0.0373 0.3788"
+		scale="0.900 0.900 0.900"
+		id="big_crag_11"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127145"
+		class="SgAnimatedModelNode"
+		org="6212.649 -40.015 5278.812"
+		orgRel="1"
+		rot="0.1863 0.0006 0.0905 0.9783"
+		scale="1.400 1.400 1.400"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127146"
+		class="SgAnimatedModelNode"
+		org="6251.386 -21.180 5324.289"
+		orgRel="1"
+		rot="0.1318 0.9845 -0.0153 -0.1144"
+		scale="1.200 1.200 1.200"
+		id="big_crag_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127147"
+		class="SgAnimatedModelNode"
+		org="6259.080 -18.884 5424.402"
+		orgRel="1"
+		rot="0.1502 -0.1500 0.0684 0.9748"
+		scale="0.700 0.700 0.700"
+		id="big_crag_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127148"
+		class="SgAnimatedModelNode"
+		org="6241.857 -13.046 5396.552"
+		orgRel="1"
+		rot="0.0620 0.9971 0.0212 -0.0380"
+		scale="0.800 0.800 0.800"
+		id="big_crag_10"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127150"
+		class="SgAnimatedModelNode"
+		org="6282.846 -22.350 5388.335"
+		orgRel="1"
+		id="big_crag_9"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127151"
+		class="SgAnimatedModelNode"
+		org="6285.398 -34.055 5372.964"
+		orgRel="1"
+		rot="0.0142 0.6268 -0.1905 0.7554"
+		id="big_crag_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127152"
+		class="SgAnimatedModelNode"
+		org="6284.056 -7.846 5276.360"
+		orgRel="1"
+		rot="-0.1326 -0.6002 -0.1018 0.7822"
+		scale="1.400 1.400 1.400"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127153"
+		class="SgAnimatedModelNode"
+		org="6276.727 -6.220 5355.176"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127154"
+		class="SgAnimatedModelNode"
+		org="6130.194 -1.598 5230.263"
+		orgRel="1"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127155"
+		class="SgAnimatedModelNode"
+		org="6286.201 -5.806 5322.459"
+		orgRel="1"
+		scale="1.100 1.100 1.100"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127156"
+		class="SgAnimatedModelNode"
+		org="5825.961 -8.085 5198.670"
+		orgRel="1"
+		rot="0.1427 0.0292 -0.2304 0.9621"
+		scale="1.600 1.600 1.600"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127157"
+		class="SgAnimatedModelNode"
+		org="5846.387 -6.324 5168.231"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127158"
+		class="SgAnimatedModelNode"
+		org="6028.941 -4.055 5179.096"
+		orgRel="1"
+		rot="0.0000 0.5860 0.0000 0.8103"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127159"
+		class="SgAnimatedModelNode"
+		org="5747.934 -7.879 5159.123"
+		orgRel="1"
+		rot="-0.0130 0.9995 -0.0065 -0.0276"
+		scale="1.600 1.600 1.600"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127160"
+		class="SgAnimatedModelNode"
+		org="5963.859 -6.576 4937.788"
+		orgRel="1"
+		rot="0.0953 -0.5269 -0.1503 0.8311"
+		scale="1.200 1.200 1.200"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127161"
+		class="SgAnimatedModelNode"
+		org="5713.372 -5.604 4950.272"
+		orgRel="1"
+		rot="-0.2278 -0.0402 -0.1689 0.9581"
+		scale="1.100 1.100 1.100"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127162"
+		class="SgAnimatedModelNode"
+		org="5639.656 -6.141 4938.246"
+		orgRel="1"
+		rot="-0.1115 -0.1146 0.2313 0.9597"
+		scale="1.100 1.100 1.100"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127163"
+		class="SgAnimatedModelNode"
+		org="5646.000 -7.763 5428.202"
+		orgRel="1"
+		rot="0.0693 0.8654 -0.0811 -0.4896"
+		scale="1.500 1.500 1.500"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127164"
+		class="SgAnimatedModelNode"
+		org="5708.982 -6.306 5228.920"
+		orgRel="1"
+		rot="0.0500 -0.6541 -0.0576 0.7525"
+		scale="1.400 1.400 1.400"
+		id="big_crag_12"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127165"
+		class="SgAnimatedModelNode"
+		org="5466.442 -6.847 5034.576"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127166"
+		class="SgAnimatedModelNode"
+		org="5412.894 -6.847 5061.284"
+		orgRel="1"
+		rot="0.0000 -0.7702 0.0000 0.6378"
+		scale="1.400 1.400 1.400"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127167"
+		class="SgAnimatedModelNode"
+		org="5803.301 -8.746 5240.103"
+		orgRel="1"
+		rot="0.0000 0.9692 0.0000 -0.2462"
+		scale="1.400 1.400 1.400"
+		id="big_crag_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127168"
+		class="SgAnimatedModelNode"
+		org="5655.774 -10.590 5130.251"
+		orgRel="1"
+		rot="0.1370 0.7868 -0.1032 -0.5929"
+		scale="1.400 1.400 1.400"
+		id="big_crag_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321127169"
+		class="SgAnimatedModelNode"
+		org="5812.676 -9.285 5083.368"
+		orgRel="1"
+		rot="0.0000 0.0000 0.2250 0.9744"
+		scale="1.400 1.400 1.400"
+		id="big_crag_4"
 		ndmAction="0" />
 </World>
