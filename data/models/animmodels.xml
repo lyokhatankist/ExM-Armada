@@ -1848,7 +1848,7 @@
 		id="heliRockets01"
 		shadow="1"
 		windwavy="0"
-		file="data\models\battleship\helibase.gam">
+		file="data\models\battleship\vehicles\helibase.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -1869,7 +1869,7 @@
 		id="heliFuselage02"
 		shadow="1"
 		windwavy="0"
-		file="data\models\battleship\helibase.gam">
+		file="data\models\battleship\vehicles\helibase.gam">
 		<action
 			name="DEATH1"
 			skin="1" />
