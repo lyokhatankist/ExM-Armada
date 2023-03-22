@@ -1140,11 +1140,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="factory_rr_angar1"
+			id="berth"
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="berth"
+			id="rr_lamp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_platform"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1174,7 +1178,63 @@
 		<Item
 			id="quay_round_line"
 			file="data\models\AnimModels.xml" />
-			
+
+		<Item
+			id="prom_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_substation"
+			file="data\models\AnimModels.xml" />
+		
+		<Item
+			id="fence_short1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_conteiner"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="gradyrnja"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="factory_rr_angar1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="garage"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="bochka5"
+			file="data\models\AnimModels.xml" />
+
 		<Item
 			id="hoisting_crane_1"
 			file="data\models\AnimModels.xml" />
@@ -1184,13 +1244,21 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="hoisting_structure_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="hoisting_structure_2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="ben_house"
 			file="data\models\AnimModels.xml" />
-			
+
+		<Item
+			id="arena_barricade8"
+			file="data\models\AnimModels.xml" />
+	
 <!-- quest items -->
 		<Item 
 			id="artefact1" 
