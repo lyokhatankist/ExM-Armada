@@ -1142,6 +1142,54 @@
 		<Item
 			id="factory_rr_angar1"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="berth"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_big_cube"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_g_line"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_g_line_m"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_line"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_g_round_line"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_g_round_line_m"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_round_line"
+			file="data\models\AnimModels.xml" />
+			
+		<Item
+			id="hoisting_crane_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_crane_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ben_house"
+			file="data\models\AnimModels.xml" />
 			
 <!-- quest items -->
 		<Item 
