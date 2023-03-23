@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="321131356">
+	LastId="321131454">
 	<Node
 		name="Object321126804"
 		class="SgAnimatedModelNode"
@@ -1401,16 +1401,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321126974"
-		class="SgAnimatedModelNode"
-		org="6564.088 -0.627 4466.179"
-		orgRel="1"
-		rot="0.0000 -0.6001 0.0000 0.7999"
-		scale="0.300 0.300 0.300"
-		id="brick_house2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321126975"
 		class="SgAnimatedModelNode"
 		org="6562.585 -0.717 4457.258"
@@ -1451,16 +1441,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321126983"
-		class="SgAnimatedModelNode"
-		org="6659.094 -0.580 4510.347"
-		orgRel="1"
-		rot="0.0000 0.9288 0.0000 -0.3706"
-		scale="0.270 0.270 0.270"
-		id="machine_house2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321126984"
 		class="SgAnimatedModelNode"
 		org="6665.049 -0.307 4504.980"
@@ -1483,7 +1463,7 @@
 	<Node
 		name="Object321126986"
 		class="SgAnimatedModelNode"
-		org="6572.776 -0.807 4481.746"
+		org="6572.776 -0.453 4481.746"
 		orgRel="1"
 		rot="0.0000 0.3359 0.0000 0.9419"
 		scale="0.300 0.300 0.300"
@@ -3190,16 +3170,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127170"
-		class="SgAnimatedModelNode"
-		org="6471.238 -0.600 4708.005"
-		orgRel="1"
-		rot="0.0000 0.8757 0.0000 0.4829"
-		scale="0.250 0.250 0.250"
-		id="r1_deadtree1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127172"
 		class="SgAnimatedModelNode"
 		org="6474.983 0.057 4702.948"
@@ -3550,16 +3520,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127336"
-		class="SgAnimatedModelNode"
-		org="6268.811 -0.210 4866.036"
-		orgRel="1"
-		rot="0.0000 0.4579 0.0000 0.8890"
-		scale="0.250 0.250 0.250"
-		id="r1_listvenoe2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127340"
 		class="SgAnimatedModelNode"
 		org="6164.448 0.035 4836.172"
@@ -3612,7 +3572,7 @@
 	<Node
 		name="Object321127357"
 		class="SgAnimatedModelNode"
-		org="6471.620 1.240 4692.769"
+		org="6470.020 1.240 4693.056"
 		orgRel="1"
 		rot="0.0000 0.8704 0.0000 -0.4924"
 		scale="0.300 0.300 0.300"
@@ -3622,7 +3582,7 @@
 	<Node
 		name="Object321127361"
 		class="SgAnimatedModelNode"
-		org="6670.250 -0.202 4977.715"
+		org="6671.616 -0.202 4975.931"
 		orgRel="1"
 		rot="0.0000 0.1887 0.0000 0.9820"
 		scale="0.250 0.250 0.250"
@@ -3632,7 +3592,7 @@
 	<Node
 		name="Object321127363"
 		class="SgAnimatedModelNode"
-		org="6667.587 -0.181 4969.738"
+		org="6670.562 -0.181 4964.308"
 		orgRel="1"
 		rot="0.0000 0.6643 0.0000 0.7475"
 		scale="0.250 0.250 0.250"
@@ -3640,19 +3600,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127364"
-		class="SgAnimatedModelNode"
-		org="6680.885 0.014 4977.298"
-		orgRel="1"
-		rot="0.0000 0.0632 0.0000 0.9980"
-		scale="0.280 0.280 0.280"
-		id="r1_deadtree4"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127367"
 		class="SgAnimatedModelNode"
-		org="6687.657 0.029 4973.074"
+		org="6684.857 0.029 4972.906"
 		orgRel="1"
 		rot="0.0000 0.0327 0.0000 0.9995"
 		scale="0.230 0.230 0.230"
@@ -3662,7 +3612,7 @@
 	<Node
 		name="Object321127369"
 		class="SgAnimatedModelNode"
-		org="6546.733 -0.070 4971.067"
+		org="6549.403 -0.070 4978.996"
 		orgRel="1"
 		rot="0.0000 -0.4520 0.0000 0.8920"
 		scale="0.250 0.250 0.250"
@@ -3670,29 +3620,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127370"
-		class="SgAnimatedModelNode"
-		org="6561.531 -0.141 4984.582"
-		orgRel="1"
-		rot="0.0000 0.5225 0.0000 0.8526"
-		scale="0.300 0.300 0.300"
-		id="r1_deadtree1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127372"
-		class="SgAnimatedModelNode"
-		org="6552.967 -0.184 4979.352"
-		orgRel="1"
-		rot="0.0000 -0.5610 0.0000 0.8278"
-		scale="0.280 0.280 0.280"
-		id="r1_deadtree4"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127374"
 		class="SgAnimatedModelNode"
-		org="6558.971 -0.103 4969.977"
+		org="6558.786 -0.103 4977.305"
 		orgRel="1"
 		rot="0.0000 -0.1500 0.0000 0.9887"
 		scale="0.220 0.220 0.220"
@@ -3702,7 +3632,7 @@
 	<Node
 		name="Object321127375"
 		class="SgAnimatedModelNode"
-		org="6571.625 -0.108 4967.086"
+		org="6567.290 -0.108 4965.698"
 		orgRel="1"
 		rot="0.0000 -0.5860 0.0000 0.8103"
 		scale="0.230 0.230 0.230"
@@ -3712,7 +3642,7 @@
 	<Node
 		name="Object321127376"
 		class="SgAnimatedModelNode"
-		org="6543.208 -0.119 4963.484"
+		org="6544.982 -0.119 4968.909"
 		orgRel="1"
 		rot="0.0000 -0.5860 0.0000 0.8103"
 		scale="0.300 0.300 0.300"
@@ -3880,16 +3810,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127401"
-		class="SgAnimatedModelNode"
-		org="6276.885 -0.039 4880.524"
-		orgRel="1"
-		rot="0.0000 0.4286 0.0000 0.9035"
-		scale="0.240 0.240 0.240"
-		id="r1_listvenoe3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127402"
 		class="SgAnimatedModelNode"
 		org="6271.706 0.129 4904.407"
@@ -3897,16 +3817,6 @@
 		rot="0.0000 0.4286 0.0000 0.9035"
 		scale="0.270 0.270 0.270"
 		id="r1_listvenoe1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127405"
-		class="SgAnimatedModelNode"
-		org="6287.083 -0.055 4898.414"
-		orgRel="1"
-		rot="0.0000 0.4286 0.0000 0.9035"
-		scale="0.220 0.220 0.220"
-		id="r1_dub1"
 		ndmAction="0" />
 
 	<Node
@@ -4700,16 +4610,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127529"
-		class="SgAnimatedModelNode"
-		org="5916.399 -0.350 4949.988"
-		orgRel="1"
-		rot="0.0000 0.8387 0.0000 0.5446"
-		scale="0.320 0.320 0.320"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127530"
 		class="SgAnimatedModelNode"
 		org="5907.461 -0.350 4962.587"
@@ -4743,26 +4643,6 @@
 		name="Object321127534"
 		class="SgAnimatedModelNode"
 		org="5860.437 -0.350 4965.180"
-		orgRel="1"
-		rot="0.0000 0.2609 0.0000 0.9654"
-		scale="0.320 0.320 0.320"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127535"
-		class="SgAnimatedModelNode"
-		org="5852.676 -0.350 4982.935"
-		orgRel="1"
-		rot="0.0000 0.2609 0.0000 0.9654"
-		scale="0.320 0.320 0.320"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127537"
-		class="SgAnimatedModelNode"
-		org="5910.566 -0.350 4973.139"
 		orgRel="1"
 		rot="0.0000 0.2609 0.0000 0.9654"
 		scale="0.320 0.320 0.320"
@@ -4850,16 +4730,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127551"
-		class="SgAnimatedModelNode"
-		org="5874.794 -0.714 4973.777"
-		orgRel="1"
-		rot="0.0000 0.7785 0.0000 -0.6276"
-		scale="0.300 0.300 0.300"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127552"
 		class="SgAnimatedModelNode"
 		org="5866.885 -0.894 4978.304"
@@ -4937,16 +4807,6 @@
 		rot="0.0000 0.4007 0.0000 0.9162"
 		scale="0.220 0.220 0.220"
 		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127561"
-		class="SgAnimatedModelNode"
-		org="5863.875 -0.350 4921.413"
-		orgRel="1"
-		rot="0.0000 0.2609 0.0000 0.9654"
-		scale="0.320 0.320 0.320"
-		id="r1_elka1"
 		ndmAction="0" />
 
 	<Node
@@ -5030,16 +4890,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127577"
-		class="SgAnimatedModelNode"
-		org="5871.278 -0.714 4981.276"
-		orgRel="1"
-		rot="0.0000 0.7785 0.0000 -0.6276"
-		scale="0.300 0.300 0.300"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127578"
 		class="SgAnimatedModelNode"
 		org="5860.540 -0.894 4990.214"
@@ -5107,16 +4957,6 @@
 		rot="0.0000 0.8387 0.0000 0.5446"
 		scale="0.320 0.320 0.320"
 		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127585"
-		class="SgAnimatedModelNode"
-		org="5877.474 -0.795 4935.157"
-		orgRel="1"
-		rot="0.0000 0.9999 0.0000 0.0131"
-		scale="0.360 0.360 0.360"
-		id="r1_elka3"
 		ndmAction="0" />
 
 	<Node
@@ -5640,16 +5480,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127650"
-		class="SgAnimatedModelNode"
-		org="5799.091 -0.350 4919.617"
-		orgRel="1"
-		rot="0.0000 0.6035 0.0000 0.7973"
-		scale="0.320 0.320 0.320"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127651"
 		class="SgAnimatedModelNode"
 		org="5794.225 -0.512 4929.892"
@@ -5790,19 +5620,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127668"
-		class="SgAnimatedModelNode"
-		org="5863.430 -0.795 4895.172"
-		orgRel="1"
-		rot="0.0000 0.9887 0.0000 0.1500"
-		scale="0.360 0.360 0.360"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127669"
 		class="SgAnimatedModelNode"
-		org="5859.192 -1.157 4892.804"
+		org="5861.494 -1.157 4894.907"
 		orgRel="1"
 		rot="0.0000 -0.7934 0.0000 0.6088"
 		scale="0.280 0.280 0.280"
@@ -6110,41 +5930,11 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127707"
-		class="SgAnimatedModelNode"
-		org="5685.725 -0.795 5004.033"
-		orgRel="1"
-		rot="0.0000 -0.6105 0.0000 0.7920"
-		scale="0.350 0.350 0.350"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127708"
 		class="SgAnimatedModelNode"
 		org="5691.999 -0.795 5016.819"
 		orgRel="1"
 		rot="0.0000 -0.2714 0.0000 -0.9625"
-		scale="0.360 0.360 0.360"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127709"
-		class="SgAnimatedModelNode"
-		org="5703.089 -0.795 4984.025"
-		orgRel="1"
-		rot="0.0000 -0.5019 0.0000 0.8649"
-		scale="0.340 0.340 0.340"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127710"
-		class="SgAnimatedModelNode"
-		org="5648.958 -0.795 5040.979"
-		orgRel="1"
-		rot="0.0000 -0.0523 0.0000 -0.9986"
 		scale="0.360 0.360 0.360"
 		id="r1_elka3"
 		ndmAction="0" />
@@ -6196,26 +5986,6 @@
 		orgRel="1"
 		rot="0.0000 0.8572 0.0000 0.5150"
 		scale="0.260 0.260 0.260"
-		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127722"
-		class="SgAnimatedModelNode"
-		org="5558.520 -1.157 5031.267"
-		orgRel="1"
-		rot="0.0000 -0.9943 0.0000 0.1067"
-		scale="0.330 0.330 0.330"
-		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127723"
-		class="SgAnimatedModelNode"
-		org="5569.641 -1.157 5014.705"
-		orgRel="1"
-		rot="0.0000 -0.6962 0.0000 0.7178"
-		scale="0.250 0.250 0.250"
 		id="r1_elka2"
 		ndmAction="0" />
 
@@ -6370,16 +6140,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127739"
-		class="SgAnimatedModelNode"
-		org="5581.968 -1.157 5034.703"
-		orgRel="1"
-		rot="0.0000 0.6070 0.0000 0.7947"
-		scale="0.260 0.260 0.260"
-		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127740"
 		class="SgAnimatedModelNode"
 		org="5573.500 -0.243 5024.034"
@@ -6510,16 +6270,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127754"
-		class="SgAnimatedModelNode"
-		org="5613.949 -0.350 5018.412"
-		orgRel="1"
-		rot="0.0000 -0.9007 0.0000 -0.4345"
-		scale="0.280 0.280 0.280"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127756"
 		class="SgAnimatedModelNode"
 		org="5579.787 -0.350 5015.368"
@@ -6587,16 +6337,6 @@
 		rot="0.0000 0.6276 0.0000 0.7785"
 		scale="0.310 0.310 0.310"
 		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127764"
-		class="SgAnimatedModelNode"
-		org="5602.138 -0.246 4998.550"
-		orgRel="1"
-		rot="0.0000 -0.9676 0.0000 -0.2525"
-		scale="0.280 0.280 0.280"
-		id="r1_elka1"
 		ndmAction="0" />
 
 	<Node
@@ -6706,16 +6446,6 @@
 		orgRel="1"
 		rot="0.0000 -0.7799 0.0000 0.6259"
 		scale="0.340 0.340 0.340"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127782"
-		class="SgAnimatedModelNode"
-		org="5674.296 -0.350 5018.690"
-		orgRel="1"
-		rot="0.0000 0.9230 0.0000 0.3847"
-		scale="0.250 0.250 0.250"
 		id="r1_elka1"
 		ndmAction="0" />
 
@@ -7580,16 +7310,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127898"
-		class="SgAnimatedModelNode"
-		org="5579.017 -0.350 5068.449"
-		orgRel="1"
-		rot="0.0000 -0.7799 0.0000 0.6259"
-		scale="0.340 0.340 0.340"
-		id="r1_elka1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127899"
 		class="SgAnimatedModelNode"
 		org="5585.521 -0.795 5067.299"
@@ -7660,16 +7380,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321127906"
-		class="SgAnimatedModelNode"
-		org="5590.010 -1.157 5076.315"
-		orgRel="1"
-		rot="0.0000 0.4246 0.0000 -0.9054"
-		scale="0.300 0.300 0.300"
-		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321127907"
 		class="SgAnimatedModelNode"
 		org="5583.628 -0.350 5076.881"
@@ -7682,31 +7392,11 @@
 	<Node
 		name="Object321127908"
 		class="SgAnimatedModelNode"
-		org="5578.670 -1.492 5077.826"
+		org="5579.588 -1.492 5069.275"
 		orgRel="1"
 		rot="0.0000 0.7576 0.0000 -0.6528"
 		scale="0.300 0.300 0.300"
 		id="r1_elka2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127909"
-		class="SgAnimatedModelNode"
-		org="5583.623 -0.290 5086.444"
-		orgRel="1"
-		rot="-0.0331 -0.1162 0.0043 0.9927"
-		scale="0.270 0.270 0.270"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127910"
-		class="SgAnimatedModelNode"
-		org="5579.121 -0.074 5081.778"
-		orgRel="1"
-		rot="0.0000 -0.7254 0.0000 0.6883"
-		scale="0.320 0.320 0.320"
-		id="r1_elka3"
 		ndmAction="0" />
 
 	<Node
@@ -7716,16 +7406,6 @@
 		orgRel="1"
 		rot="-0.0331 -0.1162 0.0043 0.9927"
 		scale="0.270 0.270 0.270"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127915"
-		class="SgAnimatedModelNode"
-		org="5590.898 -0.714 5087.288"
-		orgRel="1"
-		rot="0.0010 0.2337 -0.0103 0.9723"
-		scale="0.320 0.320 0.320"
 		id="r1_elka3"
 		ndmAction="0" />
 
@@ -7903,16 +7583,6 @@
 		name="Object321127936"
 		class="SgAnimatedModelNode"
 		org="5682.008 -0.583 5017.977"
-		orgRel="1"
-		rot="-0.0017 -0.4107 -0.0014 0.9118"
-		scale="0.280 0.280 0.280"
-		id="r1_elka3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321127937"
-		class="SgAnimatedModelNode"
-		org="5698.421 -0.583 4973.298"
 		orgRel="1"
 		rot="-0.0017 -0.4107 -0.0014 0.9118"
 		scale="0.280 0.280 0.280"
@@ -11819,16 +11489,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128427"
-		class="SgAnimatedModelNode"
-		org="5800.225 -1.008 4903.526"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128429"
 		class="SgAnimatedModelNode"
 		org="5807.941 -0.206 4888.334"
@@ -11929,32 +11589,12 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128446"
-		class="SgAnimatedModelNode"
-		org="5844.647 -0.310 4865.987"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128447"
 		class="SgAnimatedModelNode"
 		org="5905.039 -0.179 4856.461"
 		orgRel="1"
 		rot="0.0000 -0.8469 0.0000 -0.5318"
 		scale="0.240 0.240 0.240"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128448"
-		class="SgAnimatedModelNode"
-		org="5892.405 -0.310 4856.640"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
 		id="r1_sosna2"
 		ndmAction="0" />
 
@@ -12139,16 +11779,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128483"
-		class="SgAnimatedModelNode"
-		org="5944.177 -0.252 4840.675"
-		orgRel="1"
-		rot="0.0000 -0.9824 0.0000 -0.1866"
-		scale="0.260 0.260 0.260"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128484"
 		class="SgAnimatedModelNode"
 		org="5954.222 -0.310 4836.786"
@@ -12156,16 +11786,6 @@
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
 		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128485"
-		class="SgAnimatedModelNode"
-		org="5968.519 -0.426 4834.177"
-		orgRel="1"
-		rot="0.0000 -0.5095 0.0000 0.8605"
-		scale="0.290 0.290 0.290"
-		id="r1_sosna3"
 		ndmAction="0" />
 
 	<Node
@@ -12206,16 +11826,6 @@
 		rot="0.0000 -0.9824 0.0000 -0.1866"
 		scale="0.260 0.260 0.260"
 		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128493"
-		class="SgAnimatedModelNode"
-		org="6005.555 -0.310 4825.667"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
 		ndmAction="0" />
 
 	<Node
@@ -13419,16 +13029,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128679"
-		class="SgAnimatedModelNode"
-		org="5379.852 -0.310 5037.397"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128681"
 		class="SgAnimatedModelNode"
 		org="5360.709 -0.310 5037.481"
@@ -13511,7 +13111,7 @@
 	<Node
 		name="Object321128689"
 		class="SgAnimatedModelNode"
-		org="5370.283 -0.310 5021.394"
+		org="5370.438 -0.310 5020.786"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -13599,29 +13199,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128705"
-		class="SgAnimatedModelNode"
-		org="5370.438 -1.008 5027.109"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128707"
 		class="SgAnimatedModelNode"
 		org="5372.628 -1.008 5069.408"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128710"
-		class="SgAnimatedModelNode"
-		org="5400.583 -1.008 5097.033"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -13671,7 +13251,7 @@
 	<Node
 		name="Object321128716"
 		class="SgAnimatedModelNode"
-		org="5490.189 -0.206 5140.169"
+		org="5491.393 -0.206 5138.472"
 		orgRel="1"
 		rot="0.0000 -0.3359 0.0000 0.9419"
 		scale="0.220 0.220 0.220"
@@ -13721,7 +13301,7 @@
 	<Node
 		name="Object321128721"
 		class="SgAnimatedModelNode"
-		org="5442.003 -0.206 5172.856"
+		org="5444.134 -0.206 5174.109"
 		orgRel="1"
 		rot="0.0000 -0.3359 0.0000 0.9419"
 		scale="0.220 0.220 0.220"
@@ -13759,16 +13339,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128726"
-		class="SgAnimatedModelNode"
-		org="5428.144 -1.008 5151.448"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128727"
 		class="SgAnimatedModelNode"
 		org="5443.144 -1.008 5169.194"
@@ -13781,7 +13351,7 @@
 	<Node
 		name="Object321128729"
 		class="SgAnimatedModelNode"
-		org="5496.146 -1.008 5142.302"
+		org="5497.116 -1.008 5140.048"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -13819,16 +13389,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128733"
-		class="SgAnimatedModelNode"
-		org="5432.240 -0.310 5136.737"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128734"
 		class="SgAnimatedModelNode"
 		org="5430.674 -0.310 5146.314"
@@ -13839,39 +13399,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128735"
-		class="SgAnimatedModelNode"
-		org="5495.242 -0.310 5139.550"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128736"
-		class="SgAnimatedModelNode"
-		org="5445.803 -0.310 5175.169"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128737"
 		class="SgAnimatedModelNode"
 		org="5471.495 -0.310 5199.673"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128738"
-		class="SgAnimatedModelNode"
-		org="5500.870 -0.310 5140.030"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -14202,16 +13732,6 @@
 		name="Object321128783"
 		class="SgAnimatedModelNode"
 		org="5565.597 -1.008 5426.544"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128784"
-		class="SgAnimatedModelNode"
-		org="5564.849 -1.008 5387.457"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -14929,16 +14449,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321128880"
-		class="SgAnimatedModelNode"
-		org="5998.420 -0.310 5345.964"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321128883"
 		class="SgAnimatedModelNode"
 		org="6005.933 -0.310 5352.680"
@@ -15122,16 +14632,6 @@
 		name="Object321128912"
 		class="SgAnimatedModelNode"
 		org="6011.651 -1.008 5365.371"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321128913"
-		class="SgAnimatedModelNode"
-		org="6015.708 -1.008 5343.000"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -15809,16 +15309,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129023"
-		class="SgAnimatedModelNode"
-		org="5992.548 -0.206 5326.459"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129024"
 		class="SgAnimatedModelNode"
 		org="5985.347 -0.206 5283.183"
@@ -15999,26 +15489,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129055"
-		class="SgAnimatedModelNode"
-		org="6092.860 -0.206 5393.177"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129056"
-		class="SgAnimatedModelNode"
-		org="6099.343 -0.206 5406.346"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129057"
 		class="SgAnimatedModelNode"
 		org="6171.741 -0.206 5355.788"
@@ -16149,16 +15619,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129077"
-		class="SgAnimatedModelNode"
-		org="6142.343 -0.206 5380.639"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129078"
 		class="SgAnimatedModelNode"
 		org="6171.231 -1.008 5365.270"
@@ -16201,7 +15661,7 @@
 	<Node
 		name="Object321129083"
 		class="SgAnimatedModelNode"
-		org="6105.049 -1.008 5409.756"
+		org="6106.993 -1.008 5405.771"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -16529,16 +15989,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129126"
-		class="SgAnimatedModelNode"
-		org="5990.496 -0.310 5443.729"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129129"
 		class="SgAnimatedModelNode"
 		org="6013.609 -0.310 5458.399"
@@ -16702,16 +16152,6 @@
 		name="Object321129155"
 		class="SgAnimatedModelNode"
 		org="6235.516 -0.310 5436.392"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129158"
-		class="SgAnimatedModelNode"
-		org="6223.229 -0.310 5400.072"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -17909,16 +17349,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129335"
-		class="SgAnimatedModelNode"
-		org="6406.987 -0.206 5332.541"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129337"
 		class="SgAnimatedModelNode"
 		org="6416.385 -0.206 5326.958"
@@ -17982,16 +17412,6 @@
 		name="Object321129352"
 		class="SgAnimatedModelNode"
 		org="6405.059 -0.310 5307.936"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129353"
-		class="SgAnimatedModelNode"
-		org="6411.834 -0.310 5317.951"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -18271,7 +17691,7 @@
 	<Node
 		name="Object321129413"
 		class="SgAnimatedModelNode"
-		org="6622.490 -0.310 5120.477"
+		org="6628.723 -0.310 5102.617"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -18589,16 +18009,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129457"
-		class="SgAnimatedModelNode"
-		org="6608.982 -1.008 5085.571"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129458"
 		class="SgAnimatedModelNode"
 		org="6630.854 -1.008 5094.235"
@@ -18612,16 +18022,6 @@
 		name="Object321129460"
 		class="SgAnimatedModelNode"
 		org="6639.947 -1.008 5111.958"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129461"
-		class="SgAnimatedModelNode"
-		org="6651.452 -1.008 5122.183"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -18771,7 +18171,7 @@
 	<Node
 		name="Object321129489"
 		class="SgAnimatedModelNode"
-		org="6625.790 -1.008 5112.451"
+		org="6621.346 -1.008 5112.747"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -18801,17 +18201,7 @@
 	<Node
 		name="Object321129498"
 		class="SgAnimatedModelNode"
-		org="6625.282 -0.206 5117.372"
-		orgRel="1"
-		rot="0.0000 -0.3359 0.0000 0.9419"
-		scale="0.220 0.220 0.220"
-		id="r1_sosna1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129505"
-		class="SgAnimatedModelNode"
-		org="6630.654 -0.206 5082.050"
+		org="6622.222 -0.206 5119.039"
 		orgRel="1"
 		rot="0.0000 -0.3359 0.0000 0.9419"
 		scale="0.220 0.220 0.220"
@@ -18849,16 +18239,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129532"
-		class="SgAnimatedModelNode"
-		org="6495.553 -0.310 5049.071"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129533"
 		class="SgAnimatedModelNode"
 		org="6498.013 -0.310 5025.830"
@@ -18871,7 +18251,7 @@
 	<Node
 		name="Object321129534"
 		class="SgAnimatedModelNode"
-		org="6497.530 -0.310 5014.115"
+		org="6496.738 -0.310 5016.574"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -18922,16 +18302,6 @@
 		name="Object321129539"
 		class="SgAnimatedModelNode"
 		org="6488.764 -0.310 5084.324"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129540"
-		class="SgAnimatedModelNode"
-		org="6473.466 -0.310 5016.000"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -19019,29 +18389,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129549"
-		class="SgAnimatedModelNode"
-		org="6416.044 -0.310 5018.196"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129550"
 		class="SgAnimatedModelNode"
 		org="6411.593 -0.310 5011.325"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129551"
-		class="SgAnimatedModelNode"
-		org="6410.858 -0.310 5026.847"
 		orgRel="1"
 		rot="0.0000 -0.9887 0.0000 0.1499"
 		scale="0.280 0.280 0.280"
@@ -19109,16 +18459,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129558"
-		class="SgAnimatedModelNode"
-		org="6498.339 -1.008 5020.332"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129559"
 		class="SgAnimatedModelNode"
 		org="6498.912 -1.008 5049.818"
@@ -19152,16 +18492,6 @@
 		name="Object321129562"
 		class="SgAnimatedModelNode"
 		org="6469.102 -1.008 5013.382"
-		orgRel="1"
-		rot="0.0000 0.4617 0.0000 0.8870"
-		scale="0.250 0.250 0.250"
-		id="r1_sosna3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321129564"
-		class="SgAnimatedModelNode"
-		org="6423.089 -1.008 4998.081"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 0.8870"
 		scale="0.250 0.250 0.250"
@@ -21229,16 +20559,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321129922"
-		class="SgAnimatedModelNode"
-		org="6260.116 -0.310 4883.527"
-		orgRel="1"
-		rot="0.0000 -0.9887 0.0000 0.1499"
-		scale="0.280 0.280 0.280"
-		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321129923"
 		class="SgAnimatedModelNode"
 		org="6387.395 -0.310 4949.411"
@@ -21821,7 +21141,7 @@
 	<Node
 		name="Object321129999"
 		class="SgAnimatedModelNode"
-		org="6571.284 -0.184 4982.220"
+		org="6566.299 -0.184 4980.062"
 		orgRel="1"
 		rot="0.0000 -0.5610 0.0000 0.8278"
 		scale="0.280 0.280 0.280"
@@ -21891,7 +21211,7 @@
 	<Node
 		name="Object321130021"
 		class="SgAnimatedModelNode"
-		org="6265.633 0.640 4910.271"
+		org="6278.490 0.640 4913.773"
 		orgRel="1"
 		rot="0.0000 -0.9642 0.0000 0.2651"
 		scale="0.260 0.260 0.260"
@@ -21901,7 +21221,7 @@
 	<Node
 		name="Object321130022"
 		class="SgAnimatedModelNode"
-		org="6272.461 0.640 4914.196"
+		org="6260.505 0.640 4929.920"
 		orgRel="1"
 		rot="0.0000 -0.9642 0.0000 0.2651"
 		scale="0.260 0.260 0.260"
@@ -21919,29 +21239,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130027"
-		class="SgAnimatedModelNode"
-		org="6259.891 -0.180 4932.736"
-		orgRel="1"
-		rot="0.0000 -0.4027 0.0000 0.9153"
-		scale="0.300 0.300 0.300"
-		id="r1_dub2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130028"
-		class="SgAnimatedModelNode"
-		org="6261.009 -0.180 4925.486"
-		orgRel="1"
-		rot="0.0000 -0.4027 0.0000 0.9153"
-		scale="0.300 0.300 0.300"
-		id="r1_dub2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130029"
 		class="SgAnimatedModelNode"
-		org="6261.063 -0.029 4918.392"
+		org="6267.183 -0.029 4912.402"
 		orgRel="1"
 		rot="0.0000 0.7576 0.0000 0.6528"
 		scale="0.220 0.220 0.220"
@@ -22439,16 +21739,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130131"
-		class="SgAnimatedModelNode"
-		org="6296.468 -0.195 4926.833"
-		orgRel="1"
-		rot="0.0000 0.6772 0.0000 -0.7358"
-		scale="0.220 0.220 0.220"
-		id="r1_dub3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130132"
 		class="SgAnimatedModelNode"
 		org="6303.302 -0.195 4915.912"
@@ -22496,27 +21786,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130143"
-		class="SgAnimatedModelNode"
-		org="6357.889 -0.534 4942.089"
-		orgRel="1"
-		scale="0.240 0.240 0.240"
-		id="r1_listvenoe3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130144"
 		class="SgAnimatedModelNode"
 		org="6368.272 -0.534 4970.302"
-		orgRel="1"
-		scale="0.240 0.240 0.240"
-		id="r1_listvenoe3"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130147"
-		class="SgAnimatedModelNode"
-		org="6315.079 -0.534 4974.958"
 		orgRel="1"
 		scale="0.240 0.240 0.240"
 		id="r1_listvenoe3"
@@ -23078,16 +22350,6 @@
 		rot="0.0000 -0.9906 0.0000 0.1370"
 		scale="0.240 0.240 0.240"
 		id="r1_sosna2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130232"
-		class="SgAnimatedModelNode"
-		org="5941.216 0.355 4747.532"
-		orgRel="1"
-		rot="0.0000 -0.5262 0.0000 0.8503"
-		scale="0.250 0.250 0.250"
-		id="r1_listvenoe2"
 		ndmAction="0" />
 
 	<Node
@@ -24271,16 +23533,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130454"
-		class="SgAnimatedModelNode"
-		org="6511.014 -0.112 4771.139"
-		orgRel="1"
-		rot="0.0000 0.9563 0.0000 0.2923"
-		scale="0.300 0.300 0.300"
-		id="r1_dub3"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130455"
 		class="SgAnimatedModelNode"
 		org="6517.741 -0.112 4812.185"
@@ -24421,26 +23673,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130469"
-		class="SgAnimatedModelNode"
-		org="6524.028 -0.944 4764.980"
-		orgRel="1"
-		rot="0.0000 0.7999 0.0000 0.6001"
-		scale="0.300 0.300 0.300"
-		id="r1_dub2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130470"
-		class="SgAnimatedModelNode"
-		org="6558.512 -0.944 4794.704"
-		orgRel="1"
-		rot="0.0000 0.7999 0.0000 0.6001"
-		scale="0.300 0.300 0.300"
-		id="r1_dub2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130471"
 		class="SgAnimatedModelNode"
 		org="6624.255 -0.944 4855.331"
@@ -24531,39 +23763,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321130480"
-		class="SgAnimatedModelNode"
-		org="6553.569 -0.205 4815.799"
-		orgRel="1"
-		rot="0.0000 -0.5519 0.0000 0.8339"
-		scale="0.270 0.270 0.270"
-		id="r1_listvenoe1"
-		ndmAction="0" />
-
-	<Node
 		name="Object321130481"
 		class="SgAnimatedModelNode"
 		org="6564.558 -0.205 4772.989"
-		orgRel="1"
-		rot="0.0000 -0.5519 0.0000 0.8339"
-		scale="0.270 0.270 0.270"
-		id="r1_listvenoe1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130482"
-		class="SgAnimatedModelNode"
-		org="6598.627 -0.205 4809.904"
-		orgRel="1"
-		rot="0.0000 -0.5519 0.0000 0.8339"
-		scale="0.270 0.270 0.270"
-		id="r1_listvenoe1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130483"
-		class="SgAnimatedModelNode"
-		org="6635.376 -0.205 4826.134"
 		orgRel="1"
 		rot="0.0000 -0.5519 0.0000 0.8339"
 		scale="0.270 0.270 0.270"
@@ -24614,16 +23816,6 @@
 		name="Object321130488"
 		class="SgAnimatedModelNode"
 		org="6669.875 -0.205 4810.479"
-		orgRel="1"
-		rot="0.0000 -0.5519 0.0000 0.8339"
-		scale="0.270 0.270 0.270"
-		id="r1_listvenoe1"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130489"
-		class="SgAnimatedModelNode"
-		org="6592.370 -0.205 4781.617"
 		orgRel="1"
 		rot="0.0000 -0.5519 0.0000 0.8339"
 		scale="0.270 0.270 0.270"
@@ -24714,16 +23906,6 @@
 		name="Object321130498"
 		class="SgAnimatedModelNode"
 		org="6678.337 -0.086 4886.110"
-		orgRel="1"
-		rot="0.0000 0.8959 0.0000 0.4442"
-		scale="0.250 0.250 0.250"
-		id="r1_listvenoe2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321130499"
-		class="SgAnimatedModelNode"
-		org="6690.420 -0.086 4872.318"
 		orgRel="1"
 		rot="0.0000 0.8959 0.0000 0.4442"
 		scale="0.250 0.250 0.250"
@@ -27043,7 +26225,7 @@
 	<Node
 		name="Object321130733"
 		class="SgAnimatedModelNode"
-		org="6637.656 0.007 4616.964"
+		org="6545.784 -0.778 4521.552"
 		orgRel="1"
 		scale="0.300 0.300 0.300"
 		id="ben_house"
@@ -29164,15 +28346,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131001"
-		class="SgAnimatedModelNode"
-		org="6563.436 -7.735 4451.208"
-		orgRel="1"
-		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131006"
 		class="SgAnimatedModelNode"
 		org="6486.616 1.438 4479.477"
@@ -29365,8 +28538,9 @@
 	<Node
 		name="Object321131026"
 		class="SgAnimatedModelNode"
-		org="6631.999 0.000 4614.042"
+		org="6537.076 -0.943 4517.631"
 		orgRel="1"
+		rot="0.0000 0.1564 0.0000 0.9877"
 		scale="0.300 0.300 0.300"
 		id="r2_housebandit2"
 		ndmAction="0" />
@@ -29374,8 +28548,9 @@
 	<Node
 		name="Object321131027"
 		class="SgAnimatedModelNode"
-		org="6647.278 0.000 4616.225"
+		org="6531.053 -0.389 4527.630"
 		orgRel="1"
+		rot="0.0000 0.7358 0.0000 0.6772"
 		scale="0.270 0.270 0.270"
 		id="r2_housebandit1"
 		ndmAction="0" />
@@ -29383,8 +28558,9 @@
 	<Node
 		name="Object321131028"
 		class="SgAnimatedModelNode"
-		org="6636.893 0.000 4605.005"
+		org="6541.438 -0.197 4508.566"
 		orgRel="1"
+		rot="0.0000 -0.5931 0.0000 0.8052"
 		scale="0.280 0.280 0.280"
 		id="r2_freehouse2"
 		ndmAction="0" />
@@ -29392,7 +28568,7 @@
 	<Node
 		name="Object321131029"
 		class="SgAnimatedModelNode"
-		org="6651.079 0.000 4605.931"
+		org="6524.755 -0.173 4521.488"
 		orgRel="1"
 		scale="0.300 0.300 0.300"
 		id="r2_freehouse1"
@@ -30538,16 +29714,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131153"
-		class="SgAnimatedModelNode"
-		org="6753.283 23.302 4238.807"
-		orgRel="1"
-		rot="0.0000 0.7071 0.0000 0.7071"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131154"
 		class="SgAnimatedModelNode"
 		org="6755.342 22.035 4239.049"
@@ -30588,15 +29754,6 @@
 		name="Object321131158"
 		class="SgAnimatedModelNode"
 		org="6756.771 20.819 4233.236"
-		orgRel="1"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131159"
-		class="SgAnimatedModelNode"
-		org="6752.438 22.061 4239.056"
 		orgRel="1"
 		scale="0.300 0.300 0.300"
 		id="factory_conteiner"
@@ -30715,16 +29872,6 @@
 		name="Object321131173"
 		class="SgAnimatedModelNode"
 		org="6472.188 19.159 4396.724"
-		orgRel="1"
-		rot="0.0000 -0.7387 0.0000 0.6740"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131176"
-		class="SgAnimatedModelNode"
-		org="6473.389 19.250 4392.587"
 		orgRel="1"
 		rot="0.0000 -0.7387 0.0000 0.6740"
 		scale="0.300 0.300 0.300"
@@ -31080,16 +30227,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131216"
-		class="SgAnimatedModelNode"
-		org="6759.261 18.529 4368.422"
-		orgRel="1"
-		rot="0.0000 -0.5262 0.0000 0.8504"
-		scale="0.250 0.250 0.250"
-		id="bochka5"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131217"
 		class="SgAnimatedModelNode"
 		org="6758.926 18.243 4372.942"
@@ -31140,16 +30277,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131222"
-		class="SgAnimatedModelNode"
-		org="6761.181 20.963 4310.352"
-		orgRel="1"
-		rot="0.0000 -0.9665 0.0000 0.2567"
-		scale="0.250 0.250 0.250"
-		id="bochka5"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131223"
 		class="SgAnimatedModelNode"
 		org="6743.655 10.793 4421.428"
@@ -31160,21 +30287,11 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131224"
-		class="SgAnimatedModelNode"
-		org="6744.275 10.558 4425.262"
-		orgRel="1"
-		rot="0.0000 0.8788 0.0000 0.4772"
-		scale="0.250 0.250 0.250"
-		id="bochka5"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131225"
 		class="SgAnimatedModelNode"
 		org="6741.345 9.990 4423.462"
 		orgRel="1"
-		rot="0.0000 -0.5646 0.0000 0.8254"
+		rot="0.0000 -0.3069 0.0000 0.9517"
 		scale="0.250 0.250 0.250"
 		id="bochka5"
 		ndmAction="0" />
@@ -31184,15 +30301,7 @@
 		class="SgAnimatedModelNode"
 		org="6713.789 5.447 4400.019"
 		orgRel="1"
-		scale="0.250 0.250 0.250"
-		id="bochka5"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131227"
-		class="SgAnimatedModelNode"
-		org="6712.595 4.951 4402.564"
-		orgRel="1"
+		rot="0.0000 0.8890 0.0000 -0.4579"
 		scale="0.250 0.250 0.250"
 		id="bochka5"
 		ndmAction="0" />
@@ -31202,6 +30311,7 @@
 		class="SgAnimatedModelNode"
 		org="6714.082 5.067 4404.700"
 		orgRel="1"
+		rot="0.0000 0.2334 0.0000 0.9724"
 		scale="0.250 0.250 0.250"
 		id="bochka5"
 		ndmAction="0" />
@@ -31211,15 +30321,7 @@
 		class="SgAnimatedModelNode"
 		org="6717.664 5.983 4402.745"
 		orgRel="1"
-		scale="0.250 0.250 0.250"
-		id="bochka5"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131230"
-		class="SgAnimatedModelNode"
-		org="6716.080 5.278 4406.810"
-		orgRel="1"
+		rot="0.0000 0.9448 0.0000 0.3276"
 		scale="0.250 0.250 0.250"
 		id="bochka5"
 		ndmAction="0" />
@@ -31576,7 +30678,7 @@
 	<Node
 		name="Object321131267"
 		class="SgAnimatedModelNode"
-		org="6656.310 15.531 4303.578"
+		org="6650.980 15.531 4302.855"
 		orgRel="1"
 		rot="0.0000 -0.2672 0.0000 0.9636"
 		scale="0.300 0.300 0.300"
@@ -31586,7 +30688,7 @@
 	<Node
 		name="Object321131268"
 		class="SgAnimatedModelNode"
-		org="6656.508 14.881 4303.873"
+		org="6651.178 14.881 4303.150"
 		orgRel="1"
 		rot="0.0000 0.4107 0.0000 0.9118"
 		scale="0.300 0.300 0.300"
@@ -31596,29 +30698,9 @@
 	<Node
 		name="Object321131269"
 		class="SgAnimatedModelNode"
-		org="6656.040 15.028 4303.201"
+		org="6650.710 15.028 4302.479"
 		orgRel="1"
 		rot="0.0000 0.1413 0.0000 0.9900"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131270"
-		class="SgAnimatedModelNode"
-		org="6654.685 15.095 4302.684"
-		orgRel="1"
-		rot="0.0000 -0.8649 0.0000 0.5019"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131271"
-		class="SgAnimatedModelNode"
-		org="6655.352 14.759 4304.207"
-		orgRel="1"
-		rot="0.0000 -0.5336 0.0000 0.8457"
 		scale="0.300 0.300 0.300"
 		id="factory_box"
 		ndmAction="0" />
@@ -31845,7 +30927,7 @@
 	<Node
 		name="Object321131294"
 		class="SgAnimatedModelNode"
-		org="6600.487 1.826 4417.067"
+		org="6596.156 0.000 4556.306"
 		orgRel="1"
 		rot="0.0000 0.8671 0.0000 0.4981"
 		scale="0.350 0.350 0.350"
@@ -32399,5 +31481,602 @@
 		rot="0.0000 0.8504 0.0000 0.5262"
 		scale="0.350 0.350 0.350"
 		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131356"
+		class="SgAnimatedModelNode"
+		org="6574.680 20.975 4260.593"
+		orgRel="1"
+		rot="0.0000 -0.5336 0.0000 0.8457"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131357"
+		class="SgAnimatedModelNode"
+		org="6681.182 0.036 4426.581"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131358"
+		class="SgAnimatedModelNode"
+		org="6676.490 0.822 4403.841"
+		orgRel="1"
+		rot="0.0000 0.3685 0.0000 0.9296"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131359"
+		class="SgAnimatedModelNode"
+		org="6676.550 0.000 4413.177"
+		orgRel="1"
+		rot="0.0000 0.8997 0.0000 0.4364"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131360"
+		class="SgAnimatedModelNode"
+		org="6667.167 -0.389 4408.949"
+		orgRel="1"
+		rot="0.0000 -0.3685 0.0000 0.9296"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131361"
+		class="SgAnimatedModelNode"
+		org="6670.126 0.829 4397.162"
+		orgRel="1"
+		rot="0.0000 0.3746 0.0000 0.9272"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131362"
+		class="SgAnimatedModelNode"
+		org="6654.578 0.136 4399.554"
+		orgRel="1"
+		rot="0.0000 -0.8538 0.0000 0.5206"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131363"
+		class="SgAnimatedModelNode"
+		org="6663.508 -0.152 4420.441"
+		orgRel="1"
+		rot="0.0000 0.9109 0.0000 0.4127"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131364"
+		class="SgAnimatedModelNode"
+		org="6666.465 0.000 4434.590"
+		orgRel="1"
+		rot="0.0000 -0.9995 0.0000 0.0305"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131366"
+		class="SgAnimatedModelNode"
+		org="6667.382 -0.162 4454.584"
+		orgRel="1"
+		rot="0.0000 0.6820 0.0000 0.7314"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131368"
+		class="SgAnimatedModelNode"
+		org="6627.070 -0.182 4419.741"
+		orgRel="1"
+		rot="0.0000 0.6259 0.0000 0.7799"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131369"
+		class="SgAnimatedModelNode"
+		org="6603.101 -0.182 4417.553"
+		orgRel="1"
+		rot="0.0000 0.0131 0.0000 0.9999"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131370"
+		class="SgAnimatedModelNode"
+		org="6589.119 -0.476 4424.864"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131371"
+		class="SgAnimatedModelNode"
+		org="6561.361 -0.717 4448.363"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131374"
+		class="SgAnimatedModelNode"
+		org="6642.882 -0.389 4391.848"
+		orgRel="1"
+		rot="0.0000 -0.9998 0.0000 -0.0196"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131376"
+		class="SgAnimatedModelNode"
+		org="6585.651 1.086 4393.284"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131377"
+		class="SgAnimatedModelNode"
+		org="6592.948 1.179 4389.152"
+		orgRel="1"
+		rot="0.0000 0.8504 0.0000 0.5262"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131378"
+		class="SgAnimatedModelNode"
+		org="6577.127 1.353 4395.443"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131379"
+		class="SgAnimatedModelNode"
+		org="6566.645 1.412 4402.620"
+		orgRel="1"
+		scale="0.300 0.300 0.300"
+		id="brick_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131380"
+		class="SgAnimatedModelNode"
+		org="6557.028 1.247 4413.670"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="brick_house5"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131381"
+		class="SgAnimatedModelNode"
+		org="6680.264 -0.200 4487.420"
+		orgRel="1"
+		rot="0.0000 0.9063 0.0000 0.4226"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131383"
+		class="SgAnimatedModelNode"
+		org="6684.064 -0.106 4481.913"
+		orgRel="1"
+		rot="0.0000 -0.5263 0.0000 -0.8503"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131385"
+		class="SgAnimatedModelNode"
+		org="6693.369 0.094 4486.097"
+		orgRel="1"
+		rot="0.0000 0.5373 0.0000 0.8434"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131386"
+		class="SgAnimatedModelNode"
+		org="6695.147 -0.375 4477.792"
+		orgRel="1"
+		rot="0.0000 0.9744 0.0000 0.2249"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131387"
+		class="SgAnimatedModelNode"
+		org="6689.613 -0.298 4501.674"
+		orgRel="1"
+		rot="0.0000 -0.8266 0.0000 -0.5628"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131388"
+		class="SgAnimatedModelNode"
+		org="6692.814 -0.054 4507.640"
+		orgRel="1"
+		rot="0.0000 -0.9820 0.0000 0.1887"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131389"
+		class="SgAnimatedModelNode"
+		org="6698.693 -0.190 4500.129"
+		orgRel="1"
+		rot="0.0000 0.5592 0.0000 -0.8290"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131390"
+		class="SgAnimatedModelNode"
+		org="6694.068 -0.190 4442.086"
+		orgRel="1"
+		rot="0.0000 0.6642 0.0000 -0.7475"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131391"
+		class="SgAnimatedModelNode"
+		org="6688.405 -0.263 4434.760"
+		orgRel="1"
+		rot="0.0000 0.9998 0.0000 -0.0196"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131392"
+		class="SgAnimatedModelNode"
+		org="6665.543 -0.122 4514.167"
+		orgRel="1"
+		rot="0.0000 0.3787 0.0000 0.9255"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131396"
+		class="SgAnimatedModelNode"
+		org="6637.822 -0.153 4527.175"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131397"
+		class="SgAnimatedModelNode"
+		org="6644.349 -0.133 4438.995"
+		orgRel="1"
+		rot="0.0000 0.7547 0.0000 0.6560"
+		scale="0.300 0.300 0.300"
+		id="brick_house3"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131398"
+		class="SgAnimatedModelNode"
+		org="6619.393 -0.164 4522.540"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131399"
+		class="SgAnimatedModelNode"
+		org="6612.264 -0.276 4525.671"
+		orgRel="1"
+		rot="0.0000 0.6962 0.0000 -0.7178"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131403"
+		class="SgAnimatedModelNode"
+		org="6584.485 -0.276 4521.419"
+		orgRel="1"
+		rot="0.0000 0.6962 0.0000 -0.7178"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131405"
+		class="SgAnimatedModelNode"
+		org="6571.149 -0.249 4514.849"
+		orgRel="1"
+		rot="0.0000 0.9619 0.0000 0.2735"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131410"
+		class="SgAnimatedModelNode"
+		org="6548.384 -0.273 4502.528"
+		orgRel="1"
+		rot="0.0000 0.9483 0.0000 -0.3173"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131411"
+		class="SgAnimatedModelNode"
+		org="6556.253 -0.032 4499.977"
+		orgRel="1"
+		rot="0.0000 0.8850 0.0000 0.4656"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131412"
+		class="SgAnimatedModelNode"
+		org="6542.343 -0.140 4489.058"
+		orgRel="1"
+		rot="0.0000 -0.2037 0.0000 -0.9790"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131415"
+		class="SgAnimatedModelNode"
+		org="6606.006 -0.164 4533.500"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131416"
+		class="SgAnimatedModelNode"
+		org="6593.317 -0.164 4532.992"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131417"
+		class="SgAnimatedModelNode"
+		org="6580.446 -0.164 4529.875"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131423"
+		class="SgAnimatedModelNode"
+		org="6656.210 -0.153 4527.421"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131424"
+		class="SgAnimatedModelNode"
+		org="6649.080 -0.477 4533.184"
+		orgRel="1"
+		rot="0.0000 0.9999 0.0000 -0.0153"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131427"
+		class="SgAnimatedModelNode"
+		org="6698.273 -0.255 4514.327"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 -0.7071"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131430"
+		class="SgAnimatedModelNode"
+		org="6696.561 -0.264 4533.374"
+		orgRel="1"
+		rot="0.0000 0.9952 0.0000 0.0980"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131431"
+		class="SgAnimatedModelNode"
+		org="6691.423 -1.221 4534.328"
+		orgRel="1"
+		rot="0.0000 -0.0980 0.0000 0.9952"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131434"
+		class="SgAnimatedModelNode"
+		org="6578.601 -0.186 4540.946"
+		orgRel="1"
+		rot="0.0000 0.9998 0.0000 -0.0219"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131436"
+		class="SgAnimatedModelNode"
+		org="6596.647 -0.162 4544.934"
+		orgRel="1"
+		rot="0.0000 -0.6756 0.0000 -0.7372"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131437"
+		class="SgAnimatedModelNode"
+		org="6602.825 -0.128 4542.971"
+		orgRel="1"
+		rot="0.0000 0.0218 0.0000 -0.9998"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131441"
+		class="SgAnimatedModelNode"
+		org="6615.398 -0.191 4538.505"
+		orgRel="1"
+		rot="0.0000 -0.0175 0.0000 -0.9998"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131442"
+		class="SgAnimatedModelNode"
+		org="6633.337 -0.209 4535.553"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131443"
+		class="SgAnimatedModelNode"
+		org="6640.298 -0.073 4540.967"
+		orgRel="1"
+		rot="0.0000 0.0915 0.0000 -0.9958"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131444"
+		class="SgAnimatedModelNode"
+		org="6582.648 -0.003 4551.587"
+		orgRel="1"
+		rot="0.0000 -0.2292 0.0000 -0.9734"
+		scale="0.300 0.300 0.300"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131445"
+		class="SgAnimatedModelNode"
+		org="6555.380 -0.229 4516.957"
+		orgRel="1"
+		rot="0.0000 0.3297 0.0000 0.9441"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131447"
+		class="SgAnimatedModelNode"
+		org="6552.287 -0.064 4509.288"
+		orgRel="1"
+		rot="0.0000 0.9100 0.0000 0.4147"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131448"
+		class="SgAnimatedModelNode"
+		org="6565.326 -0.242 4519.855"
+		orgRel="1"
+		rot="0.0000 0.0087 0.0000 -1.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131449"
+		class="SgAnimatedModelNode"
+		org="6708.404 0.036 4485.553"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.330 0.330 0.330"
+		id="hoisting_structure_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131450"
+		class="SgAnimatedModelNode"
+		org="6515.316 0.036 4496.689"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.330 0.330 0.330"
+		id="hoisting_structure_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131451"
+		class="SgAnimatedModelNode"
+		org="6533.703 0.072 4493.408"
+		orgRel="1"
+		rot="0.0000 0.8351 0.0000 0.5501"
+		scale="0.270 0.270 0.270"
+		id="machine_house2"
 		ndmAction="0" />
 </World>
