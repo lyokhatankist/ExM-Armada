@@ -1495,7 +1495,7 @@
 	<model
 		id="torpedo01"
 		file="data\models\battleship\ammo\torpedo01.gam"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		trans="0">
 		<action
@@ -1701,31 +1701,31 @@
 
 	<model
 		id="fakeChassis"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\fakechassis.gam" />
 
 	<model
 		id="heliWheel"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\heliwheel.gam" />
 
 	<model
 		id="heliChassis"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helichassis.gam" />
 
 	<model
 		id="heliArmanent"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\heliarmanent.gam" />
 
 	<model
 		id="heliFuselage01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -1795,13 +1795,13 @@
 
 	<model
 		id="heliMachinegun01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam" />
 
 	<model
 		id="heliMachinegun01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helicopter\helimachinegun01_gun.gam">
 		<action
@@ -1825,7 +1825,7 @@
 
 	<model
 		id="heliNurs01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -1840,13 +1840,13 @@
 
 	<model
 		id="heliNurs01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helicopter\helinurs01_gun.gam" />
 
 	<model
 		id="heliRockets01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -1861,13 +1861,13 @@
 
 	<model
 		id="heliRockets01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helicopter\helirockets01_gun.gam" />
 
 	<model
 		id="heliFuselage02"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -1937,7 +1937,7 @@
 
 	<model
 		id="heliMachinegun02"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -1952,7 +1952,7 @@
 
 	<model
 		id="heliMachinegun02gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helicopter\helimachinegun02_gun.gam">
 		<action
@@ -1988,7 +1988,7 @@
 
 	<model
 		id="heliRockets02"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helibase.gam">
 		<action
@@ -2003,26 +2003,26 @@
 
 	<model
 		id="heliRockets02gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\helicopter\helirockets02_gun.gam" />
 
 	<model
 		id="boatWheel"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\boatwheel.gam" />
 
 	<model
 		id="smlboatCITHull"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\hull.gam" />
 
 	<model
 		id="smlboatCITArmanent"
 		file="data\models\battleship\vehicles\cit_smlboat\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -2059,7 +2059,7 @@
 
 	<model
 		id="smlboatCITNurs01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\nurs01.gam">
 		<action
@@ -2074,19 +2074,19 @@
 
 	<model
 		id="smlboatCITNurs01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\nurs01_gun.gam" />
 	
 	<model
 		id="smlboatCITMachinegun01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\machinegun01.gam" />
 
 	<model
 		id="smlboatCITMachinegun01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\machinegun01_gun.gam">
 		<action
@@ -2110,14 +2110,14 @@
 
 	<model
 		id="smlboatCDHull"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_smlboat\hull.gam" />
 
 	<model
 		id="smlboatCDArmanent"
 		file="data\models\battleship\vehicles\cd_smlboat\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -2175,7 +2175,7 @@
 	
 	<model
 		id="smlboatCDCannon01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_smlboat\cannon01.gam">
 		<action
@@ -2190,7 +2190,7 @@
 
 	<model
 		id="smlboatCDCannon01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_smlboat\cannon01_gun.gam">
 		<action
@@ -2226,13 +2226,13 @@
 
 	<model
 		id="smlboatCDMachinegun01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_smlboat\machinegun01.gam" />
 
 	<model
 		id="smlboatCDMachinegun01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_smlboat\machinegun01_gun.gam">
 		<action
@@ -2256,14 +2256,14 @@
 
 	<model
 		id="fastboatCITHull"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_fastboat\hull.gam" />
 
 	<model
 		id="fastboatCITArmanent"
 		file="data\models\battleship\vehicles\cit_fastboat\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -2300,7 +2300,7 @@
 
 	<model
 		id="fastboatCITTorpedo01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam">
 		<action
@@ -2315,7 +2315,7 @@
 
 	<model
 		id="fastboatCITTorpedo01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_fastboat\torpedo01_gun.gam">
 		<action
@@ -2348,13 +2348,13 @@
 
 	<model
 		id="fastboatCITMachinegun01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_fastboat\machinegun01.gam" />
 
 	<model
 		id="fastboatCITMachinegun01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_smlboat\machinegun01_gun.gam">
 		<action
@@ -2378,19 +2378,19 @@
 
 	<model
 		id="shipWheel"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\shipwheel.gam" />
 
 	<model
 		id="destroyerCITEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\engine.gam" />
 
 	<model
 		id="destroyerCITHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\hull.gam">
@@ -2585,7 +2585,7 @@
 
 	<model
 		id="destroyerCITTorpedo01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\torpedo01.gam">
 		<action
@@ -2612,14 +2612,14 @@
 
 	<model
 		id="destroyerCITTorpedo01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\torpedo01_gun.gam" />
 
 	<model
 		id="destroyerCIT130Armanent"
 		file="data\models\battleship\vehicles\cit_destroyer\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -2793,7 +2793,7 @@
 	<model
 		id="destroyerCIT138Armanent"
 		file="data\models\battleship\vehicles\cit_destroyer\armanent02.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -2966,7 +2966,7 @@
 
 	<model
 		id="single130CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\single130cit.gam">
 		<action
@@ -2981,7 +2981,7 @@
 
 	<model
 		id="single130CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\single130cit_gun.gam">
 		<action
@@ -3005,7 +3005,7 @@
 
 	<model
 		id="mun_single130CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\mun_single130cit.gam">
 		<action
@@ -3020,7 +3020,7 @@
 
 	<model
 		id="mun_single130CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\mun_single130cit_gun.gam">
 		<action
@@ -3044,7 +3044,7 @@
 
 	<model
 		id="single138CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\single138cit.gam">
 		<action
@@ -3059,7 +3059,7 @@
 
 	<model
 		id="single138CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\single138cit_gun.gam">
 		<action
@@ -3083,7 +3083,7 @@
 
 	<model
 		id="mun_single138CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\mun_single138cit.gam">
 		<action
@@ -3098,7 +3098,7 @@
 
 	<model
 		id="mun_single138CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_destroyer\mun_single138cit_gun.gam">
 		<action
@@ -3122,13 +3122,13 @@
 
 	<model
 		id="destroyerCDEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\engine.gam" />
 
 	<model
 		id="destroyerCDHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\hull.gam">
@@ -3333,7 +3333,7 @@
 
 	<model
 		id="destroyerCDTorpedo01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\torpedo01.gam">
 		<action
@@ -3402,14 +3402,14 @@
 
 	<model
 		id="destroyerCDTorpedo01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\torpedo01_gun.gam" />
 
 	<model
 		id="destroyerCD127Armanent"
 		file="data\models\battleship\vehicles\cd_destroyer\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -3570,7 +3570,7 @@
 	<model
 		id="destroyerCD135Armanent"
 		file="data\models\battleship\vehicles\cd_destroyer\armanent02.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -3730,7 +3730,7 @@
 
 	<model
 		id="twin127CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\twin127cd.gam">
 		<action
@@ -3745,7 +3745,7 @@
 
 	<model
 		id="twin127CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\twin127cd_gun.gam">
 		<action
@@ -3781,7 +3781,7 @@
 
 	<model
 		id="mun_twin127CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\mun_twin127cd.gam">
 		<action
@@ -3796,7 +3796,7 @@
 
 	<model
 		id="mun_twin127CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\mun_twin127cd_gun.gam">
 		<action
@@ -3832,7 +3832,7 @@
 
 	<model
 		id="twin135CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\twin135cd.gam">
 		<action
@@ -3847,7 +3847,7 @@
 
 	<model
 		id="twin135CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\twin135cd_gun.gam">
 		<action
@@ -3883,7 +3883,7 @@
 
 	<model
 		id="mun_twin135CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\mun_twin135cd.gam">
 		<action
@@ -3898,7 +3898,7 @@
 
 	<model
 		id="mun_twin135CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_destroyer\mun_twin135cd_gun.gam">
 		<action
@@ -3934,13 +3934,13 @@
 
 	<model
 		id="cruiserCITEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\engine.gam" />
 
 	<model
 		id="cruiserCITHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\hull.gam">
@@ -4105,13 +4105,13 @@
 
 	<model
 		id="cruiserCITTorpedo01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
 		id="cruiserCITTorpedo01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\torpedo01_gun.gam">
 		<action
@@ -4168,13 +4168,13 @@
 
 	<model
 		id="AA47mmCannon01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\aa47cannon.gam" />
 
 	<model
 		id="AA47mmCannon01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\aa47cannon_gun.gam">
 		<action
@@ -4199,7 +4199,7 @@
 	<model
 		id="cruiserCIT152Armanent"
 		file="data\models\battleship\vehicles\cit_cruiser\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -4406,7 +4406,7 @@
 	<model
 		id="cruiserCIT155Armanent"
 		file="data\models\battleship\vehicles\cit_cruiser\armanent02.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -4612,13 +4612,13 @@
 
 	<model
 		id="sponson130CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\sponson130cit.gam" />
 
 	<model
 		id="sponson130CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\sponson130cit_gun.gam">
 		<action
@@ -4642,7 +4642,7 @@
 
 	<model
 		id="twin152CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\twin152cit.gam">
 		<action
@@ -4657,7 +4657,7 @@
 
 	<model
 		id="twin152CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\twin152cit_gun.gam">
 		<action
@@ -4693,7 +4693,7 @@
 
 	<model
 		id="mun_twin152CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\mun_twin152cit.gam">
 		<action
@@ -4708,7 +4708,7 @@
 
 	<model
 		id="mun_twin152CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\mun_twin152cit_gun.gam">
 		<action
@@ -4744,7 +4744,7 @@
 
 	<model
 		id="triple155CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\triple155cit.gam">
 		<action
@@ -4759,7 +4759,7 @@
 
 	<model
 		id="triple155CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\triple155cit_gun.gam">
 		<action
@@ -4807,7 +4807,7 @@
 
 	<model
 		id="mun_triple155CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\mun_triple155cit.gam">
 		<action
@@ -4822,7 +4822,7 @@
 
 	<model
 		id="mun_triple155CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_cruiser\mun_triple155cit_gun.gam">
 		<action
@@ -4870,13 +4870,13 @@
 
 	<model
 		id="cruiserCDEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\engine.gam" />
 
 	<model
 		id="cruiserCDHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\hull.gam">
@@ -5042,7 +5042,7 @@
 	<model
 		id="cruiserCD203Armanent"
 		file="data\models\battleship\vehicles\cd_cruiser\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -5280,7 +5280,7 @@
 
 	<model
 		id="twin203CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\twin203cd.gam">
 		<action
@@ -5295,7 +5295,7 @@
 
 	<model
 		id="twin203CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\twin203cd_gun.gam">
 		<action
@@ -5331,7 +5331,7 @@
 
 	<model
 		id="mun_twin203CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\mun_twin203cd.gam">
 		<action
@@ -5346,7 +5346,7 @@
 
 	<model
 		id="mun_twin203CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\mun_twin203cd_gun.gam">
 		<action
@@ -5382,7 +5382,7 @@
 
 	<model
 		id="cruiser_rocketCD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam">
 		<action
@@ -5403,13 +5403,13 @@
 
 	<model
 		id="cruiser_rocketCD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\rocketcdgun.gam" />
 
 	<model
 		id="cruiser_samCD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\samcd.gam">
 		<action
@@ -5424,19 +5424,19 @@
 
 	<model
 		id="cruiser_samCD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_cruiser\samcdgun.gam" />
 
 <model
 		id="battleshipCITEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\engine.gam" />
 
 	<model
 		id="battleshipCITHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\hull.gam">
@@ -5901,7 +5901,7 @@
 
 	<model
 		id="AA23mmGun01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\aa23gun.gam">
 		<action
@@ -5916,7 +5916,7 @@
 
 	<model
 		id="AA23mmGun01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\aa23gun_gun.gam">
 		<action
@@ -5977,7 +5977,7 @@
 	<model
 		id="battleshipCIT406Armanent"
 		file="data\models\battleship\vehicles\cit_battleship\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -6412,7 +6412,7 @@
 	<model
 		id="battleshipCIT380Armanent"
 		file="data\models\battleship\vehicles\cit_battleship\armanent02.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -6847,7 +6847,7 @@
 	<model
 		id="battleshipCIT457Armanent"
 		file="data\models\battleship\vehicles\cit_battleship\armanent03.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -7281,7 +7281,7 @@
 
 	<model
 		id="triple406CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\triple406cit.gam">
 		<action
@@ -7296,7 +7296,7 @@
 
 	<model
 		id="triple406CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\triple406cit_gun.gam">
 		<action
@@ -7344,7 +7344,7 @@
 
 	<model
 		id="mun_triple406CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_triple406cit.gam">
 		<action
@@ -7359,7 +7359,7 @@
 
 	<model
 		id="mun_triple406CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_triple406cit_gun.gam">
 		<action
@@ -7407,7 +7407,7 @@
 
 	<model
 		id="quadruple380CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\quadruple380cit.gam">
 		<action
@@ -7422,7 +7422,7 @@
 
 	<model
 		id="quadruple380CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\quadruple380cit_gun.gam">
 		<action
@@ -7482,7 +7482,7 @@
 
 	<model
 		id="mun_quadruple380CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_quadruple380cit.gam">
 		<action
@@ -7497,7 +7497,7 @@
 
 	<model
 		id="mun_quadruple380CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_quadruple380cit_gun.gam">
 		<action
@@ -7557,7 +7557,7 @@
 
 	<model
 		id="triple457CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\triple457cit.gam">
 		<action
@@ -7572,7 +7572,7 @@
 
 	<model
 		id="triple457CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\triple457cit_gun.gam">
 		<action
@@ -7620,7 +7620,7 @@
 
 	<model
 		id="mun_triple457CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_triple457cit.gam">
 		<action
@@ -7635,7 +7635,7 @@
 
 	<model
 		id="mun_triple457CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_triple457cit_gun.gam">
 		<action
@@ -7683,7 +7683,7 @@
 
 	<model
 		id="twin130CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\twin130cit.gam">
 		<action
@@ -7698,7 +7698,7 @@
 
 	<model
 		id="twin130CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\twin130cit_gun.gam">
 		<action
@@ -7734,7 +7734,7 @@
 
 	<model
 		id="mun_twin130CIT01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_twin130cit.gam">
 		<action
@@ -7749,7 +7749,7 @@
 
 	<model
 		id="mun_twin130CIT01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cit_battleship\mun_twin130cit_gun.gam">
 		<action
@@ -7785,13 +7785,13 @@
 
 	<model
 		id="battleshipCDEngine"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\engine.gam" />
 
 	<model
 		id="battleshipCDHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\hull.gam">
@@ -8147,7 +8147,7 @@
 	<model
 		id="battleshipCD356Armanent"
 		file="data\models\battleship\vehicles\cd_battleship\armanent01.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -8412,7 +8412,7 @@
 	<model
 		id="battleshipCD406Armanent"
 		file="data\models\battleship\vehicles\cd_battleship\armanent02.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -8676,7 +8676,7 @@
 
 	<model
 		id="twin356CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\twin356cd.gam">
 		<action
@@ -8691,7 +8691,7 @@
 
 	<model
 		id="twin356CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\twin356cd_gun.gam">
 		<action
@@ -8727,7 +8727,7 @@
 
 	<model
 		id="mun_twin356CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\mun_twin356cd.gam">
 		<action
@@ -8742,7 +8742,7 @@
 
 	<model
 		id="mun_twin356CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\mun_twin356cd_gun.gam">
 		<action
@@ -8778,7 +8778,7 @@
 
 	<model
 		id="triple406CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\triple406cd.gam">
 		<action
@@ -8793,7 +8793,7 @@
 
 	<model
 		id="triple406CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\triple406cd_gun.gam">
 		<action
@@ -8841,7 +8841,7 @@
 
 	<model
 		id="mun_triple406CD01"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\mun_triple406cd.gam">
 		<action
@@ -8856,7 +8856,7 @@
 
 	<model
 		id="mun_triple406CD01gun"
-		shadow="1"
+		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_battleship\mun_triple406cd_gun.gam">
 		<action
@@ -8905,7 +8905,7 @@
 	<model
 		id="merchantCDEngine"
 		file="data\models\battleship\vehicles\cd_merchant\engine.gam"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		trans="0">
@@ -9083,7 +9083,7 @@
 
 	<model
 		id="merchantCDHull"
-		shadow="1"
+		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_merchant\hull.gam">
@@ -9270,6 +9270,20 @@
 	<model
 		id="shipbarrier"
 		file="data\models\battleship\environment\barrier.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="quay_big_plane"
+		file="data\models\battleship\environment\quay_big_plane.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="mayak"
+		file="data\models\battleship\environment\mayak.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />

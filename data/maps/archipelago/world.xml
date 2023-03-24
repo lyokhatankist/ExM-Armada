@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="321131498">
+	LastId="321131557">
 	<Node
 		name="Object321126804"
 		class="SgAnimatedModelNode"
@@ -26031,7 +26031,7 @@
 		org="6628.131 14.694 4240.452"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26200,7 +26200,7 @@
 		org="6504.113 14.694 4110.771"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26209,7 +26209,7 @@
 		org="6504.109 14.694 4126.922"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26218,7 +26218,7 @@
 		org="6497.946 14.694 4143.176"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26227,7 +26227,7 @@
 		org="6504.188 14.694 4159.396"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26236,7 +26236,7 @@
 		org="6504.187 14.694 4175.661"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26245,7 +26245,7 @@
 		org="6498.175 14.694 4191.909"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26254,7 +26254,7 @@
 		org="6498.203 14.694 4208.173"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26263,7 +26263,7 @@
 		org="6504.354 14.694 4224.436"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26272,7 +26272,7 @@
 		org="6504.395 14.694 4240.209"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26330,7 +26330,7 @@
 		org="6498.461 14.694 4256.472"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26339,7 +26339,7 @@
 		org="6498.451 14.694 4272.727"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26348,7 +26348,7 @@
 		org="6514.561 14.694 4272.709"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26357,7 +26357,7 @@
 		org="6514.569 14.694 4256.453"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26366,7 +26366,7 @@
 		org="6546.794 14.694 4272.695"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26375,7 +26375,7 @@
 		org="6546.803 14.694 4256.439"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26384,7 +26384,7 @@
 		org="6530.695 14.694 4256.457"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26393,7 +26393,7 @@
 		org="6530.686 14.694 4272.713"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26402,7 +26402,7 @@
 		org="6595.071 14.694 4272.638"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26411,7 +26411,7 @@
 		org="6595.116 14.694 4256.396"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26420,7 +26420,7 @@
 		org="6611.214 14.694 4272.635"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26429,7 +26429,7 @@
 		org="6611.225 14.694 4256.378"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26438,7 +26438,7 @@
 		org="6578.991 14.694 4256.391"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26447,7 +26447,7 @@
 		org="6578.981 14.694 4272.646"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26456,7 +26456,7 @@
 		org="6562.881 14.694 4256.408"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26465,7 +26465,7 @@
 		org="6562.873 14.694 4272.664"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26474,7 +26474,7 @@
 		org="6627.280 14.694 4256.679"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26483,7 +26483,7 @@
 		org="6611.199 9.091 4305.132"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26492,7 +26492,7 @@
 		org="6611.209 12.934 4288.877"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26501,7 +26501,7 @@
 		org="6578.977 13.577 4288.889"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26510,7 +26510,7 @@
 		org="6578.966 10.519 4305.146"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26519,7 +26519,7 @@
 		org="6595.056 9.841 4305.136"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26528,7 +26528,7 @@
 		org="6595.102 13.197 4288.895"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26537,7 +26537,7 @@
 		org="6562.866 14.188 4288.908"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26546,7 +26546,7 @@
 		org="6562.857 11.447 4305.162"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26555,7 +26555,7 @@
 		org="6530.670 14.496 4305.211"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26564,7 +26564,7 @@
 		org="6546.789 14.694 4288.939"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26573,7 +26573,7 @@
 		org="6546.778 12.719 4305.193"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26582,7 +26582,7 @@
 		org="6530.680 14.694 4288.957"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26591,7 +26591,7 @@
 		org="6514.554 14.694 4288.952"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26600,7 +26600,7 @@
 		org="6514.544 14.694 4305.206"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26609,7 +26609,7 @@
 		org="6498.437 14.694 4305.225"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26618,7 +26618,7 @@
 		org="6498.445 14.694 4288.969"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26627,7 +26627,7 @@
 		org="6482.320 14.694 4289.092"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26636,7 +26636,7 @@
 		org="6482.316 14.694 4305.348"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26645,7 +26645,7 @@
 		org="6482.461 14.694 4337.857"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26654,7 +26654,7 @@
 		org="6482.421 14.694 4321.608"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26663,7 +26663,7 @@
 		org="6482.535 14.667 4354.097"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26672,7 +26672,7 @@
 		org="6482.575 13.987 4370.354"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26791,7 +26791,7 @@
 		org="6758.031 14.694 4239.959"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26800,7 +26800,7 @@
 		org="6758.008 14.694 4256.225"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26819,7 +26819,7 @@
 		org="6634.185 14.694 4272.331"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26828,7 +26828,7 @@
 		org="6748.139 14.287 4304.635"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26837,7 +26837,7 @@
 		org="6748.149 14.694 4288.379"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26846,7 +26846,7 @@
 		org="6731.892 14.671 4288.408"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26855,7 +26855,7 @@
 		org="6731.846 13.330 4304.648"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26864,7 +26864,7 @@
 		org="6715.756 12.606 4304.658"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26873,7 +26873,7 @@
 		org="6715.767 14.663 4288.403"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26882,7 +26882,7 @@
 		org="6699.657 14.635 4288.419"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26891,7 +26891,7 @@
 		org="6699.647 11.951 4304.676"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26900,7 +26900,7 @@
 		org="6683.569 10.393 4304.706"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26909,7 +26909,7 @@
 		org="6683.580 13.711 4288.452"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26918,7 +26918,7 @@
 		org="6667.470 12.779 4288.468"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26927,7 +26927,7 @@
 		org="6667.461 9.112 4304.725"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26936,7 +26936,7 @@
 		org="6651.335 8.374 4304.719"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26945,7 +26945,7 @@
 		org="6651.344 12.440 4288.463"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26954,7 +26954,7 @@
 		org="6635.236 12.285 4288.482"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26963,7 +26963,7 @@
 		org="6635.227 7.940 4304.736"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26972,7 +26972,7 @@
 		org="6748.206 12.118 4337.131"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26981,7 +26981,7 @@
 		org="6748.214 12.362 4320.874"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26990,7 +26990,7 @@
 		org="6715.980 8.657 4320.887"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -26999,7 +26999,7 @@
 		org="6715.970 5.189 4337.146"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27008,7 +27008,7 @@
 		org="6732.061 6.865 4337.135"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27017,7 +27017,7 @@
 		org="6732.071 9.814 4320.884"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27026,7 +27026,7 @@
 		org="6683.783 2.857 4337.194"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27035,7 +27035,7 @@
 		org="6699.861 3.955 4337.163"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27044,7 +27044,7 @@
 		org="6699.872 7.812 4320.904"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27053,7 +27053,7 @@
 		org="6683.793 6.609 4320.935"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27062,7 +27062,7 @@
 		org="6748.405 9.315 4369.629"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27071,7 +27071,7 @@
 		org="6748.416 10.185 4353.371"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27080,7 +27080,7 @@
 		org="6732.305 5.715 4353.389"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27089,7 +27089,7 @@
 		org="6732.260 5.213 4369.633"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27098,7 +27098,7 @@
 		org="6716.171 2.034 4369.644"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27107,7 +27107,7 @@
 		org="6716.180 3.135 4353.383"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27116,7 +27116,7 @@
 		org="6700.071 1.406 4353.401"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27125,7 +27125,7 @@
 		org="6700.062 -0.254 4369.661"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27134,7 +27134,7 @@
 		org="6683.983 -1.584 4369.692"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27143,7 +27143,7 @@
 		org="6683.993 0.186 4353.433"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27152,7 +27152,7 @@
 		org="6748.563 8.546 4385.858"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27161,7 +27161,7 @@
 		org="6748.553 7.579 4402.117"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27170,7 +27170,7 @@
 		org="6716.318 -0.493 4402.129"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27179,7 +27179,7 @@
 		org="6716.328 0.908 4385.871"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27188,7 +27188,7 @@
 		org="6732.453 4.376 4385.875"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27197,7 +27197,7 @@
 		org="6732.408 3.149 4402.121"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27206,7 +27206,7 @@
 		org="6684.131 -4.466 4402.178"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27215,7 +27215,7 @@
 		org="6684.142 -3.141 4385.918"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27224,7 +27224,7 @@
 		org="6700.219 -1.706 4385.887"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27233,7 +27233,7 @@
 		org="6700.209 -2.919 4402.148"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27242,7 +27242,7 @@
 		org="6554.861 6.065 4337.345"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27251,7 +27251,7 @@
 		org="6554.870 8.972 4321.084"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27260,7 +27260,7 @@
 		org="6635.401 4.200 4321.004"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27269,7 +27269,7 @@
 		org="6635.390 0.927 4337.266"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27278,7 +27278,7 @@
 		org="6651.480 1.227 4337.256"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27287,7 +27287,7 @@
 		org="6619.291 4.594 4321.023"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27296,7 +27296,7 @@
 		org="6619.282 1.011 4337.283"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27305,7 +27305,7 @@
 		org="6587.095 2.960 4337.332"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27314,7 +27314,7 @@
 		org="6603.212 5.664 4321.054"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27323,7 +27323,7 @@
 		org="6603.203 1.632 4337.314"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27332,7 +27332,7 @@
 		org="6587.105 6.628 4321.072"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27341,7 +27341,7 @@
 		org="6570.978 7.692 4321.067"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27350,7 +27350,7 @@
 		org="6570.968 4.360 4337.327"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27359,7 +27359,7 @@
 		org="6651.526 4.664 4321.010"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27368,7 +27368,7 @@
 		org="6667.634 5.442 4320.993"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27377,7 +27377,7 @@
 		org="6667.624 1.911 4337.252"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27386,7 +27386,7 @@
 		org="6555.051 0.441 4369.768"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27395,7 +27395,7 @@
 		org="6555.060 3.178 4353.507"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27404,7 +27404,7 @@
 		org="6635.591 -1.604 4353.427"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27413,7 +27413,7 @@
 		org="6635.581 -3.656 4369.689"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27422,7 +27422,7 @@
 		org="6619.481 -1.515 4353.446"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27431,7 +27431,7 @@
 		org="6619.472 -3.639 4369.706"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27440,7 +27440,7 @@
 		org="6587.286 -2.422 4369.754"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27449,7 +27449,7 @@
 		org="6603.403 -1.072 4353.477"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27458,7 +27458,7 @@
 		org="6603.393 -3.237 4369.737"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27467,7 +27467,7 @@
 		org="6587.295 -0.231 4353.495"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27476,7 +27476,7 @@
 		org="6571.168 1.269 4353.490"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27485,7 +27485,7 @@
 		org="6571.159 -1.203 4369.750"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27494,7 +27494,7 @@
 		org="6651.670 -3.304 4369.679"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27503,7 +27503,7 @@
 		org="6651.716 -1.340 4353.433"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27512,7 +27512,7 @@
 		org="6667.825 -0.738 4353.416"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27521,7 +27521,7 @@
 		org="6667.814 -2.622 4369.675"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27530,7 +27530,7 @@
 		org="6555.217 -3.307 4402.287"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27539,7 +27539,7 @@
 		org="6555.225 -1.521 4386.027"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27548,7 +27548,7 @@
 		org="6635.756 -5.511 4385.947"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27557,7 +27557,7 @@
 		org="6635.747 -7.081 4402.208"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27566,7 +27566,7 @@
 		org="6619.647 -5.572 4385.964"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27575,7 +27575,7 @@
 		org="6619.637 -7.165 4402.224"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27584,7 +27584,7 @@
 		org="6587.452 -6.027 4402.273"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27593,7 +27593,7 @@
 		org="6603.569 -5.198 4385.996"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27602,7 +27602,7 @@
 		org="6603.559 -6.811 4402.255"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27611,7 +27611,7 @@
 		org="6587.461 -4.396 4386.013"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27620,7 +27620,7 @@
 		org="6571.334 -3.173 4386.009"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27629,7 +27629,7 @@
 		org="6571.325 -4.848 4402.269"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27638,7 +27638,7 @@
 		org="6651.836 -6.584 4402.199"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27647,7 +27647,7 @@
 		org="6651.881 -5.076 4385.953"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27656,7 +27656,7 @@
 		org="6667.991 -4.278 4385.935"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27665,7 +27665,7 @@
 		org="6667.979 -5.707 4402.195"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27683,7 +27683,7 @@
 		org="6732.239 1.759 4418.338"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27710,7 +27710,7 @@
 		org="6651.667 -7.763 4418.417"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27719,7 +27719,7 @@
 		org="6667.810 -6.824 4418.413"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27728,7 +27728,7 @@
 		org="6555.048 -4.840 4418.504"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27737,7 +27737,7 @@
 		org="6571.155 -6.325 4418.487"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27746,7 +27746,7 @@
 		org="6506.491 13.454 4337.664"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27755,7 +27755,7 @@
 		org="6538.725 8.322 4337.650"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27764,7 +27764,7 @@
 		org="6522.598 10.975 4337.645"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27773,7 +27773,7 @@
 		org="6506.681 10.333 4370.086"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27782,7 +27782,7 @@
 		org="6506.690 12.293 4353.826"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27791,7 +27791,7 @@
 		org="6538.916 3.148 4370.073"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27800,7 +27800,7 @@
 		org="6538.925 5.806 4353.813"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27809,7 +27809,7 @@
 		org="6522.798 8.987 4353.808"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27818,7 +27818,7 @@
 		org="6522.789 6.648 4370.068"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27827,7 +27827,7 @@
 		org="6506.847 4.947 4402.605"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27836,7 +27836,7 @@
 		org="6506.855 7.430 4386.345"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27845,7 +27845,7 @@
 		org="6539.082 -1.375 4402.591"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27854,7 +27854,7 @@
 		org="6539.091 0.621 4386.332"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27863,7 +27863,7 @@
 		org="6522.964 3.924 4386.328"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27872,7 +27872,7 @@
 		org="6522.955 1.465 4402.587"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27881,7 +27881,7 @@
 		org="6506.678 2.947 4418.822"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27890,7 +27890,7 @@
 		org="6538.913 -2.895 4418.808"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27899,7 +27899,7 @@
 		org="6522.786 -0.423 4418.804"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27908,7 +27908,7 @@
 		org="6506.500 14.502 4321.398"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27917,7 +27917,7 @@
 		org="6538.735 10.664 4321.385"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27926,7 +27926,7 @@
 		org="6522.608 12.764 4321.380"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27974,7 +27974,7 @@
 		org="6482.943 4.457 4451.577"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27983,7 +27983,7 @@
 		org="6482.983 2.836 4467.835"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -27992,7 +27992,7 @@
 		org="6482.869 6.535 4435.337"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28001,7 +28001,7 @@
 		org="6482.829 8.716 4419.089"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28010,7 +28010,7 @@
 		org="6482.724 10.433 4402.829"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28019,7 +28019,7 @@
 		org="6482.728 12.133 4386.572"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28028,7 +28028,7 @@
 		org="6499.020 2.763 4435.028"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28037,7 +28037,7 @@
 		org="6499.013 0.874 4451.271"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28073,7 +28073,7 @@
 		org="6515.139 -2.177 4451.276"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28082,7 +28082,7 @@
 		org="6515.145 -0.601 4435.032"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28091,7 +28091,7 @@
 		org="6531.253 -3.101 4435.013"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28100,7 +28100,7 @@
 		org="6531.247 -4.545 4451.257"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28109,7 +28109,7 @@
 		org="6547.398 -6.371 4450.880"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28118,7 +28118,7 @@
 		org="6547.407 -7.412 4467.087"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28127,7 +28127,7 @@
 		org="6547.379 -5.147 4434.686"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28136,7 +28136,7 @@
 		org="6563.515 -6.772 4434.718"
 		orgRel="1"
 		scale="0.600 0.600 0.600"
-		id="quay_big_cube"
+		id="quay_big_plane"
 		ndmAction="0" />
 
 	<Node
@@ -28248,7 +28248,7 @@
 	<Node
 		name="Object321131017"
 		class="SgAnimatedModelNode"
-		org="6496.336 20.975 4180.693"
+		org="6499.348 20.975 4180.711"
 		orgRel="1"
 		rot="0.0000 0.2334 0.0000 0.9724"
 		scale="0.350 0.350 0.350"
@@ -28258,7 +28258,7 @@
 	<Node
 		name="Object321131018"
 		class="SgAnimatedModelNode"
-		org="6491.896 20.034 4167.021"
+		org="6491.896 20.292 4167.021"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28390,7 +28390,7 @@
 	<Node
 		name="Object321131036"
 		class="SgAnimatedModelNode"
-		org="6622.959 15.821 4296.089"
+		org="6623.913 16.171 4296.443"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28399,7 +28399,7 @@
 	<Node
 		name="Object321131037"
 		class="SgAnimatedModelNode"
-		org="6509.846 20.034 4142.435"
+		org="6509.846 20.253 4142.435"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28408,7 +28408,7 @@
 	<Node
 		name="Object321131038"
 		class="SgAnimatedModelNode"
-		org="6493.232 20.034 4119.006"
+		org="6493.274 20.255 4118.500"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28417,7 +28417,7 @@
 	<Node
 		name="Object321131039"
 		class="SgAnimatedModelNode"
-		org="6508.917 20.034 4199.902"
+		org="6508.917 20.319 4199.902"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28426,7 +28426,7 @@
 	<Node
 		name="Object321131040"
 		class="SgAnimatedModelNode"
-		org="6493.896 20.034 4231.661"
+		org="6493.896 20.311 4231.661"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28435,7 +28435,7 @@
 	<Node
 		name="Object321131041"
 		class="SgAnimatedModelNode"
-		org="6638.058 20.034 4247.516"
+		org="6636.729 20.305 4247.375"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28444,7 +28444,7 @@
 	<Node
 		name="Object321131042"
 		class="SgAnimatedModelNode"
-		org="6754.024 20.034 4271.606"
+		org="6754.710 20.259 4264.194"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28453,7 +28453,7 @@
 	<Node
 		name="Object321131043"
 		class="SgAnimatedModelNode"
-		org="6768.509 20.034 4248.274"
+		org="6766.618 20.321 4247.803"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28491,7 +28491,7 @@
 	<Node
 		name="Object321131049"
 		class="SgAnimatedModelNode"
-		org="6494.068 20.000 4338.634"
+		org="6494.068 20.095 4338.634"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28520,7 +28520,7 @@
 	<Node
 		name="Object321131052"
 		class="SgAnimatedModelNode"
-		org="6494.109 14.002 4396.000"
+		org="6494.109 14.112 4396.000"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28538,7 +28538,7 @@
 	<Node
 		name="Object321131055"
 		class="SgAnimatedModelNode"
-		org="6493.821 18.146 4369.334"
+		org="6493.821 18.314 4369.334"
 		orgRel="1"
 		scale="0.550 0.550 0.550"
 		id="rr_platform"
@@ -28597,16 +28597,6 @@
 		name="Object321131062"
 		class="SgAnimatedModelNode"
 		org="6542.592 13.273 4343.292"
-		orgRel="1"
-		rot="0.0000 1.0000 0.0000 0.0000"
-		scale="0.300 0.300 0.300"
-		id="prom_2"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131063"
-		class="SgAnimatedModelNode"
-		org="6569.300 10.096 4343.319"
 		orgRel="1"
 		rot="0.0000 1.0000 0.0000 0.0000"
 		scale="0.300 0.300 0.300"
@@ -29141,16 +29131,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131129"
-		class="SgAnimatedModelNode"
-		org="6553.868 20.819 4245.354"
-		orgRel="1"
-		rot="0.0000 0.2673 0.0000 0.9636"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131132"
 		class="SgAnimatedModelNode"
 		org="6575.802 22.035 4243.912"
@@ -29183,7 +29163,7 @@
 	<Node
 		name="Object321131135"
 		class="SgAnimatedModelNode"
-		org="6632.780 22.061 4234.530"
+		org="6629.263 22.061 4234.632"
 		orgRel="1"
 		rot="0.0000 0.7178 0.0000 -0.6962"
 		scale="0.300 0.300 0.300"
@@ -29193,7 +29173,7 @@
 	<Node
 		name="Object321131136"
 		class="SgAnimatedModelNode"
-		org="6632.866 20.819 4234.500"
+		org="6629.350 20.819 4234.603"
 		orgRel="1"
 		rot="0.0000 0.7178 0.0000 -0.6962"
 		scale="0.300 0.300 0.300"
@@ -29203,29 +29183,9 @@
 	<Node
 		name="Object321131138"
 		class="SgAnimatedModelNode"
-		org="6632.943 20.819 4236.520"
+		org="6629.426 20.819 4236.623"
 		orgRel="1"
 		rot="0.0000 0.7178 0.0000 -0.6962"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131141"
-		class="SgAnimatedModelNode"
-		org="6684.628 20.808 4280.070"
-		orgRel="1"
-		rot="0.0000 0.9469 0.0000 0.3214"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131142"
-		class="SgAnimatedModelNode"
-		org="6682.343 22.035 4278.217"
-		orgRel="1"
-		rot="0.0000 0.9601 0.0000 -0.2798"
 		scale="0.300 0.300 0.300"
 		id="factory_conteiner"
 		ndmAction="0" />
@@ -29246,16 +29206,6 @@
 		org="6682.103 20.819 4276.545"
 		orgRel="1"
 		rot="0.0000 0.9469 0.0000 0.3214"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131145"
-		class="SgAnimatedModelNode"
-		org="6499.859 23.302 4259.220"
-		orgRel="1"
-		rot="0.0000 -0.0458 0.0000 0.9990"
 		scale="0.300 0.300 0.300"
 		id="factory_conteiner"
 		ndmAction="0" />
@@ -29291,29 +29241,9 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131149"
-		class="SgAnimatedModelNode"
-		org="6501.613 20.819 4262.820"
-		orgRel="1"
-		rot="0.0000 -0.7387 0.0000 0.6740"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131150"
 		class="SgAnimatedModelNode"
 		org="6505.084 20.819 4263.202"
-		orgRel="1"
-		rot="0.0000 -0.7387 0.0000 0.6740"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131151"
-		class="SgAnimatedModelNode"
-		org="6499.689 22.061 4258.358"
 		orgRel="1"
 		rot="0.0000 -0.7387 0.0000 0.6740"
 		scale="0.300 0.300 0.300"
@@ -29363,16 +29293,6 @@
 		class="SgAnimatedModelNode"
 		org="6752.477 20.819 4235.912"
 		orgRel="1"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131164"
-		class="SgAnimatedModelNode"
-		org="6711.693 20.819 4276.914"
-		orgRel="1"
-		rot="0.0000 0.7461 0.0000 0.6659"
 		scale="0.300 0.300 0.300"
 		id="factory_conteiner"
 		ndmAction="0" />
@@ -29438,41 +29358,11 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131181"
-		class="SgAnimatedModelNode"
-		org="6469.691 20.819 4307.419"
-		orgRel="1"
-		rot="0.0000 -0.9890 0.0000 0.1478"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131182"
 		class="SgAnimatedModelNode"
 		org="6469.671 20.819 4310.910"
 		orgRel="1"
 		rot="0.0000 -0.9397 0.0000 0.3420"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131184"
-		class="SgAnimatedModelNode"
-		org="6473.929 20.819 4308.180"
-		orgRel="1"
-		rot="0.0000 -0.9351 0.0000 -0.3543"
-		scale="0.300 0.300 0.300"
-		id="factory_conteiner"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131185"
-		class="SgAnimatedModelNode"
-		org="6711.808 20.819 4281.170"
-		orgRel="1"
-		rot="0.0000 0.7461 0.0000 0.6659"
 		scale="0.300 0.300 0.300"
 		id="factory_conteiner"
 		ndmAction="0" />
@@ -29935,56 +29825,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131244"
-		class="SgAnimatedModelNode"
-		org="6495.472 21.389 4263.480"
-		orgRel="1"
-		rot="0.0000 0.7646 0.0000 0.6445"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131245"
-		class="SgAnimatedModelNode"
-		org="6495.567 20.800 4263.137"
-		orgRel="1"
-		rot="0.0000 1.0000 0.0000 0.0065"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131246"
-		class="SgAnimatedModelNode"
-		org="6495.365 20.800 4263.933"
-		orgRel="1"
-		rot="0.0000 0.9588 0.0000 0.2840"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131247"
-		class="SgAnimatedModelNode"
-		org="6502.865 20.800 4255.745"
-		orgRel="1"
-		rot="0.0000 -0.5628 0.0000 0.8266"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131248"
-		class="SgAnimatedModelNode"
-		org="6502.305 20.800 4254.176"
-		orgRel="1"
-		rot="0.0000 -0.8819 0.0000 0.4714"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131249"
 		class="SgAnimatedModelNode"
 		org="6503.860 21.389 4255.183"
@@ -30025,41 +29865,11 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131253"
-		class="SgAnimatedModelNode"
-		org="6507.008 21.389 4169.315"
-		orgRel="1"
-		rot="0.0000 0.7646 0.0000 0.6445"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131254"
 		class="SgAnimatedModelNode"
 		org="6507.103 20.800 4168.971"
 		orgRel="1"
 		rot="0.0000 1.0000 0.0000 0.0065"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131255"
-		class="SgAnimatedModelNode"
-		org="6506.900 20.800 4169.768"
-		orgRel="1"
-		rot="0.0000 0.9588 0.0000 0.2840"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131256"
-		class="SgAnimatedModelNode"
-		org="6507.386 20.800 4171.127"
-		orgRel="1"
-		rot="0.0000 0.0958 0.0000 0.9954"
 		scale="0.300 0.300 0.300"
 		id="factory_box"
 		ndmAction="0" />
@@ -30080,26 +29890,6 @@
 		org="6627.610 20.800 4230.218"
 		orgRel="1"
 		rot="0.0000 0.0044 0.0000 1.0000"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131262"
-		class="SgAnimatedModelNode"
-		org="6721.149 21.389 4276.826"
-		orgRel="1"
-		rot="0.0000 -0.2672 0.0000 0.9636"
-		scale="0.300 0.300 0.300"
-		id="factory_box"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131263"
-		class="SgAnimatedModelNode"
-		org="6721.348 20.800 4277.121"
-		orgRel="1"
-		rot="0.0000 0.4107 0.0000 0.9118"
 		scale="0.300 0.300 0.300"
 		id="factory_box"
 		ndmAction="0" />
@@ -30196,7 +29986,7 @@
 	<Node
 		name="Object321131275"
 		class="SgAnimatedModelNode"
-		org="6496.555 20.975 4104.433"
+		org="6499.567 20.975 4104.451"
 		orgRel="1"
 		rot="0.0000 0.2334 0.0000 0.9724"
 		scale="0.350 0.350 0.350"
@@ -30296,19 +30086,9 @@
 	<Node
 		name="Object321131285"
 		class="SgAnimatedModelNode"
-		org="6731.808 18.716 4307.892"
+		org="6722.793 16.129 4318.048"
 		orgRel="1"
-		rot="0.0000 0.2440 0.0000 0.9698"
-		scale="0.350 0.350 0.350"
-		id="rr_lamp"
-		ndmAction="0" />
-
-	<Node
-		name="Object321131286"
-		class="SgAnimatedModelNode"
-		org="6634.235 7.662 4335.008"
-		orgRel="1"
-		rot="0.0000 -0.4559 0.0000 0.8900"
+		rot="0.0000 -0.4963 0.0000 0.8682"
 		scale="0.350 0.350 0.350"
 		id="rr_lamp"
 		ndmAction="0" />
@@ -30316,7 +30096,7 @@
 	<Node
 		name="Object321131287"
 		class="SgAnimatedModelNode"
-		org="6505.453 20.975 4215.328"
+		org="6502.760 20.975 4215.344"
 		orgRel="1"
 		rot="0.0000 0.9687 0.0000 -0.2483"
 		scale="0.350 0.350 0.350"
@@ -30326,7 +30106,7 @@
 	<Node
 		name="Object321131288"
 		class="SgAnimatedModelNode"
-		org="6504.732 20.975 4146.435"
+		org="6503.786 20.975 4146.390"
 		orgRel="1"
 		rot="0.0000 0.9687 0.0000 -0.2483"
 		scale="0.350 0.350 0.350"
@@ -30336,7 +30116,7 @@
 	<Node
 		name="Object321131289"
 		class="SgAnimatedModelNode"
-		org="6635.446 20.975 4247.170"
+		org="6630.612 20.975 4247.657"
 		orgRel="1"
 		rot="0.0000 -0.9613 0.0000 0.2756"
 		scale="0.350 0.350 0.350"
@@ -30346,7 +30126,7 @@
 	<Node
 		name="Object321131290"
 		class="SgAnimatedModelNode"
-		org="6765.596 20.975 4245.204"
+		org="6760.563 20.975 4245.645"
 		orgRel="1"
 		rot="0.0000 -0.9613 0.0000 0.2756"
 		scale="0.350 0.350 0.350"
@@ -31043,16 +30823,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object321131487"
-		class="SgAnimatedModelNode"
-		org="6609.550 0.277 4524.804"
-		orgRel="1"
-		rot="0.0000 -1.0000 0.0000 0.0000"
-		scale="0.330 0.330 0.330"
-		id="hoisting_structure_2"
-		ndmAction="0" />
-
-	<Node
 		name="Object321131488"
 		class="SgAnimatedModelNode"
 		org="6629.508 0.277 4526.310"
@@ -31144,5 +30914,542 @@
 		rot="0.0000 1.0000 0.0000 0.0000"
 		scale="0.330 0.330 0.330"
 		id="hoisting_structure_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131498"
+		class="SgAnimatedModelNode"
+		org="6588.964 0.274 4500.205"
+		orgRel="1"
+		rot="0.0000 0.7960 0.0000 0.6052"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131499"
+		class="SgAnimatedModelNode"
+		org="6632.094 0.274 4500.246"
+		orgRel="1"
+		rot="0.0000 0.9544 0.0000 0.2986"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131500"
+		class="SgAnimatedModelNode"
+		org="6665.353 0.274 4473.537"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0044"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131501"
+		class="SgAnimatedModelNode"
+		org="6563.490 0.274 4467.056"
+		orgRel="1"
+		rot="0.0000 0.4187 0.0000 0.9081"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131502"
+		class="SgAnimatedModelNode"
+		org="6621.956 0.274 4464.977"
+		orgRel="1"
+		rot="0.0000 0.8959 0.0000 0.4442"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131503"
+		class="SgAnimatedModelNode"
+		org="6628.907 0.274 4434.810"
+		orgRel="1"
+		rot="0.0000 0.6226 0.0000 0.7826"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131504"
+		class="SgAnimatedModelNode"
+		org="6592.403 0.274 4440.327"
+		orgRel="1"
+		rot="0.0000 0.9588 0.0000 -0.2841"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131507"
+		class="SgAnimatedModelNode"
+		org="5705.144 0.000 5686.531"
+		orgRel="1"
+		scale="0.290 0.290 0.290"
+		id="r2_freehouse1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131508"
+		class="SgAnimatedModelNode"
+		org="5705.514 0.000 5676.062"
+		orgRel="1"
+		scale="0.320 0.320 0.320"
+		id="r2_freehouse2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131509"
+		class="SgAnimatedModelNode"
+		org="5717.373 -0.166 5674.179"
+		orgRel="1"
+		scale="0.270 0.270 0.270"
+		id="r2_housebandit2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131510"
+		class="SgAnimatedModelNode"
+		org="5696.683 0.000 5683.492"
+		orgRel="1"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="mayakMainIsland"
+		class="SgAnimatedModelNode"
+		org="5689.173 -0.127 5822.173"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 -0.0000"
+		scale="0.340 0.340 0.340"
+		id="hoisting_structure_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131512"
+		class="SgAnimatedModelNode"
+		org="5662.514 0.000 5671.967"
+		orgRel="1"
+		scale="0.330 0.330 0.330"
+		id="ben_house"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131513"
+		class="SgAnimatedModelNode"
+		org="5663.129 0.000 5685.789"
+		orgRel="1"
+		scale="0.230 0.230 0.230"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131514"
+		class="SgAnimatedModelNode"
+		org="5669.209 0.000 5682.174"
+		orgRel="1"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131515"
+		class="SgAnimatedModelNode"
+		org="5657.039 0.000 5680.392"
+		orgRel="1"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131516"
+		class="SgAnimatedModelNode"
+		org="5712.926 0.036 5844.674"
+		orgRel="1"
+		scale="0.330 0.330 0.330"
+		id="hoisting_structure_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131517"
+		class="SgAnimatedModelNode"
+		org="5723.447 2.531 5856.469"
+		orgRel="1"
+		rot="0.0000 -0.0305 0.0000 0.9995"
+		scale="0.600 0.600 0.600"
+		id="berth"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131518"
+		class="SgAnimatedModelNode"
+		org="5706.211 0.000 5647.256"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131519"
+		class="SgAnimatedModelNode"
+		org="5697.398 0.000 5650.508"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0000"
+		scale="0.290 0.290 0.290"
+		id="r2_freehouse1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131520"
+		class="SgAnimatedModelNode"
+		org="5712.186 -0.166 5639.309"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0000"
+		scale="0.270 0.270 0.270"
+		id="r2_housebandit2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131521"
+		class="SgAnimatedModelNode"
+		org="5713.029 0.000 5629.219"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 -0.0000"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131522"
+		class="SgAnimatedModelNode"
+		org="5698.430 0.000 5629.477"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.320 0.320 0.320"
+		id="r2_freehouse2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131523"
+		class="SgAnimatedModelNode"
+		org="5654.440 0.000 5664.892"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.230 0.230 0.230"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131524"
+		class="SgAnimatedModelNode"
+		org="5659.860 0.000 5656.832"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0000"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131525"
+		class="SgAnimatedModelNode"
+		org="5668.198 0.000 5659.638"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131526"
+		class="SgAnimatedModelNode"
+		org="5671.693 0.000 5668.259"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131527"
+		class="SgAnimatedModelNode"
+		org="5670.588 -0.316 5624.914"
+		orgRel="1"
+		rot="0.0000 0.7148 0.0000 0.6994"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131528"
+		class="SgAnimatedModelNode"
+		org="5675.854 0.006 5618.713"
+		orgRel="1"
+		rot="0.0000 0.7148 0.0000 0.6994"
+		scale="0.230 0.230 0.230"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131529"
+		class="SgAnimatedModelNode"
+		org="5672.104 -0.114 5612.712"
+		orgRel="1"
+		rot="0.0000 0.7148 0.0000 0.6994"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131530"
+		class="SgAnimatedModelNode"
+		org="5658.138 -0.110 5610.532"
+		orgRel="1"
+		rot="0.0000 0.9999 0.0000 -0.0109"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131531"
+		class="SgAnimatedModelNode"
+		org="5649.595 -0.035 5614.214"
+		orgRel="1"
+		rot="0.0000 0.0109 0.0000 0.9999"
+		scale="0.250 0.250 0.250"
+		id="machine_house2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131532"
+		class="SgAnimatedModelNode"
+		org="5646.975 -0.249 5622.608"
+		orgRel="1"
+		rot="0.0000 0.6994 0.0000 -0.7148"
+		scale="0.270 0.270 0.270"
+		id="machine_house4"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131533"
+		class="SgAnimatedModelNode"
+		org="5655.149 0.131 5627.854"
+		orgRel="1"
+		rot="0.0000 0.9999 0.0000 -0.0109"
+		scale="0.230 0.230 0.230"
+		id="machine_house1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131534"
+		class="SgAnimatedModelNode"
+		org="5297.041 0.007 5040.620"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 -0.0000"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131535"
+		class="SgAnimatedModelNode"
+		org="5280.839 0.081 5045.226"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="0.320 0.320 0.320"
+		id="r2_freehouse2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131536"
+		class="SgAnimatedModelNode"
+		org="5298.287 -0.166 5019.731"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0000"
+		scale="0.270 0.270 0.270"
+		id="r2_housebandit2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131537"
+		class="SgAnimatedModelNode"
+		org="5275.213 -0.079 5061.091"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 -0.0000"
+		scale="0.290 0.290 0.290"
+		id="r2_freehouse1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131538"
+		class="SgAnimatedModelNode"
+		org="5275.344 0.085 5073.387"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131539"
+		class="SgAnimatedModelNode"
+		org="5285.800 0.045 5093.456"
+		orgRel="1"
+		scale="0.290 0.290 0.290"
+		id="r2_housebandit1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131540"
+		class="SgAnimatedModelNode"
+		org="5284.982 -0.153 5053.234"
+		orgRel="1"
+		scale="0.270 0.270 0.270"
+		id="r2_housebandit2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131541"
+		class="SgAnimatedModelNode"
+		org="5276.814 -0.191 5088.743"
+		orgRel="1"
+		scale="0.290 0.290 0.290"
+		id="r2_freehouse1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131542"
+		class="SgAnimatedModelNode"
+		org="5297.647 0.000 5062.451"
+		orgRel="1"
+		scale="0.320 0.320 0.320"
+		id="r2_freehouse2"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131545"
+		class="SgAnimatedModelNode"
+		org="5302.201 -0.398 5094.048"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="0.300 0.300 0.300"
+		id="prom_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131546"
+		class="SgAnimatedModelNode"
+		org="5290.760 0.274 5082.097"
+		orgRel="1"
+		rot="0.0000 -0.4848 0.0000 0.8746"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131547"
+		class="SgAnimatedModelNode"
+		org="5304.646 0.274 5033.526"
+		orgRel="1"
+		rot="0.0000 -0.9724 0.0000 0.2334"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131548"
+		class="SgAnimatedModelNode"
+		org="6540.885 0.274 4584.806"
+		orgRel="1"
+		rot="0.0000 -0.9844 0.0000 -0.1758"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131549"
+		class="SgAnimatedModelNode"
+		org="6594.819 0.274 4549.036"
+		orgRel="1"
+		rot="0.0000 -0.9367 0.0000 -0.3502"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131550"
+		class="SgAnimatedModelNode"
+		org="6650.308 0.274 4546.627"
+		orgRel="1"
+		rot="0.0000 -0.7056 0.0000 -0.7086"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131551"
+		class="SgAnimatedModelNode"
+		org="6691.830 0.274 4602.647"
+		orgRel="1"
+		rot="0.0000 -0.4403 0.0000 -0.8978"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131552"
+		class="SgAnimatedModelNode"
+		org="5663.768 0.200 5612.789"
+		orgRel="1"
+		rot="0.0000 -0.9367 0.0000 -0.3502"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131553"
+		class="SgAnimatedModelNode"
+		org="5709.627 0.200 5635.951"
+		orgRel="1"
+		rot="0.0000 -0.2271 0.0000 -0.9739"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131554"
+		class="SgAnimatedModelNode"
+		org="5708.941 0.200 5682.085"
+		orgRel="1"
+		rot="0.0000 -0.2271 0.0000 -0.9739"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131555"
+		class="SgAnimatedModelNode"
+		org="5657.463 0.200 5669.479"
+		orgRel="1"
+		rot="0.0000 0.5592 0.0000 -0.8290"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
+		ndmAction="0" />
+
+	<Node
+		name="Object321131556"
+		class="SgAnimatedModelNode"
+		org="5716.853 0.200 5841.156"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 -0.8660"
+		scale="0.350 0.350 0.350"
+		id="rr_lamp"
 		ndmAction="0" />
 </World>
