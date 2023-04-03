@@ -3040,14 +3040,14 @@
 
 		<Ambient
 			sunriseColor="150.450 117.300 128.000"
-			dayColor="178.500 196.350 255.000"
-			sunsetColor="178.500 128.000 128.000"
+			dayColor="170.850 193.800 255.000"
+			sunsetColor="158.100 128.000 128.000"
 			nightColor="12.750 35.700 45.900" />
 
 		<Diffuse
 			sunriseColor="104.550 117.300 128.000"
-			dayColor="242.250 234.600 255.000"
-			sunsetColor="128.000 128.000 128.000"
+			dayColor="170.850 178.500 198.900"
+			sunsetColor="153.000 128.000 155.550"
 			nightColor="25.500 43.350 64.000" />
 
 		<Sun
