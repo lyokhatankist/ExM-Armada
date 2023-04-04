@@ -290,7 +290,7 @@
 		<Item 
 			id="plasma_big01" 
 			file="data\models\AnimModels.xml"/>
-
+<!--
 		<Item 
 			id="MasloRazliF" 
 			file="data\models\AnimModels.xml"/>
@@ -342,7 +342,7 @@
 		<Item 
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
-
+-->
 <!-- vehicles -->
 		<Item 
 			id="torpedo01" 
@@ -976,6 +976,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="oilmine1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="oilmine2" 
+			file="data\models\AnimModels.xml"/>
+<!--
+		<Item 
 			id="sedge_grass_1" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1010,7 +1018,7 @@
 		<Item 
 			id="grib9" 
 			file="data\models\AnimModels.xml"/>
-
+-->
 		<Item 
 			id="big_crag_1" 
 			file="data\models\AnimModels.xml"/>
@@ -1268,6 +1276,7 @@
 			file="data\models\AnimModels.xml" />
 	
 <!-- quest items -->
+<!--
 		<Item 
 			id="artefact1" 
 			file="data\models\AnimModels.xml"/>
@@ -1379,6 +1388,7 @@
 		<Item
 			id="sack_dot_brocken1"
 			file="data\models\AnimModels.xml" />
+-->
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
