@@ -9275,19 +9275,35 @@
 		trans="0" />
 
 	<model
+		id="buoy"
+		file="data\models\battleship\environment\buoy.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" >
+		<action
+			name="STAND1">
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_LENS_D1"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="quay_big_plane"
 		file="data\models\battleship\environment\quay_big_plane.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />
-
+<!--
 	<model
 		id="mayak"
 		file="data\models\battleship\environment\mayak.gam"
 		shadow="1"
 		windwavy="0"
 		trans="0" />
-
+-->
 	<model
 		id="r1_deadtree1"
 		shadow="1"

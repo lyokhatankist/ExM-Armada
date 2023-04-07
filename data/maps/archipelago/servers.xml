@@ -904,13 +904,17 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="quay_big_plane" 
+			id="buoy" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="quay_big_plane" 
+			file="data\models\AnimModels.xml"/>
+<!--
+		<Item 
 			id="mayak" 
 			file="data\models\AnimModels.xml"/>
-
+-->
 		<Item 
 			id="r1_deadtree1" 
 			file="data\models\AnimModels.xml"/>
