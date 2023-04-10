@@ -3019,13 +3019,13 @@
 		name="islands_clear"
 		skyDomeFactor="1.800"
 		waterSpeed="0.020"
-		waterWaveHBig="0.630"
+		waterWaveHBig="0.130"
 		waterWaveHSmall="1.160"
 		waterWaveSizeBig="0.500"
-		waterWaveSizeSmall="1.000"
-		waterCourseAngle="0.000"
-		waterSpecularM="200.000"
-		waterSpecularS="0.005">
+		waterWaveSizeSmall="2.080"
+		waterCourseAngle="1.040"
+		waterSpecularM="98.000"
+		waterSpecularS="0.006">
 		<Sky
 			sunriseColor="66.300 76.500 94.350"
 			dayColor="168.300 160.650 168.300"
@@ -3069,10 +3069,10 @@
 			nightColor="28.050 45.900 64.000" />
 
 		<PostEffect
-			sunrise="wSunrise_opensea"
-			day="wDay_opensea"
-			sunset="wSunset_opensea"
-			night="wNight_opensea" />
+			sunrise="wSunrise_islands_clear"
+			day="wDay_islands_clear"
+			sunset="wSunset_islands_clear"
+			night="wNight_islands_clear" />
 
 		<ShadowVisibility
 			sunrise="1"
@@ -3095,6 +3095,274 @@
 		<WindInfo
 			windMaxVel="0.000"
 			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="islands_cloudy"
+		skyDomeFactor="1.000"
+		waterSpeed="0.000"
+		waterWaveHBig="1.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.000"
+		waterWaveSizeSmall="0.500"
+		waterCourseAngle="0.000"
+		waterSpecularM="1.000"
+		waterSpecularS="0.000"
+		reduceDistFactor="0.358">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="0.000 255.000 255.000" />
+
+		<Fog
+			sunriseColor="182.000 170.000 139.000"
+			dayColor="202.000 219.000 218.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="66.000 145.000 149.000" />
+
+		<Ambient
+			sunriseColor="150.450 117.300 128.000"
+			dayColor="170.850 193.800 255.000"
+			sunsetColor="158.100 128.000 128.000"
+			nightColor="12.750 35.700 45.900" />
+
+		<Diffuse
+			sunriseColor="104.550 117.300 128.000"
+			dayColor="170.850 178.500 198.900"
+			sunsetColor="153.000 128.000 155.550"
+			nightColor="25.500 43.350 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="112.200 119.850 128.000"
+			dayColor="234.600 232.050 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<Specular
+			sunriseColor="102.000 112.200 128.000"
+			dayColor="226.950 221.850 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<PostEffect
+			sunrise="wSunrise_islands_cloudy"
+			day="wDay_islands_cloudy"
+			sunset="wSunset_islands_cloudy"
+			night="wNight_islands_cloudy" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="20.000"
+			day="5.000"
+			sunset="15.000"
+			night="0.000" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.013"
+			sunset="0.013"
+			night="0.089" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="islands_foggy"
+		skyDomeFactor="1.000"
+		waterSpeed="0.000"
+		waterWaveHBig="1.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.000"
+		waterWaveSizeSmall="0.500"
+		waterCourseAngle="0.000"
+		waterSpecularM="1.000"
+		waterSpecularS="0.000"
+		reduceDistFactor="0.358">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="0.000 255.000 255.000" />
+
+		<Fog
+			sunriseColor="182.000 170.000 139.000"
+			dayColor="202.000 219.000 218.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="66.000 145.000 149.000" />
+
+		<Ambient
+			sunriseColor="150.450 117.300 128.000"
+			dayColor="170.850 193.800 255.000"
+			sunsetColor="158.100 128.000 128.000"
+			nightColor="12.750 35.700 45.900" />
+
+		<Diffuse
+			sunriseColor="104.550 117.300 128.000"
+			dayColor="170.850 178.500 198.900"
+			sunsetColor="153.000 128.000 155.550"
+			nightColor="25.500 43.350 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="112.200 119.850 128.000"
+			dayColor="234.600 232.050 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<Specular
+			sunriseColor="102.000 112.200 128.000"
+			dayColor="226.950 221.850 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<PostEffect
+			sunrise="wSunrise_islands_cloudy"
+			day="wDay_islands_cloudy"
+			sunset="wSunset_islands_cloudy"
+			night="wNight_islands_cloudy" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="20.000"
+			day="5.000"
+			sunset="15.000"
+			night="0.000" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.013"
+			sunset="0.013"
+			night="0.089" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="islands_storm"
+		skyDomeFactor="1.180"
+		waterSpeed="0.080"
+		waterWaveHBig="0.580"
+		waterWaveHSmall="1.360"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="2.530"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010"
+		reduceDistFactor="0.136"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="10"
+		distance="1.300"
+		minThunderDuty="300"
+		maxThunderDuty="600"
+		minThunderPeriod="40000"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="119.850 102.000 109.650"
+			dayColor="114.750 124.950 117.300"
+			sunsetColor="91.800 79.050 86.700"
+			nightColor="114.750 122.400 145.350" />
+
+		<Fog
+			sunriseColor="84.150 73.950 81.600"
+			dayColor="81.600 94.350 99.450"
+			sunsetColor="102.000 91.800 91.800"
+			nightColor="25.500 33.150 40.800" />
+
+		<Ambient
+			sunriseColor="150.450 117.300 128.000"
+			dayColor="122.400 142.800 170.850"
+			sunsetColor="158.100 128.000 128.000"
+			nightColor="12.750 35.700 45.900" />
+
+		<Diffuse
+			sunriseColor="104.550 117.300 128.000"
+			dayColor="140.250 153.000 173.400"
+			sunsetColor="153.000 128.000 155.550"
+			nightColor="20.400 33.150 45.900" />
+
+		<Sun
+			sunriseColor="7.650 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="33.150 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Plant
+			sunriseColor="112.200 119.850 128.000"
+			dayColor="234.600 232.050 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<Specular
+			sunriseColor="102.000 112.200 128.000"
+			dayColor="226.950 221.850 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="28.050 45.900 64.000" />
+
+		<PostEffect
+			sunrise="wSunrise_islands_storm"
+			day="wDay_islands_storm"
+			sunset="wSunset_islands_storm"
+			night="wNight_islands_storm" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="7.000"
+			day="14.000"
+			sunset="7.000"
+			night="7.000" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.038"
+			sunset="0.013"
+			night="0.013" />
+
+		<WindInfo
+			windMaxVel="10.000"
+			windMinVel="100.000"
 			windChangeVelTime="100000.000"
 			windChangeDirTime="100000.000" />
 	</WeatherItem>
