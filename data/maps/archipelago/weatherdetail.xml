@@ -28,22 +28,22 @@
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
-			CloudsTexture="skycloudy1.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="day"
 			LightmapTexture="lightmap_daytime_archipelago.dds"
-			CloudsTexture="skyclear2.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="sunset"
 			LightmapTexture="lightmap_sunsettime_archipelago.dds"
-			CloudsTexture="skyblight3.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="night"
 			LightmapTexture="lightmap_nighttime_archipelago.dds"
-			CloudsTexture="skyclear1.dds" />
+			CloudsTexture="skyovercast.dds" />
 	</WeatherItem>
 
 	<WeatherItem
@@ -51,22 +51,22 @@
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
-			CloudsTexture="skycloudy1.dds" />
+			CloudsTexture="skyfoggy.dds" />
 
 		<ColorType
 			name="day"
 			LightmapTexture="lightmap_daytime_archipelago.dds"
-			CloudsTexture="skyclear2.dds" />
+			CloudsTexture="skyfoggy.dds" />
 
 		<ColorType
 			name="sunset"
 			LightmapTexture="lightmap_sunsettime_archipelago.dds"
-			CloudsTexture="skyblight3.dds" />
+			CloudsTexture="skyfoggy.dds" />
 
 		<ColorType
 			name="night"
 			LightmapTexture="lightmap_nighttime_archipelago.dds"
-			CloudsTexture="skyclear1.dds" />
+			CloudsTexture="skyfoggy.dds" />
 	</WeatherItem>
 
 	<WeatherItem
@@ -74,21 +74,21 @@
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
-			CloudsTexture="skycloudy1.dds" />
+			CloudsTexture="skystormy.dds" />
 
 		<ColorType
 			name="day"
 			LightmapTexture="lightmap_daytime_archipelago.dds"
-			CloudsTexture="skyclear2.dds" />
+			CloudsTexture="skystormy.dds" />
 
 		<ColorType
 			name="sunset"
 			LightmapTexture="lightmap_sunsettime_archipelago.dds"
-			CloudsTexture="skyblight3.dds" />
+			CloudsTexture="skystormy.dds" />
 
 		<ColorType
 			name="night"
 			LightmapTexture="lightmap_nighttime_archipelago.dds"
-			CloudsTexture="skyclear1.dds" />
+			CloudsTexture="skystormy.dds" />
 	</WeatherItem>
 </Weather>
