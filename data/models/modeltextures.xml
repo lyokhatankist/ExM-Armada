@@ -52,6 +52,14 @@
 	<file
 		name="fuselage_arjan.dds"
 		path="data\models\battleship\fuselage_arjan.dds" />
+
+	<file
+		name="roket_sml.dds"
+		path="data\models\ammo\roket_sml.dds" />
+
+	<file
+		name="roket_long01.dds"
+		path="data\models\ammo\roket_long01.dds" />
 		
 <!-- vanilla -->
 	<file
