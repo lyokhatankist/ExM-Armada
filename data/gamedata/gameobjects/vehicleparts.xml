@@ -285,6 +285,26 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				Main = "10000"	
 			/>
 		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
+			Name			= "lavCDHull"
+			ModelFile		= "lavCDHull"
+			ResourceType	= "LAVCD_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "15.0" 			
+			MaxHealth		= "75" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_SML01 LP_FLYGUN01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Cabins">
@@ -692,6 +712,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "lavCDEngine"
+			ModelFile					= "point"
+			ResourceType				= "LAVCD_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "35 15 0"
+			MaxPower					= "1"
+			MaxTorque					= "16"
+			MaxSpeed					= "83.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
 			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
@@ -2221,6 +2273,27 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				RepositorySize		= "6 8">
 			</RepositoryDescription>
 		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "lavCDArmanent"
+			ModelFile					= "point"
+			ResourceType				= "LAVCD_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "2.0" 
+			Durability					= "30"
+			DurCoeffsForDamageTypes		= "25 10 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "2 2">
+			</RepositoryDescription>
+		</Prototype>
 	</Folder>
 
 	<Folder Name = "Wheels">
@@ -2280,6 +2353,21 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			SuspensionCFM			= "0.0001"
 			SuspensionERP			= "2.0"
 			SuspensionRange			= "0.001"
+			mU						= "1.0"
+			
+			EffectType				= "SHIPWHEEL" />
+
+		<Prototype
+			Class					= "Wheel"
+			Name					= "lavCDWheel"
+			ModelFile				= "lavCDWheel"
+			NodeScale				= "1 1 1"
+
+			Mass					= "5.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.01"
+			SuspensionERP			= "0.125"
+			SuspensionRange			= "0.000001"
 			mU						= "1.0"
 			
 			EffectType				= "SHIPWHEEL" />
