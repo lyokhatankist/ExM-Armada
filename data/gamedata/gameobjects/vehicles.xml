@@ -268,7 +268,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "28000"
 		SteeringSpeed		= "0.8"
 		DriftCoeff			= "0.01"
-		SelfBrakingCoeff	= "0.000000001"	
+		SelfBrakingCoeff	= "0.000000001"
 		
 		AdditionalWheelsHover = "19.13"
 
@@ -349,7 +349,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "18600"
 		SteeringSpeed		= "0.8"
 		DriftCoeff			= "0.01"
-		SelfBrakingCoeff	= "0.000000001"	
+		SelfBrakingCoeff	= "0.000000001"
 		
 		AdditionalWheelsHover = "19.13"
 
@@ -417,7 +417,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "38000"
 		SteeringSpeed		= "0.6"
 		DriftCoeff			= "0.9"
-		SelfBrakingCoeff	= "0.000000001"	
+		SelfBrakingCoeff	= "0.000000001"
 		
 		AdditionalWheelsHover = "19.17"
 
@@ -487,6 +487,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "2800"
 		SteeringSpeed		= "0.3"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.1"
 
@@ -634,6 +635,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "2800"
 		SteeringSpeed		= "0.1"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.1"
 
@@ -755,6 +757,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "2800"
 		SteeringSpeed		= "0.1"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18"
 
@@ -903,6 +906,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "2800"
 		SteeringSpeed		= "0.08"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.2"
 
@@ -1050,6 +1054,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "3640"
 		SteeringSpeed		= "0.08"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "17.9"
 
@@ -1306,6 +1311,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "3640"
 		SteeringSpeed		= "0.08"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.2"
 
@@ -1463,6 +1469,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		HighGearShiftLimit	= "3640"
 		SteeringSpeed		= "0.08"
 		DriftCoeff			= "0.01"
+		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.2"
 
@@ -1511,6 +1518,75 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "merchantCDEngine" />
 			<Part id = "BASKET"						Prototype = "merchantCDArmanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class				= "Vehicle"
+		Name				= "LavCD"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "1.6"
+		CameraMaxDist		= "13"
+
+		DiffRatio			= "3.0"
+		MaxEngineRpm		= "4000"
+		LowGearShiftLimit	= "1870"
+		HighGearShiftLimit	= "3240"
+		SteeringSpeed		= "0.9"
+		DriftCoeff			= "0.8"
+		SelfBrakingCoeff	= "0.000000001"
+		
+		AdditionalWheelsHover = "0.01"
+
+		PressingForce		= "2.4"
+		MassSize			= "0.05 1.1 12.5"
+		MassTranslation		= "0 -0.75 0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "225.0"
+		IntersectionRadius	= "10.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "LAVCD_CHASSIS">
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
+			<PartDescription	id = "CHASSIS_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
+			<PartDescription	id = "CABIN"					partResourceType = "LAVCD_CABIN"		lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "LAVCD_BASKET"		lpName = "LP_CAB01" />
+		</MainPartDescription>
+ 
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "lavCDHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "lavCDWheel" steering = "correct" />
+			<Wheel Prototype = "lavCDWheel" steering = "correct" />
+			<Wheel Prototype = "lavCDWheel" />
+			<Wheel Prototype = "lavCDWheel" />
+			<Wheel Prototype = "lavCDWheel" />
+			<Wheel Prototype = "lavCDWheel" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "LavCD01"
+		ParentPrototype 		= "LavCD"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "smlboatCDCannon01" />
+			<Part id = "CHASSIS_SPECIAL_WEAPON_1"	Prototype = "lavCDMachinegun01" />
+			<Part id = "CABIN"						Prototype = "lavCDEngine" />
+			<Part id = "BASKET"						Prototype = "lavCDArmanent" />
 		</Parts>
 	</Prototype>
 

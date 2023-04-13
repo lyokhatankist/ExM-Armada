@@ -9266,6 +9266,89 @@
 		</action>
 	</model>
 
+	<model
+		id="lavCDWheel"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_lav\wheel.gam" />
+
+	<model
+		id="lavCDHull"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_lav\hull.gam">
+<!--		<action
+			name="MOVE2">
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_CARPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+		</action> -->
+	</model>
+
+	<model
+		id="lavCDMachinegun01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_fastboat\machinegun01.gam" />
+
+	<model
+		id="lavCDMachinegun01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\machinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_PKT_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
 <!-- environment -->
 	<model
 		id="shipbarrier"

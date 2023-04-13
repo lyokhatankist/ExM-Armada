@@ -1210,4 +1210,29 @@
 		id="MerchantCD01"
 		locForm="0"
 		value="Сухогруз" />
+
+	<Item
+		id="LavCD"
+		locForm="0"
+		value="Скорпион" />
+
+	<Item
+		id="lavCDEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="lavCDArmanent"
+		locForm="0"
+		value="Боевое отделение" />
+
+	<Item
+		id="LavCD01"
+		locForm="0"
+		value="Скорпион" />
+
+	<Item
+		id="lavCDMachinegun01"
+		locForm="0"
+		value="Корд" />
 </ModelNames>

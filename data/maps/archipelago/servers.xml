@@ -898,6 +898,22 @@
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="lavCDWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
 <!-- environment -->
 		<Item 
 			id="shipbarrier" 
@@ -1419,7 +1435,8 @@
 		<Item id="S_ENGINE_BOAT" />
 		<Item id="S_ENGINE_SMLSHIP" />
 		<Item id="S_ENGINE_BIGSHIP" />
-
+		<Item id="S_ENGINE_SMLWHEELED" />
+		
 		<Item id="S_TORPEDOTUBE" />
 
 <!-- Vanilla -->
@@ -1466,15 +1483,6 @@
 		<Item id="S_MAN_DEATH02"/>
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
-
-<!-- Engines --> 
-
-		<Item id="S_ENGINE_SCOUT_1_HIGH" />
-		<Item id="S_ENGINE_BEETLE_1_HIGH" />
-		<Item id="S_ENGINE_URAL_4_HIGH" />
-		<Item id="S_ENGINE_BELAZ_4_HIGH" />
-		<Item id="S_ENGINE_MIR_4_HIGH" />
-		<Item id="S_ENGINE_TANK_HIGH"/>
 
 <!-- Missiles --> 
 <!--
