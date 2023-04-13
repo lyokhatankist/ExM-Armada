@@ -18,6 +18,7 @@
 	<Node name="ET_S_ENGINE_BOAT" class="SgSoundSourceNode" id="S_ENGINE_BOAT" />
 	<Node name="ET_S_ENGINE_SMLSHIP" class="SgSoundSourceNode" id="S_ENGINE_SMLSHIP" />
 	<Node name="ET_S_ENGINE_BIGSHIP" class="SgSoundSourceNode" id="S_ENGINE_BIGSHIP" />
+	<Node name="ET_S_ENGINE_SMLWHEELED" class="SgSoundSourceNode" id="S_ENGINE_SMLWHEELED" />
 
 	<Node name="ET_PS_SHIPEXHAUST" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_SMOKE1" psNumEmitterMesh="-1" />
@@ -97,7 +98,11 @@
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HELI" looped="1"/>
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_HELI02" looped="1"/>
 	</Node>
-
+<!--
+	<Node name="ET_PS_CARPROJECTOR" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_CARPROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+-->
 <!-- battleship guns -->
 	<Node name="ET_PS_47AA_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_RAPIER01_FIRE_MAIN" psNumEmitterMesh="-1" />

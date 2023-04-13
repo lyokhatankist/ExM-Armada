@@ -742,7 +742,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxSpeed					= "83.0"
 			Price						= "1500"
 
-			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
+			EngineHighSound				= "ET_S_ENGINE_SMLWHEELED"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
 			VisibleInEncyclopedia		= "false">

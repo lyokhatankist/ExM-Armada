@@ -1529,10 +1529,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraHeight		= "1.6"
 		CameraMaxDist		= "13"
 
-		DiffRatio			= "6.0"
-		MaxEngineRpm		= "4550"
-		LowGearShiftLimit	= "2470"
-		HighGearShiftLimit	= "3640"
+		DiffRatio			= "3.0"
+		MaxEngineRpm		= "4000"
+		LowGearShiftLimit	= "1870"
+		HighGearShiftLimit	= "3240"
 		SteeringSpeed		= "0.9"
 		DriftCoeff			= "0.8"
 		SelfBrakingCoeff	= "0.000000001"
@@ -1581,7 +1581,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "LavCD01"
 		ParentPrototype 		= "LavCD"
-		VisibleInEncyclopedia	= "false">
+		VisibleInEncyclopedia	= "true">
 		<Parts>
 			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "smlboatCDCannon01" />
 			<Part id = "CHASSIS_SPECIAL_WEAPON_1"	Prototype = "lavCDMachinegun01" />

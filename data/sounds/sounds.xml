@@ -86,6 +86,12 @@
 		/>
 
 	<model
+		id="S_ENGINE_SMLWHEELED"
+		file="data\sounds\Driving\Motors\cruiser_engine_noise_high.wav"
+		group="ENGINE_SML"
+		/>
+
+	<model
 		id="S_TORPEDOTUBE"
 		file="data\sounds\battleship\torpedotube.wav"
 		group="BURNING_SMALL"

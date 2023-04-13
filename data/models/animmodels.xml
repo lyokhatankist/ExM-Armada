@@ -9276,7 +9276,48 @@
 		id="lavCDHull"
 		shadow="1"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_lav\hull.gam" />
+		file="data\models\battleship\vehicles\cd_lav\hull.gam">
+<!--		<action
+			name="MOVE2">
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+		</action>
+
+		<action
+			name="RESERVED2">
+			<lp
+				id="LP_PROJECTOR"
+				effect_id="ET_PS_CARPROJECTOR"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT01"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_LIGHT02"
+				effect_id="ET_PS_HLIGHT"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW01"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+
+			<lp
+				id="LP_GLOW02"
+				effect_id="ET_PS_GLOW"
+				restartOnAnimationChange="0" />
+		</action> -->
+	</model>
 
 	<model
 		id="lavCDMachinegun01"
