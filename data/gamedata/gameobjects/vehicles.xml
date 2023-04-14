@@ -30,8 +30,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "40.5"
 
 		PressingForce		= "3.0"
-		MassSize			= "12 4.5 4"
-		MassTranslation		= "0.0 -10.0 0.0"
+		MassSize			= "8 4.5 400"
+		MassTranslation		= "0.0 -40.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "1200.0"
@@ -422,8 +422,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "19.17"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 4"
-		MassTranslation		= "0.0 0.0 0.0"
+		MassSize			= "4 4.5 30"
+		MassTranslation		= "0.0 -100.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "600.0"
