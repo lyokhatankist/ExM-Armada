@@ -6,6 +6,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 
 <Prototypes>  
 	<Folder Name = "BigTowns">
+<!--
 		<Prototype
 			Class="RepositoryObjectsGenerator"
 			Name="gunTownSouthGenerator">
@@ -298,8 +299,7 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 
 
 
-
-<!--		<Prototype
+		<Prototype
 			Class		= "Town"
 			Name		= "TownSouth"
 			ModelFile	= "minin"
@@ -357,6 +357,6 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 
 		      <ResourceCoeff Coeff="1.5" Dispersion="20.0" Resource="GUN" />
 		      <ResourceCoeff Coeff="1.0" Dispersion="10.0" Resource="CABIN" />
--->		
+-->
 	</Folder>
 </Prototypes>

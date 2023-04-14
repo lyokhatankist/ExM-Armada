@@ -1557,7 +1557,7 @@
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1569,7 +1569,7 @@
 
 			<lp
 				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1581,7 +1581,7 @@
 
 			<lp
 				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1593,7 +1593,7 @@
 
 			<lp
 				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1620,7 +1620,7 @@
 
 			<lp
 				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1632,7 +1632,7 @@
 
 			<lp
 				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1644,7 +1644,7 @@
 
 			<lp
 				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 
@@ -1656,7 +1656,7 @@
 
 			<lp
 				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE4"
+				effect_id="ET_PS_SHIPFIRE"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>

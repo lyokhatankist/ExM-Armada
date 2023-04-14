@@ -240,7 +240,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -261,7 +261,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "brick_dot1" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -282,7 +282,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot1" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -303,7 +303,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "vulcan01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -325,7 +325,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -346,7 +346,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "storm01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -364,7 +364,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			</MainPartDescription>
 			<Parts>
 				<Part id = "DOT"		Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "hornet01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -383,7 +383,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			</MainPartDescription>
 			<Parts>
 				<Part id = "DOT"		Prototype = "sack_dot1" />
-				<Part id = "CANNON"	Prototype = "specter01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -404,7 +404,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "brick_dot1" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -425,7 +425,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "brick_dot2" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -448,7 +448,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot1" />
-				<Part id = "CANNON"			Prototype = "vulcan01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -470,7 +470,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot2" />
-				<Part id = "CANNON"			Prototype = "vulcan01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -492,7 +492,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot2" />
-				<Part id = "CANNON"			Prototype = "vector01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -513,7 +513,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot2" />
-				<Part id = "CANNON"			Prototype = "rainmetal01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -534,7 +534,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot3" />
-				<Part id = "CANNON"			Prototype = "vulcan01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -556,7 +556,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot3" />
-				<Part id = "CANNON"			Prototype = "rainmetal01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -578,7 +578,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot3" />
-				<Part id = "CANNON"			Prototype = "vector01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -599,7 +599,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "vulcan01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -620,7 +620,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "octopus01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -641,7 +641,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "rapier01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -662,7 +662,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "big_swingfire01_unlimit"/>
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01"/>
 			</Parts>
 		</Prototype>
 
@@ -684,7 +684,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "hunterLauncher_unlimit" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -705,7 +705,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "hurricane01_unlimited" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -727,7 +727,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "vector01"/>
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01"/>
 			</Parts>
 		</Prototype>
 
@@ -749,7 +749,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "rainmetal01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -770,7 +770,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "heavy_dot4" />
-				<Part id = "CANNON"			Prototype = "kpvt01" />
+				<Part id = "CANNON"			Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -793,7 +793,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot1" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -815,7 +815,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "vulcan01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -838,7 +838,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot1" />
-				<Part id = "CANNON"	Prototype = "hunterLauncher_unlimit" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -861,7 +861,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "flag01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -884,7 +884,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "kord01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
@@ -907,7 +907,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 			<Parts>
 				<Part id = "DOT"	Prototype = "sack_dot2" />
-				<Part id = "CANNON"	Prototype = "omega01" />
+				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
 
