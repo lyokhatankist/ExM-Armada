@@ -32,9 +32,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "6"
+		Damage			= "7"
 		FiringRate		= "700"
 		ChargeSize     	= "90"
 		RechargingTime 	= "6.27"
@@ -184,9 +183,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "4"
+		Damage			= "5"
 		FiringRate		= "500"
 		ChargeSize     	= "80"
 		RechargingTime 	= "7.3"
@@ -1148,7 +1146,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Acceleration		= "150"
 		MinTurningRadius	= "500"
 		FlyTime				= "100"
-		BlastWavePrototype	= "antiairBlastWave"
 
 		Mass			= "0.01"
 		Size			= "4 4 6"/>
@@ -1723,9 +1720,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "600"
 		ChargeSize     	= "120"
 		RechargingTime 	= "7"

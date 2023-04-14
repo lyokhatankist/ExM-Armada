@@ -68,10 +68,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "50"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 		NumBulletsInShot	= "4"
 
-		Damage			= "12"
+		Damage			= "16"
 		FiringRate		= "800"
 		ChargeSize     	= "200"
 		RechargingTime 	= "14"
@@ -128,9 +127,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "900"
 		ChargeSize     	= "240"
 		RechargingTime 	= "0"
@@ -289,9 +287,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "8"
+		Damage			= "9"
 		FiringRate		= "1200"
 		ChargeSize     	= "120"
 		RechargingTime 	= "0"
@@ -377,9 +374,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "600"
 		ChargeSize     	= "120"
 		RechargingTime 	= "7"
@@ -413,9 +409,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "4"
+		Damage			= "5"
 		FiringRate		= "500"
 		ChargeSize     	= "80"
 		RechargingTime 	= "7.3"
