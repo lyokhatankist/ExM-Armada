@@ -12,7 +12,7 @@
 		file="data\sounds\battleship\missile.wav"
 		group="DEATH_1"
 		/>
-
+<!--
 	<model
 		id="S_EXPLDIST01"
 		file="data\sounds\battleship\expldist\expldist01.wav"
@@ -36,7 +36,7 @@
 		file="data\sounds\battleship\expldist\expldist08.wav"
 		group="EXPLOSIONS_DISTANT"
 		/>
-
+-->
 	<model
 		id="S_ENGINE_FAKE_HIGH"
 		file="data\sounds\battleship\nosound.wav"

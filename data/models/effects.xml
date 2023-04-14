@@ -1208,7 +1208,7 @@
 		<Node name="ss61" class="SgParticlesNode" id="PS_VEN_PART_EXP45" psNumEmitterMesh="-1" />
 
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 	</Node>
 
 	<Node name="ET_PS_VEH_EXP1_SMALL_11" class="SgNode">
@@ -1226,7 +1226,7 @@
 		<Node name="ss61" class="SgParticlesNode" id="PS_VEN_PART_EXP45" psNumEmitterMesh="-1" />
 
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 	</Node>
 
 	<Node name="ET_PS_VEH_EXP1_SMALL1" class="SgNode">
@@ -1235,7 +1235,7 @@
 		<Node name="14" class="SgParticlesNode" id="PS_VEN_EXP1_SMALL1_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_SMALL_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 	</Node>
 
 	<Node name="ET_PS_VEH_EXP1_SMALL2" class="SgNode">
@@ -1254,7 +1254,7 @@
 		<Node name="1555555555" class="SgParticlesNode" id="PS_VEN_EXP1_SMALL2_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_SMALL_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 
 		<Node name="O2" class="SgParticlesNode" id="PS_VEN_PART_EXP1" psNumEmitterMesh="-1" />
 		<Node name="O3" class="SgParticlesNode" id="PS_VEN_PART_EXP2" psNumEmitterMesh="-1" />
@@ -1284,7 +1284,7 @@
 		<Node name="ssss614" class="SgParticlesNode" id="PS_VEN_PART_EXP41" psNumEmitterMesh="-1" /> 
 
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 	</Node>
 
 	<Node name="ET_PS_VEH_EXP1_MED1" class="SgNode">
@@ -1296,7 +1296,7 @@
 		<Node name="1444" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
 		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 
 		<Node name="O2bb" class="SgParticlesNode" id="PS_VEN_PART_EXP1" psNumEmitterMesh="-1" />
 		<Node name="O3bb" class="SgParticlesNode" id="PS_VEN_PART_EXP2" psNumEmitterMesh="-1" />
@@ -1315,7 +1315,7 @@
 		<Node name="23" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE3" psNumEmitterMesh="-1" />
 		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 
 		<Node name="O2cc" class="SgParticlesNode" id="PS_VEN_PART_EXP1" psNumEmitterMesh="-1" />
 		<Node name="O3cc" class="SgParticlesNode" id="PS_VEN_PART_EXP2" psNumEmitterMesh="-1" />
@@ -1423,7 +1423,7 @@
 		<Node name="1444" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
 		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE" psNumEmitterMesh="-1" />
 		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION04" looped="0" /> 
-		<Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" /> 
+		<!-- <Node name="Explosion2"	 class="SgSoundSourceNode" id="S_EXPLDIST08" looped="0" />  -->
 	</Node>
 
 	<Node name="ET_PS_VEH_EXP2_MED1" class="SgNode">
@@ -2197,34 +2197,34 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_WATER_CANNON_GROUND" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_WATER_CANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONSTATICSEXPLOSION" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_STATIC_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONVEHICLEEXPLOSION" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONROADEXPLOSION" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ASP_MACHINEGUN_DUST_SMALL" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_ASP_MACHINEGUN_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROAD_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONROCKEXPLOSION" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_CANNONGROUNDEXPLOSION" class="SgNode">
@@ -2234,7 +2234,7 @@
 		<Node name="Object92" class="SgParticlesNode" id="PS_GROUND_CANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object921" class="SgParticlesNode" id="PS_GROUND_CANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONSANDEXPLOSION" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_CANNON_EXP" psNumEmitterMesh="-1" />
@@ -2243,7 +2243,7 @@
 		<Node name="Object92" class="SgParticlesNode" id="PS_SAND_CANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object921" class="SgParticlesNode" id="PS_SAND_CANNON_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_CANNONGRASSEXPLOSION" class="SgNode">
@@ -2252,21 +2252,21 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_GRASS_CANNON_GROUND" psNumEmitterMesh="-1" />
 		<Node name="Object246" class="SgParticlesNode" id="PS_GRASS_CANNON_GROUND1" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONSACKHIT" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_CANNONBRICKHIT" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 
 
@@ -2275,7 +2275,7 @@
 		<Node name="Object1" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_WOOD_EXPL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST03" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_CANNONCRASHWOODHIT" class="SgNode">
@@ -2495,7 +2495,7 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_GRENADE_EXP" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_WATER_GRENADE_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_GRENADESTATICSEXPLOSION" class="SgNode">
@@ -2504,7 +2504,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_STATIC_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_GRENADEVEHICLEEXPLOSION" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
@@ -2514,7 +2514,7 @@
 		<Node name="Object45" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 		<Node name="Object455" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_GRENADEROADEXPLOSION" class="SgNode">
 		<Node name="Object3333" class="SgParticlesOpaqueNode" id="PS_GROUND_BLAST_RING_SMALL" psNumEmitterMesh="-1" />
@@ -2524,7 +2524,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG_UP" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_GROUND_BLAST_GROUND_UP" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_ROAD_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_GRENADEROCKEXPLOSION" class="SgNode">
 		<Node name="Object3333" class="SgParticlesOpaqueNode" id="PS_GROUND_BLAST_RING_SMALL" psNumEmitterMesh="-1" />
@@ -2534,7 +2534,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG_UP" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_GROUND_BLAST_GROUND_UP" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 	<Node name="ET_PS_GRENADEBRICKHIT" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN1" psNumEmitterMesh="-1" />
@@ -2542,7 +2542,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_GR" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_GRENADEGROUNDEXPLOSION" class="SgNode">
@@ -2553,7 +2553,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG_UP" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_GROUND_BLAST_GROUND_UP" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_GRENADESANDEXPLOSION" class="SgNode">
@@ -2564,7 +2564,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_SAND_BLAST_TRAIL_BIG_UP" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_SAND_BLAST_GROUND_UP" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_GRENADESACKHIT" class="SgNode">
@@ -2573,7 +2573,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 	     <Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_GR" looped="0" />
-		 <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		 <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_GRENADEGRASSEXPLOSION" class="SgNode">
@@ -2584,7 +2584,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG_UP" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_GROUND_BLAST_GROUND_UP" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_GR" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_GRENADEWOODHIT" class="SgNode">
@@ -2593,14 +2593,14 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN2" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_CANNON_EXP_MAIN3" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_WOOD_GR" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 	</Node>
 
 	<Node name="ET_PS_GRENADETREEHIT" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_TREE_HIT_DUST" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_TREE_HIT_SERGE" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_WOOD_GR" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST01" looped="0" /> -->
 
 	</Node>
 
@@ -2725,7 +2725,7 @@
 		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_WATER_BLAST_DUST" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_WATER_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
@@ -2738,7 +2738,7 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_SMALL" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_STATIC_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
@@ -2751,7 +2751,7 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_SMALL" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_BLASTROADEXPLOSION" class="SgNode">
@@ -2762,7 +2762,7 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_SMALL" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_BLASTROCKEXPLOSION" class="SgNode">
@@ -2774,7 +2774,7 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_ASP_BLAST_DUST_SMALL" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
@@ -2787,7 +2787,7 @@
 		<Node name="Object31" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object32" class="SgParticlesNode" id="PS_GROUND_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_BLASTSANDEXPLOSION" class="SgNode">
@@ -2799,12 +2799,12 @@
 		<Node name="Object31" class="SgParticlesNode" id="PS_SAND_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object32" class="SgParticlesNode" id="PS_SAND_BLAST_TRAIL_BIG" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 	<Node name="ET_PS_BLASTSACKHIT" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SAND_BL" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
@@ -2817,13 +2817,13 @@
 		<Node name="Object4" class="SgParticlesNode" id="PS_GRASS_BLAST_DUST_BIG" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_GRASS_BLAST_DUST" psNumEmitterMesh="-1" />
 	      <Node name="Sound3" class="SgSoundSourceNode" id="S_GROUND_BL" looped="0" />
-		  <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
 	<Node name="ET_PS_BLASTBRICKHIT" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_ROCK_BL" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 
@@ -2831,7 +2831,7 @@
 
 	<Node name="ET_PS_BLASTWOODHIT" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_WOOD_BL" looped="0" />
-		<Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" />
+		<!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
 
 	</Node>
 

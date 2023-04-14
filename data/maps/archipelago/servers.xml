@@ -1421,11 +1421,12 @@
 
 	<SoundsServer>
 <!-- Battleship -->
+<!--
 		<Item id="S_EXPLDIST01" />
 		<Item id="S_EXPLDIST03" />
 		<Item id="S_EXPLDIST05" />
 		<Item id="S_EXPLDIST08" />
-
+-->
 		<Item id="S_ENGINE_FAKE_HIGH" />
 		<Item id="S_HELI" />
 		<Item id="S_HELI01" />
