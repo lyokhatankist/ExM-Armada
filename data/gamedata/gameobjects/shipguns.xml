@@ -1715,7 +1715,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_SML_MACHINEGUN"
 		FiringEffect	= "none"
 
-		VisibleInEncyclopedia	= "true"
+		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "raybullet"
 		ExplosionType		= "MACHINEGUN"
