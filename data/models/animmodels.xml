@@ -1530,6 +1530,156 @@
 	</model>
 
 	<model
+		id="shell_sml"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_SML"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_SML"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="shell_dest"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_DEST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_DEST"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+	
+	<model
+		id="shell_lcru"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_LCRU"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_LCRU"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="shell_cru"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_CRU"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_CRU"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="shell_bat"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_BAT"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_BAT"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="shell_hbat"
+		file="data\models\ammo\plasma01.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0">
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_HBAT"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND2">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHELL_HBAT"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="cruise_missile01"
 		file="data\models\battleship\ammo\cruise_missile01.gam"
 		shadow="1"

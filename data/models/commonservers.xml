@@ -3,14 +3,20 @@
 <Servers>
 
 	<ProjectorsServer>
+<!-- battleship -->
 		<Item id="PS_SHIPPROJECTOR" file="data/models/projectors/ship.xml"/>
 <!--		<Item id="PS_CARPROJECTOR" file="data/models/projectors/car.xml"/> -->
+
+<!-- vanilla -->
 		<Item id="PS_PROJECTOR" file="data/models/projectors/test.xml"/>
 	</ProjectorsServer>
 
 	<LightsServer>
+<!-- battleship -->
 		<Item id="LS_LIGHT_SHIP" file="data/models/lights/ship.xml"/>
 		<Item id="LS_LIGHT_ALARM" file="data/models/lights/alarm.xml"/>
+
+<!-- vanilla -->
 		<Item id="LS_LIGHT_TEST" file="data/models/lights/test.xml"/>
 		<Item id="LS_LIGHT_TEST2" file="data/models/lights/test2.xml"/>
 		<Item id="LS_LIGHT_YELLOW" file="data/models/lights/yellow.xml"/>
@@ -34,6 +40,12 @@
 		<Item id="PS_BS_ROCKET_SMALL_SMOKE" 	file="data\Effects\rockets\bs_rocket_small_smoke.psys"/>	
 		<Item id="PS_BS_ROCKET_BIG_GLOW" 		file="data\Effects\rockets\bs_rocket_big_glow.psys"/>
 		<Item id="PS_BS_ROCKET_BIG_FLAME" 		file="data\Effects\rockets\bs_rocket_big_flame.psys"/>
+		<Item id="PS_BS_SHELL_SML" 				file="data\Effects\rockets\bs_shell_sml.psys"/>
+		<Item id="PS_BS_SHELL_DEST" 			file="data\Effects\rockets\bs_shell_dest.psys"/>
+		<Item id="PS_BS_SHELL_CRU" 				file="data\Effects\rockets\bs_shell_cru.psys"/>
+		<Item id="PS_BS_SHELL_BAT" 				file="data\Effects\rockets\bs_shell_bat.psys"/>
+		<Item id="PS_BS_SHELL_HBAT" 			file="data\Effects\rockets\bs_shell_hbat.psys"/>
+		<Item id="PS_BS_SHELL_TRAIL" 			file="data\Effects\rockets\bs_shell_trail.psys"/>
 
 <!-- vanilla -->
 		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>

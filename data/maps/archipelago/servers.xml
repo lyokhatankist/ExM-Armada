@@ -349,6 +349,30 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="shell_sml" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_dest" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_lcru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_cru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_bat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_hbat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="cruise_missile01" 
 			file="data\models\AnimModels.xml"/>
 

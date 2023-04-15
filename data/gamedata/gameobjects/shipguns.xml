@@ -334,7 +334,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "130mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "25"
@@ -416,7 +416,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "138mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "30"
@@ -560,7 +560,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "127mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "20"
@@ -642,7 +642,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "135mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "28"
@@ -824,7 +824,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "152mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_lcru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "37"
@@ -906,7 +906,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "155mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_lcru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "40"
@@ -1050,7 +1050,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "203mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_cru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "65"
@@ -1253,7 +1253,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "406mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "124"
@@ -1335,7 +1335,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "380mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "108"
@@ -1417,7 +1417,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "457mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_hbat"
 		ExplosionType			= "BLAST"
 
 		Price			= "152"
@@ -1573,7 +1573,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "356mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "118"
@@ -1655,7 +1655,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "406mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "118"

@@ -118,6 +118,13 @@
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_PKT" looped="1"/>
 	</Node>
 
+	<Node name="ET_PS_KORD_FIRE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HORNET01_FIRE_X" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KORD" looped="1"  />
+	</Node>
+
 	<Node name="ET_PS_OCTOPUS_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
@@ -143,6 +150,43 @@
 
 	<Node name="ET_PS_ROCKET_BIG_TRAIL" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_ROCKET_BIG_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_SML" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_SML" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_DEST" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_DEST" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_LCRU" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_DEST" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHELL_SML" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_CRU" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_CRU" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_BAT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_BAT" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+	</Node>
+
+	<Node name="ET_PS_SHELL_HBAT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHELL_HBAT" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
+		<Node name="Object5" class="SgParticlesNode" id="PS_BS_SHELL_TRAIL" psNumEmitterMesh="-1" />
 	</Node>
 
 	<Node name="ET_PS_CRUISEMISSILE_BIG" class="SgNode">
@@ -1870,7 +1914,7 @@
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_2MACHINE_GUN_SINGLE" isLooped="1" />
 		<Node name="Sound1" class="SgSoundSourceNode" id="S_HORNET_TAIL" isLooped="1" /> 
 	</Node>
-
+<!--
 	<Node name="ET_PS_PKT_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -1878,7 +1922,7 @@
 		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_PKT" looped="1"/>
 	</Node>
-
+-->
 	<Node name="ET_PS_HORNET_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
@@ -1890,14 +1934,14 @@
 	<Node name="ET_PS_TRACER1" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 	</Node>
-
+<!--
 	<Node name="ET_PS_KORD_FIRE" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_HORNET01_FIRE_X" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KORD" looped="1"  />
 	</Node>
-
+-->
 	<Node name="ET_PS_SPECTER_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
