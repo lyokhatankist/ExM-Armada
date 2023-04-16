@@ -316,7 +316,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -362,7 +362,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "50"
@@ -398,7 +398,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "128"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "138mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -444,7 +444,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "128"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "138mmBlastWave"
 
 		Damage			= "185"
 		FiringRate		= "50"
@@ -542,7 +542,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "136"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "127mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -588,7 +588,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "136"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "127mmBlastWave"
 
 		Damage			= "100"
 		FiringRate		= "150"
@@ -624,7 +624,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "130"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "135mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -670,7 +670,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "130"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "135mmBlastWave"
 
 		Damage			= "175"
 		FiringRate		= "200"
@@ -770,7 +770,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "50"
@@ -806,7 +806,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "152mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -852,7 +852,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "152mmBlastWave"
 
 		Damage			= "170"
 		FiringRate		= "125"
@@ -888,7 +888,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "155mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -934,7 +934,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "155mmBlastWave"
 
 		Damage			= "215"
 		FiringRate		= "245"
@@ -1032,7 +1032,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "108"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "203mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1078,7 +1078,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "108"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "203mmBlastWave"
 
 		Damage			= "310"
 		FiringRate		= "190"
@@ -1116,7 +1116,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "1"
 
 		DamageType			= "ENERGY"
-		BlastWavePrototype	= "antiairBlastWave"
+		BlastWavePrototype	= "cruiseBlastWave"
 
 		Damage			= "3000"
 		FiringRate		= "20"
@@ -1235,7 +1235,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1281,7 +1281,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "830"
 		FiringRate		= "180"
@@ -1317,7 +1317,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "380mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1363,7 +1363,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "380mmBlastWave"
 
 		Damage			= "725"
 		FiringRate		= "220"
@@ -1399,7 +1399,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "457mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1445,7 +1445,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "457mmBlastWave"
 
 		Damage			= "1250"
 		FiringRate		= "200"
@@ -1481,7 +1481,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1515,7 +1515,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "175"
@@ -1555,7 +1555,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "123"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "356mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1601,7 +1601,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "123"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "356mmBlastWave"
 
 		Damage			= "600"
 		FiringRate		= "210"
@@ -1637,7 +1637,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1683,7 +1683,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "780"
 		FiringRate		= "230"
