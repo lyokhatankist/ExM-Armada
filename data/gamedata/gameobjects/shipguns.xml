@@ -1144,7 +1144,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "85"
 		Acceleration		= "150"
-		MinTurningRadius	= "500"
+		MinTurningRadius	= "600"
 		FlyTime				= "100"
 
 		Mass			= "0.01"
@@ -1201,7 +1201,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "155"
 		Acceleration		= "150"
-		MinTurningRadius	= "250"
+		MinTurningRadius	= "450"
 		FlyTime				= "100"
 		BlastWavePrototype	= "samcdBlastWave"
 
