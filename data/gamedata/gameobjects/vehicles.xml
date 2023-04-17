@@ -579,7 +579,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "single138CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "single138CIT01" />
-			<Part id = "CABIN"						Prototype = "destroyerCITEngine" />
+			<Part id = "CABIN"						Prototype = "destroyerCITEngineMod" />
 			<Part id = "BASKET"						Prototype = "destroyerCIT138Armanent" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT01" />

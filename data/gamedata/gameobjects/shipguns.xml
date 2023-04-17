@@ -282,7 +282,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "850"
 		FiringRate		= "300"
 		ChargeSize     	= "3"
-		RechargingTime	= "18"
+		RechargingTime	= "20"
 
 		FiringRange		= "1000"
 		ActionDist		= "2000"	
