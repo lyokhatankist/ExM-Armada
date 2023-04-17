@@ -20,7 +20,6 @@
 		<Item
 			id="mask_hero"
 			file="data\models\AnimModels.xml" />
-			
 <!-- objects -->
 		<Item
 			id="exit"
@@ -95,6 +94,7 @@
 		<Item 
 			id="segments_big_07" 
 			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="segments_big_08"
 			file="data\models\AnimModels.xml"/>
@@ -290,14 +290,34 @@
 		<Item 
 			id="plasma_big01" 
 			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="mine02" 
-			file="data\models\AnimModels.xml"/>
-
+			
 <!-- vehicles -->
 		<Item 
 			id="torpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_sml" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_dest" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_lcru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_cru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_bat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_hbat" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -850,123 +870,21 @@
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
 
-<!-- environment -->
 		<Item 
-			id="shipbarrier" 
-			file="data\models\AnimModels.xml"/>
-
-<!-- quest items -->
-		<Item 
-			id="artefact1" 
+			id="lavCDWheel" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="artefact2" 
+			id="lavCDHull" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="monster_head" 
+			id="lavCDMachinegun01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="mol_stone" 
+			id="lavCDMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="parsel" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_bomb" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_drags" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_head1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_head2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_letter" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_medicine_box" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 	
-			id="quest_komp_splav" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item
-			id="quest_wine_barrels" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_cd1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_cd2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="boss_barrel" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="repair_robot" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_key_for_submarine" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="quest_key_for_tunnel" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item
-			id="heavy_dot_brocken1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="heavy_dot_brocken2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="heavy_dot_brocken3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="heavy_dot_brocken4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="light_dots_brocken1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="light_dots_brocken2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_dots_brocken1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="brick_dots_brocken2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="sack_dot_brocken1"
-			file="data\models\AnimModels.xml" />
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
@@ -979,11 +897,12 @@
 
 	<SoundsServer>
 <!-- Battleship -->
+<!--
 		<Item id="S_EXPLDIST01" />
 		<Item id="S_EXPLDIST03" />
 		<Item id="S_EXPLDIST05" />
 		<Item id="S_EXPLDIST08" />
-
+-->
 		<Item id="S_ENGINE_FAKE_HIGH" />
 		<Item id="S_HELI" />
 		<Item id="S_HELI01" />
@@ -993,7 +912,8 @@
 		<Item id="S_ENGINE_BOAT" />
 		<Item id="S_ENGINE_SMLSHIP" />
 		<Item id="S_ENGINE_BIGSHIP" />
-
+		<Item id="S_ENGINE_SMLWHEELED" />
+		
 		<Item id="S_TORPEDOTUBE" />
 
 <!-- Vanilla -->
@@ -1040,15 +960,6 @@
 		<Item id="S_MAN_DEATH02"/>
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
-
-<!-- Engines --> 
-
-		<Item id="S_ENGINE_SCOUT_1_HIGH" />
-		<Item id="S_ENGINE_BEETLE_1_HIGH" />
-		<Item id="S_ENGINE_URAL_4_HIGH" />
-		<Item id="S_ENGINE_BELAZ_4_HIGH" />
-		<Item id="S_ENGINE_MIR_4_HIGH" />
-		<Item id="S_ENGINE_TANK_HIGH"/>
 
 <!-- Missiles --> 
 <!--
