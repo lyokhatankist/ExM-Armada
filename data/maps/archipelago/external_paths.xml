@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<Paths />
+<Paths>
+	<Path
+		Name="heliCIT01">
+		<Point
+			coord="3600.000 3690.000" />
+	</Path>
+
+    <Path
+		Name="heliCIT02">
+		<Point
+			coord="3700.000 3710.000" />
+	</Path>
+</Paths>

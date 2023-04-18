@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <!--
-‚ нв®¬ д ©«Ґ б®¤Ґа¦ вбп ЇгвЁ Є ¬Ґа ¤«п а®«ЁЄ®ў
-ЏаЁ¬Ґа:
+пїЅ пїЅв®¬ д ©пїЅпїЅ б®¤пїЅа¦ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ а®«пїЅпїЅпїЅпїЅ
+пїЅаЁ¬пїЅпїЅ:
 
 	<Path Name = "Primer_cam01">                         
 		<Point  coord="1266.468 213.171 1519.520" rotation="0.008 -0.468 -0.004 0.884"/>
@@ -9,5 +9,81 @@
 	</Path>
 -->
 <Paths>
+	<Path Name = "Trail1a">
+		<Point  coord="2278.304 276.381 4112.237" rotation="0.010 0.979 0.049 0.196" speed="2"/>   
+		<Point  coord="2596.708 278.988 4157.088" rotation="-0.000 0.997 0.005 -0.075" speed="2"/>   
+		<Point  coord="3028.087 280.272 4170.923" rotation="0.001 0.936 0.002 0.351" speed="1"/>   
+		<Point  coord="3181.108 277.306 3976.206" rotation="0.015 0.578 0.011 0.816" speed="1"/>   
+		<Point  coord="3099.862 278.530 3942.713" rotation="0.019 0.277 0.006 0.961" speed="1"/>   
+	</Path>
 
+	<Path Name = "Trail1b">
+		<Point  coord="4032.006 287.654 4410.220" rotation="-0.002 0.890 -0.003 0.456" speed="1"/>   
+		<Point  coord="3996.105 287.654 4445.011" rotation="0.006 0.879 0.011 0.476" speed="1"/>   
+		<Point  coord="3783.046 287.238 4570.329" rotation="-0.001 0.964 -0.005 0.264" speed="2"/>   
+		<Point  coord="3349.037 293.197 4624.063" rotation="0.002 0.992,-0.015 -0.124" speed="2"/>   
+		<Point  coord="3188.017 291.541 4523.750" rotation="0.001 0.924 0.003 0.384" speed="1"/>   
+		<Point  coord="3181.065 293.249 4382.766" rotation="-0.003 0.762 -0.003 0.647" speed="1"/>   
+		<Point  coord="3184.335 293.249 4353.951" rotation="-0.001 0.715 -0.001 0.699" speed="2"/>   
+	</Path>
+
+	<Path Name = "Trail1follow1">
+		 <Point  coord="10.000 1.000 -7.000"/>
+		 <Point  coord="13.000 4.500 -11.000"/>
+	</Path>
+
+	<Path Name = "Trail1follow2">
+		 <Point  coord="-20.000 8.000 -14.000"/>
+		 <Point  coord="-7.000 12.500 14.000"/>
+	</Path>
+
+	<Path Name = "Trail1follow3">
+		 <Point  coord="93.000 8.000 -70.000"/>
+		 <Point  coord="45.000 14.500 3.000"/>
+	</Path>
+	
+	<Path Name = "Trail1heli1">
+		<Point  coord="5000.000 275.000 3700.000" rotation="0.473 -0.527 -0.481 0.518" speed="1"/> 
+		<Point  coord="5000.000 275.000 3700.000" rotation="0.473 -0.527 -0.481 0.518" speed="1"/>   
+		<Point  coord="4975.000 275.000 3700.000" rotation="0.473 -0.527 -0.481 0.518" speed="1.5"/>   
+		<Point  coord="4972.000 275.000 3700.000" rotation="0.660 0.040 0.035 0.750" speed="4"/>   
+		<Point  coord="4970.000 275.000 3705.000" rotation="0.261 0.607 0.222 0.717" speed="2.5"/>   
+		<Point  coord="4968.000 275.000 3707.000" rotation="0.057 0.755 0.067 0.650" speed="1"/>   
+		<Point  coord="4969.000 275.000 3708.000" rotation="0.025 0.703 0.025 0.710" speed="1"/>   
+	</Path>
+
+	<Path Name = "Trail1heli2">
+		 <Point  coord="3.000 6.000 105.000"/>
+		 <Point  coord="5.000 6.500 111.000"/>
+		 <Point  coord="6.000 8.500 112.000"/>
+		 <Point  coord="7.000 9.000 113.000"/>
+		 <Point  coord="8.000 9.000 115.000"/>
+		 <Point  coord="9.000 10.000 117.000"/>
+		 <Point  coord="10.000 11.000 120.000"/>
+	</Path>
+
+	<Path Name = "Trail1heli3">
+		 <Point  coord="-3.000 11.000 105.000"/>
+		 <Point  coord="-5.000 10.500 111.000"/>
+		 <Point  coord="-6.000 9.500 112.000"/>
+		 <Point  coord="-7.000 8.000 113.000"/>
+		 <Point  coord="-8.000 7.000 115.000"/>
+		 <Point  coord="-9.000 6.000 117.000"/>
+		 <Point  coord="-10.000 5.000 120.000"/>
+	</Path>
+
+	<Path Name = "Trail1heli4">
+		 <Point  coord="-3.000 5.000 113.000"/>
+		 <Point  coord="-5.000 8.500 116.000"/>
+		 <Point  coord="-6.000 5.500 112.000"/>
+		 <Point  coord="-7.000 9.000 113.000"/>
+		 <Point  coord="-8.000 3.000 117.000"/>
+		 <Point  coord="-9.000 7.000 112.000"/>
+		 <Point  coord="-10.000 4.000 116.000"/>
+	</Path>
+
+	<Path Name = "Trail1heli5">
+		 <Point  coord="-93.000 8.000 3.000"/>
+		 <Point  coord="-45.000 14.500 -90.000"/>
+	</Path>
 </Paths>

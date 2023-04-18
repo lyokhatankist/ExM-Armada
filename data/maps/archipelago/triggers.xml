@@ -7,7 +7,7 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trFindThing"	active="1">
+	<trigger	Name="trFindThing"	active="0">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			local Plf = GetPlayerVehicle()
@@ -23,6 +23,115 @@
 			StartCinematic()
 
 		   trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="Trail1"	active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			AddPlayerVehicle("LavCD01")
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(3884, 287, 3091))
+			
+			local cds1 = TeamCreate("CDShip1", 1015, CVector(2626, 255, 4034), {"CruiserCD01"}, CVector(5026, 255, 4034), 0, Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+			local cds2 = TeamCreate("CDShip2", 1015, CVector(2766, 255, 4134), {"DestroyerCD01"}, CVector(5026, 255, 4134), 0, Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+			local cds3 = TeamCreate("CDShip3", 1015, CVector(2766, 255, 3934), {"DestroyerCD01"}, CVector(5026, 255, 3934), 0, Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+			getObj("CDShip1_vehicle_0"):SetCruisingSpeed(6)
+			getObj("CDShip2_vehicle_0"):SetCruisingSpeed(6)
+			getObj("CDShip3_vehicle_0"):SetCruisingSpeed(6)
+			cds1:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+			cds1:_AdjustBehaviour ()
+			cds2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds2:_AdjustBehaviour ()
+			cds3:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds3:_AdjustBehaviour ()
+			
+--			local cits1 = TeamCreate("CITShip1", 1016, CVector(4150, 255, 5000), {"CruiserCIT01"}, CVector(4210, 255, 3860), 0, Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+			local cits2 = TeamCreate("CITShip2", 1016, CVector(4150, 255, 5250), {"DestroyerCIT01"}, CVector(4210, 255, 4040), 0, Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+			local cits3 = TeamCreate("CITShip3", 1016, CVector(4000, 255, 4875), {"DestroyerCIT02"}, CVector(4010, 255, 3790), 0, Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+			local cits4 = TeamCreate("CITShip4", 1016, CVector(4000, 255, 5125), {"CruiserCIT01"}, CVector(4010, 255, 3960), 0, Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+--			getObj("CITShip1_vehicle_0"):SetCruisingSpeed(8)
+			getObj("CITShip2_vehicle_0"):SetCruisingSpeed(8)
+			getObj("CITShip3_vehicle_0"):SetCruisingSpeed(8)
+			getObj("CITShip4_vehicle_0"):SetCruisingSpeed(8)
+
+--			cits1:SetProperty ("TeamTacticPrototype", "TeamTacticCheaters")
+--			cits1:_AdjustBehaviour ()
+			cits2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits2:_AdjustBehaviour ()
+			cits3:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits3:_AdjustBehaviour ()
+			cits4:SetProperty ("TeamTacticPrototype", "TeamTacticSniper")
+			cits4:_AdjustBehaviour ()
+
+			local cith1 = TeamCreate("CITHeli1", 1016, CVector(5300, 255, 3690), {"HeliCIT03"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			local cith2 = TeamCreate("CITHeli2", 1016, CVector(5375, 255, 3710), {"HeliCIT01"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+
+			SetWeather(0)
+			SetGameTime(12,00)
+			Fly("Trail1a", CINEMATIC_NO_AIM, 1, 78, 0, 0 )
+--			Fly("Trail1b", CINEMATIC_NO_AIM, 1, 100, 0, 1 )
+			local cds2ID = getObj("CDShip2_vehicle_0"):GetId()
+			local cits3ID = getObj("CITShip3_vehicle_0"):GetId()
+			local cds1ID = getObj("CDShip1_vehicle_0"):GetId()
+			local cits4ID = getObj("CITShip4_vehicle_0"):GetId()
+			FlyLinked( "Trail1follow1", cds2ID, 24, 0, 0, cits3ID )
+			FlyLinked( "Trail1follow2", cits4ID, 26, 0, 0, cds1ID )
+			FlyLinked( "Trail1follow3", cds1ID, 31, 0, 0, cits4ID )
+			Fly("Trail1heli1", CINEMATIC_NO_AIM, 1, 16, 0, 0 )
+			local cith1ID = getObj("CITHeli1_vehicle_0"):GetId()
+			local cith2ID = getObj("CITHeli2_vehicle_0"):GetId()
+			FlyLinked( "Trail1heli2", cith2ID, 20, 0, 0, cith1ID )
+			FlyLinked( "Trail1heli3", cith1ID, 8, 0, 0, cith2ID )
+			FlyLinked( "Trail1heli4", cith2ID, 10, 0, 0, cith1ID )
+			FlyLinked( "Trail1heli5", cds1ID, 14, 0, 0, cith1ID )
+
+			StartCinematic()
+			UpdateCinematic( 1 )
+
+			TActivate("Trail1heli1")
+			TActivate("Trail1heli2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Trail1heli1" active="0">
+		<event flypath="Trail1heli1" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			getObj("CITHeli1_vehicle_0"):SetExternalPathByName("heliCIT01")
+			getObj("CITHeli2_vehicle_0"):SetExternalPathByName("heliCIT02")
+			getObj("CITHeli1_vehicle_0"):SetCruisingSpeed(40)
+			getObj("CITHeli2_vehicle_0"):SetCruisingSpeed(40)
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="Trail1heli2" active="0">
+		<event flypath="Trail1heli2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			println("removing CD destroyers")
+			if getObj("CDShip2_vehicle_0") then
+				getObj("CDShip2_vehicle_0"):Remove()
+			end
+			if getObj("CDShip3_vehicle_0") then
+				getObj("CDShip3_vehicle_0"):Remove()
+			end
+			println("removed CD destroyers succ")
+
+			if getObj("CITShip2_vehicle_0") and not(getObj("CITShip3_vehicle_0")) then
+				println("there's the standard CIT destroyer left")
+			elseif getObj("CITShip3_vehicle_0") and not(getObj("CITShip2_vehicle_0")) then
+				println("there's the retrofitted CIT destroyer left")
+			else
+				println("no CIT destroyers left or there are two of them still")
+				if getObj("CITShip2_vehicle_0") then
+					getObj("CITShip2_vehicle_0"):Remove()
+					println("removed the standard CIT destroyer")
+				end
+			end
+
+			trigger:Deactivate()    
 		</script>
 	</trigger>
 </triggers>
