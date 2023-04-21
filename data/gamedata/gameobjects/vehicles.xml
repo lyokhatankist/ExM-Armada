@@ -1475,7 +1475,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		PressingForce		= "0.5"
 		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		MassTranslation		= "0.0 -150.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "400.0"
