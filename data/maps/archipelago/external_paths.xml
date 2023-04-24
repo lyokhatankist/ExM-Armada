@@ -603,16 +603,16 @@
 	<Path
 		Name="heliCIT01">
 		<Point
-			coord="3600.000 3690.000" />
-
-		<Point
-			coord="4098.331 3652.178" />
+			coord="3496.277 3682.860" />
 	</Path>
 
 	<Path
 		Name="heliCIT02">
 		<Point
 			coord="3700.000 3710.000" />
+
+		<Point
+			coord="3452.797 3733.396" />
 	</Path>
 
 	<Path

@@ -47,8 +47,13 @@
 			cits4:SetProperty ("TeamTacticPrototype", "BoxTactic")
 			cits4:_AdjustBehaviour ()
 
-			local cith1 = TeamCreate("CITHeli1", 1016, CVector(5300, 255, 3690), {"HeliCIT03"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
-			local cith2 = TeamCreate("CITHeli2", 1016, CVector(5375, 255, 3710), {"HeliCIT01"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+--			local cith1 = TeamCreate("CITHeli1", 1016, CVector(5300, 255, 3690), {"HeliCIT03"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+--			local cith2 = TeamCreate("CITHeli2", 1016, CVector(5375, 255, 3710), {"HeliCIT01"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			local cith1 = TeamCreate("CITHeli1", 1016, CVector(5300, 255, 3690), {"HeliCIT03","HeliCIT01"}, nil, 0, Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			getObj("CITHeli1_vehicle_0"):SetGamePositionOnGround(CVector(5300, 255, 3690))
+			getObj("CITHeli1_vehicle_1"):SetGamePositionOnGround(CVector(5375, 255, 3710))
+			cith1:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cith1:_AdjustBehaviour ()
 
 			SetWeather(0)
 			SetGameTime(12,00)
@@ -63,7 +68,7 @@
 			FlyLinked( "Trail1follow3", cds1ID, 31, 0, 0, cits4ID )
 			Fly("Trail1heli1", CINEMATIC_NO_AIM, 1, 16, 0, 0 )
 			local cith1ID = getObj("CITHeli1_vehicle_0"):GetId()
-			local cith2ID = getObj("CITHeli2_vehicle_0"):GetId()
+			local cith2ID = getObj("CITHeli1_vehicle_1"):GetId()
 			FlyLinked( "Trail1heli2", cith2ID, 20, 0, 0, cith1ID )
 			FlyLinked( "Trail1heli3", cits3ID, 8, 0, 0, cith1ID )
 			FlyLinked( "Trail1heli4", cith2ID, 10, 0, 0, cith1ID )
@@ -86,9 +91,9 @@
 		<event flypath="Trail1heli1" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("CITHeli1_vehicle_0"):SetExternalPathByName("heliCIT01")
-			getObj("CITHeli2_vehicle_0"):SetExternalPathByName("heliCIT02")
+			getObj("CITHeli1_vehicle_1"):SetExternalPathByName("heliCIT02")
 			getObj("CITHeli1_vehicle_0"):SetCruisingSpeed(40)
-			getObj("CITHeli2_vehicle_0"):SetCruisingSpeed(40)
+			getObj("CITHeli1_vehicle_1"):SetCruisingSpeed(40)
 
 			trigger:Deactivate()    
 		</script>
@@ -277,7 +282,7 @@
 		</script>
 	</trigger>
 	
-	<trigger	Name="Trail3"	active="1">
+	<trigger	Name="Trail3"	active="0">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			AddPlayerVehicle("LavCD01")
@@ -445,6 +450,191 @@
 			StartCinematic()
 			UpdateCinematic( 1 )
 			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="Trail5"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			AddPlayerVehicle("LavCD01")
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(2234, 302, 2231))
+
+			local cds1 = TeamCreate("CDShip1", 1015, CVector(2304, 256, 2873), {"DestroyerCD01"}, CVector(1163, 256, 2864), 0, nil)
+			local cds2 = TeamCreate("CDShip2", 1015, CVector(2375, 256, 2795), {"DestroyerCD02"}, CVector(1235, 256, 2786), 0, nil)
+			local cds3 = TeamCreate("CDShip3", 1015, CVector(2381, 256, 2957), {"DestroyerCD02"}, CVector(1240, 256, 2948), 0, nil)
+			local cds4 = TeamCreate("CDShip4", 1015, CVector(2444, 256, 2873), {"DestroyerCD01"}, CVector(1303, 256, 2864), 0, nil)
+			cds1:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds1:_AdjustBehaviour ()
+			cds2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds2:_AdjustBehaviour ()
+			cds3:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds3:_AdjustBehaviour ()
+			cds4:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds4:_AdjustBehaviour ()
+
+			getObj("CDShip1_vehicle_0"):SetRotation(Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			getObj("CDShip1_vehicle_0"):SetCruisingSpeed(9)
+			getObj("CDShip1_vehicle_0"):setGodMode(1)
+			getObj("CDShip2_vehicle_0"):SetRotation(Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			getObj("CDShip2_vehicle_0"):SetCruisingSpeed(9)
+			getObj("CDShip2_vehicle_0"):setGodMode(1)
+			getObj("CDShip3_vehicle_0"):SetRotation(Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			getObj("CDShip3_vehicle_0"):SetCruisingSpeed(9)
+			getObj("CDShip3_vehicle_0"):setGodMode(1)
+			getObj("CDShip4_vehicle_0"):SetRotation(Quaternion(0.0000, -0.7071, 0.0000, 0.7071))
+			getObj("CDShip4_vehicle_0"):SetCruisingSpeed(9)
+			getObj("CDShip4_vehicle_0"):setGodMode(1)
+
+			local cits1 = TeamCreate("CITShip1", 1016, CVector(1286, 256, 2147), {"DestroyerCIT02"}, CVector(1277 ,256, 3226), 0, nil)
+			local cits2 = TeamCreate("CITShip2", 1016, CVector(1207, 256, 2046), {"DestroyerCIT01"}, CVector(1198, 256, 3124), 0, nil)
+			local cits3 = TeamCreate("CITShip3", 1016, CVector(1282, 256, 1948), {"DestroyerCIT01"}, CVector(1273, 256, 3027), 0, nil)
+			local cits4 = TeamCreate("CITShip4", 1016, CVector(1204, 256, 1847), {"DestroyerCIT02"}, CVector(1195, 256, 2926), 0, nil)
+			cits1:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits1:_AdjustBehaviour ()
+			cits2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits2:_AdjustBehaviour ()
+			cits3:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits3:_AdjustBehaviour ()
+			cits4:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits4:_AdjustBehaviour ()
+
+--			getObj("CITShip1_vehicle_0"):SetRotation(Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			getObj("CITShip1_vehicle_0"):SetCruisingSpeed(11)
+			getObj("CITShip1_vehicle_0"):setGodMode(1)
+--			getObj("CITShip2_vehicle_0"):SetRotation(Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			getObj("CITShip2_vehicle_0"):SetCruisingSpeed(11)
+			getObj("CITShip2_vehicle_0"):setGodMode(1)
+--			getObj("CITShip3_vehicle_0"):SetRotation(Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			getObj("CITShip3_vehicle_0"):SetCruisingSpeed(11)
+			getObj("CITShip3_vehicle_0"):setGodMode(1)
+--			getObj("CITShip4_vehicle_0"):SetRotation(Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			getObj("CITShip4_vehicle_0"):SetCruisingSpeed(11)
+			getObj("CITShip4_vehicle_0"):setGodMode(1)
+
+			SetWeather(1)
+			SetGameTime(1,00)
+
+			local cds1ID = getObj("CDShip1_vehicle_0"):GetId()
+			local cds2ID = getObj("CDShip2_vehicle_0"):GetId()
+			local cds3ID = getObj("CDShip3_vehicle_0"):GetId()
+			local cds4ID = getObj("CDShip4_vehicle_0"):GetId()
+			local cits1ID = getObj("CITShip1_vehicle_0"):GetId()
+			local cits2ID = getObj("CITShip2_vehicle_0"):GetId()
+			local cits3ID = getObj("CITShip3_vehicle_0"):GetId()
+			local cits4ID = getObj("CITShip4_vehicle_0"):GetId()
+
+			for i=1,16 do
+				local pathsArray = {"Trail1follow1","Trail1follow2","Trail1follow3","Trail1heli2","Trail1heli3","Trail1heli4","Trail1heli5","Trail1heli6","Trail1heli7","Trail1heli8","Trail2follow1","Trail2follow2","Trail2follow3","Trail2follow4","Trail2follow5","Trail3follow1","Trail3follow2","Trail3follow3"}
+				local pathsArrayLength = getn(pathsArray)
+				local chosenPathNumber = random(pathsArrayLength)
+				local chosenPath = pathsArray[chosenPathNumber]
+				
+				local shipsArray = {cds1ID,cds2ID,cds3ID,cds4ID,cits1ID,cits2ID,cits3ID,cits4ID}
+				local shipsArray2 = {}
+				local shipsArrayLength = getn(shipsArray)
+				local chosenShipNumber = random(shipsArrayLength)
+				local chosenShip = shipsArray[chosenShipNumber]
+				for i=1,shipsArrayLength do
+					if i ~= chosenShipNumber then
+						table.insert(shipsArray2, shipsArray[i])
+					end
+				end
+				local shipsArrayLength2 = getn(shipsArray2)
+				local chosenShipNumber2 = random(shipsArrayLength2)
+				local chosenShip2 = shipsArray2[chosenShipNumber2]
+
+				FlyLinked( chosenPath, chosenShip, 25, 0, 0, chosenShip2 )
+				println("flylinked "..chosenPath.." "..chosenShip.." "..chosenShip2)
+
+				if i == 16 then
+					StartCinematic()
+					UpdateCinematic( 1 )
+				end
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="Trail6"	active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			AddPlayerVehicle("LavCD01")
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(1779, 306, 6601))
+
+			local cds1 = TeamCreate("CDShip1", 1015, CVector(2269, 256, 5906), {"CruiserCD01"}, CVector(1226, 256, 6483), 0, nil)
+			local cds2 = TeamCreate("CDShip2", 1015, CVector(2444, 256, 5810), {"CruiserCD01"}, CVector(1401, 256, 6386), 0, nil)
+			cds1:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds1:_AdjustBehaviour ()
+			cds2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cds2:_AdjustBehaviour ()
+
+			getObj("CDShip1_vehicle_0"):SetRotation(Quaternion(0.0000, -0.5094, 0.0000, 0.8605))
+			getObj("CDShip1_vehicle_0"):SetCruisingSpeed(7)
+			getObj("CDShip1_vehicle_0"):setGodMode(1)
+			getObj("CDShip2_vehicle_0"):SetRotation(Quaternion(0.0000, -0.5094, 0.0000, 0.8605))
+			getObj("CDShip2_vehicle_0"):SetCruisingSpeed(7)
+			getObj("CDShip2_vehicle_0"):setGodMode(1)
+
+			local cits1 = TeamCreate("CITShip1", 1016, CVector(1198, 256, 7146), {"CruiserCIT01"}, CVector(2340, 256, 6756), 0, nil)
+			local cits2 = TeamCreate("CITShip2", 1016, CVector(1111, 256, 7253), {"CruiserCIT02"}, CVector(2254, 256, 6863), 0, nil)
+			local cits3 = TeamCreate("CITShip3", 1016, CVector(987, 256, 7218), {"CruiserCIT01"}, CVector(2130, 256, 6829), 0, nil)
+			cits1:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits1:_AdjustBehaviour ()
+			cits2:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits2:_AdjustBehaviour ()
+			cits3:SetProperty ("TeamTacticPrototype", "BoxTactic")
+			cits3:_AdjustBehaviour ()
+
+			getObj("CITShip1_vehicle_0"):SetRotation(Quaternion(0.0000, 0.8128, 0.0000, 0.5825))
+			getObj("CITShip1_vehicle_0"):SetCruisingSpeed(4)
+			getObj("CITShip1_vehicle_0"):setGodMode(1)
+			getObj("CITShip2_vehicle_0"):SetRotation(Quaternion(0.0000, 0.8128, 0.0000, 0.5825))
+			getObj("CITShip2_vehicle_0"):SetCruisingSpeed(4)
+			getObj("CITShip2_vehicle_0"):setGodMode(1)
+			getObj("CITShip3_vehicle_0"):SetRotation(Quaternion(0.0000, 0.8128, 0.0000, 0.5825))
+			getObj("CITShip3_vehicle_0"):SetCruisingSpeed(4)
+			getObj("CITShip3_vehicle_0"):setGodMode(1)
+
+			SetWeather(0)
+			SetGameTime(7,00)
+
+			local cds1ID = getObj("CDShip1_vehicle_0"):GetId()
+			local cds2ID = getObj("CDShip2_vehicle_0"):GetId()
+			local cits1ID = getObj("CITShip1_vehicle_0"):GetId()
+			local cits2ID = getObj("CITShip2_vehicle_0"):GetId()
+			local cits3ID = getObj("CITShip3_vehicle_0"):GetId()
+
+			for i=1,16 do
+				local pathsArray = {"Trail1follow1","Trail1follow2","Trail1follow3","Trail1heli2","Trail1heli3","Trail1heli4","Trail1heli5","Trail1heli6","Trail1heli7","Trail1heli8","Trail2follow1","Trail2follow2","Trail2follow3","Trail2follow4","Trail2follow5","Trail3follow1","Trail3follow2","Trail3follow3"}
+				local pathsArrayLength = getn(pathsArray)
+				local chosenPathNumber = random(pathsArrayLength)
+				local chosenPath = pathsArray[chosenPathNumber]
+				
+				local shipsArray = {cds1ID,cds2ID,cits1ID,cits2ID,cits3ID}
+				local shipsArray2 = {}
+				local shipsArrayLength = getn(shipsArray)
+				local chosenShipNumber = random(shipsArrayLength)
+				local chosenShip = shipsArray[chosenShipNumber]
+				for i=1,shipsArrayLength do
+					if i ~= chosenShipNumber then
+						table.insert(shipsArray2, shipsArray[i])
+					end
+				end
+				local shipsArrayLength2 = getn(shipsArray2)
+				local chosenShipNumber2 = random(shipsArrayLength2)
+				local chosenShip2 = shipsArray2[chosenShipNumber2]
+
+				FlyLinked( chosenPath, chosenShip, 25, 0, 0, chosenShip2 )
+				println("flylinked "..chosenPath.." "..chosenShip.." "..chosenShip2)
+
+				if i == 16 then
+					StartCinematic()
+					UpdateCinematic( 1 )
+				end
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>

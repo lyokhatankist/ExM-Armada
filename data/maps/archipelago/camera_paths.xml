@@ -176,8 +176,10 @@
 	</Path>
 
 	<Path Name = "Trail3b">
-		<Point  coord="3647.973 353.383 1822.181" rotation="-0.333 0.459 -0.191 0.801" speed="1"/>   
-		<Point  coord="3685.373 353.383 1943.041" rotation="-0.273 0.668 -0.289 0.629" speed="1"/>     
+		<!-- <Point  coord="3647.973 353.383 1822.181" rotation="-0.333 0.459 -0.191 0.801" speed="1"/>   
+		<Point  coord="3685.373 353.383 1943.041" rotation="-0.273 0.668 -0.289 0.629" speed="1"/>      -->
+		<Point  coord="3666.439 342.377 1893.075" rotation="-0.348 0.495 -0.225 0.764" speed="1"/>   
+		<Point  coord="3665.877 342.377 1956.201" rotation="-0.220 0.765 -0.334 0.505" speed="1"/>     
 	</Path>
 
 	<Path Name = "Trail3c">
