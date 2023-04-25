@@ -75,7 +75,7 @@
 			name="REFRACTIONTINT">0 0 0</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">11.750</Key>
+			name="SKYDOMEDIVIDER">11.000</Key>
 
 		<Key
 			name="WATERSMALLTEX">WaterSm.tga</Key>

@@ -43,7 +43,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "PlasmaBunch"
 		Name			= "47mmAAshell"		
 	
-		ModelFile		= "shell01"
+		ModelFile		= "shell_sml"
 		ExplosionType	= "AUTOCANNON" 
 
 		Velocity		= "2500"
@@ -68,10 +68,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "50"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 		NumBulletsInShot	= "4"
 
-		Damage			= "12"
+		Damage			= "16"
 		FiringRate		= "800"
 		ChargeSize     	= "200"
 		RechargingTime 	= "14"
@@ -106,7 +105,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringRate		= "0"
 		ChargeSize		= "0"
 
-		TurningSpeed	= "40"
+		TurningSpeed	= "15"
 		Durability		= "0"
 		Price			= "102500" />
 
@@ -128,9 +127,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "900"
 		ChargeSize     	= "240"
 		RechargingTime 	= "0"
@@ -138,7 +136,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringRange		= "300"
 		GroupingAngle	= "2.5"
 
-		TurningSpeed	= "40"
+		TurningSpeed	= "15"
 		Durability		= "5" 
 		Price			= "32900" />
 
@@ -173,7 +171,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ShellsPoolSize		= "24"
 		WithShellsPoolLimit	= "true"
 
-		TurningSpeed	= "40"
+		TurningSpeed	= "15"
 		Durability		= "5"
 		Price			= "102500" />
 
@@ -223,7 +221,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ShellsPoolSize		= "7"
 		WithShellsPoolLimit	= "true"
 
-		TurningSpeed	= "40"
+		TurningSpeed	= "15"
 		Durability		= "2"
 		Price			= "9870" />
 			
@@ -267,7 +265,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringRate		= "0"
 		ChargeSize		= "0"
 
-		TurningSpeed	= "60"
+		TurningSpeed	= "35"
 		Durability		= "0"
 		Price			= "102500" />
 
@@ -289,9 +287,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "8"
+		Damage			= "9"
 		FiringRate		= "1200"
 		ChargeSize     	= "120"
 		RechargingTime 	= "0"
@@ -299,7 +296,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringRange		= "450"
 		GroupingAngle	= "3"
 
-		TurningSpeed	= "60"
+		TurningSpeed	= "35"
 		Durability		= "5" 
 		Price			= "32900" />
 
@@ -334,7 +331,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ShellsPoolSize		= "76"
 		WithShellsPoolLimit	= "true"
 
-		TurningSpeed	= "60"
+		TurningSpeed	= "35"
 		Durability		= "5"
 		Price			= "9870" />
 			
@@ -377,9 +374,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "600"
 		ChargeSize     	= "120"
 		RechargingTime 	= "7"
@@ -413,9 +409,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "4"
+		Damage			= "5"
 		FiringRate		= "500"
 		ChargeSize     	= "80"
 		RechargingTime 	= "7.3"

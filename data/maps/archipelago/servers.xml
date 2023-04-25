@@ -349,6 +349,30 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="shell_sml" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_dest" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_lcru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_cru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_bat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_hbat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="cruise_missile01" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1421,11 +1445,12 @@
 
 	<SoundsServer>
 <!-- Battleship -->
+<!--
 		<Item id="S_EXPLDIST01" />
 		<Item id="S_EXPLDIST03" />
 		<Item id="S_EXPLDIST05" />
 		<Item id="S_EXPLDIST08" />
-
+-->
 		<Item id="S_ENGINE_FAKE_HIGH" />
 		<Item id="S_HELI" />
 		<Item id="S_HELI01" />

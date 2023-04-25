@@ -32,9 +32,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "6"
+		Damage			= "7"
 		FiringRate		= "700"
 		ChargeSize     	= "90"
 		RechargingTime 	= "6.27"
@@ -184,9 +183,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "4"
+		Damage			= "5"
 		FiringRate		= "500"
 		ChargeSize     	= "80"
 		RechargingTime 	= "7.3"
@@ -284,7 +282,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "850"
 		FiringRate		= "300"
 		ChargeSize     	= "3"
-		RechargingTime	= "18"
+		RechargingTime	= "20"
 
 		FiringRange		= "1000"
 		ActionDist		= "2000"	
@@ -318,7 +316,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -336,7 +334,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "130mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "25"
@@ -364,7 +362,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "50"
@@ -400,7 +398,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "128"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "138mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -418,7 +416,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "138mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "30"
@@ -446,7 +444,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "128"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "138mmBlastWave"
 
 		Damage			= "185"
 		FiringRate		= "50"
@@ -544,7 +542,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "136"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "127mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -562,7 +560,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "127mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "20"
@@ -590,7 +588,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "136"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "127mmBlastWave"
 
 		Damage			= "100"
 		FiringRate		= "150"
@@ -626,7 +624,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "130"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "135mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -644,7 +642,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "135mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_dest"
 		ExplosionType			= "GRENADE"
 
 		Price			= "28"
@@ -672,7 +670,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "130"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "135mmBlastWave"
 
 		Damage			= "175"
 		FiringRate		= "200"
@@ -772,7 +770,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "50"
@@ -808,7 +806,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "152mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -826,7 +824,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "152mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_lcru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "37"
@@ -854,7 +852,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "152mmBlastWave"
 
 		Damage			= "170"
 		FiringRate		= "125"
@@ -890,7 +888,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "155mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -908,7 +906,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "155mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_lcru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "40"
@@ -936,7 +934,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "155mmBlastWave"
 
 		Damage			= "215"
 		FiringRate		= "245"
@@ -1034,7 +1032,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "108"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "203mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1052,7 +1050,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "203mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_cru"
 		ExplosionType			= "GRENADE"
 
 		Price			= "65"
@@ -1080,7 +1078,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "108"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "203mmBlastWave"
 
 		Damage			= "310"
 		FiringRate		= "190"
@@ -1118,7 +1116,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "1"
 
 		DamageType			= "ENERGY"
-		BlastWavePrototype	= "antiairBlastWave"
+		BlastWavePrototype	= "cruiseBlastWave"
 
 		Damage			= "3000"
 		FiringRate		= "20"
@@ -1146,9 +1144,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "85"
 		Acceleration		= "150"
-		MinTurningRadius	= "500"
+		MinTurningRadius	= "600"
 		FlyTime				= "100"
-		BlastWavePrototype	= "antiairBlastWave"
 
 		Mass			= "0.01"
 		Size			= "4 4 6"/>
@@ -1204,7 +1201,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity			= "155"
 		Acceleration		= "150"
-		MinTurningRadius	= "250"
+		MinTurningRadius	= "450"
 		FlyTime				= "100"
 		BlastWavePrototype	= "samcdBlastWave"
 
@@ -1238,7 +1235,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1256,7 +1253,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "406mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "124"
@@ -1284,7 +1281,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "830"
 		FiringRate		= "180"
@@ -1320,7 +1317,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "380mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1338,7 +1335,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "380mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "108"
@@ -1366,7 +1363,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "122"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "380mmBlastWave"
 
 		Damage			= "725"
 		FiringRate		= "220"
@@ -1402,7 +1399,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "457mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1420,7 +1417,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "457mmCITshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_hbat"
 		ExplosionType			= "BLAST"
 
 		Price			= "152"
@@ -1448,7 +1445,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "120"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "457mmBlastWave"
 
 		Damage			= "1250"
 		FiringRate		= "200"
@@ -1484,7 +1481,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1518,7 +1515,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "133"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
 		FiringRate		= "175"
@@ -1558,7 +1555,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "123"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "356mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1576,7 +1573,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "356mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "118"
@@ -1604,7 +1601,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "123"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "356mmBlastWave"
 
 		Damage			= "600"
 		FiringRate		= "210"
@@ -1640,7 +1637,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "0"
 		FiringRate		= "0"
@@ -1658,7 +1655,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 	<Prototype
 		Class					= "MortarShell"
 		Name					= "406mmCDshell"
-		ModelFile				= "shell01"
+		ModelFile				= "shell_bat"
 		ExplosionType			= "BLAST"
 
 		Price			= "118"
@@ -1686,7 +1683,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		DamageType			= "ENERGY"
 		InitialVelocity		= "121"
-		BlastWavePrototype	= "smallBlastWave"
+		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "780"
 		FiringRate		= "230"
@@ -1715,7 +1712,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Decal			= "DC_SML_MACHINEGUN"
 		FiringEffect	= "none"
 
-		VisibleInEncyclopedia	= "true"
+		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "raybullet"
 		ExplosionType		= "MACHINEGUN"
@@ -1723,9 +1720,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "600"
 
 		DamageType			= "BLAST"
-		BlastWavePrototype	= "antiairBlastWave"
 
-		Damage			= "3"
+		Damage			= "4"
 		FiringRate		= "600"
 		ChargeSize     	= "120"
 		RechargingTime 	= "7"
