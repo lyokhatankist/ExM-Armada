@@ -3,6 +3,8 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			SetWeather(0)
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
