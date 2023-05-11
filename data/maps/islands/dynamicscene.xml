@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="0">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player"
+		Money="1000">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="DestroyerCD01"
+			Pos="4096.000 273.822 4096.000"
+			Rot="-0.007 1.000 0.001 0.021">
+			<Parts />
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5708.397 298.380 5636.582"
+		Rot="0.703 0.000 -0.110 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5708.488 298.360 5635.291"
+		Rot="0.703 0.000 -0.110 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5664.825 301.212 5613.680"
+		Rot="-0.168 0.000 0.685 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5663.600 301.192 5614.095"
+		Rot="-0.168 0.000 0.685 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5656.926 295.837 5668.206"
+		Rot="0.635 0.000 0.256 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5658.206 295.817 5668.392"
+		Rot="0.635 0.000 0.256 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5707.711 296.179 5682.715"
+		Rot="0.703 0.000 -0.110 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5707.802 296.159 5681.425"
+		Rot="0.703 0.000 -0.110 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5716.144 280.577 5839.969"
+		Rot="0.652 0.000 0.232 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5717.438 280.557 5839.976"
+		Rot="0.652 0.000 0.232 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5305.868 303.764 5032.880"
+		Rot="0.113 0.000 0.702 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5305.793 303.744 5034.171"
+		Rot="0.113 0.000 0.702 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5290.010 305.100 5080.937"
+		Rot="0.656 0.000 0.226 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="5291.303 305.080 5080.898"
+		Rot="0.656 0.000 0.226 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6650.323 290.773 4548.009"
+		Rot="0.582 0.000 -0.301 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6649.209 290.753 4547.352"
+		Rot="0.582 0.000 -0.301 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6595.875 293.077 4549.927"
+		Rot="-0.168 0.000 0.685 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6594.650 293.057 4550.342"
+		Rot="-0.168 0.000 0.685 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6666.735 283.717 4473.504"
+		Rot="0.002 0.000 0.716 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6666.092 283.697 4474.627"
+		Rot="0.002 0.000 0.716 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6633.242 287.260 4501.017"
+		Rot="-0.144 0.000 0.694 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6632.069 287.241 4501.563"
+		Rot="-0.144 0.000 0.694 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6589.354 287.489 4501.531"
+		Rot="-0.272 0.000 0.620 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6588.103 287.469 4501.201"
+		Rot="-0.272 0.000 0.620 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6562.609 283.007 4468.121"
+		Rot="0.672 0.000 -0.198 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6562.183 282.987 4466.899"
+		Rot="0.672 0.000 -0.198 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6593.550 283.289 4439.557"
+		Rot="0.137 0.000 0.696 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6593.612 283.269 4440.849"
+		Rot="0.137 0.000 0.696 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6622.809 284.613 4466.064"
+		Rot="-0.209 0.000 0.666 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6621.525 284.593 4466.221"
+		Rot="-0.209 0.000 0.666 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6628.617 283.465 4436.162"
+		Rot="0.614 0.000 -0.278 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="6627.675 283.445 4435.275"
+		Rot="0.614 0.000 -0.278 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="4101.794 287.539 2896.516"
+		Rot="-0.209 0.000 0.666 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="4100.510 287.519 2896.673"
+		Rot="-0.209 0.000 0.666 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="3481.142 293.945 3018.088"
+		Rot="0.705 0.000 -0.104 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="3481.267 293.925 3016.800"
+		Rot="0.705 0.000 -0.104 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="3464.080 297.730 3048.458"
+		Rot="0.156 0.000 0.689 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="3464.253 297.711 3049.740"
+		Rot="0.156 0.000 0.689 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2740.245 291.619 3361.169"
+		Rot="-0.143 0.000 0.694 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2739.075 291.599 3361.719"
+		Rot="-0.143 0.000 0.694 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2716.746 288.549 3393.187"
+		Rot="0.716 0.000 0.004 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2717.418 288.529 3392.081"
+		Rot="0.716 0.000 0.004 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2681.445 288.082 3404.609"
+		Rot="-0.067 0.000 0.711 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2680.514 288.062 3405.507"
+		Rot="-0.067 0.000 0.711 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2936.992 294.163 2150.219"
+		Rot="0.710 0.000 -0.074 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2937.279 294.143 2148.957"
+		Rot="0.710 0.000 -0.074 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2899.483 294.076 2155.621"
+		Rot="0.582 0.000 0.301 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2900.603 294.057 2156.269"
+		Rot="0.582 0.000 0.301 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2909.743 293.175 2127.208"
+		Rot="-0.282 0.000 0.610 0.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="LightObject"
+		Pos="2908.520 293.155 2126.787"
+		Rot="-0.282 0.000 0.610 0.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>

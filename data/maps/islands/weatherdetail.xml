@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="islands_clear">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_sunrisetime_islands.dds"
+			CloudsTexture="skycloudy1.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_daytime_islands.dds"
+			CloudsTexture="skyclear2.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_sunsettime_islands.dds"
+			CloudsTexture="skyblight3.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_nighttime_islands.dds"
+			CloudsTexture="skyclear1.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="islands_cloudy">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_sunrisetime_islands.dds"
+			CloudsTexture="skyovercast.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_daytime_islands.dds"
+			CloudsTexture="skyovercast.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_sunsettime_islands.dds"
+			CloudsTexture="skyovercast.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_nighttime_islands.dds"
+			CloudsTexture="skyovercast.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="islands_foggy">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_sunrisetime_islands.dds"
+			CloudsTexture="skyfoggy.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_daytime_islands.dds"
+			CloudsTexture="skyfoggy.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_sunsettime_islands.dds"
+			CloudsTexture="skyfoggy.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_nighttime_islands.dds"
+			CloudsTexture="skyfoggy.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="islands_storm">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_sunrisetime_islands.dds"
+			CloudsTexture="skystormy.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_daytime_islands.dds"
+			CloudsTexture="skystormy.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_sunsettime_islands.dds"
+			CloudsTexture="skystormy.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_nighttime_islands.dds"
+			CloudsTexture="skystormy.dds" />
+	</WeatherItem>
+</Weather>
