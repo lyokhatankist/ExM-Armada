@@ -885,6 +885,327 @@
 		<Item 
 			id="lavCDMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="shipbarrier" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="buoy" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_deadtree1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_deadtree2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_deadtree3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_7" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_8" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_9" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="big_crag_11" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bar1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bar2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="townhall" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="workshop1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="workshop2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse1_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse2_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse3_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse5" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse6" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="rr_lamp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_platform"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="windmil"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="maize"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="berth"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_abk"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_prom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_tower"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_8"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_sedge_grass1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_sedge_grass2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boevoy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="esmin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kater"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="minonos"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="shlupka"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust1_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust2_r2"
+			file="data\models\AnimModels.xml" />
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
