@@ -896,15 +896,15 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="r2_deadtree1" 
+			id="r2_dtree1" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="r2_deadtree2" 
+			id="r2_dtree2" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="r2_deadtree3" 
+			id="r2_dtree3" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -1161,10 +1161,6 @@
 
 		<Item
 			id="r2_crag_copped_8"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="r2_sedge_grass1"
 			file="data\models\AnimModels.xml" />
 
 		<Item

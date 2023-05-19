@@ -9666,7 +9666,7 @@
 		file="data\models\battleship\environment\trees\r1\sosna3.gam" />
 
 	<model
-		id="r2_deadtree1"
+		id="r2_dtree1"
 		shadow="1"
 		trans="1"
 		windwavy="0"
@@ -9674,7 +9674,7 @@
 		file="data\models\battleship\environment\trees\r2\deadtree1.gam" />
 
 	<model
-		id="r2_deadtree2"
+		id="r2_dtree2"
 		shadow="1"
 		trans="1"
 		windwavy="0"
@@ -9682,7 +9682,7 @@
 		file="data\models\battleship\environment\trees\r2\deadtree2.gam" />
 
 	<model
-		id="r2_deadtree3"
+		id="r2_dtree3"
 		shadow="1"
 		trans="1"
 		windwavy="0"
@@ -14129,7 +14129,7 @@
 		windwavy="0"
 		trans="0"
 		composite="0" />
-
+<!--
 	<model
 		id="dub1_r2"
 		file="data\models\nature\region2\trees\dub1_r2.gam"
@@ -14156,7 +14156,7 @@
 		windwavy="0"
 		trans="1"
 		composite="0" />
-
+-->
 	<model
 		id="dub_kust1_r2"
 		file="data\models\nature\region2\trees\dub_kust1_r2.gam"
@@ -14174,7 +14174,7 @@
 		windwavy="0"
 		trans="1"
 		composite="0" />
-
+<!--
 	<model
 		id="r2_deadtree1"
 		file="data\models\nature\region2\trees\r2_deadtree1.gam"
@@ -14227,7 +14227,7 @@
 		windwavy="0"
 		trans="0"
 		composite="0" />
-
+-->
 	<model
 		id="crag_boulder1"
 		file="data\models\nature\region3\crag\crag_boulder1.gam"
