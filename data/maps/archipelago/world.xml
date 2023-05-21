@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="267103597">
+	LastId="267103613">
 	<Node
 		name="Object267100572"
 		class="SgAnimatedModelNode"
@@ -3997,7 +3997,7 @@
 	<Node
 		name="Object267100986"
 		class="SgAnimatedModelNode"
-		org="6762.181 -11.589 2621.918"
+		org="6760.102 -11.578 2618.549"
 		orgRel="1"
 		rot="0.0000 0.8039 0.0000 0.5948"
 		scale="1.480 1.480 1.480"
@@ -29783,5 +29783,165 @@
 		rot="0.0000 0.0153 0.0000 0.9999"
 		scale="0.230 0.230 0.230"
 		id="r2_dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103597"
+		class="SgAnimatedModelNode"
+		org="6679.493 -8.851 4108.055"
+		orgRel="1"
+		rot="0.0000 -0.1780 0.0000 0.9840"
+		scale="0.510 0.510 0.510"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103598"
+		class="SgAnimatedModelNode"
+		org="5666.333 -13.539 5225.791"
+		orgRel="1"
+		rot="0.0000 0.8638 0.0000 -0.5038"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103599"
+		class="SgAnimatedModelNode"
+		org="6405.248 -12.228 5766.614"
+		orgRel="1"
+		rot="0.0000 -0.8469 0.0000 0.5318"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103600"
+		class="SgAnimatedModelNode"
+		org="5465.706 -12.258 5550.456"
+		orgRel="1"
+		rot="0.0000 0.2630 0.0000 -0.9648"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103601"
+		class="SgAnimatedModelNode"
+		org="4196.335 -12.258 6724.542"
+		orgRel="1"
+		rot="0.0000 0.2630 0.0000 -0.9648"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103602"
+		class="SgAnimatedModelNode"
+		org="3902.127 -15.366 6751.182"
+		orgRel="1"
+		rot="0.0000 0.8339 0.0000 -0.5519"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103603"
+		class="SgAnimatedModelNode"
+		org="3368.935 -14.066 6420.804"
+		orgRel="1"
+		rot="0.0000 0.8339 0.0000 -0.5519"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103604"
+		class="SgAnimatedModelNode"
+		org="1390.725 -3.625 6146.846"
+		orgRel="1"
+		rot="-0.0026 0.7960 -0.0035 0.6053"
+		scale="0.460 0.460 0.460"
+		id="r2_crag_copped_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103605"
+		class="SgAnimatedModelNode"
+		org="1398.196 -10.908 6148.022"
+		orgRel="1"
+		rot="0.0000 0.2609 0.0000 0.9654"
+		scale="0.440 0.440 0.440"
+		id="r2_crag_copped_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103606"
+		class="SgAnimatedModelNode"
+		org="1179.960 -4.528 7205.393"
+		orgRel="1"
+		rot="-0.0000 -1.0000 0.0044 0.0044"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103607"
+		class="SgAnimatedModelNode"
+		org="1382.557 -8.525 5130.343"
+		orgRel="1"
+		rot="0.0000 0.8290 0.0000 -0.5592"
+		scale="0.560 0.560 0.560"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103608"
+		class="SgAnimatedModelNode"
+		org="2219.315 -4.689 2997.831"
+		orgRel="1"
+		rot="0.0000 -0.8216 0.0000 -0.5700"
+		scale="0.700 0.700 0.700"
+		id="r2_crag_copped_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103609"
+		class="SgAnimatedModelNode"
+		org="6371.590 -17.267 1344.617"
+		orgRel="1"
+		rot="0.0000 0.8900 0.0000 -0.4559"
+		scale="1.400 1.400 1.400"
+		id="r2_crag_copped_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103610"
+		class="SgAnimatedModelNode"
+		org="6603.182 -5.114 1558.049"
+		orgRel="1"
+		rot="-0.0826 -0.8430 -0.1354 0.5140"
+		scale="0.940 0.940 0.940"
+		id="r2_crag_copped_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103611"
+		class="SgAnimatedModelNode"
+		org="7024.511 -16.499 1271.275"
+		orgRel="1"
+		rot="0.0000 0.1306 0.0000 0.9914"
+		scale="0.630 0.630 0.630"
+		id="r2_crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object267103612"
+		class="SgAnimatedModelNode"
+		org="5627.169 -9.591 2219.838"
+		orgRel="1"
+		rot="0.0000 -0.0087 0.0000 1.0000"
+		scale="0.940 0.940 0.940"
+		id="r2_crag_copped_6"
 		ndmAction="0" />
 </World>
