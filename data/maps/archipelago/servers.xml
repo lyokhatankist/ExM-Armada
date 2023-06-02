@@ -920,26 +920,6 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="big_crag_1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="big_crag_7" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="big_crag_8" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="big_crag_9" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="big_crag_11" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
 			id="bar1" 
 			file="data\models\AnimModels.xml"/>
 
@@ -1025,6 +1005,10 @@
 
 		<Item
 			id="rr_platform"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_big_cube"
 			file="data\models\AnimModels.xml" />
 
 		<Item
