@@ -3015,7 +3015,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		class="WeatherClear"
+		class="WeatherFoggy"
 		name="islands_clear"
 		skyDomeFactor="1.800"
 		waterSpeed="0.020"
@@ -3025,7 +3025,8 @@
 		waterWaveSizeSmall="2.080"
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
-		waterSpecularS="0.004">
+		waterSpecularS="0.004"
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="66.300 76.500 94.350"
 			dayColor="168.300 160.650 168.300"
@@ -3111,7 +3112,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="1.000">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="63.750 56.100 56.100"
 			dayColor="128.000 132.600 140.250"
@@ -3283,7 +3284,7 @@
 		waterCourseAngle="2.530"
 		waterSpecularM="200.000"
 		waterSpecularS="0.010"
-		reduceDistFactor="0.136"
+		reduceDistFactor="0.198"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="10"
@@ -3368,7 +3369,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		class="WeatherClear"
+		class="WeatherFoggy"
 		name="archipelago_clear"
 		skyDomeFactor="1.800"
 		waterSpeed="0.020"
@@ -3378,7 +3379,8 @@
 		waterWaveSizeSmall="2.080"
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
-		waterSpecularS="0.004">
+		waterSpecularS="0.004"
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="58.650 63.750 86.700"
 			dayColor="168.300 160.650 153.000"
@@ -3464,7 +3466,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="1.000">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="79.050 63.750 56.100"
 			dayColor="128.000 132.600 140.250"
