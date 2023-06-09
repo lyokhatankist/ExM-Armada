@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="point"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="cargo"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="box"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="conteiner"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_hero"
+			file="data\models\AnimModels.xml" />
+<!-- objects -->
+		<Item
+			id="exit"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			 id="cannonbullet"
+			 file="data\models\AnimModels.xml"/>
+
+<!-- dweller ragdoll -->
+		<Item
+			id="dweller"
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="dweller3" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- Segments -->
+		<Item 
+			id="segments01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_07" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="segments_big_08"
+			file="data\models\AnimModels.xml"/>
+
+<!-- For Effect -->
+		<Item 
+			id="barrel_debris" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="barrel_debris_1" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="brick_debris1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="brick_debris2" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="tankeg_dyn" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sack_debris" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="wood_debris1" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="wood_debris2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sedge_grass_3" 
+			file="data\models\AnimModels.xml"/>
+			
+<!-- goods -->
+		<Item 
+			id="back_exp" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="books" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bottles" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="detail" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="doski" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="kanistr" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="koroldrov" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lom" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mikro" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="potatoe" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rabochee_oborudovanie" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shkatulka_a" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="tobacco" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- gadgets -->
+		<Item 
+			id="gadget_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_04" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_05" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_06" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_07" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_08" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_09" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_10" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_11" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="gadget_12" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- guns -->
+		<Item 
+			id="rocket_sml01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rocket_long01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rockets" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="rockets_big01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_big_gun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_big_gun02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="plasma01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="laser01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="laser02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mine_01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="plasma_big01" 
+			file="data\models\AnimModels.xml"/>
+			
+<!-- vehicles -->
+		<Item 
+			id="torpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_sml" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_dest" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_lcru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_cru" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_bat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shell_hbat" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruise_missile01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sam_missile01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fakeChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliChassis" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliNurs01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliNurs01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliRockets01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliRockets01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage02gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliMachinegun02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliMachinegun02gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliRockets02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliRockets02gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="boatWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITNurs01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITNurs01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="smlboatCITMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDCannon01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDCannon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITArmanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fastboatCITMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="shipWheel" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="destroyerCITEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCITTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCITTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCIT130Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCIT138Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="single130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="single130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_single130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_single130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="single138CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="single138CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_single138CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_single138CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="destroyerCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCDTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCDTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCD127Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="destroyerCD135Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin127CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin127CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin127CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin127CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin135CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin135CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin135CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin135CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="cruiserCITEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCITTorpedo01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCITTorpedo01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA47mmCannon01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA47mmCannon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCIT152Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCIT155Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sponson130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="sponson130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin152CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin152CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin152CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin152CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple155CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple155CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple155CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple155CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="cruiserCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiserCD203Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin203CD01gun" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="cruiser_rocketCD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_rocketCD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_samCD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="cruiser_samCD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="battleshipCITEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA23mmGun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA23mmGun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT406Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT380Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCIT457Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quadruple380CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="quadruple380CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_quadruple380CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_quadruple380CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple457CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple457CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple457CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple457CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin130CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="battleshipCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCD356Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="battleshipCD406Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin356CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin356CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple406CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CD01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple406CD01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="merchantCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="merchantCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="shipbarrier" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="buoy" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dtree1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dtree2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dtree3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="r2_dub3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bar1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="bar2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="house3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="townhall" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="workshop1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="workshop2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="fishman3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse1_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse2_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse3_skin" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse4" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse5" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="civilhouse6" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse1" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse2" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="petrolhouse3" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="rr_lamp"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rr_platform"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="quay_big_cube"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="windmil"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="maize"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="concrete_ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="berth"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="agro_tech4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_abk"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_prom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ore_mine_tower"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="angar2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="ruins7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="prom_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_4"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_5"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_6"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_7"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_crag_copped_8"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_sedge_grass2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="boevoy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="esmin"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kater"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="minonos"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="shlupka"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="hoisting_structure_2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust1_r2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub_kust2_r2"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<StaticModelsServer />
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer>
+<!-- Battleship -->
+<!--
+		<Item id="S_EXPLDIST01" />
+		<Item id="S_EXPLDIST03" />
+		<Item id="S_EXPLDIST05" />
+		<Item id="S_EXPLDIST08" />
+-->
+		<Item id="S_ENGINE_FAKE_HIGH" />
+		<Item id="S_HELI" />
+		<Item id="S_HELI01" />
+		<Item id="S_HELI02" />
+		
+		<Item id="S_ENGINE_SMLBOAT" />
+		<Item id="S_ENGINE_BOAT" />
+		<Item id="S_ENGINE_SMLSHIP" />
+		<Item id="S_ENGINE_BIGSHIP" />
+		<Item id="S_ENGINE_SMLWHEELED" />
+		
+		<Item id="S_TORPEDOTUBE" />
+
+<!-- Vanilla -->
+
+		<Item id="S_CRASH_METAL01" />
+		<Item id="S_CRASH_METAL02" />
+		<Item id="S_CRASH_METAL03" />
+		<Item id="S_CRASH_METAL04" />
+		
+		<Item id="S_CRASH_TREE01" />
+		<Item id="S_CRASH_TREE02" />
+		<Item id="S_CRASH_TREE03" />
+		<Item id="S_CRASH_TREE04" />
+		<Item id="S_CRASH_TREE05" />
+		<Item id="S_TREEVEHICLECRASH"/>
+
+		<Item id="S_WOODVEHICLEHIT1"/>
+		<Item id="S_WOODVEHICLEHIT2"/>
+		<Item id="S_WOODVEHICLEHIT3"/>
+		<Item id="S_WOODVEHICLECRASH" />
+
+		<Item id="S_BRICKVEHICLEHIT01" />
+		<Item id="S_BRICKVEHICLEHIT02" />
+		<Item id="S_BRICKVEHICLEHIT03"/>
+
+		<Item id="S_SACKVEHICLEHIT" />
+		<Item id="S_SACKVEHICLEHIT02"/>
+
+		<Item id="S_VEHICLESPARKLE" />
+		<Item id="S_VEHICLESPARKLE_SLOW" />
+		<Item id="S_VEHICLEONGROUND" />
+		<Item id="S_VEHICLEONGROUND_SLOW" />
+		<Item id="S_STATICSSPARKLE" />
+		<Item id="S_STATICSSPARKLE_SLOW" />
+
+		<Item id="S_CARJUMP"/>
+
+		<Item id="S_DRIFT01"/>
+		<Item id="S_BRAKE"/>
+		<Item id="S_CAR_BURNING_SMALL"/>
+		<Item id="S_CAR_BURNING"/>
+
+		<Item id="S_MAN_DEATH01"/>
+		<Item id="S_MAN_DEATH02"/>
+		<Item id="S_MAN_SCREAM1"/>
+		<Item id="S_MAN_SCREAM2"/>
+
+<!-- Missiles --> 
+<!--
+		<Item id="S_MISSILE1" />
+		<Item id="S_MISSILE2" />
+-->
+<!-- Shooting --> 
+
+		<Item id="S_SHOOTING_PKT" />
+		<Item id="S_SHOOTING_VECTOR" />
+		<Item id="S_SHOOTING_KORD" />
+		<Item id="S_SHOOTING_STORM" />
+		<Item id="S_SHOOTING_VULCAN" />
+		<Item id="S_SHOOTING_KPVT" />
+		<Item id="S_SHOOTING_OCTOPUS" />
+		<Item id="S_SHOOTING_RAPIER" />
+		<Item id="S_SHOOTING_RAINMETAL" />
+		<Item id="S_SHOOTING_HURRICANE" />
+		<Item id="S_SHOOTING_BUMBLEBEE" />
+		<Item id="S_SHOOTING_OMEGA" />
+		<Item id="S_SHOOTING_FLAG" />
+		<Item id="S_SHOOTING_CYCLOPS" />
+		<Item id="S_SHOOTING_SWINGFIRE" />
+		<Item id="S_SHOOTING_DRAGON" />
+		<Item id="S_SHOOTING_HAIL" />
+		<Item id="S_SHOOTING_MRAK" />
+		<Item id="S_SHOOTING_ROBOTGUN_01"/>
+		<Item id="S_TANK_SHOOT" />
+		<Item id="S_SHOOTING_HAMMER" />
+
+		<Item id="S_SHOOTING_CRUISERSAM" />
+
+<!-- Explosions --> 
+
+		<Item id="S_EXPLOSION04" />
+
+<!-- Horns -->
+
+		<Item id="S_HORN01" />
+		<Item id="S_HORN02" />
+		<Item id="S_HORN03" />
+		<Item id="S_HORN04" />
+		<Item id="S_HORN05" />
+		<Item id="S_HORN06" />
+		<Item id="S_HORN07" />
+		<Item id="S_HORN08" />
+
+<!-- Weather -->
+
+		<Item id="S_THUNDER" />
+		<Item id="S_RAIN" />
+
+<!-- Starting -->
+
+		<Item id="S_MISSILE_FLAME" />
+		<Item id="S_CRUISEMISSILE_FLAME" />
+
+<!-- Machinegun shoothits -->
+
+		<Item id="S_STATIC07" />
+		<Item id="S_WATER02" />
+		<Item id="S_ROAD04" />
+		<Item id="S_ROCK05" />
+		<Item id="S_GROUND06" />
+		<Item id="S_SAND03" />
+		<Item id="S_GRASS01" />
+		<Item id="S_ROCK04" />
+		<Item id="S_BULLET04" />
+		<Item id="S_SAND04" />
+		<Item id="S_WOOD05" />
+
+		<Item id="S_VEH_HIT_BULLET01"/>
+		<Item id="S_VEH_HIT_BULLET02"/>
+		<Item id="S_VEH_HIT_BULLET03"/>
+		<Item id="S_VEH_HIT_BULLET04"/>
+		<Item id="S_VEH_HIT_BULLET05"/>
+		<Item id="S_VEH_HIT_BULLET06"/>
+		<Item id="S_VEH_HIT_BULLET07"/>
+		<Item id="S_VEH_HIT_BULLET08"/>
+		<Item id="S_VEH_HIT_BULLET09"/>
+		<Item id="S_VEH_HIT_BULLET10"/>
+		<Item id="S_VEH_HIT_BULLET11"/>
+		<Item id="S_VEH_HIT_BULLET12"/>
+		<Item id="S_VEH_HIT_BULLET13"/>
+
+<!-- Cannon shoothits -->
+
+		<Item id="S_WATER_EXPL" />
+		<Item id="S_STATIC_EXPL" />
+		<Item id="S_CAR_EXPL" />
+		<Item id="S_ROAD_EXPL" />
+		<Item id="S_ROCK_EXPL" />
+		<Item id="S_SAND_EXPL" />
+		<Item id="S_GROUND_EXPL" />
+		<Item id="S_WOOD_EXPL" />
+
+<!-- Autocannon shoothits -->
+
+		<Item id="S_WATER_AC" />
+		<Item id="S_STATIC_AC" />
+		<Item id="S_CAR_AC" />
+		<Item id="S_ROAD_AC" />
+		<Item id="S_ROCK_AC" />
+		<Item id="S_GROUND_AC" />
+		<Item id="S_SAND_AC" />
+		<Item id="S_WOOD_AC" />
+
+<!-- Grenade shoothits -->
+
+		<Item id="S_WATER_GR" />
+		<Item id="S_STATIC_GR" />
+		<Item id="S_CAR_GR" />
+		<Item id="S_ROAD_GR" />
+		<Item id="S_ROCK_GR" />
+		<Item id="S_GROUND_GR" />
+		<Item id="S_SAND_GR" />
+		<Item id="S_WOOD_GR" />
+
+<!-- Laser shoothits -->
+
+		<Item id="S_WATER_LAS" />
+		<Item id="S_STATIC_LAS" />
+		<Item id="S_CAR_LAS" />
+		<Item id="S_ROCK_LAS" />
+		<Item id="S_GROUND_LAS" />
+		<Item id="S_SAND_LAS" />
+
+<!-- Plasma shoothits -->
+
+		<Item id="S_PLAZMA01" />
+		<Item id="S_PLAZMA02" />
+		<Item id="S_PLAZMA03" />
+		<Item id="S_PLAZMA04" />
+
+<!-- Big cannon shoothits -->
+
+		<Item id="S_WATER_BL" />
+		<Item id="S_STATIC_BL" />
+		<Item id="S_CAR_BL" />
+		<Item id="S_ROCK_BL" />
+		<Item id="S_GROUND_BL" />
+		<Item id="S_SAND_BL" />
+		<Item id="S_WOOD_BL" />
+
+<!-- Environment -->
+
+		<Item id="S_SEA" />
+		<Item id="S_WIND_GRASS" />
+		<Item id="S_MARSH" />
+		<Item id="S_MOUNT" />
+		<Item id="S_LAKE" />
+
+		<Item id="S_FOREST" />
+		<Item id="S_DESERT" />
+		<Item id="S_JUNGLE" />
+
+		<Item id="S_OIL_FIELD" />
+		<Item id="S_VILLAGE01" />
+		<Item id="S_VILLAGE_BURNING01" />
+
+		<Item id="S_RECHARGE_WEAPON"/>
+	</SoundsServer>
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

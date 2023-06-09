@@ -6,7 +6,7 @@
 			name="WEATHERDETAIL">WeatherDetail.xml</Key>
 
 		<Key
-			name="WEATHERTYPE">sea_clear</Key>
+			name="WEATHERTYPE">archipelago_clear</Key>
 
 		<Key
 			name="CURRENTDAYTIME">0</Key>
@@ -75,7 +75,7 @@
 			name="REFRACTIONTINT">0 0 0</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">11.000</Key>
+			name="SKYDOMEDIVIDER">5.250</Key>
 
 		<Key
 			name="WATERSMALLTEX">WaterSm.tga</Key>
@@ -189,16 +189,16 @@
 			name="SUN_AZIMUTH_SPEED">0.000</Key>
 
 		<Key
-			name="SUN_AZIMUTH">45.000</Key>
+			name="SUN_AZIMUTH">10.000</Key>
 
 		<Key
 			name="SUN_DAY_ASCENTION">90.000</Key>
 
 		<Key
-			name="SUN_RISE_ASCENTION">53.000</Key>
+			name="SUN_RISE_ASCENTION">30.000</Key>
 
 		<Key
-			name="SUN_SET_ASCENTION">127.000</Key>
+			name="SUN_SET_ASCENTION">125.000</Key>
 
 		<Key
 			name="TILES">level.tile</Key>
