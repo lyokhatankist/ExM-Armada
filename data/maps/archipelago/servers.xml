@@ -919,104 +919,8 @@
 			id="r2_dub3" 
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bar1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="bar2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="house1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="house2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="house3" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="townhall" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="workshop1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="workshop2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="fishman1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="fishman2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="fishman3" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse1_skin" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse2_skin" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse3_skin" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse4" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse5" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="civilhouse6" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="petrolhouse1" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="petrolhouse2" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="petrolhouse3" 
-			file="data\models\AnimModels.xml"/>
-
 		<Item
 			id="rr_lamp"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="rr_platform"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="quay_big_cube"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="windmil"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="maize"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1028,10 +932,6 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="concrete_ruins3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="concrete_ruins4"
 			file="data\models\AnimModels.xml" />
 
@@ -1040,31 +940,11 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="agro_tech1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="agro_tech2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="agro_tech3"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="agro_tech4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ore_mine_abk"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ore_mine_prom"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ore_mine_tower"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1101,14 +981,6 @@
 
 		<Item
 			id="ruins7"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="prom_1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="prom_2"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -1156,10 +1028,6 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="esmin"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="kater"
 			file="data\models\AnimModels.xml" />
 
@@ -1169,14 +1037,6 @@
 
 		<Item
 			id="shlupka"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="hoisting_structure_1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="hoisting_structure_2"
 			file="data\models\AnimModels.xml" />
 
 		<Item

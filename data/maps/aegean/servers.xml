@@ -1020,22 +1020,6 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="concrete_ruins1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="concrete_ruins2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="concrete_ruins3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="concrete_ruins4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="berth"
 			file="data\models\AnimModels.xml" />
 
@@ -1076,43 +1060,11 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="ruins1"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins3"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins4"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins5"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins6"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="ruins7"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="prom_1"
 			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="prom_2"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="prom_3"
 			file="data\models\AnimModels.xml" />
 
 		<Item
