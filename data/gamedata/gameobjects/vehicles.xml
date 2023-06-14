@@ -422,8 +422,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "19.17"
 
 		PressingForce		= "1.0"
-		MassSize			= "4 4.5 30"
-		MassTranslation		= "0.0 -100.0 0.0"
+		MassSize			= "100 10 400"
+		MassTranslation		= "0.0 -5.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "600.0"
@@ -482,18 +482,18 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraMaxDist		= "60"
 
 		DiffRatio			= "15.0"
-		MaxEngineRpm		= "3500"
-		LowGearShiftLimit	= "1900"
-		HighGearShiftLimit	= "2800"
-		SteeringSpeed		= "0.3"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "4500"
+		SteeringSpeed		= "0.1"
 		DriftCoeff			= "0.01"
 		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.1"
 
-		PressingForce		= "1.0"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.1"
+		MassSize			= "350 30 70"
+		MassTranslation		= "0.0 -60.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "750.0"
@@ -596,10 +596,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "SemibossCIT01"
 		ParentPrototype 		= "DestroyerCIT"
 		LookRadius				= "1400.0"
-		MaxEngineRpm			= "5250"
-		LowGearShiftLimit		= "2850"
-		HighGearShiftLimit		= "4200"
-		SteeringSpeed			= "0.5"
+		MaxEngineRpm			= "7500"
+		LowGearShiftLimit		= "3000"
+		HighGearShiftLimit		= "6750"
+		SteeringSpeed			= "0.4"
 		DriftCoeff				= "0.01"
 		PressingForce			= "1.5"
 		VisibleInEncyclopedia	= "false">
@@ -630,18 +630,18 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraMaxDist		= "70"
 
 		DiffRatio			= "15.0"
-		MaxEngineRpm		= "3500"
-		LowGearShiftLimit	= "1900"
-		HighGearShiftLimit	= "2800"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "2000"
+		HighGearShiftLimit	= "4500"
 		SteeringSpeed		= "0.1"
 		DriftCoeff			= "0.01"
 		SelfBrakingCoeff	= "0.000000001"
 
 		AdditionalWheelsHover = "18.1"
 
-		PressingForce		= "1.0"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.1"
+		MassSize			= "500 30 70"
+		MassTranslation		= "0.0 -60.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "700.0"
@@ -761,9 +761,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		AdditionalWheelsHover = "18"
 
-		PressingForce		= "1.0"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.1"
+		MassSize			= "500 15 80"
+		MassTranslation		= "0.0 -65.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -869,7 +869,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "triple155CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "triple155CIT01" />
-			<Part id = "CABIN"						Prototype = "cruiserCITEngine" />
+			<Part id = "CABIN"						Prototype = "cruiserCITEngineMod" />
 			<Part id = "BASKET"						Prototype = "cruiserCIT155Armanent" />
 			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "cruiserCITTorpedo01" />
 			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "cruiserCITTorpedo01" />
@@ -910,9 +910,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		AdditionalWheelsHover = "18.2"
 
-		PressingForce		= "1.0"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.01"
+		MassSize			= "500 20 130"
+		MassTranslation		= "0.0 -70.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -964,9 +964,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" steering = "inverse"	/>
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 		</Wheels>
 	</Prototype>
@@ -1058,9 +1058,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		AdditionalWheelsHover = "17.9"
 
-		PressingForce		= "0.5"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.01"
+		MassSize			= "600 30 300"
+		MassTranslation		= "0.0 -85.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -1315,9 +1315,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		AdditionalWheelsHover = "18.2"
 
-		PressingForce		= "0.5"
-		MassSize			= "5 5 5"
-		MassTranslation		= "0.0 -15.0 0.0"
+		PressingForce		= "0.01"
+		MassSize			= "600 25 200"
+		MassTranslation		= "0.0 -80.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
 		LookRadius			= "650.0"
@@ -1374,8 +1374,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Wheels>
 			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" />
-			<Wheel Prototype = "shipWheel" steering = "inverse" />
-			<Wheel Prototype = "shipWheel" steering = "inverse" />
+			<Wheel Prototype = "shipWheel" />
+			<Wheel Prototype = "shipWheel" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 			<Wheel Prototype = "shipWheel" steering = "inverse" />
 		</Wheels>

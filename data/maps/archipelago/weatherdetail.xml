@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Weather>
 	<WeatherItem
-		name="islands_clear">
+		name="archipelago_clear">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
@@ -24,7 +24,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		name="islands_cloudy">
+		name="archipelago_cloudy">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
@@ -47,7 +47,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		name="islands_foggy">
+		name="archipelago_foggy">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"
@@ -70,7 +70,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		name="islands_storm">
+		name="archipelago_storm">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_archipelago.dds"

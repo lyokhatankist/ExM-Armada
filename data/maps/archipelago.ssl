@@ -6,10 +6,10 @@
 			name="WEATHERDETAIL">WeatherDetail.xml</Key>
 
 		<Key
-			name="WEATHERTYPE">islands_clear</Key>
+			name="WEATHERTYPE">archipelago_clear</Key>
 
 		<Key
-			name="CURRENTDAYTIME">3</Key>
+			name="CURRENTDAYTIME">0</Key>
 
 		<Key
 			name="PATH">data\maps\archipelago</Key>
@@ -75,7 +75,7 @@
 			name="REFRACTIONTINT">0 0 0</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">5.750</Key>
+			name="SKYDOMEDIVIDER">5.250</Key>
 
 		<Key
 			name="WATERSMALLTEX">WaterSm.tga</Key>
@@ -93,10 +93,10 @@
 			name="WATERABSBLUE">0.000</Key>
 
 		<Key
-			name="MINSAFEX">40.0</Key>
+			name="MINSAFEX">40.000</Key>
 
 		<Key
-			name="MINSAFEY">40.0</Key>
+			name="MINSAFEY">40.000</Key>
 
 		<Key
 			name="MAXSAFEX">8152.000</Key>
@@ -147,14 +147,8 @@
 			name="DLGSTRINGS">strings.xml</Key>
 
 		<Key
-			name="LOCALQUESTS"></Key>
-
-		<Key
-			name="LOCALQUESTINFO"></Key>
-
-		<Key
-			name="LOCALDIALOGS"></Key>
-
+			name="ICONS">icons.xml</Key>
+			
 		<Key
 			name="SKYTYPE">1</Key>
 
@@ -213,19 +207,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">6230.912</Key>
+			name="X">1893.978</Key>
 
 		<Key
-			name="Y">374.359</Key>
+			name="Y">288.397</Key>
 
 		<Key
-			name="Z">4707.627</Key>
+			name="Z">1929.928</Key>
 
 		<Key
-			name="A">-376.256</Key>
+			name="A">37.900</Key>
 
 		<Key
-			name="B">-0.299</Key>
+			name="B">-0.064</Key>
 
 		<Key
 			name="G">0.000</Key>

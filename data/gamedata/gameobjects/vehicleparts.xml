@@ -481,7 +481,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "10 50 5"
 			MaxPower					= "1200"
-			MaxTorque					= "750"
+			MaxTorque					= "450"
 			MaxSpeed					= "52.0"
 			Price						= "1500"
 
@@ -513,7 +513,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "10 50 5"
 			MaxPower					= "1200"
-			MaxTorque					= "800"
+			MaxTorque					= "550"
 			MaxSpeed					= "62.0"
 			Price						= "1500"
 
@@ -609,7 +609,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "10 50 15"
 			MaxPower					= "1200"
-			MaxTorque					= "570"
+			MaxTorque					= "270"
 			MaxSpeed					= "38.0"
 			Price						= "1500"
 
@@ -641,7 +641,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "10 50 15"
 			MaxPower					= "1200"
-			MaxTorque					= "610"
+			MaxTorque					= "425"
 			MaxSpeed					= "46.0"
 			Price						= "1500"
 
@@ -673,8 +673,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "10 50 15"
 			MaxPower					= "1200"
-			MaxTorque					= "870"
-			MaxSpeed					= "33.0"
+			MaxTorque					= "250"
+			MaxSpeed					= "30.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_BIGSHIP"
@@ -705,8 +705,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "0 50 25"
 			MaxPower					= "2500"
-			MaxTorque					= "1200"
-			MaxSpeed					= "19.0"
+			MaxTorque					= "100"
+			MaxSpeed					= "18.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_BIGSHIP"
@@ -737,8 +737,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "0"
 			DurCoeffsForDamageTypes		= "5 50 15"
 			MaxPower					= "1700"
-			MaxTorque					= "960"
-			MaxSpeed					= "29.0"
+			MaxTorque					= "100"
+			MaxSpeed					= "24.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_BIGSHIP"
