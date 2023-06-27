@@ -168,9 +168,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Chassis"
-			Name			= "cruiserCITHull"
-			ModelFile		= "cruiserCITHull"
-			ResourceType	= "CRUISERCIT_CHASSIS"
+			Name			= "ocruiserCITHull"
+			ModelFile		= "ocruiserCITHull"
+			ResourceType	= "OCRUISERCIT_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "625.0" 			
 			MaxHealth		= "2000" 
@@ -188,9 +188,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Chassis"
-			Name			= "cruiserCDHull"
-			ModelFile		= "cruiserCDHull"
-			ResourceType	= "CRUISERCD_CHASSIS"
+			Name			= "hcruiserCDHull"
+			ModelFile		= "hcruiserCDHull"
+			ResourceType	= "HCRUISERCD_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "1300.0" 			
 			MaxHealth		= "4000" 
@@ -209,8 +209,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class			= "Chassis"
 			Name			= "semibossCDHull"
-			ModelFile		= "cruiserCDHull"
-			ResourceType	= "CRUISERCD_CHASSIS"
+			ModelFile		= "hcruiserCDHull"
+			ResourceType	= "HCRUISERCD_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "1500.0" 			
 			MaxHealth		= "5500" 
@@ -598,9 +598,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
-			Name						= "cruiserCITEngine"
-			ModelFile					= "cruiserCITEngine"
-			ResourceType				= "CRUISERCIT_CABIN"
+			Name						= "ocruiserCITEngine"
+			ModelFile					= "ocruiserCITEngine"
+			ResourceType				= "OCRUISERCIT_CABIN"
 			NodeScale					= "1 1 1"
 
 			FuelConsumption		= "0.05"
@@ -630,9 +630,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
-			Name						= "cruiserCITEngineMod"
-			ModelFile					= "cruiserCITEngine"
-			ResourceType				= "CRUISERCIT_CABIN"
+			Name						= "ocruiserCITEngineMod"
+			ModelFile					= "ocruiserCITEngine"
+			ResourceType				= "OCRUISERCIT_CABIN"
 			NodeScale					= "1 1 1"
 
 			FuelConsumption		= "0.05"
@@ -662,9 +662,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
-			Name						= "cruiserCDEngine"
-			ModelFile					= "cruiserCDEngine"
-			ResourceType				= "CRUISERCD_CABIN"
+			Name						= "hcruiserCDEngine"
+			ModelFile					= "hcruiserCDEngine"
+			ResourceType				= "HCRUISERCD_CABIN"
 			NodeScale					= "1 1 1"
 
 			FuelConsumption		= "0.05"
@@ -1275,9 +1275,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "cruiserCIT152Armanent"
-			ModelFile					= "cruiserCIT152Armanent"
-			ResourceType				= "CRUISERCIT_BASKET"
+			Name						= "ocruiserCIT152Armanent"
+			ModelFile					= "ocruiserCIT152Armanent"
+			ResourceType				= "OCRUISERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "50.0" 
@@ -1352,9 +1352,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "cruiserCIT155Armanent"
-			ModelFile					= "cruiserCIT155Armanent"
-			ResourceType				= "CRUISERCIT_BASKET"
+			Name						= "ocruiserCIT155Armanent"
+			ModelFile					= "ocruiserCIT155Armanent"
+			ResourceType				= "OCRUISERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "50.0" 
@@ -1429,9 +1429,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "cruiserCD203Armanent"
-			ModelFile					= "cruiserCD203Armanent"
-			ResourceType				= "CRUISERCD_BASKET"
+			Name						= "hcruiserCD203Armanent"
+			ModelFile					= "hcruiserCD203Armanent"
+			ResourceType				= "HCRUISERCD_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "100.0" 
@@ -1522,8 +1522,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class						= "Basket"
 			Name						= "semibossCDRocketArmanent"
-			ModelFile					= "cruiserCD203Armanent"
-			ResourceType				= "CRUISERCD_BASKET"
+			ModelFile					= "hcruiserCD203Armanent"
+			ResourceType				= "HCRUISERCD_BASKET"
 			NodeScale					= "1 1 1"
 
 			Mass						= "100.0" 
@@ -2558,9 +2558,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
-			Name						= "cruiserCITEngineForEncyclopaedia"
-			ModelFile					= "cruiserCITHull"
-			ResourceType				= "CRUISERCIT_CABIN"
+			Name						= "ocruiserCITEngineForEncyclopaedia"
+			ModelFile					= "ocruiserCITHull"
+			ResourceType				= "OCRUISERCIT_CABIN"
 			NodeScale					= "1 1 1"
 
 			Mass						= "5.0"
@@ -2581,9 +2581,9 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Cabin"
-			Name						= "cruiserCDEngineForEncyclopaedia"
-			ModelFile					= "cruiserCDHull"
-			ResourceType				= "CRUISERCD_CABIN"
+			Name						= "hcruiserCDEngineForEncyclopaedia"
+			ModelFile					= "hcruiserCDHull"
+			ResourceType				= "HCRUISERCD_CABIN"
 			NodeScale					= "1 1 1"
 
 			Mass						= "5.0"

@@ -688,16 +688,16 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-<!-- |||||||||||||||| CIT Cruiser |||||||||||||||| -->
+<!-- |||||||||||||||| CIT Old Cruiser |||||||||||||||| -->
 
 
 
 <!-- range - 900 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
-		Name			= "cruiserCITTorpedo01"
-		ModelFile		= "cruiserCITTorpedo01"
-		ResourceType	= "CRUISERCITTORPEDO_GUN"
+		Name			= "ocruiserCITTorpedo01"
+		ModelFile		= "ocruiserCITTorpedo01"
+		ResourceType	= "OCRUISERCITTORPEDO_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
 		FiringEffect	= "none"
@@ -952,16 +952,139 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-<!-- |||||||||||||||| CD Cruiser |||||||||||||||| -->
+<!-- |||||||||||||||| CIT Heavy Cruiser |||||||||||||||| -->
+
+
+
+<!-- TRIPLE 152 MM CIT CRUISER GUN -->
+
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "triple152CIT01"
+		ModelFile		= "triple152CIT01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		BulletPrototype		= "152mmCITshell2"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "155mmBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "1000"
+		ActionDist		= "1100"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "26"
+		Durability		= "16"
+		Price			= "13310" />
+
+	<Prototype
+		Class					= "MortarShell"
+		Name					= "152mmCITshell2"
+		ModelFile				= "shell_lcru"
+		ExplosionType			= "GRENADE"
+
+		Price			= "40"
+
+		FlyTime			= "8"
+		Size			= "0.5 0.5 1"
+	/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple152CIT01"
+		ModelFile		= "mun_triple152CIT01"
+		ResourceType	= "TRIPLE152MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "152mmCITshell2"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "155mmBlastWave"
+
+		Damage			= "200"
+		FiringRate		= "275"
+		ChargeSize		= "3"
+		RechargingTime	= "11"
+
+		FiringRange		= "1000"
+		ActionDist		= "1100"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "26"
+		Durability		= "16"
+		Price			= "13310" />
+
+<!-- coastal artillery -->
+ <Prototype
+		Class			= "Mortar"
+		Name			= "dot_triple152CIT01"
+		ModelFile		= "triple152CIT01"
+		ResourceType	= "UNIQUE_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "152mmCITshell2"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "155mmBlastWave"
+
+		Damage			= "250"
+		FiringRate		= "275"
+		ChargeSize		= "3"
+		RechargingTime	= "9"
+
+		FiringRange		= "1000"
+		ActionDist		= "1100"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "26"
+		Durability		= "16"
+		Price			= "13310" />
+
+
+
+
+<!-- |||||||||||||||| CD Heavy Cruiser |||||||||||||||| -->
 
 
 
 <!-- range - 770 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
-		Name			= "cruiserCDTorpedo01"
+		Name			= "hcruiserCDTorpedo01"
 		ModelFile		= "destroyerCDTorpedo01"
-		ResourceType	= "CRUISERCDTORPEDO_GUN"
+		ResourceType	= "HCRUISERCDTORPEDO_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
 		FiringEffect	= "none"
@@ -1044,7 +1167,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		GroupingAngle	= "2.5"
 
 		TurningSpeed	= "28"
-		Durability		= "11"
+		Durability		= "14"
 		Price			= "13310" />
 
 	<Prototype
@@ -1093,6 +1216,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "14"
 		Price			= "13310" />
 
+<!-- coastal artillery -->
+	<Prototype
+		Class			= "Mortar"
+		Name			= "dot_twin203CD01"
+		ModelFile		= "twin203CD01"
+		ResourceType	= "UNIQUE_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "GRENADE"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "108"
+		BlastWavePrototype	= "203mmBlastWave"
+
+		Damage			= "400"
+		FiringRate		= "190"
+		ChargeSize		= "2"
+		RechargingTime	= "10"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "28"
+		Durability		= "14"
+		Price			= "13310" />
 
 <!-- CD CRUISER CRUISE MISSILE LAUNCHER -->
 
@@ -1101,7 +1258,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "RocketVolleyLauncher"
 		Name			= "cruiser_rocketCD01"
 		ModelFile		= "cruiser_rocketCD01"
-		ResourceType	= "CRUISERCDROCKET_GUN"
+		ResourceType	= "HCRUISERCDROCKET_GUN"
 		NodeScale		= "1 1 1"
 		Mass			= "1.0"
 		FiringEffect	= "none"

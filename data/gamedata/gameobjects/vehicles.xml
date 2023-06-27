@@ -745,7 +745,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class				= "Vehicle"
-		Name				= "CruiserCIT"
+		Name				= "OCruiserCIT"
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "12"
@@ -778,17 +778,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		Abstract 			= "true" >
 
-		<MainPartDescription	id = "CHASSIS"					partResourceType = "CRUISERCIT_CHASSIS">
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "OCRUISERCIT_CHASSIS">
 			<PartDescription	id = "CHASSIS_TURRET_GUN_5"		partResourceType = "SMALL_GUN"			lpName = "LP_SML05" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_6"		partResourceType = "SMALL_GUN"			lpName = "LP_SML06" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_7"		partResourceType = "SMALL_GUN"			lpName = "LP_SML07" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_8"		partResourceType = "SMALL_GUN"			lpName = "LP_SML08" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_9"		partResourceType = "SMALL_GUN"			lpName = "LP_BIG01" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_10"	partResourceType = "SMALL_GUN"			lpName = "LP_BIG02" />
-			<PartDescription	id = "CABIN"					partResourceType = "CRUISERCIT_CABIN"	lpName = "LP_CAB01" />	
-			<PartDescription	id = "BASKET"					partResourceType = "CRUISERCIT_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_GIANT_GUN_1"		partResourceType = "CRUISERCITTORPEDO_GUN"	lpName = "LP_SIDE01L" />
-				<PartDescription	id = "BASKET_SIDE_GUN_1"		partResourceType = "CRUISERCITTORPEDO_GUN"	lpName = "LP_SIDE01R" />
+			<PartDescription	id = "CABIN"					partResourceType = "OCRUISERCIT_CABIN"	lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "OCRUISERCIT_BASKET"	lpName = "LP_CAB01" >
+				<PartDescription	id = "BASKET_GIANT_GUN_1"		partResourceType = "OCRUISERCITTORPEDO_GUN"	lpName = "LP_SIDE01L" />
+				<PartDescription	id = "BASKET_SIDE_GUN_1"		partResourceType = "OCRUISERCITTORPEDO_GUN"	lpName = "LP_SIDE01R" />
 				<PartDescription	id = "BASKET_BIG_GUN_0"			partResourceType = "TWIN152MMCIT_GUN"		lpName = "LP_BIG01" />
 				<PartDescription	id = "BASKET_BIG_GUN_1"			partResourceType = "TWIN152MMCIT_GUN"		lpName = "LP_BIG02" />
 				<PartDescription	id = "BASKET_BIG_GUN_2"			partResourceType = "TRIPLE155MMCIT_GUN"		lpName = "LP_BIG03" />
@@ -810,7 +810,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</MainPartDescription>
 
 		<Parts>
-			<Part id = "CHASSIS" Prototype = "cruiserCITHull" />
+			<Part id = "CHASSIS" Prototype = "ocruiserCITHull" />
 		</Parts>
 
 		<Wheels>
@@ -825,8 +825,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "CruiserCIT01"
-		ParentPrototype 		= "CruiserCIT"
+		Name					= "OCruiserCIT01"
+		ParentPrototype 		= "OCruiserCIT"
 		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -836,8 +836,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "twin152CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "twin152CIT01" />
-			<Part id = "CABIN"						Prototype = "cruiserCITEngine" />
-			<Part id = "BASKET"						Prototype = "cruiserCIT152Armanent" />
+			<Part id = "CABIN"						Prototype = "ocruiserCITEngine" />
+			<Part id = "BASKET"						Prototype = "ocruiserCIT152Armanent" />
 			<Part id = "BASKET_BIG_GUN_0"			Prototype = "mun_twin152CIT01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin152CIT01" />
 			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "sponson130CIT01" />
@@ -858,8 +858,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "CruiserCIT02"
-		ParentPrototype 		= "CruiserCIT"
+		Name					= "OCruiserCIT02"
+		ParentPrototype 		= "OCruiserCIT"
 		LookRadius				= "850.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -869,10 +869,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "single130CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_9"		Prototype = "triple155CIT01" />
 			<Part id = "CHASSIS_TURRET_GUN_10"		Prototype = "triple155CIT01" />
-			<Part id = "CABIN"						Prototype = "cruiserCITEngineMod" />
-			<Part id = "BASKET"						Prototype = "cruiserCIT155Armanent" />
-			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "cruiserCITTorpedo01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "cruiserCITTorpedo01" />
+			<Part id = "CABIN"						Prototype = "ocruiserCITEngineMod" />
+			<Part id = "BASKET"						Prototype = "ocruiserCIT155Armanent" />
+			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "ocruiserCITTorpedo01" />
+			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "ocruiserCITTorpedo01" />
 			<Part id = "BASKET_BIG_GUN_2"			Prototype = "mun_triple155CIT01" />
 			<Part id = "BASKET_BIG_GUN_3"			Prototype = "mun_triple155CIT01" />
 			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "sponson130CIT01" />
@@ -894,7 +894,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	
 	<Prototype
 		Class				= "Vehicle"
-		Name				= "CruiserCD"
+		Name				= "HCruiserCD"
 		ResourceType		= "VEHICLE"
 
 		CameraHeight		= "15"
@@ -927,19 +927,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 		Abstract 			= "true" >
 
-		<MainPartDescription	id = "CHASSIS"					partResourceType = "CRUISERCD_CHASSIS">
-			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "CRUISERCDROCKET_GUN"	lpName = "LP_CANNON01" />
-			<PartDescription	id = "CHASSIS_SMALL_GUN_2"		partResourceType = "CRUISERCDROCKET_GUN"	lpName = "LP_CANNON02" />
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "HCRUISERCD_CHASSIS">
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "HCRUISERCDROCKET_GUN"	lpName = "LP_CANNON01" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_2"		partResourceType = "HCRUISERCDROCKET_GUN"	lpName = "LP_CANNON02" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_1"		partResourceType = "BIG_GUN"				lpName = "LP_BIG01" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_2"		partResourceType = "BIG_GUN"				lpName = "LP_BIG02" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_3"		partResourceType = "BIG_GUN"				lpName = "LP_BIG03" />
 			<PartDescription	id = "CHASSIS_TURRET_GUN_4"		partResourceType = "BIG_GUN"				lpName = "LP_BIG04" />
-			<PartDescription	id = "CHASSIS_GIANT_GUN_1"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01L" />
-			<PartDescription	id = "CHASSIS_SIDE_GUN_1"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01R" />
-			<PartDescription	id = "CHASSIS_GIANT_GUN_2"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02L" />
-			<PartDescription	id = "CHASSIS_SIDE_GUN_2"		partResourceType = "CRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02R" />
-			<PartDescription	id = "CABIN"					partResourceType = "CRUISERCD_CABIN"		lpName = "LP_CAB01" />	
-			<PartDescription	id = "BASKET"					partResourceType = "CRUISERCD_BASKET"		lpName = "LP_CAB01" >
+			<PartDescription	id = "CHASSIS_GIANT_GUN_1"		partResourceType = "HCRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01L" />
+			<PartDescription	id = "CHASSIS_SIDE_GUN_1"		partResourceType = "HCRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE01R" />
+			<PartDescription	id = "CHASSIS_GIANT_GUN_2"		partResourceType = "HCRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02L" />
+			<PartDescription	id = "CHASSIS_SIDE_GUN_2"		partResourceType = "HCRUISERCDTORPEDO_GUN"	lpName = "LP_SIDE02R" />
+			<PartDescription	id = "CABIN"					partResourceType = "HCRUISERCD_CABIN"		lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "HCRUISERCD_BASKET"		lpName = "LP_CAB01" >
 				<PartDescription	id = "BASKET_BIG_GUN_0"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG01" />
 				<PartDescription	id = "BASKET_BIG_GUN_1"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG02" />
 				<PartDescription	id = "BASKET_BIG_GUN_2"			partResourceType = "TWIN203MMCD_GUN"		lpName = "LP_BIG03" />
@@ -958,7 +958,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</MainPartDescription>
 
 		<Parts>
-			<Part id = "CHASSIS" Prototype = "cruiserCDHull" />
+			<Part id = "CHASSIS" Prototype = "hcruiserCDHull" />
 		</Parts>
 
 		<Wheels>
@@ -973,8 +973,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "CruiserCD01"
-		ParentPrototype 		= "CruiserCD"
+		Name					= "HCruiserCD01"
+		ParentPrototype 		= "HCruiserCD"
 		LookRadius				= "975.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -982,12 +982,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin203CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin203CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin203CD01" />
-			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CABIN"						Prototype = "cruiserCDEngine" />
-			<Part id = "BASKET"						Prototype = "cruiserCD203Armanent" />
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CABIN"						Prototype = "hcruiserCDEngine" />
+			<Part id = "BASKET"						Prototype = "hcruiserCD203Armanent" />
 			<Part id = "BASKET_BIG_GUN_0"			Prototype = "mun_twin203CD01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin203CD01" />
 			<Part id = "BASKET_BIG_GUN_2"			Prototype = "mun_twin203CD01" />
@@ -1008,7 +1008,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 	<Prototype
 		Class					= "Vehicle"
 		Name					= "SemibossCD01"
-		ParentPrototype 		= "CruiserCD"
+		ParentPrototype 		= "HCruiserCD"
 		LookRadius				= "6500.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -1017,11 +1017,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_SMALL_GUN_2"		Prototype = "cruiser_rocketCD01" />
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin203CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin203CD01" />
-			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "cruiserCDTorpedo01" />
-			<Part id = "CABIN"						Prototype = "cruiserCDEngine" />
+			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_1"			Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_GIANT_GUN_2"		Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CHASSIS_SIDE_GUN_2"			Prototype = "hcruiserCDTorpedo01" />
+			<Part id = "CABIN"						Prototype = "hcruiserCDEngine" />
 			<Part id = "BASKET"						Prototype = "semibossCDRocketArmanent" />
 			<Part id = "BASKET_BIG_GUN_0"			Prototype = "mun_twin203CD01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "cruiser_samCD01" />
@@ -1697,27 +1697,27 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "CruiserCITForEncyclopaedia"
-		ParentPrototype 		= "CruiserCIT"
+		Name					= "OCruiserCITForEncyclopaedia"
+		ParentPrototype 		= "OCruiserCIT"
 		AdditionalWheelsHover	= "0"
 		VisibleInEncyclopedia	= "true">
 		<Parts>
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
-			<Part id = "CABIN"						Prototype = "cruiserCITEngineForEncyclopaedia" />
-			<Part id = "BASKET"						Prototype = "cruiserCIT152Armanent" />
+			<Part id = "CABIN"						Prototype = "ocruiserCITEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "ocruiserCIT152Armanent" />
 		</Parts>
 	</Prototype>
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "CruiserCDForEncyclopaedia"
-		ParentPrototype 		= "CruiserCD"
+		Name					= "HCruiserCDForEncyclopaedia"
+		ParentPrototype 		= "HCruiserCD"
 		AdditionalWheelsHover	= "0"
 		VisibleInEncyclopedia	= "true">
 		<Parts>
 			<Part id = "CHASSIS"					Prototype = "fakeChassis" />
-			<Part id = "CABIN"						Prototype = "cruiserCDEngineForEncyclopaedia" />
-			<Part id = "BASKET"						Prototype = "cruiserCD203Armanent" />
+			<Part id = "CABIN"						Prototype = "hcruiserCDEngineForEncyclopaedia" />
+			<Part id = "BASKET"						Prototype = "hcruiserCD203Armanent" />
 		</Parts>
 	</Prototype>
 

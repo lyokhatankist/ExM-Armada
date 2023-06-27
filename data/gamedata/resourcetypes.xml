@@ -18,8 +18,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "FASTBOATCIT_CHASSIS" />
 			<Type Name = "DESTROYERCIT_CHASSIS" />
 			<Type Name = "DESTROYERCD_CHASSIS" />
-			<Type Name = "CRUISERCIT_CHASSIS" />
-			<Type Name = "CRUISERCD_CHASSIS" />
+			<Type Name = "OCRUISERCIT_CHASSIS" />
+			<Type Name = "HCRUISERCD_CHASSIS" />
 			<Type Name = "BATTLESHIPCIT_CHASSIS" />
 			<Type Name = "BATTLESHIPCD_CHASSIS" />
 			<Type Name = "MERCHANTCD_CHASSIS" />
@@ -33,8 +33,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "FASTBOATCIT_CABIN" />
 			<Type Name = "DESTROYERCIT_CABIN" />
 			<Type Name = "DESTROYERCD_CABIN" />
-			<Type Name = "CRUISERCIT_CABIN" />
-			<Type Name = "CRUISERCD_CABIN" />
+			<Type Name = "OCRUISERCIT_CABIN" />
+			<Type Name = "HCRUISERCD_CABIN" />
 			<Type Name = "BATTLESHIPCIT_CABIN" />
 			<Type Name = "BATTLESHIPCD_CABIN" />
 			<Type Name = "MERCHANTCD_CABIN" />
@@ -47,8 +47,8 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "FASTBOATCIT_BASKET" />
 			<Type Name = "DESTROYERCIT_BASKET" />
 			<Type Name = "DESTROYERCD_BASKET" />
-			<Type Name = "CRUISERCIT_BASKET" />
-			<Type Name = "CRUISERCD_BASKET" />
+			<Type Name = "OCRUISERCIT_BASKET" />
+			<Type Name = "HCRUISERCD_BASKET" />
 			<Type Name = "BATTLESHIPCIT_BASKET" />
 			<Type Name = "BATTLESHIPCD_BASKET" />
 			<Type Name = "MERCHANTCD_BASKET" />
@@ -82,9 +82,9 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "TWIN127MMCD_GUN"			geomsize = "2 2" />
 		<Type Name = "TWIN135MMCD_GUN"			geomsize = "2 2" />
 
-		<Type Name = "CRUISERCDTORPEDO_GUN"		geomsize = "4 2" />
+		<Type Name = "HCRUISERCDTORPEDO_GUN"	geomsize = "4 2" />
 		<Type Name = "TWIN203MMCD_GUN"			geomsize = "2 2" />
-		<Type Name = "CRUISERCDROCKET_GUN"		geomsize = "5 3" />
+		<Type Name = "HCRUISERCDROCKET_GUN"		geomsize = "5 3" />
 
 		<Type Name = "TWIN356MMCD_GUN"			geomsize = "3 4" />
 		<Type Name = "TRIPLE406MMCD_GUN"		geomsize = "3 4" />
@@ -94,10 +94,12 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 		<Type Name = "SINGLE130MMCIT_GUN"		geomsize = "2 2" />
 		<Type Name = "SINGLE138MMCIT_GUN"		geomsize = "2 2" />
 
-		<Type Name = "CRUISERCITTORPEDO_GUN"	geomsize = "4 2" />
+		<Type Name = "OCRUISERCITTORPEDO_GUN"	geomsize = "4 2" />
 		<Type Name = "SPONSON130MMCIT_GUN"		geomsize = "2 2" />
 		<Type Name = "TWIN152MMCIT_GUN"			geomsize = "2 2" />
 		<Type Name = "TRIPLE155MMCIT_GUN"		geomsize = "2 2" />
+
+		<Type Name = "TRIPLE152MMCIT_GUN"		geomsize = "2 2" />
 
 		<Type Name = "TRIPLE406MMCIT_GUN"		geomsize = "3 4" />
 		<Type Name = "QUADRUPLE380MMCIT_GUN"	geomsize = "3 4" />

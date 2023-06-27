@@ -912,22 +912,22 @@
 		value="Àëüáåäî" />
 
 	<Item
-		id="CruiserCIT"
+		id="OCruiserCIT"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="CruiserCITForEncyclopaedia"
+		id="OCruiserCITForEncyclopaedia"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="cruiserCITEngine"
+		id="ocruiserCITEngine"
 		locForm="0"
 		value="Ñèëîâàÿ óñòàíîâêà" />
 
 	<Item
-		id="cruiserCITTorpedo01"
+		id="ocruiserCITTorpedo01"
 		locForm="0"
 		value="533-ìì ÌÒÀ-1" />
 
@@ -942,7 +942,7 @@
 		value="47-ìì îðóäèå ÏÂÎ" />
 
 	<Item
-		id="cruiserCIT152Armanent"
+		id="ocruiserCIT152Armanent"
 		locForm="0"
 		value="Îðóäèÿ 152-ìì" />
 
@@ -957,12 +957,12 @@
 		value="152-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCIT01"
+		id="OCruiserCIT01"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="cruiserCIT155Armanent"
+		id="ocruiserCIT155Armanent"
 		locForm="0"
 		value="Îðóäèÿ 155-ìì" />
 
@@ -977,32 +977,42 @@
 		value="155-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCIT02"
+		id="OCruiserCIT02"
 		locForm="0"
 		value="Ýãàëü" />
+		
+	<Item
+		id="triple152CIT01"
+		locForm="0"
+		value="152-ìì ÀÓ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCD"
+		id="mun_triple152CIT01"
+		locForm="0"
+		value="152-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="HCruiserCD"
 		locForm="0"
 		value="ßðîñòü" />
 
 	<Item
-		id="CruiserCDForEncyclopaedia"
+		id="HCruiserCDForEncyclopaedia"
 		locForm="0"
 		value="ßðîñòü" />
 
 	<Item
-		id="cruiserCDEngine"
+		id="hcruiserCDEngine"
 		locForm="0"
 		value="Ñèëîâàÿ óñòàíîâêà" />
 
 	<Item
-		id="cruiserCDTorpedo01"
+		id="hcruiserCDTorpedo01"
 		locForm="0"
 		value="610-ìì ÓÌ-5" />
 
 	<Item
-		id="cruiserCD203Armanent"
+		id="hcruiserCD203Armanent"
 		locForm="0"
 		value="Îðóäèÿ 203-ìì" />
 
@@ -1017,7 +1027,7 @@
 		value="203-ìì ÎÔ (ÀÐ)" />
 
 	<Item
-		id="CruiserCD01"
+		id="HCruiserCD01"
 		locForm="0"
 		value="ßðîñòü" />
 

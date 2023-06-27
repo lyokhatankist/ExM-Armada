@@ -599,19 +599,19 @@
 
 
 		<Item 
-			id="cruiserCITEngine" 
+			id="ocruiserCITEngine" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITHull" 
+			id="ocruiserCITHull" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITTorpedo01" 
+			id="ocruiserCITTorpedo01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITTorpedo01gun" 
+			id="ocruiserCITTorpedo01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -623,11 +623,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCIT152Armanent" 
+			id="ocruiserCIT152Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCIT155Armanent" 
+			id="ocruiserCIT155Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -673,15 +673,15 @@
 
 
 		<Item 
-			id="cruiserCDEngine" 
+			id="hcruiserCDEngine" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCDHull" 
+			id="hcruiserCDHull" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCD203Armanent" 
+			id="hcruiserCD203Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
