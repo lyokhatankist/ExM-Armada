@@ -194,16 +194,16 @@ function cru1(vae)
 		jop = vae
 	end
 	if jop == 1 then
-		CreateEnemy("CruiserCIT01")
+		CreateEnemy("OCruiserCIT01")
 	elseif jop == 2 then
 		pl = GetPlayerVehicle()
 		pos = GetCameraPos()
 		plPos = pl:GetPosition()
 		teamNamae = "cruiserGroup"..random(99999)
-		TeamCreate(teamNamae, 1002, pos, {"CruiserCIT01","CruiserCIT02","CruiserCIT01"}, plPos, 1)
+		TeamCreate(teamNamae, 1002, pos, {"OCruiserCIT01","OCruiserCIT02","OCruiserCIT01"}, plPos, 1)
 		println(teamNamae.." (CIT); "..pos)
 	else
-		AddPlayerVehicle("CruiserCIT01")
+		AddPlayerVehicle("OCruiserCIT01")
 	end
 end
 
@@ -215,16 +215,16 @@ function cru2(vae)
 		jop = vae
 	end
 	if jop == 1 then
-		CreateEnemy("CruiserCD01")
+		CreateEnemy("HCruiserCD01")
 	elseif jop == 2 then
 		pl = GetPlayerVehicle()
 		pos = GetCameraPos()
 		plPos = pl:GetPosition()
 		teamNamae = "cruiserGroup"..random(99999)
-		TeamCreate(teamNamae, 1002, pos, {"CruiserCD01","CruiserCD01"}, plPos, 1)
+		TeamCreate(teamNamae, 1002, pos, {"HCruiserCD01","HCruiserCD01"}, plPos, 1)
 		println(teamNamae.." (CD); "..pos)
 	else
-		AddPlayerVehicle("CruiserCD01")
+		AddPlayerVehicle("HCruiserCD01")
 	end
 end
 
