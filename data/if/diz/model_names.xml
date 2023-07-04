@@ -629,62 +629,62 @@
 	<Item
 		id="HeliCITForEncyclopaedia"
 		locForm="0"
-		value="Гриф" />
+		value="Кондор" />
 
 	<Item
 		id="HeliCIT01"
 		locForm="0"
-		value="Гриф" />
+		value="Кондор" />
 
 	<Item
 		id="HeliCIT02"
 		locForm="0"
-		value="Гриф" />
+		value="Кондор" />
 
 	<Item
 		id="HeliCIT03"
 		locForm="0"
-		value="Гриф" />
+		value="Кондор" />
 
 	<Item
 		id="HeliCIT04"
 		locForm="0"
-		value="Гриф" />
+		value="Кондор" />
 
 	<Item
 		id="HeliCDForEncyclopaedia"
 		locForm="0"
-		value="Москит" />
+		value="Москито" />
 
 	<Item
 		id="HeliCD01"
 		locForm="0"
-		value="Москит" />
+		value="Москито" />
 
 	<Item
 		id="HeliCD02"
 		locForm="0"
-		value="Москит" />
+		value="Москито" />
 
 	<Item
 		id="HeliCD03"
 		locForm="0"
-		value="Москит" />
+		value="Москито" />
 
 	<Item
 		id="HeliCD04"
 		locForm="0"
-		value="Москит" />
+		value="Москито" />
 
 	<Item
 		id="SmlboatCIT"
 		locForm="0"
-		value="Чайка" />
+		value="Муэтт" />
 
 	<Item
 		id="SmlboatCITForEncyclopaedia"
 		locForm="0"
-		value="Чайка" />
+		value="Муэтт" />
 
 	<Item
 		id="smlboatCITEngine"
@@ -699,17 +699,17 @@
 	<Item
 		id="SmlboatCIT01"
 		locForm="0"
-		value="Чайка" />
+		value="Муэтт" />
 
 	<Item
 		id="SmlboatCIT02"
 		locForm="0"
-		value="Чайка" />
+		value="Муэтт" />
 
 	<Item
 		id="smlboatCITNurs01"
 		locForm="0"
-		value="Снасть" />
+		value="Кордаж" />
 
 	<Item
 		id="smlboatCITMachinegun01"
@@ -754,12 +754,12 @@
 	<Item
 		id="FastboatCIT"
 		locForm="0"
-		value="Акула" />
+		value="Тибурон" />
 
 	<Item
 		id="FastboatCITForEncyclopaedia"
 		locForm="0"
-		value="Акула" />
+		value="Тибурон" />
 
 	<Item
 		id="fastboatCITEngine"
@@ -774,7 +774,7 @@
 	<Item
 		id="FastboatCIT01"
 		locForm="0"
-		value="Акула" />
+		value="Тибурон" />
 
 	<Item
 		id="fastboatCITTorpedo01"
@@ -994,12 +994,12 @@
 	<Item
 		id="HCruiserCD"
 		locForm="0"
-		value="Ярость" />
+		value="Фурия" />
 
 	<Item
 		id="HCruiserCDForEncyclopaedia"
 		locForm="0"
-		value="Ярость" />
+		value="Фурия" />
 
 	<Item
 		id="hcruiserCDEngine"
@@ -1029,7 +1029,7 @@
 	<Item
 		id="HCruiserCD01"
 		locForm="0"
-		value="Ярость" />
+		value="Фурия" />
 
 	<Item
 		id="SemibossCD01"
@@ -1044,12 +1044,12 @@
 	<Item
 		id="cruiser_rocketCD01"
 		locForm="0"
-		value="Ужас" />
+		value="Эспанто" />
 
 	<Item
 		id="cruiser_samCD01"
 		locForm="0"
-		value="Занавес" />
+		value="Тэлён" />
 
 	<Item
 		id="BattleshipCIT"
@@ -1244,5 +1244,5 @@
 	<Item
 		id="lavCDMachinegun01"
 		locForm="0"
-		value="Корд" />
+		value="ПКТ" />
 </ModelNames>
