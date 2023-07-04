@@ -1333,8 +1333,8 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		DamageType			= "ENERGY"
 		BlastWavePrototype	= "samcdBlastWave"
 
-		Damage			= "70"
-		FiringRate		= "120"
+		Damage			= "120"
+		FiringRate		= "60"
 		ChargeSize     	= "8"
 		RechargingTime	= "35"
 
@@ -1364,7 +1364,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "samcdBlastWave"
 
 		Mass			= "0.01"
-		Size			= "4 4 6"/>
+		Size			= "2 2 5"/>
 
 
 
