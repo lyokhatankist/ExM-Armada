@@ -14,7 +14,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-<Prototype
+	<Prototype
 		Class			= "BulletLauncher"
 		Name			= "smlboatCDCannon01"
 		ModelFile		= "smlboatCDCannon01"
@@ -45,6 +45,77 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "5" 
 		Price			= "32900" />
 
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "smlboatCDRocket02"
+        ModelFile		= "smlboatCDRocket02"
+        ResourceType	= "MEDANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "atgmcdrocket01"
+		ExplosionType		= "CANNON"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "atgmcdBlastWave"
+
+		Damage			= "150"
+		FiringRate		= "30"
+		ChargeSize		= "2"
+		RechargingTime	= "18"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "14"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "40"
+		Durability		= "3"
+		Price			= "9870" />
+
+<!-- coastal artillery -->
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "dot_smlboatCDRocket02"
+        ModelFile		= "smlboatCDRocket02"
+        ResourceType	= "MEDANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "atgmcdrocket01"
+		ExplosionType		= "CANNON"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "atgmcdBlastWave"
+
+		Damage			= "200"
+		FiringRate		= "30"
+		ChargeSize		= "2"
+		RechargingTime	= "18"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "14"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "40"
+		Durability		= "3"
+		Price			= "9870" />
+
 
 
 
@@ -53,7 +124,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 
 
-<Prototype
+	<Prototype
 		Class				= "Mortar"
 		Name				= "smlboatCITNurs01"
 		ModelFile			= "smlboatCITNurs01"
@@ -162,7 +233,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "13.75"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2"/>
 
 	<Prototype
@@ -255,7 +326,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "31.25"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2"/>
 
 	<Prototype
@@ -518,7 +589,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "38.5"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2"/>
 
 
@@ -744,7 +815,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "21.85"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2"/>
 
 
@@ -1131,7 +1202,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "27"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2"/>
 
 
@@ -1305,7 +1376,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		MinTurningRadius	= "600"
 		FlyTime				= "100"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "4 4 6"/>
 
 
@@ -1363,7 +1434,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "100"
 		BlastWavePrototype	= "samcdBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "2 2 5"/>
 
 

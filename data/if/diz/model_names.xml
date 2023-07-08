@@ -752,6 +752,16 @@
 		value="ПКТ" />
 
 	<Item
+		id="smlboatCDRocket01"
+		locForm="0"
+		value="Фаланга" />
+
+	<Item
+		id="smlboatCDRocket02"
+		locForm="0"
+		value="Фаланга-М" />
+
+	<Item
 		id="FastboatCIT"
 		locForm="0"
 		value="Тибурон" />
@@ -940,6 +950,11 @@
 		id="AA47mmCannon01"
 		locForm="0"
 		value="47-мм орудие ПВО" />
+
+	<Item
+		id="AA152mmATGMCD01"
+		locForm="0"
+		value="Фаланга-М" />
 
 	<Item
 		id="ocruiserCIT152Armanent"

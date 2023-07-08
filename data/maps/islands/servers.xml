@@ -505,6 +505,22 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="smlboatCDRocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket02gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="fastboatCITHull" 
 			file="data\models\AnimModels.xml"/>
 

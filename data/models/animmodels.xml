@@ -2405,6 +2405,93 @@
 	</model>
 
 	<model
+		id="smlboatCDRocket01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk01.gam" />
+
+	<model
+		id="smlboatCDRocket01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCDRocket02"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk02.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCDRocket02gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk02_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="fastboatCITHull"
 		shadow="0"
 		windwavy="0"
