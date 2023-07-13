@@ -534,7 +534,7 @@
 		id="minePusher_2"
 		locForm="0"
 		value="Вихрь" />
-
+<!--
 	<Item
 		id="staticAutoGun01"
 		locForm="0"
@@ -584,7 +584,7 @@
 		id="brick_dot1_vulcan"
 		locForm="0"
 		value="Дот" />
-
+-->
 	<Item
 		id="boss01"
 		locForm="0"
@@ -715,6 +715,11 @@
 		id="smlboatCITMachinegun01"
 		locForm="0"
 		value="Корд" />
+
+	<Item
+		id="smlboatCITRocket01"
+		locForm="0"
+		value="Пик" />
 
 	<Item
 		id="SmlboatCD"
@@ -952,6 +957,11 @@
 		value="47-мм орудие ПВО" />
 
 	<Item
+		id="AA120mmSAMCIT01"
+		locForm="0"
+		value="Берже" />
+
+	<Item
 		id="AA152mmATGMCD01"
 		locForm="0"
 		value="Фаланга-М" />
@@ -975,6 +985,11 @@
 		id="OCruiserCIT01"
 		locForm="0"
 		value="Эгаль" />
+
+	<Item
+		id="ocruiserCITEngineMod"
+		locForm="0"
+		value="Силовая установка" />
 
 	<Item
 		id="ocruiserCIT155Armanent"

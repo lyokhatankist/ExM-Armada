@@ -2259,6 +2259,42 @@
 	</model>
 
 	<model
+		id="smlboatCITRocket01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_smlboat\mpad01.gam" />
+
+	<model
+		id="smlboatCITRocket01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_smlboat\mpad01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="smlboatCDHull"
 		shadow="0"
 		windwavy="0"
@@ -4428,6 +4464,81 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_AUTOCANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AA120mmSAMCIT01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_ocruiser\aa120sam.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AA120mmSAMCIT01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_ocruiser\aa120sam_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE04"
+				effect_id="ET_PS_CANNON_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>

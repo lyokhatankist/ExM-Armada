@@ -171,12 +171,22 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "mpadcitBlastWave"
+
+                Radius                  = "17.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "400.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "atgmcdBlastWave"
 
                 Radius                  = "20.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "600.0"
+                WaveDamageIntensity     = "800.0"
         />
 
         <Prototype

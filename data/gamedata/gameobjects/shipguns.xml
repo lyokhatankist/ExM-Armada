@@ -62,10 +62,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
-		DamageType			= "ENERGY"
+		DamageType			= "PIERCING"
 		BlastWavePrototype	= "atgmcdBlastWave"
 
-		Damage			= "150"
+		Damage			= "120"
 		FiringRate		= "30"
 		ChargeSize		= "2"
 		RechargingTime	= "18"

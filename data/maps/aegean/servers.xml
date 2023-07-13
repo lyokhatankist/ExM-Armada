@@ -429,6 +429,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="smlboatCITRocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITRocket01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="smlboatCDHull" 
 			file="data\models\AnimModels.xml"/>
 
@@ -636,6 +644,14 @@
 
 		<Item 
 			id="AA47mmCannon01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA120mmSAMCIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA120mmSAMCIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

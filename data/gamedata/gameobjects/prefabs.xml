@@ -127,7 +127,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "-6 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun05"		RelPos = "0 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -137,8 +136,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		Probability		= "0.3" >
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "0 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun05"		RelPos = "-6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun05"		RelPos = "6 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -160,7 +157,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "-6 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun08"		RelPos = "0 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -170,8 +166,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		Probability		= "0.5" >
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "0 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun07"		RelPos = "-6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun07"		RelPos = "6 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -182,7 +176,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall2"	RelPos = "-6 0 0"		RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun07"		RelPos = "0 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -192,8 +185,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 		Probability		= "0.5" >
 		<ObjInfos>
 			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "0 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun08"		RelPos = "-6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "staticAutoGun08"		RelPos = "6 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
