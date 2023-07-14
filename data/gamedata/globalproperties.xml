@@ -103,8 +103,8 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 		FlowVpVelocity				= "0.2"
 		FlowWheelVelocity			= "0.2"
 		EnergyBlowDeltaTime			= "4.0"
-		EnergyVpBlowProbability		= "0.0"
-		EnergyWheelBlowProbability	= "1.0"
+		EnergyVpBlowProbability		= "1.0"
+		EnergyWheelBlowProbability	= "90.0"
         />
         
 	<Articles

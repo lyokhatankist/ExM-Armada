@@ -92,13 +92,13 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
         <Folder Name="QuestItems" File="QuestItems.xml" />
 
 	<Folder Name="BreakableObjects" File="BreakableObjects.xml" />
-
+<!--
 	<Folder Name="Plasma" File="Plasma.xml" />
 
 	<Folder Name="Thunderbolt" File="Thunderbolt.xml" />
 
 	<Folder Name="Mortar" File="Mortar.xml" />
-
+-->
 	<Folder Name="Rockets" File="Rockets.xml" />
 
 	<Folder Name="VehicleParts" File="VehicleParts.xml" />
@@ -106,6 +106,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name="Prefabs" File="Prefabs.xml" />
 
 	<Folder Name = "Guns">
+<!--
 		<Folder Name = "SmallGuns"	File = "SmallGuns.xml" />
 		
 		<Folder Name = "BigGuns"	File = "BigGuns.xml" />
@@ -113,7 +114,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 		<Folder Name = "SideGuns"	File = "SideGuns.xml" />
 
 		<Folder Name = "GiantGuns"	File = "GiantGuns.xml" />
-
+-->
 		<Folder Name = "ShipGuns"	File = "ShipGuns.xml" />
 
 		<Folder Name = "AAGuns"		File = "AAGuns.xml" />

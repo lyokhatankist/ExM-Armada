@@ -5,6 +5,16 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 -->
 
 <Prototypes>
+	<Prototype 
+		Class			= "Barricade"
+		Name			= "barricade1" 
+		Probability		= "0.3" >
+		<ObjInfos>
+			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "-6 0 0"		RelAngle = "0" />
+			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "6 0 0"		RelAngle = "0" />
+		</ObjInfos>
+	</Prototype>
+<!--
 <Prototype
 	Class="ObjPrefab"
 	Name="two">
@@ -117,16 +127,6 @@ $Id: Prefabs.xml,v 1.12 2005/09/27 10:13:33 anton Exp $
 			<ObjInfo Prototype = "Breakable_Barrel2"	RelPos = "-5 0 5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_Stolb1"		RelPos = "5 0 -5"	RelAngle = "0" />
 			<ObjInfo Prototype = "Breakable_TankEg"		RelPos = "-5 0 -5"	RelAngle = "0" />
-		</ObjInfos>
-	</Prototype>
-
-	<Prototype 
-		Class			= "Barricade"
-		Name			= "barricade1" 
-		Probability		= "0.3" >
-		<ObjInfos>
-			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "-6 0 0"		RelAngle = "0" />
-			<ObjInfo Prototype = "Breakable_SackWall1"	RelPos = "6 0 0"		RelAngle = "0" />
 		</ObjInfos>
 	</Prototype>
 
@@ -530,14 +530,12 @@ Name="js_3barrels" Probability="0.5">
 			<ObjInfo Prototype="Breakable_SackWall2" Scale="1.000" RelPos="-3.279 0.000 4.096" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" Scale="1.000" RelPos="-7.081 0.000 0.071" RelRot="0.0000 0.7431 0.0000 0.6691"/>
 			<ObjInfo Prototype="Breakable_SackWall2" Scale="1.000" RelPos="7.238 0.000 0.035" RelRot="0.0000 0.7576 0.0000 0.6528"/>
-			<ObjInfo Prototype="sack_dot2_kord" Scale="1.000" RelPos="-0.259 0.000 -0.369" RelRot="0.0000 -0.9999 0.0000 0.0109"/>
 			<ObjInfo Prototype="Breakable_SackWall2" Scale="1.000" RelPos="3.189 0.000 -3.997" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_SackWall2" Scale="1.000" RelPos="-4.188 0.000 -4.063" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 		</ObjInfos>
 	</Prototype>
 	<Prototype Class="ObjPrefab" Name="js_brickbar" Probability="0.5">
 		<ObjInfos>
-			<ObjInfo Prototype="brick_dot1_vulcan" Scale="1.000" RelPos="0.008 0.000 0.045" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_BrickWall1" Scale="1.000" RelPos="-6.014 0.000 0.172" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 			<ObjInfo Prototype="Breakable_BrickWall1" Scale="1.000" RelPos="6.018 0.000 -0.083" RelRot="0.0000 0.0000 0.0000 1.0000"/>
 		</ObjInfos>
@@ -665,5 +663,5 @@ Name="js_3barrels" Probability="0.5">
 				RelRot="0.0000 0.2142 0.0000 0.9764" />
 		</ObjInfos>
 	</Prototype>
-
+-->
 </Prototypes>	
