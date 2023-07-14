@@ -318,7 +318,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			FuelConsumption		= "0.0001"
 
 			Mass						= "40.0"
-			Durability					= "100"
+			Durability					= "0"
 			DurCoeffsForDamageTypes		= "100 -100 100"
 			MaxPower					= "0"
 			MaxTorque					= "2000"
@@ -883,7 +883,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale					= "1 1 1"
 
 			Mass						= "30.0" 
-			Durability					= "100"
+			Durability					= "50"
 			DurCoeffsForDamageTypes		= "100 -100 100"
 			Price						= "0"
 			RepairCoef					= "0"
@@ -963,7 +963,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "3.0" 
 			Durability					= "10"
-			DurCoeffsForDamageTypes		= "35 2 1"
+			DurCoeffsForDamageTypes		= "35 50 1"
 			Price						= "0"
 			RepairCoef					= "0"
 
@@ -995,7 +995,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "4.0" 
 			Durability					= "30"
-			DurCoeffsForDamageTypes		= "30 5 5"
+			DurCoeffsForDamageTypes		= "30 50 5"
 			Price						= "0"
 			RepairCoef					= "0"
 
@@ -1027,7 +1027,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			Mass						= "6.0" 
 			Durability					= "35"
-			DurCoeffsForDamageTypes		= "25 5 15"
+			DurCoeffsForDamageTypes		= "25 50 15"
 			Price						= "0"
 			RepairCoef					= "0"
 

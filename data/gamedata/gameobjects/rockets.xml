@@ -20,120 +20,120 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 Class                   = "BlastWave"
                 Name                    = "47mmBlastWave"
 
-                Radius                  = "7.0"
+                Radius                  = "18.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "40.0"
+                WaveDamageIntensity     = "80.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "127mmBlastWave"
 
-                Radius                  = "12.0"
+                Radius                  = "15.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "130.0"
+                WaveDamageIntensity     = "1300.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "130mmBlastWave"
 
-                Radius                  = "13.0"
+                Radius                  = "16.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "145.0"
+                WaveDamageIntensity     = "1450.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "135mmBlastWave"
 
-                Radius                  = "14.0"
+                Radius                  = "17.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "160.0"
+                WaveDamageIntensity     = "1600.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "138mmBlastWave"
 
-                Radius                  = "15.0"
+                Radius                  = "18.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "180.0"
+                WaveDamageIntensity     = "1800.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "152mmBlastWave"
 
-                Radius                  = "17.0"
+                Radius                  = "22.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "220.0"
+                WaveDamageIntensity     = "2200.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "155mmBlastWave"
 
-                Radius                  = "18.0"
+                Radius                  = "23.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "240.0"
+                WaveDamageIntensity     = "2400.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "203mmBlastWave"
 
-                Radius                  = "23.0"
+                Radius                  = "28.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "340.0"
+                WaveDamageIntensity     = "3400.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "356mmBlastWave"
 
-                Radius                  = "32.0"
+                Radius                  = "38.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "560.0"
+                WaveDamageIntensity     = "5600.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "380mmBlastWave"
 
-                Radius                  = "35.0"
+                Radius                  = "43.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "640.0"
+                WaveDamageIntensity     = "6400.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "406mmBlastWave"
 
-                Radius                  = "39.0"
+                Radius                  = "47.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "700.0"
+                WaveDamageIntensity     = "7000.0"
         />
 
         <Prototype
                 Class                   = "BlastWave"
                 Name                    = "457mmBlastWave"
 
-                Radius                  = "45.0"
+                Radius                  = "55.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "1000.0"
+                WaveDamageIntensity     = "10000.0"
         />
 
         <Prototype
@@ -141,10 +141,10 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 Name                    = "nursBlastWave"
                 Effect                  = "ET_PS_AIRWAVE2"
 
-                Radius                  = "10.0"
+                Radius                  = "16.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "25.0"
+                WaveDamageIntensity     = "100.0"
         />
 
         <Prototype
@@ -166,7 +166,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 Radius                  = "50.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "1500.0"
+                WaveDamageIntensity     = "15000.0"
         />
 
         <Prototype

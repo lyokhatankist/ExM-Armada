@@ -22,6 +22,39 @@
 	</Object>
 
 	<Object
+		Name="barricade1"
+		Belong="1002"
+		Prototype="barricade1"
+		Pos="784.891 306.123 1414.585"
+		Probability="0.500">
+		<Object
+			Flags="21"
+			Name="barricade1_Team"
+			Belong="1002"
+			Prototype="settlementTeam">
+			<Formation
+				Name="barricade1_Team_Formation"
+				Belong="1002"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="barricade1_Child1"
+			Belong="1002"
+			Prototype="CITCoastMed01"
+			Pos="4943.118 289.180 1778.205"
+			Rot="0.000 -0.180 0.000 0.984">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
 		Belong="1100"
 		Prototype="someRecollection" />
 </DynamicScene>

@@ -30,7 +30,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		AdditionalWheelsHover = "40.5"
 
 		PressingForce		= "3.0"
-		MassSize			= "12 4.5 400"
+		MassSize			= "100 50 400"
 		MassTranslation		= "0.0 -10.0 0.0"
 
 		DecisionMatrix		= "vehiclemain.lua"
@@ -573,9 +573,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_0"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
 		</Parts>
 	</Prototype>
@@ -597,9 +597,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT01" />
 			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single138CIT01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
 		</Parts>
 	</Prototype>
@@ -725,9 +725,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_twin127CD01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -750,9 +750,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_twin135CD01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -861,11 +861,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single130CIT01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -1005,12 +1005,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin203CD01" />
 			<Part id = "BASKET_BIG_GUN_2"			Prototype = "mun_twin203CD01" />
 			<Part id = "BASKET_BIG_GUN_3"			Prototype = "mun_twin203CD01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "smlboatCDMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA47mmCannon01" />
@@ -1197,12 +1197,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA23mmGun01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -1249,12 +1249,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA23mmGun01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -1301,12 +1301,12 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_10"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_11"	Prototype = "AA23mmGun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_12"	Prototype = "AA23mmGun01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_13"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_14"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_15"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_16"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_17"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_18"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -1419,11 +1419,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin127CD01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
@@ -1456,11 +1456,11 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin127CD01" />
-			<!-- <Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" /> -->
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />

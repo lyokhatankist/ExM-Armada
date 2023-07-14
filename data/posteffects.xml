@@ -12505,7 +12505,7 @@
 
 		<Unit
 			VarName="SepiaColorG"
-			InitVal="0.490"
+			InitVal="0.480"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -12709,7 +12709,7 @@
 
 		<Unit
 			VarName="SepiaColorG"
-			InitVal="0.150"
+			InitVal="0.140"
 			Param1="0"
 			Param2="0"
 			Param3="0"

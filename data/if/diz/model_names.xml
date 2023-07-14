@@ -954,7 +954,7 @@
 	<Item
 		id="AA47mmCannon01"
 		locForm="0"
-		value="47-мм орудие ПВО" />
+		value="Аугэ" />
 
 	<Item
 		id="AA120mmSAMCIT01"
@@ -1099,7 +1099,7 @@
 	<Item
 		id="AA23mmGun01"
 		locForm="0"
-		value="23-мм установка ПВО" />
+		value="Спрут-К" />
 
 	<Item
 		id="battleshipCIT406Armanent"

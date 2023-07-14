@@ -62,7 +62,7 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
 
 	<SmartCursor
 		InfoAreaRadius	= "50"
-                LockTimeout		= "1.5"
+                LockTimeout		= "0.1"
 		UnlockRegion	= "300 300"
         />
         
@@ -135,7 +135,7 @@ $Id: GlobalProperties.xml,v 1.58 2005/11/24 09:45:17 anton Exp $
                                 
 	<Weapon
 		MaxGroupingAngle="5"
-		TimeOutForReAimGuns		= "0.3"
+		TimeOutForReAimGuns		= "0.5"
 	/>
                                 
     <DifficultyLevels>
