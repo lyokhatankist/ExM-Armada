@@ -1356,10 +1356,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription	id = "CHASSIS_TURRET_GUN_8"		partResourceType = "SMALL_GUN"				lpName = "LP_SML04" />
 			<PartDescription	id = "CABIN"					partResourceType = "BATTLESHIPCD_CABIN"		lpName = "LP_CAB01" />	
 			<PartDescription	id = "BASKET"					partResourceType = "BATTLESHIPCD_BASKET"	lpName = "LP_CAB01" >
-				<PartDescription	id = "BASKET_GIANT_GUN_0"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT01" />
-				<PartDescription	id = "BASKET_GIANT_GUN_1"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT02" />
-				<PartDescription	id = "BASKET_GIANT_GUN_2"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT03" />
-				<PartDescription	id = "BASKET_GIANT_GUN_3"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT04" />
+				<PartDescription	id = "BASKET_GIANT_GUN_0"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT01,LP_GIANT01" />
+				<PartDescription	id = "BASKET_GIANT_GUN_1"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT02,LP_GIANT02" />
+				<PartDescription	id = "BASKET_GIANT_GUN_2"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT03,LP_GIANT03" />
+				<PartDescription	id = "BASKET_GIANT_GUN_3"		partResourceType = "TWIN356MMCD_GUN"		lpName = "LP_GIANT04,LP_GIANT04" />
 				<PartDescription	id = "BASKET_GIANT_GUN_4"		partResourceType = "TRIPLE406MMCD_GUN"		lpName = "LP_GIANT05" />
 				<PartDescription	id = "BASKET_GIANT_GUN_5"		partResourceType = "TRIPLE406MMCD_GUN"		lpName = "LP_GIANT06" />
 				<PartDescription	id = "BASKET_GIANT_GUN_6"		partResourceType = "TRIPLE406MMCD_GUN"		lpName = "LP_GIANT07" />
@@ -1452,6 +1452,43 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_GIANT_GUN_5"			Prototype = "mun_triple406CD01" />
 			<Part id = "BASKET_GIANT_GUN_6"			Prototype = "mun_triple406CD01" />
 			<Part id = "BASKET_GIANT_GUN_7"			Prototype = "mun_triple406CD01" />
+			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_twin127CD01" />
+			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin127CD01" />
+			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD01" />
+			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin127CD01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_9"	Prototype = "AA47mmCannon01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "BattleshipCD03"
+		ParentPrototype 		= "BattleshipCD"
+		LookRadius				= "1100.0"
+		VisibleInEncyclopedia	= "false">
+		<Parts>
+			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin356CD03" />
+			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin356CD03" />
+			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "twin356CD03" />
+			<Part id = "CHASSIS_TURRET_GUN_4"		Prototype = "twin356CD03" />
+			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "twin127CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_6"		Prototype = "twin127CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_7"		Prototype = "twin127CD01" />
+			<Part id = "CHASSIS_TURRET_GUN_8"		Prototype = "twin127CD01" />
+			<Part id = "CABIN"						Prototype = "battleshipCDEngine" />
+			<Part id = "BASKET"						Prototype = "battleshipCD356Armanent" />
+			<Part id = "BASKET_GIANT_GUN_0"			Prototype = "mun_twin356CD03" />
+			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "mun_twin356CD03" />
+			<Part id = "BASKET_GIANT_GUN_2"			Prototype = "mun_twin356CD03" />
+			<Part id = "BASKET_GIANT_GUN_3"			Prototype = "mun_twin356CD03" />
 			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD01" />

@@ -1846,6 +1846,86 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price			= "13310" />
 
 
+
+<!-- TWIN 356 MM CD BATLLESHIP GUN WITH ANTI-AIRCRAFT SHELLS -->
+
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "twin356CD03"
+		ModelFile		= "twin356CD01"
+		ResourceType	= "SIDE_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		BulletPrototype		= "356mmAACDshell"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "Artillery"
+		RecoilForce			= "50"
+
+		DamageType			= "BLAST"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize     	= "0"
+		RechargingTime 	= "45"
+
+		FiringRange		= "700"
+		GroupingAngle	= "4.5"
+		
+		TurningSpeed	= "15"
+		Durability		= "19" 
+		Price			= "32900" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "mun_twin356CD03"
+		ModelFile		= "mun_twin356CD01"
+		ResourceType	= "TWIN356MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		BulletPrototype		= "356mmAACDshell"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "Artillery"
+		RecoilForce			= "50"
+
+		DamageType			= "BLAST"
+		NumBulletsInShot	= "30"
+
+		Damage			= "5000"
+		FiringRate		= "210"
+		ChargeSize     	= "2"
+		RechargingTime 	= "18"
+
+		FiringRange		= "20"
+		GroupingAngle	= "4.5"
+		
+		TurningSpeed	= "15"
+		Durability		= "19" 
+		Price			= "32900" />
+
+	<Prototype
+		Class			= "Rocket"
+		Name			= "356mmAACDshell"
+		ModelFile		= "shell_sml"
+		ExplosionType	= "MACHINEGUN" 
+
+		Price		= "210"
+
+		Velocity			= "500"
+		Acceleration		= "750"
+		MinTurningRadius	= "50000"
+		FlyTime				= "1.0"
+
+		Mass			= "0.001"
+		Size			= "1 1 2" />
+
+
 <!-- TRIPLE 406 MM CD BATLLESHIP GUN -->
 
 

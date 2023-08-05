@@ -945,6 +945,22 @@
 		<Item 
 			id="mun_twin356CD01gun" 
 			file="data\models\AnimModels.xml"/>
+<!-- 
+		<Item 
+			id="twin356CD03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="twin356CD03gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD03gun" 
+			file="data\models\AnimModels.xml"/> -->
 
 		<Item 
 			id="triple406CD01" 

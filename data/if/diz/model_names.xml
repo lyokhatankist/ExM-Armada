@@ -1202,6 +1202,11 @@
 		value="356-мм ОФ (АР)" />
 
 	<Item
+		id="mun_twin356CD03"
+		locForm="0"
+		value="356-мм ЗС (АР)" />
+
+	<Item
 		id="BattleshipCD01"
 		locForm="0"
 		value="Левиафан" />
@@ -1275,4 +1280,24 @@
 		id="lavCDMachinegun01"
 		locForm="0"
 		value="ПКТ" />
+
+	<Item
+		id="CITCoastMed01"
+		locForm="0"
+		value="Орудие" />
+
+	<Item
+		id="CDCoastMed01"
+		locForm="0"
+		value="Орудие" />
+
+	<Item
+		id="helifuselage01_static01"
+		locForm="0"
+		value="Кондор" />
+
+	<Item
+		id="helifuselage02_static01"
+		locForm="0"
+		value="Москито" />
 </ModelNames>

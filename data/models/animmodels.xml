@@ -9225,6 +9225,108 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
+<!-- 
+	<model
+		id="twin356CD03"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\twin356cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_BATTLESHIP_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin356CD03gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\twin356aacd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin356CD03"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\mun_twin356cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_BATTLESHIP_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin356CD03gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\mun_twin356aacd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model> -->
 
 	<model
 		id="triple406CD01"
