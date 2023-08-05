@@ -448,6 +448,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "9"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_single130CIT02"
+		ModelFile		= "mun_single130CIT01"
+		ResourceType	= "SINGLE130MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "130mmCITshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "135"
+		BlastWavePrototype	= "130mmAPBlastWave"
+
+		Damage			= "160"
+		FiringRate		= "50"
+		ChargeSize		= "1"
+		RechargingTime	= "5"
+
+		FiringRange		= "700"
+		ActionDist		= "750"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "65"
+		Durability		= "9"
+		Price			= "13310" />
+
 
 <!-- SINGLE 138 MM CIT DESTROYER GUN -->
 
@@ -530,6 +564,39 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "10"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_single138CIT02"
+		ModelFile		= "mun_single138CIT01"
+		ResourceType	= "SINGLE138MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "138mmCITshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "130"
+		BlastWavePrototype	= "138mmAPBlastWave"
+
+		Damage			= "210"
+		FiringRate		= "50"
+		ChargeSize		= "1"
+		RechargingTime	= "5.35"
+
+		FiringRange		= "800"
+		ActionDist		= "850"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "10"
+		Price			= "13310" />
 
 
 
@@ -674,6 +741,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "8"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin127CD02"
+		ModelFile		= "mun_twin127CD01"
+		ResourceType	= "TWIN127MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "127mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "138"
+		BlastWavePrototype	= "127mmAPBlastWave"
+
+		Damage			= "115"
+		FiringRate		= "150"
+		ChargeSize		= "2"
+		RechargingTime	= "8"
+
+		FiringRange		= "650"
+		ActionDist		= "600"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "8"
+		Price			= "13310" />
+
 
 <!-- TWIN 135 MM CD DESTROYER GUN -->
 
@@ -744,6 +845,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "135mmBlastWave"
 
 		Damage			= "175"
+		FiringRate		= "200"
+		ChargeSize		= "2"
+		RechargingTime	= "9"
+
+		FiringRange		= "700"
+		ActionDist		= "750"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "55"
+		Durability		= "10"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin135CD02"
+		ModelFile		= "mun_twin135CD01"
+		ResourceType	= "TWIN135MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "135mmCDshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "132"
+		BlastWavePrototype	= "135mmAPBlastWave"
+
+		Damage			= "205"
 		FiringRate		= "200"
 		ChargeSize		= "2"
 		RechargingTime	= "9"
@@ -928,7 +1063,41 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "170"
 		FiringRate		= "125"
 		ChargeSize		= "2"
-		RechargingTime	= "9"
+		RechargingTime	= "8.25"
+
+		FiringRange		= "800"
+		ActionDist		= "850"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "45"
+		Durability		= "10"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin152CIT02"
+		ModelFile		= "mun_twin152CIT01"
+		ResourceType	= "TWIN152MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "152mmCITshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "124"
+		BlastWavePrototype	= "152mmAPBlastWave"
+
+		Damage			= "190"
+		FiringRate		= "125"
+		ChargeSize		= "2"
+		RechargingTime	= "8.25"
 
 		FiringRange		= "800"
 		ActionDist		= "850"	
@@ -1008,6 +1177,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "155mmBlastWave"
 
 		Damage			= "215"
+		FiringRate		= "245"
+		ChargeSize		= "3"
+		RechargingTime	= "11.25"
+
+		FiringRange		= "900"
+		ActionDist		= "950"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "38"
+		Durability		= "12"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple155CIT02"
+		ModelFile		= "mun_triple155CIT01"
+		ResourceType	= "TRIPLE155MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "155mmCITshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "155mmAPBlastWave"
+
+		Damage			= "240"
 		FiringRate		= "245"
 		ChargeSize		= "3"
 		RechargingTime	= "11.25"
@@ -1108,6 +1311,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "16"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple152CIT02"
+		ModelFile		= "mun_triple152CIT01"
+		ResourceType	= "TRIPLE152MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "152mmCITshell2"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "375"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "124"
+		BlastWavePrototype	= "155mmAPBlastWave"
+
+		Damage			= "230"
+		FiringRate		= "275"
+		ChargeSize		= "3"
+		RechargingTime	= "11"
+
+		FiringRange		= "1000"
+		ActionDist		= "1100"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "26"
+		Durability		= "16"
+		Price			= "13310" />
+
 <!-- coastal artillery -->
  <Prototype
 		Class			= "Mortar"
@@ -1127,10 +1364,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "375"
 
 		DamageType			= "PIERCING"
-		InitialVelocity		= "122"
-		BlastWavePrototype	= "155mmBlastWave"
+		InitialVelocity		= "128"
+		BlastWavePrototype	= "155mmAPBlastWave"
 
-		Damage			= "250"
+		Damage			= "260"
 		FiringRate		= "275"
 		ChargeSize		= "3"
 		RechargingTime	= "9"
@@ -1287,6 +1524,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "14"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin203CD02"
+		ModelFile		= "mun_twin203CD01"
+		ResourceType	= "TWIN203MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "203mmCDshell"
+		ExplosionType		= "GRENADE"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "110"
+		BlastWavePrototype	= "203mmAPBlastWave"
+
+		Damage			= "335"
+		FiringRate		= "190"
+		ChargeSize		= "2"
+		RechargingTime	= "12.5"
+
+		FiringRange		= "1100"
+		ActionDist		= "1200"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "28"
+		Durability		= "14"
+		Price			= "13310" />
+
 <!-- coastal artillery -->
 	<Prototype
 		Class			= "Mortar"
@@ -1306,10 +1577,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
-		InitialVelocity		= "108"
-		BlastWavePrototype	= "203mmBlastWave"
+		InitialVelocity		= "116"
+		BlastWavePrototype	= "203mmAPBlastWave"
 
-		Damage			= "400"
+		Damage			= "370"
 		FiringRate		= "190"
 		ChargeSize		= "2"
 		RechargingTime	= "10"
@@ -1525,6 +1796,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "21"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple406CIT02"
+		ModelFile		= "mun_triple406CIT01"
+		ResourceType	= "TRIPLE406MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "406mmCITshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "123"
+		BlastWavePrototype	= "406mmAPBlastWave"
+
+		Damage			= "900"
+		FiringRate		= "180"
+		ChargeSize		= "3"
+		RechargingTime	= "17.5"
+
+		FiringRange		= "1400"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "12"
+		Durability		= "21"
+		Price			= "13310" />
+
 
 <!-- QUADRUPLE 380 MM CIT BATLLESHIP GUN -->
 
@@ -1595,6 +1900,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "380mmBlastWave"
 
 		Damage			= "725"
+		FiringRate		= "220"
+		ChargeSize		= "4"
+		RechargingTime	= "19"
+
+		FiringRange		= "1350"
+		ActionDist		= "1450"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "10"
+		Durability		= "21"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_quadruple380CIT02"
+		ModelFile		= "mun_quadruple380CIT01"
+		ResourceType	= "QUADRUPLE380MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "380mmCITshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "124"
+		BlastWavePrototype	= "380mmAPBlastWave"
+
+		Damage			= "790"
 		FiringRate		= "220"
 		ChargeSize		= "4"
 		RechargingTime	= "19"
@@ -1689,6 +2028,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "21"
 		Price			= "13310" />
 
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple457CIT02"
+		ModelFile		= "mun_triple457CIT01"
+		ResourceType	= "TRIPLE457MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "457mmCITshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "457mmAPBlastWave"
+
+		Damage			= "1400"
+		FiringRate		= "200"
+		ChargeSize		= "3"
+		RechargingTime	= "22.5"
+
+		FiringRange		= "1550"
+		ActionDist		= "1700"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "9"
+		Durability		= "21"
+		Price			= "13310" />
+
 
 <!-- TWIN 130 MM CIT DESTROYER GUN -->
 
@@ -1747,6 +2120,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "130mmBlastWave"
 
 		Damage			= "140"
+		FiringRate		= "175"
+		ChargeSize		= "2"
+		RechargingTime	= "6.5"
+
+		FiringRange		= "700"
+		ActionDist		= "750"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "60"
+		Durability		= "10"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin130CIT02"
+		ModelFile		= "mun_twin130CIT01"
+		ResourceType	= "TWIN130MMCIT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "130mmCITshell"
+		ExplosionType		= "CANNON"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "135"
+		BlastWavePrototype	= "130mmAPBlastWave"
+
+		Damage			= "160"
 		FiringRate		= "175"
 		ChargeSize		= "2"
 		RechargingTime	= "6.5"
@@ -1833,6 +2240,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "356mmBlastWave"
 
 		Damage			= "600"
+		FiringRate		= "210"
+		ChargeSize		= "2"
+		RechargingTime	= "18"
+
+		FiringRange		= "1300"
+		ActionDist		= "1400"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "15"
+		Durability		= "19"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_twin356CD02"
+		ModelFile		= "mun_twin356CD01"
+		ResourceType	= "TWIN356MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "356mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "125"
+		BlastWavePrototype	= "356mmAPBlastWave"
+
+		Damage			= "690"
 		FiringRate		= "210"
 		ChargeSize		= "2"
 		RechargingTime	= "18"
@@ -1995,6 +2436,40 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BlastWavePrototype	= "406mmBlastWave"
 
 		Damage			= "780"
+		FiringRate		= "230"
+		ChargeSize		= "3"
+		RechargingTime	= "22"
+
+		FiringRange		= "1400"
+		ActionDist		= "1500"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "13"
+		Durability		= "21"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "mun_triple406CD02"
+		ModelFile		= "mun_triple406CD01"
+		ResourceType	= "TRIPLE406MMCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		
+		BulletPrototype		= "406mmCDshell"
+		ExplosionType		= "BLAST"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		InitialVelocity		= "123"
+		BlastWavePrototype	= "406mmAPBlastWave"
+
+		Damage			= "860"
 		FiringRate		= "230"
 		ChargeSize		= "3"
 		RechargingTime	= "22"

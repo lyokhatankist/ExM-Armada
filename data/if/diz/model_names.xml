@@ -837,6 +837,11 @@
 		value="130-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_single130CIT02"
+		locForm="0"
+		value="130-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="DestroyerCIT01"
 		locForm="0"
 		value="Ëèîí" />
@@ -855,6 +860,11 @@
 		id="mun_single138CIT01"
 		locForm="0"
 		value="138-ìì  ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_single138CIT02"
+		locForm="0"
+		value="138-ìì  ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="DestroyerCIT02"
@@ -902,6 +912,11 @@
 		value="127-ìì ÎÔ (ÀÐ)" />
 
 	<Item
+		id="mun_twin127CD02"
+		locForm="0"
+		value="127-ìì ÁÁ (ÀÐ)" />
+
+	<Item
 		id="DestroyerCD01"
 		locForm="0"
 		value="Àëüáåäî" />
@@ -920,6 +935,11 @@
 		id="mun_twin135CD01"
 		locForm="0"
 		value="135-ìì ÎÔ (ÀÐ)" />
+
+	<Item
+		id="mun_twin135CD02"
+		locForm="0"
+		value="135-ìì ÁÁ (ÀÐ)" />
 
 	<Item
 		id="DestroyerCD02"
@@ -982,6 +1002,11 @@
 		value="152-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_twin152CIT02"
+		locForm="0"
+		value="152-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="OCruiserCIT01"
 		locForm="0"
 		value="Ýãàëü" />
@@ -1007,6 +1032,11 @@
 		value="155-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_triple155CIT02"
+		locForm="0"
+		value="155-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="OCruiserCIT02"
 		locForm="0"
 		value="Ýãàëü" />
@@ -1020,6 +1050,11 @@
 		id="mun_triple152CIT01"
 		locForm="0"
 		value="152-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_triple152CIT02"
+		locForm="0"
+		value="152-ìì ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="HCruiserCD"
@@ -1055,6 +1090,11 @@
 		id="mun_twin203CD01"
 		locForm="0"
 		value="203-ìì ÎÔ (ÀÐ)" />
+
+	<Item
+		id="mun_twin203CD02"
+		locForm="0"
+		value="203-ìì ÁÁ (ÀÐ)" />
 
 	<Item
 		id="HCruiserCD01"
@@ -1117,6 +1157,11 @@
 		value="406-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_triple406CIT02"
+		locForm="0"
+		value="406-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="BattleshipCIT01"
 		locForm="0"
 		value="Ëèáðèóì" />
@@ -1135,6 +1180,11 @@
 		id="mun_quadruple380CIT01"
 		locForm="0"
 		value="380-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_quadruple380CIT02"
+		locForm="0"
+		value="380-ìì ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="BattleshipCIT02"
@@ -1157,6 +1207,11 @@
 		value="457-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_triple457CIT02"
+		locForm="0"
+		value="457-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="twin130CIT01"
 		locForm="0"
 		value="130-ìì ÀÓ-II (ÑÍÃ)" />
@@ -1165,6 +1220,11 @@
 		id="mun_twin130CIT01"
 		locForm="0"
 		value="130-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_twin130CIT02"
+		locForm="0"
+		value="130-ìì ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="BossCIT01"
@@ -1202,6 +1262,11 @@
 		value="356-ìì ÎÔ (ÀÐ)" />
 
 	<Item
+		id="mun_twin356CD02"
+		locForm="0"
+		value="356-ìì ÁÁ (ÀÐ)" />
+
+	<Item
 		id="mun_twin356CD03"
 		locForm="0"
 		value="356-ìì ÇÑ (ÀÐ)" />
@@ -1225,6 +1290,11 @@
 		id="mun_triple406CD01"
 		locForm="0"
 		value="406-ìì ÎÔ (ÀÐ)" />
+
+	<Item
+		id="mun_triple406CD02"
+		locForm="0"
+		value="406-ìì ÁÁ (ÀÐ)" />
 
 	<Item
 		id="BattleshipCD02"

@@ -138,6 +138,116 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
 
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "127mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1600.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "130mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1950.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "135mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1900.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "138mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "2100.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "152mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "2500.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "155mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "2700.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "203mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "3700.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "356mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "5900.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "380mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "6700.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "406mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "7300.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "457mmAPBlastWave"
+
+                Radius                  = "2.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "10300.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "nursBlastWave"
                 Effect                  = "ET_PS_AIRWAVE2"
 
