@@ -1352,6 +1352,11 @@
 		value="ПКТ" />
 
 	<Item
+		id="CoastAAMed01"
+		locForm="0"
+		value="Орудие" />
+
+	<Item
 		id="CITCoastMed01"
 		locForm="0"
 		value="Орудие" />

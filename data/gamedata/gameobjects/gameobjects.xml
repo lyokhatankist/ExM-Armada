@@ -173,6 +173,12 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name = "Dots">
 		<Prototype 
 			Class		= "VehiclePart"
+			Name		= "coastaamed"
+			ModelFile	= "coastaamed"
+			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+
+		<Prototype 
+			Class		= "VehiclePart"
 			Name		= "coastmed"
 			ModelFile	= "coastmed"
 			ResourceType	= "STATIC_AUTO_GUN_DOT" />
@@ -242,6 +248,28 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	</Folder>
 	
 	<Folder Name = "StaticAutoGuns">
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "CoastAAMed01"
+
+			DestroyedModel	= "coastaamed"
+
+			LookRadius		= "760"
+			MaxHealth		= "3000"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT">
+				<PartDescription id = "CANNON"
+								 partResourceType 	= "SMALL_GUN"
+								 lpName 		= "LP_GUN" />
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "coastaamed" />
+				<Part id = "CANNON"	Prototype = "dot_AA47mmCannon01" />
+			</Parts>
+		</Prototype>
+
 		<Prototype
 			Class			= "StaticAutoGun"
 			Name			= "CITCoastMed01"

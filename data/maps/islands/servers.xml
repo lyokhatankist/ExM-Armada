@@ -1018,6 +1018,10 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="coastaamed" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="coastmed" 
 			file="data\models\AnimModels.xml"/>
 <!--

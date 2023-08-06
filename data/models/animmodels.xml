@@ -9933,6 +9933,13 @@
 		trans="0" />
 
 	<model
+		id="coastaamed"
+		file="data\models\battleship\environment\coastaamed.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />	
+
+	<model
 		id="coastmed"
 		file="data\models\battleship\environment\coastmed.gam"
 		shadow="0"

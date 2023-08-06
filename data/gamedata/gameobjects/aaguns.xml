@@ -32,7 +32,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "6"
 		RechargingTime	= "7.5"
 
-		FiringRange		= "500"
+		FiringRange		= "650"
 		GroupingAngle	= "0.1"
 		
 		TurningSpeed	= "50"
@@ -48,7 +48,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity		= "2500"
 		Acceleration	= "1000"
-		FlyTime		= "1"
+		FlyTime		= "1.12"
 		Size			= "0.5 0.5 1"
 	/>
 
@@ -186,6 +186,51 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "8" 
 		Price			= "32900" />
 
+<!-- coastal artillery -->
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "dot_AA47mmCannon01"
+		ModelFile		= "AA47mmCannon01"
+		ResourceType	= "MEDANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_LASER"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+
+		BulletPrototype		= "dot_47mmAAshell"
+		ExplosionType		= "AUTOCANNON"
+		FiringType			= "Plasma"
+		RecoilForce			= "50"
+		
+		BlastWavePrototype	= "47mmBlastWave"
+
+		Damage			= "30"
+		FiringRate		= "200"
+		ChargeSize		= "6"
+		RechargingTime	= "6"
+
+		FiringRange		= "800"
+		GroupingAngle	= "0.1"
+		
+		TurningSpeed	= "50"
+		Durability		= "10"
+		Price			= "174000" />
+
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "dot_47mmAAshell"		
+	
+		ModelFile		= "shell_sml"
+		ExplosionType	= "AUTOCANNON" 
+
+		Velocity		= "2500"
+		Acceleration	= "1000"
+		FlyTime		= "1.3"
+		Size			= "0.5 0.5 1"
+	/>
 			
 
 <!-- CD Small Boat -->
@@ -326,6 +371,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		TurningSpeed	= "85"
 		Durability		= "3"
 		Price			= "9870" />
+
 
 <!-- CIT Helicopter-->
 
