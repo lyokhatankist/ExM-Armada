@@ -1327,6 +1327,31 @@
 		value="Сухогруз" />
 
 	<Item
+		id="LavCIT"
+		locForm="0"
+		value="Варан" />
+
+	<Item
+		id="lavCITEngine"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
+		id="lavCITArmanent"
+		locForm="0"
+		value="Боевое отделение" />
+
+	<Item
+		id="LavCIT01"
+		locForm="0"
+		value="Варан" />
+
+	<Item
+		id="lavCITMachinegun01"
+		locForm="0"
+		value="КПВТ" />
+
+	<Item
 		id="LavCD"
 		locForm="0"
 		value="Скорпион" />

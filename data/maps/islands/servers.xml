@@ -988,6 +988,24 @@
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
 
+		
+
+		<Item 
+			id="lavCITWheel" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCITHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCITMachinegun01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="lavCITMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
 		<Item 
 			id="lavCDWheel" 
 			file="data\models\AnimModels.xml"/>

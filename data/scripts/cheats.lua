@@ -288,6 +288,26 @@ function mer2(vae)
 	end
 end
 
+function lav1(vae)
+	if testcheat()~=1 then return end
+	local jop = 1
+	if vae then
+		jop = vae
+	end
+	if jop == 1 then
+		CreateEnemy("LavCIT01")
+	elseif jop == 2 then
+		pl = GetPlayerVehicle()
+		pos = GetCameraPos()
+		plPos = pl:GetPosition()
+		teamNamae = "lavGroup"..random(99999)
+		TeamCreate(teamNamae, 1002, pos, {"LavCIT01","LavCIT01"}, plPos, 1)
+		println(teamNamae.." (CIT); "..pos)
+	else
+		AddPlayerVehicle("LavCIT01")
+	end
+end
+
 function lav2(vae)
 	if testcheat()~=1 then return end
 	local jop = 1

@@ -23,6 +23,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "BATTLESHIPCIT_CHASSIS" />
 			<Type Name = "BATTLESHIPCD_CHASSIS" />
 			<Type Name = "MERCHANTCD_CHASSIS" />
+			<Type Name = "LAVCIT_CHASSIS" />
 			<Type Name = "LAVCD_CHASSIS" />
 		</Type>
 		
@@ -38,6 +39,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "BATTLESHIPCIT_CABIN" />
 			<Type Name = "BATTLESHIPCD_CABIN" />
 			<Type Name = "MERCHANTCD_CABIN" />
+			<Type Name = "LAVCIT_CABIN" />
 			<Type Name = "LAVCD_CABIN" />
 		</Type>
 		
@@ -52,6 +54,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			<Type Name = "BATTLESHIPCIT_BASKET" />
 			<Type Name = "BATTLESHIPCD_BASKET" />
 			<Type Name = "MERCHANTCD_BASKET" />
+			<Type Name = "LAVCIT_BASKET" />
 			<Type Name = "LAVCD_BASKET" />
 			<Type Name = "FAKE_BASKET" />
 		</Type>

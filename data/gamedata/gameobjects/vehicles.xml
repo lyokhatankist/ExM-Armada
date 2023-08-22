@@ -1573,6 +1573,71 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class				= "Vehicle"
+		Name				= "LavCIT"
+		ResourceType		= "VEHICLE"
+
+		CameraHeight		= "1.5"
+		CameraMaxDist		= "13"
+
+		DiffRatio			= "3.0"
+		MaxEngineRpm		= "4000"
+		LowGearShiftLimit	= "1870"
+		HighGearShiftLimit	= "3240"
+		SteeringSpeed		= "0.98"
+		DriftCoeff			= "0.8"
+		SelfBrakingCoeff	= "0.000000001"
+		
+		AdditionalWheelsHover = "0.01"
+
+		PressingForce		= "2.55"
+		MassSize			= "0.05 1.1 12.5"
+		MassTranslation		= "0 -0.75 0"
+
+		DecisionMatrix		= "vehiclemain.lua"
+		LookRadius			= "215.0"
+		IntersectionRadius	= "10.0"
+		TakingRadius		= "30.0"
+
+		HornSound				= "ET_S_HORN01"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+
+		Abstract 			= "true" >
+
+		<MainPartDescription	id = "CHASSIS"					partResourceType = "LAVCIT_CHASSIS">
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
+			<PartDescription	id = "CABIN"					partResourceType = "LAVCIT_CABIN"		lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "LAVCIT_BASKET"		lpName = "LP_CAB01" />
+		</MainPartDescription>
+ 
+		<Parts>
+			<Part id = "CHASSIS" Prototype = "lavCITHull" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "lavCITWheel" steering = "correct" />
+			<Wheel Prototype = "lavCITWheel" steering = "correct" />
+			<Wheel Prototype = "lavCITWheel" />
+			<Wheel Prototype = "lavCITWheel" />
+		</Wheels>
+	</Prototype>
+
+	<Prototype
+		Class					= "Vehicle"
+		Name					= "LavCIT01"
+		ParentPrototype 		= "LavCIT"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "lavCITMachinegun01" />
+			<Part id = "CABIN"						Prototype = "lavCITEngine" />
+			<Part id = "BASKET"						Prototype = "lavCITArmanent" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class				= "Vehicle"
 		Name				= "LavCD"
 		ResourceType		= "VEHICLE"
 
@@ -1607,10 +1672,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Abstract 			= "true" >
 
 		<MainPartDescription	id = "CHASSIS"					partResourceType = "LAVCD_CHASSIS">
-			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"		lpName = "LP_SML01" />
-			<PartDescription	id = "CHASSIS_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"		lpName = "LP_FLYGUN01" />
-			<PartDescription	id = "CABIN"					partResourceType = "LAVCD_CABIN"		lpName = "LP_CAB01" />	
-			<PartDescription	id = "BASKET"					partResourceType = "LAVCD_BASKET"		lpName = "LP_CAB01" />
+			<PartDescription	id = "CHASSIS_SMALL_GUN_1"		partResourceType = "SMLBOATCD_GUN"			lpName = "LP_SML01" />
+			<PartDescription	id = "CHASSIS_SPECIAL_WEAPON_1"	partResourceType = "FASTBOATCITANTIAIR_GUN"	lpName = "LP_FLYGUN01" />
+			<PartDescription	id = "CABIN"					partResourceType = "LAVCD_CABIN"			lpName = "LP_CAB01" />	
+			<PartDescription	id = "BASKET"					partResourceType = "LAVCD_BASKET"			lpName = "LP_CAB01" />
 		</MainPartDescription>
  
 		<Parts>

@@ -288,12 +288,32 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class			= "Chassis"
+			Name			= "lavCITHull"
+			ModelFile		= "lavCITHull"
+			ResourceType	= "LAVCIT_CHASSIS"
+			NodeScale		= "1 1 1"
+			Mass			= "15.0" 			
+			MaxHealth		= "300" 
+			MaxFuel			= "1000"
+			
+			BrakingSound	= "ET_S_BRAKE01"
+			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
+			GearShiftSound	= "ET_S_GEAR_SHIFT01"
+			LoadPoints		= "LP_CAB01 LP_SML01" >
+
+			<GroupsHealth
+				Main = "10000"	
+			/>
+		</Prototype>
+
+		<Prototype
+			Class			= "Chassis"
 			Name			= "lavCDHull"
 			ModelFile		= "lavCDHull"
 			ResourceType	= "LAVCD_CHASSIS"
 			NodeScale		= "1 1 1"
 			Mass			= "15.0" 			
-			MaxHealth		= "300" 
+			MaxHealth		= "375" 
 			MaxFuel			= "1000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
@@ -775,6 +795,38 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			EngineHighSound				= "ET_S_ENGINE_SMLSHIP"
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount		= "4" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount		= "3" />              
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "lavCITEngine"
+			ModelFile					= "point"
+			ResourceType				= "LAVCIT_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.05"
+
+			Mass						= "5.0"
+			Durability					= "0"
+			DurCoeffsForDamageTypes		= "30 10 0"
+			MaxPower					= "1"
+			MaxTorque					= "17"
+			MaxSpeed					= "103.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_SMLWHEELED"
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 
 			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
@@ -2339,6 +2391,27 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
+			Name						= "lavCITArmanent"
+			ModelFile					= "point"
+			ResourceType				= "LAVCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "2.0" 
+			Durability					= "25"
+			DurCoeffsForDamageTypes		= "20 10 5"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "2 2">
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
 			Name						= "lavCDArmanent"
 			ModelFile					= "point"
 			ResourceType				= "LAVCD_BASKET"
@@ -2422,6 +2495,21 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class					= "Wheel"
+			Name					= "lavCITWheel"
+			ModelFile				= "lavCITWheel"
+			NodeScale				= "1 1 1"
+
+			Mass					= "5.0"
+			SuspensionModelFile		= "point"
+			SuspensionCFM			= "0.005"
+			SuspensionERP			= "0.125"
+			SuspensionRange			= "0.000001"
+			mU						= "1.0"
+			
+			EffectType				= "SMALLWHEEL" />
+
+		<Prototype
+			Class					= "Wheel"
 			Name					= "lavCDWheel"
 			ModelFile				= "lavCDWheel"
 			NodeScale				= "1 1 1"
@@ -2433,7 +2521,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			SuspensionRange			= "0.000001"
 			mU						= "1.0"
 			
-			EffectType				= "SHIPWHEEL" />
+			EffectType				= "SMALLWHEEL" />
 	</Folder>
 
 

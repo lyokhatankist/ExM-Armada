@@ -9819,6 +9819,49 @@
 	</model>
 
 	<model
+		id="lavCITWheel"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\wheel.gam" />
+
+	<model
+		id="lavCITHull"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\hull.gam">
+	</model>
+
+	<model
+		id="lavCITMachinegun01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\machinegun01.gam" />
+
+	<model
+		id="lavCITMachinegun01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\machinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_KPVT_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="lavCDWheel"
 		shadow="1"
 		windwavy="0"

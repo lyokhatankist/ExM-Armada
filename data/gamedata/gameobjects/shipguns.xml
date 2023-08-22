@@ -2483,6 +2483,41 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Price			= "13310" />
 
 
+<!-- |||||||||||||||| CIT LAV |||||||||||||||| -->
+
+		
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "lavCITMachinegun01"
+		ModelFile		= "lavCITMachinegun01"
+		ResourceType	= "SMLBOATCD_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "400"
+
+		DamageType			= "BLAST"
+
+		Damage			= "6"
+		FiringRate		= "500"
+		ChargeSize     	= "80"
+		RechargingTime 	= "5"
+
+		FiringRange		= "600"
+		GroupingAngle	= "2"
+
+		TurningSpeed	= "95"
+		Durability		= "3" 
+		Price			= "32900" />
+
+
 <!-- |||||||||||||||| CD LAV |||||||||||||||| -->
 
 		
@@ -2501,7 +2536,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		BulletPrototype		= "raybullet"
 		ExplosionType		= "MACHINEGUN"
 		FiringType			= "MachineGun"
-		RecoilForce			= "600"
+		RecoilForce			= "200"
 
 		DamageType			= "BLAST"
 
