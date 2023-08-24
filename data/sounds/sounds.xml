@@ -63,13 +63,13 @@
 
 	<model
 		id="S_ENGINE_SMLBOAT"
-		file="data\sounds\Driving\Motors\formula_driving_high.wav"
+		file="data\sounds\Driving\Motors\truck17(baggy)_high.wav"
 		group="ENGINE_SML"
 		/>
 
 	<model
 		id="S_ENGINE_BOAT"
-		file="data\sounds\Driving\Motors\truck06_high.wav"
+		file="data\sounds\Driving\Motors\truck01_high.wav"
 		group="ENGINE_SML"
 		/>
 

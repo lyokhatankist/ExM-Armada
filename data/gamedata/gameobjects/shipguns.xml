@@ -145,17 +145,17 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		InitialVelocity		= "110"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Damage				= "12"
+		Damage				= "45"
 		FiringRate			= "170"
-		ChargeSize     		= "8"
-		RechargingTime 		= "2"
+		ChargeSize     		= "16"
+		RechargingTime 		= "30"
 
 		FiringRange			= "450"
 		ActionDist			= "600"	
 		GroupingAngle		= "0.75"	
 
-		ShellsPoolSize		= "8"
-		WithShellsPoolLimit	= "true"
+		ShellsPoolSize		= "48"
+		WithShellsPoolLimit	= "false"
 
 		TurningSpeed		= "50"
 		Durability			= "2"
@@ -203,13 +203,13 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		DamageType			= "PIERCING"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
-		Damage			= "750"
+		Damage			= "1000"
 		FiringRate		= "100"
 		ChargeSize     	= "2"
 		RechargingTime	= "25"
 
 		FiringRange		= "350"
-		ActionDist		= "1000"	
+		ActionDist		= "1500"	
 		GroupingAngle	= "1"
 
 		ShellsPoolSize		= "4"
@@ -218,7 +218,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		TurningSpeed		= "0"
 		Durability			= "6"
 		Price				= "53408" />
-
+ 
 	<Prototype
 		Class					= "Rocket"
 		Name					= "torpedo01"
@@ -227,10 +227,10 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Price			= "1000"
 
-		Velocity			= "40"
+		Velocity			= "60"
 		Acceleration		= "150"
 		MinTurningRadius	= "20000"
-		FlyTime				= "13.75"
+		FlyTime				= "18.75"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Mass			= "0.001"

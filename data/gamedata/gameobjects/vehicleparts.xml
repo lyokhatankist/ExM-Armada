@@ -405,7 +405,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "5"
 			DurCoeffsForDamageTypes		= "35 5 0"
 			MaxPower					= "1"
-			MaxTorque					= "35"
+			MaxTorque					= "115"
 			MaxSpeed					= "72.0"
 			Price						= "1500"
 
@@ -437,7 +437,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "5"
 			DurCoeffsForDamageTypes		= "30 20 5"
 			MaxPower					= "1"
-			MaxTorque					= "25"
+			MaxTorque					= "80"
 			MaxSpeed					= "50.0"
 			Price						= "1500"
 
@@ -469,7 +469,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Durability					= "20"
 			DurCoeffsForDamageTypes		= "25 15 10"
 			MaxPower					= "2"
-			MaxTorque					= "80"
+			MaxTorque					= "260"
 			MaxSpeed					= "107.0"
 			Price						= "1500"
 
@@ -2451,10 +2451,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class					= "Wheel"
 			Name					= "boatWheel"
-			ModelFile				= "boatWheel"
+			ModelFile				= "shipWheel"
 			NodeScale				= "1 1 1"
 
-			Mass					= "60.0"
+			Mass					= "40.0"
 			SuspensionModelFile		= "point"
 			SuspensionCFM			= "0.005"
 			SuspensionERP			= "2.0"
@@ -2466,10 +2466,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class					= "Wheel"
 			Name					= "stillboatWheel"
-			ModelFile				= "boatWheel"
+			ModelFile				= "shipWheel"
 			NodeScale				= "1 1 1"
 
-			Mass					= "120.0"
+			Mass					= "80.0"
 			SuspensionModelFile		= "point"
 			SuspensionCFM			= "0.00001"
 			SuspensionERP			= "2.0"

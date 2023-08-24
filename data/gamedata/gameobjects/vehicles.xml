@@ -262,17 +262,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraHeight		= "2.9"
 		CameraMaxDist		= "20"
 
-		DiffRatio			= "2.0"
-		MaxEngineRpm		= "35000"
-		LowGearShiftLimit	= "19000"
-		HighGearShiftLimit	= "28000"
+		DiffRatio			= "12.0"
+		MaxEngineRpm		= "3500"
+		LowGearShiftLimit	= "1900"
+		HighGearShiftLimit	= "2800"
 		SteeringSpeed		= "0.8"
 		DriftCoeff			= "0.01"
 		SelfBrakingCoeff	= "0.000000001"
 		
-		AdditionalWheelsHover = "19.13"
+		AdditionalWheelsHover = "18.23"
 
-		PressingForce		= "1.0"
+		PressingForce		= "0.5"
 		MassSize			= "4 4.5 4"
 		MassTranslation		= "0.0 0.0 0.0"
 
@@ -343,17 +343,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraHeight		= "3.3"
 		CameraMaxDist		= "20"
 
-		DiffRatio			= "2.0"
-		MaxEngineRpm		= "23300"
-		LowGearShiftLimit	= "12600"
-		HighGearShiftLimit	= "18600"
+		DiffRatio			= "12.0"
+		MaxEngineRpm		= "2330"
+		LowGearShiftLimit	= "1260"
+		HighGearShiftLimit	= "1860"
 		SteeringSpeed		= "0.8"
 		DriftCoeff			= "0.01"
 		SelfBrakingCoeff	= "0.000000001"
 		
-		AdditionalWheelsHover = "19.13"
+		AdditionalWheelsHover = "18.13"
 
-		PressingForce		= "1.0"
+		PressingForce		= "0.5"
 		MassSize			= "4 4.5 4"
 		MassTranslation		= "0.0 0.0 0.0"
 
@@ -424,17 +424,17 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		CameraHeight		= "3.4"
 		CameraMaxDist		= "30"
 
-		DiffRatio			= "2.0"
-		MaxEngineRpm		= "50000"
-		LowGearShiftLimit	= "27000"
-		HighGearShiftLimit	= "38000"
+		DiffRatio			= "12.0"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "2700"
+		HighGearShiftLimit	= "3800"
 		SteeringSpeed		= "0.6"
 		DriftCoeff			= "0.9"
 		SelfBrakingCoeff	= "0.000000001"
 		
-		AdditionalWheelsHover = "19.17"
+		AdditionalWheelsHover = "18.27"
 
-		PressingForce		= "1.0"
+		PressingForce		= "0.5"
 		MassSize			= "100 10 400"
 		MassTranslation		= "0.0 0.0 0.0"
 

@@ -68,7 +68,7 @@
 
 		<group
 			id		= "ENGINE_SML"
-			volume	= "85" 
+			volume	= "97" 
 			minDist	= "20"
 		/>
 
