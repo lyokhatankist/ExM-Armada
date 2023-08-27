@@ -10,12 +10,12 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		Class 			= "VehicleRoleMeat"
 		Name                    = "MeatRole"
 	/>
-	
+<!--
 	<Prototype
 		Class 			= "VehicleRoleSniper"
 		Name                    = "SniperRole"
 	/>
-
+-->	
 	<Prototype
 		Class 			= "VehicleRoleOppressor"
 		Name                    = "OppressorRoleLeft"
@@ -173,7 +173,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="CowardRole"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "TestTeamTactic"
@@ -188,7 +188,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="OppressorRoleBottom"/>
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->	
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "MeatTeamTactic"
@@ -198,7 +198,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="MeatRole"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "MeatTeamTacticWithSniper"
@@ -210,7 +210,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="MeatRole"/>
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->	
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "BoxTactic"
