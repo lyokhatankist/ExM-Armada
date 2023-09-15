@@ -1057,6 +1057,7 @@
 		<Item id="S_SHOOTING_HAMMER" />
 
 		<Item id="S_SHOOTING_CRUISERSAM" />
+		<Item id="S_SHOOTING_BATTLESHIPMOD2" />
 
 <!-- Explosions --> 
 
@@ -1116,6 +1117,7 @@
 		<Item id="S_WATER_EXPL" />
 		<Item id="S_STATIC_EXPL" />
 		<Item id="S_CAR_EXPL" />
+		<Item id="S_CAR_EXPL_AP" />
 		<Item id="S_ROAD_EXPL" />
 		<Item id="S_ROCK_EXPL" />
 		<Item id="S_SAND_EXPL" />
@@ -1169,6 +1171,16 @@
 		<Item id="S_GROUND_BL" />
 		<Item id="S_SAND_BL" />
 		<Item id="S_WOOD_BL" />
+
+<!-- Cruise shoothits -->
+
+		<Item id="S_WATER_CR" />
+		<Item id="S_STATIC_CR" />
+		<Item id="S_CAR_CR" />
+		<Item id="S_ROAD_CR" />
+		<Item id="S_ROCK_CR" />
+		<Item id="S_GROUND_CR" />
+		<Item id="S_WOOD_CR" />
 
 <!-- Environment -->
 

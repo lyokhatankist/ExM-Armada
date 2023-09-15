@@ -65,7 +65,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "mpadcitrocket01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -91,7 +91,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "mpadcitrocket01"
 		ModelFile		= "rocket_long01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_AP" 
 
 		Price		= "210"
 
@@ -117,7 +117,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "atgmcdrocket01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -143,7 +143,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "atgmcdrocket01"
 		ModelFile		= "rockets_big01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "210"
 
@@ -280,7 +280,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "atgmcdrocket01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -350,7 +350,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "mpadcitrocket01"
-		ExplosionType		= "AUTOCANNON"
+		ExplosionType		= "SMLBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -389,7 +389,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "nurs01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 
 		FiringRate		= "0"
@@ -443,7 +443,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "nurs01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 		RecoilForce			= "1200"
 
@@ -469,7 +469,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "PlasmaBunch"
 		Name			= "nurs01"		
 		ModelFile		= "rocket_long01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "210"
 		
@@ -493,7 +493,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "charybdis01"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -519,7 +519,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "charybdis01"
 		ModelFile		= "rockets_big01"
-		ExplosionType	= "GRENADE" 
+		ExplosionType	= "MEDBLAST_AP" 
 
 		Price		= "210"
 
@@ -549,7 +549,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "naga01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 
 		FiringRate		= "0"
@@ -603,7 +603,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "naga01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "1200"
 
@@ -629,7 +629,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "naga01"
 		ModelFile		= "rocket_sml01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "210"
 

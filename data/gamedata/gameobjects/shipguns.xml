@@ -58,7 +58,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "atgmcdrocket01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -94,7 +94,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "atgmcdrocket01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -137,7 +137,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "true"
 
 		BulletPrototype		= "nurs02"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Artillery"
 		RecoilForce			= "1400"
 		
@@ -165,7 +165,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "MortarShell"
 		Name			= "nurs02"			
 		ModelFile		= "rocket_sml01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "300"	
 
@@ -196,7 +196,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo01"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -223,7 +223,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "torpedo01"
 		ModelFile				= "torpedo01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "MEDBLAST_AP" 
 
 		Price			= "1000"
 
@@ -289,7 +289,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo02"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -316,7 +316,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "torpedo02"
 		ModelFile				= "torpedo01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "MEDBLAST_AP" 
 
 		Price			= "1000"
 
@@ -343,7 +343,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo02"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -381,7 +381,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -406,7 +406,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "130mmCITshell"
 		ModelFile				= "shell_dest"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "MEDBLAST_HE"
 
 		Price			= "25"
 
@@ -427,7 +427,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -461,7 +461,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -497,7 +497,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "138mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -522,7 +522,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "138mmCITshell"
 		ModelFile				= "shell_dest"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "30"
 
@@ -543,7 +543,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "138mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -577,7 +577,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "138mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -619,7 +619,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo03"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "BIGBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -646,7 +646,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "torpedo03"
 		ModelFile				= "torpedo01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "BIGBLAST_AP" 
 
 		Price			= "1000"
 
@@ -674,7 +674,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "127mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -699,7 +699,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "127mmCDshell"
 		ModelFile				= "shell_dest"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "20"
 
@@ -720,7 +720,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "127mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -754,7 +754,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "127mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -790,7 +790,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "135mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -815,7 +815,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "135mmCDshell"
 		ModelFile				= "shell_dest"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "28"
 
@@ -836,7 +836,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "135mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -870,7 +870,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "135mmCDshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -913,7 +913,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo04"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -940,7 +940,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "torpedo04"
 		ModelFile				= "torpedo01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "MEDBLAST_AP" 
 
 		Price			= "1000"
 
@@ -970,7 +970,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1006,7 +1006,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "152mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1031,7 +1031,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "152mmCITshell"
 		ModelFile				= "shell_lcru"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "37"
 
@@ -1052,7 +1052,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "152mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1086,7 +1086,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "152mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1122,7 +1122,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "155mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1147,7 +1147,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "155mmCITshell"
 		ModelFile				= "shell_lcru"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "40"
 
@@ -1168,7 +1168,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "155mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1202,7 +1202,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "155mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1244,7 +1244,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "152mmCITshell2"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1269,7 +1269,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "152mmCITshell2"
 		ModelFile				= "shell_lcru"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "SMLBLAST_HE"
 
 		Price			= "40"
 
@@ -1290,7 +1290,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "152mmCITshell2"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1324,7 +1324,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "152mmCITshell2"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1359,7 +1359,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "152mmCITshell2"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "375"
 
@@ -1402,7 +1402,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "torpedo05"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -1429,7 +1429,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "torpedo05"
 		ModelFile				= "torpedo01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "MEDBLAST_AP" 
 
 		Price			= "1000"
 
@@ -1457,7 +1457,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "203mmCDshell"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1482,7 +1482,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "203mmCDshell"
 		ModelFile				= "shell_cru"
-		ExplosionType			= "GRENADE"
+		ExplosionType			= "MEDBLAST_HE"
 
 		Price			= "65"
 
@@ -1503,7 +1503,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "203mmCDshell"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1537,7 +1537,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "203mmCDshell"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1572,7 +1572,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "203mmCDshell"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1611,7 +1611,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "cruise_missile01"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "GNTBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -1638,7 +1638,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "cruise_missile01"
 		ModelFile				= "cruise_missile01"
-		ExplosionType			= "BLAST" 
+		ExplosionType			= "GNTBLAST_HE" 
 
 		Price			= "10000"
 
@@ -1668,7 +1668,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		WithAngleLimit			= "false"
 		
 		BulletPrototype		= "sam_missile01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "MEDBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "1"
 
@@ -1695,7 +1695,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "Rocket"
 		Name					= "sam_missile01"
 		ModelFile				= "sam_missile01"
-		ExplosionType			= "GRENADE" 
+		ExplosionType			= "MEDBLAST_HE" 
 
 		Price			= "750"
 
@@ -1729,7 +1729,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "406mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1754,7 +1754,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "406mmCITshell"
 		ModelFile				= "shell_bat"
-		ExplosionType			= "BLAST"
+		ExplosionType			= "BIGBLAST_HE"
 
 		Price			= "124"
 
@@ -1775,7 +1775,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "406mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1809,7 +1809,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "406mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1845,7 +1845,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "380mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1870,7 +1870,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "380mmCITshell"
 		ModelFile				= "shell_bat"
-		ExplosionType			= "BLAST"
+		ExplosionType			= "BIGBLAST_HE"
 
 		Price			= "108"
 
@@ -1891,7 +1891,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "380mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1925,7 +1925,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "380mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1961,7 +1961,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "457mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "GNTBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -1986,7 +1986,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "457mmCITshell"
 		ModelFile				= "shell_hbat"
-		ExplosionType			= "BLAST"
+		ExplosionType			= "BIGBLAST_HE"
 
 		Price			= "152"
 
@@ -2007,7 +2007,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "457mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "GNTBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2041,7 +2041,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "457mmCITshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "GNTBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2077,7 +2077,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2111,7 +2111,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2145,7 +2145,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "130mmCITshell"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2185,7 +2185,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "356mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2210,7 +2210,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "356mmCDshell"
 		ModelFile				= "shell_bat"
-		ExplosionType			= "BLAST"
+		ExplosionType			= "BIGBLAST_HE"
 
 		Price			= "118"
 
@@ -2231,7 +2231,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "356mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2265,7 +2265,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "356mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2381,7 +2381,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringEffect	= "none"
 
 		BulletPrototype		= "406mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2406,7 +2406,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class					= "MortarShell"
 		Name					= "406mmCDshell"
 		ModelFile				= "shell_bat"
-		ExplosionType			= "BLAST"
+		ExplosionType			= "BIGBLAST_HE"
 
 		Price			= "118"
 
@@ -2427,7 +2427,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "406mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_HE"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
@@ -2461,7 +2461,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "406mmCDshell"
-		ExplosionType		= "BLAST"
+		ExplosionType		= "BIGBLAST_AP"
         FiringType			= "Artillery"
 		RecoilForce			= "300"
 
