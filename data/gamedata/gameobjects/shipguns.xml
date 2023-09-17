@@ -1680,7 +1680,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize     	= "8"
 		RechargingTime	= "35"
 
-		FiringRange		= "2500"
+		FiringRange		= "1400"
 		ActionDist		= "2600"	
 		GroupingAngle	= "1"
 

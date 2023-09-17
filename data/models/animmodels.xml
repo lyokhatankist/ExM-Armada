@@ -1695,55 +1695,7 @@
 
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE"
+				effect_id="ET_PS_CRUISEMISSILE_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1758,55 +1710,7 @@
 
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE"
+				effect_id="ET_PS_CRUISEMISSILE_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1831,6 +1735,12 @@
 				effect_id="ET_PS_ROCKET_BIG_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -1844,6 +1754,12 @@
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_ROCKET_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -5862,14 +5778,14 @@
 		shadow="0"
 		windwavy="0"
 		file="data\models\battleship\vehicles\cd_hcruiser\samcd.gam">
-		<action
+<!-- 		<action
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
 				effect_id="ET_PS_CRUISERSAM_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-		</action>
+		</action> -->
 	</model>
 
 	<model

@@ -35,6 +35,7 @@
 
 	<ParticlesServer>
 <!-- battleship -->
+		<Item id="PS_BS_CRUISE_SMOKE" 			file="data\Effects\rockets\bs_cruise_smoke.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_GLOW" 		file="data\Effects\rockets\bs_rocket_small_glow.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_FLAME" 	file="data\Effects\rockets\bs_rocket_small_flame.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_SMOKE" 	file="data\Effects\rockets\bs_rocket_small_smoke.psys"/>	

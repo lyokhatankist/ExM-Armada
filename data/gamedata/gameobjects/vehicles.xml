@@ -432,7 +432,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		DriftCoeff			= "0.9"
 		SelfBrakingCoeff	= "0.000000001"
 		
-		AdditionalWheelsHover = "18.24"
+		AdditionalWheelsHover = "18.21"
 
 		PressingForce		= "0.5"
 		MassSize			= "100 10 400"

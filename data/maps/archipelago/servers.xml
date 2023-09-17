@@ -1243,8 +1243,17 @@
 		<Item id="S_TANK_SHOOT" />
 		<Item id="S_SHOOTING_HAMMER" />
 
-		<Item id="S_SHOOTING_CRUISERSAM" />
+		<!-- <Item id="S_SHOOTING_CRUISERSAM" /> -->
 		<Item id="S_SHOOTING_BATTLESHIPMOD2" />
+
+		<Item id="S_MG_HIT01" />
+		<Item id="S_MG_HIT02" />
+		<Item id="S_MG_HIT03" />
+		<Item id="S_MG_HIT04" />
+		<Item id="S_MG_HIT05" />
+		<Item id="S_MG_HIT06" />
+		<Item id="S_MG_HIT07" />
+		<Item id="S_MG_HIT08" />
 
 <!-- Explosions --> 
 
@@ -1269,7 +1278,7 @@
 <!-- Starting -->
 
 		<Item id="S_MISSILE_FLAME" />
-		<Item id="S_CRUISEMISSILE_FLAME" />
+		<Item id="S_CRUISE_FLAME" />
 
 <!-- Machinegun shoothits -->
 
@@ -1285,7 +1294,7 @@
 		<Item id="S_SAND04" />
 		<Item id="S_WOOD05" />
 
-		<Item id="S_VEH_HIT_BULLET01"/>
+<!-- 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
 		<Item id="S_VEH_HIT_BULLET03"/>
 		<Item id="S_VEH_HIT_BULLET04"/>
@@ -1297,7 +1306,7 @@
 		<Item id="S_VEH_HIT_BULLET10"/>
 		<Item id="S_VEH_HIT_BULLET11"/>
 		<Item id="S_VEH_HIT_BULLET12"/>
-		<Item id="S_VEH_HIT_BULLET13"/>
+		<Item id="S_VEH_HIT_BULLET13"/> -->
 
 <!-- Cannon shoothits -->
 
