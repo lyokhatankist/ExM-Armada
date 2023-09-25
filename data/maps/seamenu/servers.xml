@@ -917,6 +917,19 @@
 		<Item 
 			id="lavCDMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="buoy" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage01_dead" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02_dead" 
+			file="data\models\AnimModels.xml"/>
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
@@ -1022,7 +1035,7 @@
 		<Item id="S_TANK_SHOOT" />
 		<Item id="S_SHOOTING_HAMMER" />
 
-		<Item id="S_SHOOTING_CRUISERSAM" />
+<!-- 		<Item id="S_SHOOTING_CRUISERSAM" /> -->
 
 <!-- Explosions --> 
 
@@ -1047,7 +1060,7 @@
 <!-- Starting -->
 
 		<Item id="S_MISSILE_FLAME" />
-		<Item id="S_CRUISEMISSILE_FLAME" />
+		<Item id="S_CRUISE_FLAME" />
 
 <!-- Machinegun shoothits -->
 
@@ -1063,7 +1076,7 @@
 		<Item id="S_SAND04" />
 		<Item id="S_WOOD05" />
 
-		<Item id="S_VEH_HIT_BULLET01"/>
+<!-- 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
 		<Item id="S_VEH_HIT_BULLET03"/>
 		<Item id="S_VEH_HIT_BULLET04"/>
@@ -1075,7 +1088,7 @@
 		<Item id="S_VEH_HIT_BULLET10"/>
 		<Item id="S_VEH_HIT_BULLET11"/>
 		<Item id="S_VEH_HIT_BULLET12"/>
-		<Item id="S_VEH_HIT_BULLET13"/>
+		<Item id="S_VEH_HIT_BULLET13"/> -->
 
 <!-- Cannon shoothits -->
 

@@ -951,6 +951,19 @@
 		<Item 
 			id="lavCDMachinegun01gun" 
 			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="buoy" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage01_dead" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02_dead" 
+			file="data\models\AnimModels.xml"/>
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />

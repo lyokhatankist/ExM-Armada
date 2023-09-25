@@ -314,4 +314,27 @@
                 WaveForceIntensity      = "0.0"
                 WaveDamageIntensity     = "225.0"
         />
+
+<!-- veh exps -->
+        <Prototype
+                Class                   = "BlastWave"
+                Name                    = "heli01BlastWave"
+                Effect                  = "ET_PS_HELI01_EXPL"
+
+                Radius                  = "3.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1.0"
+        />
+
+                <Prototype
+                Class                   = "BlastWave"
+                Name                    = "heli02BlastWave"
+                Effect                  = "ET_PS_HELI02_EXPL"
+
+                Radius                  = "3.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1.0"
+        />
 </Prototypes>

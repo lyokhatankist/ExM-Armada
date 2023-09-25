@@ -1042,6 +1042,22 @@
 		<Item 
 			id="coastmed" 
 			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage01_static" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage01_dead" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02_static" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02_dead" 
+			file="data\models\AnimModels.xml"/>
 <!--
 		<Item 
 			id="mayak" 

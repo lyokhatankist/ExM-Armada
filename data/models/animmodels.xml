@@ -9906,18 +9906,74 @@
 		trans="0" />	
 
 	<model
-		id="helifuselage01_static"
+		id="heliFuselage01_static"
 		file="data\models\battleship\vehicles\helicopter\helifuselage01_static.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />	
 
 	<model
-		id="helifuselage02_static"
+		id="heliFuselage01_dead"
+		file="data\models\battleship\vehicles\helicopter\helifuselage01_dead.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" >
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliFuselage02_static"
 		file="data\models\battleship\vehicles\helicopter\helifuselage02_static.gam"
 		shadow="0"
 		windwavy="0"
 		trans="0" />	
+
+	<model
+		id="heliFuselage02_dead"
+		file="data\models\battleship\vehicles\helicopter\helifuselage02_dead.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" >
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
 <!--
 	<model
 		id="mayak"

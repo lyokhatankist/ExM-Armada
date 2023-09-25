@@ -84,6 +84,10 @@
 		<Item id="PS_BS_BIG_FIRE_SMOKE" 		file="data\Effects\guns\bs_big_fire_smoke.psys"/>
 		<Item id="PS_BS_GIANT_FIRE_SMOKE" 		file="data\Effects\guns\bs_giant_fire_smoke.psys"/>
 
+		<Item id="PS_BS_HELIDEATH_SMOKE"		file="data\Effects\venexps\bs_helideath_smoke.psys"/>
+		<Item id="PS_BS_HELIDEATH_HELI01"		file="data\Effects\venexps\bs_helideath_heli01.psys"/>
+		<Item id="PS_BS_HELIDEATH_HELI02"		file="data\Effects\venexps\bs_helideath_heli02.psys"/>
+
 <!-- vanilla -->
 		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>
 

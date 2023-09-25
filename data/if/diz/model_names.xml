@@ -1392,12 +1392,12 @@
 		value="Орудие" />
 
 	<Item
-		id="helifuselage01_static01"
+		id="heliFuselage01_static01"
 		locForm="0"
 		value="Кондор" />
 
 	<Item
-		id="helifuselage02_static01"
+		id="heliFuselage02_static01"
 		locForm="0"
 		value="Москито" />
 </ModelNames>

@@ -60,6 +60,14 @@
 	<file
 		name="roket_long01.dds"
 		path="data\models\ammo\roket_long01.dds" />
+
+	<file
+		name="dead.dds"
+		path="data\models\battleship\dead.dds" />
+
+	<file
+		name="glass.dds"
+		path="data\models\battleship\glass.dds" />
 		
 <!-- vanilla -->
 	<file

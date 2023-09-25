@@ -185,14 +185,14 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 		<Prototype 
 			Class		= "VehiclePart"
-			Name		= "helifuselage01_static"
-			ModelFile	= "helifuselage01_static" 
+			Name		= "heliFuselage01_static"
+			ModelFile	= "heliFuselage01_static" 
 			ResourceType	= "STATIC_AUTO_GUN_DOT" />
 
 		<Prototype 
 			Class		= "VehiclePart"
-			Name		= "helifuselage02_static"
-			ModelFile	= "helifuselage02_static" 
+			Name		= "heliFuselage02_static"
+			ModelFile	= "heliFuselage02_static" 
 			ResourceType	= "STATIC_AUTO_GUN_DOT" />
 <!--
 		<Prototype 
@@ -316,9 +316,9 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 		<Prototype
 			Class			= "StaticAutoGun"
-			Name			= "helifuselage01_static01"
+			Name			= "heliFuselage01_static01"
 
-			DestroyedModel	= "point"
+			DestroyedModel	= "heliFuselage01_dead"
 
 			LookRadius		= "20"
 			MaxHealth		= "500"
@@ -327,15 +327,15 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT" />
 
 			<Parts>
-				<Part id = "DOT"	Prototype = "helifuselage01_static" />
+				<Part id = "DOT"	Prototype = "heliFuselage01_static" />
 			</Parts>
 		</Prototype>
 
 		<Prototype
 			Class			= "StaticAutoGun"
-			Name			= "helifuselage02_static01"
+			Name			= "heliFuselage02_static01"
 
-			DestroyedModel	= "point"
+			DestroyedModel	= "heliFuselage02_dead"
 
 			LookRadius		= "20"
 			MaxHealth		= "250"
@@ -344,7 +344,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT" />
 
 			<Parts>
-				<Part id = "DOT"	Prototype = "helifuselage02_static" />
+				<Part id = "DOT"	Prototype = "heliFuselage02_static" />
 			</Parts>
 		</Prototype>
 <!--

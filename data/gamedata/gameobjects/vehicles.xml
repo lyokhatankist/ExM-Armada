@@ -38,6 +38,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "7.0"
 		TakingRadius		= "30.0"
 
+		BlastWave		= "heli01BlastWave"
+
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
 		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
@@ -158,6 +160,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "1200.0"
 		IntersectionRadius	= "7.0"
 		TakingRadius		= "30.0"
+
+		BlastWave		= "heli02BlastWave"
 
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
@@ -282,10 +286,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
-		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
+		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
+		DestroyEffectEnergy		= "ET_PS_BOAT_EXPL"
+		DestroyEffectWater		= "ET_PS_BOAT_EXPL"
 
 		Abstract 			= "true" >
 
@@ -363,10 +367,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
-		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
+		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
+		DestroyEffectEnergy		= "ET_PS_BOAT_EXPL"
+		DestroyEffectWater		= "ET_PS_BOAT_EXPL"
 
 		Abstract 			= "true" >
 
@@ -444,10 +448,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		TakingRadius		= "30.0"
 
 		HornSound				= "ET_S_HORN01"
-		DestroyEffectPiercing	= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectBlast		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectEnergy		= "ET_PS_VEH_EXP3_MED"
-		DestroyEffectWater		= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
+		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
+		DestroyEffectEnergy		= "ET_PS_BOAT_EXPL"
+		DestroyEffectWater		= "ET_PS_BOAT_EXPL"
 
 		Abstract 			= "true" >
 
