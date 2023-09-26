@@ -87,6 +87,12 @@
 		<Item id="PS_BS_HELIDEATH_SMOKE"		file="data\Effects\venexps\bs_helideath_smoke.psys"/>
 		<Item id="PS_BS_HELIDEATH_HELI01"		file="data\Effects\venexps\bs_helideath_heli01.psys"/>
 		<Item id="PS_BS_HELIDEATH_HELI02"		file="data\Effects\venexps\bs_helideath_heli02.psys"/>
+		<Item id="PS_BS_SHIPDEATH_SMALL_FIRE"	file="data\Effects\venexps\bs_shipdeath_small_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_SMALL_SMOKE"	file="data\Effects\venexps\bs_shipdeath_small_smoke.psys"/>
+		<Item id="PS_BS_SHIPDEATH_MED_FIRE"		file="data\Effects\venexps\bs_shipdeath_med_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_MED_SMOKE"	file="data\Effects\venexps\bs_shipdeath_med_smoke.psys"/>
+		<Item id="PS_BS_SHIPDEATH_BIG_FIRE"		file="data\Effects\venexps\bs_shipdeath_big_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_BIG_SMOKE"	file="data\Effects\venexps\bs_shipdeath_big_smoke.psys"/>
 
 <!-- vanilla -->
 		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>

@@ -45,31 +45,31 @@
 
 	<Node name="ET_PS_SHIPFIRE" multi="true">
 		<Node name="ET_PS_SHIPFIRE1" class="SgNode">
-			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
-			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN2" psNumEmitterMesh="-1" />
-			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
-			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_SMALL_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHIPDEATH_SMALL_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHIPDEATH_SMALL_SMOKE" psNumEmitterMesh="-1" />
+			<!-- <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/> -->
 		</Node>
 		<Node name="ET_PS_SHIPFIRE2" class="SgNode">
-			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL1_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_SMALL_SMOKE" psNumEmitterMesh="-1" />
 		</Node>
 		<Node name="ET_PS_SHIPFIRE3" class="SgNode">
-			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
-			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_MAIN2" psNumEmitterMesh="-1" />
-			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
-			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_SMALL_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHIPDEATH_MED_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHIPDEATH_MED_SMOKE" psNumEmitterMesh="-1" />
+			<!-- <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/> -->
 		</Node>
 		<Node name="ET_PS_SHIPFIRE4" class="SgNode">
-			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG1_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_BIG_SMOKE" psNumEmitterMesh="-1" />
 		</Node>
 		<Node name="ET_PS_SHIPFIRE5" class="SgNode">
-			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN1" psNumEmitterMesh="-1" />
-			<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN2" psNumEmitterMesh="-1" />
-			<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_SMOKE1" psNumEmitterMesh="-1" />
-			<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_BIG_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object2" class="SgParticlesNode" id="PS_BS_SHIPDEATH_BIG_FIRE" psNumEmitterMesh="-1" />
+			<Node name="Object3" class="SgParticlesNode" id="PS_BS_SHIPDEATH_BIG_SMOKE" psNumEmitterMesh="-1" />
+			<!-- <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/> -->
 		</Node>
 		<Node name="ET_PS_SHIPFIRE6" class="SgNode">
-			<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED1_SMOKE1" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_BS_SHIPDEATH_MED_SMOKE" psNumEmitterMesh="-1" />
 		</Node>
 	</Node>
 
@@ -412,7 +412,7 @@
 
 	<Node name="ET_PS_HELI01_EXPL" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_FIRE_BLAST_EXP" psNumEmitterMesh="-1" />
-		<Node name="Object2" class="SgParticlesNode" id="PS_BS_BIGBLAST_FLASH" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BS_GNTBLAST_FLASH" psNumEmitterMesh="-1" />
 		<Node name="Object3" class="SgParticlesNode" id="PS_BS_BIGBLAST_CLOUD" psNumEmitterMesh="-1" />
 		<Node name="Object4" class="SgParticlesNode" id="PS_BS_MEDBLAST_CLOUD" psNumEmitterMesh="-1" />
 		<Node name="Object5" class="SgParticlesNode" id="PS_BS_HELIDEATH_HELI01" psNumEmitterMesh="-1" />
