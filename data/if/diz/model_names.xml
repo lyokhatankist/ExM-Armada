@@ -1347,6 +1347,11 @@
 		value="Варан" />
 
 	<Item
+		id="LavCIT02"
+		locForm="0"
+		value="Варан" />
+
+	<Item
 		id="lavCITMachinegun01"
 		locForm="0"
 		value="КПВТ" />
@@ -1368,6 +1373,11 @@
 
 	<Item
 		id="LavCD01"
+		locForm="0"
+		value="Скорпион" />
+
+	<Item
+		id="LavCD02"
 		locForm="0"
 		value="Скорпион" />
 
