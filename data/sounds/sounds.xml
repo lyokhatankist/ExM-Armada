@@ -8,9 +8,9 @@
 		/>
 
 	<model
-		id="S_CRUISEMISSILE_FLAME"
-		file="data\sounds\battleship\missile.wav"
-		group="DEATH_1"
+		id="S_CRUISE_FLAME"
+		file="data\sounds\battleship\cruise.wav"
+		group="EXPLOSIONS_MEDIUM"
 		/>
 <!--
 	<model
@@ -63,13 +63,13 @@
 
 	<model
 		id="S_ENGINE_SMLBOAT"
-		file="data\sounds\Driving\Motors\formula_driving_high.wav"
+		file="data\sounds\Driving\Motors\truck17(baggy)_high.wav"
 		group="ENGINE_SML"
 		/>
 
 	<model
 		id="S_ENGINE_BOAT"
-		file="data\sounds\Driving\Motors\truck06_high.wav"
+		file="data\sounds\Driving\Motors\truck01_high.wav"
 		group="ENGINE_SML"
 		/>
 
@@ -96,12 +96,59 @@
 		file="data\sounds\battleship\torpedotube.wav"
 		group="BURNING_SMALL"
 		/>
-
+<!--
 	<model
 		id="S_SHOOTING_CRUISERSAM"
 		file="data\sounds\battleship\cruisersamcd.wav"
 		group="GUNFIRE_MED_CANNON"
 		/>
+-->
+	<model
+		id="S_SHOOTING_BATTLESHIPMOD2"
+		file="data\sounds\battleship\battleshipmod2.wav"
+		group="EXPLOSIONS_MEDIUM"
+		/>
+
+	<model
+		id="S_MG_HIT01"
+		file="data\sounds\battleship\mg_shoothit\hit01.wav"
+		/>
+
+	<model
+		id="S_MG_HIT02"
+		file="data\sounds\battleship\mg_shoothit\hit02.wav"
+		/>
+
+	<model
+		id="S_MG_HIT03"
+		file="data\sounds\battleship\mg_shoothit\hit03.wav"
+		/>
+
+	<model
+		id="S_MG_HIT04"
+		file="data\sounds\battleship\mg_shoothit\hit04.wav"
+		/>
+
+	<model
+		id="S_MG_HIT05"
+		file="data\sounds\battleship\mg_shoothit\hit05.wav"
+		/>
+
+	<model
+		id="S_MG_HIT06"
+		file="data\sounds\battleship\mg_shoothit\hit06.wav"
+		/>
+
+	<model
+		id="S_MG_HIT07"
+		file="data\sounds\battleship\mg_shoothit\hit07.wav"
+		/>
+
+	<model
+		id="S_MG_HIT08"
+		file="data\sounds\battleship\mg_shoothit\hit08.wav"
+		/>
+		
 <!-- Vanilla -->
 
 	<model
@@ -648,7 +695,7 @@
 		file="data\sounds\Shoot_hits\wood05.wav"
 		group="SHOOTHITS"
 		/>
-
+<!--
 	<model
 		id="S_VEH_HIT_BULLET01"
 		file="data\sounds\Shoot_hits\Vehicle\bullet01.wav"
@@ -713,7 +760,7 @@
 		id="S_VEH_HIT_BULLET13"
 		file="data\sounds\Shoot_hits\Vehicle\bullet13.wav"
 		/>
-			
+-->			
 <!-- Cannon shoothits -->
 	
 	<model
@@ -731,6 +778,12 @@
 	<model
 		id="S_CAR_EXPL"
 		file="data\sounds\Shoot_hits\cannon\car_expl.wav"
+		group="EXPLOSIONS_SMALL"
+		/>
+
+	<model
+		id="S_CAR_EXPL_AP"
+		file="data\sounds\Shoot_hits\cannon\car_expl_ap.wav"
 		group="EXPLOSIONS_SMALL"
 		/>
 		
@@ -755,12 +808,6 @@
 	<model
 		id="S_SAND_EXPL"
 		file="data\sounds\Shoot_hits\cannon\sand_expl.wav"
-		group="EXPLOSIONS_SMALL"
-		/>
-		
-	<model
-		id="S_GROUND_EXPL"
-		file="data\sounds\Shoot_hits\cannon\ground_expl.wav"
 		group="EXPLOSIONS_SMALL"
 		/>
 		
@@ -977,6 +1024,54 @@
 		file="data\sounds\Shoot_hits\bigcannon\wood_bl.wav"
 		group="EXPLOSIONS_BIG"
 		/>
+
+<!-- battleship -->
+	
+<!-- Cruise shoothits -->
+	
+	<model
+		id="S_WATER_CR"
+		file="data\sounds\Shoot_hits\cruise\water_cr.wav"
+		group="EXPLOSIONS"
+		/>
+		
+	<model
+		id="S_STATIC_CR"
+		file="data\sounds\Shoot_hits\cruise\static_cr.wav"
+		group="EXPLOSIONS"
+		/>
+		
+	<model
+		id="S_CAR_CR"
+		file="data\sounds\Shoot_hits\cruise\car_cr.wav"
+		group="EXPLOSIONS"
+		/>
+
+	<model
+		id="S_ROAD_CR"
+		file="data\sounds\Shoot_hits\cruise\road_cr.wav"
+		group="EXPLOSIONS"
+		/>
+		
+	<model
+		id="S_ROCK_CR"
+		file="data\sounds\Shoot_hits\cruise\rock_cr.wav"
+		group="EXPLOSIONS"
+		/>
+		
+	<model
+		id="S_GROUND_CR"
+		file="data\sounds\Shoot_hits\cruise\ground_cr.wav"
+		group="EXPLOSIONS"
+		/>
+		
+	<model
+		id="S_WOOD_CR"
+		file="data\sounds\Shoot_hits\cruise\wood_cr.wav"
+		group="EXPLOSIONS"
+		/>
+
+<!-- vanilla -->
 
 <!-- Environment -->
 

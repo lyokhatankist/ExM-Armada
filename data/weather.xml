@@ -3394,10 +3394,10 @@
 			nightColor="28.050 38.250 56.100" />
 
 		<Ambient
-			sunriseColor="153.000 109.650 94.350"
-			dayColor="188.700 193.800 232.050"
+			sunriseColor="132.600 99.450 63.750"
+			dayColor="214.200 211.650 232.050"
 			sunsetColor="142.800 112.200 99.450"
-			nightColor="33.150 53.550 81.600" />
+			nightColor="58.650 53.550 53.550" />
 
 		<Diffuse
 			sunriseColor="119.850 114.750 128.000"
@@ -3481,15 +3481,15 @@
 
 		<Ambient
 			sunriseColor="124.950 104.550 112.200"
-			dayColor="170.850 193.800 255.000"
+			dayColor="188.700 201.450 221.850"
 			sunsetColor="158.100 130.050 102.000"
-			nightColor="33.150 43.350 58.650" />
+			nightColor="45.900 58.650 61.200" />
 
 		<Diffuse
-			sunriseColor="84.150 99.450 104.550"
-			dayColor="170.850 178.500 198.900"
+			sunriseColor="158.100 117.300 71.400"
+			dayColor="232.050 221.850 226.950"
 			sunsetColor="153.000 109.650 130.050"
-			nightColor="43.350 51.000 33.150" />
+			nightColor="45.900 38.250 28.050" />
 
 		<Sun
 			sunriseColor="0.000 0.000 0.000"

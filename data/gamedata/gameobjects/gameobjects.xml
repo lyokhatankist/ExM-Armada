@@ -92,20 +92,21 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
         <Folder Name="QuestItems" File="QuestItems.xml" />
 
 	<Folder Name="BreakableObjects" File="BreakableObjects.xml" />
-
+<!--
 	<Folder Name="Plasma" File="Plasma.xml" />
 
 	<Folder Name="Thunderbolt" File="Thunderbolt.xml" />
 
 	<Folder Name="Mortar" File="Mortar.xml" />
-
-	<Folder Name="Rockets" File="Rockets.xml" />
+-->
+	<Folder Name="BlastWaves" File="BlastWaves.xml" />
 
 	<Folder Name="VehicleParts" File="VehicleParts.xml" />
 
 	<Folder Name="Prefabs" File="Prefabs.xml" />
 
 	<Folder Name = "Guns">
+<!--
 		<Folder Name = "SmallGuns"	File = "SmallGuns.xml" />
 		
 		<Folder Name = "BigGuns"	File = "BigGuns.xml" />
@@ -113,7 +114,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 		<Folder Name = "SideGuns"	File = "SideGuns.xml" />
 
 		<Folder Name = "GiantGuns"	File = "GiantGuns.xml" />
-
+-->
 		<Folder Name = "ShipGuns"	File = "ShipGuns.xml" />
 
 		<Folder Name = "AAGuns"		File = "AAGuns.xml" />
@@ -172,6 +173,30 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name = "Dots">
 		<Prototype 
 			Class		= "VehiclePart"
+			Name		= "coastaamed"
+			ModelFile	= "coastaamed"
+			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+
+		<Prototype 
+			Class		= "VehiclePart"
+			Name		= "coastmed"
+			ModelFile	= "coastmed"
+			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+
+		<Prototype 
+			Class		= "VehiclePart"
+			Name		= "heliFuselage01_static"
+			ModelFile	= "heliFuselage01_static" 
+			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+
+		<Prototype 
+			Class		= "VehiclePart"
+			Name		= "heliFuselage02_static"
+			ModelFile	= "heliFuselage02_static" 
+			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+<!--
+		<Prototype 
+			Class		= "VehiclePart"
 			Name		= "sack_dot1"
 			ModelFile	= "sack_dot1" 
 			ResourceType	= "STATIC_AUTO_GUN_DOT" />
@@ -219,9 +244,110 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 			Name		= "heavy_dot4"
 			ModelFile	= "heavy_dot4" 
 			ResourceType	= "STATIC_AUTO_GUN_DOT" />
+-->
 	</Folder>
 	
 	<Folder Name = "StaticAutoGuns">
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "CoastAAMed01"
+
+			DestroyedModel	= "coastaamed"
+
+			LookRadius		= "760"
+			MaxHealth		= "3000"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT">
+				<PartDescription id = "CANNON"
+								 partResourceType 	= "SMALL_GUN"
+								 lpName 		= "LP_GUN" />
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "coastaamed" />
+				<Part id = "CANNON"	Prototype = "dot_AA47mmCannon01" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "CITCoastMed01"
+
+			DestroyedModel	= "coastmed"
+
+			LookRadius		= "970"
+			MaxHealth		= "17500"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT">
+				<PartDescription id = "CANNON"
+								 partResourceType 	= "SMALL_GUN"
+								 lpName 		= "LP_GUN" />
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "coastmed" />
+				<Part id = "CANNON"	Prototype = "dot_triple152CIT01" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "CDCoastMed01"
+
+			DestroyedModel	= "coastmed"
+
+			LookRadius		= "1060"
+			MaxHealth		= "15000"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT">
+				<PartDescription id = "CANNON"
+								 partResourceType 	= "SMALL_GUN"
+								 lpName 		= "LP_GUN" />
+			</MainPartDescription>
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "coastmed" />
+				<Part id = "CANNON"	Prototype = "dot_twin203CD01" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "heliFuselage01_static01"
+
+			DestroyedModel	= "heliFuselage01_dead"
+
+			LookRadius		= "20"
+			MaxHealth		= "500"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT" />
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "heliFuselage01_static" />
+			</Parts>
+		</Prototype>
+
+		<Prototype
+			Class			= "StaticAutoGun"
+			Name			= "heliFuselage02_static01"
+
+			DestroyedModel	= "heliFuselage02_dead"
+
+			LookRadius		= "20"
+			MaxHealth		= "250"
+			IntersectionRadius	= "4">
+
+			<MainPartDescription id = "DOT" partResourceType = "STATIC_AUTO_GUN_DOT" />
+
+			<Parts>
+				<Part id = "DOT"	Prototype = "heliFuselage02_static" />
+			</Parts>
+		</Prototype>
+<!--
 		<Prototype
 			Class			= "StaticAutoGun"
 			Name			= "staticAutoGun01"
@@ -910,7 +1036,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 				<Part id = "CANNON"	Prototype = "AA47mmCannon01" />
 			</Parts>
 		</Prototype>
-
+-->
 
 
 	</Folder>

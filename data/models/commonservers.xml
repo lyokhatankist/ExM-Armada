@@ -35,6 +35,7 @@
 
 	<ParticlesServer>
 <!-- battleship -->
+		<Item id="PS_BS_CRUISE_SMOKE" 			file="data\Effects\rockets\bs_cruise_smoke.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_GLOW" 		file="data\Effects\rockets\bs_rocket_small_glow.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_FLAME" 	file="data\Effects\rockets\bs_rocket_small_flame.psys"/>
 		<Item id="PS_BS_ROCKET_SMALL_SMOKE" 	file="data\Effects\rockets\bs_rocket_small_smoke.psys"/>	
@@ -46,6 +47,52 @@
 		<Item id="PS_BS_SHELL_BAT" 				file="data\Effects\rockets\bs_shell_bat.psys"/>
 		<Item id="PS_BS_SHELL_HBAT" 			file="data\Effects\rockets\bs_shell_hbat.psys"/>
 		<Item id="PS_BS_SHELL_TRAIL" 			file="data\Effects\rockets\bs_shell_trail.psys"/>
+
+		<Item id="PS_BS_SMLBLAST_EXP" 			file="data\Effects\explosions\bs_smlblast_exp.psys"/>
+		<Item id="PS_BS_SMLBLAST_SMOKE" 		file="data\Effects\explosions\bs_smlblast_smoke.psys"/>
+		<Item id="PS_BS_SMLBLAST_DEBRIS" 		file="data\Effects\explosions\bs_smlblast_debris.psys"/>
+		<Item id="PS_BS_SMLBLAST_CLOUD" 		file="data\Effects\explosions\bs_smlblast_cloud.psys"/>
+		<Item id="PS_BS_SMLBLAST_FLASH" 		file="data\Effects\explosions\bs_smlblast_flash.psys"/>
+		<Item id="PS_BS_MEDBLAST_EXP" 			file="data\Effects\explosions\bs_medblast_exp.psys"/>
+		<Item id="PS_BS_MEDBLAST_CLOUD" 		file="data\Effects\explosions\bs_medblast_cloud.psys"/>
+		<Item id="PS_BS_MEDBLAST_FLASH" 		file="data\Effects\explosions\bs_medblast_flash.psys"/>
+		<Item id="PS_BS_BIGBLAST_EXP" 			file="data\Effects\explosions\bs_bigblast_exp.psys"/>
+		<Item id="PS_BS_BIGBLAST_SMOKE" 		file="data\Effects\explosions\bs_bigblast_smoke.psys"/>
+		<Item id="PS_BS_BIGBLAST_DEBRIS" 		file="data\Effects\explosions\bs_bigblast_debris.psys"/>
+		<Item id="PS_BS_BIGBLAST_CLOUD" 		file="data\Effects\explosions\bs_bigblast_cloud.psys"/>
+		<Item id="PS_BS_BIGBLAST_FLASH" 		file="data\Effects\explosions\bs_bigblast_flash.psys"/>
+		<Item id="PS_BS_GNTBLAST_EXP" 			file="data\Effects\explosions\bs_gntblast_exp.psys"/>
+		<Item id="PS_BS_GNTBLAST_SMOKE" 		file="data\Effects\explosions\bs_gntblast_smoke.psys"/>
+		<Item id="PS_BS_GNTBLAST_CLOUD" 		file="data\Effects\explosions\bs_gntblast_cloud.psys"/>
+		<Item id="PS_BS_GNTBLAST_FLASH" 		file="data\Effects\explosions\bs_gntblast_flash.psys"/>
+		<Item id="PS_BS_APSMLBLAST_EXP" 		file="data\Effects\explosions\bs_apsmlblast_exp.psys"/>
+		<Item id="PS_BS_APMEDBLAST_EXP" 		file="data\Effects\explosions\bs_apmedblast_exp.psys"/>
+		<Item id="PS_BS_APBIGBLAST_EXP" 		file="data\Effects\explosions\bs_apbigblast_exp.psys"/>
+		<Item id="PS_BS_APGNTBLAST_EXP" 		file="data\Effects\explosions\bs_apgntblast_exp.psys"/>
+		<Item id="PS_BS_WATER_BLAST_EXP" 		file="data\Effects\explosions\bs_water_blast_exp.psys"/>
+		<Item id="PS_BS_WATER_GNTBLAST_DUST" 	file="data\Effects\explosions\bs_water_gntblast_dust.psys"/>
+		<Item id="PS_BS_WATER_GNTBLAST_EXP" 	file="data\Effects\explosions\bs_water_gntblast_exp.psys"/>
+		<Item id="PS_BS_WATER_GNTBLAST_EXP1" 	file="data\Effects\explosions\bs_water_gntblast_exp1.psys"/>
+		<Item id="PS_BS_WATER_GNTBLAST_GRASS" 	file="data\Effects\explosions\bs_water_gntblast_grass.psys"/>
+		<Item id="PS_BS_GRASS_GNTBLAST_DUST" 	file="data\Effects\explosions\bs_grass_gntblast_dust.psys"/>
+		<Item id="PS_BS_GRASS_GNTBLAST_GROUND" 	file="data\Effects\explosions\bs_grass_gntblast_ground.psys"/>
+		<Item id="PS_BS_SAND_GNTBLAST_DUST" 	file="data\Effects\explosions\bs_sand_gntblast_dust.psys"/>
+		<Item id="PS_BS_SAND_GNTBLAST_GROUND" 	file="data\Effects\explosions\bs_sand_gntblast_ground.psys"/>
+
+		<Item id="PS_BS_SMALL_FIRE_SMOKE" 		file="data\Effects\guns\bs_small_fire_smoke.psys"/>
+		<Item id="PS_BS_MEDIUM_FIRE_SMOKE" 		file="data\Effects\guns\bs_medium_fire_smoke.psys"/>
+		<Item id="PS_BS_BIG_FIRE_SMOKE" 		file="data\Effects\guns\bs_big_fire_smoke.psys"/>
+		<Item id="PS_BS_GIANT_FIRE_SMOKE" 		file="data\Effects\guns\bs_giant_fire_smoke.psys"/>
+
+		<Item id="PS_BS_HELIDEATH_SMOKE"		file="data\Effects\venexps\bs_helideath_smoke.psys"/>
+		<Item id="PS_BS_HELIDEATH_HELI01"		file="data\Effects\venexps\bs_helideath_heli01.psys"/>
+		<Item id="PS_BS_HELIDEATH_HELI02"		file="data\Effects\venexps\bs_helideath_heli02.psys"/>
+		<Item id="PS_BS_SHIPDEATH_SMALL_FIRE"	file="data\Effects\venexps\bs_shipdeath_small_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_SMALL_SMOKE"	file="data\Effects\venexps\bs_shipdeath_small_smoke.psys"/>
+		<Item id="PS_BS_SHIPDEATH_MED_FIRE"		file="data\Effects\venexps\bs_shipdeath_med_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_MED_SMOKE"	file="data\Effects\venexps\bs_shipdeath_med_smoke.psys"/>
+		<Item id="PS_BS_SHIPDEATH_BIG_FIRE"		file="data\Effects\venexps\bs_shipdeath_big_fire.psys"/>
+		<Item id="PS_BS_SHIPDEATH_BIG_SMOKE"	file="data\Effects\venexps\bs_shipdeath_big_smoke.psys"/>
 
 <!-- vanilla -->
 		<Item id="PS_SPECIAL01_FIRE_MAIN_1"				file="data\Effects\Guns\spesial01_fire_main_1.psys"/>

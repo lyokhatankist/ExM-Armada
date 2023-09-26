@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="PS21"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="0.300"
+			ParticleAgeMax="0.200"
+			MaxParticles="50"
+			EmitAtPeriod="20.000"
+			Phase="0.000"
+			EmitLength="0.400"
+			RepeatPeriod="15.000"
+			ResetTime="15.000"
+			LocalStop="1"
+			StopTime="0.600"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="1.000 0.000 1.000"
+			Max="-1.000 0.000 -1.000"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="838506808"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-369849577"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />
+
+			<Size
+				k:0="0.099"
+				k:1="8.563"
+				k:2="6.781"
+				k:3="5.445"
+				k:4="4.653"
+				k:5="5.346"
+				k:6="4.257"
+				k:7="4.999"
+				k:8="2.673"
+				k:9="2.128"
+				k:10="1.832"
+				k:11="1.634"
+				k:12="1.139"
+				k:13="0.990"
+				k:14="1.040"
+				k:15="0.644"
+				k:16="0.396"
+				k:17="0.446"
+				k:18="0.347"
+				k:19="0.347" />
+		</Keys>
+
+		<Render
+			TrailLen="10"
+			ScaleParts="0.100"
+			BlendMode="0"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="1"
+			Texture="data\fx\lens\lens11.tga"
+			Weather="0"
+			TexTiling="0.000"
+			ParentDependency="0.000" />
+
+		<Attr
+			Name="gsfdsgfds"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-170.000 170.000 -170.000"
+				Max="170.000 -170.000 170.000" />
+		</Attr>
+
+		<Attr
+			Name="dsgd"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 -350.000 0.000"
+				Max="0.000 -500.000 0.000" />
+		</Attr>
+	</PS>
+</PSEditor>

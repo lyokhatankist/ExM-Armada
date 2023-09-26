@@ -681,6 +681,16 @@ $Id: VehiclePartTypes.xml,v 1.12 2005/11/11 08:56:45 anton Exp $
 	/>  
 
 	<VehiclePart
+		PartName	="BASKET_SIDE_GUN"
+		ResourceName	="SIDE_GUN"
+	/>   
+
+	<VehiclePart
+		PartName	="BASKET_SIDE_GUN_0"
+		ResourceName	="SIDE_GUN"
+	/>     
+
+	<VehiclePart
 		PartName	="BASKET_SIDE_GUN_1"
 		ResourceName	="SIDE_GUN"
 	/>     

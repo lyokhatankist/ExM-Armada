@@ -9,8 +9,6 @@
 			name="WEATHERTYPE">islands_clear</Key>
 
 		<Key
-
-		<Key
 			name="PATH">data\maps\islands</Key>
 
 		<Key
@@ -146,13 +144,7 @@
 			name="DLGSTRINGS">strings.xml</Key>
 
 		<Key
-			name="LOCALQUESTS"></Key>
-
-		<Key
-			name="LOCALQUESTINFO"></Key>
-
-		<Key
-			name="LOCALDIALOGS"></Key>
+			name="ICONS">icons.xml</Key>
 
 		<Key
 			name="SKYTYPE">1</Key>

@@ -27,12 +27,12 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		
 		BlastWavePrototype	= "47mmBlastWave"
 
-		Damage			= "40"
+		Damage			= "25"
 		FiringRate		= "200"
 		ChargeSize		= "6"
-		RechargingTime	= "4.5"
+		RechargingTime	= "7.5"
 
-		FiringRange		= "500"
+		FiringRange		= "650"
 		GroupingAngle	= "0.1"
 		
 		TurningSpeed	= "50"
@@ -48,9 +48,113 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 
 		Velocity		= "2500"
 		Acceleration	= "1000"
-		FlyTime		= "1"
+		FlyTime		= "1.12"
 		Size			= "0.5 0.5 1"
 	/>
+
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "AA120mmSAMCIT01"
+        ModelFile		= "AA120mmSAMCIT01"
+        ResourceType	= "MEDANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "mpadcitrocket01"
+		ExplosionType		= "SMLBLAST_AP"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "mpadcitBlastWave"
+
+		Damage			= "90"
+		FiringRate		= "60"
+		ChargeSize		= "4"
+		RechargingTime	= "24"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "14"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "40"
+		Durability		= "5"
+		Price			= "9870" />
+			
+	<Prototype
+		Class			= "Rocket"
+		Name			= "mpadcitrocket01"
+		ModelFile		= "rocket_long01"
+		ExplosionType	= "SMLBLAST_AP" 
+
+		Price		= "210"
+
+		Velocity			= "250"
+		Acceleration		= "500"
+		MinTurningRadius	= "200"
+		FlyTime				= "5.0"
+		BlastWavePrototype	= "mpadcitBlastWave"
+
+		Mass			= "0.001"
+		Size			= "0.5 0.5 2" />
+
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "AA152mmATGMCD01"
+        ModelFile		= "smlboatCDRocket02"
+        ResourceType	= "MEDANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "atgmcdrocket01"
+		ExplosionType		= "SMLBLAST_HE"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "atgmcdBlastWave"
+
+		Damage			= "120"
+		FiringRate		= "30"
+		ChargeSize		= "2"
+		RechargingTime	= "35"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "14"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "40"
+		Durability		= "5"
+		Price			= "9870" />
+			
+	<Prototype
+		Class			= "Rocket"
+		Name			= "atgmcdrocket01"
+		ModelFile		= "rockets_big01"
+		ExplosionType	= "SMLBLAST_HE" 
+
+		Price		= "210"
+
+		Velocity			= "250"
+		Acceleration		= "150"
+		MinTurningRadius	= "500"
+		FlyTime				= "5.0"
+		BlastWavePrototype	= "atgmcdBlastWave"
+
+		Mass			= "0.001"
+		Size			= "0.5 0.5 2" />
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -82,6 +186,192 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Durability		= "8" 
 		Price			= "32900" />
 
+<!-- coastal artillery -->
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "dot_AA47mmCannon01"
+		ModelFile		= "AA47mmCannon01"
+		ResourceType	= "MEDANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_LASER"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+
+		BulletPrototype		= "dot_47mmAAshell"
+		ExplosionType		= "AUTOCANNON"
+		FiringType			= "Plasma"
+		RecoilForce			= "50"
+		
+		BlastWavePrototype	= "47mmBlastWave"
+
+		Damage			= "30"
+		FiringRate		= "200"
+		ChargeSize		= "6"
+		RechargingTime	= "6"
+
+		FiringRange		= "800"
+		GroupingAngle	= "0.1"
+		
+		TurningSpeed	= "50"
+		Durability		= "10"
+		Price			= "174000" />
+
+	<Prototype
+		Class			= "PlasmaBunch"
+		Name			= "dot_47mmAAshell"		
+	
+		ModelFile		= "shell_sml"
+		ExplosionType	= "AUTOCANNON" 
+
+		Velocity		= "2500"
+		Acceleration	= "1000"
+		FlyTime		= "1.3"
+		Size			= "0.5 0.5 1"
+	/>
+			
+
+<!-- CD Small Boat -->
+
+		
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "smlboatCDMachinegun01"
+		ModelFile		= "smlboatCDMachinegun01"
+		ResourceType	= "SMLANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+
+		Damage			= "4"
+		FiringRate		= "600"
+		ChargeSize     	= "120"
+		RechargingTime 	= "7"
+
+		FiringRange		= "500"
+		GroupingAngle	= "1.75"
+
+		TurningSpeed	= "110"
+		Durability		= "3" 
+		Price			= "32900" />
+
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "smlboatCDRocket01"
+        ModelFile		= "smlboatCDRocket01"
+        ResourceType	= "SMLANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "atgmcdrocket01"
+		ExplosionType		= "SMLBLAST_HE"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "atgmcdBlastWave"
+
+		Damage			= "120"
+		FiringRate		= "30"
+		ChargeSize		= "1"
+		RechargingTime	= "20"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "7"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "80"
+		Durability		= "2"
+		Price			= "9870" />
+
+
+<!-- CIT Small Boat -->
+
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "smlboatCITMachinegun01"
+		ModelFile		= "smlboatCITMachinegun01"
+		ResourceType	= "SMLANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+
+		Damage			= "5"
+		FiringRate		= "500"
+		ChargeSize     	= "80"
+		RechargingTime 	= "7.3"
+
+		FiringRange		= "550"
+		GroupingAngle	= "2.25"
+
+		TurningSpeed	= "95"
+		Durability		= "4" 
+		Price			= "32900" />
+
+	<Prototype
+        Class			= "RocketLauncher"
+        Name			= "smlboatCITRocket01"
+        ModelFile		= "smlboatCITRocket01"
+        ResourceType	= "SMLANTIAIR_GUN"
+        NodeScale		= "1 1 1"
+        Mass			= "1.0"
+		Decal			= "DC_ROKET"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "mpadcitrocket01"
+		ExplosionType		= "SMLBLAST_AP"
+		FiringType			= "Rocket"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "mpadcitBlastWave"
+
+		Damage			= "45"
+		FiringRate		= "40"
+		ChargeSize		= "1"
+		RechargingTime	= "8"
+
+		FiringRange		= "900"
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "7"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed	= "85"
+		Durability		= "3"
+		Price			= "9870" />
+
 
 <!-- CIT Helicopter-->
 
@@ -99,7 +389,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "nurs01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 
 		FiringRate		= "0"
@@ -153,17 +443,17 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "nurs01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 		RecoilForce			= "1200"
 
 		DamageType			= "ENERGY"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "17"
+		Damage			= "35"
 		FiringRate		= "200"
 		ChargeSize		= "24"
-		RechargingTime	= "1"
+		RechargingTime	= "6"
 
 		FiringRange		= "600"
 		GroupingAngle	= "0.3"
@@ -179,7 +469,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "PlasmaBunch"
 		Name			= "nurs01"		
 		ModelFile		= "rocket_long01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "210"
 		
@@ -203,7 +493,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "charybdis01"
-		ExplosionType		= "GRENADE"
+		ExplosionType		= "MEDBLAST_AP"
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
@@ -229,7 +519,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "charybdis01"
 		ModelFile		= "rockets_big01"
-		ExplosionType	= "GRENADE" 
+		ExplosionType	= "MEDBLAST_AP" 
 
 		Price		= "210"
 
@@ -239,7 +529,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "5.0"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Mass			= "0.01"
+		Mass			= "0.001"
 		Size			= "0.5 0.5 2" />
 		
 
@@ -259,7 +549,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 		
 		BulletPrototype		= "naga01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Laser"
 
 		FiringRate		= "0"
@@ -313,7 +603,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		VisibleInEncyclopedia	= "false"
 
 		BulletPrototype		= "naga01"
-		ExplosionType		= "CANNON"
+		ExplosionType		= "SMLBLAST_HE"
 		FiringType			= "Rocket"
 		RecoilForce			= "1200"
 
@@ -339,7 +629,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Class			= "Rocket"
 		Name			= "naga01"
 		ModelFile		= "rocket_sml01"
-		ExplosionType	= "CANNON" 
+		ExplosionType	= "SMLBLAST_HE" 
 
 		Price		= "210"
 
@@ -349,76 +639,6 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FlyTime				= "5.0"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Mass			= "0.01" 
+		Mass			= "0.001" 
 		Size			= "0.5 0.5 2"/>
-			
-
-<!-- CD Small Boat -->
-
-		
-	<Prototype
-		Class			= "BulletLauncher"
-		Name			= "smlboatCDMachinegun01"
-		ModelFile		= "smlboatCDMachinegun01"
-		ResourceType	= "SMLANTIAIR_GUN"
-		NodeScale		= "1 1 1"
-		Mass			= "1.0"
-		Decal			= "DC_SML_MACHINEGUN"
-		FiringEffect	= "none"
-
-		VisibleInEncyclopedia	= "true"
-
-		BulletPrototype		= "raybullet"
-		ExplosionType		= "MACHINEGUN"
-		FiringType			= "MachineGun"
-		RecoilForce			= "600"
-
-		DamageType			= "BLAST"
-
-		Damage			= "4"
-		FiringRate		= "600"
-		ChargeSize     	= "120"
-		RechargingTime 	= "7"
-
-		FiringRange		= "500"
-		GroupingAngle	= "1.75"
-
-		TurningSpeed	= "110"
-		Durability		= "3" 
-		Price			= "32900" />
-
-
-<!-- CIT Small Boat -->
-
-
-	<Prototype
-		Class			= "BulletLauncher"
-		Name			= "smlboatCITMachinegun01"
-		ModelFile		= "smlboatCITMachinegun01"
-		ResourceType	= "SMLANTIAIR_GUN"
-		NodeScale		= "1 1 1"
-		Mass			= "1.0"
-		Decal			= "DC_SML_MACHINEGUN"
-		FiringEffect	= "none"
-
-		VisibleInEncyclopedia	= "true"
-
-		BulletPrototype		= "raybullet"
-		ExplosionType		= "MACHINEGUN"
-		FiringType			= "MachineGun"
-		RecoilForce			= "600"
-
-		DamageType			= "BLAST"
-
-		Damage			= "5"
-		FiringRate		= "500"
-		ChargeSize     	= "80"
-		RechargingTime 	= "7.3"
-
-		FiringRange		= "550"
-		GroupingAngle	= "2.25"
-
-		TurningSpeed	= "95"
-		Durability		= "4" 
-		Price			= "32900" />
 </Prototypes>

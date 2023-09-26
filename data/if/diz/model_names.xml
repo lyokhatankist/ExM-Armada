@@ -534,7 +534,7 @@
 		id="minePusher_2"
 		locForm="0"
 		value="Âèõðü" />
-
+<!--
 	<Item
 		id="staticAutoGun01"
 		locForm="0"
@@ -584,7 +584,7 @@
 		id="brick_dot1_vulcan"
 		locForm="0"
 		value="Äîò" />
-
+-->
 	<Item
 		id="boss01"
 		locForm="0"
@@ -629,62 +629,62 @@
 	<Item
 		id="HeliCITForEncyclopaedia"
 		locForm="0"
-		value="Ãðèô" />
+		value="Êîíäîð" />
 
 	<Item
 		id="HeliCIT01"
 		locForm="0"
-		value="Ãðèô" />
+		value="Êîíäîð" />
 
 	<Item
 		id="HeliCIT02"
 		locForm="0"
-		value="Ãðèô" />
+		value="Êîíäîð" />
 
 	<Item
 		id="HeliCIT03"
 		locForm="0"
-		value="Ãðèô" />
+		value="Êîíäîð" />
 
 	<Item
 		id="HeliCIT04"
 		locForm="0"
-		value="Ãðèô" />
+		value="Êîíäîð" />
 
 	<Item
 		id="HeliCDForEncyclopaedia"
 		locForm="0"
-		value="Ìîñêèò" />
+		value="Ìîñêèòî" />
 
 	<Item
 		id="HeliCD01"
 		locForm="0"
-		value="Ìîñêèò" />
+		value="Ìîñêèòî" />
 
 	<Item
 		id="HeliCD02"
 		locForm="0"
-		value="Ìîñêèò" />
+		value="Ìîñêèòî" />
 
 	<Item
 		id="HeliCD03"
 		locForm="0"
-		value="Ìîñêèò" />
+		value="Ìîñêèòî" />
 
 	<Item
 		id="HeliCD04"
 		locForm="0"
-		value="Ìîñêèò" />
+		value="Ìîñêèòî" />
 
 	<Item
 		id="SmlboatCIT"
 		locForm="0"
-		value="×àéêà" />
+		value="Ìóýòò" />
 
 	<Item
 		id="SmlboatCITForEncyclopaedia"
 		locForm="0"
-		value="×àéêà" />
+		value="Ìóýòò" />
 
 	<Item
 		id="smlboatCITEngine"
@@ -699,22 +699,27 @@
 	<Item
 		id="SmlboatCIT01"
 		locForm="0"
-		value="×àéêà" />
+		value="Ìóýòò" />
 
 	<Item
 		id="SmlboatCIT02"
 		locForm="0"
-		value="×àéêà" />
+		value="Ìóýòò" />
 
 	<Item
 		id="smlboatCITNurs01"
 		locForm="0"
-		value="Ñíàñòü" />
+		value="Êîðäàæ" />
 
 	<Item
 		id="smlboatCITMachinegun01"
 		locForm="0"
 		value="Êîðä" />
+
+	<Item
+		id="smlboatCITRocket01"
+		locForm="0"
+		value="Ïèê" />
 
 	<Item
 		id="SmlboatCD"
@@ -752,14 +757,24 @@
 		value="ÏÊÒ" />
 
 	<Item
+		id="smlboatCDRocket01"
+		locForm="0"
+		value="Ôàëàíãà" />
+
+	<Item
+		id="smlboatCDRocket02"
+		locForm="0"
+		value="Ôàëàíãà-Ì" />
+
+	<Item
 		id="FastboatCIT"
 		locForm="0"
-		value="Àêóëà" />
+		value="Òèáóðîí" />
 
 	<Item
 		id="FastboatCITForEncyclopaedia"
 		locForm="0"
-		value="Àêóëà" />
+		value="Òèáóðîí" />
 
 	<Item
 		id="fastboatCITEngine"
@@ -774,7 +789,7 @@
 	<Item
 		id="FastboatCIT01"
 		locForm="0"
-		value="Àêóëà" />
+		value="Òèáóðîí" />
 
 	<Item
 		id="fastboatCITTorpedo01"
@@ -822,6 +837,11 @@
 		value="130-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_single130CIT02"
+		locForm="0"
+		value="130-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="DestroyerCIT01"
 		locForm="0"
 		value="Ëèîí" />
@@ -840,6 +860,11 @@
 		id="mun_single138CIT01"
 		locForm="0"
 		value="138-ìì  ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_single138CIT02"
+		locForm="0"
+		value="138-ìì  ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="DestroyerCIT02"
@@ -887,6 +912,11 @@
 		value="127-ìì ÎÔ (ÀÐ)" />
 
 	<Item
+		id="mun_twin127CD02"
+		locForm="0"
+		value="127-ìì ÁÁ (ÀÐ)" />
+
+	<Item
 		id="DestroyerCD01"
 		locForm="0"
 		value="Àëüáåäî" />
@@ -907,27 +937,32 @@
 		value="135-ìì ÎÔ (ÀÐ)" />
 
 	<Item
+		id="mun_twin135CD02"
+		locForm="0"
+		value="135-ìì ÁÁ (ÀÐ)" />
+
+	<Item
 		id="DestroyerCD02"
 		locForm="0"
 		value="Àëüáåäî" />
 
 	<Item
-		id="CruiserCIT"
+		id="OCruiserCIT"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="CruiserCITForEncyclopaedia"
+		id="OCruiserCITForEncyclopaedia"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="cruiserCITEngine"
+		id="ocruiserCITEngine"
 		locForm="0"
 		value="Ñèëîâàÿ óñòàíîâêà" />
 
 	<Item
-		id="cruiserCITTorpedo01"
+		id="ocruiserCITTorpedo01"
 		locForm="0"
 		value="533-ìì ÌÒÀ-1" />
 
@@ -939,10 +974,20 @@
 	<Item
 		id="AA47mmCannon01"
 		locForm="0"
-		value="47-ìì îðóäèå ÏÂÎ" />
+		value="Àóãý" />
 
 	<Item
-		id="cruiserCIT152Armanent"
+		id="AA120mmSAMCIT01"
+		locForm="0"
+		value="Áåðæå" />
+
+	<Item
+		id="AA152mmATGMCD01"
+		locForm="0"
+		value="Ôàëàíãà-Ì" />
+
+	<Item
+		id="ocruiserCIT152Armanent"
 		locForm="0"
 		value="Îðóäèÿ 152-ìì" />
 
@@ -957,12 +1002,22 @@
 		value="152-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCIT01"
+		id="mun_twin152CIT02"
+		locForm="0"
+		value="152-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
+		id="OCruiserCIT01"
 		locForm="0"
 		value="Ýãàëü" />
 
 	<Item
-		id="cruiserCIT155Armanent"
+		id="ocruiserCITEngineMod"
+		locForm="0"
+		value="Ñèëîâàÿ óñòàíîâêà" />
+
+	<Item
+		id="ocruiserCIT155Armanent"
 		locForm="0"
 		value="Îðóäèÿ 155-ìì" />
 
@@ -977,32 +1032,52 @@
 		value="155-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCIT02"
+		id="mun_triple155CIT02"
+		locForm="0"
+		value="155-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
+		id="OCruiserCIT02"
 		locForm="0"
 		value="Ýãàëü" />
-
+		
 	<Item
-		id="CruiserCD"
+		id="triple152CIT01"
 		locForm="0"
-		value="ßðîñòü" />
+		value="152-ìì ÀÓ (ÑÍÃ)" />
 
 	<Item
-		id="CruiserCDForEncyclopaedia"
+		id="mun_triple152CIT01"
 		locForm="0"
-		value="ßðîñòü" />
+		value="152-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
-		id="cruiserCDEngine"
+		id="mun_triple152CIT02"
+		locForm="0"
+		value="152-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
+		id="HCruiserCD"
+		locForm="0"
+		value="Ôóðèÿ" />
+
+	<Item
+		id="HCruiserCDForEncyclopaedia"
+		locForm="0"
+		value="Ôóðèÿ" />
+
+	<Item
+		id="hcruiserCDEngine"
 		locForm="0"
 		value="Ñèëîâàÿ óñòàíîâêà" />
 
 	<Item
-		id="cruiserCDTorpedo01"
+		id="hcruiserCDTorpedo01"
 		locForm="0"
 		value="610-ìì ÓÌ-5" />
 
 	<Item
-		id="cruiserCD203Armanent"
+		id="hcruiserCD203Armanent"
 		locForm="0"
 		value="Îðóäèÿ 203-ìì" />
 
@@ -1017,9 +1092,14 @@
 		value="203-ìì ÎÔ (ÀÐ)" />
 
 	<Item
-		id="CruiserCD01"
+		id="mun_twin203CD02"
 		locForm="0"
-		value="ßðîñòü" />
+		value="203-ìì ÁÁ (ÀÐ)" />
+
+	<Item
+		id="HCruiserCD01"
+		locForm="0"
+		value="Ôóðèÿ" />
 
 	<Item
 		id="SemibossCD01"
@@ -1034,12 +1114,12 @@
 	<Item
 		id="cruiser_rocketCD01"
 		locForm="0"
-		value="Óæàñ" />
+		value="Ýñïàíòî" />
 
 	<Item
 		id="cruiser_samCD01"
 		locForm="0"
-		value="Çàíàâåñ" />
+		value="Òýë¸í" />
 
 	<Item
 		id="BattleshipCIT"
@@ -1059,7 +1139,7 @@
 	<Item
 		id="AA23mmGun01"
 		locForm="0"
-		value="23-ìì óñòàíîâêà ÏÂÎ" />
+		value="Ñïðóò-Ê" />
 
 	<Item
 		id="battleshipCIT406Armanent"
@@ -1075,6 +1155,11 @@
 		id="mun_triple406CIT01"
 		locForm="0"
 		value="406-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_triple406CIT02"
+		locForm="0"
+		value="406-ìì ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="BattleshipCIT01"
@@ -1097,6 +1182,11 @@
 		value="380-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_quadruple380CIT02"
+		locForm="0"
+		value="380-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="BattleshipCIT02"
 		locForm="0"
 		value="Ãåëüâåöèÿ" />
@@ -1117,6 +1207,11 @@
 		value="457-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="mun_triple457CIT02"
+		locForm="0"
+		value="457-ìì ÁÁ (ÑÍÃ)" />
+
+	<Item
 		id="twin130CIT01"
 		locForm="0"
 		value="130-ìì ÀÓ-II (ÑÍÃ)" />
@@ -1125,6 +1220,11 @@
 		id="mun_twin130CIT01"
 		locForm="0"
 		value="130-ìì ÎÔ (ÑÍÃ)" />
+
+	<Item
+		id="mun_twin130CIT02"
+		locForm="0"
+		value="130-ìì ÁÁ (ÑÍÃ)" />
 
 	<Item
 		id="BossCIT01"
@@ -1162,6 +1262,16 @@
 		value="356-ìì ÎÔ (ÀÐ)" />
 
 	<Item
+		id="mun_twin356CD02"
+		locForm="0"
+		value="356-ìì ÁÁ (ÀÐ)" />
+
+	<Item
+		id="mun_twin356CD03"
+		locForm="0"
+		value="356-ìì ÇÑ (ÀÐ)" />
+
+	<Item
 		id="BattleshipCD01"
 		locForm="0"
 		value="Ëåâèàôàí" />
@@ -1180,6 +1290,11 @@
 		id="mun_triple406CD01"
 		locForm="0"
 		value="406-ìì ÎÔ (ÀÐ)" />
+
+	<Item
+		id="mun_triple406CD02"
+		locForm="0"
+		value="406-ìì ÁÁ (ÀÐ)" />
 
 	<Item
 		id="BattleshipCD02"
@@ -1212,6 +1327,36 @@
 		value="Ñóõîãðóç" />
 
 	<Item
+		id="LavCIT"
+		locForm="0"
+		value="Âàðàí" />
+
+	<Item
+		id="lavCITEngine"
+		locForm="0"
+		value="Ñèëîâàÿ óñòàíîâêà" />
+
+	<Item
+		id="lavCITArmanent"
+		locForm="0"
+		value="Áîåâîå îòäåëåíèå" />
+
+	<Item
+		id="LavCIT01"
+		locForm="0"
+		value="Âàðàí" />
+
+	<Item
+		id="LavCIT02"
+		locForm="0"
+		value="Âàðàí" />
+
+	<Item
+		id="lavCITMachinegun01"
+		locForm="0"
+		value="ÊÏÂÒ" />
+
+	<Item
 		id="LavCD"
 		locForm="0"
 		value="Ñêîðïèîí" />
@@ -1232,7 +1377,37 @@
 		value="Ñêîðïèîí" />
 
 	<Item
+		id="LavCD02"
+		locForm="0"
+		value="Ñêîðïèîí" />
+
+	<Item
 		id="lavCDMachinegun01"
 		locForm="0"
-		value="Êîðä" />
+		value="ÏÊÒ" />
+
+	<Item
+		id="CoastAAMed01"
+		locForm="0"
+		value="Îðóäèå" />
+
+	<Item
+		id="CITCoastMed01"
+		locForm="0"
+		value="Îðóäèå" />
+
+	<Item
+		id="CDCoastMed01"
+		locForm="0"
+		value="Îðóäèå" />
+
+	<Item
+		id="heliFuselage01_static01"
+		locForm="0"
+		value="Êîíäîð" />
+
+	<Item
+		id="heliFuselage02_static01"
+		locForm="0"
+		value="Ìîñêèòî" />
 </ModelNames>

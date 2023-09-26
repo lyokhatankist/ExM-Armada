@@ -429,6 +429,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="smlboatCITRocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITRocket01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="smlboatCDHull" 
 			file="data\models\AnimModels.xml"/>
 
@@ -450,6 +458,22 @@
 
 		<Item 
 			id="smlboatCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket02" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCDRocket02gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -599,19 +623,19 @@
 
 
 		<Item 
-			id="cruiserCITEngine" 
+			id="ocruiserCITEngine" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITHull" 
+			id="ocruiserCITHull" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITTorpedo01" 
+			id="ocruiserCITTorpedo01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCITTorpedo01gun" 
+			id="ocruiserCITTorpedo01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -623,11 +647,19 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCIT152Armanent" 
+			id="AA120mmSAMCIT01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCIT155Armanent" 
+			id="AA120mmSAMCIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="ocruiserCIT152Armanent" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="ocruiserCIT155Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -673,15 +705,33 @@
 
 
 		<Item 
-			id="cruiserCDEngine" 
+			id="triple152CIT01" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCDHull" 
+			id="triple152CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="cruiserCD203Armanent" 
+			id="mun_triple152CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple152CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="hcruiserCDEngine" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hcruiserCDHull" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="hcruiserCD203Armanent" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -843,7 +893,23 @@
 		<Item 
 			id="mun_twin356CD01gun" 
 			file="data\models\AnimModels.xml"/>
+<!-- 
+		<Item 
+			id="twin356CD03" 
+			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="twin356CD03gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD03" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_twin356CD03gun" 
+			file="data\models\AnimModels.xml"/> -->
+			
 		<Item 
 			id="triple406CD01" 
 			file="data\models\AnimModels.xml"/>
@@ -884,6 +950,19 @@
 
 		<Item 
 			id="lavCDMachinegun01gun" 
+			file="data\models\AnimModels.xml"/>
+
+<!-- environment -->
+		<Item 
+			id="buoy" 
+			file="data\models\AnimModels.xml"/>
+			
+		<Item 
+			id="heliFuselage01_dead" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="heliFuselage02_dead" 
 			file="data\models\AnimModels.xml"/>
 	</AnimatedModelsServer>
 
@@ -990,7 +1069,17 @@
 		<Item id="S_TANK_SHOOT" />
 		<Item id="S_SHOOTING_HAMMER" />
 
-		<Item id="S_SHOOTING_CRUISERSAM" />
+		<!-- <Item id="S_SHOOTING_CRUISERSAM" /> -->
+		<Item id="S_SHOOTING_BATTLESHIPMOD2" />
+
+		<Item id="S_MG_HIT01" />
+		<Item id="S_MG_HIT02" />
+		<Item id="S_MG_HIT03" />
+		<Item id="S_MG_HIT04" />
+		<Item id="S_MG_HIT05" />
+		<Item id="S_MG_HIT06" />
+		<Item id="S_MG_HIT07" />
+		<Item id="S_MG_HIT08" />
 
 <!-- Explosions --> 
 
@@ -1015,7 +1104,7 @@
 <!-- Starting -->
 
 		<Item id="S_MISSILE_FLAME" />
-		<Item id="S_CRUISEMISSILE_FLAME" />
+		<Item id="S_CRUISE_FLAME" />
 
 <!-- Machinegun shoothits -->
 
@@ -1031,7 +1120,7 @@
 		<Item id="S_SAND04" />
 		<Item id="S_WOOD05" />
 
-		<Item id="S_VEH_HIT_BULLET01"/>
+<!-- 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>
 		<Item id="S_VEH_HIT_BULLET03"/>
 		<Item id="S_VEH_HIT_BULLET04"/>
@@ -1043,13 +1132,14 @@
 		<Item id="S_VEH_HIT_BULLET10"/>
 		<Item id="S_VEH_HIT_BULLET11"/>
 		<Item id="S_VEH_HIT_BULLET12"/>
-		<Item id="S_VEH_HIT_BULLET13"/>
+		<Item id="S_VEH_HIT_BULLET13"/> -->
 
 <!-- Cannon shoothits -->
 
 		<Item id="S_WATER_EXPL" />
 		<Item id="S_STATIC_EXPL" />
 		<Item id="S_CAR_EXPL" />
+		<Item id="S_CAR_EXPL_AP" />
 		<Item id="S_ROAD_EXPL" />
 		<Item id="S_ROCK_EXPL" />
 		<Item id="S_SAND_EXPL" />
@@ -1103,6 +1193,16 @@
 		<Item id="S_GROUND_BL" />
 		<Item id="S_SAND_BL" />
 		<Item id="S_WOOD_BL" />
+
+<!-- Cruise shoothits -->
+
+		<Item id="S_WATER_CR" />
+		<Item id="S_STATIC_CR" />
+		<Item id="S_CAR_CR" />
+		<Item id="S_ROAD_CR" />
+		<Item id="S_ROCK_CR" />
+		<Item id="S_GROUND_CR" />
+		<Item id="S_WOOD_CR" />
 
 <!-- Environment -->
 

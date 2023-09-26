@@ -5,6 +5,7 @@ $Id: QuestItems.xml,v 1.11 2005/10/18 06:12:48 anton Exp $
 -->
 
 <Prototypes>
+<!--
 	<Prototype
 		Class		= "QuestItem"
 		Name			= "quest_start_father_letter"
@@ -146,5 +147,5 @@ $Id: QuestItems.xml,v 1.11 2005/10/18 06:12:48 anton Exp $
 		Name		= "quest_repair_robot3"
 		ModelFile	= "repair_robot"
 		ResourceType	= "QUEST_REPROBOT" />
-
+-->
 </Prototypes>

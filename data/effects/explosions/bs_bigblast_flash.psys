@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="PS21"
+		Class="GlowQuad">
+		<Emitter
+			ParticleAgeMin="0.050"
+			ParticleAgeMax="0.200"
+			MaxParticles="50"
+			EmitAtPeriod="7.000"
+			Phase="0.000"
+			EmitLength="0.100"
+			RepeatPeriod="10000.000"
+			ResetTime="10000.000"
+			LocalStop="1"
+			StopTime="0.400"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="0.000 0.000 0.000"
+			Max="0.000 0.000 0.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="-67108865"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-2124390304"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="11447982" />
+
+			<Size
+				k:0="0.500"
+				k:1="5.050"
+				k:2="26.099"
+				k:3="52.771"
+				k:4="78.613"
+				k:5="105.207"
+				k:6="148.306"
+				k:7="192.355"
+				k:8="238.405"
+				k:9="297.603"
+				k:10="357.652"
+				k:11="416.652"
+				k:12="476.652"
+				k:13="549.652"
+				k:14="624.702"
+				k:15="698.652"
+				k:16="773.652"
+				k:17="964.652"
+				k:18="981.652"
+				k:19="1130.702" />
+		</Keys>
+
+		<Render
+			ShaderType="1"
+			TrailLen="5"
+			ScaleParts="0.700"
+			BlendMode="2"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\lens\lens6.tga"
+			Weather="0"
+			TexTiling="1.000" />
+	</PS>
+</PSEditor>

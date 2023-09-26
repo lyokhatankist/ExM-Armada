@@ -147,13 +147,7 @@
 			name="DLGSTRINGS">strings.xml</Key>
 
 		<Key
-			name="LOCALQUESTS">localQuests.xml</Key>
-
-		<Key
-			name="LOCALQUESTINFO">localQuestInfo.xml</Key>
-
-		<Key
-			name="LOCALDIALOGS">localDialogs.xml</Key>
+			name="ICONS">icons.xml</Key>
 
 		<Key
 			name="SKYTYPE">1</Key>

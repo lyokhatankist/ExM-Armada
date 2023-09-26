@@ -1695,55 +1695,7 @@
 
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE"
+				effect_id="ET_PS_CRUISEMISSILE_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1758,55 +1710,7 @@
 
 			<lp
 				id="LP_EXH01"
-				effect_id="ET_PS_CRUISEMISSILE_BIG_TRAIL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH02"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH03"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH04"
-				effect_id="ET_PS_SHIPFIRE"
-				restartOnAnimationChange="0"
-				ImmediateRemove="0" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_CRUISEMISSILE_SMALL"
-				restartOnAnimationChange="0"
-				ImmediateRemove="1" />
-
-			<lp
-				id="LP_EXH05"
-				effect_id="ET_PS_SHIPFIRE"
+				effect_id="ET_PS_CRUISEMISSILE_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -1831,6 +1735,12 @@
 				effect_id="ET_PS_ROCKET_BIG_TRAIL"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
 		</action>
 
 		<action
@@ -1844,6 +1754,12 @@
 			<lp
 				id="LP_EXH01"
 				effect_id="ET_PS_ROCKET_BIG_TRAIL"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SWINGFIRE_FIRE_SOUND"
 				restartOnAnimationChange="0"
 				ImmediateRemove="0" />
 		</action>
@@ -2259,6 +2175,42 @@
 	</model>
 
 	<model
+		id="smlboatCITRocket01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_smlboat\mpad01.gam" />
+
+	<model
+		id="smlboatCITRocket01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_smlboat\mpad01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="smlboatCDHull"
 		shadow="0"
 		windwavy="0"
@@ -2399,6 +2351,93 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCDRocket01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk01.gam" />
+
+	<model
+		id="smlboatCDRocket01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCDRocket02"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk02.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_HELIROCKET_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="smlboatCDRocket02gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_smlboat\ptrk02_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -4083,17 +4122,17 @@
 	</model>
 
 	<model
-		id="cruiserCITEngine"
+		id="ocruiserCITEngine"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\engine.gam" />
+		file="data\models\battleship\vehicles\cit_ocruiser\engine.gam" />
 
 	<model
-		id="cruiserCITHull"
+		id="ocruiserCITHull"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\hull.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\hull.gam">
 		<action
 			name="DEATH1">
 			<lp
@@ -4254,16 +4293,16 @@
 	</model>
 
 	<model
-		id="cruiserCITTorpedo01"
+		id="ocruiserCITTorpedo01"
 		shadow="0"
 		windwavy="0"
 		file="data\models\Ammo\loadpoint.gam" />
 
 	<model
-		id="cruiserCITTorpedo01gun"
+		id="ocruiserCITTorpedo01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\torpedo01_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\torpedo01_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4320,13 +4359,13 @@
 		id="AA47mmCannon01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\aa47cannon.gam" />
+		file="data\models\battleship\vehicles\cit_ocruiser\aa47cannon.gam" />
 
 	<model
 		id="AA47mmCannon01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\aa47cannon_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\aa47cannon_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4347,8 +4386,83 @@
 	</model>
 
 	<model
-		id="cruiserCIT152Armanent"
-		file="data\models\battleship\vehicles\cit_cruiser\armanent01.gam"
+		id="AA120mmSAMCIT01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_ocruiser\aa120sam.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_NURS_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AA120mmSAMCIT01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_ocruiser\aa120sam_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH04"
+				effect_id="ET_PS_DRAGON01_FIRE_BACK"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE03"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE04"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="ocruiserCIT152Armanent"
+		file="data\models\battleship\vehicles\cit_ocruiser\armanent01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -4554,8 +4668,8 @@
 	</model>
 
 	<model
-		id="cruiserCIT155Armanent"
-		file="data\models\battleship\vehicles\cit_cruiser\armanent02.gam"
+		id="ocruiserCIT155Armanent"
+		file="data\models\battleship\vehicles\cit_ocruiser\armanent02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -4764,13 +4878,13 @@
 		id="sponson130CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\sponson130cit.gam" />
+		file="data\models\battleship\vehicles\cit_ocruiser\sponson130cit.gam" />
 
 	<model
 		id="sponson130CIT01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\sponson130cit_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\sponson130cit_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4794,7 +4908,7 @@
 		id="twin152CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\twin152cit.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\twin152cit.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4809,7 +4923,7 @@
 		id="twin152CIT01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\twin152cit_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\twin152cit_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4845,7 +4959,7 @@
 		id="mun_twin152CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\mun_twin152cit.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\mun_twin152cit.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4860,7 +4974,7 @@
 		id="mun_twin152CIT01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\mun_twin152cit_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\mun_twin152cit_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4896,7 +5010,7 @@
 		id="triple155CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\triple155cit.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\triple155cit.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4911,7 +5025,7 @@
 		id="triple155CIT01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\triple155cit_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\triple155cit_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4959,7 +5073,7 @@
 		id="mun_triple155CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\mun_triple155cit.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\mun_triple155cit.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -4974,7 +5088,7 @@
 		id="mun_triple155CIT01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_cruiser\mun_triple155cit_gun.gam">
+		file="data\models\battleship\vehicles\cit_ocruiser\mun_triple155cit_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -5019,17 +5133,119 @@
 	</model>
 
 	<model
-		id="cruiserCDEngine"
+		id="triple152CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\engine.gam" />
+		file="data\models\battleship\vehicles\cit_hcruiser\triple152cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
 
 	<model
-		id="cruiserCDHull"
+		id="triple152CIT01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_hcruiser\triple152cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_triple152CIT01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_hcruiser\mun_triple152cit.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_triple152CIT01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_hcruiser\mun_triple152cit_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_LIGHTCRUISER_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="hcruiserCDEngine"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_hcruiser\engine.gam" />
+
+	<model
+		id="hcruiserCDHull"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\hull.gam">
+		file="data\models\battleship\vehicles\cd_hcruiser\hull.gam">
 		<action
 			name="DEATH1">
 			<lp
@@ -5190,8 +5406,8 @@
 	</model>
 
 	<model
-		id="cruiserCD203Armanent"
-		file="data\models\battleship\vehicles\cd_cruiser\armanent01.gam"
+		id="hcruiserCD203Armanent"
+		file="data\models\battleship\vehicles\cd_hcruiser\armanent01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -5432,7 +5648,7 @@
 		id="twin203CD01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\twin203cd.gam">
+		file="data\models\battleship\vehicles\cd_hcruiser\twin203cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -5447,7 +5663,7 @@
 		id="twin203CD01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\twin203cd_gun.gam">
+		file="data\models\battleship\vehicles\cd_hcruiser\twin203cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -5483,7 +5699,7 @@
 		id="mun_twin203CD01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\mun_twin203cd.gam">
+		file="data\models\battleship\vehicles\cd_hcruiser\mun_twin203cd.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -5498,7 +5714,7 @@
 		id="mun_twin203CD01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\mun_twin203cd_gun.gam">
+		file="data\models\battleship\vehicles\cd_hcruiser\mun_twin203cd_gun.gam">
 		<action
 			name="MOVE1">
 			<lp
@@ -5555,30 +5771,30 @@
 		id="cruiser_rocketCD01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\rocketcdgun.gam" />
+		file="data\models\battleship\vehicles\cd_hcruiser\rocketcdgun.gam" />
 
 	<model
 		id="cruiser_samCD01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\samcd.gam">
-		<action
+		file="data\models\battleship\vehicles\cd_hcruiser\samcd.gam">
+<!-- 		<action
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
 				effect_id="ET_PS_CRUISERSAM_FIRE"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
-		</action>
+		</action> -->
 	</model>
 
 	<model
 		id="cruiser_samCD01gun"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cd_cruiser\samcdgun.gam" />
+		file="data\models\battleship\vehicles\cd_hcruiser\samcdgun.gam" />
 
-<model
+	<model
 		id="battleshipCITEngine"
 		shadow="0"
 		windwavy="0"
@@ -8925,6 +9141,108 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
+<!-- 
+	<model
+		id="twin356CD03"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\twin356cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_BATTLESHIP_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="twin356CD03gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\twin356aacd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin356CD03"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\mun_twin356cd.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_BATTLESHIP_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="mun_twin356CD03gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cd_battleship\mun_twin356aacd_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_BATTLESHIP_FIRE_EFFECT"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model> -->
 
 	<model
 		id="triple406CD01"
@@ -9417,6 +9735,49 @@
 	</model>
 
 	<model
+		id="lavCITWheel"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\wheel.gam" />
+
+	<model
+		id="lavCITHull"
+		shadow="1"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\hull.gam">
+	</model>
+
+	<model
+		id="lavCITMachinegun01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\machinegun01.gam" />
+
+	<model
+		id="lavCITMachinegun01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_lav\machinegun01_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_KPVT_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
 		id="lavCDWheel"
 		shadow="1"
 		windwavy="0"
@@ -9529,6 +9890,90 @@
 		shadow="0"
 		windwavy="0"
 		trans="0" />
+
+	<model
+		id="coastaamed"
+		file="data\models\battleship\environment\coastaamed.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />	
+
+	<model
+		id="coastmed"
+		file="data\models\battleship\environment\coastmed.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />	
+
+	<model
+		id="heliFuselage01_static"
+		file="data\models\battleship\vehicles\helicopter\helifuselage01_static.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />	
+
+	<model
+		id="heliFuselage01_dead"
+		file="data\models\battleship\vehicles\helicopter\helifuselage01_dead.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" >
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="heliFuselage02_static"
+		file="data\models\battleship\vehicles\helicopter\helifuselage02_static.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" />	
+
+	<model
+		id="heliFuselage02_dead"
+		file="data\models\battleship\vehicles\helicopter\helifuselage02_dead.gam"
+		shadow="0"
+		windwavy="0"
+		trans="0" >
+		<action
+			name="STAND1">
+			<lp
+				id="LP_EXH01"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH02"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_EXH03"
+				effect_id="ET_PS_SHIPFIRE"
+				restartOnAnimationChange="0"
+				ImmediateRemove="0" />
+		</action>
+	</model>
 <!--
 	<model
 		id="mayak"

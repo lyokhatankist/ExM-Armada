@@ -38,49 +38,49 @@
 
 		<group 
 			id		= "GUNFIRE_SML_MG" 
-			volume	= "115" 
+			volume	= "100" 
 			minDist	= "10"
 		/>
 
 		<group 
 			id		= "GUNFIRE_BIG_MG" 
-			volume	= "135" 
+			volume	= "115" 
 			minDist	= "15"
 		/>
 
 		<group 
 			id		= "GUNFIRE_SML_CANNON" 
-			volume	= "145" 
+			volume	= "125" 
 			minDist	= "30"
 		/>
 
 		<group 
 			id		= "GUNFIRE_MED_CANNON" 
-			volume	= "160" 
+			volume	= "140" 
 			minDist	= "35"
 		/>
 
 		<group 
 			id		= "GUNFIRE_BIG_CANNON" 
-			volume	= "180" 
+			volume	= "160" 
 			minDist	= "45"
 		/>
 
 		<group
 			id		= "ENGINE_SML"
-			volume	= "85" 
+			volume	= "95" 
 			minDist	= "20"
 		/>
 
 		<group
 			id		= "ENGINE_MED"
-			volume	= "110" 
+			volume	= "105" 
 			minDist	= "25"
 		/>
 
 		<group
 			id		= "ENGINE_BIG"
-			volume	= "125" 
+			volume	= "115" 
 			minDist	= "35"
 		/>
 	<!-- vanilla -->

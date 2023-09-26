@@ -10,12 +10,12 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		Class 			= "VehicleRoleMeat"
 		Name                    = "MeatRole"
 	/>
-	
+<!--
 	<Prototype
 		Class 			= "VehicleRoleSniper"
 		Name                    = "SniperRole"
 	/>
-
+-->	
 	<Prototype
 		Class 			= "VehicleRoleOppressor"
 		Name                    = "OppressorRoleLeft"
@@ -43,7 +43,93 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 
 		OppressionShift		= "-200 0"
 	/>
+
+<!-- battleship1 start -->
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "StandardRoleLeft"
+
+		OppressionShift		= "0 -550"
+	/>
 	
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "StandardRoleRight"
+
+		OppressionShift		= "0 550"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "StandardRoleTop"
+
+		OppressionShift		= "550 0"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "StandardRoleBottom"
+
+		OppressionShift		= "-550 0"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "CautiousRoleLeft"
+
+		OppressionShift		= "0 -750"
+	/>
+	
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "CautiousRoleRight"
+
+		OppressionShift		= "0 750"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "CautiousRoleTop"
+
+		OppressionShift		= "750 0"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "CautiousRoleBottom"
+
+		OppressionShift		= "-750 0"
+	/>
+	
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "SniperRoleLeft"
+
+		OppressionShift		= "0 -920"
+	/>
+	
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "SniperRoleRight"
+
+		OppressionShift		= "0 920"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "SniperRoleTop"
+
+		OppressionShift		= "920 0"
+	/>
+
+	<Prototype
+		Class 			= "VehicleRoleOppressor"
+		Name                    = "SniperRoleBottom"
+
+		OppressionShift		= "-920 0"
+	/>
+<!-- battleship1 end -->
+
 	<Prototype
 		Class 			= "VehicleRoleBarrier"
 		Name                    = "BarrierRole"
@@ -63,7 +149,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		Class 			= "VehicleRolePendulum"
 		Name                    = "PendulumRole1"
 
-		OppressionShift		= "150 75"
+		OppressionShift		= "400 200"
 		A			= "500"
 		B			= "200"
 	/>
@@ -87,7 +173,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="CowardRole"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "TestTeamTactic"
@@ -102,7 +188,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="OppressorRoleBottom"/>
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->	
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "MeatTeamTactic"
@@ -112,7 +198,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="MeatRole"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "MeatTeamTacticWithSniper"
@@ -124,7 +210,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="MeatRole"/>
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->	
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "BoxTactic"
@@ -137,7 +223,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="OppressorRoleTop"/>
 		<Role Prototype="OppressorRoleBottom"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "TeamTacticSniper"
@@ -147,7 +233,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "TeamTacticBarrier"
@@ -157,7 +243,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 	
 		<Role Prototype="BarrierRole"/>
 	</Prototype>
-
+<!--
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "BoxTacticWithSniper"
@@ -171,7 +257,7 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="OppressorRoleBottom"/>
 		<Role Prototype="SniperRole"/>
 	</Prototype>
-
+-->
 	<Prototype
 		Class			= "TeamTacticWithRoles"
 		Name			= "TeamTacticCheaters"
@@ -205,4 +291,83 @@ $Id: Tactics.xml,v 1.13 2005/06/24 13:54:54 anton Exp $
 		<Role Prototype="MeatRole"/>
 		<Role Prototype="MeatRole"/>
 	</Prototype>
+
+<!-- battleship2 start -->
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "StandardTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="StandardRoleLeft"/>
+		<Role Prototype="StandardRoleRight"/>
+		<Role Prototype="StandardRoleTop"/>
+		<Role Prototype="StandardRoleBottom"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "CautiousTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="CautiousRoleLeft"/>
+		<Role Prototype="CautiousRoleRight"/>
+		<Role Prototype="CautiousRoleTop"/>
+		<Role Prototype="CautiousRoleBottom"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "SniperTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="SniperRoleLeft"/>
+		<Role Prototype="SniperRoleRight"/>
+		<Role Prototype="SniperRoleTop"/>
+		<Role Prototype="SniperRoleBottom"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "AssaultLeftTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="OppressorRoleLeft"/>
+		<Role Prototype="StandardRoleLeft"/>
+		<Role Prototype="CautiousRoleLeft"/>
+		<Role Prototype="SniperRoleLeft"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "AssaultRightTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="OppressorRoleRight"/>
+		<Role Prototype="StandardRoleRight"/>
+		<Role Prototype="CautiousRoleRight"/>
+		<Role Prototype="SniperRoleRight"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "AssaultTopTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="OppressorRoleTop"/>
+		<Role Prototype="StandardRoleTop"/>
+		<Role Prototype="CautiousRoleTop"/>
+		<Role Prototype="SniperRoleTop"/>
+	</Prototype>
+
+	<Prototype
+		Class			= "TeamTacticWithRoles"
+		Name			= "AssaultBottomTactic"
+		ResourceType	= "TEAMTACTIC">	
+	
+		<Role Prototype="OppressorRoleBottom"/>
+		<Role Prototype="StandardRoleBottom"/>
+		<Role Prototype="CautiousRoleBottom"/>
+		<Role Prototype="SniperRoleBottom"/>
+	</Prototype>
+<!-- battleship2 end -->
 </Prototypes>
