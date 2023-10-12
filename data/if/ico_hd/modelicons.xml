@@ -2,55 +2,87 @@
 <!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 
 <icons>
-<Item id="smlboatCITNurs01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\Nurs01.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCITMachinegun01"			file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCITRocket01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITRocket01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCDCannon01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDCannon01.dds"       file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCDMachinegun01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCDRocket01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDRocket01.dds"       file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="smlboatCDRocket02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDRocket02.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="fastboatCITTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="fastboatCITMachinegun01"			file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="destroyerCITTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_single130CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_single130CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_single138CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_single138CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="destroyerCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin127CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin127CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin135CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin135CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="ocruiserCITTorpedo01"			   file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="sponson130CIT01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="AA47mmCannon01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA47mm.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="AA120mmSAMCIT01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA120mmSAM.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="AA152mmATGMCD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA152mmATGM.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin152CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin152CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple155CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple155CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple152CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple152CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="hcruiserCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin203CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin203CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="cruiser_rocketCD01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\Cruise01.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="cruiser_samCD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruSAM01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="AA23mmGun01"							file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA23mm.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple406CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple406CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_quadruple380CIT01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_quadruple380CIT02"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple457CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITHBatMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple457CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITHBatMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin130CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin130CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin356CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin356CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_twin356CD03"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain03.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple406CD01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
-<Item id="mun_triple406CD02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain02.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCITNurs01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\Nurs01.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCITMachinegun01"			file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCITRocket01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITRocket01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCDCannon01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDCannon01.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCDMachinegun01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCDRocket01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDRocket01.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="smlboatCDRocket02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDRocket02.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="fastboatCITTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="fastboatCITMachinegun01"			file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="destroyerCITTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_single130CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_single130CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_single138CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_single138CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="destroyerCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin127CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin127CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain02a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin135CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin135CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain02b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="ocruiserCITTorpedo01"			   file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="sponson130CIT01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="AA47mmCannon01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA47mm.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="AA120mmSAMCIT01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA120mmSAM.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="AA152mmATGMCD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA152mmATGM.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin152CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin152CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple155CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple155CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple152CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain01a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple152CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITLcruMain02a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="hcruiserCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin203CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin203CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruMain02a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="cruiser_rocketCD01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\Cruise01.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="cruiser_samCD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDHcruSAM01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="AA23mmGun01"							file="data\if\ico_hd\InventoryDlg\battleship\weapons\AA23mm.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple406CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple406CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain02a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_quadruple380CIT01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain01b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_quadruple380CIT02"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain02b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple457CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain01c.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple457CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITBatMain02c.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin130CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin130CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin356CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin356CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain02a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_twin356CD03"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain03a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple406CD01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain01b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="mun_triple406CD02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDBatMain02b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+
+	<Item id="smlboatCITEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\boat.dds" file1=""/>
+	<Item id="smlboatCDEngine"						file="data\if\ico_hd\InventoryDlg\battleship\components\boat.dds" file1=""/>
+	<Item id="fastboatCITEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\boat.dds" file1=""/>
+	<Item id="destroyerCITEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="destroyerCITEngineMod"				file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="destroyerCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="ocruiserCITEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="ocruiserCITEngineMod"				file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="hcruiserCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="battleshipCITEngine"				file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="battleshipCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+	<Item id="merchantCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
+
+   <Item id="smlboatCITArmanent"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds" file1=""/>
+	<Item id="smlboatCITArmanentMod"				file="data\if\ico_hd\InventoryDlg\battleship\components\nurs.dds" file1=""/>
+	<Item id="smlboatCDArmanent"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds" file1=""/>
+	<Item id="fastboatCITArmanent"				file="data\if\ico_hd\InventoryDlg\battleship\components\lighttorp.dds" file1=""/>
+	<Item id="destroyerCIT130Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm.dds" file1=""/>
+	<Item id="destroyerCIT138Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit138mm.dds" file1=""/>
+   <Item id="destroyerCIT130ArmanentMod"		file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm2.dds" file1=""/>
+	<Item id="destroyerCD127Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd127mm.dds" file1=""/>
+	<Item id="destroyerCD135Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd135mm.dds" file1=""/>
+	<Item id="ocruiserCIT152Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit152mm.dds" file1=""/>
+	<Item id="ocruiserCIT155Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit155mm.dds" file1=""/>
+	<Item id="hcruiserCD203Armanent"				file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds" file1=""/>
+	<Item id="semibossCDRocketArmanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds" file1=""/>
+   <Item id="battleshipCIT406Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit406mm.dds" file1=""/>
+	<Item id="battleshipCIT380Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit380mm.dds" file1=""/>
+	<Item id="battleshipCIT457Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit457mm.dds" file1=""/>
+	<Item id="battleshipCD356Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd356mm.dds" file1=""/>
+	<Item id="battleshipCD406Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd406mm.dds" file1=""/>
 
 <!--    <Item id="arcadescoutCab"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="FormulaCab01"		   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	

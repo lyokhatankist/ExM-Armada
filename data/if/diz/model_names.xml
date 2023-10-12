@@ -697,21 +697,6 @@
 		value="Лёгкое вооружение" />
 
 	<Item
-		id="SmlboatCIT01"
-		locForm="0"
-		value="Муэтт" />
-
-	<Item
-		id="SmlboatCIT02"
-		locForm="0"
-		value="Муэтт" />
-
-	<Item
-		id="smlboatCITNurs01"
-		locForm="0"
-		value="Кордаж" />
-
-	<Item
 		id="smlboatCITMachinegun01"
 		locForm="0"
 		value="Корд" />
@@ -720,6 +705,26 @@
 		id="smlboatCITRocket01"
 		locForm="0"
 		value="Пик" />
+
+	<Item
+		id="SmlboatCIT01"
+		locForm="0"
+		value="Муэтт" />
+
+	<Item
+		id="smlboatCITArmanentMod"
+		locForm="0"
+		value="РСЗО" />
+
+	<Item
+		id="smlboatCITNurs01"
+		locForm="0"
+		value="Кордаж" />
+
+	<Item
+		id="SmlboatCIT02"
+		locForm="0"
+		value="Муэтт" />
 
 	<Item
 		id="SmlboatCD"
@@ -742,11 +747,6 @@
 		value="Лёгкое вооружение" />
 
 	<Item
-		id="SmlboatCD01"
-		locForm="0"
-		value="Ривер" />
-
-	<Item
 		id="smlboatCDCannon01"
 		locForm="0"
 		value="Биркигт" />
@@ -765,6 +765,11 @@
 		id="smlboatCDRocket02"
 		locForm="0"
 		value="Фаланга-М" />
+
+	<Item
+		id="SmlboatCD01"
+		locForm="0"
+		value="Ривер" />
 
 	<Item
 		id="FastboatCIT"
@@ -847,6 +852,11 @@
 		value="Лион" />
 
 	<Item
+		id="destroyerCITEngineMod"
+		locForm="0"
+		value="Силовая установка" />
+
+	<Item
 		id="destroyerCIT138Armanent"
 		locForm="0"
 		value="Орудия 138-мм" />
@@ -870,6 +880,11 @@
 		id="DestroyerCIT02"
 		locForm="0"
 		value="Лион" />
+
+	<Item
+		id="destroyerCIT130ArmanentMod"
+		locForm="0"
+		value="Орудия 130-мм" />
 
 	<Item
 		id="SemibossCIT01"
@@ -1102,11 +1117,6 @@
 		value="Фурия" />
 
 	<Item
-		id="SemibossCD01"
-		locForm="0"
-		value="Тоскана" />
-
-	<Item
 		id="semibossCDRocketArmanent"
 		locForm="0"
 		value="Крылатые ракеты" />
@@ -1120,6 +1130,11 @@
 		id="cruiser_samCD01"
 		locForm="0"
 		value="Тэлён" />
+
+	<Item
+		id="SemibossCD01"
+		locForm="0"
+		value="Тоскана" />
 
 	<Item
 		id="BattleshipCIT"

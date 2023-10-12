@@ -30,7 +30,7 @@
 
 	<string
 		id="stat_VehiclesKilled"
-		value="Машин уничтожено" />
+		value="Техники уничтожено" />
 
 	<string
 		id="stat_ShellsEmitted"

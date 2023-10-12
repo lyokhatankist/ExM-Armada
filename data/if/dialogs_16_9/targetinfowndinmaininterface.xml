@@ -78,7 +78,7 @@
 		<Node
 			name="lblHealth"
 			class="Wnd"
-			org="210.000 155.000 56.000 22.000"
+			org="210.000 155.000 73.000 22.000"
 			style="3840"
 			order="7"
 			id="0"

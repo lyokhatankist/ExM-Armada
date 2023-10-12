@@ -1040,6 +1040,33 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
+			Name						= "smlboatCITArmanentMod"
+			ModelFile					= "smlboatCITArmanent"
+			ResourceType				= "SMLBOATCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0" 
+			Durability					= "10"
+			DurCoeffsForDamageTypes		= "35 50 1"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_SMLBLAST_HEWATERSPLASH"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "3 4">
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "7 7"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
 			Name						= "smlboatCDArmanent"
 			ModelFile					= "smlboatCDArmanent"
 			ResourceType				= "SMLBOATCD_BASKET"
@@ -1207,6 +1234,43 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_4"
 					Pos		= "11 9"
+				/>
+			</RepositoryDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Basket"
+			Name						= "destroyerCIT130ArmanentMod"
+			ModelFile					= "destroyerCIT130Armanent"
+			ResourceType				= "DESTROYERCIT_BASKET"
+			NodeScale					= "1 1 1"
+
+			Mass						= "55.0" 
+			Durability					= "300"
+			DurCoeffsForDamageTypes		= "50 50 0"
+			Price						= "0"
+			RepairCoef					= "0"
+
+			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+			LoadPoints					= "LP_FLYGUN01 LP_FLYGUN02 LP_FLYGUN03 LP_FLYGUN04 LP_SML01 LP_SML02 LP_SML03"
+
+			VisibleInEncyclopedia		= "false">
+			<RepositoryDescription
+				RepositorySize		= "6 8">
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_1"
+					Pos		= "11 2"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_2"
+					Pos		= "10 6"
+				/>
+
+				<Slot
+					Name		= "BASKET_SPECIAL_WEAPON_3"
+					Pos		= "12 6"
 				/>
 			</RepositoryDescription>
 		</Prototype>

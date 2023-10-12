@@ -18,11 +18,11 @@
 
 	<string
 		id="NotEnoughGold"
-		value="Недостаточно денег" />
+		value="Недостаточно денег." />
 
 	<string
 		id="NotEnoughSpace"
-		value="Недостаточно места в кузове" />
+		value="Недостаточно места в трюме." />
 
 	<string
 		id="Buy"
@@ -58,27 +58,27 @@
 
 	<string
 		id="MoveVehicleItemsFromPlayer"
-		value="Переместить приспособления, товары и оружие в новую машину" />
+		value="Переместить приспособления, товары и оружие в новое судно" />
 
 	<string
 		id="MoveVehicleItemsToPlayer"
-		value="Переместить приспособления, товары и оружие в старую машину" />
+		value="Переместить приспособления, товары и оружие в старое судно" />
 
 	<string
 		id="MoveCabinItemsFromPlayer"
-		value="Переместить приспособления и оружие в новую кабину" />
+		value="Переместить приспособления в новую силовую установку" />
 
 	<string
 		id="MoveCabinItemsToPlayer"
-		value="Переместить приспособления и оружие в старую кабину" />
+		value="Переместить приспособления в старую силовую установку" />
 
 	<string
 		id="MoveBasketItemsFromPlayer"
-		value="Переместить товары и оружие в новый кузов" />
+		value="Переместить товары и оружие в новый компонент" />
 
 	<string
 		id="MoveBasketItemsToPlayer"
-		value="Переместить товары и оружие в старый кузов" />
+		value="Переместить товары и оружие в старый компонент" />
 
 	<string
 		id="TotalPrice"
@@ -86,7 +86,7 @@
 
 	<string
 		id="NotCompatible"
-		value="Не совместимо с текущей конфигурацией машины" />
+		value="Не совместимо с текущей конфигурацией судна" />
 
 	<string
 		id="TooRich"
@@ -198,11 +198,11 @@
 
 	<string
 		id="VehicleCharacteristics"
-		value="Характеристики машины" />
+		value="Характеристики судна" />
 
 	<string
 		id="CBCharacteristics"
-		value="Характеристики кабины и кузова" />
+		value="Характеристики компонентов" />
 
 	<string
 		id="NotInstalled"
@@ -266,7 +266,7 @@
 
 	<string
 		id="EnginePower"
-		value="Мощность двигателя" />
+		value="Мощность СУ" />
 
 	<string
 		id="Torque"
@@ -330,11 +330,11 @@
 
 	<string
 		id="BasketCapacity"
-		value="Объем кузова" />
+		value="Объем трюма" />
 
 	<string
 		id="GADGET_COMMON"
-		value="улучшение автомобиля" />
+		value="улучшение судна" />
 
 	<string
 		id="GADGET_WEAPON"
@@ -350,15 +350,31 @@
 
 	<string
 		id="Piercing"
-		value="пули" />
+		value="ББС" />
 
 	<string
 		id="Blast"
-		value="взрыв" />
+		value="пули" />
 
 	<string
 		id="Energy"
-		value="энергия" />
+		value="ОФС" />
+
+	<string
+		id="ResistDamage"
+		value="Сопротивление урону" />
+
+	<string
+		id="PiercingCap"
+		value="ББС" />
+
+	<string
+		id="BlastCap"
+		value="Пули" />
+
+	<string
+		id="EnergyCap"
+		value="ОФС" />
 
 	<string
 		id="Fuel"
@@ -374,15 +390,15 @@
 
 	<string
 		id="PiercingResistance"
-		value="Сопротивление проникающим повреждениям" />
+		value="Сопротивление бронебойным снарядам" />
 
 	<string
 		id="BlastResistance"
-		value="Сопротивление взрывным повреждениям" />
+		value="Сопротивление огнестрельному оружию" />
 
 	<string
 		id="EnergyResistance"
-		value="Сопротивление энергетическим повреждениям" />
+		value="Сопротивление осколочно-фугасным снарядам" />
 
 	<string
 		id="VehicleControl"
@@ -390,7 +406,7 @@
 
 	<string
 		id="FuelTankCapacity"
-		value="Объем бензобака" />
+		value="Объём топлива" />
 
 	<string
 		id="Accuracy"
@@ -398,11 +414,11 @@
 
 	<string
 		id="CabinDurability"
-		value="Броня кабины" />
+		value="Прочность СУ" />
 
 	<string
 		id="BasketDurability"
-		value="Броня кузова" />
+		value="Прочность компонента" />
 
 	<string
 		id="GunType"
@@ -410,23 +426,23 @@
 
 	<string
 		id="MachineGun"
-		value="Пулемет" />
+		value="Пулемёт" />
 
 	<string
 		id="Cannon"
-		value="Пушка" />
+		value="Орудие" />
 
 	<string
 		id="ShotGun"
-		value="Дробовик" />
+		value="Орудие" />
 
 	<string
 		id="Laser"
-		value="Лазерная установка" />
+		value="Орудие" />
 
 	<string
 		id="Plasma"
-		value="Плазменная пушка" />
+		value="Орудие" />
 
 	<string
 		id="Rocket"
@@ -470,11 +486,11 @@
 
 	<string
 		id="Vehicles"
-		value="Автомобили" />
+		value="Техника" />
 
 	<string
 		id="VehicleParts"
-		value="Детали автомобилей" />
+		value="Компоненты" />
 
 	<string
 		id="Affixes"
@@ -486,11 +502,11 @@
 <!-- Окно ремонта -->
 	<string
 		id="Cabin"
-		value="Кабина" />
+		value="Силовая установка" />
 
 	<string
 		id="Basket"
-		value="Кузов" />
+		value="Компонент" />
 <!-- Мастерская (гараж) -->
 	<string
 		id="Repairing"
@@ -522,19 +538,19 @@
 
 	<string
 		id="Skinning"
-		value="Покраска машины" />
+		value="Покраска судна" />
 
 	<string
 		id="BuyCabin"
-		value="Купить кабину" />
+		value="Купить силовую установку" />
 
 	<string
 		id="BuyBasket"
-		value="Купить кузов" />
+		value="Купить компонент" />
 
 	<string
 		id="BuyVehicle"
-		value="Купить машину" />
+		value="Купить судно" />
 
 	<string
 		id="RefuelMax"
@@ -550,11 +566,11 @@
 
 	<string
 		id="NextVehicle"
-		value="Следующая машина" />
+		value="Следующее судно" />
 
 	<string
 		id="PrevVehicle"
-		value="Предыдущая машина" />
+		value="Предыдущее судно" />
 
 	<string
 		id="NumUnitsToBuy"
@@ -654,15 +670,15 @@
 
 	<string
 		id="LeftItemsInCabin"
-		value="В кабине остались установленные приспособления и/или оружие.|Они будут проданы вместе с кабиной.|Продолжить?" />
+		value="В силовой установке остались установленные приспособления.|Они будут проданы вместе с силовой установкой.|Продолжить?" />
 
 	<string
 		id="LeftItemsInBasket"
-		value="В кузове остались установленные приспособления и/или оружие.|Они будут проданы вместе с кузовом.|Продолжить?" />
+		value="В трюме остались предметы.|Они будут проданы вместе с компонентом.|Продолжить?" />
 
 	<string
 		id="LeftItemsInVehicle"
-		value="В машине остались установленные приспособления и/или оружие.|Они будут проданы вместе с машиной.|Продолжить?" />
+		value="В судне остались установленные приспособления и/или оружие.|Они будут проданы вместе с судном.|Продолжить?" />
 
 	<string
 		id="BuyItemsCost"
@@ -682,15 +698,15 @@
 
 	<string
 		id="EnterVehicleTrade"
-		value="Войти в режим покупки машины" />
+		value="Войти в режим покупки судна" />
 
 	<string
 		id="VehiclePrice"
-		value="Цена машины" />
+		value="Цена судна" />
 
 	<string
 		id="ReturnToWorkshop"
-		value="Вернуться в главное окно мастерской" />
+		value="Вернуться в главное окно дока" />
 <!-- Магазин -->
 	<string
 		id="GunsAndGadgets"
@@ -806,7 +822,7 @@
 
 	<string
 		id="PeaceAvailable"
-		value="Возможно улучшить отношения с группировкой,|если переговорить с ее представителями|в одном из городов" />
+		value="Возможно улучшить отношения с группировкой,|если переговорить с её представителями|в одном из городов" />
 <!-- Квестлог -->
 	<string
 		id="ShowAllQuests"
@@ -846,11 +862,11 @@
 
 	<string
 		id="TabBtn_Inventory"
-		value="Содержимое кузова" />
+		value="Содержимое трюма" />
 
 	<string
 		id="TabBtn_Characteristic"
-		value="Информация о машине" />
+		value="Информация о судне" />
 <!-- Окно помощи -->
 	<string
 		id="DontShowAutoHelp"
