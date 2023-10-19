@@ -1204,7 +1204,7 @@
 	<Item
 		id="BattleshipCIT02"
 		locForm="0"
-		value="Гельвеция" />
+		value="Либриум" />
 
 	<Item
 		id="battleshipCIT457Armanent"
@@ -1244,7 +1244,7 @@
 	<Item
 		id="BossCIT01"
 		locForm="0"
-		value="Либриум" />
+		value="Гельвеция" />
 
 	<Item
 		id="BattleshipCD"

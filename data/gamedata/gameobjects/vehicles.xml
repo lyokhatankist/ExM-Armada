@@ -967,10 +967,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_10"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN10" />
 			</PartDescription>
 		</MainPartDescription>
 
@@ -1298,7 +1298,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class					= "Vehicle"
-		Name					= "BattleshipCIT03"
+		Name					= "BossCIT01"
 		ParentPrototype 		= "BattleshipCIT"
 		LookRadius				= "1500.0"
 		VisibleInEncyclopedia	= "false">
@@ -1411,10 +1411,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_3"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN03" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_4"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN04" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_5"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN05" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
-				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_6"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN06" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_7"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN07" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_8"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN08" />
+				<PartDescription	id = "BASKET_SPECIAL_WEAPON_9"	partResourceType = "MEDANTIAIR_GUN"			lpName = "LP_FLYGUN09" />
 			</PartDescription>
 		</MainPartDescription>
 

@@ -415,7 +415,7 @@ function GiveVehicle(num)
 	elseif num==11 then
 		model="BelazShot"		
 	elseif num==12 then
-		model="MirotvorecShot"		
+		model="SemibossCD01"		
         elseif num==13 then
 		model="Cruiser01"		
 	elseif num==14 then

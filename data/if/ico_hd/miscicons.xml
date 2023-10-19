@@ -280,24 +280,24 @@
 	<Item id="SPECIAL_WEAPON"	file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
 
 	<!-- battleship-->
-	<Item id="SMLBOATCD_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN127MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN135MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN203MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN356MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TRIPLE406MMCD_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SINGLE130MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SINGLE138MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN152MMCIT_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TRIPLE155MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TRIPLE152MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TRIPLE406MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="QUADRUPLE380MMCIT_GUN"	file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TRIPLE457MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="TWIN130MMCIT_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="SMLANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="MEDANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
-	<Item id="BIGANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\Invent_cell.dds"		file1=""/>
+	<Item id="SMLBOATCD_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_aa_boat.dds"		file1=""/>
+	<Item id="TWIN127MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml.dds"		file1=""/>
+	<Item id="TWIN135MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml.dds"		file1=""/>
+	<Item id="TWIN203MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_med.dds"		file1=""/>
+	<Item id="TWIN356MMCD_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_big.dds"		file1=""/>
+	<Item id="TRIPLE406MMCD_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_big.dds"		file1=""/>
+	<Item id="SINGLE130MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml.dds"		file1=""/>
+	<Item id="SINGLE138MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml.dds"		file1=""/>
+	<Item id="TWIN152MMCIT_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml2.dds"		file1=""/>
+	<Item id="TRIPLE155MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml2.dds"		file1=""/>
+	<Item id="TRIPLE152MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_med.dds"		file1=""/>
+	<Item id="TRIPLE406MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_gnt.dds"		file1=""/>
+	<Item id="QUADRUPLE380MMCIT_GUN"	file="data\if\ico_hd\InventoryDlg\invent_cell_gun_gnt.dds"		file1=""/>
+	<Item id="TRIPLE457MMCIT_GUN"		file="data\if\ico_hd\InventoryDlg\invent_cell_gun_gnt.dds"		file1=""/>
+	<Item id="TWIN130MMCIT_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_gun_sml.dds"		file1=""/>
+	<Item id="SMLANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_aa_sml.dds"		file1=""/>
+	<Item id="MEDANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_aa_med.dds"		file1=""/>
+	<Item id="BIGANTIAIR_GUN"			file="data\if\ico_hd\InventoryDlg\invent_cell_aa_big.dds"		file1=""/>
 
 <!-- �� ��� ������ ������� -->
 <!-- Unused, probably can be deleted - TO TEST
