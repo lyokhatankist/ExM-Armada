@@ -3157,16 +3157,7 @@
 		id="single130CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_destroyer\single130cit.gam">
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-	</model>
+		file="data\models\battleship\vehicles\cit_destroyer\single130cit.gam" />
 
 	<model
 		id="single130CIT01gun"
@@ -3196,16 +3187,7 @@
 		id="mun_single130CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_destroyer\mun_single130cit.gam">
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-	</model>
+		file="data\models\battleship\vehicles\cit_destroyer\mun_single130cit.gam" />
 
 	<model
 		id="mun_single130CIT01gun"
@@ -3235,16 +3217,7 @@
 		id="single138CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_destroyer\single138cit.gam">
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-	</model>
+		file="data\models\battleship\vehicles\cit_destroyer\single138cit.gam" />
 
 	<model
 		id="single138CIT01gun"
@@ -3274,16 +3247,7 @@
 		id="mun_single138CIT01"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\cit_destroyer\mun_single138cit.gam">
-		<action
-			name="MOVE1">
-			<lp
-				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
-				restartOnAnimationChange="1"
-				ImmediateRemove="0" />
-		</action>
-	</model>
+		file="data\models\battleship\vehicles\cit_destroyer\mun_single138cit.gam" />
 
 	<model
 		id="mun_single138CIT01gun"
@@ -8056,7 +8020,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -8071,13 +8035,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_DESTROYER_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_DESTROYER_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -8107,7 +8071,7 @@
 			name="MOVE1">
 			<lp
 				id="LP_GUN"
-				effect_id="ET_PS_SHELL_BIG_CANNON"
+				effect_id="ET_PS_DESTROYER_FIRE_SOUND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -8122,13 +8086,13 @@
 			name="MOVE1">
 			<lp
 				id="LP_FIRE01"
-				effect_id="ET_PS_DESTROYER_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 
 			<lp
 				id="LP_FIRE02"
-				effect_id="ET_PS_DESTROYER_FIRE"
+				effect_id="ET_PS_DESTROYER_FIRE_EFFECT"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
