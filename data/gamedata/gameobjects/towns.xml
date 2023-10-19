@@ -6,6 +6,91 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 
 <Prototypes>  
 	<Folder Name = "BigTowns">
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="gunTownHelenaGenerator">
+
+			<Object PrototypeName="smlboatCITMachinegun01" />
+			<Object PrototypeName="smlboatCDMachinegun01" />
+		</Prototype>	
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="townaffixGenerator">
+
+			<Affix AffixName = "rusty_gun" />
+			<Affix AffixName = "excellent_gun" />
+			<Affix AffixName = "assault_gun" />
+			<Affix AffixName = "with_enlarged_barrel_gun" />
+			<Affix AffixName = "with_laser_sight_gun" />
+			<Affix AffixName = "with_water_cooling_gun"	/>
+			<Affix AffixName = "deadly_gun" />
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="towntruxaffixGenerator">
+
+			<Affix AffixName = "rusty_cabin" />
+			<Affix AffixName = "excellent_cabin" />
+			<Affix AffixName = "rusty_basket" />
+			<Affix AffixName = "excellent_basket" />
+		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "PortHelena"
+			ModelFile	= "point"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "trade_town1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "400"
+			IntersectionRadius	= "100" 
+
+			Vehicles 	= "FastboatCIT01"
+
+			GunGenerator		= "gunTownHelenaGenerator"
+			DesiredGunsInWorkshop	= "5"
+
+			GunAffixGenerator	= "townaffixGenerator"
+			GunAffixesCount		= "1"
+
+			CabinsAndBasketsAffixGenerator	= "towntruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "3"
+
+			WeaponPriceMultiplier = "1.2"
+			WeaponPriceDispersion = "15">
+			
+			<Article
+				Prototype				= "potato"				
+				Amount	 				= "0"
+				ExternalPriceCoefficient		= "1.45"
+				Import   				= "TRUE"
+				Export   				= "FALSE"				
+				PriceDynamic 				= "1"
+				MinCount				= "0"
+				MaxCount				= "60"
+				RegenerationPeriod			= "300"	
+			/>
+
+			<Article
+				Prototype				= "firewood"				
+				Amount	 				= "6"
+				ExternalPriceCoefficient		= "0.9"
+				PriceDynamic 				= "1"
+				Import   				= "FALSE"
+				Export   				= "TRUE"
+				MinCount				= "0"
+				MaxCount				= "14"
+				RegenerationPeriod			= "300"
+			/>
+
+			<ResourceCoeff Coeff="1.5" Dispersion="20.0" Resource="GUN" />
+			<ResourceCoeff Coeff="1.0" Dispersion="10.0" Resource="CABIN" />
+		</Prototype>
 <!--
 		<Prototype
 			Class="RepositoryObjectsGenerator"

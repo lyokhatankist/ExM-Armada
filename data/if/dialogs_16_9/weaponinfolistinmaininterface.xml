@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- Seel's comments: -->
+<!-- Player vehicle weapon list shown when driving -->
+<!-- Child of maingameinterfacewnd.xml -->
+<Prefabs>
+	<Node
+		name="WeaponInfoList"
+		class="Wnd"
+		org="1878.000 3.000 64.500 68.000"
+		style="768"
+		order="-1"
+		id="0"
+		caption=""
+		tip=""
+		backimage=""
+		paneName="defaultWnd"
+		scrollPaneName="Scroll1"
+		paneFlags="0"
+		wrap="2"
+		format="1"
+		font="0"
+		clientEdges="0.000 0.000 0.000 0.000"
+		wndColor="00000000"
+		textColor="ff505050"
+		textColorDisabled="ff7f7f7f">
+		<Node
+			name="WeaponInfoWnd"
+			class="Wnd"
+			org="0.000 11.000 42.000 34.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<!--
+	<Node
+
+	name="wndNoAmmoBg"
+
+	class="ImageWnd"
+
+	org="0.000 16.000 60.000 48.000"
+
+	style="768"
+
+	order="-1"
+
+	id="0"
+
+	caption=""
+
+	tip=""
+
+	backimage=""
+
+	image="data\if\ico\MainGameInterfaceWnd\semiblack.dds"
+
+	paneName="PaneGrayThin"
+
+	scrollPaneName="Scroll1"
+
+	paneFlags="0"
+
+	wrap="2"
+
+	format="1"
+
+	font="0"
+
+	clientEdges="0.000 0.000 0.000 0.000"
+
+	wndColor="00000000"
+
+	textColor="ffffffff"
+
+	textColorDisabled="ff7f7f7f">
+
+	<Animations />
+
+	</Node>
+-->
+		<Node
+			name="wndIco"
+			class="ImageWnd"
+			org="8.500 17.500 21.500 21.500"
+			style="768"
+			order="0"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f"
+			image="">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndAmmo"
+			class="Wnd"
+			org="12.500 29.500 19.000 23.000"
+			style="2816"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="wnd3VeryAlpha"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="2"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndGroup"
+			class="Wnd"
+			org="13.000 20.500 14.000 17.000"
+			style="2816"
+			order="8"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			paneName="wnd3VeryAlpha"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="0"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffdd57"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndCanShotBg"
+			class="ImageWnd"
+			org="7.000 16.000 24.750 25.500"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico_hd\WeaponInfoList\weapon_orangelight.dds"
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndBg"
+			class="ImageWnd"
+			org="0.000 11.000 42.000 34.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico_hd\WeaponInfoList\weapon_slot.dds"
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndCharge"
+			class="ProgressBarWnd"
+			org="35.000 14.000 5.000 28.000"
+			style="3840"
+			order="6"
+			id="0"
+			caption=""
+			tip=""
+			backimage="data\if\ico\MainGameInterfaceWnd\sblack.dds"
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="1"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff8f8f8f"
+			barColor="ff00ff00"
+			numOfSteps="10"
+			orientation="1"
+			barTexture="data\if\ico\WeaponInfoList\weapon_bar_ready.dds"
+			textureStyle="1"
+			textStyle="0">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndDecorTop"
+			class="ImageWnd"
+			org="38.000 0.000 5.500 11.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\WeaponInfoList\weapon_holder_top.dds"
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="wndDecorBottom"
+			class="ImageWnd"
+			org="38.000 53.500 5.500 11.000"
+			style="768"
+			order="-1"
+			id="0"
+			caption=""
+			tip=""
+			backimage=""
+			image="data\if\ico\WeaponInfoList\weapon_holder_bottom.dds"
+			paneName="PaneGrayThin"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			textColorDisabled="ff7f7f7f">
+			<Animations/>
+		</Node>
+
+		<Animations/>
+	</Node>
+</Prefabs>

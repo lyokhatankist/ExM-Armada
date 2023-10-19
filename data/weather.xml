@@ -3026,7 +3026,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
 		waterSpecularS="0.004"
-		reduceDistFactor="0.900">
+		reduceDistFactor="0.450">
 		<Sky
 			sunriseColor="66.300 76.500 94.350"
 			dayColor="168.300 160.650 168.300"
