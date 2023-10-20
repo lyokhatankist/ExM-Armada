@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 <ModelNames>
-	<Item
+<!-- 	<Item
 		id="cooling_system_guns"
 		locForm="0"
 		value="Водяная система охлаждения  для огнестрельного оружия" />
@@ -193,7 +193,7 @@
 	<Item
 		id="additional_fuel_tank2_add_damage_guns"
 		locForm="0"
-		value="Система &quot;Сато&quot;" />
+		value="Система &quot;Сато&quot;" /> -->
 
 	<Item
 		id="potato"
@@ -245,7 +245,7 @@
 		locForm="0"
 		value="Электроника" />
 
-	<Item
+<!-- 	<Item
 		id="quest_start_father_letter"
 		locForm="0"
 		value="Письмо" />
@@ -533,7 +533,7 @@
 	<Item
 		id="minePusher_2"
 		locForm="0"
-		value="Вихрь" />
+		value="Вихрь" /> -->
 <!--
 	<Item
 		id="staticAutoGun01"
@@ -610,10 +610,10 @@
 		locForm="0"
 		value="Дрон" />
 
-	<Item
+<!-- 	<Item
 		id="Smoke"
 		locForm="0"
-		value="Дымовая завеса" />
+		value="Дымовая завеса" /> -->
 
 	<Item
 		id="anti_missile_system"

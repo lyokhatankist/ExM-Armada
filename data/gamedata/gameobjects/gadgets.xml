@@ -22,7 +22,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 
 <!-- Gadgets for weapons 20% type-->
 
-	<Prototype
+<!-- 	<Prototype
 		Class			= "Gadget"
 		Name			= "cooling_system_guns"
 		ResourceType		= "GADGET_WEAPON" 
@@ -121,13 +121,13 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications		= "MachineGun FiringRange 20; Cannon FiringRange 20; ShotGun FiringRange 20"
 		ModelFile		= "gadget_10"
 		SkinNum			= "0"
-                />
+                /> -->
  
 	 
  
  <!-- Gadgets for weapons 40% type-->
 
- 	<Prototype
+<!--  	<Prototype
 		Class			= "Gadget"
 		Name			= "cooling_system_guns2"
 		ResourceType		= "GADGET_WEAPON" 
@@ -215,14 +215,14 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications		= "Rocket Damage 40; Artillery Damage 40"
 		ModelFile		= "gadget_09"
 		SkinNum			= "1"
-                />
+                /> -->
 
 
 
 
 <!-- Combo Gadgets for weapons-->
 
- 	<Prototype
+ <!-- 	<Prototype
 		Class			= "Gadget"
 		Name			= "cooling_system_guns_and_firing_rate_guns"
 		ResourceType		= "GADGET_WEAPON" 
@@ -304,7 +304,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications		= "Rocket Damage 30; Artillery Damage 30; Rocket FiringRate 30; Artillery FiringRate 30"
 		ModelFile		= "gadget_11"
 		SkinNum			= "2"
-                />
+                /> -->
 
 
 
@@ -312,7 +312,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 
 <!-- Type 1 Gadgets-->
 
-	<Prototype
+<!-- 	<Prototype
 		Class			= "Gadget"
 		Name			= "additional_fuel_tank"
 		ResourceType		= "GADGET_COMMON" 
@@ -351,12 +351,12 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications	        = "CABIN Control += 10"
 		ModelFile		= "gadget_08"
 		SkinNum			= "0"
-		/>
+		/> -->
 
 <!-- Type 2 Gadgets-->
   
          
-	<Prototype
+<!-- 	<Prototype
 		Class			= "Gadget"
 		Name			= "additional_fuel_tank2"
 		ResourceType		= "GADGET_COMMON" 
@@ -385,10 +385,10 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications		= "CABIN MaxDurability 20; BASKET MaxDurability 20"
 		ModelFile		= "gadget_05"
 		SkinNum			= "1"
-		/>
+		/> -->
 <!-- COMMON Combo Gadgets-->
 
- 	<Prototype
+<!--  	<Prototype
 		Class			= "Gadget"
 		Name			= "add_speed_and_torque"
 		ResourceType		= "GADGET_COMMON" 
@@ -427,7 +427,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Modifications		= "CHASSIS MaxFuel 75; CABIN Control += 15"
 		ModelFile		= "gadget_06"
 		SkinNum			= "2"
-		/>
+		/> -->
  
 
 </Prototypes>
