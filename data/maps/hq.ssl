@@ -6,16 +6,13 @@
 			name="WEATHERDETAIL">WeatherDetail.xml</Key>
 
 		<Key
-			name="WEATHERTYPE">archipelago_clear</Key>
+			name="WEATHERTYPE">hq_clear</Key>
 
 		<Key
-			name="CURRENTDAYTIME">0</Key>
+			name="PATH">data\maps\hq</Key>
 
 		<Key
-			name="PATH">data\maps\archipelago</Key>
-
-		<Key
-			name="LEVELNAME">archipelago</Key>
+			name="LEVELNAME">hq</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>
@@ -54,13 +51,13 @@
 			name="CUBEMAP">data/models/textures/cube/lobbycube_r1m1.dds</Key>
 
 		<Key
-			name="LEVELSIZE">64</Key>
+			name="LEVELSIZE">16</Key>
 
 		<Key
 			name="MAXHEIGHT">2500.000</Key>
 
 		<Key
-			name="WATERLEVEL">273.960</Key>
+			name="WATERLEVEL">0.000</Key>
 
 		<Key
 			name="BASEWATERLEVEL">0.000</Key>
@@ -69,25 +66,25 @@
 			name="REFLECTIONTINT">255 255 255</Key>
 
 		<Key
-			name="REFRACTIONTINT">0 0 0</Key>
+			name="REFRACTIONTINT">255 255 255</Key>
 
 		<Key
-			name="SKYDOMEDIVIDER">5.250</Key>
+			name="SKYDOMEDIVIDER">5.750</Key>
 
 		<Key
-			name="WATERSMALLTEX">WaterSm.tga</Key>
+			name="WATERSMALLTEX"></Key>
 
 		<Key
-			name="WATERBIGTEX">Water.tga</Key>
+			name="WATERBIGTEX"></Key>
 
 		<Key
-			name="WATERABSRED">0.010</Key>
+			name="WATERABSRED">0.000</Key>
 
 		<Key
 			name="WATERABSGREEN">0.000</Key>
 
 		<Key
-			name="WATERABSBLUE">0.000</Key>
+			name="WATERABSBLUE">41984272.000</Key>
 
 		<Key
 			name="MINSAFEX">40.000</Key>
@@ -96,10 +93,10 @@
 			name="MINSAFEY">40.000</Key>
 
 		<Key
-			name="MAXSAFEX">8152.000</Key>
+			name="MAXSAFEX">2008.000</Key>
 
 		<Key
-			name="MAXSAFEY">8152.000</Key>
+			name="MAXSAFEY">2008.000</Key>
 
 		<Key
 			name="SERVERDYN">DynamicScene.xml</Key>
@@ -123,7 +120,7 @@
 			name="PLAYERPASSMAP">player_passmap.bin</Key>
 
 		<Key
-			name="SERVERS">data\maps\archipelago\servers.xml</Key>
+			name="SERVERS">data\maps\hq\servers.xml</Key>
 
 		<Key
 			name="STATICSERVERS">data\models\commonservers.xml</Key>
@@ -145,7 +142,7 @@
 
 		<Key
 			name="ICONS">icons.xml</Key>
-			
+
 		<Key
 			name="SKYTYPE">1</Key>
 
@@ -186,16 +183,16 @@
 			name="SUN_AZIMUTH_SPEED">0.000</Key>
 
 		<Key
-			name="SUN_AZIMUTH">10.000</Key>
+			name="SUN_AZIMUTH">45.000</Key>
 
 		<Key
 			name="SUN_DAY_ASCENTION">90.000</Key>
 
 		<Key
-			name="SUN_RISE_ASCENTION">30.000</Key>
+			name="SUN_RISE_ASCENTION">53.000</Key>
 
 		<Key
-			name="SUN_SET_ASCENTION">125.000</Key>
+			name="SUN_SET_ASCENTION">127.000</Key>
 
 		<Key
 			name="TILES">level.tile</Key>
@@ -204,19 +201,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">1893.978</Key>
+			name="X">1135.750</Key>
 
 		<Key
-			name="Y">288.397</Key>
+			name="Y">368.096</Key>
 
 		<Key
-			name="Z">1929.928</Key>
+			name="Z">850.934</Key>
 
 		<Key
-			name="A">37.900</Key>
+			name="A">1.930</Key>
 
 		<Key
-			name="B">-0.064</Key>
+			name="B">-0.192</Key>
 
 		<Key
 			name="G">0.000</Key>

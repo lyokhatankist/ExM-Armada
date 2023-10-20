@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="0">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player"
+		Money="1000">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="DestroyerCD01"
+			Pos="1024.000 273.822 1024.000"
+			Rot="-0.007 1.000 0.001 0.021">
+			<Parts />
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Name="Headquarters"
+		Belong="1100"
+		Prototype="HQTown"
+		Pos="2048.000 255.000 2048.000"
+		Rot="0.000 -0.721 0.000 -0.693"
+		PointOfViewInInterface="-100.000 70.000 300.000"
+		CaravansDest="">
+		<Object
+			Name="Headquarters_Main"
+			Belong="1100"
+			Prototype="barWithoutBarman">
+			<Object
+				Name="Librarian"
+				Belong="1010"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="2"
+				cfg="12"
+				helloReplyNames="ArchitectorMinin_hellodlg0"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="Headquarters_Shop"
+			Belong="1100"
+			Prototype="shop">
+			<GunsAndGadgets>
+			</GunsAndGadgets>
+		</Object>
+
+		<Object
+			Flags="21"
+			Name="Headquarters_enter"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="2048.000 255.000 2048.000"
+			Rot="0.000 -0.721 0.000 -0.693"
+			Radius="100.000"
+			LookingTimeOut="10.000" />
+
+		<Object
+			Flags="21"
+			Name="Headquarters_defend"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="2048.000 255.000 2048.000"
+			Rot="0.000 -0.721 0.000 -0.693"
+			Radius="200.000"
+			LookingTimeOut="50.000" />
+
+		<Object
+			Flags="21"
+			Name="Headquarters_deploy"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="2048.000 255.000 2048.000"
+			Rot="0.000 -0.721 0.000 -0.693"
+			Radius="5.000"
+			LookingTimeOut="20.000" />
+
+		<Parts />
+	</Object>
+</DynamicScene>

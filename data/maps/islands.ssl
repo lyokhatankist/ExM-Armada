@@ -39,9 +39,6 @@
 			name="ROADSET">Roads.xml</Key>
 
 		<Key
-			name="WAYPOINTS">ways.xml</Key>
-
-		<Key
 			name="BEACHSETS">Beachsets.xml</Key>
 
 		<Key

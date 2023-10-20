@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+<!-- ��� �ਣ��� -->
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="HQMove" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local HQ = getObj("Headquarters")
+			if HQ then
+				HQ:SetPosition(CVector(1000, 270, 1000))
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>
