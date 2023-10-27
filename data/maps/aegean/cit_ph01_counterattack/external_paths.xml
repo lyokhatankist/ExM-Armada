@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="CITRetreatDirection_Main">
+		<Point
+			coord="3719 5307" />
+	</Path>
+
+    <Path
+		Name="CDRetreatDirection_Main">
+		<Point
+			coord="8155 2500" />
+	</Path>
+</Paths>

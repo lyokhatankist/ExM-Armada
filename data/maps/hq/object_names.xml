@@ -25,4 +25,12 @@
 	<Object
 		Name="Headquarters_Main"
 		FullName="Отдел планирования" />
+
+	<Object
+		Name="CITgiver"
+		FullName="Кампания СНГ" />
+
+	<Object
+		Name="CDgiver"
+		FullName="Кампания АР" />
 </ObjectNames>

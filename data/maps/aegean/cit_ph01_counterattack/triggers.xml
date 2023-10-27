@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetWeather(0)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MissionStart" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreate("CITBoats01", 1002, CVector(5306.605, 255, 4033.265), {"SmlboatCIT01"})
+			local CITB01 = getObj("CITBoats01")
+			local CITB01a = getObj("CITBoats01_vehicle_0")
+			if CITB01a then
+				CITB01a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB01a:SetCruisingSpeed(25)
+			end
+
+			TeamCreate("CITBoats02", 1002, CVector(5328.560, 255, 4087.192), {"SmlboatCIT02"})
+			local CITB02 = getObj("CITBoats02")
+			local CITB02a = getObj("CITBoats02_vehicle_0")
+			if CITB02a then
+				CITB02a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB02a:SetCruisingSpeed(25)
+			end
+
+			TeamCreate("CITBoats03", 1002, CVector(5206.202, 255, 4037.090), {"SmlboatCIT01"})
+			local CITB03 = getObj("CITBoats03")
+			local CITB03a = getObj("CITBoats03_vehicle_0")
+			if CITB03a then
+				CITB03a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB03a:SetCruisingSpeed(25)
+			end
+
+			TeamCreate("CITBoats04", 1002, CVector(5183.000, 255, 4103.564), {"SmlboatCIT02"})
+			local CITB04 = getObj("CITBoats04")
+			local CITB04a = getObj("CITBoats04_vehicle_0")
+			if CITB04a then
+				CITB04a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB04a:SetCruisingSpeed(25)
+			end
+
+			if CITB01 then
+				CITB01:StackOpen()
+				CITB01:SetDestination(CVector(5793.466, 255, 2218.062))
+				CITB01:SetDestination(CVector(4845.078, 255, 1663.336))
+				CITB01:StackClose()
+			end
+
+			if CITB02 then
+				CITB02:StackOpen()
+				CITB02:SetDestination(CVector(5843.759, 255, 2199.908))
+				CITB02:SetDestination(CVector(4999.020, 255, 1549.249))
+				CITB02:StackClose()
+			end
+
+			if CITB03 then
+				CITB03:StackOpen()
+				CITB03:SetDestination(CVector(4531.018, 255, 1864.441))
+				CITB03:StackClose()
+			end
+
+			if CITB04 then
+				CITB04:StackOpen()
+				CITB04:SetDestination(CVector(4340.570, 255, 1703.533))
+				CITB04:StackClose()
+			end
+
+			TeamCreate("CDLavs01", 1060, CVector(4584, 279, 1549), {"LavCD01"})
+			local CDL01a = getObj("CDLavs01_vehicle_0")
+			if CDL01a then
+				CDL01a:SetRotation(Quaternion(0.0000, 0.8077, 0.0000, -0.5895))
+				CDL01a:SetMaxSpeed(0)
+				CDL01a:SetMaxTorque(1)
+			end
+
+			TeamCreate("CDLavs02", 1060, CVector(4591.972, 279, 1552.503), {"LavCD01", "LavCD01"})
+			local CDL02a = getObj("CDLavs02_vehicle_0")
+			local CDL02b = getObj("CDLavs02_vehicle_1")
+			if CDL02a then
+				CDL02a:SetRotation(Quaternion(0.0000, -0.4266, 0.0000, 0.9045))
+				CDL02a:SetMaxSpeed(0)
+				CDL02a:SetMaxTorque(1)
+			end
+			if CDL02b then
+				CDL02b:SetGamePositionOnGround(CVector(4568.416, 279, 1533.678))
+				CDL02b:SetRotation(Quaternion(0.0000, 0.4127, 0.0000, 0.9109))
+				CDL02b:SetMaxSpeed(0)
+				CDL02b:SetMaxTorque(1)
+			end
+
+			TeamCreate("CDLavs03", 1060, CVector(4579.708, 279, 1537.806), {"LavCD01", "LavCD01"})
+			local CDL03a = getObj("CDLavs03_vehicle_0")
+			local CDL03b = getObj("CDLavs03_vehicle_1")
+			if CDL03a then
+				CDL03a:SetRotation(Quaternion(0.0000, 0.8077, 0.0000, -0.5895))
+				CDL03a:SetMaxSpeed(0)
+				CDL03a:SetMaxTorque(1)
+			end
+			if CDL03b then
+				CDL03b:SetGamePositionOnGround(CVector(4568, 281, 1509))
+				CDL03b:SetRotation(Quaternion(0.0000, -0.4107, 0.0000, -0.9118))
+				CDL03b:SetMaxSpeed(0)
+				CDL03b:SetMaxTorque(1)
+			end
+
+			TeamCreate("CDBoats01", 1052, CVector(4445.251, 255, 1583.584), {"SmlboatCD01"})
+			TeamCreate("CDBoats02", 1052, CVector(4734.144, 255, 1568.338), {"SmlboatCD01", "SmlboatCD01"})
+			local CDB02a = getObj("CDBoats02_vehicle_0")
+			local CDB02b = getObj("CDBoats02_vehicle_1")
+			if CDB02a then
+				CDB02a:SetRotation(Quaternion(0.0000, 0.6070, 0.0000, 0.7947))
+			end
+			if CDB02a then
+				CDB02b:SetGamePositionOnGround(CVector(4792.728, 255, 1415.879))
+				CDB02b:SetRotation(Quaternion(0.0000, -0.2186, 0.0000, 0.9758))
+			end
+
+			TakeQuest("CIT_PH01")
+
+			TActivate("CITCriticalLosses")
+			TActivate("CDCriticalLosses")
+			TActivate("TargetsDestroyed")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCriticalLosses" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats04_vehicle_0" />
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 3>count then
+				return
+			end
+
+			local CITB01a = getObj("CITBoats01_vehicle_0")
+			if CITB01a then
+				CITB01a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB01a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB02a = getObj("CITBoats02_vehicle_0")
+			if CITB02a then
+				CITB02a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB02a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB03a = getObj("CITBoats03_vehicle_0")
+			if CITB03a then
+				CITB03a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB03a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB04a = getObj("CITBoats04_vehicle_0")
+			if CITB04a then
+				CITB04a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB04a:SetCanBeDistractedFromMoving(true)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDCriticalLosses" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02_vehicle_1" />
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 5>count then
+				return
+			end
+
+			local CDB01a = getObj("CDBoats01_vehicle_0")
+			if CDB01a then
+				CDB01a:SetExternalPathByName("CDRetreatDirection_Main")
+				CDB01a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CDB02a = getObj("CDBoats02_vehicle_0")
+			if CDB02a then
+				CDB02a:SetExternalPathByName("CDRetreatDirection_Main")
+				CDB02a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CDB02b = getObj("CDBoats02_vehicle_1")
+			if CDB02b then
+				CDB02b:SetExternalPathByName("CDRetreatDirection_Main")
+				CDB02b:SetCanBeDistractedFromMoving(true)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TargetsDestroyed" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02" />
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 5>count then
+				return
+			end
+
+			CompleteQuest("CIT_PH01_DestroyTargets")
+
+			local CITB01a = getObj("CITBoats01_vehicle_0")
+			if CITB01a then
+				CITB01a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB01a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB02a = getObj("CITBoats02_vehicle_0")
+			if CITB02a then
+				CITB02a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB02a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB03a = getObj("CITBoats03_vehicle_0")
+			if CITB03a then
+				CITB03a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB03a:SetCanBeDistractedFromMoving(true)
+			end
+
+			local CITB04a = getObj("CITBoats04_vehicle_0")
+			if CITB04a then
+				CITB04a:SetExternalPathByName("CITRetreatDirection_Main")
+				CITB04a:SetCanBeDistractedFromMoving(true)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Retreat" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
+		<script>
+			CompleteQuest("CIT_PH01_Retreat")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

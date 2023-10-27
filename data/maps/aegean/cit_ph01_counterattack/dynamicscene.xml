@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="0">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="heli1"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6050.277"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli1_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli1_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli1_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6050.277"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli2"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6077.430"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli2_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli2_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli2_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6077.430"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli3"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6104.958"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli3_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli3_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli3_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6104.958"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli4"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6133.383"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli4_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli4_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli4_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6133.383"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli5"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6163.990"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli5_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli4_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli5_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6163.990"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli6"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6190.965"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli6_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli6_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli6_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6190.965"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heli7"
+		Belong="1008"
+		Prototype="barricade1"
+		Pos="5404.307 299.273 6218.541"
+		Probability="1.000">
+		<Object
+			Flags="21"
+			Name="heli7_Team"
+			Belong="1008"
+			Prototype="settlementTeam">
+			<Formation
+				Name="heli7_Team_Formation"
+				Belong="1008"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+
+		<Object
+			Name="heli7_Child1"
+			Belong="1008"
+			Prototype="heliFuselage01_static01"
+			Pos="5404.307 299.273 6218.541"
+			Rot="0.000 0.707 0.000 0.707">
+			<Parts />
+		</Object>
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="MissionStartLoc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5270.000 255.000 4075.000"
+		Radius="700.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="3065.000 255.000 3559.000"
+		Radius="700.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>

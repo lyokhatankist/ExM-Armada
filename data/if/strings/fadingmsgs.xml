@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
 <resource><!--Default buttons-->
+
+<!-- battleship -->
+
+
+<!-- battleship general messages -->
+	<string
+		id="fm_critical_loss_ally"
+		value="Потери дружественных сил достигли критического уровня." />
+
+	<string
+		id="fm_critical_loss_foe"
+		value="Потери противника достигли критического уровня." />
+
+	<string
+		id="fm_retreat_attempt_ally"
+		value="Дружественные силы предпринимают попытку отступления." />
+
+	<string
+		id="fm_retreat_attempt_foe"
+		value="Противник предпринимает попытку отступления." />
+
+	<string
+		id="fm_reinforcements_inbound_ally"
+		value="Подкрепление в пути." />
+
+	<string
+		id="fm_reinforcements_inbound_foe"
+		value="Противник активизировал резервы." />
+
+	<string
+		id="fm_reinforcements_arrived_ally"
+		value="Прибыло подкрепление." />
+
+	<string
+		id="fm_aircraft_enroute_ally"
+		value="Дружественная авиация в пути." />
+
+	<string
+		id="fm_aircraft_enroute_foe"
+		value="Обнаружена активность авиации противника." />
+
+	<string
+		id="fm_aircraft_arrived_ally"
+		value="Доступна поддержка с воздуха." />
+
+
+
+<!-- battleship mission-specific messages -->
+
+
+<!-- battleship cit_ph01_counterattack -->
+	<string
+		id="fm_cit_ph01_fire"
+		value="@ffff9c00Срочный приказ:@ffffffff в первую очередь сосредоточить огонь по наземным целям." />
+
+	<string
+		id="fm_cit_ph01_hurry"
+		value="@ffff9c00Срочный приказ:@ffffffff уничтожить противника у острова до прибытия подкрепления. Любой ценой избежать столкновения с прибывающими силами противника." />
+
+	<string
+		id="fm_cit_ph01_retreat"
+		value="@ffff9c00Срочный приказ:@ffffffff немедленно отступить к точке сбора." />
+
+	<string
+		id="fm_cit_ph01_citretreating"
+		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
+
+
+
+
+<!-- vanilla -->
+
+
 	<string
 		id="fm_relation_changed"
 		value="Вы стали врагами с одной из группировок." />
@@ -166,5 +239,5 @@
 
 	<string
 		id="fm_items_remained_on_ground"
-		value="Не хватает места в кузове. Для вызова окна снаряжения нажмите %1m" />
+		value="Не хватает места в трюме. Для вызова окна снаряжения нажмите %1m" />
 </resource>

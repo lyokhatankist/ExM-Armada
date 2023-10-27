@@ -4,12 +4,18 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			SetVar("OnMission", 0)
+
+			g_ObjCont:SetGameTime( 7, 0, 23, 5, 2265 )
+
+			SetRadarUpgrade(1)
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="HQMove" active="1">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
 			local HQ = getObj("Headquarters")
 			if HQ then
@@ -17,6 +23,37 @@
 			end
 			
 			trigger:Deactivate()
+		</script>
+	</trigger>
+<!--
+	<trigger Name="CITPH01_Counterattack" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local plPos = GetPlayerVehicle():GetPosition()
+			AddPlayerVehicle("SmlboatCIT02")
+			GetPlayerVehicle():SetGamePositionOnGround(plPos)
+			SetVar("MissionLoc", "aegean")
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				PassToMap("cit_ph01_counterattack", "MissionStartLoc", 90, true )
+			else
+				TActivate("MissionGoTo")
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+-->
+	<trigger Name="CITPH01_Counterattack" active="0">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<script>
+			local missionLoc = GetVar("MissionLoc").AsString
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				trigger:Deactivate()
+				PassToMap(missionLoc, "MissionStartLoc", 90, true )
+			end
+
 		</script>
 	</trigger>
 </triggers>

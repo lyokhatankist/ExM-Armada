@@ -90,10 +90,9 @@
 
 
 
-   <Item id="Belong_1100"			file="data\if\ico\InventoryDlg\Opacity1.dds"								file1="data\if\ico\InventoryDlg\Opacity1.dds"/>	
-   <Item id="Belong_1015"			file="data\if\ico\clans\crimson_dawn03.dds"								file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
-   <Item id="Belong_1016"			file="data\if\ico\clans\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\commonwealth_of independent_towns02.dds"/>
-   <Item id="Belong_1017"			file="data\if\ico\clans\church_of_enlightenment03.dds"				file1="data\if\ico_hd\clans\church_of_enlightenment02.dds"/>
+   <Item id="Belong_1000"			file="data\if\ico\clans\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\commonwealth_of independent_towns02.dds"/>
+   <Item id="Belong_1050"			file="data\if\ico\clans\crimson_dawn03.dds"								file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
+   <Item id="Belong_1500"			file="data\if\ico\InventoryDlg\Opacity1.dds"								file1="data\if\ico\InventoryDlg\Opacity1.dds"/>	
 
 <!--    <Item id="arcadescoutCab"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="FormulaCab01"		   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
@@ -399,8 +398,7 @@
    <Item id="without_cooling_gun"		   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="with_water_cooling_gun"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="with_nitro_cooling_gun"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
-
-<!-- ����������� -->	
+<!-- 
    <Item id="Belong_1002"		file="data\if\ico\clans\vagabonds03.dds" 			file1="data\if\ico_hd\clans\vagabonds02.dds"/>
    <Item id="Belong_1003"		file="data\if\ico\clans\adventurers03.dds" 		file1="data\if\ico_hd\clans\adventurers02.dds"/>
    <Item id="Belong_1004"		file="data\if\ico\clans\explorers03.dds" 			file1="data\if\ico_hd\clans\explorers02.dds"/>
@@ -455,5 +453,5 @@
 
    <Item id="Belong_1080"		file="data\if\ico\clans\death.dds" 			file1="data\if\ico\clans\death.dds"/>
    <Item id="Belong_1081"		file="data\if\ico\clans\militarists03.dds" 		file1="data\if\ico_hd\clans\militarists02.dds"/>
-
+ -->
 </icons>

@@ -6,12 +6,12 @@
 
 	<Object
 		Name="Player1"
-		Belong="1100"
+		Belong="1500"
 		Prototype="player"
 		Money="1000">
 		<Object
 			Name="MyCar"
-			Belong="1100"
+			Belong="1500"
 			Prototype="DestroyerCD01"
 			Pos="1024.000 273.822 1024.000"
 			Rot="-0.007 1.000 0.001 0.021">
@@ -23,7 +23,7 @@
 
 	<Object
 		Name="Headquarters"
-		Belong="1100"
+		Belong="1500"
 		Prototype="HQTown"
 		Pos="2048.000 255.000 2048.000"
 		Rot="0.000 -0.721 0.000 -0.693"
@@ -31,22 +31,28 @@
 		CaravansDest="">
 		<Object
 			Name="Headquarters_Main"
-			Belong="1100"
+			Belong="1500"
 			Prototype="barWithoutBarman">
 			<Object
-				Name="Librarian"
-				Belong="1010"
+				Name="CITgiver"
+				Belong="1500"
 				Prototype="NPC"
-				ModelName="r1_man"
-				skin="2"
-				cfg="12"
-				helloReplyNames="ArchitectorMinin_hellodlg0"
+				ModelName="point"
+				helloReplyNames="CIT_Mission_Main"
+				SpokenCount="0" />
+
+			<Object
+				Name="CDgiver"
+				Belong="1500"
+				Prototype="NPC"
+				ModelName="point"
+				helloReplyNames="CD_Mission_Main"
 				SpokenCount="0" />
 		</Object>
 
 		<Object
 			Name="Headquarters_Shop"
-			Belong="1100"
+			Belong="1500"
 			Prototype="shop">
 			<GunsAndGadgets>
 			</GunsAndGadgets>
@@ -55,7 +61,7 @@
 		<Object
 			Flags="21"
 			Name="Headquarters_enter"
-			Belong="1100"
+			Belong="1500"
 			Prototype="genericLocation"
 			Pos="2048.000 255.000 2048.000"
 			Rot="0.000 -0.721 0.000 -0.693"
@@ -65,7 +71,7 @@
 		<Object
 			Flags="21"
 			Name="Headquarters_defend"
-			Belong="1100"
+			Belong="1500"
 			Prototype="genericLocation"
 			Pos="2048.000 255.000 2048.000"
 			Rot="0.000 -0.721 0.000 -0.693"
@@ -75,7 +81,7 @@
 		<Object
 			Flags="21"
 			Name="Headquarters_deploy"
-			Belong="1100"
+			Belong="1500"
 			Prototype="genericLocation"
 			Pos="2048.000 255.000 2048.000"
 			Rot="0.000 -0.721 0.000 -0.693"

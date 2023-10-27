@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<RadioSamples>
+	<Sample
+		id="1"
+		sound="data\sounds\radio\battleship\friendly_boat.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен союзник." />
+
+	<Sample
+		id="2"
+		sound="data\sounds\radio\battleship\enemy_hit.wav"
+		text="@ff4cff00[·]@ffffffff Цель поражена." />
+
+	<Sample
+		id="3"
+		sound="data\sounds\radio\battleship\hit.wav"
+		text="@ffffd800[!]@ffffffff Получены повреждения." />
+
+	<Sample
+		id="4"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Цель уничтожена." />
+
+	<Sample
+		id="5"
+		sound="data\sounds\radio\battleship\hit_critical.wav"
+		text="@ffffd800[!]@ffffffff Получены критические повреждения." />
+
+	<Sample
+		id="6"
+		sound="data\sounds\radio\battleship\unit_lost_3.wav"
+		text="@ffff0000[!]@ffffffff Союзник уничтожен." />
+
+	<Sample
+		id="7"
+		sound="data\sounds\radio\battleship\alarm.wav"
+		text="@ffff0000[!]@ffffffff Внимание, вы ведёте огонь по своим!" />
+
+	<Sample
+		id="8"
+		sound="data\sounds\radio\battleship\alarm.wav"
+		text="@ffff0000[!]@ffffffff Внимание, по вам будет открыт огонь на поражение!" />
+
+	<Sample
+		id="9"
+		sound="data\sounds\radio\battleship\enemy_hit.wav"
+		text="@ff4cff00[·]@ffffffff Союзник поразил цель." />
+
+	<Sample
+		id="10"
+		sound="data\sounds\radio\battleship\friendly_hit.wav"
+		text="@ffffd800[!]@ffffffff Союзник получил критические повреждения." />
+
+	<Sample
+		id="11"
+		sound="data\sounds\radio\battleship\enemy_boat.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен противник." />
+
+	<Sample
+		id="12"
+		sound="data\sounds\radio\battleship\friendly_hit.wav"
+		text="@ffffd800[!]@ffffffff Противник поразил цель." />
+
+	<Sample
+		id="13"
+		sound="data\sounds\radio\battleship\enemy_hit.wav"
+		text="@ff4cff00[·]@ffffffff Противник получил критические повреждения." />
+
+	<Sample
+		id="14"
+		sound="data\sounds\radio\battleship\friendly_boat.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный корабль." />
+
+	<Sample
+		id="15"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественный корабль уничтожен." />
+
+	<Sample
+		id="16"
+		sound="data\sounds\radio\battleship\enemy_boat.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен вражеский корабль." />
+
+	<Sample
+		id="17"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский корабль уничтожен." />
+
+	<Sample
+		id="18"
+		sound="data\sounds\radio\battleship\friendly_boat.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный катер." />
+
+	<Sample
+		id="19"
+		sound="data\sounds\radio\battleship\unit_lost_1.wav"
+		text="@ffff0000[!]@ffffffff Дружественный катер уничтожен." />
+
+	<Sample
+		id="20"
+		sound="data\sounds\radio\battleship\enemy_boat.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен катер противника." />
+
+	<Sample
+		id="21"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский катер уничтожен." />
+
+	<Sample
+		id="22"
+		sound="data\sounds\radio\battleship\friendly_destroyer.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный эсминец." />
+
+	<Sample
+		id="23"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественный эсминец уничтожен." />
+
+	<Sample
+		id="24"
+		sound="data\sounds\radio\battleship\enemy_destroyer.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен эсминец противника." />
+
+	<Sample
+		id="25"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский эсминец уничтожен." />
+
+	<Sample
+		id="26"
+		sound="data\sounds\radio\battleship\friendly_cruiser.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный крейсер." />
+
+	<Sample
+		id="27"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественный крейсер уничтожен." />
+
+	<Sample
+		id="28"
+		sound="data\sounds\radio\battleship\enemy_cruiser.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен крейсер противника." />
+
+	<Sample
+		id="29"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский крейсер уничтожен." />
+
+	<Sample
+		id="30"
+		sound="data\sounds\radio\battleship\friendly_battleship.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный линкор." />
+
+	<Sample
+		id="31"
+		sound="data\sounds\radio\battleship\unit_lost_3.wav"
+		text="@ffff0000[!]@ffffffff Дружественный линкор уничтожен." />
+
+	<Sample
+		id="32"
+		sound="data\sounds\radio\battleship\enemy_battleship.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен линкор противника." />
+
+	<Sample
+		id="33"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский линкор уничтожен." />
+
+	<Sample
+		id="34"
+		sound="data\sounds\radio\battleship\friendly_airplane.wav"
+		text="@ffb6ff00[?]@ffffffff Установлен канал связи с дружественной авиацией в вашем секторе." />
+
+	<Sample
+		id="35"
+		sound="data\sounds\radio\battleship\friendly_helicopter.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный вертолёт." />
+
+	<Sample
+		id="36"
+		sound="data\sounds\radio\battleship\unit_lost_3.wav"
+		text="@ffff0000[!]@ffffffff Дружественный вертолёт уничтожен." />
+
+	<Sample
+		id="37"
+		sound="data\sounds\radio\battleship\enemy_airplane.wav"
+		text="@ffff6a00[!]@ffffffff Зафиксирована активность авиации противника." />
+
+	<Sample
+		id="38"
+		sound="data\sounds\radio\battleship\enemy_helicopter.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен вертолёт противника." />
+
+	<Sample
+		id="39"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский вертолёт уничтожен." />
+
+	<Sample
+		id="40"
+		sound="data\sounds\radio\battleship\friendly_airplane.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный самолёт." />
+
+	<Sample
+		id="41"
+		sound="data\sounds\radio\battleship\unit_lost_3.wav"
+		text="@ffff0000[!]@ffffffff Дружественный самолёт уничтожен." />
+
+	<Sample
+		id="42"
+		sound="data\sounds\radio\battleship\enemy_airplane.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен самолёт противника." />
+
+	<Sample
+		id="43"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский самолёт уничтожен." />
+
+	<Sample
+		id="44"
+		sound="data\sounds\radio\battleship\friendly_lav.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружена дружественная наземная боевая единица." />
+
+	<Sample
+		id="45"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественная наземная боевая единица уничтожена." />
+
+	<Sample
+		id="46"
+		sound="data\sounds\radio\battleship\enemy_lav.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружена вражеская наземная боевая единица." />
+
+	<Sample
+		id="47"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеская наземная боевая единица уничтожена." />
+
+	<Sample
+		id="48"
+		sound="data\sounds\radio\battleship\friendly_truck.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный грузовик." />
+
+	<Sample
+		id="49"
+		sound="data\sounds\radio\battleship\unit_lost_1.wav"
+		text="@ffff0000[!]@ffffffff Дружественный грузовик уничтожен." />
+
+	<Sample
+		id="50"
+		sound="data\sounds\radio\battleship\enemy_truck.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен грузовик противника." />
+
+	<Sample
+		id="51"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский грузовик уничтожен." />
+
+	<Sample
+		id="52"
+		sound="data\sounds\radio\battleship\friendly_lav.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружена дружественная бронемашина." />
+
+	<Sample
+		id="53"
+		sound="data\sounds\radio\battleship\unit_lost_1.wav"
+		text="@ffff0000[!]@ffffffff Дружественная бронемашина уничтожена." />
+
+	<Sample
+		id="54"
+		sound="data\sounds\radio\battleship\enemy_lav.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружена бронемашина противника." />
+
+	<Sample
+		id="55"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеская бронемашина уничтожена." />
+
+	<Sample
+		id="56"
+		sound="data\sounds\radio\battleship\friendly_tank.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный танк." />
+
+	<Sample
+		id="57"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественный танк уничтожен." />
+
+	<Sample
+		id="58"
+		sound="data\sounds\radio\battleship\enemy_tank.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен танк противника." />
+
+	<Sample
+		id="59"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский танк уничтожен." />
+
+	<Sample
+		id="60"
+		sound="data\sounds\radio\battleship\friendly_artillery.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружена дружественная артиллерия." />
+
+	<Sample
+		id="61"
+		sound="data\sounds\radio\battleship\unit_lost_2.wav"
+		text="@ffff0000[!]@ffffffff Дружественная артиллерия уничтожена." />
+
+	<Sample
+		id="62"
+		sound="data\sounds\radio\battleship\enemy_artillery.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружена артиллерия противника." />
+
+	<Sample
+		id="63"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеская артиллерия уничтожена." />
+
+	<Sample
+		id="64"
+		sound="data\sounds\radio\battleship\friendly_rocket.wav"
+		text="@ffb6ff00[?]@ffffffff Обнаружен дружественный ракетный комплекс." />
+
+	<Sample
+		id="65"
+		sound="data\sounds\radio\battleship\unit_lost_3.wav"
+		text="@ffff0000[!]@ffffffff Дружественный ракетный комплекс уничтожен." />
+
+	<Sample
+		id="66"
+		sound="data\sounds\radio\battleship\enemy_rocket.wav"
+		text="@ffff6a00[!]@ffffffff Обнаружен ракетный комплекс противника." />
+
+	<Sample
+		id="67"
+		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
+		text="@ff4cff00[¤]@ffffffff Вражеский ракетный комплекс уничтожен." />
+</RadioSamples>
