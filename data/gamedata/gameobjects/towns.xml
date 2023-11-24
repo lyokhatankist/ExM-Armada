@@ -91,6 +91,24 @@ $Id: Towns.xml,v 1.74 2005/11/29 06:27:45 anton Exp $
 			<ResourceCoeff Coeff="1.5" Dispersion="20.0" Resource="GUN" />
 			<ResourceCoeff Coeff="1.0" Dispersion="10.0" Resource="CABIN" />
 		</Prototype>
+
+		<Prototype
+			Class		= "Town"
+			Name		= "HQTown"
+			ModelFile	= "point"
+			NodeScale	= "1 1 1" 
+
+			MusicName		= "military_town1"
+
+			IsIntersecting		= "true"
+			LookRadius		= "10"
+			IntersectionRadius	= "300" 
+
+			Vehicles 	= "FastboatCIT01"
+
+			WeaponPriceMultiplier = "1.0"
+			WeaponPriceDispersion = "1">
+		</Prototype>
 <!--
 		<Prototype
 			Class="RepositoryObjectsGenerator"

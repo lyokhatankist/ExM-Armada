@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 <ModelNames>
-	<Item
+<!-- 	<Item
 		id="cooling_system_guns"
 		locForm="0"
 		value="Водяная система охлаждения  для огнестрельного оружия" />
@@ -193,7 +193,7 @@
 	<Item
 		id="additional_fuel_tank2_add_damage_guns"
 		locForm="0"
-		value="Система &quot;Сато&quot;" />
+		value="Система &quot;Сато&quot;" /> -->
 
 	<Item
 		id="potato"
@@ -245,7 +245,7 @@
 		locForm="0"
 		value="Электроника" />
 
-	<Item
+<!-- 	<Item
 		id="quest_start_father_letter"
 		locForm="0"
 		value="Письмо" />
@@ -533,7 +533,7 @@
 	<Item
 		id="minePusher_2"
 		locForm="0"
-		value="Вихрь" />
+		value="Вихрь" /> -->
 <!--
 	<Item
 		id="staticAutoGun01"
@@ -610,10 +610,10 @@
 		locForm="0"
 		value="Дрон" />
 
-	<Item
+<!-- 	<Item
 		id="Smoke"
 		locForm="0"
-		value="Дымовая завеса" />
+		value="Дымовая завеса" /> -->
 
 	<Item
 		id="anti_missile_system"
@@ -719,7 +719,7 @@
 	<Item
 		id="smlboatCITNurs01"
 		locForm="0"
-		value="Кордаж" />
+		value="Кордаж-80" />
 
 	<Item
 		id="SmlboatCIT02"
@@ -1425,4 +1425,70 @@
 		id="heliFuselage02_static01"
 		locForm="0"
 		value="Москито" />
+
+	<Item
+		id="destroyerCDEngineTest"
+		locForm="0"
+		value="Н/Д" />
+
+	<Item
+		id="fakeCargo"
+		locForm="0"
+		value="Н/Д" />
+
+	<Item
+		id="HQVehicle01"
+		locForm="0"
+		value="Н/Д" />
+
+<!-- CIT PH01 Counterattack -->
+	<Item
+		id="CITPH01_Player01"
+		locForm="0"
+		value="«Ловчий» (б.к.т. «Муэтт»)" />
+
+	<Item
+		id="CITPH01_SmlboatCIT01"
+		locForm="0"
+		value="Риф" />
+
+	<Item
+		id="CITPH01_SmlboatCIT02"
+		locForm="0"
+		value="Молот" />
+
+	<Item
+		id="CITPH01_SmlboatCIT03"
+		locForm="0"
+		value="Волк" />
+
+	<Item
+		id="CITPH01_SmlboatCIT04"
+		locForm="0"
+		value="Гром" />
+
+	<Item
+		id="CITPH01_SmlboatCD01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_SmlboatCD02"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_SmlboatCD03"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_LavCD01"
+		locForm="0"
+		value="Броневик" />
+
+	<Item
+		id="CITPH01_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
 </ModelNames>

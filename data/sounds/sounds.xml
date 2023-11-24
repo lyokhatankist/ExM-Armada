@@ -154,7 +154,7 @@
 	<model
 		id="Fake_Sound_Do_Not_Use_It" 
 		type="FAKE" />
-		
+
 	<model
 		id="S_CRASH_METAL01"
 		file="data\sounds\Crash\crash_metal1.wav"

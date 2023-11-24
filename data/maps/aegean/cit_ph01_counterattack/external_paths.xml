@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="PendulumPath">
+		<Point
+			coord="35 45" />
+
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
+	</Path>
+
+	<Path
+		Name="StartPath_Player">
+		<Point
+			coord="5084 4165" />
+		
+		<Point
+			coord="5073 3787" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITBoat01">		
+		<Point
+			coord="5306 4033" />
+
+		<Point
+			coord="5294 3654" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITBoat02">
+		<Point
+			coord="5328 4087" />
+
+		<Point
+			coord="5316 3708" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITBoat03">
+		<Point
+			coord="5206 4037" />
+
+		<Point
+			coord="5194 3658" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITBoat04">
+		
+		<Point
+			coord="5183 4103" />
+
+		<Point
+			coord="5171 3724" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_01">
+		<Point
+			coord="4984 2219" />
+
+		<Point
+			coord="3719 5307" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_02">
+		<Point
+			coord="5163 1980" />
+
+		<Point
+			coord="1790 4688" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_Main">
+		<Point
+			coord="8155 2500" />
+	</Path>
+</Paths>

@@ -6,12 +6,12 @@
 
 	<Object
 		Name="Player1"
-		Belong="1100"
+		Belong="1500"
 		Prototype="player"
 		Money="1000">
 		<Object
 			Name="MyCar"
-			Belong="1100"
+			Belong="1500"
 			Prototype="DestroyerCD01"
 			Pos="4096.000 273.822 4096.000"
 			Rot="-0.007 1.000 0.001 0.021">

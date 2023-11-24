@@ -68,7 +68,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "120"
 		FiringRate		= "30"
 		ChargeSize		= "2"
-		RechargingTime	= "18"
+		RechargingTime	= "35"
 
 		FiringRange		= "900"
 		GroupingAngle	= "1"
@@ -104,7 +104,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "200"
 		FiringRate		= "30"
 		ChargeSize		= "2"
-		RechargingTime	= "18"
+		RechargingTime	= "25"
 
 		FiringRange		= "900"
 		GroupingAngle	= "1"

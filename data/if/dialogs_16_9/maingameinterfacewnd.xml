@@ -59,7 +59,7 @@
 		<Node
 			name="wndNearbyChestsIco"
 			class="ImageWnd"
-			org="1818.000 977.000 90.000 90.000"
+			org="12.000 669.000 90.000 90.000"
 			style="768"
 			order="-1"
 			id="0"
@@ -78,7 +78,7 @@
 		<Node
 			name="wndNearbyTownIco"
 			class="ImageWnd"
-			org="1716.000 977.000 90.000 90.000"
+			org="12.000 772.000 90.000 90.000"
 			style="768"
 			order="-1"
 			id="0"

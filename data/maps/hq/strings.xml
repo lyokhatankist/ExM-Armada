@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1000"
+		value="Перейти к выполнению выбранной миссии?"
+		numButtons="2" />
+
+	<string
+		id="9000"
+		value="Потери дружественных сил."
+		numButtons="1" />
+
+	<string
+		id="9001"
+		value="Потери противника."
+		numButtons="1" />
+
+	<string
+		id="9002"
+		value="Итоги операции."
+		numButtons="1" />
+</resource>

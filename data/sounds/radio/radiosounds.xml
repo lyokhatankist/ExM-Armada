@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<RadioSounds>
+	<Group name="player" belongs="1500">
+		<Neutral>
+			<Sound id="first_see_other" samples="11" probability="10"/>
+			<Sound id="enemy_broken" samples="2" probability="100"/>
+			<Sound id="self_broken" samples="3" probability="100"/>
+			<Sound id="enemy_died" samples="4" probability="10"/>
+			<Sound id="self_died" samples="5" probability="10"/>
+			<Sound id="neutral_died" samples="6" probability="10"/>
+		</Neutral>
+		<Enemy>
+		</Enemy>
+	</Group>
+
+	<Group name="general" belongs="1000 1050">
+		<Neutral>
+			<Sound id="first_see_other" samples="1" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="vessel" belongs="1001 1051">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 14" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 15" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 15" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 17" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="boat" belongs="1002 1052">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 18" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 19" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 20" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 21" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="destroyer" belongs="1003 1053">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 22" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 23" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 24" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 25" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="cruiser" belongs="1004 1054">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 26" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 27" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 28" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 29" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="battleship" belongs="1005 1055">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 30" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 31" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 32" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 33" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="helicopter" belongs="1006 1056">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 34 35" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4 36" probability="1"/>
+			<Sound id="self_died" samples="6 36" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 37 38" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 39" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="airplane" belongs="1007 1057">
+		<Neutral>
+			<Sound id="first_see_other" samples="1 34 40" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="6 41" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="11 37 42" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="4 43" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="groundtarget" belongs="1008 1058">
+		<Neutral>
+			<Sound id="first_see_other" samples="44" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="truck" belongs="1009 1059">
+		<Neutral>
+			<Sound id="first_see_other" samples="44 48" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45 49" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46 50" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47 51" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="lav" belongs="1010 1060">
+		<Neutral>
+			<Sound id="first_see_other" samples="44 52" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45 53" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46 54" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47 55" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="tank" belongs="1011 1061">
+		<Neutral>
+			<Sound id="first_see_other" samples="44 56" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45 57" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46 58" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47 59" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="artillery" belongs="1012 1062">
+		<Neutral>
+			<Sound id="first_see_other" samples="44 60" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45 61" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46 62" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47 63" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+
+	<Group name="rocketcomplex" belongs="1013 1063">
+		<Neutral>
+			<Sound id="first_see_other" samples="44 64" probability="100"/>
+			<Sound id="player_hit_me" samples="7" probability="100"/>
+			<Sound id="player_become_enemy" samples="8" probability="100"/>
+			<Sound id="enemy_broken" samples="9" probability="10"/>
+			<Sound id="self_broken" samples="10" probability="50"/>
+			<Sound id="enemy_died" samples="4" probability="1"/>
+			<Sound id="self_died" samples="45 65" probability="100"/>
+			<Sound id="neutral_died" samples="6" probability="1"/>
+		</Neutral>
+		<Enemy>
+			<Sound id="first_see_other" samples="46 66" probability="100"/>
+			<Sound id="enemy_broken" samples="12" probability="10"/>
+			<Sound id="self_broken" samples="2 13" probability="100"/>
+			<Sound id="enemy_died" samples="6" probability="1"/>
+			<Sound id="self_died" samples="47 67" probability="100"/>
+			<Sound id="neutral_died" samples="4" probability="1"/>
+		</Enemy>
+	</Group>
+</RadioSounds>

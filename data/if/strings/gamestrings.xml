@@ -305,6 +305,10 @@
 		value="Броня" />
 
 	<string
+		id="ArmorTip"
+		value="Общая броня компонентов" />
+
+	<string
 		id="MaxArmor"
 		value="Максимальная броня" />
 
@@ -330,7 +334,7 @@
 
 	<string
 		id="BasketCapacity"
-		value="Объем трюма" />
+		value="Объём трюма" />
 
 	<string
 		id="GADGET_COMMON"

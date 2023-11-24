@@ -892,14 +892,35 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect					= "ET_PS_VEH_PART_BLOW_BIG_CAB"
 
 			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>        
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "pendulumVehicleEngine"
+			ModelFile					= "point"
+			ResourceType				= "HELICOPTER_CABIN"
+			NodeScale					= "1 1 1"
+
+			FuelConsumption		= "0.0001"
+
+			Mass						= "40.0"
+			Durability					= "1000"
+			DurCoeffsForDamageTypes		= "100 100 100"
+			MaxPower					= "0"
+			MaxTorque					= "50"
+			MaxSpeed					= "27.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_HELI01"
+
+			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />           
 			</GadgetDescription>
 		</Prototype>
 	</Folder>
@@ -923,7 +944,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "2 2">
+				RepositorySize		= "0 0">
 			</RepositoryDescription>
 		</Prototype>
 
@@ -946,7 +967,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "2 2">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
 					Pos		= "1 1"
@@ -988,7 +1009,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "2 2">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
 					Pos		= "1 1"
@@ -1025,15 +1046,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "3 4">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
-					Pos		= "4 4"
+					Pos		= "5 4"
 				/>
 
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_2"
-					Pos		= "7 7"
+					Pos		= "5 7"
 				/>
 			</RepositoryDescription>
 		</Prototype>
@@ -1057,10 +1078,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "3 4">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_2"
-					Pos		= "7 7"
+					Pos		= "5 7"
 				/>
 			</RepositoryDescription>
 		</Prototype>
@@ -1084,15 +1105,15 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "3 4">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
-					Pos		= "4 4"
+					Pos		= "5 4"
 				/>
 
 				<Slot
 					Name		= "BASKET_SMALL_GUN_1"
-					Pos		= "7 7"
+					Pos		= "5 7"
 				/>
 			</RepositoryDescription>
 		</Prototype>
@@ -1116,10 +1137,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 			VisibleInEncyclopedia		= "false">
 			<RepositoryDescription
-				RepositorySize		= "3 4">
+				RepositorySize		= "0 0">
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON_1"
-					Pos		= "4 4"
+					Pos		= "5 4"
 				/>
 			</RepositoryDescription>
 		</Prototype>

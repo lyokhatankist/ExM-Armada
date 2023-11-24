@@ -3112,7 +3112,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.900">
+		reduceDistFactor="0.450">
 		<Sky
 			sunriseColor="63.750 56.100 56.100"
 			dayColor="128.000 132.600 140.250"
@@ -3198,7 +3198,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.333">
+		reduceDistFactor="0.165">
 		<Sky
 			sunriseColor="96.900 94.350 94.350"
 			dayColor="122.400 145.350 153.000"
@@ -3284,7 +3284,7 @@
 		waterCourseAngle="2.530"
 		waterSpecularM="200.000"
 		waterSpecularS="0.010"
-		reduceDistFactor="0.198"
+		reduceDistFactor="0.120"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="10"
@@ -3380,7 +3380,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
 		waterSpecularS="0.004"
-		reduceDistFactor="0.900">
+		reduceDistFactor="0.450">
 		<Sky
 			sunriseColor="58.650 63.750 86.700"
 			dayColor="168.300 160.650 153.000"
@@ -3466,7 +3466,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.900">
+		reduceDistFactor="0.450">
 		<Sky
 			sunriseColor="79.050 63.750 56.100"
 			dayColor="128.000 132.600 140.250"
@@ -3552,7 +3552,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.333">
+		reduceDistFactor="0.165">
 		<Sky
 			sunriseColor="96.900 94.350 94.350"
 			dayColor="150.450 145.350 153.000"
@@ -3638,7 +3638,7 @@
 		waterCourseAngle="2.530"
 		waterSpecularM="200.000"
 		waterSpecularS="0.010"
-		reduceDistFactor="0.198"
+		reduceDistFactor="0.120"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="10"
@@ -3718,6 +3718,92 @@
 		<WindInfo
 			windMaxVel="10.000"
 			windMinVel="100.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="hq_clear"
+		skyDomeFactor="1.800"
+		waterSpeed="0.020"
+		waterWaveHBig="0.130"
+		waterWaveHSmall="1.160"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="2.080"
+		waterCourseAngle="1.040"
+		waterSpecularM="98.000"
+		waterSpecularS="0.006"
+		reduceDistFactor="0.165">
+		<Sky
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Fog
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Ambient
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Diffuse
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Sun
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Plant
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<Specular
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="0.000 0.000 0.000"
+			nightColor="0.000 0.000 0.000" />
+
+		<PostEffect
+			sunrise="wSunrise_islands_clear"
+			day="wDay_islands_clear"
+			sunset="wSunset_islands_clear"
+			night="wNight_islands_clear" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
 			windChangeVelTime="100000.000"
 			windChangeDirTime="100000.000" />
 	</WeatherItem>

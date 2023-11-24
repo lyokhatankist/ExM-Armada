@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			g_ObjCont:SetGameTime( 7, 23, 25, 5, 2265 )
+			
+			SetWeather(0)
+
+			ShowMap()
+
+			Radar:SetScanRadius(500)
+
+			GetPlayerVehicle():setImmortalMode(1)
+			GetPlayerVehicle():SetNameFromScript("MyCar")
+			SetCameraBehindPlayerVehicle()
+			TActivate("PlayerDead")
+
+			local friendly = {}
+			local enemy = {}
+			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
+			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Риф»)"}
+			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Молот»)"}
+			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Волк»)"}
+			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Гром»)"}
+			--                {objName      EffHP VehHP FP Maneuv.}
+			enemy[1] = {"CDLavs01_vehicle_0", 26, 375, 265, 0}
+			enemy[2] = {"CDLavs02_vehicle_0", 26, 375, 265, 0}
+			enemy[3] = {"CDLavs02_vehicle_1", 26, 375, 265, 0}
+			enemy[4] = {"CDLavs03_vehicle_0", 26, 375, 265, 0}
+			enemy[5] = {"CDLavs03_vehicle_1", 26, 375, 265, 0}
+			enemy[6] = {"CDBoats01_vehicle_0", 46, 200, 265, 35}
+			enemy[7] = {"CDBoats02_vehicle_0", 46, 200, 265, 35}
+			enemy[8] = {"CDBoats02_vehicle_1", 46, 200, 265, 35}
+			enemy[9] = {"CDBoats03_vehicle_0", 46, 200, 512, 35}
+			enemy[10] = {"CDBoats04_vehicle_0", 46, 200, 265, 35}
+			enemy[11] = {"CDBoats05_vehicle_0", 46, 200, 265, 35}
+			enemy[12] = {"CDBoats06_vehicle_0", 46, 200, 512, 35}
+			enemy[13] = {"CDBoats07_vehicle_0", 46, 200, 457, 35}
+
+			SetVar("MissionTime", 0)
+			SetVar("RequiredMissionTime", 272) -- mission completion time (in s) for getting bonus score
+			SetVar("BaseRetreatScore", 50) -- base retreat score that may get multiplied depending on 4 different factors
+			SetVar("RequiredRetreatScore", 50) -- retreat score that needs to be reached for each friendly unit to successfully retreat
+			SetVar("PlayerHealth", 33)
+			SetVar("PlayerVehicleHealth", 125)
+			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
+			SetVar("PlayerName", "б.к.т. «Муэтт» (поз. «Ловчий»)")
+			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
+			SetVar("ObjectiveScoreReward", 1250) -- how much score each objective gives
+			SetVar("MissionScoreRewardMultiplier", 0.65) -- multiplier that determines how much money the player will receive for each score point
+
+			local j = 1
+			local friendlies = {}
+			while friendly[j] do
+				friendlies[j] = friendly[j][1]
+				j = j + 1
+			end
+			friendlies = TableToString(friendlies)
+			j = 1
+			local friendliesTypes = {}
+			while friendly[j] do
+				friendliesTypes[j] = friendly[j][2]
+				j = j + 1
+			end
+			friendliesTypes = TableToString(friendliesTypes)
+			j = 1
+			local friendliesPrototypes = {}
+			while friendly[j] do
+				friendliesPrototypes[j] = friendly[j][3]
+				j = j + 1
+			end
+			friendliesPrototypes = TableToString(friendliesPrototypes)
+			j = 1
+			local friendliesHealth = {}
+			while friendly[j] do
+				friendliesHealth[j] = friendly[j][4]
+				j = j + 1
+			end
+			friendliesHealth = TableToString(friendliesHealth)
+			j = 1
+			local friendliesVehicleHealth = {}
+			while friendly[j] do
+				friendliesVehicleHealth[j] = friendly[j][5]
+				j = j + 1
+			end
+			friendliesVehicleHealth = TableToString(friendliesVehicleHealth)
+			j = 1
+			local friendliesFirepower = {}
+			while friendly[j] do
+				friendliesFirepower[j] = friendly[j][6]
+				j = j + 1
+			end
+			friendliesFirepower = TableToString(friendliesFirepower)
+			j = 1
+			local friendliesManeuverability = {}
+			while friendly[j] do
+				friendliesManeuverability[j] = friendly[j][7]
+				j = j + 1
+			end
+			friendliesManeuverability = TableToString(friendliesManeuverability)
+			j = 1
+			local friendliesNames = {}
+			while friendly[j] do
+				friendliesNames[j] = friendly[j][8]
+				j = j + 1
+			end
+			friendliesNames = TableToString(friendliesNames)
+
+			j = 1
+			local enemies = {}
+			while enemy[j] do
+				enemies[j] = enemy[j][1]
+				j = j + 1
+			end
+			enemies = TableToString(enemies)
+			j = 1
+			local enemiesHealth = {}
+			while enemy[j] do
+				enemiesHealth[j] = enemy[j][2]
+				j = j + 1
+			end
+			enemiesHealth = TableToString(enemiesHealth)
+			j = 1
+			local enemiesVehicleHealth = {}
+			while enemy[j] do
+				enemiesVehicleHealth[j] = enemy[j][3]
+				j = j + 1
+			end
+			enemiesVehicleHealth = TableToString(enemiesVehicleHealth)
+			j = 1
+			local enemiesFirepower = {}
+			while enemy[j] do
+				enemiesFirepower[j] = enemy[j][4]
+				j = j + 1
+			end
+			enemiesFirepower = TableToString(enemiesFirepower)
+			j = 1
+			local enemiesManeuverability = {}
+			while enemy[j] do
+				enemiesManeuverability[j] = enemy[j][5]
+				j = j + 1
+			end
+			enemiesManeuverability = TableToString(enemiesManeuverability)
+			SetVar("TotalMissionScore", 0) -- total score gained, gets updated after mission stats calculation with the info about destroyed enemy units; score for enemy units is decided by their firepower
+			SetVar("ObjectivesCompleted", 0)
+			SetVar("Friendlies", friendlies)
+			SetVar("FriendliesTypes", friendliesTypes)
+			SetVar("FriendliesPrototypes", friendliesPrototypes)
+			SetVar("FriendliesHealth", friendliesHealth) -- friendlies effective hp
+			SetVar("FriendliesVehicleHealth", friendliesVehicleHealth) -- friendlies real hp according to the vehicle stats, used in UpdateUnitsStats
+			SetVar("FriendliesEndHealth", friendliesHealth) -- friendlies hp at the end of the mission, are updated by UpdateUnitsStats
+			SetVar("FriendliesFirepower", friendliesFirepower)
+			SetVar("FriendliesManeuverability", friendliesManeuverability)
+			SetVar("FriendliesNames", friendliesNames)
+			SetVar("Enemies", enemies)
+			SetVar("EnemiesHealth", enemiesHealth) -- enemies effective hp
+			SetVar("EnemiesVehicleHealth", enemiesVehicleHealth) -- enemies real hp according to the vehicle stats, used in UpdateUnitsStats
+			SetVar("EnemiesEndHealth", enemiesHealth) -- enemies hp at the end of the mission, are updated by UpdateUnitsStats
+			SetVar("EnemiesFirepower", enemiesFirepower)
+			SetVar("EnemiesManeuverability", enemiesManeuverability)
+			
+
+			if not getObj("ThePendulum") then
+				CreateVehicleEx("PendulumVehicle01", "ThePendulum", CVector(30, 255, 80), 1486)
+				local Maschine = getObj("ThePendulum")
+				if Maschine then
+					Maschine:setGodMode(1)
+					Maschine:setImmortalMode(1)
+					Maschine:SetExternalPathByName("PendulumPath")
+					
+					TActivate("trPendulum")
+				end
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trPendulum" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local Maschine = GetEntityByName("ThePendulum")
+			if Maschine then
+				Maschine:SetLinearVelocity(CVector(0, 0, 0))
+				Maschine:SetExternalPathByName("PendulumPath")
+				local PendulumStat = GetVar("PendulumStatus").AsInt
+				local MissionTime = GetVar("MissionTime").AsInt
+				if 50>PendulumStat then
+					PendulumStat = PendulumStat + 1
+					SetVar("PendulumStatus", PendulumStat)
+					println("pendstat set to "..PendulumStat)
+					MissionTime = MissionTime + 8
+					SetVar("MissionTime", MissionTime)
+				else
+					SetVar("PendulumStatus", 0)
+					println("corovan management activated, pendstat set to 0")
+					MissionTime = MissionTime + 8
+					SetVar("MissionTime", MissionTime)
+				end
+			end
+		
+		</script>
+	</trigger>
+
+	<trigger Name="RetreatStart" active="1">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat02Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat03Loc" />
+		<script>
+			TActivate("Retreat")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Leave" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave05Loc" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
+			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+
+			if not(IsQuestTaken("CIT_PH01_Retreat")) then
+				FailQuest("CIT_PH01")
+			else
+				CompleteQuest("CIT_PH01_Retreat")
+			end
+
+			if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
+				GiveScore(21000)
+				println("additional score given")
+			end
+
+			UpdateUnitsStats()
+
+			CalcMissionStats()
+
+			PassToMap("hq", "Headquarters_enter", 90, false)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MissionStart" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			-- ================
+			--  Main CIT Force
+			-- ================
+			TeamCreate("CITBoats01", 1002, CVector(5306.605, 255, 4033.265), {"CITPH01_SmlboatCIT01"})
+			TeamCreate("CITBoats02", 1002, CVector(5328.560, 255, 4087.192), {"CITPH01_SmlboatCIT02"})
+			TeamCreate("CITBoats03", 1002, CVector(5206.202, 255, 4037.090), {"CITPH01_SmlboatCIT03"})
+			TeamCreate("CITBoats04", 1002, CVector(5183.000, 255, 4103.564), {"CITPH01_SmlboatCIT04"})
+			local CITB01 = getObj("CITBoats01")
+			local CITB02 = getObj("CITBoats02")
+			local CITB03 = getObj("CITBoats03")
+			local CITB04 = getObj("CITBoats04")
+
+			if CITB01 then
+				CITB01:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+				CITB01:_AdjustBehaviour ()
+			end
+
+			if CITB02 then
+				CITB02:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CITB02:_AdjustBehaviour ()
+			end
+
+			if CITB03 then
+				CITB03:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+				CITB03:_AdjustBehaviour ()
+			end
+
+			if CITB04 then
+				CITB04:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CITB04:_AdjustBehaviour ()
+			end
+
+			local CITB01a = getObj("CITBoats01_vehicle_0")
+			local CITB02a = getObj("CITBoats02_vehicle_0")
+			local CITB03a = getObj("CITBoats03_vehicle_0")
+			local CITB04a = getObj("CITBoats04_vehicle_0")
+
+			if CITB01a then
+				CITB01a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB01a:SetCruisingSpeed(25)
+				CITB01a:SetExternalPathByName("StartPath_CITBoat01")
+			end
+			
+			if CITB02a then
+				CITB02a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB02a:SetCruisingSpeed(14)
+				CITB02a:SetExternalPathByName("StartPath_CITBoat02")
+			end
+
+			if CITB03a then
+				CITB03a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB03a:SetCruisingSpeed(25)
+				CITB03a:SetExternalPathByName("StartPath_CITBoat03")
+			end
+
+			if CITB04a then
+				CITB04a:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
+				CITB04a:SetCruisingSpeed(14)
+				CITB04a:SetExternalPathByName("StartPath_CITBoat04")
+			end
+
+			-- ===============
+			--  Main CD Force
+			-- ===============
+			TeamCreate("CDLavs01", 1060, CVector(4584, 279, 1549), {"CITPH01_LavCD01"})
+			TeamCreate("CDLavs02", 1060, CVector(4591.972, 279, 1552.503), {"CITPH01_LavCD01", "CITPH01_LavCD01"})
+			TeamCreate("CDLavs03", 1060, CVector(4579.708, 279, 1537.806), {"CITPH01_LavCD01", "CITPH01_LavCD01"})
+			TeamCreate("CDBoats01", 1052, CVector(4445.251, 255, 1583.584), {"CITPH01_SmlboatCD01"})
+			TeamCreate("CDBoats02", 1052, CVector(4734.144, 255, 1568.338), {"CITPH01_SmlboatCD01", "CITPH01_SmlboatCD01"})
+
+			local CDL01 = getObj("CDLavs01")
+			local CDL02 = getObj("CDLavs02")
+			local CDL03 = getObj("CDLavs03")
+			local CDB01 = getObj("CDBoats01")
+			local CDB02 = getObj("CDBoats02")
+
+			if CDL01 then
+				CDL01:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CDL01:_AdjustBehaviour ()
+			end
+
+			if CDL02 then
+				CDL02:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CDL02:_AdjustBehaviour ()
+			end
+
+			if CDL03 then
+				CDL03:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CDL03:_AdjustBehaviour ()
+			end
+
+			if CDB01 then
+				CDB01:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+				CDB01:_AdjustBehaviour ()
+			end
+
+			if CDB02 then
+				CDB02:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+				CDB02:_AdjustBehaviour ()
+			end
+
+			local CDL01a = getObj("CDLavs01_vehicle_0")
+			local CDL02a = getObj("CDLavs02_vehicle_0")
+			local CDL02b = getObj("CDLavs02_vehicle_1")
+			local CDL03a = getObj("CDLavs03_vehicle_0")
+			local CDL03b = getObj("CDLavs03_vehicle_1")
+			local CDB02a = getObj("CDBoats02_vehicle_0")
+			local CDB02b = getObj("CDBoats02_vehicle_1")
+
+			if CDL01a then
+				CDL01a:SetRotation(Quaternion(0.0000, 0.8077, 0.0000, -0.5895))
+				CDL01a:SetMaxSpeed(0)
+				CDL01a:SetMaxTorque(1)
+			end
+
+			if CDL02a then
+				CDL02a:SetRotation(Quaternion(0.0000, -0.4266, 0.0000, 0.9045))
+				CDL02a:SetMaxSpeed(0)
+				CDL02a:SetMaxTorque(1)
+			end
+			if CDL02b then
+				CDL02b:SetGamePositionOnGround(CVector(4568.416, 279, 1533.678))
+				CDL02b:SetRotation(Quaternion(0.0000, 0.4127, 0.0000, 0.9109))
+				CDL02b:SetMaxSpeed(0)
+				CDL02b:SetMaxTorque(1)
+			end
+
+			if CDL03a then
+				CDL03a:SetRotation(Quaternion(0.0000, 0.8077, 0.0000, -0.5895))
+				CDL03a:SetMaxSpeed(0)
+				CDL03a:SetMaxTorque(1)
+			end
+			if CDL03b then
+				CDL03b:SetGamePositionOnGround(CVector(4568, 281, 1509))
+				CDL03b:SetRotation(Quaternion(0.0000, -0.4107, 0.0000, -0.9118))
+				CDL03b:SetMaxSpeed(0)
+				CDL03b:SetMaxTorque(1)
+			end
+
+			if CDB02a then
+				CDB02a:SetRotation(Quaternion(0.0000, 0.6070, 0.0000, 0.7947))
+			end
+			if CDB02a then
+				CDB02b:SetGamePositionOnGround(CVector(4792.728, 255, 1415.879))
+				CDB02b:SetRotation(Quaternion(0.0000, -0.2186, 0.0000, 0.9758))
+			end
+
+			-- =============
+			--  CD Reserves
+			-- =============
+			TeamCreate("CDBoats03", 1052, CVector(7713.732, 255, 146.535), {"CITPH01_SmlboatCD02"}, nil, nil, Quaternion(0.0000, -0.5000, 0.0000, 0.8660))
+			TeamCreate("CDBoats04", 1052, CVector(7712.762, 255, 215.964), {"CITPH01_SmlboatCD01"}, nil, nil, Quaternion(0.0000, -0.5000, 0.0000, 0.8660))
+			TeamCreate("CDBoats05", 1052, CVector(7761.483, 255, 315.828), {"CITPH01_SmlboatCD01"}, nil, nil, Quaternion(0.0000, -0.5000, 0.0000, 0.8660))
+			TeamCreate("CDBoats06", 1052, CVector(7828.332, 255, 327.949), {"CITPH01_SmlboatCD02"}, nil, nil, Quaternion(0.0000, -0.5000, 0.0000, 0.8660))
+			TeamCreate("CDBoats07", 1052, CVector(7789.492, 255, 225.626), {"CITPH01_SmlboatCD03"}, nil, nil, Quaternion(0.0000, -0.5000, 0.0000, 0.8660))
+
+			-- =========
+			--  Trigger
+			-- =========
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCruisingSpeed(25)
+				Plf:SetExternalPathByName("StartPath_Player")
+			end
+			local PlfID = GetPlayerVehicleId()
+			FlyLinked( "CITPH01_Start1", PlfID, 30, 0, 1, PlfID )
+			StartCinematic()
+
+			AddCinematicMessage( 1, 2)
+			AddCinematicMessage( 2, 1)
+			AddCinematicMessage( 3, 1)
+
+			TActivate("MissionStart_End")
+			TActivate("CDReinforcements")
+			TActivate("CITOrderFire")
+			TActivate("CITCriticalLosses")
+			TActivate("CDCriticalLosses")
+			TActivate("TargetsDestroyed")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MissionStart_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+
+			if Plf then
+				Plf:PlaceToEndOfPath("StartPath_Player")
+			end
+
+			local CITB01a = getObj("CITBoats01_vehicle_0")
+			local CITB02a = getObj("CITBoats02_vehicle_0")
+			local CITB03a = getObj("CITBoats03_vehicle_0")
+			local CITB04a = getObj("CITBoats04_vehicle_0")
+
+			if CITB01a then
+				CITB01a:PlaceToEndOfPath("StartPath_CITBoat01")
+			end
+
+			if CITB02a then
+				CITB02a:PlaceToEndOfPath("StartPath_CITBoat02")
+			end
+
+			if CITB03a then
+				CITB03a:PlaceToEndOfPath("StartPath_CITBoat03")
+			end
+
+			if CITB04a then
+				CITB04a:PlaceToEndOfPath("StartPath_CITBoat04")
+			end
+
+			local CITB01 = getObj("CITBoats01")
+			local CITB02 = getObj("CITBoats02")
+			local CITB03 = getObj("CITBoats03")
+			local CITB04 = getObj("CITBoats04")
+
+			if CITB01 then
+				CITB01:StackOpen()
+				CITB01:SetDestination(CVector(5793.466, 255, 2218.062))
+				CITB01:SetDestination(CVector(4845.078, 255, 1663.336))
+				CITB01:StackClose()
+			end
+
+			if CITB02 then
+				CITB02:StackOpen()
+				CITB02:SetDestination(CVector(5843.759, 255, 2199.908))
+				CITB02:SetDestination(CVector(4999.020, 255, 1549.249))
+				CITB02:StackClose()
+			end
+
+			if CITB03 then
+				CITB03:StackOpen()
+				CITB03:SetDestination(CVector(4703.018, 255, 3012.441))
+				CITB03:SetDestination(CVector(4531.018, 255, 1864.441))
+				CITB03:StackClose()
+			end
+
+			if CITB04 then
+				CITB04:StackOpen()
+				CITB04:SetDestination(CVector(4703.018, 255, 3012.441))
+				CITB04:SetDestination(CVector(4340.570, 255, 1703.533))
+				CITB04:StackClose()
+			end
+
+			TakeQuest("CIT_PH01")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDReinforcements" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDLavs02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDLavs03_vehicle_0" />
+		<script>	
+			UpdateUnitsStats()
+
+			local CDB03 = getObj("CDBoats03")
+			local CDB04 = getObj("CDBoats04")
+			local CDB05 = getObj("CDBoats05")
+			local CDB06 = getObj("CDBoats06")
+			local CDB08 = getObj("CDBoats07")
+
+			CDB03 = getObj("CDBoats03")
+			if CDB03 then
+				CDB03:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CDB03:_AdjustBehaviour ()
+				CDB03:StackOpen()
+				CDB03:SetDestination(CVector(4950.213, 255, 1707.854))
+				CDB03:StackClose()
+			end
+
+			CDB04 = getObj("CDBoats04")
+			if CDB04 then
+				CDB04:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CDB04:_AdjustBehaviour ()
+				CDB04:StackOpen()
+				CDB04:SetDestination(CVector(4949.242, 255, 1777.283))
+				CDB04:StackClose()
+			end
+
+			CDB05 = getObj("CDBoats05")
+			if CDB05 then
+				CDB05:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CDB05:_AdjustBehaviour ()
+				CDB05:StackOpen()
+				CDB05:SetDestination(CVector(4997.963, 255, 1877.147))
+				CDB05:StackClose()
+			end
+
+			CDB06 = getObj("CDBoats06")
+			if CDB06 then
+				CDB06:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CDB06:_AdjustBehaviour ()
+				CDB06:StackOpen()
+				CDB06:SetDestination(CVector(5064.812, 255, 1889.268))
+				CDB06:StackClose()
+			end
+
+			CDB07 = getObj("CDBoats07")
+			if CDB07 then
+				CDB07:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				CDB07:_AdjustBehaviour ()
+				CDB07:StackOpen()
+				CDB07:SetDestination(CVector(5025.973, 255, 1786.945))
+				CDB07:StackClose()
+			end
+
+			AddFadingMsgId("fm_reinforcements_inbound_foe")
+
+			println("enemy reinforcements coming")
+
+			TActivate("CITOrderHurry")
+			TActivate("CDReinforcementsDestroyed")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITOrderFire" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats02" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats04" />
+		<script>
+			UpdateUnitsStats()
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph01_fire")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITOrderHurry" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_1" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+
+			if CheckUnits({Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5]}, "dead", 2) then
+				UpdateUnitsStats()
+
+				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph01_hurry")
+
+				trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITRetreat" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+
+			local CITB01 = getObj("CITBoats01")
+			if CITB01 then
+				CITB01:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CITB01:_AdjustBehaviour ()
+			end
+			local CITB02 = getObj("CITBoats02")
+			if CITB02 then
+				CITB02:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CITB02:_AdjustBehaviour ()
+			end
+			local CITB03 = getObj("CITBoats03")
+			if CITB03 then
+				CITB03:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CITB03:_AdjustBehaviour ()
+			end
+			local CITB04 = getObj("CITBoats04")
+			if CITB04 then
+				CITB04:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				CITB04:_AdjustBehaviour ()
+			end
+
+			local CITB01a = getObj(Friendlies[1])
+			if CITB01a then
+				CITB01a:SetExternalPathByName("CITRetreatDirection_01")
+				CITB01a:SetCanBeDistractedFromMoving(true)
+				CITB01a:SetCruisingSpeed(15)
+			end
+
+			local CITB02a = getObj(Friendlies[2])
+			if CITB02a then
+				CITB02a:SetExternalPathByName("CITRetreatDirection_01")
+				CITB02a:SetCanBeDistractedFromMoving(true)
+				CITB02a:SetCruisingSpeed(12)
+			end
+
+			local CITB03a = getObj(Friendlies[3])
+			if CITB03a then
+				CITB03a:SetExternalPathByName("CITRetreatDirection_02")
+				CITB03a:SetCanBeDistractedFromMoving(true)
+				CITB03a:SetCruisingSpeed(16)
+			end
+
+			local CITB04a = getObj(Friendlies[4])
+			if CITB04a then
+				CITB04a:SetExternalPathByName("CITRetreatDirection_02")
+				CITB04a:SetCanBeDistractedFromMoving(true)
+				CITB04a:SetCruisingSpeed(13)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCriticalLosses" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITBoats04_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+
+			UpdateUnitsStats()
+
+			if CheckUnits(Friendlies, "dead", 3) then
+				TActivate("CITRetreat")
+
+				AddFadingMsgId("fm_critical_loss_ally")
+				AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
+
+				trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CDCriticalLosses" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02_vehicle_1" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5],Enemies[6],Enemies[7],Enemies[8]}
+
+			UpdateUnitsStats()
+
+			if CheckUnits(TargetEnemies, "dead", 5) then
+				local CDB01a = getObj(Enemies[6])
+				if CDB01a then
+					CDB01a:SetExternalPathByName("CDRetreatDirection_Main")
+					CDB01a:SetCanBeDistractedFromMoving(true)
+				end
+
+				local CDB02a = getObj(Enemies[7])
+				if CDB02a then
+					CDB02a:SetExternalPathByName("CDRetreatDirection_Main")
+					CDB02a:SetCanBeDistractedFromMoving(true)
+				end
+
+				local CDB02b = getObj(Enemies[8])
+				if CDB02b then
+					CDB02b:SetExternalPathByName("CDRetreatDirection_Main")
+					CDB02b:SetCanBeDistractedFromMoving(true)
+				end
+				
+				AddFadingMsgId("fm_critical_loss_foe")
+				if CheckUnits({Enemies[6],Enemies[7],Enemies[8]}, "alive", 1) then
+					AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_foe")
+				end
+
+				trigger:Deactivate()
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="TargetsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDLavs03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats02" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5],Enemies[6],Enemies[7],Enemies[8]}
+			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
+			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+
+			if CheckUnits(TargetEnemies, "dead", 8) then
+				UpdateUnitsStats()
+
+				CompleteQuest("CIT_PH01_DestroyTargets")
+
+				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph01_retreat")
+
+				if CheckUnits(Friendlies, "alive", 1) then
+					TActivate("CITRetreat")
+
+					AddFadingMsgId("fm_cit_ph01_citretreating")
+				end
+
+				if CheckDistBetweenUnits(GetPlayerVehicle(), ReservesEnemies, "least") > 1500 then
+					local b = SpawnMessageBox( "1001" )
+					println("mission end 0")
+					if b == 1 then
+						trigger:Deactivate()
+
+						CompleteQuestIfTaken("CIT_PH01_Retreat")
+
+						println("mission end 1")
+
+						if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
+							GiveScore(21000)
+							println("additional score given")
+						end
+
+						println("mission end 2")
+
+						CalcMissionStats()
+
+						println("mission end 3")
+
+						PassToMap("hq", "Headquarters_enter", 90, false )
+					end
+				end
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDReinforcementsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBoats07" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
+
+			if CheckUnits(ReservesEnemies, "dead", 5) then
+				UpdateUnitsStats()
+
+				TeamCreate("CDDestroyers02", 1053, CVector(8045.401, 255, 1912.191), {"CITPH01_DestroyerCD01"}, nil, nil, Quaternion(0.0000, -0.7373, 0.0000, 0.6756))
+				TeamCreate("CDDestroyers03", 1053, CVector(7886.580, 255, 2028.388), {"CITPH01_DestroyerCD01"}, nil, nil, Quaternion(0.0000, -0.7373, 0.0000, 0.6756))
+				TeamCreate("CDDestroyers04", 1053, CVector(8033.015, 255, 2159.017), {"CITPH01_DestroyerCD01"}, nil, nil, Quaternion(0.0000, -0.7373, 0.0000, 0.6756))
+				CDD02 = getObj("CDDestroyers02")
+				CDD03 = getObj("CDDestroyers03")
+				CDD04 = getObj("CDDestroyers04")
+
+				if CDD02 then
+					CDD02:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					CDD02:_AdjustBehaviour ()
+					CDD02:StackOpen()
+					CDD02:SetDestination(CVector(5178.948, 255, 1654.072))
+					CDD02:StackClose()
+				end
+
+				if CDD03 then
+					CDD03:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					CDD03:_AdjustBehaviour ()
+					CDD03:StackOpen()
+					CDD03:SetDestination(CVector(5020.127, 255, 1770.269))
+					CDD03:StackClose()
+				end
+
+				if CDD04 then
+					CDD04:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					CDD04:_AdjustBehaviour ()
+					CDD04:StackOpen()
+					CDD04:SetDestination(CVector(5166.563, 255, 1900.898))
+					CDD04:StackClose()
+				end
+
+				AddFadingMsgId("fm_reserves_inbound_foe")
+
+				println("reinforcements dead")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="Retreat" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
+			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+
+			UpdateUnitsStats()
+
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				trigger:Deactivate()
+
+				if not(IsQuestTaken("CIT_PH01_Retreat")) then
+					FailQuest("CIT_PH01")
+				else
+					CompleteQuest("CIT_PH01_Retreat")
+				end
+
+				if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
+					GiveScore(21000)
+					println("additional score given")
+				end
+
+				CalcMissionStats()
+
+				PassToMap("hq", "Headquarters_enter", 90, false )
+			else
+				trigger:Deactivate()
+
+				TActivate("RetreatStart")
+			end
+			
+		</script>
+	</trigger>
+</triggers>
