@@ -127,7 +127,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "120"
 		FiringRate		= "30"
 		ChargeSize		= "2"
-		RechargingTime	= "35"
+		RechargingTime	= "30"
 
 		FiringRange		= "900"
 		GroupingAngle	= "1"
@@ -171,15 +171,15 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		FiringType			= "MachineGun"
 		RecoilForce			= "50"
 
-		DamageType			= "BLAST"
-		NumBulletsInShot	= "4"
+		DamageType			= "ENERGY"
+		NumBulletsInShot	= "8"
 
-		Damage			= "16"
-		FiringRate		= "800"
-		ChargeSize     	= "200"
+		Damage			= "1"
+		FiringRate		= "400"
+		ChargeSize     	= "75"
 		RechargingTime 	= "14"
 
-		FiringRange		= "900"
+		FiringRange		= "700"
 		GroupingAngle	= "3"
 		
 		TurningSpeed	= "65"
@@ -455,7 +455,7 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		ChargeSize		= "24"
 		RechargingTime	= "6"
 
-		FiringRange		= "600"
+		FiringRange		= "370"
 		GroupingAngle	= "0.3"
 
 		ShellsPoolSize		= "24"
@@ -503,9 +503,9 @@ $Id: BigGuns.xml,v 1.43 2005/11/28 07:43:56 anton Exp $
 		Damage			= "600"
 		FiringRate		= "45"
 		ChargeSize		= "1"
-		RechargingTime	= "8"
+		RechargingTime	= "12"
 
-		FiringRange		= "750"
+		FiringRange		= "450"
 		GroupingAngle	= "1"
 
 		ShellsPoolSize		= "7"

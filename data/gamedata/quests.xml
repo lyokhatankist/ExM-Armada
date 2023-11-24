@@ -12,7 +12,8 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="CIT_PH01" />
+			PrecedingQuests="CIT_PH01"
+			OnComplete="CompleteObjective()" />
 
 		<quest
 			Name="CIT_PH01_Retreat"
@@ -20,7 +21,8 @@
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="CIT_PH01_DestroyTargets" />
+			PrecedingQuests="CIT_PH01_DestroyTargets"
+			OnComplete="CompleteObjective()" />
 	</quest>
 
 	<MutuallyExclusives />

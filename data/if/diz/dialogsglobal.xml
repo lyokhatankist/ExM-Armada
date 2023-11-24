@@ -5,15 +5,23 @@
 		text="Выбор миссии (кампания Содружества Независимых Городов)."
 		role="NPC"
 		scriptCondition="GetVar('OnMission').AsInt==0"
-		nextReplies="CIT_PH_001_pl" />
+		nextReplies="CIT_PH_001_pl Mission_Cancel" />
+
+	<Reply
+		name="Mission_Cancel"
+		text="Отмена."
+		role="PLAYER"
+		scriptResult="EndConversation()" />
 <!--Root/battleship/CD-->
 	<Reply
 		name="CD_Mission_Main"
 		text="Выбор миссии (кампания Алого Рассвета)."
-		role="NPC" />
+		role="NPC"
+		scriptCondition="GetVar('OnMission').AsInt==0" 
+		nextReplies="Mission_Cancel" />
 <!--Root/battleship/Tutorial--><!--Root/battleship/CD/Placeholder--><!--Root/battleship/CD/Main Campaign--><!--Root/battleship/CIT/Placeholder-->
 	<Reply
-		name="Placeholder_Main"
+		name="CIT_Placeholder_Main"
 		text="[Placeholder]"
 		role="NPC"
 		nextReplies="CIT_PH_001_pl" />
@@ -22,12 +30,12 @@
 		name="CIT_PH_001_pl"
 		text="Контратака."
 		role="PLAYER"
-		scriptCondition="not(IsQuestComplete('CIT_PH01')) or not(IsQuestFailed('CIT_PH01'))"
+		scriptCondition="not(IsQuestTaken('CIT_PH01'))"
 		nextReplies="CIT_PH_001_npc" />
 
 	<Reply
 		name="CIT_PH_001_npc"
-		text='"Контратака"| |                                                                      Детали миссии|Цель миссии: уничтожить все бронемашины и боевые катеры Алого Рассвета у острова Кейна.|Зона боевых действий: Большие риджинские острова.|Техника: быстроходный катер "Чайка" с РСЗО "Снасть".|Союзники: два быстроходных катера "Чайка".|Противник: бронемашины, боевые катеры АР.|Поддержка с воздуха: нет.|Вражеская авиация: нет.|Погода: утро, туман.| |                                                                        Брифинг|Напишу потом как настроение будет.| |Приступить к выполнению миссии? '
+		text="                                                                           @ff000000«Контратака»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 уничтожить все бронемашины и боевые катеры Алого Рассвета у острова Кейна.|@ff000000Зона боевых действий:@ff404040 Большие риджинские острова.|@ff000000Техника:@ff404040 быстроходный катер «Муэтт» с РСЗО «Кордаж-80».|@ff000000Союзники:@ff404040 четыре быстроходных катера «Муэтт».|@ff000000Противник:@ff404040 бронемашины, боевые катеры АР.|@ff000000Поддержка с воздуха:@ff404040 нет.|@ff000000Вражеская авиация:@ff404040 нет.|@ff000000Погода:@ff404040 утро, туман.| |                                                                               @ff000000Брифинг|Противник занял стратегически важный остров в южной части Больших риджинских островов. Развёртывание сил противника на этом рубеже представляет серьёзную опасность и, кроме предоставления плацдарма для врага, также исключает любую возможность для проведения наших будущих операций в Риджинском архипелаге. По данным разведки, в районе острова Кейна неприятель разместил группу бронемашин и несколько боевых катеров со средствами ПВО. По этой причине становится невозможным снабжение наших войск на южном фронте по воздуху. Ваша задача - зачистить остров от присутствия Алого Рассвета и отступить до прибытия вражеского подкрепления. После этого оставшиеся силы противника в этом районе будут уничтожены при поддержке ударных вертолётов, но это уже не ваша забота. Ударная группа для выполнения вашей текущей миссии будет состоять из двух стандартных боевых катеров типа «Муэтт» и трёх боевых катеров ударной модификации того же типа, включая ваш.| |Приступить к выполнению миссии?"
 		role="NPC"
 		scriptResult="SetVar('TakenMission', 'CITPH01_Counterattack')"
 		nextReplies="Mission_Yes Mission_No" />
@@ -42,5 +50,5 @@
 		name="Mission_Yes"
 		text="Да."
 		role="PLAYER"
-		scriptResult="local MissionName = GetVar('TakenMission').AsString; MissionSetup(MissionName, 'cit_ph01_counterattack', 'SmlboatCIT02'); SetVar('OnMission', 1) EndConversation()" />
+		scriptResult="g_ObjCont:SetGameTime( 20, 0, 24, 5, 2265 ); ChangeSide('CIT'); local MissionName = GetVar('TakenMission').AsString; MissionSetup(MissionName, 'cit_ph01_counterattack', 'CITPH01_Player01'); SetVar('OnMission', 1) EndConversation()" />
 <!--Root/battleship/CIT/Main Campaign--></DialogsResource>

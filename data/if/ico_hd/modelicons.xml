@@ -94,6 +94,11 @@
    <Item id="Belong_1050"			file="data\if\ico\clans\crimson_dawn03.dds"								file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1500"			file="data\if\ico\InventoryDlg\Opacity1.dds"								file1="data\if\ico\InventoryDlg\Opacity1.dds"/>	
 
+
+
+   <Item id="fakeCargo"						file="data\if\ico\InventoryDlg\Opacity1.dds"			file1=""/>
+	<Item id="destroyerCDEngineTest"		file="data\if\ico\InventoryDlg\Opacity1.dds"			file1=""/>
+
 <!--    <Item id="arcadescoutCab"	   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="FormulaCab01"		   file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	
    <Item id="fakeCargo"	         file="data\if\ico\InventoryDlg\Opacity1.dds" file1=""/>	

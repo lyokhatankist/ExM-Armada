@@ -719,7 +719,7 @@
 	<Item
 		id="smlboatCITNurs01"
 		locForm="0"
-		value="Кордаж" />
+		value="Кордаж-80" />
 
 	<Item
 		id="SmlboatCIT02"
@@ -1425,4 +1425,70 @@
 		id="heliFuselage02_static01"
 		locForm="0"
 		value="Москито" />
+
+	<Item
+		id="destroyerCDEngineTest"
+		locForm="0"
+		value="Н/Д" />
+
+	<Item
+		id="fakeCargo"
+		locForm="0"
+		value="Н/Д" />
+
+	<Item
+		id="HQVehicle01"
+		locForm="0"
+		value="Н/Д" />
+
+<!-- CIT PH01 Counterattack -->
+	<Item
+		id="CITPH01_Player01"
+		locForm="0"
+		value="«Ловчий» (б.к.т. «Муэтт»)" />
+
+	<Item
+		id="CITPH01_SmlboatCIT01"
+		locForm="0"
+		value="Риф" />
+
+	<Item
+		id="CITPH01_SmlboatCIT02"
+		locForm="0"
+		value="Молот" />
+
+	<Item
+		id="CITPH01_SmlboatCIT03"
+		locForm="0"
+		value="Волк" />
+
+	<Item
+		id="CITPH01_SmlboatCIT04"
+		locForm="0"
+		value="Гром" />
+
+	<Item
+		id="CITPH01_SmlboatCD01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_SmlboatCD02"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_SmlboatCD03"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_LavCD01"
+		locForm="0"
+		value="Броневик" />
+
+	<Item
+		id="CITPH01_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
 </ModelNames>

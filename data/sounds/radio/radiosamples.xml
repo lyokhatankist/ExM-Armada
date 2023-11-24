@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <RadioSamples>
+<!-- player -->
 	<Sample
 		id="1"
 		sound="data\sounds\radio\battleship\friendly_boat.wav"
@@ -29,7 +30,7 @@
 		id="6"
 		sound="data\sounds\radio\battleship\unit_lost_3.wav"
 		text="@ffff0000[!]@ffffffff Союзник уничтожен." />
-
+<!-- general -->
 	<Sample
 		id="7"
 		sound="data\sounds\radio\battleship\alarm.wav"
@@ -64,7 +65,7 @@
 		id="13"
 		sound="data\sounds\radio\battleship\enemy_hit.wav"
 		text="@ff4cff00[·]@ffffffff Противник получил критические повреждения." />
-
+<!-- vessel -->
 	<Sample
 		id="14"
 		sound="data\sounds\radio\battleship\friendly_boat.wav"
@@ -84,7 +85,7 @@
 		id="17"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский корабль уничтожен." />
-
+<!-- boat -->
 	<Sample
 		id="18"
 		sound="data\sounds\radio\battleship\friendly_boat.wav"
@@ -104,7 +105,7 @@
 		id="21"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский катер уничтожен." />
-
+<!-- destroyer -->
 	<Sample
 		id="22"
 		sound="data\sounds\radio\battleship\friendly_destroyer.wav"
@@ -124,7 +125,7 @@
 		id="25"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский эсминец уничтожен." />
-
+<!-- cruiser -->
 	<Sample
 		id="26"
 		sound="data\sounds\radio\battleship\friendly_cruiser.wav"
@@ -144,7 +145,7 @@
 		id="29"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский крейсер уничтожен." />
-
+<!-- battleship -->
 	<Sample
 		id="30"
 		sound="data\sounds\radio\battleship\friendly_battleship.wav"
@@ -164,7 +165,7 @@
 		id="33"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский линкор уничтожен." />
-
+<!-- helicopter -->
 	<Sample
 		id="34"
 		sound="data\sounds\radio\battleship\friendly_airplane.wav"
@@ -194,7 +195,7 @@
 		id="39"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский вертолёт уничтожен." />
-
+<!-- airplane -->
 	<Sample
 		id="40"
 		sound="data\sounds\radio\battleship\friendly_airplane.wav"
@@ -214,7 +215,7 @@
 		id="43"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский самолёт уничтожен." />
-
+<!-- groundtarget -->
 	<Sample
 		id="44"
 		sound="data\sounds\radio\battleship\friendly_lav.wav"
@@ -234,7 +235,7 @@
 		id="47"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеская наземная боевая единица уничтожена." />
-
+<!-- truck -->
 	<Sample
 		id="48"
 		sound="data\sounds\radio\battleship\friendly_truck.wav"
@@ -254,7 +255,7 @@
 		id="51"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский грузовик уничтожен." />
-
+<!-- lav -->
 	<Sample
 		id="52"
 		sound="data\sounds\radio\battleship\friendly_lav.wav"
@@ -274,7 +275,7 @@
 		id="55"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеская бронемашина уничтожена." />
-
+<!-- tank -->
 	<Sample
 		id="56"
 		sound="data\sounds\radio\battleship\friendly_tank.wav"
@@ -294,7 +295,7 @@
 		id="59"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеский танк уничтожен." />
-
+<!-- artillery -->
 	<Sample
 		id="60"
 		sound="data\sounds\radio\battleship\friendly_artillery.wav"
@@ -314,7 +315,7 @@
 		id="63"
 		sound="data\sounds\radio\battleship\enemy_destroyed.wav"
 		text="@ff4cff00[¤]@ffffffff Вражеская артиллерия уничтожена." />
-
+<!-- rocket -->
 	<Sample
 		id="64"
 		sound="data\sounds\radio\battleship\friendly_rocket.wav"

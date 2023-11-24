@@ -148,7 +148,7 @@
 			Belong="1008"
 			Prototype="settlementTeam">
 			<Formation
-				Name="heli4_Team_Formation"
+				Name="heli5_Team_Formation"
 				Belong="1008"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
@@ -240,7 +240,7 @@
 		Name="MissionStartLoc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="5270.000 255.000 4075.000"
+		Pos="5084.000 255.000 4165.000"
 		Radius="700.000" />
 
 	<Object
@@ -248,8 +248,64 @@
 		Name="Retreat01Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="3065.000 255.000 3559.000"
+		Pos="1931.000 255.000 1952.000"
+		Radius="1300.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4134.000 255.000 3738.000"
 		Radius="700.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="3030.000 255.000 3235.000"
+		Radius="900.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6261.000 255.000 5061.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4254.000 255.000 5706.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2544.000 255.000 5419.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="872.000 255.000 4359.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave05Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="859.000 255.000 1362.000"
+		Radius="1500.000" />
 
 	<Object
 		Belong="1100"
