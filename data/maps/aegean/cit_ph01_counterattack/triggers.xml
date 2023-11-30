@@ -3,7 +3,7 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			g_ObjCont:SetGameTime( 7, 23, 25, 5, 2265 )
+			g_ObjCont:SetGameTime( gMissionTime[1], gMissionTime[2], gMissionTime[3], gMissionTime[4], gMissionTime[5] )
 			
 			SetWeather(0)
 

@@ -72,6 +72,18 @@
 		musicBlocks="block1 r2_2 r4_2" />
 
 	<LevelInfo
+		name="tutorial"
+		file="data\maps\tutorial.ssl"
+		fullName="[АР] Крещение огнём"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\missions\tutorial.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="block1 r2_2 r4_2" />
+
+	<LevelInfo
 		name="cit_ph01_counterattack"
 		file="data\maps\cit_ph01_counterattack.ssl"
 		fullName="[СНГ] Контратака"

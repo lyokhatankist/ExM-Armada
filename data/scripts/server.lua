@@ -1407,14 +1407,18 @@ end
 
 -- function that converts a table into a string
 -- useful for storing tables in SetVar variables
-function TableToString(table)
+function TableToString(table, modo)
 	local endString = "{"
 	local tableLength
 	if type(table)=="table" then
 		tableLength = getn(table)
 		for i=1, tableLength do
 			if type(table[i])=="string" then
-				endString = endString..'"'..table[i]..'"'
+				if modo then
+					endString = endString.."'"..table[i].."'"
+				else
+					endString = endString..'"'..table[i]..'"'
+				end
 			else
 				endString = endString..table[i]
 			end
@@ -1437,7 +1441,7 @@ end
 -- useful for getting the tables out of SetVar variables
 function StringToTable(string)
 	local endTable = string
-	funcTableCode = loadstring("local t = "..endTable.."; return t")
+	local funcTableCode = loadstring("local t = "..endTable.."; return t")
 	endTable = funcTableCode()
 
 	return endTable
@@ -1463,7 +1467,10 @@ function ConvergeStringTables(tableA, tableB)
 end
 
 -- the function that sets up the parameters of a chosen mission at the hq map
-function MissionSetup(missionName, missionMap, playerVehicle, friendlies)
+-- gunsAndGadgets is the guns and gadgets that will be added to the shop in hq
+function MissionSetup(missionTime, missionSide, missionName, missionMap, playerVehicle, friendlies, gunsAndGadgets)
+	g_ObjCont:SetGameTime( missionTime[1], missionTime[2], missionTime[3], missionTime[4], missionTime[5] )
+	ChangeSide(missionSide)
 	local plPos = GetPlayerVehicle():GetPosition()
 	AddPlayerVehicle(playerVehicle)
 	GetPlayerVehicle():SetGamePositionOnGround(plPos)
@@ -1474,6 +1481,16 @@ function MissionSetup(missionName, missionMap, playerVehicle, friendlies)
 	if friendlies then
 		gFriendlies = friendlies
 	end
+
+	if gunsAndGadgets then
+		for i=1, getn(gunsAndGadgets) do
+			getObj("Headquarters_Shop"):GetRepositoryByTypename("GunsAndGadgets"):AddItems(gunsAndGadgets[i], 1)
+		end
+
+		SetVar("GunsAndGadgets", TableToString(gunsAndGadgets))
+	end
+
+	SetVar('OnMission', 1)
 end
 
 -- function that changes tolerances to the player according to the specified side of the conflict

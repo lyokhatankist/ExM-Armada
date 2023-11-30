@@ -1441,6 +1441,62 @@
 		locForm="0"
 		value="Í/Ä" />
 
+<!-- Tutorial -->
+	<Item
+		id="Tutorial_Player01"
+		locForm="0"
+		value="«Êàñàäî» (ý.ì.ò. «Àëüáåäî»)" />
+
+	<Item
+		id="Tutorial_DestroyerCD01"
+		locForm="0"
+		value="«Ñîëèäî»" />
+
+	<Item
+		id="Tutorial_HCruiserCD01"
+		locForm="0"
+		value="«Âàëåíñèÿ»" />
+
+	<Item
+		id="Tutorial_HCruiserCD02"
+		locForm="0"
+		value="«Èáåðèÿ»" />
+
+	<Item
+		id="Tutorial_DestroyerCD02"
+		locForm="0"
+		value="«Ìàëüâàäî»" />
+
+	<Item
+		id="Tutorial_DestroyerCD03"
+		locForm="0"
+		value="«Ýíîõàäî»" />
+
+	<Item
+		id="Tutorial_HCruiserCD03"
+		locForm="0"
+		value="«Âàëüäèâèÿ»" />
+
+	<Item
+		id="Tutorial_SmlboatCIT01"
+		locForm="0"
+		value="Êàòåð" />
+
+	<Item
+		id="Tutorial_DestroyerCIT01"
+		locForm="0"
+		value="Ýñìèíåö" />
+
+	<Item
+		id="Tutorial_FastboatCIT01"
+		locForm="0"
+		value="Êàòåð" />
+
+	<Item
+		id="Tutorial_ÑruiserCIT01"
+		locForm="0"
+		value="Êðåéñåð" />
+
 <!-- CIT PH01 Counterattack -->
 	<Item
 		id="CITPH01_Player01"

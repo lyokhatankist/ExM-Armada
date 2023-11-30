@@ -3,13 +3,13 @@
 	<QuestInfo
 		questName="CIT_PH01"
 		briefDiz="Контратака"
-		isMainQuest="0" />
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="CIT_PH01_DestroyTargets"
 		briefDiz="Уничтожить противника у острова Кейна"
 		fullDiz="Противник занял позиции на одном из юговосточных островов Большого риджинского архипелага. Силы противника составляют несколько бронемашин и боевых катеров. Необходимо выбить противника с захваченного острова."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="cit_ph01_counterattack"
 			coordinate="4591.000 279.000 1543.000" />
@@ -19,7 +19,7 @@
 		questName="CIT_PH01_Retreat"
 		briefDiz="Вернуться к точке збора"
 		fullDiz="Успешно отступить после выполнения задания."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="cit_ph01_counterattack"
 			targetObjName="MissionStartLoc" />

@@ -99,6 +99,8 @@
 			local missionLoc = GetVar("MissionLoc").AsString
 			local b = SpawnMessageBox( "1000" )
 			if b == 1 then
+				local missionParams = StringToTable(GetVar("MissionParams").AsString)
+				gMissionTime = StringToTable(missionParams[1])
 				SetVar("OnMission", 0)
 				TActivate("ShowMissionStats")
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="PendulumPath">
+		<Point
+			coord="35 45" />
+
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
+	</Path>
+
+	<Path
+		Name="StartPath_Player">
+		<Point
+			coord="6570 1101" />
+		
+		<Point
+			coord="6385 1286" />
+	</Path>
+
+    <Path
+		Name="StartPath_CDDestroyer01">		
+		<Point
+			coord="6411 944" />
+
+		<Point
+			coord="6071 1211" />
+	</Path>
+</Paths>
