@@ -1756,21 +1756,21 @@ function UpdateUnitsStats(plDead)
 				currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
 				if currentHealth < friendliesEndHealth[i] then
 					friendliesEndHealth[i] = currentHealth
-					-- println("friendly numba "..i.." updated")
+					println("friendly numba "..i.." updated")
 				end
-				-- println("friendly numba "..i.." checked")
+				println("friendly numba "..i.." checked")
 			else
 				friendliesEndHealth[i] = 0
 			end
 		end
 	else
-		-- println("there are no friendlies on this mission")
+		println("there are no friendlies on this mission")
 	end
 
 	local retVal = TableToString(friendliesEndHealth)
-	-- println("retVal initialiased")
+	println("retVal initialiased")
 	SetVar("FriendliesEndHealth", retVal)
-	-- println("retVal returned")
+	println("retVal returned")
 	
 	local enemiesStart = StringToTable(GetVar("Enemies").AsString)
 	local enemiesStartHealth = StringToTable(GetVar("EnemiesHealth").AsString)
@@ -1791,15 +1791,15 @@ function UpdateUnitsStats(plDead)
 				currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
 				if currentHealth < enemiesEndHealth[i] then
 					enemiesEndHealth[i] = currentHealth
-					-- println("enemy numba "..i.." updated")
+					println("enemy numba "..i.." updated")
 				end
-				-- println("enemy numba "..i.." checked")
+				println("enemy numba "..i.." checked")
 			else
 				enemiesEndHealth[i] = 0
 			end
 		end
 	else
-		-- println("there are no enemies on this mission (why though)")
+		println("there are no enemies on this mission (why though)")
 	end
 
 	SetVar("EnemiesEndHealth", TableToString(enemiesEndHealth))
@@ -1816,16 +1816,16 @@ function UpdateUnitsStats(plDead)
 			currentHealth = playerVehicle:GetHealth() * healthMultiplier
 			if currentHealth < playerEndHealth then
 				playerEndHealth = currentHealth
-				-- println("player updated")
+				println("player updated")
 			end
-			-- println("player checked")
+			println("player checked")
 		else
 			playerEndHealth = 0
-			-- println("player dead")
+			println("player dead")
 		end
 	else
 		playerEndHealth = 0
-		-- println("player dead")
+		println("player dead")
 	end
 
 	SetVar("PlayerEndHealth", playerEndHealth)
@@ -2043,8 +2043,8 @@ function CalcMissionStats(plDead)
 
 	println("=================")
 	println("=================")
-	println("Enemies Start "..EnemiesStart)
-	println("Enemies End "..EnemiesEnd)
+	println("Enemies Start "..TableToString(enemiesStart))
+	println("Enemies End "..TableToString(enemiesEnd))
 	println("=================")
 	println("=================")
 

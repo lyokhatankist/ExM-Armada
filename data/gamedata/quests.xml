@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<quests><!--Root--><!--Root/CIT--><!--Root/CD--><!--Root/CD/Placeholder--><!--Root/CD/Main Campaign--><!--Root/CIT/Placeholder--><!--Root/CIT/Main Campaign--><!--Root/CIT/Placeholder/01_Counterattack-->
+<quests><!--Root--><!--Root/CIT--><!--Root/CD--><!--Root/Tutorial-->
+	<quest
+		Name="CD_Tutorial"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="CD_Tutorial_DestroyBoats"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="CD_Tutorial"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CD_Tutorial_DestroyDestroyer"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="CD_Tutorial"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CD_Tutorial_DestroyCruiser"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="CD_Tutorial"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CD_Tutorial_Retreat"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="CD_Tutorial_DestroyBoats CD_Tutorial_DestroyDestroyer CD_Tutorial_DestroyCruiser"
+			OnComplete="CompleteObjective()" />
+	</quest>
+<!--Root/CD/Placeholder--><!--Root/CD/Main Campaign--><!--Root/CIT/Placeholder--><!--Root/CIT/Main Campaign--><!--Root/CIT/Placeholder/01_Counterattack-->
 	<quest
 		Name="CIT_PH01"
 		Automatic="0"

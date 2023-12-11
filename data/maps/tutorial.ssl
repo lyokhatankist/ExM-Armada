@@ -3,7 +3,7 @@
 	<Section
 		name="LEVEL">
 		<Key
-			name="WEATHERDETAIL">WeatherDetail.xml</Key>
+			name="WEATHERDETAIL">tutorial\WeatherDetail.xml</Key>
 
 		<Key
 			name="WEATHERTYPE">archipelago_clear</Key>

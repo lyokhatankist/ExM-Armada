@@ -13,7 +13,7 @@
 			Name="MyCar"
 			Belong="1500"
 			Prototype="HQVehicle01"
-			Pos="1024.000 255.000 1024.000"
+			Pos="1024.000 275.000 1024.000"
 			Rot="-0.007 1.000 0.001 0.021">
 			<Parts />
 
@@ -25,7 +25,7 @@
 		Name="Headquarters"
 		Belong="1500"
 		Prototype="HQTown"
-		Pos="2048.000 255.000 2048.000"
+		Pos="1024.000 275.000 1024.000"
 		Rot="0.000 -0.721 0.000 -0.693"
 		PointOfViewInInterface="-100.000 70.000 300.000"
 		CaravansDest="">
@@ -63,7 +63,7 @@
 			Name="Headquarters_enter"
 			Belong="1500"
 			Prototype="genericLocation"
-			Pos="2048.000 255.000 2048.000"
+			Pos="1024.000 275.000 1024.000"
 			Rot="0.000 -0.721 0.000 -0.693"
 			Radius="100.000"
 			LookingTimeOut="10.000" />
@@ -73,7 +73,7 @@
 			Name="Headquarters_defend"
 			Belong="1500"
 			Prototype="genericLocation"
-			Pos="2048.000 255.000 2048.000"
+			Pos="1024.000 275.000 1024.000"
 			Rot="0.000 -0.721 0.000 -0.693"
 			Radius="200.000"
 			LookingTimeOut="50.000" />
@@ -83,7 +83,7 @@
 			Name="Headquarters_deploy"
 			Belong="1500"
 			Prototype="genericLocation"
-			Pos="2048.000 255.000 2048.000"
+			Pos="2048.000 275.000 2048.000"
 			Rot="0.000 -0.721 0.000 -0.693"
 			Radius="5.000"
 			LookingTimeOut="20.000" />

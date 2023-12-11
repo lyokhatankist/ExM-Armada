@@ -28,6 +28,49 @@
 			Journal:AddClanToEncyclopaedia(1000)
 			Journal:AddClanToEncyclopaedia(1050)
 
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				AddPlayerVehicle("HQVehicle01")
+				local vehPlayerNew = GetPlayerVehicle()
+				if vehPlayerNew then
+					vehPlayerNew:SetGamePositionOnGround(CVector(1024, 275, 1024))
+					vehPlayerNew:SetCustomLinearVelocity(0)
+					vehPlayerNew:SetThrottle(0)
+				end
+			end
+
+			println("jopka")
+
+			local b
+			if (IsQuestComplete("CD_Tutorial") or IsQuestFailed("CD_Tutorial")) then
+				TActivate("ShowMissionStats_Tutorial")
+			end
+
+			println("jopka")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="ShowMissionStats_Tutorial" active="0">
+		<event timeout="0.05" eventid="GE_TIME_PERIOD" />
+		<script>
+			local b = SpawnMessageBox( "101" )
+			if b == 1 then
+				b = SpawnMessageBox( "102" )
+				if b == 1 then
+					b = SpawnMessageBox( "103" )
+					if b == 1 then
+						b = SpawnMessageBox( "104" )
+						if b == 1 then
+							ShowMissionStats()
+						end
+					end
+				end
+			end
+
+			Radar:SetScanRadius(1000)
+			
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -86,7 +129,7 @@
 		<script>
 			local HQ = getObj("Headquarters")
 			if HQ then
-				HQ:SetPosition(CVector(1000, 270, 1000))
+				HQ:SetPosition(CVector(1024, 275, 1024))
 			end
 			
 			trigger:Deactivate()
