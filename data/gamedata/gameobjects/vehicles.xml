@@ -263,8 +263,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "SmlboatCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "2.9"
-		CameraMaxDist		= "20"
+		CameraHeight			= "2.9"
+		CameraMaxDist			= "20"
+		HealthRegeneration		= "0.15"
+		DurabilityRegeneration	= "0.5"
 
 		DiffRatio			= "12.0"
 		MaxEngineRpm		= "3500"
@@ -344,8 +346,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "SmlboatCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "3.3"
-		CameraMaxDist		= "20"
+		CameraHeight			= "3.3"
+		CameraMaxDist			= "20"
+		HealthRegeneration		= "0.2"
+		DurabilityRegeneration	= "0.5"
 
 		DiffRatio			= "12.0"
 		MaxEngineRpm		= "2330"
@@ -425,8 +429,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "FastboatCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "3.4"
-		CameraMaxDist		= "30"
+		CameraHeight			= "3.4"
+		CameraMaxDist			= "30"
+		HealthRegeneration		= "0.1"
+		DurabilityRegeneration	= "0.5"
 
 		DiffRatio			= "12.0"
 		MaxEngineRpm		= "5000"
@@ -495,8 +501,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "DestroyerCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "12"
-		CameraMaxDist		= "60"
+		CameraHeight			= "12"
+		CameraMaxDist			= "60"
+		HealthRegeneration		= "0.75"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "5000"
@@ -612,6 +620,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "SemibossCIT01"
 		ParentPrototype 		= "DestroyerCIT"
+		HealthRegeneration		= "2.5"
 		LookRadius				= "1400.0"
 		MaxEngineRpm			= "7500"
 		LowGearShiftLimit		= "3000"
@@ -643,8 +652,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "DestroyerCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "12"
-		CameraMaxDist		= "70"
+		CameraHeight			= "12"
+		CameraMaxDist			= "70"
+		HealthRegeneration		= "0.75"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "5000"
@@ -765,8 +776,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "OCruiserCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "12"
-		CameraMaxDist		= "70"
+		CameraHeight			= "12"
+		CameraMaxDist			= "70"
+		HealthRegeneration		= "1.0"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "3500"
@@ -914,8 +927,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "HCruiserCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "15"
-		CameraMaxDist		= "120"
+		CameraHeight			= "15"
+		CameraMaxDist			= "120"
+		HealthRegeneration		= "1.5"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "3500"
@@ -1060,6 +1075,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "SemibossCD01"
 		ParentPrototype 		= "HCruiserCD"
+		HealthRegeneration		= "3.0"
 		LookRadius				= "6500.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -1096,8 +1112,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "BattleshipCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "22.5"
-		CameraMaxDist		= "160"
+		CameraHeight			= "22.5"
+		CameraMaxDist			= "160"
+		HealthRegeneration		= "3.0"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "4550"
@@ -1300,6 +1318,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "BossCIT01"
 		ParentPrototype 		= "BattleshipCIT"
+		HealthRegeneration		= "5.0"
 		LookRadius				= "1500.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
@@ -1353,8 +1372,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "BattleshipCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "22.5"
-		CameraMaxDist		= "135"
+		CameraHeight			= "22.5"
+		CameraMaxDist			= "135"
+		HealthRegeneration		= "2.0"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "4550"
@@ -1548,8 +1569,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "MerchantCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "12"
-		CameraMaxDist		= "70"
+		CameraHeight			= "12"
+		CameraMaxDist			= "70"
+		HealthRegeneration		= "0.25"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "15.0"
 		MaxEngineRpm		= "4550"
@@ -1614,8 +1637,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "LavCIT"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "1.5"
-		CameraMaxDist		= "13"
+		CameraHeight			= "1.5"
+		CameraMaxDist			= "13"
+		HealthRegeneration		= "0.1"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "3.0"
 		MaxEngineRpm		= "4000"
@@ -1691,8 +1716,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name				= "LavCD"
 		ResourceType		= "VEHICLE"
 
-		CameraHeight		= "1.6"
-		CameraMaxDist		= "13"
+		CameraHeight			= "1.6"
+		CameraMaxDist			= "13"
+		HealthRegeneration		= "0.125"
+		DurabilityRegeneration	= "3.5"
 
 		DiffRatio			= "3.0"
 		MaxEngineRpm		= "4000"
@@ -2230,6 +2257,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "Tutorial_OCruiserCIT01"
 		ParentPrototype 		= "OCruiserCIT"
+		HealthRegeneration		= "0.0"
 		LookRadius				= "700.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
