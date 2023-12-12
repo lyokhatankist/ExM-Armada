@@ -1692,13 +1692,19 @@ function CheckDistBetweenUnits(unit, units, checkT)
 	end
 
 	local dist
+	local aliveUnit2Names
 
 	if type(unit2Names) == "table" then
 		if checkType == "least" then
 			retVal = 8192
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+				else
+					dist = 16384
+				end
+
 				if retVal > dist then
 					retVal = dist
 				end
@@ -1706,21 +1712,35 @@ function CheckDistBetweenUnits(unit, units, checkT)
 		elseif checkType == "most" then
 			retVal = 0
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+				else
+					dist = 0
+				end
+
 				if retVal < dist then
 					retVal = dist
 				end
 			end
 		else
 			retVal = 0
+			aliveUnit2Names = getn(unit2Names)
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
-				retVal = retVal + dist
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+					retVal = retVal + dist
+				else
+					aliveUnit2Names = aliveUnit2Names - 1
+				end
 			end
 
-			retVal = retVal / getn(unit2Names)
+			if aliveUnit2Names ~= 0 then
+				retVal = retVal / aliveUnit2Names
+			else
+				retVal = 16384
+			end
 		end
 	else
 		unit2Name = getObj(unit2Name)
