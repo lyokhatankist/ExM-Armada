@@ -1466,6 +1466,18 @@ function ConvergeStringTables(tableA, tableB)
 	return convergedTable
 end
 
+-- function that calculates current vehicle speed in km/h
+function GetSpeed(vehicle)
+	local retVal = 0
+	local linearVelocity
+	if vehicle then
+		linearVelocity = vehicle:GetLinearVelocity()
+		retVal = math.floor((math.abs(linearVelocity.x) + math.abs(linearVelocity.y) + math.abs(linearVelocity.z))*2.675)
+	end
+
+	return retVal
+end
+
 -- the function that sets up the parameters of a chosen mission at the hq map
 -- gunsAndGadgets is the guns and gadgets that will be added to the shop in hq
 function MissionSetup(missionTime, missionSide, missionName, missionMap, playerVehicle, friendlies, gunsAndGadgets)

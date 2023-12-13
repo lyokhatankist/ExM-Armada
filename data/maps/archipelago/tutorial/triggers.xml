@@ -797,17 +797,9 @@
 			if CheckUnits(TargetEnemies, "dead", 3) then
 				UpdateUnitsStats()
 
-				local CDD03 = getObj("CDDestroyer03")
-				if CDD03 then
-					CDD03:_AdjustBehaviour ()
-				end
-
-				local CDD03a = getObj("CDDestroyer03_vehicle_0")
 				if CDD03a then
 					CDD03a:SetExternalPathByName("CDDestroyer03_Waypoint2")
 					CDD03a:SetCanBeDistractedFromMoving(false)
-				end
-
 				CompleteQuest("CD_Tutorial_DestroyBoats")
 
 				local b = SpawnMessageBox ("105")
@@ -840,7 +832,33 @@
 					CITTB01:StackClose()
 				end
 
+				TActivate("EnojadoRetreat")
 				TActivate("GiveGuns")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="EnojadoRetreat" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CDD03 = getObj("CDDestroyer03")
+			local CDD03a = getObj("CDDestroyer03_vehicle_0")
+			println("speed check")
+			if 3 > GetSpeed(CDD03a) then
+				println("speed check passed")
+				if CDD03 then
+					CDD03:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+					CDD03:_AdjustBehaviour ()
+				end
+
+				if CDD03a then
+					CDD03a:SetCustomControlEnabled(true)
+					CDD03a:SetCanBeDistractedFromMoving(false)
+					CDD03a:SetExternalPathByName("CDDestroyer03_Waypoint2")
+				end
 
 				trigger:Deactivate()
 			end
