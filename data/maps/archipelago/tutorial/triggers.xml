@@ -390,11 +390,19 @@
 			if CDHC01a then
 				CDHC01a:SetRotation(Quaternion(0.0000, -0.9914, 0.0000, -0.1305))
 				CDHC01a:SetCruisingSpeed(7)
+				CDHC01a:SetCustomControlEnabled(1)
+				CDHC01a:SetCustomControlWeapons(1)
+				CDHC01a:SetCustomControlWeaponsTarget(CVector(5519, 340, 1204))
+				CDHC01a:FireFromWeaponCustom(1, CVector(5519, 340, 1204))
 			end
 
 			if CDHC02a then
 				CDHC02a:SetRotation(Quaternion(0.0000, -0.8788, 0.0000, -0.4772))
 				CDHC02a:SetCruisingSpeed(7)
+				CDHC02a:SetCustomControlEnabled(1)
+				CDHC02a:SetCustomControlWeapons(1)
+				CDHC02a:SetCustomControlWeaponsTarget(CVector(5300, 370, 1901))
+				CDHC02a:FireFromWeaponCustom(1, CVector(5300, 370, 1901))
 			end
 
 			if CDD02a then
@@ -590,6 +598,7 @@
 				TActivate("DestroyerDestroyed")
 				TActivate("CruiserDestroyed")
 				TActivate("FormationSpeedMaintainer")
+				TActivate("CinematicArtillery")
 
 				b = SpawnMessageBox ("102")
 				if b == 1 then
@@ -654,6 +663,56 @@
 				CITTB01a:SetCruisingSpeed(8)
 			end
 
+		</script>
+	</trigger>
+
+	<trigger Name="CinematicArtillery" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>	
+			local CDHC01a = GetEntityByName("CDHeavyCruiser01_vehicle_0")
+			if CDHC01a then
+				CDHC01a:SetCustomControlEnabled(1)
+				CDHC01a:SetCustomControlWeapons(1)
+				CDHC01a:SetCustomControlWeaponsTarget(CVector(5519, 340, 1204))
+				CDHC01a:FireFromWeaponCustom(1, CVector(5519, 340, 1204))
+			end
+
+			local CDHC02a = GetEntityByName("CDHeavyCruiser02_vehicle_0")
+			if CDHC02a then
+				CDHC02a:SetCustomControlEnabled(1)
+				CDHC02a:SetCustomControlWeapons(1)
+				CDHC02a:SetCustomControlWeaponsTarget(CVector(5300, 370, 1901))
+				CDHC02a:FireFromWeaponCustom(1, CVector(5300, 370, 1901))
+			end
+
+			TActivate("CinematicArtillery_End")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CinematicArtillery_End" active="0">
+	<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>	
+			local CDHC01a = GetEntityByName("CDHeavyCruiser01_vehicle_0")
+			if CDHC01a then
+				CDHC01a:SetCustomControlWeaponsTarget(CVector(5499, 340, 1224))
+				CDHC01a:FireFromWeaponCustom(1, CVector(5499, 340, 1224))
+				CDHC01a:SetCustomControlWeapons(0)
+				CDHC01a:SetCustomControlEnabled(0)
+			end
+
+			local CDHC02a = GetEntityByName("CDHeavyCruiser02_vehicle_0")
+			if CDHC02a then
+				CDHC02a:SetCustomControlWeaponsTarget(CVector(5290, 370, 1891))
+				CDHC02a:FireFromWeaponCustom(1, CVector(5290, 370, 1891))
+				CDHC02a:SetCustomControlWeapons(0)
+				CDHC02a:SetCustomControlEnabled(0)
+			end
+
+			TActivate("CinematicArtillery")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -867,14 +926,30 @@
 
 				CompleteQuest("CD_Tutorial_DestroyCruiser")
 
+				TDeactivate("CinematicArtillery")
+				TDeactivate("CinematicArtillery_End")
+
+				local CDD01a = getObj("CDDestroyer01_vehicle_0")
 				local CDHC01a = getObj("CDHeavyCruiser01_vehicle_0")
 				local CDHC02a = getObj("CDHeavyCruiser02_vehicle_0")
 
+				if CDD01a then
+					CDD01a:SetExternalPathByName("CDDestroyer01_Waypoint1")
+				end
+
 				if CDHC01a then
+					CDHC01a:SetCustomControlWeaponsTarget(CVector(5399, 340, 1224))
+					CDHC01a:FireFromWeaponCustom(1, CVector(5399, 340, 1224))
+					CDHC01a:SetCustomControlWeapons(0)
+					CDHC01a:SetCustomControlEnabled(0)
 					CDHC01a:SetExternalPathByName("CDHeavyCruiser01_Waypoint1")
 				end
 
 				if CDHC02a then
+					CDHC02a:SetCustomControlWeaponsTarget(CVector(5190, 370, 1891))
+					CDHC02a:FireFromWeaponCustom(1, CVector(5190, 370, 1891))
+					CDHC02a:SetCustomControlWeapons(0)
+					CDHC02a:SetCustomControlEnabled(0)
 					CDHC02a:SetExternalPathByName("CDHeavyCruiser02_Waypoint1")
 				end
 
