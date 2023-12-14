@@ -38,7 +38,7 @@
 			enemy[6] = {"CITOldCruiser01_vehicle_0", 978, 978, 4892, 0}
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 272) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 256) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 50) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 50) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 1600)
@@ -520,11 +520,12 @@
 				Plf:SetExternalPathByName("StartPath_Player")
 			end
 			local PlfID = GetPlayerVehicleId()
-			FlyLinked( "Tutorial_Start1", PlfID, 21, 0, 1, PlfID )
+			FlyLinked( "Tutorial_Start1", PlfID, 21+12, 0, 1, PlfID )
 			StartCinematic()
 
 			AddCinematicMessage( 1, 2)
 			AddCinematicMessage( 2, 1)
+			AddCinematicMessage( 3, 1)
 
 			TActivate("MissionStart_End")
 			
@@ -608,6 +609,8 @@
 					TActivate("PlayerDamaged")
 				end
 			end
+
+			SetCameraBehindPlayerVehicle()
 
 			trigger:Deactivate()
 		</script>
@@ -797,9 +800,6 @@
 			if CheckUnits(TargetEnemies, "dead", 3) then
 				UpdateUnitsStats()
 
-				if CDD03a then
-					CDD03a:SetExternalPathByName("CDDestroyer03_Waypoint2")
-					CDD03a:SetCanBeDistractedFromMoving(false)
 				CompleteQuest("CD_Tutorial_DestroyBoats")
 
 				local b = SpawnMessageBox ("105")

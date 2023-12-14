@@ -912,6 +912,11 @@
 		value="610-ìì ÓÌ-5" />
 
 	<Item
+		id="dead_destroyerCDTorpedo01"
+		locForm="0"
+		value="610-ìì ÓÌ-5" />
+
+	<Item
 		id="destroyerCD127Armanent"
 		locForm="0"
 		value="Îðóäèÿ 127-ìì" />
