@@ -2577,7 +2577,7 @@
 	</Node>
 	<Node name="ET_PS_VEH_EXP_WHEEL1_SMALL" class="SgNode">
 		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL1_SMOKE1" psNumEmitterMesh="-1" />
-		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+		<!-- <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/> -->
 	</Node>
 	<Node name="ET_PS_VEH_EXP_WHEEL_MED" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
@@ -2587,7 +2587,7 @@
 	</Node>
 	<Node name="ET_PS_VEH_EXP_WHEEL1_MED" class="SgNode">
 		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED1_SMOKE1" psNumEmitterMesh="-1" />
-		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+		<!-- <Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/> -->
 	</Node>
 	<Node name="ET_PS_VEH_EXP_WHEEL_BIG" class="SgNode">
 		<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN1" psNumEmitterMesh="-1" />

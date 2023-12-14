@@ -528,7 +528,60 @@
 			AddCinematicMessage( 3, 1)
 
 			TActivate("MissionStart_End")
-			
+
+			local fireEffectsList = { "ET_PS_VEH_EXP_WHEEL_BIG",
+								"ET_PS_VEH_EXP_WHEEL_MED",
+								"ET_PS_VEH_EXP_WHEEL_SMALL",
+								"ET_PS_VEH_EXP_WHEEL1_BIG",
+								"ET_PS_VEH_EXP_WHEEL1_MED",
+								"ET_PS_VEH_EXP_WHEEL1_SMALL" }
+
+			local fireEffectsCoords = { CVector(5317, 276, 1207),
+										CVector(5319, 276, 1210),
+										CVector(5305, 279, 1212),		
+										CVector(5287, 282, 1214),		
+										CVector(5283, 282, 1214),		
+										CVector(5279, 284, 1204),		
+										CVector(5278, 284, 1206),
+										CVector(5273, 283, 1222),
+										CVector(5270, 287, 1220),
+										CVector(5272, 285, 1217),
+										CVector(5270, 285, 1213),
+										CVector(5289, 283, 1244),
+										CVector(5284, 281, 1244),
+										CVector(5260, 285, 1227),
+										CVector(5257, 285, 1230),
+										CVector(5259, 283, 1232),
+										CVector(5249, 284, 1229),
+										CVector(5253, 283, 1245),
+										CVector(5254, 283, 1250),
+										CVector(5248, 284, 1249),
+										CVector(5275, 284, 1260),
+										CVector(5278, 282, 1266),
+										CVector(5271, 283, 1274),
+										CVector(5244, 285, 1258),
+										CVector(5249, 285, 1284),
+										CVector(5247, 286, 1286),
+										CVector(5240, 285, 1285),
+										CVector(5228, 285, 1261),
+										CVector(5223, 286, 1255),
+										CVector(5210, 283, 1271),
+										CVector(5207, 284, 1254),
+										CVector(5213, 285, 1300),
+										CVector(5203, 285, 1302),
+										CVector(5185, 284, 1274),
+										CVector(5185, 283, 1281),
+										CVector(5170, 283, 1312),
+										CVector(5165, 283, 1282),
+										CVector(5164, 284, 1277),
+										CVector(5145, 282, 1309),
+										CVector(5148, 284, 1284),
+										CVector(5120, 275, 1307) }
+
+			for i=1, getn(fireEffectsCoords) do
+				CreateNewSgNodeObject(fireEffectsList[exrandom(getn(fireEffectsList))], "FireEffect"..i, -1, -1, fireEffectsCoords[i], Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
