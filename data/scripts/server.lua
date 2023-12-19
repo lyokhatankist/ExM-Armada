@@ -1407,6 +1407,13 @@ end
 
 -- function that converts a table into a string
 -- useful for storing tables in SetVar variables
+-- modo is used for storing tables of strings inside the table
+-- modo 1 turns double quotations (") into singular ones (')
+-- modo 2 turns double quotations (") into paragraph signs (¶)
+-- modo 2 is useful for actually storing tables of strings inside the table in SetVar variables
+-- because paragraph signs are automatically converted into single quotation marks by StringToTable
+-- and if you use single quotations for that, your dynamicscene will get fucked if you save the game
+-- so use modo 2, you have been warned
 function TableToString(table, modo)
 	local endString = "{"
 	local tableLength
@@ -1414,8 +1421,10 @@ function TableToString(table, modo)
 		tableLength = getn(table)
 		for i=1, tableLength do
 			if type(table[i])=="string" then
-				if modo then
+				if modo==1 then
 					endString = endString.."'"..table[i].."'"
+				elseif modo==2 then
+					endString = endString.."¶"..table[i].."¶"
 				else
 					endString = endString..'"'..table[i]..'"'
 				end
@@ -1439,8 +1448,9 @@ end
 
 -- function that converts a table presented as string into a real table
 -- useful for getting the tables out of SetVar variables
-function StringToTable(string)
-	local endTable = string
+function StringToTable(strVal)
+	local endTable = strVal
+	endTable = string.gsub(endTable, "¶", "'")
 	local funcTableCode = loadstring("local t = "..endTable.."; return t")
 	endTable = funcTableCode()
 

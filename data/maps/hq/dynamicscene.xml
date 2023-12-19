@@ -90,4 +90,8 @@
 
 		<Parts />
 	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
 </DynamicScene>
