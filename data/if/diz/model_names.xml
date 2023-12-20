@@ -912,6 +912,11 @@
 		value="610-мм УМ-5" />
 
 	<Item
+		id="dead_destroyerCDTorpedo01"
+		locForm="0"
+		value="610-мм УМ-5" />
+
+	<Item
 		id="destroyerCD127Armanent"
 		locForm="0"
 		value="Орудия 127-мм" />
@@ -1440,6 +1445,62 @@
 		id="HQVehicle01"
 		locForm="0"
 		value="Н/Д" />
+
+<!-- Tutorial -->
+	<Item
+		id="Tutorial_Player01"
+		locForm="0"
+		value="«Касадо» (э.м.т. «Альбедо»)" />
+
+	<Item
+		id="Tutorial_DestroyerCD01"
+		locForm="0"
+		value="«Солидо»" />
+
+	<Item
+		id="Tutorial_HCruiserCD01"
+		locForm="0"
+		value="«Валенсия»" />
+
+	<Item
+		id="Tutorial_HCruiserCD02"
+		locForm="0"
+		value="«Иберия»" />
+
+	<Item
+		id="Tutorial_DestroyerCD02"
+		locForm="0"
+		value="«Мальвадо»" />
+
+	<Item
+		id="Tutorial_DestroyerCD03"
+		locForm="0"
+		value="«Энохадо»" />
+
+	<Item
+		id="Tutorial_HCruiserCD03"
+		locForm="0"
+		value="«Вальдивия»" />
+
+	<Item
+		id="Tutorial_SmlboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="Tutorial_DestroyerCIT01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="Tutorial_FastboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="Tutorial_OCruiserCIT01"
+		locForm="0"
+		value="Крейсер" />
 
 <!-- CIT PH01 Counterattack -->
 	<Item

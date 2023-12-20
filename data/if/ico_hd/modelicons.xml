@@ -17,6 +17,7 @@
 	<Item id="mun_single138CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_single138CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="destroyerCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+	<Item id="dead_destroyerCDTorpedo01"	   file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_twin127CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_twin127CD02"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain02a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_twin135CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01b.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="PendulumPath">
+		<Point
+			coord="35 45" />
+
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
+	</Path>
+
+	<Path
+		Name="StartPath_Player">
+		<Point
+			coord="6529 1142" />
+		
+		<Point
+			coord="6385 1286" />
+	</Path>
+
+    <Path
+		Name="StartPath_CDDestroyer01">		
+		<Point
+			coord="6411 944" />
+
+		<Point
+			coord="6071 1211" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer01_Waypoint1">		
+		<Point
+			coord="6047 1252" />
+	</Path>
+
+	<Path
+		Name="CDHeavyCruiser01_Waypoint1">		
+		<Point
+			coord="6403 143" />
+	</Path>
+
+	<Path
+		Name="CDHeavyCruiser02_Waypoint1">		
+		<Point
+			coord="7824 215" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer02_Waypoint1">		
+		<Point
+			coord="7993 348" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer03_Waypoint1">		
+		<Point
+			coord="5450 2098" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer03_Waypoint2">		
+		<Point
+			coord="7480 255" />
+	</Path>
+
+	<Path
+		Name="CDHeavyCruiser03_Waypoint1">		
+		<Point
+			coord="7779 475" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_Waypoint1">		
+		<Point
+			coord="5538 2261" />
+	</Path>
+</Paths>

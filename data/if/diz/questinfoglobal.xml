@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <QuestInfoResource>
 	<QuestInfo
+		questName="CD_Tutorial"
+		briefDiz="Крещение огнём"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyBoats"
+		briefDiz="Уничтожить боевые катера СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			coordinate="5525.000 255.000 2282.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyCruiser"
+		briefDiz="Уничтожить крейсер СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITOldCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyDestroyer"
+		briefDiz="Уничтожить эсминец СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITDestroyer01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_Retreat"
+		briefDiz="Отступить из района боевых действий"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="CIT_PH01"
 		briefDiz="Контратака"
-		isMainQuest="0" />
+		isMainQuest="1" />
 
 	<QuestInfo
 		questName="CIT_PH01_DestroyTargets"
 		briefDiz="Уничтожить противника у острова Кейна"
 		fullDiz="Противник занял позиции на одном из юговосточных островов Большого риджинского архипелага. Силы противника составляют несколько бронемашин и боевых катеров. Необходимо выбить противника с захваченного острова."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="cit_ph01_counterattack"
 			coordinate="4591.000 279.000 1543.000" />
@@ -19,7 +60,7 @@
 		questName="CIT_PH01_Retreat"
 		briefDiz="Вернуться к точке збора"
 		fullDiz="Успешно отступить после выполнения задания."
-		isMainQuest="0">
+		isMainQuest="1">
 		<Map
 			name="cit_ph01_counterattack"
 			targetObjName="MissionStartLoc" />

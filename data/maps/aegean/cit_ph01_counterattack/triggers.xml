@@ -3,7 +3,7 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			g_ObjCont:SetGameTime( 7, 23, 25, 5, 2265 )
+			g_ObjCont:SetGameTime( gMissionTime[1], gMissionTime[2], gMissionTime[3], gMissionTime[4], gMissionTime[5] )
 			
 			SetWeather(0)
 
@@ -213,6 +213,47 @@
 			TActivate("Retreat")
 
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Retreat" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
+			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+
+			UpdateUnitsStats()
+
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				trigger:Deactivate()
+
+				if not(IsQuestTaken("CIT_PH01_Retreat")) then
+					FailQuest("CIT_PH01")
+				else
+					CompleteQuest("CIT_PH01_Retreat")
+				end
+
+				if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
+					GiveScore(21000)
+					println("additional score given")
+				end
+
+				UpdateUnitsStats()
+
+				CalcMissionStats()
+
+				PassToMap("hq", "Headquarters_enter", 90, false )
+			else
+				trigger:Deactivate()
+
+				TActivate("RetreatStart")
+			end
+			
 		</script>
 	</trigger>
 
@@ -775,6 +816,8 @@
 
 						println("mission end 2")
 
+						UpdateUnitsStats()
+
 						CalcMissionStats()
 
 						println("mission end 3")
@@ -841,45 +884,6 @@
 				trigger:Deactivate()
 			end
 
-		</script>
-	</trigger>
-
-	<trigger Name="Retreat" active="0">
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
-		<script>
-			local Enemies = StringToTable(GetVar("Enemies").AsString)
-			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
-			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
-
-			UpdateUnitsStats()
-
-			local b = SpawnMessageBox( "1000" )
-			if b == 1 then
-				trigger:Deactivate()
-
-				if not(IsQuestTaken("CIT_PH01_Retreat")) then
-					FailQuest("CIT_PH01")
-				else
-					CompleteQuest("CIT_PH01_Retreat")
-				end
-
-				if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
-					GiveScore(21000)
-					println("additional score given")
-				end
-
-				CalcMissionStats()
-
-				PassToMap("hq", "Headquarters_enter", 90, false )
-			else
-				trigger:Deactivate()
-
-				TActivate("RetreatStart")
-			end
-			
 		</script>
 	</trigger>
 </triggers>

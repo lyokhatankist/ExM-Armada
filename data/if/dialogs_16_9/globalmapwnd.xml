@@ -201,6 +201,75 @@
 			<Animations/>
 		</Node>
 
+		<Node
+			name="hq_ico"
+			class="ImageWnd"
+			org="1024.000 768.000 1.000 1.000"
+			style="512"
+			order="1"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="tutorial_ico"
+			class="ImageWnd"
+			org="1024.000 768.000 1.000 1.000"
+			style="512"
+			order="1"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
+		<Node
+			name="cit_ph01_counterattack_ico"
+			class="ImageWnd"
+			org="1024.000 768.000 1.000 1.000"
+			style="512"
+			order="1"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations/>
+		</Node>
+
 <!--
 		<Node
 			name="r3m1_ico"

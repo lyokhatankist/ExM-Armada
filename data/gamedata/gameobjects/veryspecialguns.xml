@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prototypes>
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "dead_destroyerCDTorpedo01"
+		ModelFile		= "destroyerCDTorpedo01"
+		ResourceType	= "DESTROYERCDTORPEDO_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "torpedo03"
+		ExplosionType		= "BIGBLAST_AP"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "torp610mmBlastWave"
+
+		Damage			= "1100"
+		FiringRate		= "0"
+		ChargeSize     	= "0"
+		RechargingTime	= "60"
+
+		FiringRange		= "1000"
+		ActionDist		= "2000"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "0"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "12"
+		Price				= "53408" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "dead_twin127CD01"
+		ModelFile		= "twin127CD01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "127mmCDshell"
+		ExplosionType		= "SMLBLAST_HE"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "136"
+		BlastWavePrototype	= "127mmBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "650"
+		ActionDist		= "700"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "0"
+		Durability		= "8"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "dead_single130CIT01"
+		ModelFile		= "single130CIT01"
+		ResourceType	= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "130mmCITshell"
+		ExplosionType		= "SMLBLAST_HE"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "133"
+		BlastWavePrototype	= "130mmBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "700"
+		ActionDist		= "750"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "0"
+		Durability		= "8"
+		Price			= "13310" />
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "dead_twin152CIT01"
+		ModelFile		= "twin152CIT01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_GUN"		
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "152mmCITshell"
+		ExplosionType		= "SMLBLAST_HE"
+        FiringType			= "Artillery"
+		RecoilForce			= "300"
+
+		DamageType			= "ENERGY"
+		InitialVelocity		= "122"
+		BlastWavePrototype	= "152mmBlastWave"
+
+		Damage			= "0"
+		FiringRate		= "0"
+		ChargeSize		= "0"
+		RechargingTime	= "45"
+
+		FiringRange		= "850"
+		ActionDist		= "900"	
+		GroupingAngle	= "2.5"
+
+		TurningSpeed	= "0"
+		Durability		= "8"
+		Price			= "13310" />
+</Prototypes>

@@ -1407,14 +1407,27 @@ end
 
 -- function that converts a table into a string
 -- useful for storing tables in SetVar variables
-function TableToString(table)
+-- modo is used for storing tables of strings inside the table
+-- modo 1 turns double quotations (") into singular ones (')
+-- modo 2 turns double quotations (") into paragraph signs (¶)
+-- modo 2 is useful for actually storing tables of strings inside the table in SetVar variables
+-- because paragraph signs are automatically converted into single quotation marks by StringToTable
+-- and if you use single quotations for that, your dynamicscene will get fucked if you save the game
+-- so use modo 2, you have been warned
+function TableToString(table, modo)
 	local endString = "{"
 	local tableLength
 	if type(table)=="table" then
 		tableLength = getn(table)
 		for i=1, tableLength do
 			if type(table[i])=="string" then
-				endString = endString..'"'..table[i]..'"'
+				if modo==1 then
+					endString = endString.."'"..table[i].."'"
+				elseif modo==2 then
+					endString = endString.."¶"..table[i].."¶"
+				else
+					endString = endString..'"'..table[i]..'"'
+				end
 			else
 				endString = endString..table[i]
 			end
@@ -1435,9 +1448,10 @@ end
 
 -- function that converts a table presented as string into a real table
 -- useful for getting the tables out of SetVar variables
-function StringToTable(string)
-	local endTable = string
-	funcTableCode = loadstring("local t = "..endTable.."; return t")
+function StringToTable(strVal)
+	local endTable = strVal
+	endTable = string.gsub(endTable, "¶", "'")
+	local funcTableCode = loadstring("local t = "..endTable.."; return t")
 	endTable = funcTableCode()
 
 	return endTable
@@ -1462,8 +1476,23 @@ function ConvergeStringTables(tableA, tableB)
 	return convergedTable
 end
 
+-- function that calculates current vehicle speed in km/h
+function GetSpeed(vehicle)
+	local retVal = 0
+	local linearVelocity
+	if vehicle then
+		linearVelocity = vehicle:GetLinearVelocity()
+		retVal = math.floor((math.abs(linearVelocity.x) + math.abs(linearVelocity.y) + math.abs(linearVelocity.z))*2.675)
+	end
+
+	return retVal
+end
+
 -- the function that sets up the parameters of a chosen mission at the hq map
-function MissionSetup(missionName, missionMap, playerVehicle, friendlies)
+-- gunsAndGadgets is the guns and gadgets that will be added to the shop in hq
+function MissionSetup(missionTime, missionSide, missionName, missionMap, playerVehicle, friendlies, gunsAndGadgets)
+	g_ObjCont:SetGameTime( missionTime[1], missionTime[2], missionTime[3], missionTime[4], missionTime[5] )
+	ChangeSide(missionSide)
 	local plPos = GetPlayerVehicle():GetPosition()
 	AddPlayerVehicle(playerVehicle)
 	GetPlayerVehicle():SetGamePositionOnGround(plPos)
@@ -1474,6 +1503,16 @@ function MissionSetup(missionName, missionMap, playerVehicle, friendlies)
 	if friendlies then
 		gFriendlies = friendlies
 	end
+
+	if gunsAndGadgets then
+		for i=1, getn(gunsAndGadgets) do
+			getObj("Headquarters_Shop"):GetRepositoryByTypename("GunsAndGadgets"):AddItems(gunsAndGadgets[i], 1)
+		end
+
+		SetVar("GunsAndGadgets", TableToString(gunsAndGadgets))
+	end
+
+	SetVar('OnMission', 1)
 end
 
 -- function that changes tolerances to the player according to the specified side of the conflict
@@ -1675,13 +1714,19 @@ function CheckDistBetweenUnits(unit, units, checkT)
 	end
 
 	local dist
+	local aliveUnit2Names
 
 	if type(unit2Names) == "table" then
 		if checkType == "least" then
 			retVal = 8192
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+				else
+					dist = 16384
+				end
+
 				if retVal > dist then
 					retVal = dist
 				end
@@ -1689,21 +1734,35 @@ function CheckDistBetweenUnits(unit, units, checkT)
 		elseif checkType == "most" then
 			retVal = 0
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+				else
+					dist = 0
+				end
+
 				if retVal < dist then
 					retVal = dist
 				end
 			end
 		else
 			retVal = 0
+			aliveUnit2Names = getn(unit2Names)
 			for i=1, getn(unit2Names) do
-				unit2Name = getObj(unit2Names[i])
-				dist = Dist(unit1Name, unit2Name)
-				retVal = retVal + dist
+				if CheckUnits(unit2Names[i]) then
+					unit2Name = getObj(unit2Names[i])
+					dist = Dist(unit1Name, unit2Name)
+					retVal = retVal + dist
+				else
+					aliveUnit2Names = aliveUnit2Names - 1
+				end
 			end
 
-			retVal = retVal / getn(unit2Names)
+			if aliveUnit2Names ~= 0 then
+				retVal = retVal / aliveUnit2Names
+			else
+				retVal = 16384
+			end
 		end
 	else
 		unit2Name = getObj(unit2Name)
@@ -1739,21 +1798,21 @@ function UpdateUnitsStats(plDead)
 				currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
 				if currentHealth < friendliesEndHealth[i] then
 					friendliesEndHealth[i] = currentHealth
-					-- println("friendly numba "..i.." updated")
+					println("friendly numba "..i.." updated")
 				end
-				-- println("friendly numba "..i.." checked")
+				println("friendly numba "..i.." checked")
 			else
 				friendliesEndHealth[i] = 0
 			end
 		end
 	else
-		-- println("there are no friendlies on this mission")
+		println("there are no friendlies on this mission")
 	end
 
 	local retVal = TableToString(friendliesEndHealth)
-	-- println("retVal initialiased")
+	println("retVal initialiased")
 	SetVar("FriendliesEndHealth", retVal)
-	-- println("retVal returned")
+	println("retVal returned")
 	
 	local enemiesStart = StringToTable(GetVar("Enemies").AsString)
 	local enemiesStartHealth = StringToTable(GetVar("EnemiesHealth").AsString)
@@ -1774,15 +1833,15 @@ function UpdateUnitsStats(plDead)
 				currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
 				if currentHealth < enemiesEndHealth[i] then
 					enemiesEndHealth[i] = currentHealth
-					-- println("enemy numba "..i.." updated")
+					println("enemy numba "..i.." updated")
 				end
-				-- println("enemy numba "..i.." checked")
+				println("enemy numba "..i.." checked")
 			else
 				enemiesEndHealth[i] = 0
 			end
 		end
 	else
-		-- println("there are no enemies on this mission (why though)")
+		println("there are no enemies on this mission (why though)")
 	end
 
 	SetVar("EnemiesEndHealth", TableToString(enemiesEndHealth))
@@ -1799,16 +1858,16 @@ function UpdateUnitsStats(plDead)
 			currentHealth = playerVehicle:GetHealth() * healthMultiplier
 			if currentHealth < playerEndHealth then
 				playerEndHealth = currentHealth
-				-- println("player updated")
+				println("player updated")
 			end
-			-- println("player checked")
+			println("player checked")
 		else
 			playerEndHealth = 0
-			-- println("player dead")
+			println("player dead")
 		end
 	else
 		playerEndHealth = 0
-		-- println("player dead")
+		println("player dead")
 	end
 
 	SetVar("PlayerEndHealth", playerEndHealth)
@@ -1885,7 +1944,7 @@ function CalcMissionStats(plDead)
 	if isTableEmpty ~= nil then
 		for i=1, getn(friendliesStart) do
 			println(friendliesStart[i])
-			if getObj(friendliesStart[i]) then
+			if CheckUnits(friendliesStart[i]) then
 				friendliesEnd[p] = friendliesStart[i]
 				friendliesEndTypes[p] = friendliesStartTypes[i]
 				friendliesEndPrototypes[p] = friendliesStartPrototypes[i]
@@ -1937,7 +1996,7 @@ function CalcMissionStats(plDead)
 --	d = 1
 	if isTableEmpty ~= nil then
 		for i=1, getn(enemiesStart) do
-			if getObj(enemiesStart[i]) then
+			if CheckUnits(enemiesStart[i]) then
 				enemiesEnd[p] = enemiesStart[i]
 				enemiesEndFirepower[p] = enemiesStartFirepower[i]
 				enemiesEndManeuverability[p] = enemiesStartManeuverability[i]
@@ -2026,8 +2085,8 @@ function CalcMissionStats(plDead)
 
 	println("=================")
 	println("=================")
-	println("Enemies Start "..EnemiesStart)
-	println("Enemies End "..EnemiesEnd)
+	println("Enemies Start "..TableToString(enemiesStart))
+	println("Enemies End "..TableToString(enemiesEnd))
 	println("=================")
 	println("=================")
 
@@ -2466,7 +2525,34 @@ function ShowMissionStats()
 			SetVar("CDTotalManpowerDestroyed", (GetVar("CDTotalManpowerDestroyed").AsInt + gEnemiesLosses))
 			SetVar("CDTotalEquipmentDestroyed", (GetVar("CDTotalEquipmentDestroyed").AsInt + gEnemiesEquipmentLosses))
 		end
+		
+		local convergedTable
+		local isTableEmpty = next(gSurvivingFriendliesInformation)
+		if isTableEmpty ~= nil then
+			for i=1, getn(gSurvivingFriendliesInformation) do
+				println(i)
+				if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
+					convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
+					SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
+				else
+					SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+				end
+			end
+		end
 
 		gMissionCompleted = nil
+		gCompletionPercentage = nil
+		gTotalObjectives = nil
+		gObjectivesCompleted = nil
+		gMissionScore = nil
+		gMissionReward = nil
+		gFriendliesLossesPercentage = nil
+		gFriendliesLosses = nil
+		gFriendliesEquipmentLosses = nil
+		gFriendliesLostNames = nil
+		gSurvivingFriendliesInformation = nil
+		gEnemiesLossesPercentage = nil
+		gEnemiesLosses = nil
+		gEnemiesEquipmentLosses = nil
 	end
 end
