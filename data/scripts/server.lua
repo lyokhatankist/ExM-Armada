@@ -2525,7 +2525,34 @@ function ShowMissionStats()
 			SetVar("CDTotalManpowerDestroyed", (GetVar("CDTotalManpowerDestroyed").AsInt + gEnemiesLosses))
 			SetVar("CDTotalEquipmentDestroyed", (GetVar("CDTotalEquipmentDestroyed").AsInt + gEnemiesEquipmentLosses))
 		end
+		
+		local convergedTable
+		local isTableEmpty = next(gSurvivingFriendliesInformation)
+		if isTableEmpty ~= nil then
+			for i=1, getn(gSurvivingFriendliesInformation) do
+				println(i)
+				if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
+					convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
+					SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
+				else
+					SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+				end
+			end
+		end
 
 		gMissionCompleted = nil
+		gCompletionPercentage = nil
+		gTotalObjectives = nil
+		gObjectivesCompleted = nil
+		gMissionScore = nil
+		gMissionReward = nil
+		gFriendliesLossesPercentage = nil
+		gFriendliesLosses = nil
+		gFriendliesEquipmentLosses = nil
+		gFriendliesLostNames = nil
+		gSurvivingFriendliesInformation = nil
+		gEnemiesLossesPercentage = nil
+		gEnemiesLosses = nil
+		gEnemiesEquipmentLosses = nil
 	end
 end
