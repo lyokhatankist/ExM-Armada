@@ -74,7 +74,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "20.0" 			
 			MaxHealth		= "125" 
-			MaxFuel			= "1000"
+			MaxFuel			= "5"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -94,7 +94,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "30.0" 			
 			MaxHealth		= "200" 
-			MaxFuel			= "1000"
+			MaxFuel			= "9"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -114,7 +114,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "40.0" 			
 			MaxHealth		= "300" 
-			MaxFuel			= "1000"
+			MaxFuel			= "17"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -134,7 +134,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "550.0" 			
 			MaxHealth		= "1200" 
-			MaxFuel			= "1000"
+			MaxFuel			= "900"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -154,7 +154,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "750.0" 			
 			MaxHealth		= "1600" 
-			MaxFuel			= "1000"
+			MaxFuel			= "1500"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -174,7 +174,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "625.0" 			
 			MaxHealth		= "2000" 
-			MaxFuel			= "1000"
+			MaxFuel			= "2000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -194,7 +194,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "1300.0" 			
 			MaxHealth		= "4000" 
-			MaxFuel			= "1000"
+			MaxFuel			= "7600"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -214,7 +214,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "1500.0" 			
 			MaxHealth		= "5500" 
-			MaxFuel			= "1000"
+			MaxFuel			= "7600"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -234,7 +234,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "1600.0" 			
 			MaxHealth		= "9000" 
-			MaxFuel			= "1000"
+			MaxFuel			= "21600"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -254,7 +254,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "1600.0" 			
 			MaxHealth		= "6000" 
-			MaxFuel			= "1000"
+			MaxFuel			= "19000"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -274,7 +274,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			NodeScale		= "1 1 1"
 			Mass			= "800.0" 			
 			MaxHealth		= "1500" 
-			MaxFuel			= "1000"
+			MaxFuel			= "5150"
 			
 			BrakingSound	= "ET_S_BRAKE01"
 			PneumoSound		= "ET_S_PNEUMO_BRAKE01"
@@ -399,7 +399,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "SMLBOATCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.005"
+			FuelConsumption		= "0.015"
 
 			Mass						= "5.0"
 			Durability					= "5"
@@ -431,7 +431,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "SMLBOATCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.01"
+			FuelConsumption		= "0.017"
 
 			Mass						= "5.0"
 			Durability					= "5"
@@ -463,7 +463,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "FASTBOATCIT_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.001"
+			FuelConsumption		= "0.028"
 
 			Mass						= "10.0"
 			Durability					= "20"
@@ -495,7 +495,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "DESTROYERCIT_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.035"
+			FuelConsumption		= "0.045"
 
 			Mass						= "100.0"
 			Durability					= "0"
@@ -623,7 +623,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "OCRUISERCIT_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.05"
+			FuelConsumption		= "0.085"
 
 			Mass						= "175.0"
 			Durability					= "0"
@@ -687,7 +687,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "HCRUISERCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.05"
+			FuelConsumption		= "0.075"
 
 			Mass						= "275.0"
 			Durability					= "0"
@@ -719,7 +719,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "BATTLESHIPCIT_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.05"
+			FuelConsumption		= "0.059"
 
 			Mass						= "650.0"
 			Durability					= "0"
@@ -751,7 +751,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "BATTLESHIPCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.05"
+			FuelConsumption		= "0.066"
 
 			Mass						= "375.0"
 			Durability					= "0"
@@ -783,7 +783,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			ResourceType				= "MERCHANTCD_CABIN"
 			NodeScale					= "1 1 1"
 
-			FuelConsumption		= "0.05"
+			FuelConsumption		= "0.004"
 
 			Mass						= "175.0"
 			Durability					= "0"
