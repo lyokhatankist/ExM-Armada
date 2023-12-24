@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <QuestInfoResource>
 	<QuestInfo
+		questName="CD_PH01"
+		briefDiz="Гарнизон"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyCruisers"
+		briefDiz="Уничтожить вражескую ударную группу"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyDestroyers"
+		briefDiz="Уничтожить вражеские эсминцы"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyTurrets"
+		briefDiz="Уничтожить вражеские укрепления"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="CD_PH01_Escort"
+		briefDiz="Сопроводить сухогрузы"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH01_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1" />
+
+	<QuestInfo
 		questName="CD_Tutorial"
 		briefDiz="Крещение огнём"
 		isMainQuest="1" />
