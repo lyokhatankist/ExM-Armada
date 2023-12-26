@@ -1552,4 +1552,95 @@
 		id="CITPH01_DestroyerCD01"
 		locForm="0"
 		value="Эсминец" />
+
+<!-- CD PH01 Garrison -->
+	<Item
+		id="CDPH01_Player01"
+		locForm="0"
+		value="«Абогадо» (э.м.т. «Альбедо»)" />
+
+	<Item
+		id="CITPH01_DestroyerCD01"
+		locForm="0"
+		value="«Сеута»" />
+
+	<Item
+		id="CITPH01_DestroyerCD02"
+		locForm="0"
+		value="«Мелилья»" />
+
+	<Item
+		id="CDPH01_MerchantCD01"
+		locForm="0"
+		value="«Хуан Эль-Уэво»" />
+
+	<Item
+		id="CDPH01_MerchantCD02"
+		locForm="0"
+		value="«Августин Брейн»" />
+
+	<Item
+		id="CDPH01_SmlboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CDPH01_FastboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CDPH01_FastboatCIT02"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH01_DestroyerCIT01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH01_DestroyerCIT02"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CDPH01_OCruiserCIT01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CDPH01_OCruiserCIT02"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CDPH01_OCruiserCIT03"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CDPH01_LavCIT01"
+		locForm="0"
+		value="Броневик" />
+
+	<Item
+		id="CDPH01_HeliCIT01"
+		locForm="0"
+		value="Вертолёт" />
+	
+	<Item
+		id="CDPH01_HeliCIT02"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH01_HeliCIT03"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH01_HeliCIT04"
+		locForm="0"
+		value="Вертолёт" />
 </ModelNames>

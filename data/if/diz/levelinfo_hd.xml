@@ -9,7 +9,7 @@
 		image0="data\if\map\battleship\blank.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="mainmenu" />
 
 	<LevelInfo
 		name="hq"
@@ -21,7 +21,7 @@
 		image0="data\if\map\battleship\missions\symbols.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="opensea"
@@ -33,7 +33,7 @@
 		image0="data\if\map\battleship\blank.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="islands"
@@ -45,7 +45,7 @@
 		image0="data\if\map\battleship\islands.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="archipelago"
@@ -57,7 +57,7 @@
 		image0="data\if\map\battleship\archipelago.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="aegean"
@@ -69,7 +69,7 @@
 		image0="data\if\map\battleship\aegean.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="tutorial"
@@ -81,7 +81,7 @@
 		image0="data\if\map\battleship\missions\tutorial.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="cit_ph01_counterattack"
@@ -93,7 +93,7 @@
 		image0="data\if\map\battleship\missions\cit_ph01_counterattack.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 
 	<LevelInfo
 		name="cd_ph01_garrison"
@@ -105,5 +105,5 @@
 		image0="data\if\map\battleship\missions\cd_ph01_garrison.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
-		musicBlocks="block1 r2_2 r4_2" />
+		musicBlocks="noblock" />
 </LevelInfoResource>

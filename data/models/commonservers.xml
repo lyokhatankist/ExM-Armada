@@ -654,19 +654,26 @@
 	</SpritesServer>
 
 	<MusicServer>
-		<Item id="mainmenu" />
+	<!-- battleship -->
+		<Item id="nomusic" />
+		
+		<Item id="bs_mainmenu" />
+
+
+	<!-- vanilla -->
+<!-- 		<Item id="mainmenu" /> -->
 
 
 		<!-- Towns -->	
-		<Item id="bar" />
+<!-- 		<Item id="bar" />
 		<Item id="trade_town1" />
 		<Item id="agriculruar_town1" />
 		<Item id="techno_town1" />
-		<Item id="military_town1" />
+		<Item id="military_town1" /> -->
 
 
 		<!-- Blocks -->		
-		<Item id="block0_driving" />
+<!-- 		<Item id="block0_driving" />
 		<Item id="block0_alarm" />
 		<Item id="block0_battle" />
 		
@@ -708,11 +715,11 @@
 		
 		<Item id="r4_2_driving" />
 		<Item id="r4_2_alarm" />
-		<Item id="r4_2_battle" />
+		<Item id="r4_2_battle" /> -->
 			
 <!-- 		cinematics music		 -->
 
-		<Item id="Battle01" />
+<!-- 		<Item id="Battle01" />
 		<Item id="Battle02" />
 		<Item id="Battle03" />
 		<Item id="Bio01" />
@@ -746,7 +753,7 @@
 		<Item id="Techno01" />
 		<Item id="Techno02" />
 		<Item id="Techno03" />
-		<Item id="Techno04" />
+		<Item id="Techno04" /> -->
 
 			
 	</MusicServer>

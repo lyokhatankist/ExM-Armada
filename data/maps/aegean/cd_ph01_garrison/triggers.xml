@@ -19,10 +19,10 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Риф»)"}
-			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Молот»)"}
-			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Волк»)"}
-			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Гром»)"}
+			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDLavs01_vehicle_0", 26, 375, 265, 0}
 			enemy[2] = {"CDLavs02_vehicle_0", 26, 375, 265, 0}
@@ -45,7 +45,7 @@
 			SetVar("PlayerHealth", 33)
 			SetVar("PlayerVehicleHealth", 125)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "б.к.т. «Муэтт» (поз. «Ловчий»)")
+			SetVar("PlayerName", "пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 1250) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.65) -- multiplier that determines how much money the player will receive for each score point
@@ -204,6 +204,30 @@
 		</script>
 	</trigger>
 
+	<trigger	Name="NightvisionOff"	active="1">
+		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
+		<script>
+			RuleConsole("g_postEffect Nightvision_CD")
+			
+			trigger:Deactivate()
+
+			TActivate("NightvisionOn")
+			
+		</script>
+	</trigger>
+
+	<trigger	Name="NightvisionOn"	active="0">
+		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
+		<script>
+			RuleConsole("g_postEffect wSunrise_archipelago_clear")
+
+			trigger:Deactivate()
+
+			TActivate("NightvisionOff")
+
+		</script>
+	</trigger>
+	
 	<trigger Name="RetreatStart" active="1">
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
