@@ -1367,6 +1367,90 @@ function RestoreAllToleranceStatus()
     end
 end
 
+-- =========================== --
+-- ExM:Rise of Clans functions --
+
+function CreateCaravanTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
+-- Создает команду-караван машин из списка ListOfVehicle
+-- см. CreateTeam()
+	if CreatePos==nil then
+		LOG("No position")
+		return
+	end
+	
+	local _CreatePos=CreatePos
+
+	if type(CreatePos)=="table" then
+		_CreatePos=CreatePos[1]
+	end
+
+	local _Rotate=nil
+
+	if Rotate~=nil then
+		if type(Rotate)=="table" then
+			_Rotate=Rotate[1]
+		else
+			_Rotate=Rotate
+		end
+	end
+
+	local teamID = CreateNewObject{
+			prototypeName = "caravanTeam",
+			objName = Name,
+			belong = Belong
+		}
+	local team=GetEntityByID(teamID)
+	if team then
+--		println("team created")
+		local i=1
+		local id=0
+		while ListOfVehicle[i] do
+			local id = CreateNewObject{
+							prototypeName = ListOfVehicle[i],
+							objName = Name.."_vehicle_"..i-1,
+							belong = Belong
+						}
+			local vehicle = GetEntityByID(id)
+			if vehicle then
+				vehicle:SetRandomSkin()
+			if IsWares==1 then
+				local RandWarez = {"scrap_metal","fuel","machinery"}
+				local r = random(10)
+				vehicle:AddItemsToRepository(RandWarez[r], 1)
+			end
+				
+			-- by Anton: это не нужно, т.к. вызываем SetGamePositionOnGround()
+			-- CreatePos.y = g_ObjCont:GetHeight(CreatePos.x, CreatePos.z) + 1.3 * vehicle:GetSize().y
+			if Rotate then
+				-- by Anton: Устанавливаем вращение перед тем как поставить машинку на землю, ибо это правильно
+					if type(Rotate)=="table" then
+						if Rotate[i]~=nil then	_Rotate=Rotate[i] end
+					end
+					vehicle:SetRotation(Quaternion(_Rotate))
+				end
+				
+				if type(CreatePos)=="table" then
+					if CreatePos[i]~=nil then _CreatePos=CreatePos[i] end
+				end
+		
+				vehicle:SetGamePositionOnGround(_CreatePos)
+				team:AddChild(vehicle)
+
+				local vh_length=1.7 * vehicle:GetSize().z
+				_CreatePos.z=_CreatePos.z+vh_length
+			end
+			i = i + 1
+		end
+	else
+	   println("Error: Can't create team !!!")
+--	   team:Remove()
+		return 0
+	end
+		if WalkPos then
+			team:SetDestination(WalkPos)
+		end
+	return team
+end
 
 -- ==================== --
 -- Battleship functions --

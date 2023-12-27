@@ -18,7 +18,7 @@
 		text="Выбор миссии (кампания Алого Рассвета)."
 		role="NPC"
 		scriptCondition="GetVar('OnMission').AsInt==0"
-		nextReplies="Mission_Cancel" />
+		nextReplies="CD_PH_001_pl Mission_Cancel" />
 <!--Root/battleship/Tutorial--><!--Root/battleship/CD/Placeholder-->
 	<Reply
 		name="CD_Placeholder_Main"
@@ -35,9 +35,10 @@
 
 	<Reply
 		name="CD_PH_001_npc"
-		text="..."
+		text="                                                                           @ff000000«Гарнизон»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 сопроводить сухогрузы через контролируемую противником территорию.|@ff000000Зона боевых действий:@ff404040 Большие риджинские острова.|@ff000000Техника:@ff404040 «Абогадо», эсминец типа «Альбедо».|@ff000000Союзники:@ff404040 два эсминца типа «Альбедо».|@ff000000Противник:@ff404040 крейсера, эсминцы, боевые катера, укрепления СНГ.|@ff000000Поддержка с воздуха:@ff404040 нет.|@ff000000Вражеская авиация:@ff404040 возможно.|@ff000000Погода:@ff404040 ночь, пасмурно.| |                                                                               @ff000000Брифинг|Штормовая погода в южной части архипелага вынудила сменить курс торговых судов, перевозящих критически важный груз. Ваша задача - сопроводить сухогрузы в целости и сохранности через враждебные воды. Так как маршрут пролегает рядом с укреплённым островом Псарадон, ожидайте ожесточённого сопротивления. Вполне вероятно, что после того, как береговые орудия СНГ будут атакованы, противник задействует авиацию. Противник полностью контролирует данный регион, поэтому ожидайте атаки с применением торпедных катеров. Также, по данным разведки, группе эсминцев СНГ пришлось отступить из южной части архипелага из-за непогоды, поэтому велика вероятность встретить её на пути следования сухогрузов. Вы можете действовать самостоятельно, следуя впереди конвоя, если это необходимо. Состав конвоя: два сухогруза, три эсминца типа «Альбедо», включая ваш.| |Приступить к выполнению миссии?"
 		role="NPC"
-		scriptResult="local MissionTime = {0, 43, 27, 8, 2265}; local MissionSide = 'CD'; local MissionName = 'CDPH01_Garrison'; local MissionMap = 'cd_ph01_garrison'; local MissionPlayerPrototype = 'CDPH01_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'smlboatCDMachinegun01', 'smlboatCDRocket01', 'mun_twin127CD02', 'mun_twin127CD02'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))" />
+		scriptResult="local MissionTime = {0, 41, 27, 8, 2265}; local MissionSide = 'CD'; local MissionName = 'CDPH01_Garrison'; local MissionMap = 'cd_ph01_garrison'; local MissionPlayerPrototype = 'CDPH01_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'smlboatCDMachinegun01', 'smlboatCDRocket01', 'mun_twin127CD02', 'mun_twin127CD02'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))"
+		nextReplies="Mission_Yes Mission_No" />
 <!--Root/battleship/CD/Main Campaign--><!--Root/battleship/CIT/Placeholder-->
 	<Reply
 		name="CIT_Placeholder_Main"

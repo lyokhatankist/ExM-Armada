@@ -11,4 +11,12 @@
 		<Point  coord="30.000 1.000 20.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
 		<Point  coord="30.000 1.000 20.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
 	</Path>
+
+	<Path Name = "CDPH01_Start1">                         
+		<Point  coord="0.100 1250.000 0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="0.100 12.000 0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="-60.000 4.000 80.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="-60.000 3.000 80.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="-70.000 2.000 70.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+	</Path>
 </Paths>
