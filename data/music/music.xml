@@ -2,8 +2,8 @@
 <Music>
 <!-- battleship -->
 	<model
-		id="nosound"
-		file="data\music\battleship\nosound.ogg" />
+		id="nomusic"
+		file="data\music\battleship\nomusic.ogg" />
 
 	<model
 		id="bs_mainmenu"

@@ -445,7 +445,7 @@
 		DamageType			= "ENERGY"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "35"
+		Damage			= "55"
 		FiringRate		= "200"
 		ChargeSize		= "24"
 		RechargingTime	= "6"
@@ -605,7 +605,7 @@
 		DamageType			= "ENERGY"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "15"
+		Damage			= "30"
 		FiringRate		= "150"
 		ChargeSize		= "6"
 		RechargingTime	= "4"
