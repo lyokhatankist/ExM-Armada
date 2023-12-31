@@ -416,7 +416,7 @@
 		Damage			= "4"
 		FiringRate		= "900"
 		ChargeSize     	= "240"
-		RechargingTime 	= "0"
+		RechargingTime 	= "5"
 
 		FiringRange		= "300"
 		GroupingAngle	= "2.5"
@@ -571,12 +571,14 @@
 		FiringType			= "MachineGun"
 		RecoilForce			= "600"
 
-		DamageType			= "BLAST"
+		DamageType			= "ENERGY"
+		BlastWavePrototype	= "30mmBlastWave"
+		NumBulletsInShot	= "4"
 
-		Damage			= "9"
-		FiringRate		= "1200"
-		ChargeSize     	= "120"
-		RechargingTime 	= "0"
+		Damage			= "1"
+		FiringRate		= "300"
+		ChargeSize     	= "60"
+		RechargingTime 	= "5"
 
 		FiringRange		= "450"
 		GroupingAngle	= "3"
