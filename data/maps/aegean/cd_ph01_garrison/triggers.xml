@@ -50,6 +50,18 @@
 			enemy[24] = {"CITHelicopter02_vehicle_0", 20, 500, 2864, 110}
 			enemy[25] = {"CITHelicopter03_vehicle_0", 20, 500, 2864, 110}
 			enemy[26] = {"CITHelicopter04_vehicle_0", 20, 500, 2864, 110}
+			enemy[27] = {"CITCoastalGun01", 195, 17500, 3089, 0}
+			enemy[28] = {"CITCoastalGun02", 195, 17500, 3089, 0}
+			enemy[29] = {"CITCoastalGun03", 195, 17500, 3089, 0}
+			enemy[30] = {"CITCoastalGun04", 195, 17500, 3089, 0}
+			enemy[31] = {"CITAAGun01", 65, 3000, 629, 0}
+			enemy[32] = {"CITAAGun02", 65, 3000, 629, 0}
+			enemy[33] = {"CITAAGun03", 65, 3000, 629, 0}
+			enemy[34] = {"CITAAGun04", 65, 3000, 629, 0}
+			enemy[35] = {"CITAAGun05", 65, 3000, 629, 0}
+			enemy[36] = {"CITAAGun06", 65, 3000, 629, 0}
+
+			 
 
 			SetVar("MissionTime", 0)
 			SetVar("RequiredMissionTime", 752) -- mission completion time (in s) for getting bonus score
@@ -397,14 +409,30 @@
 			TeamCreate("CITBoat04", 1002, CVector(6197, 255, 3973), {"CDPH01_SmlboatCIT01"})
 			TeamCreate("CITBoat05", 1002, CVector(6218, 255, 3989), {"CDPH01_SmlboatCIT01"})
 
-			TeamCreate("CITLav01", 1010, CVector(5790, 285, 3907), {"CITPH01_LavCD01"})
-			TeamCreate("CITLav02", 1010, CVector(5818, 285, 3912), {"CITPH01_LavCD01"})
-			TeamCreate("CITLav03", 1010, CVector(5839, 285, 3919), {"CITPH01_LavCD01"})
-			TeamCreate("CITLav04", 1010, CVector(6334, 278, 3897), {"CITPH01_LavCD01"})
-			TeamCreate("CITLav05", 1010, CVector(6334, 288, 3805), {"CITPH01_LavCD01"})
+			TeamCreate("CITLav01", 1010, CVector(5790, 285, 3907), {"CDPH01_LavCIT01"})
+			TeamCreate("CITLav02", 1010, CVector(5818, 285, 3912), {"CDPH01_LavCIT01"})
+			TeamCreate("CITLav03", 1010, CVector(5839, 285, 3919), {"CDPH01_LavCIT01"})
+			TeamCreate("CITLav04", 1010, CVector(6334, 278, 3897), {"CDPH01_LavCIT01"})
+			TeamCreate("CITLav05", 1010, CVector(6334, 288, 3805), {"CDPH01_LavCIT01"})
 
---			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun01", 1008, CVector(3427, 270, 2081), Quaternion(0.000, 0.579, 0.000, 0.815), 0)
---			CreateNewBreakableObject("CoastAAMed01", "CITAAGun01", 1008, CVector(3427, 270, 2081), Quaternion(0.000, 0.579, 0.000, 0.815), 0)
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_01", -1, -1, CVector(5839.552, 271.012, 3919.798), Quaternion(0.0000, -0.1715, 0.0000, 0.9852), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_02", -1, -1, CVector(5814.607, 271.009, 3911.965), Quaternion(0.0000, -0.1327, 0.0000, 0.9912), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_03", -1, -1, CVector(5789.850, 271.012, 3906.973), Quaternion(0.0000, -0.0785, 0.0000, 0.9969), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_04", -1, -1, CVector(5769.851, 271.009, 3906.660), Quaternion(0.0000, 0.0240, 0.0000, 0.9997), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_05", -1, -1, CVector(5826.790, 268.922, 3934.929), Quaternion(0.0000, -0.2250, 0.0000, 0.9744), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_06", -1, -1, CVector(5801.691, 268.904, 3925.217), Quaternion(0.0000, -0.1413, 0.0000, 0.9900), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_07", -1, -1, CVector(5773.882, 268.922, 3921.546), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateNewDummyObject( "berth",	"psaradon_fortress_08", -1, -1, CVector(5816.011, 273.555, 3976.860), Quaternion(0.0000, -0.1758, 0.0000, 0.9844), 1 )
+			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun01", 1008, CVector(5831.876, 281.304, 3934.007), Quaternion(0.0000, -0.1693, 0.0000, 0.9856), 0)
+			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun02", 1008, CVector(5812.080, 281.361, 3928.176), Quaternion(0.0000, -0.1478, 0.0000, 0.9890), 0)
+			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun03", 1008, CVector(5787.776, 281.478, 3923.159), Quaternion(0.0000, -0.0676, 0.0000, 0.9977), 0)
+			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun04", 1008, CVector(5766.433, 281.459, 3923.029), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun01", 1008, CVector(5828.910, 283.012, 3923.542), Quaternion(0.0000, -0.1780, 0.0000, 0.9840), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun02", 1008, CVector(5802.010, 283.015, 3915.930), Quaternion(0.0000, -0.1284, 0.0000, 0.9917), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun03", 1008, CVector(5775.906, 283.012, 3914.277), Quaternion(0.0000, -0.0305, 0.0000, 0.9995), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun04", 1008, CVector(5837.038, 280.746, 3940.914), Quaternion(0.0000, -0.2292, 0.0000, 0.9734), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun05", 1008, CVector(5799.207, 280.671, 3927.987), Quaternion(0.0000, -0.1435, 0.0000, 0.9897), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CITAAGun06", 1008, CVector(5761.366, 280.759, 3926.877), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
 
 			local CITD01 = getObj("CITDestroyer01")
 			local CITD02 = getObj("CITDestroyer02")
@@ -550,15 +578,15 @@
 			-- =============
 			--  CIT Reserves
 			-- =============
---			TeamCreate("CITCruiser01", 1003, CVector(5791, 255, 3227), {"CDPH01_OCruiserCIT01"})
---			TeamCreate("CITDestroyer05", 1003, CVector(5805, 255, 3081), {"CDPH01_DestroyerCIT02"})
---			TeamCreate("CITCruiser02", 1003, CVector(5791, 255, 3227), {"CDPH01_OCruiserCIT03"})
---			TeamCreate("CITCruiser03", 1003, CVector(5791, 255, 3227), {"CDPH01_OCruiserCIT02"})
+			TeamCreate("CITCruiser01", 1003, CVector(4610, 255, 5932), {"CDPH01_OCruiserCIT01"})
+			TeamCreate("CITDestroyer05", 1003, CVector(4585, 255, 6081), {"CDPH01_DestroyerCIT02"})
+			TeamCreate("CITCruiser02", 1003, CVector(4484, 255, 6158), {"CDPH01_OCruiserCIT03"})
+			TeamCreate("CITCruiser03", 1003, CVector(4464, 255, 6291), {"CDPH01_OCruiserCIT02"})
 
---			TeamCreate("CITHelicopter01", 1006, CVector(4200, 255, 6339), {"CDPH01_HeliCIT0"..math.random(4)})
---			TeamCreate("CITHelicopter02", 1006, CVector(4216, 255, 6417), {"CDPH01_HeliCIT0"..math.random(4)})
---			TeamCreate("CITHelicopter03", 1006, CVector(6853, 255, 6274), {"CDPH01_HeliCIT0"..math.random(4)})
---			TeamCreate("CITHelicopter04", 1006, CVector(6852, 255, 6346), {"CDPH01_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter01", 1006, CVector(4200, 255, 6339), {"CDPH01_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter02", 1006, CVector(4216, 255, 6417), {"CDPH01_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter03", 1006, CVector(6853, 255, 6274), {"CDPH01_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter04", 1006, CVector(6852, 255, 6346), {"CDPH01_HeliCIT0"..math.random(4)})
 
 			-- =========
 			--  Trigger

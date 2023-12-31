@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Weather>
 	<WeatherItem
-		name="archipelago_foggy">
+		name="archipelago_cloudy">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_aegean.dds"
-			CloudsTexture="skyfoggy.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="day"
 			LightmapTexture="lightmap_daytime_aegean.dds"
-			CloudsTexture="skyfoggy.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="sunset"
 			LightmapTexture="lightmap_sunsettime_aegean.dds"
-			CloudsTexture="skyfoggy.dds" />
+			CloudsTexture="skyovercast.dds" />
 
 		<ColorType
 			name="night"
 			LightmapTexture="lightmap_nighttime_aegean.dds"
-			CloudsTexture="skyfoggy.dds" />
+			CloudsTexture="skyovercast.dds" />
 	</WeatherItem>
 </Weather>

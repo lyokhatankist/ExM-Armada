@@ -1560,12 +1560,12 @@
 		value="«Абогадо» (э.м.т. «Альбедо»)" />
 
 	<Item
-		id="CITPH01_DestroyerCD01"
+		id="CDPH01_DestroyerCD01"
 		locForm="0"
 		value="«Сеута»" />
 
 	<Item
-		id="CITPH01_DestroyerCD02"
+		id="CDPH01_DestroyerCD02"
 		locForm="0"
 		value="«Мелилья»" />
 
@@ -1595,12 +1595,12 @@
 		value="Катер" />
 
 	<Item
-		id="CITPH01_DestroyerCIT01"
+		id="CDPH01_DestroyerCIT01"
 		locForm="0"
 		value="Эсминец" />
 
 	<Item
-		id="CITPH01_DestroyerCIT02"
+		id="CDPH01_DestroyerCIT02"
 		locForm="0"
 		value="Эсминец" />
 
