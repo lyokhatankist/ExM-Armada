@@ -605,10 +605,6 @@
 			AddCinematicMessage( 3, 1)
 
 			TActivate("MissionStart_End")
-			TActivate("CDReinforcements")
-			TActivate("CITCriticalLosses")
-			TActivate("CDCriticalLosses")
-			TActivate("TargetsDestroyed")
 			
 			trigger:Deactivate()
 		</script>
@@ -634,6 +630,8 @@
 				CDD01a:SetCruisingSpeed(3)
 				CDD01a:SetExternalPathByName("CDDestroyer01_Waypoint1")
 				CDD01a:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDDestroyer01WaypointStatus", TableToString({0, 2, 0})) -- waypoints reached, amount of waypoints, amount of cycles with 0 speed
 			end
 			
 			if CDD02a then
@@ -641,6 +639,8 @@
 				CDD02a:SetCruisingSpeed(3)
 				CDD02a:SetExternalPathByName("CDDestroyer02_Waypoint1")
 				CDD02a:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDDestroyer02WaypointStatus", TableToString({0, 2, 0}))
 			end
 
 			if CDM01a then
@@ -655,9 +655,161 @@
 				CDM02a:SetExternalPathByName("CDMerchant02_Waypoint1")
 			end
 
+			local CITTB01a = getObj("CITTorpedoBoat01_vehicle_0")
+			local CITTB02a = getObj("CITTorpedoBoat02_vehicle_0")
+			local CITTB03a = getObj("CITTorpedoBoat03_vehicle_0")
+			local CITTB04a = getObj("CITTorpedoBoat04_vehicle_0")
+			local CITD01a = getObj("CITDestroyer01_vehicle_0")
+			local CITD02a = getObj("CITDestroyer02_vehicle_0")
+			local CITD03a = getObj("CITDestroyer03_vehicle_0")
+			local CITD04a = getObj("CITDestroyer04_vehicle_0")
+
+			if CITTB01a then
+				CITTB01a:SetCruisingSpeed(20)
+				CITTB01a:SetExternalPathByName("CITTorpedoBoat01_Waypoint1")
+				CITTB01a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITTB02a then
+				CITTB02a:SetCruisingSpeed(20)
+				CITTB02a:SetExternalPathByName("CITTorpedoBoat02_Waypoint1")
+				CITTB02a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITTB03a then
+				CITTB03a:SetCruisingSpeed(20)
+				CITTB03a:SetExternalPathByName("CITTorpedoBoat03_Waypoint1")
+				CITTB03a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITTB04a then
+				CITTB04a:SetCruisingSpeed(20)
+				CITTB04a:SetExternalPathByName("CITTorpedoBoat04_Waypoint1")
+				CITTB04a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITD01a then
+				CITD01a:SetCruisingSpeed(5)
+				CITD01a:SetExternalPathByName("CITDestroyer01_Waypoint1")
+				CITD01a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITD02a then
+				CITD02a:SetCruisingSpeed(5)
+				CITD02a:SetExternalPathByName("CITDestroyer02_Waypoint1")
+				CITD02a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITD03a then
+				CITD03a:SetCruisingSpeed(5)
+				CITD03a:SetExternalPathByName("CITDestroyer03_Waypoint1")
+				CITD03a:SetCanBeDistractedFromMoving(true)
+			end
+
+			if CITD04a then
+				CITD04a:SetCruisingSpeed(5)
+				CITD04a:SetExternalPathByName("CITDestroyer04_Waypoint1")
+				CITD04a:SetCanBeDistractedFromMoving(true)
+			end
+
 			TakeQuest("CD_PH01")
 
+			TActivate("CDDestroyersWaypointManager")
+
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDDestroyersWaypointManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer02_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local vehicles = {"CDDestroyer01", "CDDestroyer02"}
+			local currentVehicleName -- "CDDestroyer01"
+			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
+			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
+			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksAmount = 0
+			local currentWaypoint = 0
+			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
+			local triggerObjName = trigger:GetCallObjName()
+			if triggerObjName=="CDDestroyer01_vehicle_0" then
+				currentVehicleName = vehicles[1]
+				currentVehicle = getObj(currentVehicleName.."_vehicle_0")
+				println("trigger object is "..currentVehicleName)
+				currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
+				currentWaypoint = currentVehicleWaypointInfo[1] + 2
+				if currentVehicleWaypointInfo[2] > currentWaypoint then
+					println("there are waypoints for "..currentVehicleName)
+					currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
+					currentVehicleWaypointInfo[1] = currentWaypoint - 1
+					SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+					println(currentVehicleName.." is set for a new waypoint")
+				else
+					println("maximum waypoints for "..currentVehicleName.." reached")
+				end
+			elseif triggerObjName=="CDDestroyer02_vehicle_0" then
+				currentVehicleName = vehicles[2]
+				currentVehicle = getObj(currentVehicleName.."_vehicle_0")
+				println("trigger object is "..currentVehicleName)
+				currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
+				currentWaypoint = currentVehicleWaypointInfo[1] + 2
+				if currentVehicleWaypointInfo[2] > currentWaypoint then
+					println("there are waypoints for "..currentVehicleName)
+					currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
+					currentVehicleWaypointInfo[1] = currentWaypoint - 1
+					SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+					println(currentVehicleName.." is set for a new waypoint")
+				else
+					println("maximum waypoints for "..currentVehicleName.." reached")
+				end
+			else
+				println("trigger object is the pendulum")
+				-- it's pendulum that triggered the activation
+				-- check if the ships are moving
+				-- if they haven't moved for 3 cycles = set them on the current waypoint
+				for i=1, getn(vehicles) do
+					currentVehicleName = vehicles[i]
+					currentVehicle = getObj(currentVehicleName.."_vehicle_0")
+					if currentVehicle then
+						println(currentVehicleName.." exists")
+						currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
+						if 3 > GetSpeed(currentVehicle) then
+							println(currentVehicleName.." speed is too low")
+							checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
+							println("checks amount is "..checksAmount)
+							if checksAmount >= 3 then
+								println("there have been 3 checks for "..currentVehicleName)
+								currentWaypoint = currentVehicleWaypointInfo[1] + 1
+								if currentVehicleWaypointInfo[2] > currentWaypoint then
+									currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
+									println(currentVehicleName.." set for the current waypoint")
+								else
+									println("maximum waypoints for "..currentVehicleName.." reached")
+								end
+							end
+						else
+							println(currentVehicleName.." speed is fine")
+							checksAmount = 0 -- the speed of the vehicle is okay, the checks are dropped
+						end
+
+						currentWaypoint = currentWaypoint - 1
+						currentVehicleWaypointInfo[1] = currentWaypoint
+						currentVehicleWaypointInfo[3] = checksAmount
+						SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+						println(currentVehicleName.." waypoint info updated")
+						if currentVehicleWaypointInfo[1] >= currentVehicleWaypointInfo[2] then
+							vehicleTargetsReached = vehicleTargetsReached + 1
+						end
+					end
+				end
+			end
+
+			if vehicleTargetsReached==getn(vehicles) then
+				trigger:Deactivate()
+			end
+
 		</script>
 	</trigger>
 </triggers>
