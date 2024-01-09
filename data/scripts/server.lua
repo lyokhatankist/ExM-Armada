@@ -1464,6 +1464,11 @@ function math.clamp(val, lower, upper)
     return math.max(lower, math.min(upper, val))
 end
 
+-- shortcut for xor in lua
+function xor(x, y)
+	return (x or y) and not (x and y)
+end
+
 -- shortcut for basic rounding without bells and whistles
 -- works good enough so fuck off :---DDDDDDDD
 function round(num)
@@ -1856,6 +1861,39 @@ function CheckDistBetweenUnits(unit, units, checkT)
 	return retVal
 end
 
+-- function that calculates the average distance between all target vehicles
+-- and updates the coordinates for a quest
+function UpdateQuestCoordinates(questName, units)
+	local aliveUnits = {}
+	local j = 1
+	for i=1, getn(units) do
+		if CheckUnits(units[i]) then
+			aliveUnits[j] = units[i]
+			j = j + 1
+		end
+	end
+
+	local aliveUnitsAmount = getn(aliveUnits)
+	local currentUnitCoordinates
+	local commonCoordinates = CVector(0, 0, 0)
+	if aliveUnitsAmount > 0 then
+		for i=1, aliveUnitsAmount do
+			currentUnitCoordinates = getObj(aliveUnits[i]):GetPosition()
+			commonCoordinates.x = commonCoordinates.x + currentUnitCoordinates.x
+			println("commonCoordinate x is "..commonCoordinates.x)
+			commonCoordinates.z = commonCoordinates.z + currentUnitCoordinates.z
+			println("commonCoordinate z is "..commonCoordinates.z)
+		end
+
+		commonCoordinates.x = commonCoordinates.x / aliveUnitsAmount
+		println("[!] commonCoordinate x is "..commonCoordinates.x)
+		commonCoordinates.z = commonCoordinates.z / aliveUnitsAmount
+		println("[!] commonCoordinate z is "..commonCoordinates.z)
+	end
+
+	SetCoordinateForQuest(questName, commonCoordinates)
+end
+
 -- function that updates hp values of all friendly and enemy units on the mission
 function UpdateUnitsStats(plDead)
 	local playerDead = 0
@@ -1875,14 +1913,20 @@ function UpdateUnitsStats(plDead)
 	local isTableEmpty = next(friendliesEndHealth)
 	if isTableEmpty ~= nil then
 		for i=1, getn(friendliesEndHealth) do
-			if getObj(friendliesStart[i]) and getObj(friendliesStart[i]):IsAlive() then
-				assignedMaximumHealth = friendliesStartHealth[i]
-				maximumHealth = friendliesVehicleHealth[i]
-				healthMultiplier = assignedMaximumHealth / maximumHealth
-				currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
-				if currentHealth < friendliesEndHealth[i] then
-					friendliesEndHealth[i] = currentHealth
-					println("friendly numba "..i.." updated")
+			if CheckUnits(friendliesStart[i]) then
+				local unitBelong = getObj(friendliesStart[i]):GetProperty("Belong").AsInt
+				if not(xor(unitBelong~=1008, unitBelong~=1058)) then
+					assignedMaximumHealth = friendliesStartHealth[i]
+					maximumHealth = friendliesVehicleHealth[i]
+					healthMultiplier = assignedMaximumHealth / maximumHealth
+					currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
+					if currentHealth < friendliesEndHealth[i] then
+						friendliesEndHealth[i] = currentHealth
+						println("friendly numba "..i.." updated")
+					end
+				else
+					friendliesEndHealth[i] = friendliesStartHealth[i]
+					println("friendly numba "..i.." is a pillbox")
 				end
 				println("friendly numba "..i.." checked")
 			else
@@ -1910,18 +1954,25 @@ function UpdateUnitsStats(plDead)
 	isTableEmpty = next(enemiesEndHealth)
 	if isTableEmpty ~= nil then
 		for i=1, getn(enemiesEndHealth) do
-			if getObj(enemiesStart[i]) and getObj(enemiesStart[i]):IsAlive() then
-				assignedMaximumHealth = enemiesStartHealth[i]
-				maximumHealth = enemiesVehicleHealth[i]
-				healthMultiplier = assignedMaximumHealth / maximumHealth
-				currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
-				if currentHealth < enemiesEndHealth[i] then
-					enemiesEndHealth[i] = currentHealth
-					println("enemy numba "..i.." updated")
+			if CheckUnits(enemiesStart[i]) then
+				local unitBelong = getObj(enemiesStart[i]):GetProperty("Belong").AsInt
+				if not(xor(unitBelong~=1008, unitBelong~=1058)) then
+					assignedMaximumHealth = enemiesStartHealth[i]
+					maximumHealth = enemiesVehicleHealth[i]
+					healthMultiplier = assignedMaximumHealth / maximumHealth
+					currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
+					if currentHealth < enemiesEndHealth[i] then
+						enemiesEndHealth[i] = currentHealth
+						println("enemy numba "..i.." updated")
+					end
+				else
+					enemiesEndHealth[i] = enemiesStartHealth[i]
+					println("enemy numba "..i.." is a pillbox")
 				end
 				println("enemy numba "..i.." checked")
 			else
 				enemiesEndHealth[i] = 0
+				println("enemy numba "..i.." checked, dead")
 			end
 		end
 	else
@@ -2235,7 +2286,7 @@ function CalcMissionStats(plDead)
 		-- updating info about surviving friendlies
 		println("updating info")
 		j = 1
-		println("friendlies end count is "..friendliesEndCount)
+		println("friendlies end count before update is "..friendliesEndCount)
 		while j<=getn(friendliesStart) do
 			println("updating info for "..j)
 			if friendliesEndHealth[j]==0 then
@@ -2273,10 +2324,17 @@ function CalcMissionStats(plDead)
 			end
 		end
 
+		friendliesEndCount = getn(friendliesEnd)
+		println("friendlies end count after update is "..friendliesEndCount)
+		println("friendlies end are: "..TableToString(friendliesEnd))
 		println("done updating info")
 
-		friendliesEndCount = getn(friendliesEndHealth)
-		println("friendl end count "..friendliesEndCount)
+--		println("friendliesStart - friendliesEndNames ")
+--		isTableEmpty = next(friendliesEndNames)
+--		if isTableEmpty ~= nil then
+--			friendliesEndCount = getn(friendliesEndNames)
+--		end
+--		println("friendl end count "..friendliesEndCount)
 		println(getn(friendliesEnd))
 		println(getn(friendliesEndHealth))
 		println(getn(friendliesEndTypes))
@@ -2361,13 +2419,19 @@ function CalcMissionStats(plDead)
 	local friendliesEndTotalHealth = 0
 	local friendliesLossesPercentage = 0
 	local friendliesLosses = 0
-	local friendliesEquipmentLosses = getn(friendliesStart) - friendliesEndCount
+	local friendliesEquipmentLosses = getn(friendliesStart) + 1
 	for i=1, getn(friendliesStart) do
 		friendliesStartTotalHealth = friendliesStartTotalHealth + friendliesStartHealth[i]
 	end
 	println("friendlies total starting health "..friendliesStartTotalHealth)
-	for i=1, friendliesEndCount do
-		friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+	isTableEmpty = next(friendliesEnd)
+	if isTableEmpty ~= nil then
+--		friendliesEndCount = getn(friendliesEnd)
+		for i=1, friendliesEndCount do
+			friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+		end
+--	else
+--		friendliesEndCount = 0
 	end
 	local playerVehicle = GetPlayerVehicle()
 	local playerHealth = GetVar("PlayerHealth").AsInt
@@ -2381,11 +2445,17 @@ function CalcMissionStats(plDead)
 		println("got effective health "..playerCurrentHealth)
 		if playerDead ~= 1 then
 			friendliesEndCount = friendliesEndCount + 1 -- adds player vehicle into the friendlies count for determining whether the objective is complete, it's 30 lines below
+			println("player added to alive friendlies")
+		else
+			println("player died, was not added from alive friendlies")
 		end
 	end
 	println("friendlies total ending health "..friendliesEndTotalHealth)
 	friendliesLossesPercentage = 100 - (friendliesEndTotalHealth + playerCurrentHealth) / (friendliesStartTotalHealth + playerHealth) * 100 -- used to show the player the losses allies took in the final stats
 	friendliesLosses = (friendliesStartTotalHealth - friendliesEndTotalHealth) / 6.5 + (playerHealth - playerCurrentHealth) / 6.5 -- used to show the player the losses allies took in the final stats
+	println("friendlies Start = "..friendliesEquipmentLosses)
+	println("friendlies End = "..friendliesEndCount)
+	friendliesEquipmentLosses = friendliesEquipmentLosses - friendliesEndCount
 	println("friendlies losses percent "..friendliesLossesPercentage)
 	println("friendlies losses in manpower "..friendliesLosses)
 	println("friendlies equipment losses "..friendliesEquipmentLosses)
@@ -2410,17 +2480,18 @@ function CalcMissionStats(plDead)
 	println("objectives "..totalObjectives)
 	local totalObjectivesCompleted = GetVar("ObjectivesCompleted").AsInt
 	println("objectives completed "..totalObjectivesCompleted)
-	if getn(friendliesStart) + 1 == friendliesEndCount then
-		totalObjectivesCompleted = totalObjectivesCompleted + 1
-		missionScore = missionScore + objectiveScoreReward
-		println("all friendlies survived, +1 objective complete")
+	if totalObjectivesCompleted==(totalObjectives - 2) then
+		if getn(friendliesStart) + 1 == friendliesEndCount then
+			totalObjectivesCompleted = totalObjectivesCompleted + 1
+			missionScore = missionScore + objectiveScoreReward
+			println("all friendlies survived, +1 objective complete")
+		end
+		if enemiesEndCount == 0 then
+			totalObjectivesCompleted = totalObjectivesCompleted + 1
+			missionScore = missionScore + objectiveScoreReward
+			println("all enemies are dead, +1 objective complete")
+		end
 	end
-	if enemiesEndCount == 0 then
-		totalObjectivesCompleted = totalObjectivesCompleted + 1
-		missionScore = missionScore + objectiveScoreReward
-		println("all enemies are dead, +1 objective complete")
-	end
-
 	local completionPercentage = totalObjectivesCompleted / totalObjectives * 100
 	println("completion percentage is "..completionPercentage)
 

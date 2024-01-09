@@ -148,7 +148,7 @@
 		id="fm_cit_ph01_citretreating"
 		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
 
-<!-- battleship cit_ph01_counterattack -->
+<!-- battleship cd_ph01_garrison -->
 	<string
 		id="fm_cd_ph01_boats"
 		value="@ffff9c00Срочный приказ:@ffffffff уничтожить торпедные катера противника." />
@@ -164,6 +164,10 @@
 	<string
 		id="fm_cd_ph01_helicopters"
 		value="@ffff9c00Срочный приказ:@ffffffff защитить сухогрузы от вражеской авиации." />
+
+	<string
+		id="fm_cd_ph01_cruisers"
+		value="@ffff9c00Срочный приказ:@ffffffff защитить сухогрузы от вражеских крейсеров." />
 
 	<string
 		id="fm_cd_ph01_leave"

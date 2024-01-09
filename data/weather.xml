@@ -3483,13 +3483,13 @@
 			sunriseColor="124.950 104.550 112.200"
 			dayColor="188.700 201.450 221.850"
 			sunsetColor="158.100 130.050 102.000"
-			nightColor="45.900 58.650 61.200" />
+			nightColor="43.350 53.550 38.250" />
 
 		<Diffuse
 			sunriseColor="158.100 117.300 71.400"
 			dayColor="232.050 221.850 226.950"
 			sunsetColor="153.000 109.650 130.050"
-			nightColor="45.900 38.250 28.050" />
+			nightColor="22.950 12.750 12.750" />
 
 		<Sun
 			sunriseColor="0.000 0.000 0.000"

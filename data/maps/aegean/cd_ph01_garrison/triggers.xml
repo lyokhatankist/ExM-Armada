@@ -20,13 +20,13 @@
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
 			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD01", 1600, 1600, 9579, 22, "«Сеута» (э.м.т. «Альбедо»)"}
-			friendly[2] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD02", 1600, 1600, 6752, 22, "«Мелилья» (э.м.т. «Альбедо»)"}
+			friendly[2] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD02", 1600, 1600, 7247, 22, "«Мелилья» (э.м.т. «Альбедо»)"}
 			friendly[3] = {"CDMerchant01_vehicle_0", "CDMerchantAegean", "CDPH01_MerchantCD01", 163, 1500, 0, 4, "сухогруз «Августин Брейн»"}
 			friendly[4] = {"CDMerchant02_vehicle_0", "CDMerchantAegean", "CDPH01_MerchantCD02", 163, 1500, 0, 4, "сухогруз «Хуан Эль-Уэво»"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITDestroyer01_vehicle_0", 1200, 1200, 6958, 26}
-			enemy[2] = {"CITDestroyer02_vehicle_0", 1200, 1200, 9984, 30}
-			enemy[3] = {"CITDestroyer03_vehicle_0", 1200, 1200, 9984, 30}
+			enemy[2] = {"CITDestroyer02_vehicle_0", 1200, 1200, 9758, 30}
+			enemy[3] = {"CITDestroyer03_vehicle_0", 1200, 1200, 9758, 30}
 			enemy[4] = {"CITDestroyer04_vehicle_0", 1200, 1200, 6958, 26}
 			enemy[5] = {"CITTorpedoBoat01_vehicle_0", 39, 300, 729, 80}
 			enemy[6] = {"CITTorpedoBoat02_vehicle_0", 39, 300, 954, 80}
@@ -42,10 +42,10 @@
 			enemy[16] = {"CITLav03_vehicle_0", 20, 300, 694, 0}
 			enemy[17] = {"CITLav04_vehicle_0", 20, 300, 694, 0}
 			enemy[18] = {"CITLav05_vehicle_0", 20, 300, 694, 0}
-			enemy[19] = {"CITCruiser01_vehicle_0", 2000, 2000, 8292, 18}
-			enemy[20] = {"CITDestroyer05_vehicle_0", 1200, 1200, 9984, 30}
-			enemy[21] = {"CITCruiser02_vehicle_0", 2000, 2000, 11427, 20}
-			enemy[22] = {"CITCruiser03_vehicle_0", 2000, 2000, 8423, 18}
+			enemy[19] = {"CITOldCruiser01_vehicle_0", 2000, 2000, 8292, 18}
+			enemy[20] = {"CITDestroyer05_vehicle_0", 1200, 1200, 9758, 30}
+			enemy[21] = {"CITOldCruiser02_vehicle_0", 2000, 2000, 11427, 20}
+			enemy[22] = {"CITOldCruiser03_vehicle_0", 2000, 2000, 8423, 18}
 			enemy[23] = {"CITHelicopter01_vehicle_0", 20, 500, 2864, 110}
 			enemy[24] = {"CITHelicopter02_vehicle_0", 20, 500, 2864, 110}
 			enemy[25] = {"CITHelicopter03_vehicle_0", 20, 500, 2864, 110}
@@ -71,8 +71,8 @@
 			SetVar("PlayerVehicleHealth", 1600)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
 			SetVar("PlayerName", "«Абогадо» (э.м.т. «Альбедо»)")
-			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
-			SetVar("ObjectiveScoreReward", 8000) -- how much score each objective gives
+			SetVar("Objectives", 3) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
+			SetVar("ObjectiveScoreReward", 10000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.45) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
@@ -244,7 +244,7 @@
 	<trigger	Name="NightvisionOn"	active="0">
 		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
 		<script>
-			RuleConsole("g_postEffect wSunrise_archipelago_clear")
+			RuleConsole("g_postEffect wNight_archipelago_cloudy")
 
 			trigger:Deactivate()
 
@@ -409,11 +409,11 @@
 			TeamCreate("CITBoat04", 1002, CVector(6197, 255, 3973), {"CDPH01_SmlboatCIT01"})
 			TeamCreate("CITBoat05", 1002, CVector(6218, 255, 3989), {"CDPH01_SmlboatCIT01"})
 
-			TeamCreate("CITLav01", 1010, CVector(5790, 285, 3907), {"CDPH01_LavCIT01"})
-			TeamCreate("CITLav02", 1010, CVector(5818, 285, 3912), {"CDPH01_LavCIT01"})
-			TeamCreate("CITLav03", 1010, CVector(5839, 285, 3919), {"CDPH01_LavCIT01"})
-			TeamCreate("CITLav04", 1010, CVector(6334, 278, 3897), {"CDPH01_LavCIT01"})
-			TeamCreate("CITLav05", 1010, CVector(6334, 288, 3805), {"CDPH01_LavCIT01"})
+			CreateCaravanTeam("CITLav01", 1010, CVector(5790, 285, 3907), {"CDPH01_LavCIT01"})
+			CreateCaravanTeam("CITLav02", 1010, CVector(5818, 285, 3912), {"CDPH01_LavCIT01"})
+			CreateCaravanTeam("CITLav03", 1010, CVector(5839, 285, 3919), {"CDPH01_LavCIT01"})
+			CreateCaravanTeam("CITLav04", 1010, CVector(6334, 278, 3897), {"CDPH01_LavCIT01"})
+			CreateCaravanTeam("CITLav05", 1010, CVector(6334, 288, 3805), {"CDPH01_LavCIT01"})
 
 			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_01", -1, -1, CVector(5839.552, 271.012, 3919.798), Quaternion(0.0000, -0.1715, 0.0000, 0.9852), 1 )
 			CreateNewDummyObject( "quay_big_cube",	"psaradon_fortress_02", -1, -1, CVector(5814.607, 271.009, 3911.965), Quaternion(0.0000, -0.1327, 0.0000, 0.9912), 1 )
@@ -578,10 +578,10 @@
 			-- =============
 			--  CIT Reserves
 			-- =============
-			TeamCreate("CITCruiser01", 1003, CVector(4610, 255, 5932), {"CDPH01_OCruiserCIT01"})
+			TeamCreate("CITOldCruiser01", 1003, CVector(4610, 255, 5932), {"CDPH01_OCruiserCIT01"})
 			TeamCreate("CITDestroyer05", 1003, CVector(4585, 255, 6081), {"CDPH01_DestroyerCIT02"})
-			TeamCreate("CITCruiser02", 1003, CVector(4484, 255, 6158), {"CDPH01_OCruiserCIT03"})
-			TeamCreate("CITCruiser03", 1003, CVector(4464, 255, 6291), {"CDPH01_OCruiserCIT02"})
+			TeamCreate("CITOldCruiser02", 1003, CVector(4484, 255, 6158), {"CDPH01_OCruiserCIT03"})
+			TeamCreate("CITOldCruiser03", 1003, CVector(4464, 255, 6291), {"CDPH01_OCruiserCIT02"})
 
 			TeamCreate("CITHelicopter01", 1006, CVector(4200, 255, 6339), {"CDPH01_HeliCIT0"..math.random(4)})
 			TeamCreate("CITHelicopter02", 1006, CVector(4216, 255, 6417), {"CDPH01_HeliCIT0"..math.random(4)})
@@ -615,7 +615,6 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 			local Plf = GetPlayerVehicle()
-
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
 			end
@@ -713,18 +712,113 @@
 			end
 
 			TakeQuest("CD_PH01")
+			TakeQuest("CD_PH01_DestroyTurrets")
 
-			TActivate("CDDestroyersWaypointManager")
+			TActivate("CDDestroyersFormationManager")
+			TActivate("CITTorpedoBoatsFormationManager")
+			TActivate("CITDestroyersFormationManager")
+			TActivate("CITTorpedoBoatsDestroyed")
+			TActivate("CITDestroyersDestroyed")
+			TActivate("CITCoastalGunsDestroyed")
+			TActivate("CITOldCruisersDestroyed")
+			TActivate("CITTorpedoBoatsOrder")
+			TActivate("CITDestroyersOrder")
+			TActivate("CITCoastalGunsOrder")
+			TActivate("CITOldCruisersOrder")
+			TActivate("CITHelicoptersOrder")
+
+			SetVar("MissionStage", 1)
+
+			TActivate("AutoSave")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="AutoSave" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:setGodMode(1)
+			end
+
+			trigger:Deactivate()
+
+			TActivate("AutoReload")
+
+			AutoSave()
+			
+		</script>
+	</trigger>
+
+	<trigger Name="AutoReload" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Plf = GetPlayerVehicle()
+
+			if Plf:getGodMode() then
+				SpawnMessageBox( "1003" )
+				ShowDeathMenu()
+			else
+				AddImportantFadingMsgByStrIdFormatted("fm_nightvision")
+			end
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="CDDestroyersWaypointManager" active="0">
+	<trigger Name="CDDestroyersFormationManager" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer01_vehicle_0" />
 		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer02_vehicle_0" />
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<script>
+			local MissionStage = GetVar("MissionStage").AsInt
+
+			local CDD01a = getObj("CDDestroyer01_vehicle_0")
+			local CDD02a = getObj("CDDestroyer02_vehicle_0")
+			local CDM01a = getObj("CDMerchant01_vehicle_0")
+			local CDM02a = getObj("CDMerchant02_vehicle_0")
+
+			if CDD01a then
+				if MissionStage == 3 then
+					CDD01a:SetCruisingSpeed(10)
+				elseif MissionStage == 2 then
+					CDD01a:SetCruisingSpeed(7)
+				else
+					CDD01a:SetCruisingSpeed(3)
+				end
+			end
+
+			if CDD02a then
+				if MissionStage == 3 then
+					CDD02a:SetCruisingSpeed(7)
+				elseif MissionStage == 2 then
+					CDD02a:SetCruisingSpeed(5)
+				else
+					CDD02a:SetCruisingSpeed(3)
+				end
+			end
+
+			if CDM01a then
+				if MissionStage == 3 then
+					CDM02a:SetCruisingSpeed(2)
+				else
+					CDM02a:SetCruisingSpeed(3)
+				end
+			end
+
+			if CDM02a then
+				if MissionStage == 3 then
+					CDM02a:SetCruisingSpeed(2)
+				else
+					CDM02a:SetCruisingSpeed(3)
+				end
+			end
+
+			-- ================ --
+			-- Waypoint Manager --
+			-- ================ --
 			local vehicles = {"CDDestroyer01", "CDDestroyer02"}
 			local currentVehicleName -- "CDDestroyer01"
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
@@ -734,79 +828,610 @@
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
 			local triggerObjName = trigger:GetCallObjName()
-			if triggerObjName=="CDDestroyer01_vehicle_0" then
-				currentVehicleName = vehicles[1]
+			for i=1, getn(vehicles) do
+				currentVehicleName = vehicles[i]
 				currentVehicle = getObj(currentVehicleName.."_vehicle_0")
-				println("trigger object is "..currentVehicleName)
-				currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
-				currentWaypoint = currentVehicleWaypointInfo[1] + 2
-				if currentVehicleWaypointInfo[2] > currentWaypoint then
-					println("there are waypoints for "..currentVehicleName)
-					currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
-					currentVehicleWaypointInfo[1] = currentWaypoint - 1
-					SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
-					println(currentVehicleName.." is set for a new waypoint")
-				else
-					println("maximum waypoints for "..currentVehicleName.." reached")
-				end
-			elseif triggerObjName=="CDDestroyer02_vehicle_0" then
-				currentVehicleName = vehicles[2]
-				currentVehicle = getObj(currentVehicleName.."_vehicle_0")
-				println("trigger object is "..currentVehicleName)
-				currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
-				currentWaypoint = currentVehicleWaypointInfo[1] + 2
-				if currentVehicleWaypointInfo[2] > currentWaypoint then
-					println("there are waypoints for "..currentVehicleName)
-					currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
-					currentVehicleWaypointInfo[1] = currentWaypoint - 1
-					SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
-					println(currentVehicleName.." is set for a new waypoint")
-				else
-					println("maximum waypoints for "..currentVehicleName.." reached")
-				end
-			else
-				println("trigger object is the pendulum")
-				-- it's pendulum that triggered the activation
-				-- check if the ships are moving
-				-- if they haven't moved for 3 cycles = set them on the current waypoint
-				for i=1, getn(vehicles) do
-					currentVehicleName = vehicles[i]
-					currentVehicle = getObj(currentVehicleName.."_vehicle_0")
-					if currentVehicle then
-						println(currentVehicleName.." exists")
-						currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
-						if 3 > GetSpeed(currentVehicle) then
-							println(currentVehicleName.." speed is too low")
-							checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
-							println("checks amount is "..checksAmount)
-							if checksAmount >= 3 then
-								println("there have been 3 checks for "..currentVehicleName)
-								currentWaypoint = currentVehicleWaypointInfo[1] + 1
-								if currentVehicleWaypointInfo[2] > currentWaypoint then
-									currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
-									println(currentVehicleName.." set for the current waypoint")
-								else
-									println("maximum waypoints for "..currentVehicleName.." reached")
-								end
-							end
-						else
-							println(currentVehicleName.." speed is fine")
-							checksAmount = 0 -- the speed of the vehicle is okay, the checks are dropped
-						end
+				if triggerObjName==currentVehicleName.."_vehicle_0" then
+					println("trigger object is "..currentVehicleName)
+					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
+					currentWaypoint = currentVehicleWaypointInfo[1] + 2
+					if currentVehicleWaypointInfo[2] > currentWaypoint then
+						println("there are waypoints for "..currentVehicleName)
+						currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
+						currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+--						currentVehicleWaypointInfo[1] = currentWaypoint - 1
+--						SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+						println(currentVehicleName.." is set for a new waypoint")
+						LOG(currentVehicleName.." is set for a new waypoint")
+					else
+						println("maximum waypoints for "..currentVehicleName.." reached")
+					end
 
-						currentWaypoint = currentWaypoint - 1
-						currentVehicleWaypointInfo[1] = currentWaypoint
-						currentVehicleWaypointInfo[3] = checksAmount
-						SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
-						println(currentVehicleName.." waypoint info updated")
-						if currentVehicleWaypointInfo[1] >= currentVehicleWaypointInfo[2] then
-							vehicleTargetsReached = vehicleTargetsReached + 1
+					currentWaypoint = currentWaypoint - 1
+					currentVehicleWaypointInfo[1] = currentWaypoint
+					currentVehicleWaypointInfo[3] = checksAmount
+					SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+					println(currentVehicleName.." waypoint info updated")
+
+					break
+				elseif triggerObjName=="ThePendulum" then
+					println("trigger object is the pendulum")
+					-- it's pendulum that triggered the activation
+					-- check if the ships are moving
+					-- if they haven't moved for 3 cycles = set them on the current waypoint
+					for i=1, getn(vehicles) do
+						currentVehicleName = vehicles[i]
+						currentVehicle = getObj(currentVehicleName.."_vehicle_0")
+						if currentVehicle then
+							println(currentVehicleName.." exists")
+							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
+							currentWaypoint = currentVehicleWaypointInfo[1] + 1
+							if 3 > GetSpeed(currentVehicle) then
+								println(currentVehicleName.." speed is too low")
+								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
+								println("checks amount is "..checksAmount)
+								if checksAmount >= 3 then
+									println("there have been 3 checks for "..currentVehicleName)
+--									currentWaypoint = currentVehicleWaypointInfo[1] + 1
+									if currentVehicleWaypointInfo[2] > currentWaypoint then
+										currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
+										currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+										println(currentVehicleName.." set for the current waypoint")
+									else
+										println("maximum waypoints for "..currentVehicleName.." reached")
+									end
+								end
+							else
+								println(currentVehicleName.." speed is fine")
+								checksAmount = 0 -- the speed of the vehicle is okay, the checks are dropped
+							end
+
+							currentWaypoint = currentWaypoint - 1
+							currentVehicleWaypointInfo[1] = currentWaypoint
+							currentVehicleWaypointInfo[3] = checksAmount
+							SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+							println(currentVehicleName.." waypoint info updated")
+							if currentVehicleWaypointInfo[1] >= currentVehicleWaypointInfo[2] then
+								vehicleTargetsReached = vehicleTargetsReached + 1
+							end
 						end
 					end
+
+					break
 				end
 			end
 
 			if vehicleTargetsReached==getn(vehicles) then
+				println("all vehicles reached their targets")
+				LOG("ALL CD DESTROYERS REACHED THE TARGET")
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITTorpedoBoatsFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CITTB01a = getObj("CITTorpedoBoat01_vehicle_0")
+			local CITTB02a = getObj("CITTorpedoBoat02_vehicle_0")
+			local CITTB03a = getObj("CITTorpedoBoat03_vehicle_0")
+			local CITTB04a = getObj("CITTorpedoBoat04_vehicle_0")
+
+			if CITTB01a or CITTB02a or CITTB03a or CITTB04a then
+				if CITTB01a then
+					CITTB01a:SetCruisingSpeed(20)
+				end
+
+				if CITTB02a then
+					CITTB02a:SetCruisingSpeed(20)
+				end
+
+				if CITTB03a then
+					CITTB03a:SetCruisingSpeed(20)
+				end
+
+				if CITTB04a then
+					CITTB04a:SetCruisingSpeed(20)
+				end
+			else
+				LOG("CIT TORPEDO BOAT FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITDestroyersFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CITD01a = getObj("CITDestroyer01_vehicle_0")
+			local CITD02a = getObj("CITDestroyer02_vehicle_0")
+			local CITD03a = getObj("CITDestroyer03_vehicle_0")
+			local CITD04a = getObj("CITDestroyer04_vehicle_0")
+
+			if CITD01a or CITD02a or CITD03a or CITD04a then
+				if CITD01a then
+					CITD01a:SetCruisingSpeed(4)
+				end
+
+				if CITD02a then
+					CITD02a:SetCruisingSpeed(4)
+				end
+
+				if CITD03a then
+					CITD03a:SetCruisingSpeed(4)
+				end
+
+				if CITD04a then
+					CITD04a:SetCruisingSpeed(4)
+				end
+			else
+				LOG("CIT DESTROYER FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITCruisersFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CITOC01a = getObj("CITOldCruiser01_vehicle_0")
+			local CITD05a = getObj("CITDestroyer05_vehicle_0")
+			local CITOC02a = getObj("CITOldCruiser02_vehicle_0")
+			local CITOC03a = getObj("CITOldCruiser03_vehicle_0")
+
+			if CITOC01a or CITD05a or CITOC02a or CITOC03a then
+				if CITOC01a then
+					CITOC01a:SetCruisingSpeed(7)
+				end
+
+				if CITD05a then
+					CITD05a:SetCruisingSpeed(7)
+				end
+
+				if CITOC02a then
+					CITOC02a:SetCruisingSpeed(7)
+				end
+
+				if CITOC03a then
+					CITOC03a:SetCruisingSpeed(7)
+				end
+			else
+				LOG("CIT CRUISER FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITTorpedoBoatsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat04_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8]}
+
+			if CheckUnits(Enemies, "dead", 4) then
+				UpdateUnitsStats()
+				LOG("TORPEDO BOATS KILLED")
+
+				CompleteQuest("CD_PH01_DestroyBoats")
+
+				TDeactivate("CITTorpedoBoatsFormationManager")
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CD_PH01_DestroyBoats", Enemies)
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITDestroyersDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer04_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4]}
+
+			if CheckUnits(Enemies, "dead", 4) then
+				UpdateUnitsStats()
+				LOG("DESTROYERS KILLED")
+
+				CompleteQuest("CD_PH01_DestroyDestroyers")
+
+				TDeactivate("CITDestroyersFormationManager")
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CD_PH01_DestroyDestroyers", Enemies)
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITCoastalGunsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30],AllEnemies[31],AllEnemies[32],AllEnemies[33],AllEnemies[34],AllEnemies[35],AllEnemies[36]}
+
+			if CheckUnits(Enemies, "dead", 13) then
+				UpdateUnitsStats()
+				LOG("COASTAL GUNS KILLED")
+
+				CompleteQuest("CD_PH01_DestroyTurrets")
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CD_PH01_DestroyTurrets", Enemies)
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITCruisersDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer05_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[19],AllEnemies[20],AllEnemies[21],AllEnemies[22]}
+
+			if CheckUnits(Enemies, "dead", 4) then
+				UpdateUnitsStats()
+				LOG("CRUISERS KILLED")
+
+				CompleteQuest("CD_PH01_DestroyCruisers")
+
+				TDeactivate("CITCruisersFormationManager")
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CD_PH01_DestroyCruisers", Enemies)
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITTorpedoBoatsOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITTorpedoBoat01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITTorpedoBoat02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITTorpedoBoat03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITTorpedoBoat04_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITTorpedoBoat01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITTorpedoBoat02_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITTorpedoBoat03_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITTorpedoBoat04_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			LOG("boats order 1")
+			local Enemies = {AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8]}
+			LOG("boats order 2")
+			UpdateQuestCoordinates("CD_PH01_DestroyBoats", Enemies)
+			LOG("boats order 3")
+
+			UpdateUnitsStats()
+			LOG("boats order 4")
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cd_ph01_boats")
+			LOG("KILL TORPEDO BOATS")
+
+			TakeQuest("CD_PH01_DestroyBoats")
+
+			SetVar("MissionStage", 1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITDestroyersOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer04_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer02_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer03_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer04_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4]}
+			UpdateQuestCoordinates("CD_PH01_DestroyDestroyers", Enemies)
+			
+			UpdateUnitsStats()
+
+			TDeactivate("CITDestroyersFormationManager")
+
+			local CITD01a = getObj(AllEnemies[1])
+			local CITD02a = getObj(AllEnemies[2])
+			local CITD03a = getObj(AllEnemies[3])
+			local CITD04a = getObj(AllEnemies[4])
+
+			if CITD01a then
+				CITD01a:SetCruisingSpeed(15)
+				CITD01a:SetExternalPathByName("CITTorpedoBoat04_Waypoint1")
+			end
+
+			if CITD02a then
+				CITD02a:SetCruisingSpeed(15)
+				CITD01a:SetExternalPathByName("CITTorpedoBoat02_Waypoint1")
+			end
+
+			if CITD03a then
+				CITD03a:SetCruisingSpeed(15)
+				CITD01a:SetExternalPathByName("CITTorpedoBoat01_Waypoint1")
+			end
+
+			if CITD04a then
+				CITD04a:SetCruisingSpeed(15)
+				CITD01a:SetExternalPathByName("StartPath_Player")
+			end
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cd_ph01_destroyers")
+			LOG("KILL DESTROYERS")
+
+			TakeQuest("CD_PH01_DestroyDestroyers")
+
+			SetVar("MissionStage", 2)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCoastalGunsOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun01" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun02" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun03" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun04" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30],AllEnemies[31],AllEnemies[32],AllEnemies[33],AllEnemies[34],AllEnemies[35],AllEnemies[36]}
+			UpdateQuestCoordinates("CD_PH01_DestroyTurrets", Enemies)
+
+			UpdateUnitsStats()
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cd_ph01_garrison")
+			LOG("KILL COASTAL GUNS")
+
+			SetVar("MissionStage", 2)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITOldCruisersOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITOldCruiser01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer05_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITOldCruiser02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITOldCruiser03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[19],AllEnemies[20],AllEnemies[21],AllEnemies[22]}
+			UpdateQuestCoordinates("CD_PH01_DestroyCruisers", Enemies)
+
+			UpdateUnitsStats()
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cd_ph01_cruisers")
+			LOG("KILL CRUISERS")
+
+			TakeQuest("CD_PH01_DestroyCruisers")
+
+			SetVar("MissionStage", 4)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITHelicoptersOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITHelicopter01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITHelicopter02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITHelicopter03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITHelicopter04_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30],AllEnemies[31],AllEnemies[32],AllEnemies[33],AllEnemies[34],AllEnemies[35],AllEnemies[36]}
+
+			if CheckUnits(Enemies, "dead", 5) then
+				UpdateUnitsStats()
+
+				local CITH01 = getObj("CITHelicopter01")
+				local CITH02 = getObj("CITHelicopter02")
+				local CITH03 = getObj("CITHelicopter03")
+				local CITH04 = getObj("CITHelicopter04")
+
+				if CITH01 then
+					CITH01:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					CITH01:_AdjustBehaviour ()
+				end
+
+				if CITH02 then
+					CITH02:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					CITH02:_AdjustBehaviour ()
+				end
+
+				if CITH03 then
+					CITH03:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					CITH03:_AdjustBehaviour ()
+				end
+
+				if CITH04 then
+					CITH04:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					CITH04:_AdjustBehaviour ()
+				end
+
+				local CITH01a = getObj("CITHelicopter01_vehicle_0")
+				local CITH02a = getObj("CITHelicopter02_vehicle_0")
+				local CITH03a = getObj("CITHelicopter03_vehicle_0")
+				local CITH04a = getObj("CITHelicopter04_vehicle_0")
+
+				if CITH01a then
+					CITH01a:SetCruisingSpeed(20)
+					CITH01a:SetExternalPathByName("CITHelicopter01_Waypoint1")
+					CITH01a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITH02a then
+					CITH02a:SetCruisingSpeed(20)
+					CITH02a:SetExternalPathByName("CITHelicopter02_Waypoint1")
+					CITH02a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITH03a then
+					CITH03a:SetCruisingSpeed(20)
+					CITH03a:SetExternalPathByName("CITHelicopter03_Waypoint1")
+					CITH03a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITH04a then
+					CITH04a:SetCruisingSpeed(20)
+					CITH04a:SetExternalPathByName("CITHelicopter04_Waypoint1")
+					CITH04a:SetCanBeDistractedFromMoving(true)
+				end
+
+				AddFadingMsgId("fm_aircraft_enroute_foe")
+				AddImportantFadingMsgByStrIdFormatted("fm_cd_ph01_helicopters")
+				LOG("HELICOPTERS INBOUND")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITReinforcements" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer04_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITHelicopter01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITHelicopter02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITHelicopter03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITHelicopter04_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4],AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[23],AllEnemies[24],AllEnemies[25],AllEnemies[26],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30],AllEnemies[31],AllEnemies[32],AllEnemies[33],AllEnemies[34],AllEnemies[35],AllEnemies[36]}
+
+			if CheckUnits(Enemies, "dead", 19) then
+				UpdateUnitsStats()
+
+				local CITOC01 = getObj("CITOldCruiser01")
+				local CITD05 = getObj("CITDestroyer05")
+				local CITOC02 = getObj("CITOldCruiser02")
+				local CITOC03 = getObj("CITOldCruiser03")
+
+				if CITOC01 then
+					CITOC01:SetProperty ("TeamTacticPrototype", "BoxTactic")
+					CITOC01:_AdjustBehaviour ()
+				end
+
+				if CITD05 then
+					CITD05:SetProperty ("TeamTacticPrototype", "BoxTactic")
+					CITD05:_AdjustBehaviour ()
+				end
+
+				if CITOC02 then
+					CITOC02:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					CITOC02:_AdjustBehaviour ()
+				end
+
+				if CITOC03 then
+					CITOC03:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					CITOC03:_AdjustBehaviour ()
+				end
+
+				local CITOC01a = getObj("CITOldCruiser01_vehicle_0")
+				local CITD05a = getObj("CITDestroyer05_vehicle_0")
+				local CITOC02a = getObj("CITOldCruiser02_vehicle_0")
+				local CITOC03a = getObj("CITOldCruiser03_vehicle_0")
+
+				if CITOC01a then
+					CITOC01a:SetCruisingSpeed(7)
+					CITOC01a:SetExternalPathByName("CITOldCruiser01_Waypoint1")
+					CITOC01a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITD05a then
+					CITD05a:SetCruisingSpeed(7)
+					CITD05a:SetExternalPathByName("CITDestroyer05_Waypoint1")
+					CITD05a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITOC02a then
+					CITOC02a:SetCruisingSpeed(7)
+					CITOC02a:SetExternalPathByName("CITOldCruiser02_Waypoint1")
+					CITOC02a:SetCanBeDistractedFromMoving(true)
+				end
+
+				if CITOC03a then
+					CITOC03a:SetCruisingSpeed(7)
+					CITOC03a:SetExternalPathByName("CITOldCruiser03_Waypoint1")
+					CITOC03a:SetCanBeDistractedFromMoving(true)
+				end
+
+				AddFadingMsgId("fm_reinforcements_inbound_foe")
+				LOG("ENEMY REINFORCEMENTS INBOUND")
+
+				TActivate("CITCruisersFormationManager")
+
 				trigger:Deactivate()
 			end
 

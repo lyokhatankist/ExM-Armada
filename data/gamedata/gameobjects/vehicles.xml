@@ -2462,7 +2462,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CDPH01_DestroyerCD01"
 		ParentPrototype 		= "DestroyerCD"
-		LookRadius				= "300.0"
+		LookRadius				= "600.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -2474,9 +2474,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CABIN"						Prototype = "destroyerCDEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerCD135Armanent" />
 			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_twin135CD01" />
-			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_twin135CD02" />
+			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SMALL_GUN_6"			Prototype = "mun_twin135CD01" />
-			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_twin135CD02" />
+			<Part id = "BASKET_SMALL_GUN_7"			Prototype = "mun_twin135CD01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDRocket01" />
@@ -2488,7 +2488,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CDPH01_DestroyerCD02"
 		ParentPrototype 		= "DestroyerCD"
-		LookRadius				= "300.0"
+		LookRadius				= "750.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -2501,10 +2501,10 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "destroyerCD127Armanent" />
 			<Part id = "BASKET_SMALL_GUN_0"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_twin127CD01" />
-			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_twin127CD02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_twin127CD01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDRocket01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDRocket01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCDMachinegun01" />
 		</Parts>
 	</Prototype>
@@ -2594,9 +2594,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CHASSIS_TURRET_GUN_3"		Prototype = "single130CIT01" />
 			<Part id = "CABIN"						Prototype = "destroyerCITEngine" />
 			<Part id = "BASKET"						Prototype = "destroyerCIT130Armanent" />
-			<Part id = "BASKET_SMALL_GUN_0"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_0"			Prototype = "mun_single130CIT02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT02" />
-			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT02" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
@@ -2619,9 +2619,9 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CABIN"						Prototype = "destroyerCITEngineMod" />
 			<Part id = "BASKET"						Prototype = "destroyerCIT138Armanent" />
 			<Part id = "BASKET_SMALL_GUN_3"			Prototype = "mun_single138CIT01" />
-			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT01" />
+			<Part id = "BASKET_SMALL_GUN_4"			Prototype = "mun_single138CIT02" />
 			<Part id = "BASKET_SMALL_GUN_5"			Prototype = "mun_single138CIT01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" />
+			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />

@@ -159,25 +159,25 @@
 	</Path>
 
 	<Path
-		Name="CITCruiser01_Waypoint1">
+		Name="CITOldCruiser01_Waypoint1">
 		<Point
 			coord="5642 4195" />
 	</Path>
 
 	<Path
-		Name="CDDestroyer05_Waypoint1">
+		Name="CITDestroyer05_Waypoint1">
 		<Point
 			coord="5617 4344" />
 	</Path>
 
 	<Path
-		Name="CITCruiser02_Waypoint1">
+		Name="CITOldCruiser02_Waypoint1">
 		<Point
 			coord="5516 4420" />
 	</Path>
 
 	<Path
-		Name="CITCruiser03_Waypoint1">
+		Name="CITOldCruiser03_Waypoint1">
 		<Point
 			coord="5496 4553" />
 	</Path>
