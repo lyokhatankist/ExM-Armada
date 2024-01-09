@@ -61,37 +61,37 @@
 	<Path
 		Name="CDDestroyer01_Waypoint1">
 		<Point
-			coord="5555 4594" />
+			coord="5282 4086" />
 	</Path>
 
 	<Path
 		Name="CDDestroyer02_Waypoint1">
 		<Point
-			coord="5653 4764" />
+			coord="4770 4256" />
 	</Path>
 
 	<Path
 		Name="CDDestroyer01_Waypoint2">
 		<Point
-			coord="7857 4594" />
+			coord="7963 4479" />
 	</Path>
 
 	<Path
 		Name="CDDestroyer02_Waypoint2">
 		<Point
-			coord="7345 4764" />
+			coord="7889 4402" />
 	</Path>
 
 	<Path
 		Name="CDMerchant01_Waypoint1">
 		<Point
-			coord="7723 4746" />
+			coord="7827 4702" />
 	</Path>
 
 	<Path
 		Name="CDMerchant02_Waypoint1">
 		<Point
-			coord="7479 4637" />
+			coord="7584 4594" />
 	</Path>
 
 	<Path

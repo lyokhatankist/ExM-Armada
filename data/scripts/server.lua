@@ -2079,7 +2079,7 @@ function CalcMissionStats(plDead)
 	if isTableEmpty ~= nil then
 		for i=1, getn(friendliesStart) do
 			println(friendliesStart[i])
-			if CheckUnits(friendliesStart[i]) then
+			if CheckUnits(friendliesStart[i]) and friendliesEndHealth[i]~=0 then
 				friendliesEnd[p] = friendliesStart[i]
 				friendliesEndTypes[p] = friendliesStartTypes[i]
 				friendliesEndPrototypes[p] = friendliesStartPrototypes[i]
@@ -2131,7 +2131,7 @@ function CalcMissionStats(plDead)
 --	d = 1
 	if isTableEmpty ~= nil then
 		for i=1, getn(enemiesStart) do
-			if CheckUnits(enemiesStart[i]) then
+			if CheckUnits(enemiesStart[i]) and enemiesEndHealth[i]~=0 then
 				enemiesEnd[p] = enemiesStart[i]
 				enemiesEndFirepower[p] = enemiesStartFirepower[i]
 				enemiesEndManeuverability[p] = enemiesStartManeuverability[i]

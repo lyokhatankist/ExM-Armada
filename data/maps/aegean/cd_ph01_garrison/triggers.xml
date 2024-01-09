@@ -252,12 +252,10 @@
 
 		</script>
 	</trigger>
-<!--
+
 	<trigger Name="RetreatStart" active="1">
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat02Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat03Loc" />
 		<script>
 			TActivate("Retreat")
 
@@ -268,12 +266,9 @@
 	<trigger Name="Retreat" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
 		<script>
-			local Enemies = StringToTable(GetVar("Enemies").AsString)
-			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
-			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4],AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8],AllEnemies[9],AllEnemies[10],AllEnemies[11],AllEnemies[12],AllEnemies[13],AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[17],AllEnemies[18],AllEnemies[23],AllEnemies[24],AllEnemies[25],AllEnemies[26],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30]}
 
 			UpdateUnitsStats()
 
@@ -281,16 +276,37 @@
 			if b == 1 then
 				trigger:Deactivate()
 
-				if not(IsQuestTaken("CIT_PH01_Retreat")) then
-					FailQuest("CIT_PH01")
+				local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+				if not(CheckUnits(Enemies, "dead", 26)) then
+					if not(IsQuestComplete("CD_PH01_EscortFirst")) then
+						if CheckUnits("CDMerchant01_vehicle_0") then
+							FriendliesHealth[3] = 0
+							SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+						end
+
+						FailQuest("CD_PH01_EscortFirst")
+					end
+
+					if not(IsQuestComplete("CD_PH01_EscortSecond")) then
+						if CheckUnits("CDMerchant02_vehicle_0") then
+							FriendliesHealth[4] = 0
+							SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+						end
+
+						FailQuest("CD_PH01_EscortSecond")
+					end
+				end
+	
+				if not(IsQuestTaken("CD_PH01_Retreat")) then
+					FailQuest("CD_PH01")
 				else
-					CompleteQuest("CIT_PH01_Retreat")
+					CompleteQuest("CD_PH01_Retreat")
 				end
 
-				if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
-					GiveScore(21000)
-					println("additional score given")
-				end
+				FailQuestIfTaken("CD_PH01_DestroyBoats")
+				FailQuestIfTaken("CD_PH01_DestroyDestroyers")
+				FailQuestIfTaken("CD_PH01_DestroyTurrets")
+				FailQuestIfTaken("CD_PH01_DestroyCruisers")
 
 				UpdateUnitsStats()
 
@@ -306,27 +322,44 @@
 		</script>
 	</trigger>
 
-	<trigger Name="Leave" active="1">
+	<trigger Name="Leave" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave02Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave03Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave04Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave05Loc" />
 		<script>
-			local Enemies = StringToTable(GetVar("Enemies").AsString)
-			local ReservesEnemies = {Enemies[9],Enemies[10],Enemies[11],Enemies[12],Enemies[13]}
-			local ReinforcementsEnemies = {"CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4],AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8],AllEnemies[9],AllEnemies[10],AllEnemies[11],AllEnemies[12],AllEnemies[13],AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[17],AllEnemies[18],AllEnemies[23],AllEnemies[24],AllEnemies[25],AllEnemies[26],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30]}
 
-			if not(IsQuestTaken("CIT_PH01_Retreat")) then
-				FailQuest("CIT_PH01")
+			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+			if not(CheckUnits(Enemies, "dead", 26)) then
+				if not(IsQuestComplete("CD_PH01_EscortFirst")) then
+					if CheckUnits("CDMerchant01_vehicle_0") then
+						FriendliesHealth[3] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortFirst")
+				end
+
+				if not(IsQuestComplete("CD_PH01_EscortSecond")) then
+					if CheckUnits("CDMerchant02_vehicle_0") then
+						FriendliesHealth[4] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortSecond")
+				end
+			end
+
+			if not(IsQuestTaken("CD_PH01_Retreat")) then
+				FailQuest("CD_PH01")
 			else
-				CompleteQuest("CIT_PH01_Retreat")
+				CompleteQuest("CD_PH01_Retreat")
 			end
 
-			if CheckUnits(ConvergeTables(ReservesEnemies, ReinforcementsEnemies), "dead", 8) then
-				GiveScore(21000)
-				println("additional score given")
-			end
+			FailQuestIfTaken("CD_PH01_DestroyBoats")
+			FailQuestIfTaken("CD_PH01_DestroyDestroyers")
+			FailQuestIfTaken("CD_PH01_DestroyTurrets")
+			FailQuestIfTaken("CD_PH01_DestroyCruisers")
 
 			UpdateUnitsStats()
 
@@ -337,7 +370,90 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
--->
+
+	<trigger Name="WarningStart" active="0">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning01Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning02Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning03Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning04Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning05Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning06Loc" />
+		<script>
+			TActivate("Warning")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Warning" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning05Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning06Loc" />
+		<script>
+			local b = SpawnMessageBox( "1002" )
+
+			TActivate("WarningStart")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Desertion" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion05Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion06Loc" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4],AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8],AllEnemies[9],AllEnemies[10],AllEnemies[11],AllEnemies[12],AllEnemies[13],AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[17],AllEnemies[18],AllEnemies[23],AllEnemies[24],AllEnemies[25],AllEnemies[26],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30]}
+
+			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+			if not(CheckUnits(Enemies, "dead", 26)) then
+				if not(IsQuestComplete("CD_PH01_EscortFirst")) then
+					if CheckUnits("CDMerchant01_vehicle_0") then
+						FriendliesHealth[3] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortFirst")
+				end
+
+				if not(IsQuestComplete("CD_PH01_EscortSecond")) then
+					if CheckUnits("CDMerchant02_vehicle_0") then
+						FriendliesHealth[4] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortSecond")
+				end
+			end
+
+			if not(IsQuestTaken("CD_PH01_Retreat")) then
+				FailQuest("CD_PH01")
+			else
+				FailQuest("CD_PH01_Retreat") -- the trigger is identical to Leave, besides this (FailQuest)
+			end
+
+			FailQuestIfTaken("CD_PH01_DestroyBoats")
+			FailQuestIfTaken("CD_PH01_DestroyDestroyers")
+			FailQuestIfTaken("CD_PH01_DestroyTurrets")
+			FailQuestIfTaken("CD_PH01_DestroyCruisers")
+
+			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
+
+			CalcMissionStats(1) -- the trigger is identical to Leave, besides this (1)
+
+			PassToMap("hq", "Headquarters_enter", 90, false)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="MissionStart" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -593,6 +709,7 @@
 			-- =========
 			local Plf = GetPlayerVehicle()
 			if Plf then
+				Plf:SetPosition(CVector(2846, 275, 3987))
 				Plf:SetCruisingSpeed(3)
 				Plf:SetExternalPathByName("StartPath_Player")
 			end
@@ -726,9 +843,11 @@
 			TActivate("CITCoastalGunsOrder")
 			TActivate("CITOldCruisersOrder")
 			TActivate("CITHelicoptersOrder")
+			TActivate("CITReinforcements")
 
 			SetVar("MissionStage", 1)
 
+			TActivate("Leave")
 			TActivate("AutoSave")
 			
 			trigger:Deactivate()
@@ -1094,12 +1213,12 @@
 		</script>
 	</trigger>
 
-	<trigger Name="CITCruisersDestroyed" active="0">
+	<trigger Name="CITOldCruisersDestroyed" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser01_vehicle_0" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer05_vehicle_0" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser02_vehicle_0" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCruiser03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser03_vehicle_0" />
 		<script>
 			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
 			local Enemies = {AllEnemies[19],AllEnemies[20],AllEnemies[21],AllEnemies[22]}
@@ -1227,6 +1346,8 @@
 			LOG("KILL COASTAL GUNS")
 
 			SetVar("MissionStage", 2)
+			SetVar("CDDestroyer01WaypointStatus", {1, 2, 0})
+			SetVar("CDDestroyer02WaypointStatus", {1, 2, 0})
 
 			trigger:Deactivate()
 		</script>
@@ -1404,25 +1525,25 @@
 				local CITOC03a = getObj("CITOldCruiser03_vehicle_0")
 
 				if CITOC01a then
-					CITOC01a:SetCruisingSpeed(7)
+					CITOC01a:SetCruisingSpeed(4)
 					CITOC01a:SetExternalPathByName("CITOldCruiser01_Waypoint1")
 					CITOC01a:SetCanBeDistractedFromMoving(true)
 				end
 
 				if CITD05a then
-					CITD05a:SetCruisingSpeed(7)
+					CITD05a:SetCruisingSpeed(4)
 					CITD05a:SetExternalPathByName("CITDestroyer05_Waypoint1")
 					CITD05a:SetCanBeDistractedFromMoving(true)
 				end
 
 				if CITOC02a then
-					CITOC02a:SetCruisingSpeed(7)
+					CITOC02a:SetCruisingSpeed(4)
 					CITOC02a:SetExternalPathByName("CITOldCruiser02_Waypoint1")
 					CITOC02a:SetCanBeDistractedFromMoving(true)
 				end
 
 				if CITOC03a then
-					CITOC03a:SetCruisingSpeed(7)
+					CITOC03a:SetCruisingSpeed(4)
 					CITOC03a:SetExternalPathByName("CITOldCruiser03_Waypoint1")
 					CITOC03a:SetCanBeDistractedFromMoving(true)
 				end
