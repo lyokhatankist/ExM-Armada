@@ -7,7 +7,8 @@
 
 	<QuestInfo
 		questName="CD_PH01_DestroyBoats"
-		briefDiz="Уничтожить вражеские торпедные катера"
+		briefDiz="Гарнизон - Уничтожить вражеские торпедные катера"
+		fullDiz="Конвой был атакован торпедными катерами."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -16,7 +17,8 @@
 
 	<QuestInfo
 		questName="CD_PH01_DestroyCruisers"
-		briefDiz="Уничтожить вражескую ударную группу"
+		briefDiz="Гарнизон - Уничтожить вражескую ударную группу"
+		fullDiz="На помощь гарнизону острова Псарадон прибыла ударная группа, состоящая из нескольких крейсеров. Нужно защитить сухогрузы от артиллерийского огня."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -25,7 +27,8 @@
 
 	<QuestInfo
 		questName="CD_PH01_DestroyDestroyers"
-		briefDiz="Уничтожить вражеские эсминцы"
+		briefDiz="Гарнизон - Уничтожить вражеские эсминцы"
+		fullDiz="Вражеские эсминцы заметили наш конвой. Их необходимо уничтожить."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -34,7 +37,8 @@
 
 	<QuestInfo
 		questName="CD_PH01_DestroyTurrets"
-		briefDiz="Уничтожить вражеские укрепления"
+		briefDiz="Гарнизон - Уничтожить вражеские укрепления"
+		fullDiz="На пути следования сухогрузов расположены вражеские орудия береговой артиллерии и фортификационные сооружения. Их следует уничтожить, чтобы обезопасить маршрут для наших торговых судов."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -65,7 +69,7 @@
 		isMainQuest="1">
 		<Map
 			name="cd_ph01_garrison"
-			targetObjName="Leave01Loc" />
+			targetObjName="Leave02Loc" />
 	</QuestInfo>
 
 	<QuestInfo

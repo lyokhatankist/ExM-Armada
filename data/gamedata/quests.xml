@@ -46,7 +46,7 @@
 	<quest
 		Name="CD_PH01"
 		Automatic="0"
-		SubQuestsCondition="and"
+		SubQuestsCondition="or"
 		CheckAll="0"
 		ConditionToGive="all complete">
 		<quest
@@ -54,7 +54,7 @@
 			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
+			ConditionToGive="any taken"
 			PrecedingQuests="CD_PH01"
 			OnComplete="CompleteObjective()" />
 
@@ -63,7 +63,7 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
+			ConditionToGive="any taken"
 			PrecedingQuests="CD_PH01"
 			OnComplete="CompleteObjective()" />
 
@@ -72,7 +72,7 @@
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
-			ConditionToGive="all taken"
+			ConditionToGive="any taken"
 			PrecedingQuests="CD_PH01"
 			OnComplete="CompleteObjective()" />
 	</quest>
@@ -84,7 +84,7 @@
 		CheckAll="0"
 		ConditionToGive="all taken"
 		PrecedingQuests="CD_PH01"
-		OnComplete="GiveScore(12000)" />
+		OnComplete="GiveScore(15000)" />
 
 	<quest
 		Name="CD_PH01_DestroyTurrets"
@@ -93,7 +93,7 @@
 		CheckAll="0"
 		ConditionToGive="all taken"
 		PrecedingQuests="CD_PH01"
-		OnComplete="GiveScore(20000)" />
+		OnComplete="GiveScore(30000)" />
 
 	<quest
 		Name="CD_PH01_DestroyCruisers"
@@ -102,7 +102,7 @@
 		CheckAll="0"
 		ConditionToGive="all taken"
 		PrecedingQuests="CD_PH01"
-		OnComplete="GiveScore(16000)" />
+		OnComplete="GiveScore(25000)" />
 
 	<quest
 		Name="CD_PH01_DestroyBoats"
@@ -111,7 +111,7 @@
 		CheckAll="0"
 		ConditionToGive="all taken"
 		PrecedingQuests="CD_PH01"
-		OnComplete="GiveScore(4000)" />
+		OnComplete="GiveScore(3000)" />
 <!--Root/CIT/Placeholder--><!--Root/CIT/Main Campaign--><!--Root/CIT/Placeholder/01_Counterattack-->
 	<quest
 		Name="CIT_PH01"

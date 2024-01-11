@@ -2424,14 +2424,16 @@ function CalcMissionStats(plDead)
 		friendliesStartTotalHealth = friendliesStartTotalHealth + friendliesStartHealth[i]
 	end
 	println("friendlies total starting health "..friendliesStartTotalHealth)
-	isTableEmpty = next(friendliesEnd)
-	if isTableEmpty ~= nil then
---		friendliesEndCount = getn(friendliesEnd)
-		for i=1, friendliesEndCount do
-			friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+	if friendliesEnd ~= nil then
+		isTableEmpty = next(friendliesEnd)
+		if isTableEmpty ~= nil then
+	--		friendliesEndCount = getn(friendliesEnd)
+			for i=1, friendliesEndCount do
+				friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+			end
+	--	else
+	--		friendliesEndCount = 0
 		end
---	else
---		friendliesEndCount = 0
 	end
 	local playerVehicle = GetPlayerVehicle()
 	local playerHealth = GetVar("PlayerHealth").AsInt
@@ -2536,17 +2538,19 @@ function CalcMissionStats(plDead)
 	gFriendliesLosses = round(friendliesLosses)
 	gFriendliesEquipmentLosses = friendliesEquipmentLosses
 	gFriendliesLostNames = ""
-	isTableEmpty = next(friendliesLostNames)
-	if isTableEmpty ~= nil then
-		for i=1, getn(friendliesLostNames) do
-			gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
-			if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
-				gFriendliesLostNames = gFriendliesLostNames..", "
+	if friendliesLostNames ~= nil then
+		isTableEmpty = next(friendliesLostNames)
+		if isTableEmpty ~= nil then
+			for i=1, getn(friendliesLostNames) do
+				gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
+				if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
+					gFriendliesLostNames = gFriendliesLostNames..", "
+				end
 			end
-		end
 
-		if playerDead == 1 then
-			gFriendliesLostNames = gFriendliesLostNames..", "..GetVar("PlayerName").AsString
+			if playerDead == 1 then
+				gFriendliesLostNames = gFriendliesLostNames..", "..GetVar("PlayerName").AsString
+			end
 		end
 	end
 	gEnemiesLossesPercentage = math.floor(enemiesLossesPercentage)
@@ -2560,14 +2564,16 @@ function CalcMissionStats(plDead)
 	gMissionReward = math.floor(missionScore * missionScoreRewardMultiplier)
 	println(gMissionScore)
 	println(gMissionReward)
-	isTableEmpty = next(survivingFriendliesInformation)
-	if isTableEmpty ~= nil then
-		gSurvivingFriendliesInformation = survivingFriendliesInformation
-		for i=1, getn(gSurvivingFriendliesInformation) do
-			println(TableToString(gSurvivingFriendliesInformation[i]))
+	if survivingFriendliesInformation~=nil then
+		isTableEmpty = next(survivingFriendliesInformation)
+		if isTableEmpty ~= nil then
+			gSurvivingFriendliesInformation = survivingFriendliesInformation
+			for i=1, getn(gSurvivingFriendliesInformation) do
+				println(TableToString(gSurvivingFriendliesInformation[i]))
+			end
 		end
 	end
-	
+
 	gMissionCompleted = true
 end
 
@@ -2681,19 +2687,30 @@ function ShowMissionStats()
 			SetVar("CDTotalEquipmentDestroyed", (GetVar("CDTotalEquipmentDestroyed").AsInt + gEnemiesEquipmentLosses))
 		end
 		
+		println("affiliated score set")
 		local convergedTable
-		local isTableEmpty = next(gSurvivingFriendliesInformation)
-		if isTableEmpty ~= nil then
-			for i=1, getn(gSurvivingFriendliesInformation) do
-				println(i)
-				if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
-					convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
-					SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
-				else
-					SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+		local isTableEmpty
+		if gSurvivingFriendliesInformation~=nil then
+			isTableEmpty = next(gSurvivingFriendliesInformation)
+			println("table of surv friends is empty set")
+			if isTableEmpty ~= nil then
+				println("table of surv friends is not empty")
+				for i=1, getn(gSurvivingFriendliesInformation) do
+					println(i)
+					if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
+						println(gSurvivingFriendliesInformation[i][1].." exists")
+						convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
+						SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
+						println("table converged")
+					else
+						println(gSurvivingFriendliesInformation[i][1].." does not exist")
+						SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+						println("table created")
+					end
 				end
 			end
 		end
+		println("surviving friendlies info set")
 
 		gMissionCompleted = nil
 		gCompletionPercentage = nil
@@ -2709,5 +2726,6 @@ function ShowMissionStats()
 		gEnemiesLossesPercentage = nil
 		gEnemiesLosses = nil
 		gEnemiesEquipmentLosses = nil
+		println("function end")
 	end
 end

@@ -83,6 +83,18 @@
 	</Path>
 
 	<Path
+		Name="CDDestroyer01_Waypoint3">
+		<Point
+			coord="7973 4479" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer02_Waypoint3">
+		<Point
+			coord="7899 4402" />
+	</Path>
+
+	<Path
 		Name="CDMerchant01_Waypoint1">
 		<Point
 			coord="7827 4702" />
