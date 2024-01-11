@@ -1367,6 +1367,90 @@ function RestoreAllToleranceStatus()
     end
 end
 
+-- =========================== --
+-- ExM:Rise of Clans functions --
+
+function CreateCaravanTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
+-- Создает команду-караван машин из списка ListOfVehicle
+-- см. CreateTeam()
+	if CreatePos==nil then
+		LOG("No position")
+		return
+	end
+	
+	local _CreatePos=CreatePos
+
+	if type(CreatePos)=="table" then
+		_CreatePos=CreatePos[1]
+	end
+
+	local _Rotate=nil
+
+	if Rotate~=nil then
+		if type(Rotate)=="table" then
+			_Rotate=Rotate[1]
+		else
+			_Rotate=Rotate
+		end
+	end
+
+	local teamID = CreateNewObject{
+			prototypeName = "caravanTeam",
+			objName = Name,
+			belong = Belong
+		}
+	local team=GetEntityByID(teamID)
+	if team then
+--		println("team created")
+		local i=1
+		local id=0
+		while ListOfVehicle[i] do
+			local id = CreateNewObject{
+							prototypeName = ListOfVehicle[i],
+							objName = Name.."_vehicle_"..i-1,
+							belong = Belong
+						}
+			local vehicle = GetEntityByID(id)
+			if vehicle then
+				vehicle:SetRandomSkin()
+			if IsWares==1 then
+				local RandWarez = {"scrap_metal","fuel","machinery"}
+				local r = random(10)
+				vehicle:AddItemsToRepository(RandWarez[r], 1)
+			end
+				
+			-- by Anton: это не нужно, т.к. вызываем SetGamePositionOnGround()
+			-- CreatePos.y = g_ObjCont:GetHeight(CreatePos.x, CreatePos.z) + 1.3 * vehicle:GetSize().y
+			if Rotate then
+				-- by Anton: Устанавливаем вращение перед тем как поставить машинку на землю, ибо это правильно
+					if type(Rotate)=="table" then
+						if Rotate[i]~=nil then	_Rotate=Rotate[i] end
+					end
+					vehicle:SetRotation(Quaternion(_Rotate))
+				end
+				
+				if type(CreatePos)=="table" then
+					if CreatePos[i]~=nil then _CreatePos=CreatePos[i] end
+				end
+		
+				vehicle:SetGamePositionOnGround(_CreatePos)
+				team:AddChild(vehicle)
+
+				local vh_length=1.7 * vehicle:GetSize().z
+				_CreatePos.z=_CreatePos.z+vh_length
+			end
+			i = i + 1
+		end
+	else
+	   println("Error: Can't create team !!!")
+--	   team:Remove()
+		return 0
+	end
+		if WalkPos then
+			team:SetDestination(WalkPos)
+		end
+	return team
+end
 
 -- ==================== --
 -- Battleship functions --
@@ -1378,6 +1462,11 @@ function math.clamp(val, lower, upper)
     assert(val and lower and upper, "not very useful error message here")
     if lower > upper then lower, upper = upper, lower end -- swap if boundaries supplied the wrong way
     return math.max(lower, math.min(upper, val))
+end
+
+-- shortcut for xor in lua
+function xor(x, y)
+	return (x or y) and not (x and y)
 end
 
 -- shortcut for basic rounding without bells and whistles
@@ -1772,6 +1861,39 @@ function CheckDistBetweenUnits(unit, units, checkT)
 	return retVal
 end
 
+-- function that calculates the average distance between all target vehicles
+-- and updates the coordinates for a quest
+function UpdateQuestCoordinates(questName, units)
+	local aliveUnits = {}
+	local j = 1
+	for i=1, getn(units) do
+		if CheckUnits(units[i]) then
+			aliveUnits[j] = units[i]
+			j = j + 1
+		end
+	end
+
+	local aliveUnitsAmount = getn(aliveUnits)
+	local currentUnitCoordinates
+	local commonCoordinates = CVector(0, 0, 0)
+	if aliveUnitsAmount > 0 then
+		for i=1, aliveUnitsAmount do
+			currentUnitCoordinates = getObj(aliveUnits[i]):GetPosition()
+			commonCoordinates.x = commonCoordinates.x + currentUnitCoordinates.x
+			println("commonCoordinate x is "..commonCoordinates.x)
+			commonCoordinates.z = commonCoordinates.z + currentUnitCoordinates.z
+			println("commonCoordinate z is "..commonCoordinates.z)
+		end
+
+		commonCoordinates.x = commonCoordinates.x / aliveUnitsAmount
+		println("[!] commonCoordinate x is "..commonCoordinates.x)
+		commonCoordinates.z = commonCoordinates.z / aliveUnitsAmount
+		println("[!] commonCoordinate z is "..commonCoordinates.z)
+	end
+
+	SetCoordinateForQuest(questName, commonCoordinates)
+end
+
 -- function that updates hp values of all friendly and enemy units on the mission
 function UpdateUnitsStats(plDead)
 	local playerDead = 0
@@ -1791,14 +1913,20 @@ function UpdateUnitsStats(plDead)
 	local isTableEmpty = next(friendliesEndHealth)
 	if isTableEmpty ~= nil then
 		for i=1, getn(friendliesEndHealth) do
-			if getObj(friendliesStart[i]) and getObj(friendliesStart[i]):IsAlive() then
-				assignedMaximumHealth = friendliesStartHealth[i]
-				maximumHealth = friendliesVehicleHealth[i]
-				healthMultiplier = assignedMaximumHealth / maximumHealth
-				currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
-				if currentHealth < friendliesEndHealth[i] then
-					friendliesEndHealth[i] = currentHealth
-					println("friendly numba "..i.." updated")
+			if CheckUnits(friendliesStart[i]) then
+				local unitBelong = getObj(friendliesStart[i]):GetProperty("Belong").AsInt
+				if not(xor(unitBelong~=1008, unitBelong~=1058)) then
+					assignedMaximumHealth = friendliesStartHealth[i]
+					maximumHealth = friendliesVehicleHealth[i]
+					healthMultiplier = assignedMaximumHealth / maximumHealth
+					currentHealth = getObj(friendliesStart[i]):GetHealth() * healthMultiplier
+					if currentHealth < friendliesEndHealth[i] then
+						friendliesEndHealth[i] = currentHealth
+						println("friendly numba "..i.." updated")
+					end
+				else
+					friendliesEndHealth[i] = friendliesStartHealth[i]
+					println("friendly numba "..i.." is a pillbox")
 				end
 				println("friendly numba "..i.." checked")
 			else
@@ -1826,18 +1954,25 @@ function UpdateUnitsStats(plDead)
 	isTableEmpty = next(enemiesEndHealth)
 	if isTableEmpty ~= nil then
 		for i=1, getn(enemiesEndHealth) do
-			if getObj(enemiesStart[i]) and getObj(enemiesStart[i]):IsAlive() then
-				assignedMaximumHealth = enemiesStartHealth[i]
-				maximumHealth = enemiesVehicleHealth[i]
-				healthMultiplier = assignedMaximumHealth / maximumHealth
-				currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
-				if currentHealth < enemiesEndHealth[i] then
-					enemiesEndHealth[i] = currentHealth
-					println("enemy numba "..i.." updated")
+			if CheckUnits(enemiesStart[i]) then
+				local unitBelong = getObj(enemiesStart[i]):GetProperty("Belong").AsInt
+				if not(xor(unitBelong~=1008, unitBelong~=1058)) then
+					assignedMaximumHealth = enemiesStartHealth[i]
+					maximumHealth = enemiesVehicleHealth[i]
+					healthMultiplier = assignedMaximumHealth / maximumHealth
+					currentHealth = getObj(enemiesStart[i]):GetHealth() * healthMultiplier
+					if currentHealth < enemiesEndHealth[i] then
+						enemiesEndHealth[i] = currentHealth
+						println("enemy numba "..i.." updated")
+					end
+				else
+					enemiesEndHealth[i] = enemiesStartHealth[i]
+					println("enemy numba "..i.." is a pillbox")
 				end
 				println("enemy numba "..i.." checked")
 			else
 				enemiesEndHealth[i] = 0
+				println("enemy numba "..i.." checked, dead")
 			end
 		end
 	else
@@ -1944,7 +2079,7 @@ function CalcMissionStats(plDead)
 	if isTableEmpty ~= nil then
 		for i=1, getn(friendliesStart) do
 			println(friendliesStart[i])
-			if CheckUnits(friendliesStart[i]) then
+			if CheckUnits(friendliesStart[i]) and friendliesEndHealth[i]~=0 then
 				friendliesEnd[p] = friendliesStart[i]
 				friendliesEndTypes[p] = friendliesStartTypes[i]
 				friendliesEndPrototypes[p] = friendliesStartPrototypes[i]
@@ -1996,7 +2131,7 @@ function CalcMissionStats(plDead)
 --	d = 1
 	if isTableEmpty ~= nil then
 		for i=1, getn(enemiesStart) do
-			if CheckUnits(enemiesStart[i]) then
+			if CheckUnits(enemiesStart[i]) and enemiesEndHealth[i]~=0 then
 				enemiesEnd[p] = enemiesStart[i]
 				enemiesEndFirepower[p] = enemiesStartFirepower[i]
 				enemiesEndManeuverability[p] = enemiesStartManeuverability[i]
@@ -2151,7 +2286,7 @@ function CalcMissionStats(plDead)
 		-- updating info about surviving friendlies
 		println("updating info")
 		j = 1
-		println("friendlies end count is "..friendliesEndCount)
+		println("friendlies end count before update is "..friendliesEndCount)
 		while j<=getn(friendliesStart) do
 			println("updating info for "..j)
 			if friendliesEndHealth[j]==0 then
@@ -2189,10 +2324,17 @@ function CalcMissionStats(plDead)
 			end
 		end
 
+		friendliesEndCount = getn(friendliesEnd)
+		println("friendlies end count after update is "..friendliesEndCount)
+		println("friendlies end are: "..TableToString(friendliesEnd))
 		println("done updating info")
 
-		friendliesEndCount = getn(friendliesEndHealth)
-		println("friendl end count "..friendliesEndCount)
+--		println("friendliesStart - friendliesEndNames ")
+--		isTableEmpty = next(friendliesEndNames)
+--		if isTableEmpty ~= nil then
+--			friendliesEndCount = getn(friendliesEndNames)
+--		end
+--		println("friendl end count "..friendliesEndCount)
 		println(getn(friendliesEnd))
 		println(getn(friendliesEndHealth))
 		println(getn(friendliesEndTypes))
@@ -2277,13 +2419,21 @@ function CalcMissionStats(plDead)
 	local friendliesEndTotalHealth = 0
 	local friendliesLossesPercentage = 0
 	local friendliesLosses = 0
-	local friendliesEquipmentLosses = getn(friendliesStart) - friendliesEndCount
+	local friendliesEquipmentLosses = getn(friendliesStart) + 1
 	for i=1, getn(friendliesStart) do
 		friendliesStartTotalHealth = friendliesStartTotalHealth + friendliesStartHealth[i]
 	end
 	println("friendlies total starting health "..friendliesStartTotalHealth)
-	for i=1, friendliesEndCount do
-		friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+	if friendliesEnd ~= nil then
+		isTableEmpty = next(friendliesEnd)
+		if isTableEmpty ~= nil then
+	--		friendliesEndCount = getn(friendliesEnd)
+			for i=1, friendliesEndCount do
+				friendliesEndTotalHealth = friendliesEndTotalHealth + friendliesEndHealth[i]
+			end
+	--	else
+	--		friendliesEndCount = 0
+		end
 	end
 	local playerVehicle = GetPlayerVehicle()
 	local playerHealth = GetVar("PlayerHealth").AsInt
@@ -2297,11 +2447,17 @@ function CalcMissionStats(plDead)
 		println("got effective health "..playerCurrentHealth)
 		if playerDead ~= 1 then
 			friendliesEndCount = friendliesEndCount + 1 -- adds player vehicle into the friendlies count for determining whether the objective is complete, it's 30 lines below
+			println("player added to alive friendlies")
+		else
+			println("player died, was not added from alive friendlies")
 		end
 	end
 	println("friendlies total ending health "..friendliesEndTotalHealth)
 	friendliesLossesPercentage = 100 - (friendliesEndTotalHealth + playerCurrentHealth) / (friendliesStartTotalHealth + playerHealth) * 100 -- used to show the player the losses allies took in the final stats
 	friendliesLosses = (friendliesStartTotalHealth - friendliesEndTotalHealth) / 6.5 + (playerHealth - playerCurrentHealth) / 6.5 -- used to show the player the losses allies took in the final stats
+	println("friendlies Start = "..friendliesEquipmentLosses)
+	println("friendlies End = "..friendliesEndCount)
+	friendliesEquipmentLosses = friendliesEquipmentLosses - friendliesEndCount
 	println("friendlies losses percent "..friendliesLossesPercentage)
 	println("friendlies losses in manpower "..friendliesLosses)
 	println("friendlies equipment losses "..friendliesEquipmentLosses)
@@ -2326,17 +2482,18 @@ function CalcMissionStats(plDead)
 	println("objectives "..totalObjectives)
 	local totalObjectivesCompleted = GetVar("ObjectivesCompleted").AsInt
 	println("objectives completed "..totalObjectivesCompleted)
-	if getn(friendliesStart) + 1 == friendliesEndCount then
-		totalObjectivesCompleted = totalObjectivesCompleted + 1
-		missionScore = missionScore + objectiveScoreReward
-		println("all friendlies survived, +1 objective complete")
+	if totalObjectivesCompleted==(totalObjectives - 2) then
+		if getn(friendliesStart) + 1 == friendliesEndCount then
+			totalObjectivesCompleted = totalObjectivesCompleted + 1
+			missionScore = missionScore + objectiveScoreReward
+			println("all friendlies survived, +1 objective complete")
+		end
+		if enemiesEndCount == 0 then
+			totalObjectivesCompleted = totalObjectivesCompleted + 1
+			missionScore = missionScore + objectiveScoreReward
+			println("all enemies are dead, +1 objective complete")
+		end
 	end
-	if enemiesEndCount == 0 then
-		totalObjectivesCompleted = totalObjectivesCompleted + 1
-		missionScore = missionScore + objectiveScoreReward
-		println("all enemies are dead, +1 objective complete")
-	end
-
 	local completionPercentage = totalObjectivesCompleted / totalObjectives * 100
 	println("completion percentage is "..completionPercentage)
 
@@ -2381,17 +2538,19 @@ function CalcMissionStats(plDead)
 	gFriendliesLosses = round(friendliesLosses)
 	gFriendliesEquipmentLosses = friendliesEquipmentLosses
 	gFriendliesLostNames = ""
-	isTableEmpty = next(friendliesLostNames)
-	if isTableEmpty ~= nil then
-		for i=1, getn(friendliesLostNames) do
-			gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
-			if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
-				gFriendliesLostNames = gFriendliesLostNames..", "
+	if friendliesLostNames ~= nil then
+		isTableEmpty = next(friendliesLostNames)
+		if isTableEmpty ~= nil then
+			for i=1, getn(friendliesLostNames) do
+				gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
+				if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
+					gFriendliesLostNames = gFriendliesLostNames..", "
+				end
 			end
-		end
 
-		if playerDead == 1 then
-			gFriendliesLostNames = gFriendliesLostNames..", "..GetVar("PlayerName").AsString
+			if playerDead == 1 then
+				gFriendliesLostNames = gFriendliesLostNames..", "..GetVar("PlayerName").AsString
+			end
 		end
 	end
 	gEnemiesLossesPercentage = math.floor(enemiesLossesPercentage)
@@ -2405,14 +2564,16 @@ function CalcMissionStats(plDead)
 	gMissionReward = math.floor(missionScore * missionScoreRewardMultiplier)
 	println(gMissionScore)
 	println(gMissionReward)
-	isTableEmpty = next(survivingFriendliesInformation)
-	if isTableEmpty ~= nil then
-		gSurvivingFriendliesInformation = survivingFriendliesInformation
-		for i=1, getn(gSurvivingFriendliesInformation) do
-			println(TableToString(gSurvivingFriendliesInformation[i]))
+	if survivingFriendliesInformation~=nil then
+		isTableEmpty = next(survivingFriendliesInformation)
+		if isTableEmpty ~= nil then
+			gSurvivingFriendliesInformation = survivingFriendliesInformation
+			for i=1, getn(gSurvivingFriendliesInformation) do
+				println(TableToString(gSurvivingFriendliesInformation[i]))
+			end
 		end
 	end
-	
+
 	gMissionCompleted = true
 end
 
@@ -2526,19 +2687,30 @@ function ShowMissionStats()
 			SetVar("CDTotalEquipmentDestroyed", (GetVar("CDTotalEquipmentDestroyed").AsInt + gEnemiesEquipmentLosses))
 		end
 		
+		println("affiliated score set")
 		local convergedTable
-		local isTableEmpty = next(gSurvivingFriendliesInformation)
-		if isTableEmpty ~= nil then
-			for i=1, getn(gSurvivingFriendliesInformation) do
-				println(i)
-				if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
-					convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
-					SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
-				else
-					SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+		local isTableEmpty
+		if gSurvivingFriendliesInformation~=nil then
+			isTableEmpty = next(gSurvivingFriendliesInformation)
+			println("table of surv friends is empty set")
+			if isTableEmpty ~= nil then
+				println("table of surv friends is not empty")
+				for i=1, getn(gSurvivingFriendliesInformation) do
+					println(i)
+					if GetVar(gSurvivingFriendliesInformation[i][1]).AsInt~=-1 then
+						println(gSurvivingFriendliesInformation[i][1].." exists")
+						convergedTable = string.sub(GetVar(gSurvivingFriendliesInformation[i][1]).AsString, 1, -2)..', "'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}'
+						SetVar(gSurvivingFriendliesInformation[i][1], convergedTable)
+						println("table converged")
+					else
+						println(gSurvivingFriendliesInformation[i][1].." does not exist")
+						SetVar(gSurvivingFriendliesInformation[i][1], '{"'..TableToString(gSurvivingFriendliesInformation[i], 2)..'"}')
+						println("table created")
+					end
 				end
 			end
 		end
+		println("surviving friendlies info set")
 
 		gMissionCompleted = nil
 		gCompletionPercentage = nil
@@ -2554,5 +2726,6 @@ function ShowMissionStats()
 		gEnemiesLossesPercentage = nil
 		gEnemiesLosses = nil
 		gEnemiesEquipmentLosses = nil
+		println("function end")
 	end
 end

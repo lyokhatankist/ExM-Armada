@@ -154,4 +154,23 @@
 
 		</script>
 	</trigger>
+
+	<trigger Name="CDPH01_Garrison" active="0">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<script>
+			local missionLoc = GetVar("MissionLoc").AsString
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				local missionParams = StringToTable(GetVar("MissionParams").AsString)
+				gMissionTime = StringToTable(missionParams[1])
+				SetVar("OnMission", 0)
+				TActivate("ShowMissionStats")
+
+				trigger:Deactivate()
+				
+				PassToMap(missionLoc, "MissionStartLoc", 0, true )
+			end
+
+		</script>
+	</trigger>
 </triggers>

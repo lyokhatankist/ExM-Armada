@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="PlayerDead" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="MyCar" />
+		<script>
+			local Width = 2 -- width of the vessel
+			local Height = 1 -- height of the vessel
+			local SinkingSpeed = 2000 -- (set to lower numbers for bigger ships)
+			local EffectsAmount = 4 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local PossibleEffects = {
+				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
+				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",
+				"ET_PS_SMLBLAST_HEVEHICLEEXPLOSION"
+				}
+			local PossibleEffects_II = {
+				"ET_PS_AUTOCANNONWATERSPLASH",
+				"ET_PS_SMLBLAST_APWATERSPLASH",
+				"ET_PS_SMLBLAST_HEWATERSPLASH"
+				}
+
+			ChangeSide("neutral")
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + Height
+			PlfCoor.z = PlfCoor.z + 25 + Width
+
+			Plf:SetThrottle(0)
+
+			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
+			local mover = GetEntityByID( moverId ) 
+			if Plf then
+				mover:SetObjAndPath( PlfID, "DeathPath01", SinkingSpeed )
+			end
+
+			FlyAround(2, 0.1, (25 + Width), 6, PlfCoor, PlfID, 0, 1)
+			StartCinematic()
+
+			SetVar("DeathAnimWidth", Width)
+			SetVar("DeathAnimHeight", Height)
+			SetVar("DeathAnimEffectsAmount", EffectsAmount)
+			SetVar("DeathAnimPossibleEffects", TableToString(PossibleEffects))
+			SetVar("DeathAnimPossibleEffects_II", TableToString(PossibleEffects_II))
+			SetVar("DeathAnim", 0)
+
+			TActivate("DeathAnim")
+			TActivate("PlayerDead_End")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="DeathAnim" active="0">
+		<event timeout="0.23" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Width = GetVar("DeathAnimWidth").AsInt
+			local Height = GetVar("DeathAnimHeight").AsInt
+			local PossibleEffects = StringToTable(GetVar("DeathAnimPossibleEffects").AsString)
+			local EffectsAmount = GetVar("DeathAnimEffectsAmount").AsInt
+
+			local DeathVar = GetVar("DeathAnim").AsInt
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.x = PlfCoor.x - math.random(Width) + math.random(Width)
+			PlfCoor.y = PlfCoor.y - math.random(Height) + math.random(Height)
+			PlfCoor.z = PlfCoor.z - math.random(Width) + math.random(Width)
+			
+			CreateEffectTTLed(PossibleEffects[exrandom(getn(PossibleEffects))], PlfCoor, Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			DeathVar = DeathVar + 1
+			SetVar("DeathAnim", DeathVar)
+
+			if DeathVar >= EffectsAmount then
+				SetVar("DeathAnim", 0)
+				TActivate("DeathAnim_II")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="DeathAnim_II" active="0">
+		<event timeout="1.13" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Width = GetVar("DeathAnimWidth").AsInt
+			local Height = GetVar("DeathAnimHeight").AsInt
+			local PossibleEffects = StringToTable(GetVar("DeathAnimPossibleEffects_II").AsString)
+			local EffectsAmount = GetVar("DeathAnimEffectsAmount").AsInt
+
+			local DeathVar = GetVar("DeathAnim").AsInt
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.x = PlfCoor.x - math.random(Width) + math.random(Width)
+			PlfCoor.y = PlfCoor.y - Height + math.random(Height)
+			PlfCoor.z = PlfCoor.z - math.random(Width) + math.random(Width)
+			
+			CreateEffectTTLed(PossibleEffects[exrandom(getn(PossibleEffects))], PlfCoor, Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			DeathVar = DeathVar + 1
+			SetVar("DeathAnim", DeathVar)
+
+			if DeathVar >= EffectsAmount then
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="PlayerDead_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			if not(IsQuestTaken("CIT_PH01_Retreat")) then
+				FailQuest("CIT_PH01")
+			else
+				FailQuest("CIT_PH01_Retreat")
+			end
+
+			if CheckUnits({"CDBoats03_vehicle_0","CDBoats04_vehicle_0","CDBoats05_vehicle_0","CDBoats06_vehicle_0","CDDestroyers01_vehicle_0","CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}, "dead", 8) then
+				GiveScore(21000)
+
+				println("additional score given")
+			end
+
+			UpdateUnitsStats(1)
+			
+			CalcMissionStats(1)
+
+			PassToMap("hq", "Headquarters_enter", 90, true)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

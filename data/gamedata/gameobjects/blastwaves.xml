@@ -12,6 +12,16 @@
 
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "30mmBlastWave"
+
+                Radius                  = "5.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "8.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "47mmBlastWave"
 
                 Radius                  = "18.0"

@@ -2,6 +2,8 @@
 <!-- $Id: effects.xml,v 1.6 2004/11/25 10:51:16 den Exp $  -->
 <Prefabs>
 <!-- battleship -->
+	<Node name="ET_S_NOHORN" class="SgSoundSourceNode" /> 
+
 	<Node name="ET_PS_SHIPWHEELROCKSPLASH" class="SgNode" />
 	<Node name="ET_PS_SHIPWHEELGRASSSPLASH" class="SgNode" />
 	<Node name="ET_PS_SHIPWHEELGROUNDSPLASH" class="SgNode" />

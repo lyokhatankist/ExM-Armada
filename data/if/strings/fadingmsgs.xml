@@ -6,6 +6,10 @@
 
 <!-- battleship general messages -->
 	<string
+		id="fm_nightvision"
+		value="Доступен режим ночного видения. Для активации используйте клавишу гудка (по умолч. H)." />
+
+	<string
 		id="fm_critical_loss_ally"
 		value="Потери дружественных сил достигли критического уровня." />
 
@@ -59,71 +63,71 @@
 
 	<string
 		id="fm_missionstats_allieslost_percentage"
-		value="Потери союзников: %1d%." />
+		value="Потери союзников: %1d%" />
 
 	<string
 		id="fm_missionstats_allieslost_manpower"
-		value="Потери в живой силе: %1d." />
+		value="Потери в живой силе: %1d" />
 
 	<string
 		id="fm_missionstats_allieslost_vehicles"
-		value="Потери в военной технике: %1d." />
+		value="Потери в военной технике: %1d" />
 
 	<string
 		id="fm_missionstats_allieslost_names"
-		value="Утраченные боевые единицы: %1s." />
+		value="Утраченные боевые единицы: %1s" />
 
 	<string
 		id="fm_missionstats_enemiesdestroyed_percentage"
-		value="Потери противника: %1d%." />
+		value="Потери противника: %1d%" />
 
 	<string
 		id="fm_missionstats_enemiesdestroyed_manpower"
-		value="Уничтожено живой силы: %1d." />
+		value="Уничтожено живой силы: %1d" />
 
 	<string
 		id="fm_missionstats_enemiesdestroyed_vehicles"
-		value="Уничтожено техники: %1d." />
+		value="Уничтожено техники: %1d" />
 
 	<string
 		id="fm_missionstats_objectives_percentage"
-		value="Процент выполнения миссии: %1d%." />
+		value="Процент выполнения миссии: %1d%" />
 
 	<string
 		id="fm_missionstats_objectives_total"
-		value="Задач выполнено: %2d из %1d." />
+		value="Задач выполнено: %2d из %1d" />
 
 	<string
 		id="fm_missionstats_result_overachieved"
-		value="Итог операции: цели операции перевыполнены." />
+		value="Итог операции: цели операции перевыполнены" />
 
 	<string
 		id="fm_missionstats_result_totalsuccess"
-		value="Итог операции: полный успех." />
+		value="Итог операции: полный успех" />
 
 	<string
 		id="fm_missionstats_result_success"
-		value="Итог операции: успех." />
+		value="Итог операции: успех" />
 
 	<string
 		id="fm_missionstats_result_partialsuccess"
-		value="Итог операции: частичный успех." />
+		value="Итог операции: частичный успех" />
 
 	<string
 		id="fm_missionstats_result_fail"
-		value="Итог операции: провал." />
+		value="Итог операции: провал" />
 
 	<string
 		id="fm_missionstats_result_defeat"
-		value="Итог операции: тактическое поражение." />
+		value="Итог операции: тактическое поражение" />
 
 	<string
 		id="fm_missionstats_points_time"
-		value="Бонус за время выполнения миссии: %1d." />
+		value="Бонус за время выполнения миссии: %1d" />
 
 	<string
 		id="fm_missionstats_points"
-		value="Финальный счёт: %1d." />
+		value="Финальный счёт: %1d" />
 <!-- battleship mission-specific messages -->
 
 
@@ -144,8 +148,30 @@
 		id="fm_cit_ph01_citretreating"
 		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
 
+<!-- battleship cd_ph01_garrison -->
+	<string
+		id="fm_cd_ph01_boats"
+		value="@ffff9c00Срочный приказ:@ffffffff уничтожить торпедные катера противника." />
 
+	<string
+		id="fm_cd_ph01_destroyers"
+		value="@ffff9c00Срочный приказ:@ffffffff уничтожить эсминцы противника." />
 
+	<string
+		id="fm_cd_ph01_garrison"
+		value="@ffff9c00Срочный приказ:@ffffffff защитить сухогрузы от огня вражеской береговой артиллерии." />
+
+	<string
+		id="fm_cd_ph01_helicopters"
+		value="@ffff9c00Срочный приказ:@ffffffff защитить сухогрузы от вражеской авиации." />
+
+	<string
+		id="fm_cd_ph01_cruisers"
+		value="@ffff9c00Срочный приказ:@ffffffff защитить сухогрузы от вражеских крейсеров." />
+
+	<string
+		id="fm_cd_ph01_leave"
+		value="@ffff9c00Срочный приказ:@ffffffff покинуть район боевых действий вместе с дружественными сухогрузами." />
 
 <!-- vanilla -->
 

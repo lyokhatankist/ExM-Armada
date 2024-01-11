@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <QuestInfoResource>
 	<QuestInfo
+		questName="CD_PH01"
+		briefDiz="Гарнизон"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyBoats"
+		briefDiz="Гарнизон - Уничтожить вражеские торпедные катера"
+		fullDiz="Конвой был атакован торпедными катерами."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="4128.000 255.000 4179.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyCruisers"
+		briefDiz="Гарнизон - Уничтожить вражескую ударную группу"
+		fullDiz="На помощь гарнизону острова Псарадон прибыла ударная группа, состоящая из нескольких крейсеров. Нужно защитить сухогрузы от артиллерийского огня."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5592.000 255.000 4510.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyDestroyers"
+		briefDiz="Гарнизон - Уничтожить вражеские эсминцы"
+		fullDiz="Вражеские эсминцы заметили наш конвой. Их необходимо уничтожить."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5051.000 255.000 4019.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyTurrets"
+		briefDiz="Гарнизон - Уничтожить вражеские укрепления"
+		fullDiz="На пути следования сухогрузов расположены вражеские орудия береговой артиллерии и фортификационные сооружения. Их следует уничтожить, чтобы обезопасить маршрут для наших торговых судов."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5797.000 281.000 3914.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortFirst"
+		briefDiz="Сопроводить сухогруз «Августин Брейн»"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant01_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortSecond"
+		briefDiz="Сопроводить сухогруз «Хуан Эль-Уэво»"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant02_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="Leave02Loc" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="CD_Tutorial"
 		briefDiz="Крещение огнём"
 		isMainQuest="1" />

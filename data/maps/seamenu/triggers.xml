@@ -22,7 +22,9 @@
 			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
-		   trigger:Deactivate()
+			PlayCustomMusic("bs_mainmenu")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 </triggers>
