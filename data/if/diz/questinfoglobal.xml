@@ -137,4 +137,34 @@
 			name="cit_ph01_counterattack"
 			targetObjName="MissionStartLoc" />
 	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03"
+		briefDiz="Марш"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyCruisers"
+		briefDiz="Уничтожить крейсера противника"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyMerchants"
+		briefDiz="Уничтожить вражеские сухогрузы"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
 </QuestInfoResource>

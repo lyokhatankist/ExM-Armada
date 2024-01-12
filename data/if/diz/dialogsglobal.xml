@@ -44,7 +44,20 @@
 		name="CIT_Placeholder_Main"
 		text="[Placeholder]"
 		role="NPC"
-		nextReplies="CIT_PH_001_pl" />
+		nextReplies="CIT_PH_001_pl CIT_PH_003_pl" />
+
+	<Reply
+		name="CIT_PH_003_pl"
+		text="Марш."
+		role="PLAYER"
+		scriptCondition="not(IsQuestTaken('CIT_PH03'))"
+		nextReplies="CIT_PH_003_npc" />
+
+	<Reply
+		name="CIT_PH_003_npc"
+		text="Марш "
+		role="NPC"
+		scriptResult="local MissionTime = {6, 32, 22, 4, 2265}; local MissionSide = 'CIT'; local MissionName = 'CITPH03_March'; local MissionMap = 'cit_ph03_march'; local MissionPlayerPrototype = 'CITPH03_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'mun_twin152CIT02','mun_twin152CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','AA47mmCannon01','AA47mmCannon01','smlboatCITMachinegun01','smlboatCITMachinegun01','smlboatCITRocket01'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))" />
 
 	<Reply
 		name="CIT_PH_001_pl"
