@@ -5,125 +5,6 @@
 		Names="" />
 
 	<Object
-		Name="Player1"
-		Belong="1500"
-		Prototype="player"
-		Money="1000">
-		<Object
-			Name="MyCar"
-			Belong="1500"
-			Prototype="DestroyerCD01"
-			Pos="4096.000 273.822 4096.000"
-			Rot="-0.007 1.000 0.001 0.021">
-			<Parts />
-
-			<Repository />
-		</Object>
-	</Object>
-
-	<Object
-		Name="Helena"
-		Belong="1008"
-		Prototype="PortHelena"
-		Pos="6639.000 255.000 4168.000"
-		Rot="0.000 -0.721 0.000 -0.693"
-		PointOfViewInInterface="-100.000 70.000 300.000"
-		CaravansDest="">
-		<Object
-			Name="Helena_Bar"
-			Belong="1008"
-			Prototype="bar">
-			<Object
-				Name="Helena_Bar_Barman"
-				Belong="1008"
-				Prototype="NPC"
-				ModelName="buoy"
-				NpcType="BARMAN"
-				SpokenCount="0" />
-		</Object>
-
-		<Object
-			Name="Helena_Workshop"
-			Belong="1008"
-			Prototype="workshop">
-			<CabinsAndBaskets>
-			</CabinsAndBaskets>
-
-			<Vehicles>
-			</Vehicles>
-		</Object>
-
-		<Object
-			Name="Helena_Shop"
-			Belong="1008"
-			Prototype="shop">
-			<GunsAndGadgets>
-			</GunsAndGadgets>
-		</Object>
-
-		<Object
-			Flags="21"
-			Name="Helena_enter"
-			Belong="1008"
-			Prototype="genericLocation"
-			Pos="6639.000 255.000 4168.000"
-			Rot="0.000 -0.721 0.000 -0.693"
-			Radius="100.000"
-			LookingTimeOut="10.000" />
-
-		<Object
-			Flags="21"
-			Name="Helena_defend"
-			Belong="1008"
-			Prototype="genericLocation"
-			Pos="6639.000 255.000 4168.000"
-			Rot="0.000 -0.721 0.000 -0.693"
-			Radius="200.000"
-			LookingTimeOut="50.000" />
-
-		<Object
-			Flags="21"
-			Name="Helena_deploy"
-			Belong="1008"
-			Prototype="genericLocation"
-			Pos="6831.000 255.000 4342.000"
-			Rot="0.000 -0.721 0.000 -0.693"
-			Radius="5.000"
-			LookingTimeOut="20.000" />
-
-		<Parts />
-
-		<EntryPath>
-			<Point
-				Pos="6561.000 3957.000" />
-
-			<Point
-				Pos="6561.000 4186.500" />
-
-			<CameraPoint
-				Pos="150.000 50.000 50.000" />
-
-			<CameraPoint
-				Pos="200.000 90.000 110.000" />
-		</EntryPath>
-
-		<ExitPath>
-			<Point
-				Pos="6561.000 4158.500" />
-
-			<Point
-				Pos="6561.000 3957.000" />
-
-			<CameraPoint
-				Pos="-200.000 80.000 120.000" />
-
-			<CameraPoint
-				Pos="-300.000 60.000 70.000" />
-		</ExitPath>
-	</Object>
-
-
-	<Object
 		Belong="-1"
 		Prototype="LightObject"
 		Pos="5708.397 298.380 5636.582"
@@ -422,6 +303,150 @@
 		Prototype="LightObject"
 		Pos="2908.520 293.155 2126.787"
 		Rot="-0.282 0.000 0.610 0.000" />
+
+	<Object
+		Flags="21"
+		Name="MissionStartLoc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2850.000 275.000 7100.000"
+		Radius="650.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2191.000 255.000 7179.000"
+		Radius="550.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4025.000 255.000 6943.000"
+		Radius="850.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1874.000 255.000 7700.000"
+		Radius="800.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2975.000 255.000 7577.000"
+		Radius="800.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4356.000 255.000 7697.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1333.000 255.000 6020.000"
+		Radius="900.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1265.000 255.000 4650.000"
+		Radius="950.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2072.000 255.000 3520.000"
+		Radius="700.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5197.000 255.000 6346.000"
+		Radius="850.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning05Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5690.000 255.000 4856.000"
+		Radius="1550.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning06Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5151.000 255.000 3091.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="704.000 255.000 6450.000"
+		Radius="1100.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="524.000 255.000 4900.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1480.000 255.000 2993.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5573.000 255.000 6712.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion05Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6160.000 255.000 4653.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion06Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4843.000 255.000 3257.000"
+		Radius="700.000" />
 
 	<Object
 		Belong="1100"

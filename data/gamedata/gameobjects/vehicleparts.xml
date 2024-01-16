@@ -342,7 +342,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "100 -100 100"
 			MaxPower					= "0"
 			MaxTorque					= "2000"
-			MaxSpeed					= "240.0"
+			MaxSpeed					= "160.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
@@ -374,7 +374,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			DurCoeffsForDamageTypes		= "100 -100 100"
 			MaxPower					= "0"
 			MaxTorque					= "2200"
-			MaxSpeed					= "280.0"
+			MaxSpeed					= "180.0"
 			Price						= "1500"
 
 			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
@@ -2614,6 +2614,54 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 
 	<Folder Name = "Cabins">
+		<Prototype
+			Class						= "Cabin"
+			Name						= "heliCITEngineForEncyclopaedia"
+			ModelFile					= "heliFuselage01_static"
+			ResourceType				= "HELICOPTER_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_SMLBLAST_HEWATERSPLASH"
+
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>            
+			</GadgetDescription>
+		</Prototype>
+
+		<Prototype
+			Class						= "Cabin"
+			Name						= "heliCDEngineForEncyclopaedia"
+			ModelFile					= "heliFuselage02_static"
+			ResourceType				= "HELICOPTER_CABIN"
+			NodeScale					= "1 1 1"
+
+			Mass						= "5.0"
+			Durability					= "5"
+			DurCoeffsForDamageTypes		= "0 0 0"
+			MaxPower					= "1"
+			MaxTorque					= "0"
+			MaxSpeed					= "0.0"
+			Price						= "1500"
+
+			EngineHighSound				= "ET_S_ENGINE_FAKE_HIGH"
+			BlowEffect					= "ET_PS_SMLBLAST_HEWATERSPLASH"
+
+
+			VisibleInEncyclopedia		= "false">
+			<GadgetDescription>       
+			</GadgetDescription>
+		</Prototype>
+
 		<Prototype
 			Class						= "Cabin"
 			Name						= "smlboatCITEngineForEncyclopaedia"

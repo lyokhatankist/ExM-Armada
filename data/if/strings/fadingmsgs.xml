@@ -148,6 +148,23 @@
 		id="fm_cit_ph01_citretreating"
 		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
 
+<!-- battleship cit_ph03_march -->
+	<string
+		id="fm_cit_ph03_merchants"
+		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по торговым судам противника." />
+
+	<string
+		id="fm_cit_ph03_cruisers"
+		value="@ffff9c00Срочный приказ:@ffffffff уничтожить вражеские крейсера." />
+
+	<string
+		id="fm_cit_ph03_retreat"
+		value="@ffff9c00Срочный приказ:@ffffffff немедленно покинуть зону боевых действий." />
+
+	<string
+		id="fm_cit_ph03_citretreating"
+		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
+
 <!-- battleship cd_ph01_garrison -->
 	<string
 		id="fm_cd_ph01_boats"

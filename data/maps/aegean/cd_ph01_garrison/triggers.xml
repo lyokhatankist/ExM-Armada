@@ -710,8 +710,8 @@
 			local Plf = GetPlayerVehicle()
 			if Plf then
 				Plf:SetPosition(CVector(2846, 275, 3987))
-				Plf:SetCruisingSpeed(3)
 				Plf:SetExternalPathByName("StartPath_Player")
+				Plf:SetCruisingSpeed(3)
 			end
 			local PlfID = GetPlayerVehicleId()
 			FlyLinked( "CDPH01_Start1", PlfID, 30, 0, 1, PlfID )

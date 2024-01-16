@@ -46,7 +46,7 @@
 			<Sound id="neutral_died" samples="6" probability="1"/>
 		</Neutral>
 		<Enemy>
-			<Sound id="first_see_other" samples="11 15" probability="100"/>
+			<Sound id="first_see_other" samples="11 16" probability="100"/>
 			<Sound id="enemy_broken" samples="12" probability="10"/>
 			<Sound id="self_broken" samples="2 13" probability="100"/>
 			<Sound id="enemy_died" samples="6" probability="1"/>

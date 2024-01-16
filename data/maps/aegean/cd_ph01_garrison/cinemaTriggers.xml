@@ -3,10 +3,10 @@
 	<trigger Name="PlayerDead" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="MyCar" />
 		<script>
-			local Width = 2 -- width of the vessel
-			local Height = 1 -- height of the vessel
+			local Width = 6 -- width of the vessel
+			local Height = 3 -- height of the vessel
 			local SinkingSpeed = 2000 -- (set to lower numbers for bigger ships)
-			local EffectsAmount = 4 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local EffectsAmount = 14 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
 				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",
@@ -112,21 +112,44 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			if not(IsQuestTaken("CIT_PH01_Retreat")) then
-				FailQuest("CIT_PH01")
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[1],AllEnemies[2],AllEnemies[3],AllEnemies[4],AllEnemies[5],AllEnemies[6],AllEnemies[7],AllEnemies[8],AllEnemies[9],AllEnemies[10],AllEnemies[11],AllEnemies[12],AllEnemies[13],AllEnemies[14],AllEnemies[15],AllEnemies[16],AllEnemies[17],AllEnemies[18],AllEnemies[23],AllEnemies[24],AllEnemies[25],AllEnemies[26],AllEnemies[27],AllEnemies[28],AllEnemies[29],AllEnemies[30]}
+
+			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+			if not(CheckUnits(Enemies, "dead", 26)) then
+				if not(IsQuestComplete("CD_PH01_EscortFirst")) then
+					if CheckUnits("CDMerchant01_vehicle_0") then
+						FriendliesHealth[3] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortFirst")
+				end
+
+				if not(IsQuestComplete("CD_PH01_EscortSecond")) then
+					if CheckUnits("CDMerchant02_vehicle_0") then
+						FriendliesHealth[4] = 0
+						SetVar("FriendliesEndHealth", TableToString(FriendliesHealth))
+					end
+
+					FailQuest("CD_PH01_EscortSecond")
+				end
+			end
+
+			if not(IsQuestTaken("CD_PH01_Retreat")) then
+				FailQuest("CD_PH01")
 			else
-				FailQuest("CIT_PH01_Retreat")
+				FailQuest("CD_PH01_Retreat") -- the trigger is identical to Leave, besides this (FailQuest)
 			end
 
-			if CheckUnits({"CDBoats03_vehicle_0","CDBoats04_vehicle_0","CDBoats05_vehicle_0","CDBoats06_vehicle_0","CDDestroyers01_vehicle_0","CDDestroyers02_vehicle_0","CDDestroyers03_vehicle_0","CDDestroyers04_vehicle_0"}, "dead", 8) then
-				GiveScore(21000)
+			FailQuestIfTaken("CD_PH01_DestroyBoats")
+			FailQuestIfTaken("CD_PH01_DestroyDestroyers")
+			FailQuestIfTaken("CD_PH01_DestroyTurrets")
+			FailQuestIfTaken("CD_PH01_DestroyCruisers")
 
-				println("additional score given")
-			end
+			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
 
-			UpdateUnitsStats(1)
-			
-			CalcMissionStats(1)
+			CalcMissionStats(1) -- the trigger is identical to Leave, besides this (1)
 
 			PassToMap("hq", "Headquarters_enter", 90, true)
 

@@ -148,7 +148,8 @@
 		briefDiz="”ничтожить крейсера противника"
 		isMainQuest="1">
 		<Map
-			name="cit_ph03_march" />
+			name="cit_ph03_march"
+			coordinate="7811.000 279.000 1959.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -156,7 +157,8 @@
 		briefDiz="”ничтожить вражеские сухогрузы"
 		isMainQuest="1">
 		<Map
-			name="cit_ph03_march" />
+			name="cit_ph03_march"
+			coordinate="1175.000 279.000 4932.000" />
 	</QuestInfo>
 
 	<QuestInfo

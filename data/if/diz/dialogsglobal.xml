@@ -5,7 +5,7 @@
 		text="Выбор миссии (кампания Содружества Независимых Городов)."
 		role="NPC"
 		scriptCondition="GetVar('OnMission').AsInt==0"
-		nextReplies="CIT_PH_001_pl Mission_Cancel" />
+		nextReplies="CIT_PH_001_pl CIT_PH_003_pl Mission_Cancel" />
 
 	<Reply
 		name="Mission_Cancel"
@@ -55,9 +55,10 @@
 
 	<Reply
 		name="CIT_PH_003_npc"
-		text="Марш "
+		text="                                                                                @ff000000«Марш»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 уничтожить вражеские торговые суда, проходящие через враждебные воды.|@ff000000Зона боевых действий:@ff404040 Иль-Нёв.|@ff000000Техника:@ff404040 «Арлетт», лёгкий крейсер типа «Эгаль».|@ff000000Союзники:@ff404040 два лёгких крейсера типа «Эгаль».|@ff000000Противник:@ff404040 крейсера, эсминцы, боевые катера, укрепления АР.|@ff000000Поддержка с воздуха:@ff404040 нет.|@ff000000Вражеская авиация:@ff404040 возможно.|@ff000000Погода:@ff404040 утро, ясно.| |                                                                               @ff000000Брифинг|Боевая задача следующая: уничтожить три вражеских сухогруза, следующих к Порт-Хелене с важным грузом из Америки. Противник не ожидает столь дерзкой атаки, поэтому два эсминца из группы сопровождения конвоя должны остановиться у порта Санта-Марии. Таким образом охрана конвоя будет временно ослаблена и именно в этот момент, когда из группы сопровождения сухогрузов останутся лишь два других эсминца, вы и должны нанести удар. После начала атаки противник скорее всего задействует авиацию.|Постарайтесь не приближаться к вражеским укреплениям на острове Аржан Либре, так как эта территория хорошо охраняется противником и он может задействовать дополнительные силы для отражения атаки. Также, по данным разведки, в момент нашей атаки на вражеские сухогрузы в регионе может находиться группа из трёх тяжёлых крейсеров неприятеля, направляющаяся в Америку, поэтому постарайтесь расправиться с конвоем как можно быстрее и отступить, чтобы избежать стычки. Ударная группа для выполнения вашей текущей миссии будет состоять из трёх лёгких крейсеров типа «Эгаль», включая ваш.| |Приступить к выполнению миссии?"
 		role="NPC"
-		scriptResult="local MissionTime = {6, 32, 22, 4, 2265}; local MissionSide = 'CIT'; local MissionName = 'CITPH03_March'; local MissionMap = 'cit_ph03_march'; local MissionPlayerPrototype = 'CITPH03_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'mun_twin152CIT02','mun_twin152CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','AA47mmCannon01','AA47mmCannon01','smlboatCITMachinegun01','smlboatCITMachinegun01','smlboatCITRocket01'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))" />
+		scriptResult="local MissionTime = {6, 32, 22, 4, 2265}; local MissionSide = 'CIT'; local MissionName = 'CITPH03_March'; local MissionMap = 'cit_ph03_march'; local MissionPlayerPrototype = 'CITPH03_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'mun_twin152CIT02','mun_twin152CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','mun_single130CIT02','AA47mmCannon01','AA47mmCannon01','smlboatCITMachinegun01','smlboatCITMachinegun01','smlboatCITRocket01'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))"
+		nextReplies="Mission_Yes Mission_No" />
 
 	<Reply
 		name="CIT_PH_001_pl"
