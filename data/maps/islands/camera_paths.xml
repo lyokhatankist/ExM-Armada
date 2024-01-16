@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <Paths>
-	<Path Name = "Trail1a">
+	<Path Name = "CITPH03_Start1">                         
+		<Point  coord="0.100 1250.000 -0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="0.100 12.000 -0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="60.000 4.000 -80.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="60.000 3.000 -80.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="70.000 2.000 -70.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+	</Path>
+<!-- 	<Path Name = "Trail1a">
 		<Point  coord="2278.304 276.381 4112.237" rotation="0.010 0.979 0.049 0.196" speed="2"/>   
 		<Point  coord="2596.708 278.988 4157.088" rotation="-0.000 0.997 0.005 -0.075" speed="2"/>   
 		<Point  coord="3028.087 280.272 4170.923" rotation="0.001 0.936 0.002 0.351" speed="1"/>   
@@ -176,8 +183,9 @@
 	</Path>
 
 	<Path Name = "Trail3b">
-		<!-- <Point  coord="3647.973 353.383 1822.181" rotation="-0.333 0.459 -0.191 0.801" speed="1"/>   
-		<Point  coord="3685.373 353.383 1943.041" rotation="-0.273 0.668 -0.289 0.629" speed="1"/>      -->
+		<Point  coord="3647.973 353.383 1822.181" rotation="-0.333 0.459 -0.191 0.801" speed="1"/>   
+		<Point  coord="3685.373 353.383 1943.041" rotation="-0.273 0.668 -0.289 0.629" speed="1"/>
+
 		<Point  coord="3666.439 342.377 1893.075" rotation="-0.348 0.495 -0.225 0.764" speed="1"/>   
 		<Point  coord="3665.877 342.377 1956.201" rotation="-0.220 0.765 -0.334 0.505" speed="1"/>     
 	</Path>
@@ -190,9 +198,10 @@
 	</Path>
 
 	<Path Name = "Trail4a">
-		<!-- <Point  coord="7065.930 275.353 3684.268" rotation="-0.0270 -0.3006 -0.0085 0.9533" speed="1"/>   
-		<Point  coord="7068.277 275.353 3680.399" rotation="0.0000, -0.3007, 0.0000, 0.9537" speed="1"/>    -->
+		<Point  coord="7065.930 275.353 3684.268" rotation="-0.0270 -0.3006 -0.0085 0.9533" speed="1"/>   
+		<Point  coord="7068.277 275.353 3680.399" rotation="0.0000, -0.3007, 0.0000, 0.9537" speed="1"/>
+
 		<Point  coord="7088.780 276.671 3664.249" rotation="0.005 0.308 0.002 0.952" speed="1"/>   
 		<Point  coord="7123.603 276.047 3616.006" rotation="0.031 0.309 0.010 0.951" speed="1"/>   
-	</Path>
+	</Path> -->
 </Paths>

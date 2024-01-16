@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			g_ObjCont:SetGameTime( gMissionTime[1], gMissionTime[2], gMissionTime[3], gMissionTime[4], gMissionTime[5] )
+			
+			SetWeather(0)
+
+			ShowMap()
+
+			Radar:SetScanRadius(1000)
+
+			GetPlayerVehicle():setImmortalMode(1)
+			GetPlayerVehicle():SetNameFromScript("MyCar")
+			SetCameraBehindPlayerVehicle()
+			TActivate("PlayerDead")
+
+			local friendly = {}
+			local enemy = {}
+			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
+			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAtlantic", "CITPH03_OCruiserCIT01", 2000, 2000, 11652, 20, "«Эврё» (л.к.т. «Эгаль»)"}
+			friendly[2] = {"CITOldCruiser02_vehicle_0", "CITOldCruiserAtlantic", "CITPH03_OCruiserCIT02", 2000, 2000, 8423, 18, "«Этуаль» (л.к.т. «Эгаль»)"}
+			--                {objName      EffHP VehHP FP Maneuv.}
+			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6752, 22}
+			enemy[2] = {"CDDestroyer01_vehicle_1", 1600, 1600, 6752, 22}
+			enemy[3] = {"CDDestroyer01_vehicle_2", 1600, 1600, 9332, 22}
+			enemy[4] = {"CDDestroyer01_vehicle_3", 1600, 1600, 9332, 22}
+			enemy[5] = {"CDMerchant01_vehicle_0", 163, 1500, 0, 4}
+			enemy[6] = {"CDMerchant02_vehicle_0", 163, 1500, 0, 4}
+			enemy[7] = {"CDMerchant03_vehicle_0", 163, 1500, 0, 4}
+			enemy[8] = {"CDHeavyCruiser01_vehicle_0", 4000, 4000, 18552, 12}
+			enemy[9] = {"CDHeavyCruiser01_vehicle_1", 4000, 4000, 18551, 12}
+			enemy[10] = {"CDHeavyCruiser01_vehicle_2", 4000, 4000, 18551, 12}
+			enemy[11] = {"CDBoat01_vehicle_0", 46, 200, 512, 35}
+			enemy[12] = {"CDBoat01_vehicle_1", 46, 200, 512, 35}
+			enemy[13] = {"CDBoat03_vehicle_0", 46, 200, 512, 35}
+			enemy[14] = {"CDCoastalGun02", 195, 17500, 2833, 0}
+			enemy[15] = {"CDCoastalGun03", 195, 17500, 2833, 0}
+			enemy[16] = {"CDCoastalGun04", 195, 17500, 2833, 0}
+			enemy[17] = {"CDCoastalGun05", 195, 17500, 2833, 0}
+			enemy[18] = {"CDCoastalGun06", 195, 17500, 2833, 0}
+			enemy[19] = {"CDAAGun01", 65, 3000, 629, 0}
+			enemy[20] = {"CDAAGun03", 65, 3000, 629, 0}
+			enemy[21] = {"CDAAGun05", 65, 3000, 629, 0}
+			enemy[22] = {"CDAAGun06", 65, 3000, 629, 0}
+			enemy[23] = {"CDAAGun08", 65, 3000, 629, 0}
+			enemy[24] = {"CDHelicopter01_vehicle_0", 13, 250, 627, 140}
+			enemy[25] = {"CDHelicopter01_vehicle_1", 13, 250, 627, 140}
+			enemy[26] = {"CDHelicopter01_vehicle_2", 13, 250, 627, 140}
+			enemy[27] = {"CDHelicopter01_vehicle_3", 13, 250, 627, 140}
+			enemy[28] = {"CDHelicopter02_vehicle_0", 13, 250, 627, 140}
+			enemy[29] = {"CDHelicopter02_vehicle_1", 13, 250, 627, 140}
+			enemy[30] = {"CDHelicopter02_vehicle_2", 13, 250, 627, 140}
+			enemy[31] = {"CDHelicopter02_vehicle_3", 13, 250, 627, 140}
+			enemy[32] = {"CDHelicopter03_vehicle_0", 13, 250, 627, 140}
+			enemy[33] = {"CDHelicopter03_vehicle_1", 13, 250, 627, 140}
+			enemy[34] = {"CDHelicopter03_vehicle_2", 13, 250, 627, 140}
+			enemy[35] = {"CDHelicopter03_vehicle_3", 13, 250, 627, 140}
+			if HardMode~=nil then
+				enemy[36] = {"CDCoastalGun01", 195, 17500, 2833, 0}
+				enemy[37] = {"CDAAGun02", 65, 3000, 629, 0}
+				enemy[38] = {"CDAAGun04", 65, 3000, 629, 0}
+				enemy[39] = {"CDAAGun07", 65, 3000, 629, 0}
+				enemy[40] = {"CDLav01_vehicle_0", 26, 375, 457, 0}
+				enemy[41] = {"CDLav02_vehicle_0", 26, 375, 457, 0}
+				enemy[42] = {"CDLav03_vehicle_0", 26, 375, 457, 0}
+				enemy[43] = {"CDLav04_vehicle_0", 26, 375, 457, 0}
+				enemy[44] = {"CDLav05_vehicle_0", 26, 375, 457, 0}
+				enemy[45] = {"CDBoat02_vehicle_0", 46, 200, 512, 35}
+				enemy[46] = {"CDBoat02_vehicle_1", 46, 200, 512, 35}
+				enemy[47] = {"CDHeavyCruiser02_vehicle_0", 4000, 4000, 18552, 12}
+				enemy[48] = {"CDDestroyer02_vehicle_0", 1600, 1600, 6752, 22}
+				enemy[49] = {"CDDestroyer03_vehicle_0", 1600, 1600, 9332, 22}
+			end
+
+			SetVar("MissionTime", 0)
+			SetVar("RequiredMissionTime", 520) -- mission completion time (in s) for getting bonus score
+			SetVar("BaseRetreatScore", 30) -- base retreat score that may get multiplied depending on 4 different factors
+			SetVar("RequiredRetreatScore", 42) -- retreat score that needs to be reached for each friendly unit to successfully retreat
+			SetVar("PlayerHealth", 2000)
+			SetVar("PlayerVehicleHealth", 2000)
+			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
+			SetVar("PlayerName", "«Арлетт» (л.к.т. «Эгаль»)")
+			SetVar("Objectives", 3) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
+			SetVar("ObjectiveScoreReward", 17500) -- how much score each objective gives
+			SetVar("MissionScoreRewardMultiplier", 0.35) -- multiplier that determines how much money the player will receive for each score point
+
+			local j = 1
+			local friendlies = {}
+			while friendly[j] do
+				friendlies[j] = friendly[j][1]
+				j = j + 1
+			end
+			friendlies = TableToString(friendlies)
+			j = 1
+			local friendliesTypes = {}
+			while friendly[j] do
+				friendliesTypes[j] = friendly[j][2]
+				j = j + 1
+			end
+			friendliesTypes = TableToString(friendliesTypes)
+			j = 1
+			local friendliesPrototypes = {}
+			while friendly[j] do
+				friendliesPrototypes[j] = friendly[j][3]
+				j = j + 1
+			end
+			friendliesPrototypes = TableToString(friendliesPrototypes)
+			j = 1
+			local friendliesHealth = {}
+			while friendly[j] do
+				friendliesHealth[j] = friendly[j][4]
+				j = j + 1
+			end
+			friendliesHealth = TableToString(friendliesHealth)
+			j = 1
+			local friendliesVehicleHealth = {}
+			while friendly[j] do
+				friendliesVehicleHealth[j] = friendly[j][5]
+				j = j + 1
+			end
+			friendliesVehicleHealth = TableToString(friendliesVehicleHealth)
+			j = 1
+			local friendliesFirepower = {}
+			while friendly[j] do
+				friendliesFirepower[j] = friendly[j][6]
+				j = j + 1
+			end
+			friendliesFirepower = TableToString(friendliesFirepower)
+			j = 1
+			local friendliesManeuverability = {}
+			while friendly[j] do
+				friendliesManeuverability[j] = friendly[j][7]
+				j = j + 1
+			end
+			friendliesManeuverability = TableToString(friendliesManeuverability)
+			j = 1
+			local friendliesNames = {}
+			while friendly[j] do
+				friendliesNames[j] = friendly[j][8]
+				j = j + 1
+			end
+			friendliesNames = TableToString(friendliesNames)
+
+			j = 1
+			local enemies = {}
+			while enemy[j] do
+				enemies[j] = enemy[j][1]
+				j = j + 1
+			end
+			enemies = TableToString(enemies)
+			j = 1
+			local enemiesHealth = {}
+			while enemy[j] do
+				enemiesHealth[j] = enemy[j][2]
+				j = j + 1
+			end
+			enemiesHealth = TableToString(enemiesHealth)
+			j = 1
+			local enemiesVehicleHealth = {}
+			while enemy[j] do
+				enemiesVehicleHealth[j] = enemy[j][3]
+				j = j + 1
+			end
+			enemiesVehicleHealth = TableToString(enemiesVehicleHealth)
+			j = 1
+			local enemiesFirepower = {}
+			while enemy[j] do
+				enemiesFirepower[j] = enemy[j][4]
+				j = j + 1
+			end
+			enemiesFirepower = TableToString(enemiesFirepower)
+			j = 1
+			local enemiesManeuverability = {}
+			while enemy[j] do
+				enemiesManeuverability[j] = enemy[j][5]
+				j = j + 1
+			end
+			enemiesManeuverability = TableToString(enemiesManeuverability)
+			SetVar("TotalMissionScore", 0) -- total score gained, gets updated after mission stats calculation with the info about destroyed enemy units; score for enemy units is decided by their firepower
+			SetVar("ObjectivesCompleted", 0)
+			SetVar("Friendlies", friendlies)
+			SetVar("FriendliesTypes", friendliesTypes)
+			SetVar("FriendliesPrototypes", friendliesPrototypes)
+			SetVar("FriendliesHealth", friendliesHealth) -- friendlies effective hp
+			SetVar("FriendliesVehicleHealth", friendliesVehicleHealth) -- friendlies real hp according to the vehicle stats, used in UpdateUnitsStats
+			SetVar("FriendliesEndHealth", friendliesHealth) -- friendlies hp at the end of the mission, are updated by UpdateUnitsStats
+			SetVar("FriendliesFirepower", friendliesFirepower)
+			SetVar("FriendliesManeuverability", friendliesManeuverability)
+			SetVar("FriendliesNames", friendliesNames)
+			SetVar("Enemies", enemies)
+			SetVar("EnemiesHealth", enemiesHealth) -- enemies effective hp
+			SetVar("EnemiesVehicleHealth", enemiesVehicleHealth) -- enemies real hp according to the vehicle stats, used in UpdateUnitsStats
+			SetVar("EnemiesEndHealth", enemiesHealth) -- enemies hp at the end of the mission, are updated by UpdateUnitsStats
+			SetVar("EnemiesFirepower", enemiesFirepower)
+			SetVar("EnemiesManeuverability", enemiesManeuverability)
+			
+
+			if not getObj("ThePendulum") then
+				CreateVehicleEx("PendulumVehicle01", "ThePendulum", CVector(30, 255, 80), 1486)
+				local Maschine = getObj("ThePendulum")
+				if Maschine then
+					Maschine:setGodMode(1)
+					Maschine:setImmortalMode(1)
+					Maschine:SetExternalPathByName("PendulumPath")
+					
+					TActivate("trPendulum")
+				end
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trPendulum" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local Maschine = GetEntityByName("ThePendulum")
+			if Maschine then
+				Maschine:SetLinearVelocity(CVector(0, 0, 0))
+				Maschine:SetExternalPathByName("PendulumPath")
+				local PendulumStat = GetVar("PendulumStatus").AsInt
+				local MissionTime = GetVar("MissionTime").AsInt
+				if 50>PendulumStat then
+					PendulumStat = PendulumStat + 1
+					SetVar("PendulumStatus", PendulumStat)
+					println("pendstat set to "..PendulumStat)
+					MissionTime = MissionTime + 8
+					SetVar("MissionTime", MissionTime)
+				else
+					SetVar("PendulumStatus", 0)
+					println("corovan management activated, pendstat set to 0")
+					MissionTime = MissionTime + 8
+					SetVar("MissionTime", MissionTime)
+				end
+			end
+		
+		</script>
+	</trigger>
+
+	<trigger Name="RetreatStart" active="0">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat02Loc" />
+		<script>
+			TActivate("Retreat")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Retreat" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
+		<script>
+			local AllEnemies = StringToTable(GetVar("Enemies").AsString)
+			local Enemies = {AllEnemies[9],AllEnemies[10],AllEnemies[11],AllEnemies[12],AllEnemies[13]}
+
+			UpdateUnitsStats()
+
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				trigger:Deactivate()
+
+				if not(IsQuestTaken("CIT_PH03_Retreat")) then
+					FailQuest("CIT_PH03")
+				else
+					CompleteQuest("CIT_PH03_Retreat")
+				end
+
+				UpdateUnitsStats()
+
+				CalcMissionStats()
+
+				PassToMap("hq", "Headquarters_enter", 90, false )
+			else
+				trigger:Deactivate()
+
+				TActivate("RetreatStart")
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="Leave" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave03Loc" />
+		<script>
+			if not(IsQuestTaken("CIT_PH03_Retreat")) then
+				FailQuest("CIT_PH03")
+			else
+				CompleteQuest("CIT_PH03_Retreat")
+			end
+
+			UpdateUnitsStats()
+
+			CalcMissionStats()
+
+			PassToMap("hq", "Headquarters_enter", 90, false)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="WarningStart" active="0">
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning01Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning02Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning03Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning04Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning05Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning06Loc" />
+		<script>
+			TActivate("Warning")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Warning" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning05Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning06Loc" />
+		<script>
+			local b = SpawnMessageBox( "1002" )
+
+			TActivate("WarningStart")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Desertion" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion01Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion05Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion06Loc" />
+		<script>
+			if not(IsQuestTaken("CIT_PH03_Retreat")) then
+				FailQuest("CIT_PH03")
+			else
+				FailQuest("CIT_PH03_Retreat")
+				FailQuest("CIT_PH03")
+			end
+
+			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
+
+			CalcMissionStats(1) -- the trigger is identical to Leave, besides this (1)
+
+			PassToMap("hq", "Headquarters_enter", 90, false)
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MissionStart" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Units
+			local Unit
+			-- ================
+			--  Main CIT Force
+			-- ================
+			TeamCreate("CITOldCruiser01", 1004, CVector(2850.000, 275, 6900.000), {"CITPH03_OCruiserCIT01"})
+			TeamCreate("CITOldCruiser02", 1004, CVector(2900.000, 275, 7000.000), {"CITPH03_OCruiserCIT02"})
+
+			-- ----------------
+			-- Units parameters
+
+			Units = getObj("CITBoats01")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				Units:_AdjustBehaviour ()
+			end
+
+			Units = getObj("CITBoats02")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				Units:_AdjustBehaviour ()
+			end
+
+			-- ---------------
+			-- Unit parameters
+
+			Unit = getObj("CITOldCruiser01_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
+				Unit:SetCruisingSpeed(3)
+				Unit:SetExternalPathByName("StartPath_CITOldCruiser01")
+			end
+
+			Unit = getObj("CITOldCruiser02_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
+				Unit:SetCruisingSpeed(3)
+				Unit:SetExternalPathByName("StartPath_CITOldCruiser02")
+			end
+
+			-- ===============
+			--  Main CD Force
+			-- ===============
+--			TeamCreate("CDDestroyer01", 1053, CVector(662, 279, 5115), {"CITPH03_DestroyerCD01", "CITPH03_DestroyerCD01", "CITPH03_DestroyerCD02", "CITPH03_DestroyerCD02"})
+--			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant01_vehicle_0", CVector(534, 279, 5058), 1051)
+--			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant02_vehicle_0", CVector(303, 279, 5100), 1051)
+--			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant03_vehicle_0", CVector(74, 279, 5141), 1051)
+			TeamCreate("CDDestroyer01", 1053, CVector(1444, 279, 4962), {"CITPH03_DestroyerCD01", "CITPH03_DestroyerCD01", "CITPH03_DestroyerCD02", "CITPH03_DestroyerCD02"})
+			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant01_vehicle_0", CVector(1406, 279, 4890), 1051)
+			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant02_vehicle_0", CVector(1175, 279, 4932), 1051)
+			CreateVehicleEx("CITPH03_MerchantCD01", "CDMerchant03_vehicle_0", CVector(946, 279, 4973), 1051)
+			TeamCreate("CDHeavyCruiser01", 1054, CVector(7811, 279, 1959), {"CITPH03_HCruiserCD01","CITPH03_HCruiserCD02","CITPH03_HCruiserCD01"})
+			TeamCreate("CDBoat01", 1052, CVector(3202, 279, 3439), {"CITPH03_SmlboatCD01", "CITPH03_SmlboatCD01"})
+			TeamCreate("CDBoat03", 1052, CVector(2614, 279, 3619), {"CITPH03_SmlboatCD01"})
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_01", -1, -1, CVector(2799.128, 272.034, 3380.948), Quaternion(0.0000, -0.1349, 0.0000, 0.9909), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_02", -1, -1, CVector(2819.497, 272.014, 3381.620), Quaternion(0.0000, 0.0937, 0.0000, 0.9956), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_03", -1, -1, CVector(2851.800, 272.581, 3359.177), Quaternion(0.0000, 0.3766, 0.0000, 0.9264), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_04", -1, -1, CVector(2929.357, 276.117, 3320.602), Quaternion(0.0000, 0.0937, 0.0000, 0.9956), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_05", -1, -1, CVector(3085.707, 274.772, 3259.752), Quaternion(0.0000, -0.0632, 0.0000, 0.9980), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_06", -1, -1, CVector(3103.946, 274.752, 3251.694), Quaternion(0.0000, 0.2377, 0.0000, 0.9713), 1 )
+			CreateNewDummyObject( "quay_big_cube",	"sanmiguel_fortress_07", -1, -1, CVector(3122.511, 274.752, 3240.938), Quaternion(0.0000, 0.4752, 0.0000, 0.8799), 1 )
+			CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun02", 1058, CVector(2818.971, 272.000, 3389.492), Quaternion(0.0000, 0.0893, 0.0000, 0.9960), 0)
+			CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun03", 1058, CVector(2854.652, 272.000, 3362.892), Quaternion(0.0000, 0.3847, 0.0000, 0.9230), 0)
+			CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun04", 1058, CVector(2930.423, 272.000, 3326.369), Quaternion(0.0000, 0.0893, 0.0000, 0.9960), 0)
+			CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun05", 1058, CVector(3093.510, 272.000, 3261.444), Quaternion(0.0000, -0.0371, 0.0000, 0.9993), 0)
+			CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun06", 1058, CVector(3119.232, 272.000, 3251.038), Quaternion(0.0000, 0.4187, 0.0000, 0.9081), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CDAAGun01", 1058, CVector(2808.874, 272.000, 3389.961), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CDAAGun03", 1058, CVector(2851.562, 272.000, 3374.081), Quaternion(0.0000, 0.1822, 0.0000, 0.9833), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CDAAGun05", 1058, CVector(2918.875, 272.000, 3330.287), Quaternion(0.0000, -0.0480, 0.0000, 0.9988), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CDAAGun06", 1058, CVector(2940.796, 272.000, 3328.397), Quaternion(0.0000, 0.1457, 0.0000, 0.9893), 0)
+			CreateNewBreakableObject("CoastAAMed01", "CDAAGun08", 1058, CVector(3107.190, 272.000, 3257.826), Quaternion(0.0000, 0.8241, 0.0000, 0.5664), 0)
+
+			if HardMode~=nil then
+				TeamCreate("CDDestroyer02", 1053, CVector(2893, 279, 3549), {"CITPH03_DestroyerCD01"})
+				TeamCreate("CDDestroyer03", 1053, CVector(2718, 279, 3596), {"CITPH03_DestroyerCD02"})
+				TeamCreate("CDLav01", 1060, CVector(2846, 287, 3354), {"CITPH03_LavCD01"})
+				TeamCreate("CDLav02", 1060, CVector(2858, 290, 3335), {"CITPH03_LavCD01"})
+				TeamCreate("CDLav03", 1060, CVector(2920, 291, 3310), {"CITPH03_LavCD01"})
+				TeamCreate("CDLav04", 1060, CVector(3065, 296, 3217), {"CITPH03_LavCD01"})
+				TeamCreate("CDLav05", 1060, CVector(3098, 296, 3210), {"CITPH03_LavCD01"})
+				TeamCreate("CDBoat02", 1052, CVector(3037, 279, 3536), {"CITPH03_SmlboatCD01", "CITPH03_SmlboatCD01"})
+				CreateNewBreakableObject("CDCoastMed01", "CDCoastalGun01", 1058, CVector(2800.100, 272.000, 3388.697), Quaternion(0.0000, -0.1457, 0.0000, 0.9893), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CDAAGun02", 1058, CVector(2833.063, 272.000, 3390.055), Quaternion(0.0000, 0.7632, 0.0000, 0.6461), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CDAAGun04", 1058, CVector(2865.340, 272.000, 3356.703), Quaternion(0.0000, 0.1822, 0.0000, 0.9833), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CDAAGun07", 1058, CVector(3076.227, 272.000, 3267.018), Quaternion(0.0000, -0.6208, 0.0000, 0.7840), 0)
+			end
+			-- =============
+			--  CD Reserves
+			-- =============
+			if HardMode~=nil then
+				TeamCreate("CDHeavyCruiser02", 1054, CVector(2612, 279,  2385), {"CITPH03_HCruiserCD02"})
+			end
+			TeamCreate("CDHelicopter01", 1056, CVector(489, 320, 839), {"CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4)})
+			TeamCreate("CDHelicopter02", 1056, CVector(7585, 320, 591), {"CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4)})
+			TeamCreate("CDHelicopter03", 1056, CVector(7972, 320, 448), {"CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4), "CITPH03_HeliCD0"..math.random(4)})
+
+			-- ----------------
+			-- Units parameters
+
+			if HardMode~=nil then
+				for i=1, 3 do
+					Units = getObj("CDDestroyer0"..i)
+					if Units then
+						Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+						Units:_AdjustBehaviour ()
+					end
+				end
+
+				for i=1, 2 do
+					Units = getObj("CDHeavyCruiser0"..i)
+					if Units then
+						Units:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+						Units:_AdjustBehaviour ()
+					end
+				end
+
+				for i=1, 5 do
+					Units = getObj("CDLav0"..i)
+					if Units then
+						Units:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+						Units:_AdjustBehaviour ()
+					end
+				end
+
+				for i=1, 3 do
+					Units = getObj("CDBoat0"..i)
+					if Units then
+						Units:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+						Units:_AdjustBehaviour ()
+					end
+				end
+			else
+				Units = getObj("CDDestroyer01")
+				if Units then
+					Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					Units:_AdjustBehaviour ()
+				end
+
+				Units = getObj("CDHeavyCruiser01")
+				if Units then
+					Units:SetProperty ("TeamTacticPrototype", "CautiousTactic")
+					Units:_AdjustBehaviour ()
+				end
+
+				Units = getObj("CDBoat01")
+				if Units then
+					Units:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+					Units:_AdjustBehaviour ()
+				end
+
+				Units = getObj("CDBoat03")
+				if Units then
+					Units:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
+					Units:_AdjustBehaviour ()
+				end
+			end
+
+			for i=1, 3 do
+				Units = getObj("CDHelicopter0"..i)
+				if Units then
+					Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+					Units:_AdjustBehaviour ()
+				end
+			end
+
+			-- ---------------
+			-- Unit parameters
+
+			
+			Unit = getObj("CDDestroyer01_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_1")
+			if Unit then
+--				Unit:SetGamePositionOnGround(CVector(434, 279, 5159))
+				Unit:SetGamePositionOnGround(CVector(1216, 279, 5006))
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_2")
+			if Unit then
+--				Unit:SetGamePositionOnGround(CVector(418, 279, 4998))
+				Unit:SetGamePositionOnGround(CVector(1200, 279, 4846))
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_3")
+			if Unit then
+--				Unit:SetGamePositionOnGround(CVector(181, 279, 5049))
+				Unit:SetGamePositionOnGround(CVector(963, 279, 4897))
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDMerchant01_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDMerchant02_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDMerchant03_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, -0.4695, 0.0000, 0.8829))
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_1")
+			if Unit then
+				Unit:SetGamePositionOnGround(CVector(7900, 279, 1776))
+				Unit:SetRotation(Quaternion(0.0000, -0.4695, 0.0000, 0.8829))
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_2")
+			if Unit then
+				Unit:SetGamePositionOnGround(CVector(8091, 279, 1713))
+				Unit:SetRotation(Quaternion(0.0000, -0.4695, 0.0000, 0.8829))
+			end
+
+			Unit = getObj("CDBoat01_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, 0.2588, 0.0000, 0.9659))
+			end
+
+			Unit = getObj("CDBoat01_vehicle_1")
+			if Unit then
+				Unit:SetGamePositionOnGround(CVector(3156, 279, 3456))
+				Unit:SetRotation(Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			end
+
+			Unit = getObj("CDBoat03_vehicle_0")
+			if Unit then
+				Unit:SetRotation(Quaternion(0.0000, -0.2588, 0.0000, 0.9659))
+			end
+
+			local coords = {CVector(489, 320, 839), CVector(414, 320, 838), CVector(350, 320, 822), CVector(429, 320, 740)}
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter01_vehicle_"..i)
+				if Unit then
+					Unit:SetGamePositionOnGround(coords[i+1])
+					Unit:SetRotation(Quaternion(0.0000, 0.2588, 0.0000, 0.9659))
+				end
+			end
+
+			coords = {CVector(7585, 320, 591), CVector(7578, 320, 657), CVector(7677, 320, 658), CVector(7660, 320, 731)}
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter02_vehicle_"..i)
+				if Unit then
+					Unit:SetGamePositionOnGround(coords[i+1])
+					Unit:SetRotation(Quaternion(0.0000, -0.4226, 0.0000, 0.9063))
+				end
+			end
+
+			coords = {CVector(7972, 320, 448), CVector(7964, 320, 514), CVector(8063, 320, 516), CVector(8046, 320, 588)}
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter03_vehicle_"..i)
+				if Unit then
+					Unit:SetGamePositionOnGround(coords[i+1])
+					Unit:SetRotation(Quaternion(0.0000, -0.4226, 0.0000, 0.9063))
+				end
+			end
+
+			if HardMode~=nil then
+				Unit = getObj("CDDestroyer02_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, 0.3827, 0.0000, 0.9239))
+				end
+
+				Unit = getObj("CDDestroyer03_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, 0.3827, 0.0000, 0.9239))
+				end
+
+				Unit = getObj("CDLav01_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, -0.4325, 0.0000, 0.9016))
+					Unit:SetMaxSpeed(0)
+					Unit:SetMaxTorque(1)
+				end
+
+				Unit = getObj("CDLav02_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, 0.8254, 0.0000, 0.5646))
+					Unit:SetMaxSpeed(0)
+					Unit:SetMaxTorque(1)
+				end
+
+				Unit = getObj("CDLav03_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, 0.7576, 0.0000, 0.6528))
+					Unit:SetMaxSpeed(0)
+					Unit:SetMaxTorque(1)
+				end
+
+				Unit = getObj("CDLav04_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, -0.6105, 0.0000, 0.7920))
+					Unit:SetMaxSpeed(0)
+					Unit:SetMaxTorque(1)
+				end
+
+				Unit = getObj("CDLav05_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, 0.8315, 0.0000, 0.5556))
+					Unit:SetMaxSpeed(0)
+					Unit:SetMaxTorque(1)
+				end
+
+				Unit = getObj("CDBoat02_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, -0.3827, 0.0000, 0.9239))
+				end
+
+				Unit = getObj("CDBoat02_vehicle_1")
+				if Unit then
+					Unit:SetGamePositionOnGround(CVector(2981, 279, 3563))
+					Unit:SetRotation(Quaternion(0.0000, -0.1305, 0.0000, 0.9914))
+				end
+
+				Unit = getObj("CDHeavyCruiser02_vehicle_0")
+				if Unit then
+					Unit:SetRotation(Quaternion(0.0000, -0.2588, 0.0000, 0.9659))
+				end
+			end
+
+			-- =========
+			--  Trigger
+			-- =========
+
+			local PlfID = GetPlayerVehicleId()
+			FlyLinked( "CITPH03_Start1", PlfID, 30, 0, 1, PlfID )
+			StartCinematic()
+
+			AddCinematicMessage( 1, 2)
+			AddCinematicMessage( 2, 1)
+			AddCinematicMessage( 3, 1)
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetExternalPathByName("StartPath_Player")
+				Plf:LimitMaxSpeed(3)
+			end
+
+			TActivate("MissionStart_End")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MissionStart_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			local Unit
+			local Plf = GetPlayerVehicle()
+
+			if Plf then
+				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:UnlimitMaxSpeed()
+			end
+
+			Unit = getObj("CITOldCruiser01_vehicle_0")
+			if Unit then
+				Unit:PlaceToEndOfPath("StartPath_CITOldCruiser01")
+				Unit:SetExternalPathByName("CITOldCruiser01_Waypoint1")
+				Unit:SetCruisingSpeed(9)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CITOldCruiser02_vehicle_0")
+			if Unit then
+				Unit:PlaceToEndOfPath("StartPath_CITOldCruiser02")
+				Unit:SetExternalPathByName("CITOldCruiser02_Waypoint1")
+				Unit:SetCruisingSpeed(9)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDDestroyer01_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDDestroyer02_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_2")
+			if Unit then
+				Unit:SetExternalPathByName("CDDestroyer03_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDDestroyer01_vehicle_3")
+			if Unit then
+				Unit:SetExternalPathByName("CDDestroyer04_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDMerchant01_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDMerchant01_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+			end
+
+			Unit = getObj("CDMerchant02_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDMerchant02_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+			end
+
+			Unit = getObj("CDMerchant03_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDMerchant03_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDHeavyCruiser01_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDHeavyCruiser02_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDHeavyCruiser01_vehicle_2")
+			if Unit then
+				Unit:SetExternalPathByName("CDHeavyCruiser03_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			TActivate("AutoSave")
+			TActivate("CDMerchantsTargetReached")
+			TActivate("CDMerchantsDestroyed")
+			TActivate("CDCruisersDestroyed")
+			TActivate("CITCruisersFormationManager")
+			TActivate("CDMerchantsFormationManager")
+			TActivate("CDCruisersFormationManager")
+			TActivate("CITCriticalLosses")
+			TActivate("CDReinforcements")
+			TActivate("CDReserves")
+			TActivate("CDCruisersOrder")
+
+			TActivate("RetreatStart")
+			TActivate("Leave")
+
+			TakeQuest("CIT_PH03")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="AutoSave" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:setGodMode(1)
+			end
+
+			trigger:Deactivate()
+
+			TActivate("AutoReload")
+
+			AutoSave()
+			
+		</script>
+	</trigger>
+
+	<trigger Name="AutoReload" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local Plf = GetPlayerVehicle()
+
+			if Plf:getGodMode() then
+				SpawnMessageBox( "1003" )
+				ShowDeathMenu()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsTargetReached" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant02_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant03_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+
+			UpdateUnitsStats()
+
+			FailQuest("CIT_PH03_DestroyMerchants")
+
+			if not(IsQuestTaken("CIT_PH03_Retreat")) and not(IsQuestTaken("CIT_PH03_DestroyCruisers")) then
+				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph03_retreat")
+			end
+
+			if CheckUnits(Friendlies, "alive", 1) then
+				TActivate("CITRetreatIfPossible")
+
+				AddFadingMsgId("fm_cit_ph03_citretreating")
+			end
+
+			TakeQuest("CIT_PH03_Retreat")
+
+			TDeactivate("CDMerchantsFormationManager")
+
+			trigger:Deactivate()
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant03_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[5],Enemies[6],Enemies[7]}
+
+			if CheckUnits(TargetEnemies, "dead", 3) then
+				UpdateUnitsStats()
+
+				CompleteQuest("CIT_PH03_DestroyMerchants")
+
+				if not(IsQuestTaken("CIT_PH03_Retreat")) and not(IsQuestTaken("CIT_PH03_DestroyCruisers")) then
+					AddImportantFadingMsgByStrIdFormatted("fm_cit_ph03_retreat")
+				end
+
+				if CheckUnits(Friendlies, "alive", 1) then
+					TActivate("CITRetreatIfPossible")
+
+					AddFadingMsgId("fm_cit_ph03_citretreating")
+				end
+
+				TakeQuest("CIT_PH03_Retreat")
+
+				TDeactivate("CDMerchantsFormationManager")
+				TDeactivate("CDMerchantsTargetReached")
+
+				if not(IsQuestTaken("CIT_PH03_DestroyCruisers")) and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+					local b = SpawnMessageBox( "1001" )
+					println("mission end 0")
+					if b == 1 then
+						trigger:Deactivate()
+
+						CompleteQuestIfTaken("CIT_PH03_Retreat")
+
+						println("mission end 1")
+
+						UpdateUnitsStats()
+
+						CalcMissionStats()
+
+						println("mission end 3")
+
+						PassToMap("hq", "Headquarters_enter", 90, false )
+					end
+				end
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CIT_PH03_DestroyMerchants", TargetEnemies)
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDCruisersDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_2" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[8],Enemies[9],Enemies[10]}
+
+			if CheckUnits(TargetEnemies, "dead", 3) then
+				UpdateUnitsStats()
+
+				CompleteQuest("CIT_PH03_DestroyCruisers")
+
+				TDeactivate("CITCruisersFormationManager")
+
+				if IsQuestCompleted("CIT_PH03_DestroyMerchants") then
+					if CheckUnits(Friendlies, "alive", 1) then
+						TActivate("CITRetreatIfPossible")
+	
+						AddFadingMsgId("fm_cit_ph03_citretreating")
+					end
+
+					if IsQuestCompleted("CIT_PH03_DestroyMerchants") and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+						local b = SpawnMessageBox( "1001" )
+						println("mission end 0")
+						if b == 1 then
+							trigger:Deactivate()
+	
+							CompleteQuestIfTaken("CIT_PH03_Retreat")
+	
+							println("mission end 1")
+	
+							UpdateUnitsStats()
+	
+							CalcMissionStats()
+	
+							println("mission end 3")
+	
+							PassToMap("hq", "Headquarters_enter", 90, false )
+						end
+					end
+				end
+				
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CIT_PH03_DestroyCruisers", TargetEnemies)
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITCruisersFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CITOC01a = getObj("CITOldCruiser01_vehicle_0")
+			local CITOC02a = getObj("CITOldCruiser02_vehicle_0")
+
+			if CITOC01a or CITOC02a then
+				if CITOC01a then
+					CITOC01a:SetCruisingSpeed(9)
+				end
+
+				if CITOC02a then
+					CITOC02a:SetCruisingSpeed(9)
+				end
+			else
+				LOG("CIT OLD CRUISER FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CDD01a = getObj("CDDestroyer01_vehicle_0")
+			local CDD02a = getObj("CDDestroyer01_vehicle_1")
+			local CDD03a = getObj("CDDestroyer01_vehicle_2")
+			local CDD04a = getObj("CDDestroyer01_vehicle_3")
+			local CDM01a = getObj("CDMerchant01_vehicle_0")
+			local CDM02a = getObj("CDMerchant02_vehicle_0")
+			local CDM03a = getObj("CDMerchant03_vehicle_0")
+
+			if CDM01a or CDM02a or CDM03a then
+				if CDD01a then
+					CDD01a:SetCruisingSpeed(3)
+				end
+
+				if CDD02a then
+					CDD02a:SetCruisingSpeed(3)
+				end
+
+				if CDD03a then
+					CDD03a:SetCruisingSpeed(3)
+				end
+
+				if CDD04a then
+					CDD04a:SetCruisingSpeed(3)
+				end
+
+				if CDM01a then
+					CDM01a:SetCruisingSpeed(3)
+				end
+
+				if CDM02a then
+					CDM02a:SetCruisingSpeed(3)
+				end
+
+				if CDM03a then
+					CDM03a:SetCruisingSpeed(3)
+				end
+			else
+				if CDD01a then
+					CDD01a:SetCruisingSpeed(30)
+				end
+
+				if CDD02a then
+					CDD02a:SetCruisingSpeed(30)
+				end
+
+				if CDD03a then
+					CDD03a:SetCruisingSpeed(30)
+				end
+
+				if CDD04a then
+					CDD04a:SetCruisingSpeed(30)
+				end
+				LOG("CD MERCHANT FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDCruisersFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CDHC01a = getObj("CDHeavyCruiser01_vehicle_0")
+			local CDHC02a = getObj("CDHeavyCruiser01_vehicle_1")
+			local CDHC03a = getObj("CDHeavyCruiser01_vehicle_2")
+
+			if CDHC01a or CDHC02a or CDHC03a then
+				if CDHC01a then
+					CDHC01a:SetCruisingSpeed(7)
+				end
+
+				if CDHC02a then
+					CDHC02a:SetCruisingSpeed(7)
+				end
+
+				if CDHC03a then
+					CDHC03a:SetCruisingSpeed(7)
+				end
+			else
+				LOG("CD CRUISER FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CITCriticalLosses" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser02_vehicle_0" />
+		<script>
+			UpdateUnitsStats()
+
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+			local PlayerHealth = StringToTable(GetVar("PlayerEndHealth").AsString)
+			local TotalHealth = FriendliesHealth[1] + FriendliesHealth[2] + PlayerHealth
+
+			if CheckUnits(Friendlies, "dead", 1) or 2000 >= TotalHealth then
+				TActivate("CITRetreatIfPossible")
+
+				AddFadingMsgId("fm_critical_loss_ally")
+				AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
+
+				trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITRetreatIfPossible" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+
+			TDeactivate("CITCruisersFormationManager")
+
+			if GetVar("RefusedToRetreat").AsInt ~= 1 and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+				local b = SpawnMessageBox( "1001" )
+				println("mission end 0")
+				if b == 1 then
+					trigger:Deactivate()
+
+					CompleteQuestIfTaken("CIT_PH03_Retreat")
+
+					println("mission end 1")
+
+					UpdateUnitsStats()
+
+					CalcMissionStats()
+
+					println("mission end 3")
+
+					PassToMap("hq", "Headquarters_enter", 90, false )
+				else
+					SetVar("RefusedToRetreat", 1)
+				end
+			end
+
+			if CheckUnits(Friendlies, "alive", 1) then
+				for i=1, getn(Friendlies) do
+					if CheckUnits(Friendlies[i]) then
+						if 3 > GetSpeed(getObj(Friendlies[i])) then
+							LOG("speed of friendly "..i.." is not okay, setting the external path")
+							getObj(Friendlies[i]):SetExternalPathByName("CITRetreatDirection_"..i)
+							getObj(Friendlies[i]):SetCruisingSpeed(30)
+							if CheckDistBetweenUnits(Friendlies[i], Enemies, "least") > 500 then
+								LOG("dist from friendly "..i.." to enemies is MORE than 500")
+								getObj(Friendlies[i]):SetCanBeDistractedFromMoving(false)
+							else
+								LOG("dist from friendly "..i.." to enemies is LESS than 500")
+								getObj(Friendlies[i]):SetCanBeDistractedFromMoving(true)
+							end
+						else
+							LOG("speed of friendly "..i.." is okay")
+						end
+					end
+				end
+			else
+				LOG("all friendlies are dead, retreat trigger disabled")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDReinforcements" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDMerchant02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDMerchant03_vehicle_0" />
+		<script>	
+			UpdateUnitsStats()
+
+			local Unit
+
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter01_vehicle_"..i)
+				if Unit then
+					Unit:SetExternalPathByName("CDHelicopter01_vehicle_"..i.."_Waypoint1")
+					Unit:SetCanBeDistractedFromMoving(true)
+				end
+			end
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph03_merchants")
+			AddFadingMsgId("fm_reinforcements_inbound_foe")
+			AddFadingMsgId("fm_aircraft_enroute_foe")
+
+			LOG("enemy reinforcements coming")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDReserves" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="CDCoastalGun02" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDCoastalGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDCoastalGun04" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDCoastalGun05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDCoastalGun06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDAAGun01" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDAAGun03" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDAAGun05" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDAAGun06" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDAAGun08" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat01_vehicle_1" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat03_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_2" />
+		<script>	
+			UpdateUnitsStats()
+
+			local Unit
+
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter02_vehicle_"..i)
+				if Unit then
+					Unit:SetExternalPathByName("CDHelicopter02_vehicle_"..i.."_Waypoint1")
+					Unit:SetCanBeDistractedFromMoving(true)
+				end
+			end
+
+			for i=0, 3 do
+				Unit = getObj("CDHelicopter03_vehicle_"..i)
+				if Unit then
+					Unit:SetExternalPathByName("CDHelicopter03_vehicle_"..i.."_Waypoint1")
+					Unit:SetCanBeDistractedFromMoving(true)
+				end
+			end
+
+			Unit = getObj("CDHeavyCruiser02_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDHeavyCruiser04_Waypoint1")
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			AddFadingMsgId("fm_reserves_inbound_foe")
+			AddFadingMsgId("fm_aircraft_enroute_foe")
+
+			LOG("enemy reserves coming")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDCruisersOrder" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDHeavyCruiser01_vehicle_1" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDHeavyCruiser01_vehicle_2" />
+		<script>	
+			UpdateUnitsStats()
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph03_cruisers")
+
+			TakeQuest("CIT_PH03_DestroyCruisers")
+
+			LOG("enemy cruisers encountered")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

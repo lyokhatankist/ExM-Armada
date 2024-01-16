@@ -1854,8 +1854,11 @@ function CheckDistBetweenUnits(unit, units, checkT)
 			end
 		end
 	else
-		unit2Name = getObj(unit2Name)
-		retVal = Dist(unit1Name, unit2Name)
+		retVal = 16384		
+		if CheckUnits(unit2Name) then
+			unit2Name = getObj(unit2Name)
+			retVal = Dist(unit1Name, unit2Name)
+		end
 	end
 
 	return retVal
@@ -2550,6 +2553,10 @@ function CalcMissionStats(plDead)
 
 			if playerDead == 1 then
 				gFriendliesLostNames = gFriendliesLostNames..", "..GetVar("PlayerName").AsString
+			end
+		else
+			if playerDead == 1 then
+				gFriendliesLostNames = GetVar("PlayerName").AsString
 			end
 		end
 	end

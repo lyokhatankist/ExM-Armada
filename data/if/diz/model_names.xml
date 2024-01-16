@@ -1553,6 +1553,77 @@
 		locForm="0"
 		value="Эсминец" />
 
+<!-- CIT PH03 March -->
+	<Item
+		id="CITPH03_Player01"
+		locForm="0"
+		value="«Арлетт» (л.к.т. «Эгаль»)" />
+
+	<Item
+		id="CITPH03_OCruiserCIT01"
+		locForm="0"
+		value="«Эврё»" />
+
+	<Item
+		id="CITPH03_OCruiserCIT02"
+		locForm="0"
+		value="«Этуаль»" />
+
+	<Item
+		id="CITPH03_SmlboatCD01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH03_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH03_DestroyerCD02"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH03_HCruiserCD01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CITPH03_HCruiserCD02"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CITPH03_MerchantCD01"
+		locForm="0"
+		value="Сухогруз" />
+
+	<Item
+		id="CITPH03_LavCD01"
+		locForm="0"
+		value="Броневик" />
+
+	<Item
+		id="CITPH03_HeliCD01"
+		locForm="0"
+		value="Вертолёт" />
+	
+	<Item
+		id="CITPH03_HeliCD02"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CITPH03_HeliCD03"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CITPH03_HeliCD04"
+		locForm="0"
+		value="Вертолёт" />
+
 <!-- CD PH01 Garrison -->
 	<Item
 		id="CDPH01_Player01"
