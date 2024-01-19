@@ -453,6 +453,7 @@
 			-- =========
 			local Plf = GetPlayerVehicle()
 			if Plf then
+				Plf:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, -0.0000))
 				Plf:SetExternalPathByName("StartPath_Player")
 				Plf:SetCruisingSpeed(25)
 			end

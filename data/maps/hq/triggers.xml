@@ -91,6 +91,27 @@
 		</script>
 	</trigger>
 <!-- "7 Махов". -->
+	<trigger Name="MissionStart" active="0">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<script>
+			local missionLoc = GetVar("MissionLoc").AsString
+			local b = SpawnMessageBox( "1000" )
+			if b == 1 then
+				local missionParams = StringToTable(GetVar("MissionParams").AsString)
+				gMissionTime = StringToTable(missionParams[1])
+				SetVar("OnMission", 0)
+				TActivate(missionParams[3])
+				TActivate("ShowMissionStats")
+
+				-- Converge reward item tables
+
+				trigger:Deactivate()
+				
+				PassToMap(missionLoc, "MissionStartLoc", nil, true )
+			end
+
+		</script>
+	</trigger>
 
 	<trigger Name="ShowMissionStats" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
@@ -120,8 +141,6 @@
 
 			Radar:SetScanRadius(1000)
 
-			-- Add reward items to the shop
-			
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -139,65 +158,38 @@
 	</trigger>
 
 	<trigger Name="CITPH01_Counterattack" active="0">
-		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			local missionLoc = GetVar("MissionLoc").AsString
-			local b = SpawnMessageBox( "1000" )
-			if b == 1 then
-				local missionParams = StringToTable(GetVar("MissionParams").AsString)
-				gMissionTime = StringToTable(missionParams[1])
-				SetVar("OnMission", 0)
-				TActivate("ShowMissionStats")
+			-- Add reward items to the shop
 
-				-- Converge reward item tables
-
-				trigger:Deactivate()
-				
-				PassToMap(missionLoc, "MissionStartLoc", 90, true )
-			end
-
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="CITPH03_March" active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
 		<script>
-			local missionLoc = GetVar("MissionLoc").AsString
-			local b = SpawnMessageBox( "1000" )
-			if b == 1 then
-				local missionParams = StringToTable(GetVar("MissionParams").AsString)
-				gMissionTime = StringToTable(missionParams[1])
-				SetVar("OnMission", 0)
-				TActivate("ShowMissionStats")
+			-- Add reward items to the shop
 
-				-- Converge reward item tables
-
-				trigger:Deactivate()
-				
-				PassToMap(missionLoc, "MissionStartLoc", 90, true )
-			end
-
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="CDPH01_Garrison" active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
 		<script>
-			local missionLoc = GetVar("MissionLoc").AsString
-			local b = SpawnMessageBox( "1000" )
-			if b == 1 then
-				local missionParams = StringToTable(GetVar("MissionParams").AsString)
-				gMissionTime = StringToTable(missionParams[1])
-				SetVar("OnMission", 0)
-				TActivate("ShowMissionStats")
+			-- Add reward items to the shop
 
-				-- Converge reward item tables
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
-				trigger:Deactivate()
-				
-				PassToMap(missionLoc, "MissionStartLoc", 0, true )
-			end
+	<trigger Name="CDPH02_Fortress" active="0">
+		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<script>
+			-- Add reward items to the shop
 
+			trigger:Deactivate()
 		</script>
 	</trigger>
 </triggers>

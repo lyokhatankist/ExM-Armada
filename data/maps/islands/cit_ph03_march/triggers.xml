@@ -75,7 +75,7 @@
 			end
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 520) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 320) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 30) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 42) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 2000)
@@ -711,6 +711,7 @@
 
 			local Plf = GetPlayerVehicle()
 			if Plf then
+				Plf:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
 				Plf:SetExternalPathByName("StartPath_Player")
 				Plf:LimitMaxSpeed(3)
 			end
