@@ -258,7 +258,7 @@
                 Radius                  = "16.0"
 
                 WaveForceIntensity      = "0.0"
-                WaveDamageIntensity     = "100.0"
+                WaveDamageIntensity     = "500.0"
         />
 
         <Prototype

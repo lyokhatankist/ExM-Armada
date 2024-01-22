@@ -81,17 +81,29 @@
 		questName="CD_PH02_DestroyLavs"
 		briefDiz="Крепость - Уничтожить вражеские ЗРК"
 		fullDiz="Вражеские зенитно-ракетные комплексы не дают нашей авиации приблизиться к острову. Уничтожьте вражеские броневики, чтобы получить поддержку с воздуха."
-		isMainQuest="0" />
+		isMainQuest="0">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2975.000 279.000 5875.000" />
+	</QuestInfo>
 
 	<QuestInfo
 		questName="CD_PH02_DestroyTurrets"
 		briefDiz="Уничтожить вражеские укрепления на острове Милос"
-		isMainQuest="1" />
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2290.000 290.000 5750.000" />
+	</QuestInfo>
 
 	<QuestInfo
 		questName="CD_PH02_Retreat"
 		briefDiz="Покинуть район боевых действий"
-		isMainQuest="1" />
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			targetObjName="Leave03Loc" />
+	</QuestInfo>
 
 	<QuestInfo
 		questName="CD_Tutorial"

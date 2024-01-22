@@ -3,10 +3,10 @@
     <trigger Name="PlayerDead" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="MyCar" />
 		<script>
-			local Width = 5 -- width of the vessel
-			local Height = 5 -- height of the vessel
+			local Width = 6 -- width of the vessel
+			local Height = 3 -- height of the vessel
 			local SinkingSpeed = 1500 -- (set to lower numbers for bigger ships)
-			local EffectsAmount = 9 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local EffectsAmount = 14 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
 				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",

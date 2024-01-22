@@ -3,10 +3,10 @@
     <trigger Name="PlayerDead" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="MyCar" />
 		<script>
-			local Width = 5 -- width of the vessel
-			local Height = 5 -- height of the vessel
-			local SinkingSpeed = 1500 -- (set to lower numbers for bigger ships)
-			local EffectsAmount = 9 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local Width = 10 -- width of the vessel
+			local Height = 7 -- height of the vessel
+			local SinkingSpeed = 1250 -- (set to lower numbers for bigger ships)
+			local EffectsAmount = 26 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
 				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",
@@ -112,15 +112,15 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			if not(IsQuestTaken("CD_Tutorial_Retreat")) then
-				FailQuest("CD_Tutorial")
+			if not(IsQuestTaken("CD_PH02_Retreat")) then
+				FailQuest("CD_PH02")
 			else
-				FailQuest("CD_Tutorial_Retreat")
+				FailQuest("CD_PH02_Retreat") -- the trigger is identical to Leave, besides this
 			end
 
-			UpdateUnitsStats(1)
-			
-			CalcMissionStats(1)
+			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this
+
+			CalcMissionStats(1) -- the trigger is identical to Leave, besides this
 
 			PassToMap("hq", "Headquarters_enter", 90, true)
 

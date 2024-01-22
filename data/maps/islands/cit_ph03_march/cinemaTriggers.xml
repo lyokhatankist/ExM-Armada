@@ -5,7 +5,7 @@
 		<script>
 			local Width = 9 -- width of the vessel
 			local Height = 4 -- height of the vessel
-			local SinkingSpeed = 2000 -- (set to lower numbers for bigger ships)
+			local SinkingSpeed = 1350 -- (set to lower numbers for bigger ships)
 			local EffectsAmount = 22 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",

@@ -176,6 +176,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription id = "BASKET"	partResourceType = "FAKE_BASKET"		lpName = "LP_CAB01" >
 				<PartDescription id="BASKET_SPECIAL_WEAPON_1"	partResourceType = "HELIFUSELAGE_GUN"	lpName = "LP_FLYGUN01" />
 				<PartDescription id="BASKET_SMALL_GUN_1"		partResourceType = "HELIPRIMARY_GUN"	lpName = "LP_FLYGUN02" />
+				<PartDescription id="BASKET_SMALL_GUN_2"		partResourceType = "HELIPRIMARY_GUN"	lpName = "LP_FLYGUN02" />
 				<PartDescription id="BASKET_BIG_GUN_1"			partResourceType = "HELISECONDARY_GUN"	lpName = "LP_FLYGUN03" />
 				<PartDescription id="BASKET_GIANT_GUN_1"		partResourceType = "HELITERTIARY_GUN"	lpName = "LP_FLYGUN04" />
 			</PartDescription>
@@ -206,6 +207,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -222,6 +224,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -238,6 +241,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -254,6 +258,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -2710,6 +2715,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -2727,6 +2733,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -2744,6 +2751,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -2761,6 +2769,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -3191,6 +3200,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -3208,6 +3218,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -3225,6 +3236,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -3242,6 +3254,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "heliCDArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage02" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun02" />
+			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "heliMachinegun03" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliRockets02" />
 		</Parts>
 	</Prototype>
@@ -3294,8 +3307,6 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_2"			Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
 		</Parts>
 	</Prototype>
@@ -3316,20 +3327,19 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CABIN"						Prototype = "ocruiserCITEngine" />
 			<Part id = "BASKET"						Prototype = "ocruiserCIT152Armanent" />
 			<Part id = "BASKET_BIG_GUN_0"			Prototype = "mun_twin152CIT01" />
-			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin152CIT02" />
+			<Part id = "BASKET_BIG_GUN_1"			Prototype = "mun_twin152CIT01" />
 			<Part id = "BASKET_SMALL_GUN_10"		Prototype = "sponson130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "sponson130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "sponson130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "sponson130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_14"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single130CIT02" />
+			<Part id = "BASKET_SMALL_GUN_15"		Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SMALL_GUN_16"		Prototype = "mun_single130CIT01" />
-			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single130CIT02" />
+			<Part id = "BASKET_SMALL_GUN_17"		Prototype = "mun_single130CIT01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_3"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_4"	Prototype = "AA47mmCannon01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCITMachinegun01" />
 		</Parts>
 	</Prototype>
 
@@ -3359,7 +3369,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliNurs01" />
-			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" />
+<!-- 			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" /> -->
 		</Parts>
 	</Prototype>
 
@@ -3376,7 +3386,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliNurs01" />
-			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" />
+<!-- 			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" /> -->
 		</Parts>
 	</Prototype>
 
@@ -3393,7 +3403,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliNurs01" />
-			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" />
+<!-- 			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" /> -->
 		</Parts>
 	</Prototype>
 
@@ -3410,7 +3420,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "heliFuselage01" />
 			<Part id = "BASKET_SMALL_GUN_1"			Prototype = "heliMachinegun01" />
 			<Part id = "BASKET_BIG_GUN_1"			Prototype = "heliNurs01" />
-			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" />
+<!-- 			<Part id = "BASKET_GIANT_GUN_1"			Prototype = "heliRockets01" /> -->
 		</Parts>
 	</Prototype>
 </Prototypes>

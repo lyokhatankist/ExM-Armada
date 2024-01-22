@@ -1044,6 +1044,10 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="quay_big_cube"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="berth"
 			file="data\models\AnimModels.xml" />
 

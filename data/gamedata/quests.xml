@@ -144,7 +144,8 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all taken"
-		PrecedingQuests="CD_PH02" />
+		PrecedingQuests="CD_PH02"
+		OnComplete="GiveScore(5000)" />
 <!--Root/CIT/Placeholder--><!--Root/CIT/Main Campaign--><!--Root/CIT/Placeholder/01_Counterattack-->
 	<quest
 		Name="CIT_PH01"
