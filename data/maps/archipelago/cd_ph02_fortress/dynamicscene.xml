@@ -126,7 +126,7 @@
 		Name="Warning04Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="2050.000 255.000 6825.000"
+		Pos="2050.000 255.000 6975.000"
 		Radius="300.000" />
 
 	<Object
@@ -134,7 +134,7 @@
 		Name="Warning05Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="2450.000 255.000 6825.000"
+		Pos="2450.000 255.000 6975.000"
 		Radius="300.000" />
 
 	<Object
@@ -142,7 +142,7 @@
 		Name="Warning06Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="2850.000 255.000 6825.000"
+		Pos="2850.000 255.000 6975.000"
 		Radius="300.000" />
 
 	<Object
@@ -150,7 +150,7 @@
 		Name="Warning07Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="3250.000 255.000 6825.000"
+		Pos="3250.000 255.000 6975.000"
 		Radius="300.000" />
 
 	<Object
@@ -158,7 +158,7 @@
 		Name="Warning08Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="3650.000 255.000 6825.000"
+		Pos="3650.000 255.000 6975.000"
 		Radius="300.000" />
 
 	<Object
@@ -166,7 +166,7 @@
 		Name="Warning09Loc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="4250.000 255.000 6625.000"
+		Pos="4250.000 255.000 6775.000"
 		Radius="400.000" />
 
 	<Object

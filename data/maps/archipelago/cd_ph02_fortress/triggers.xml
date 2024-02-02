@@ -50,40 +50,42 @@
 			enemy[12] = {"CITLav02_vehicle_0", 20, 300, 694, 0}
 			enemy[13] = {"CITLav03_vehicle_0", 20, 300, 694, 0}
 			enemy[14] = {"CITLav03_vehicle_1", 20, 300, 694, 0}
-			enemy[15] = {"CITCoastalGun01", 195, 17500, 3089, 0}
-			enemy[16] = {"CITCoastalGun02", 195, 17500, 3089, 0}
-			enemy[17] = {"CITCoastalGun03", 195, 17500, 3089, 0}
-			enemy[18] = {"CITCoastalGun04", 195, 17500, 3089, 0}
-			enemy[19] = {"CITCoastalGun05", 195, 17500, 3089, 0}
-			enemy[20] = {"CITCoastalGun06", 195, 17500, 3089, 0}
-			enemy[21] = {"CITAAGun01", 65, 3000, 629, 0}
-			enemy[22] = {"CITAAGun02", 65, 3000, 629, 0}
-			enemy[23] = {"CITAAGun03", 65, 3000, 629, 0}
-			enemy[24] = {"CITAAGun04", 65, 3000, 629, 0}
-			enemy[25] = {"CITAAGun05", 65, 3000, 629, 0}
-			enemy[26] = {"CITAAGun06", 65, 3000, 629, 0}
-			enemy[27] = {"CITAAGun07", 65, 3000, 629, 0}
-			enemy[28] = {"CITAAGun08", 65, 3000, 629, 0}
-			enemy[29] = {"CITAAGun09", 65, 3000, 629, 0}
-			enemy[30] = {"CITAAGun10", 65, 3000, 629, 0}
-			enemy[31] = {"CITAAGun11", 65, 3000, 629, 0}
-			enemy[32] = {"CITAAGun12", 65, 3000, 629, 0}
-			enemy[33] = {"CITHelicopter01_vehicle_0", 20, 500, 1514, 110}
-			enemy[34] = {"CITHelicopter01_vehicle_1", 20, 500, 1514, 110}
-			enemy[35] = {"CITHelicopter02_vehicle_0", 20, 500, 1514, 110}
-			enemy[36] = {"CITHelicopter02_vehicle_1", 20, 500, 1514, 110}
-			enemy[37] = {"CITHelicopter03_vehicle_0", 20, 500, 1514, 110}
-			enemy[38] = {"CITHelicopter03_vehicle_1", 20, 500, 1514, 110}
-			enemy[39] = {"CITHelicopter04_vehicle_0", 20, 500, 1514, 110}
-			enemy[40] = {"CITHelicopter04_vehicle_1", 20, 500, 1514, 110}
-			enemy[41] = {"CITHelicopter05_vehicle_0", 20, 500, 1514, 110}
-			enemy[42] = {"CITHelicopter05_vehicle_1", 20, 500, 1514, 110}
-			enemy[43] = {"CITHelicopter06_vehicle_0", 20, 500, 1514, 110}
-			enemy[44] = {"CITHelicopter06_vehicle_1", 20, 500, 1514, 110}
-			enemy[45] = {"CITHelicopter07_vehicle_0", 20, 500, 1514, 110}
-			enemy[46] = {"CITHelicopter07_vehicle_1", 20, 500, 1514, 110}
-			enemy[47] = {"CITHelicopter08_vehicle_0", 20, 500, 1514, 110}
-			enemy[48] = {"CITHelicopter08_vehicle_1", 20, 500, 1514, 110}
+			enemy[15] = {"CITHelicopter01_vehicle_0", 20, 500, 1514, 110}
+			enemy[16] = {"CITHelicopter01_vehicle_1", 20, 500, 1514, 110}
+			enemy[17] = {"CITHelicopter02_vehicle_0", 20, 500, 1514, 110}
+			enemy[18] = {"CITHelicopter02_vehicle_1", 20, 500, 1514, 110}
+			enemy[19] = {"CITHelicopter03_vehicle_0", 20, 500, 1514, 110}
+			enemy[20] = {"CITHelicopter03_vehicle_1", 20, 500, 1514, 110}
+			enemy[21] = {"CITHelicopter04_vehicle_0", 20, 500, 1514, 110}
+			enemy[22] = {"CITHelicopter04_vehicle_1", 20, 500, 1514, 110}
+			enemy[23] = {"CITHelicopter05_vehicle_0", 20, 500, 1514, 110}
+			enemy[24] = {"CITHelicopter05_vehicle_1", 20, 500, 1514, 110}
+			enemy[25] = {"CITHelicopter06_vehicle_0", 20, 500, 1514, 110}
+			enemy[26] = {"CITHelicopter06_vehicle_1", 20, 500, 1514, 110}
+			enemy[27] = {"CITHelicopter07_vehicle_0", 20, 500, 1514, 110}
+			enemy[28] = {"CITHelicopter07_vehicle_1", 20, 500, 1514, 110}
+			enemy[29] = {"CITHelicopter08_vehicle_0", 20, 500, 1514, 110}
+			enemy[30] = {"CITHelicopter08_vehicle_1", 20, 500, 1514, 110}
+			enemy[31] = {"CITCoastalGun01", 195, 17500, 3089, 0}
+			enemy[32] = {"CITCoastalGun03", 195, 17500, 3089, 0}
+			enemy[33] = {"CITCoastalGun05", 195, 17500, 3089, 0}
+			enemy[34] = {"CITCoastalGun06", 195, 17500, 3089, 0}
+			enemy[35] = {"CITAAGun01", 65, 3000, 629, 0}
+			enemy[36] = {"CITAAGun02", 65, 3000, 629, 0}
+			enemy[37] = {"CITAAGun05", 65, 3000, 629, 0}
+			enemy[38] = {"CITAAGun06", 65, 3000, 629, 0}
+			enemy[39] = {"CITAAGun08", 65, 3000, 629, 0}
+			enemy[40] = {"CITAAGun09", 65, 3000, 629, 0}
+			enemy[41] = {"CITAAGun11", 65, 3000, 629, 0}
+			enemy[42] = {"CITAAGun12", 65, 3000, 629, 0}
+			if HardMode~=nil then
+				enemy[43] = {"CITCoastalGun02", 195, 17500, 3089, 0}
+				enemy[44] = {"CITCoastalGun04", 195, 17500, 3089, 0}
+				enemy[45] = {"CITAAGun03", 65, 3000, 629, 0}
+				enemy[46] = {"CITAAGun04", 65, 3000, 629, 0}
+				enemy[47] = {"CITAAGun07", 65, 3000, 629, 0}
+				enemy[48] = {"CITAAGun10", 65, 3000, 629, 0}
+			end
 			
 			SetVar("MissionTime", 0)
 			SetVar("RequiredMissionTime", 360) -- mission completion time (in s) for getting bonus score
@@ -352,27 +354,11 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning10Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning11Loc" />
 		<script>
-			local b = SpawnMessageBox( "1002" ) -- the trigger is identical to Retreat, besides this
-			if b == 1 then
-				trigger:Deactivate()
+			local b = SpawnMessageBox( "1002" )
 
-				if not(IsQuestTaken("CD_PH02_Retreat")) then
-					FailQuest("CD_PH02")
-				else
-					FailQuest("CD_PH02_Retreat") -- the trigger is identical to Retreat, besides this
-				end
+			TActivate("WarningStart")
 
-				UpdateUnitsStats(1) -- the trigger is identical to Retreat, besides this
-
-				CalcMissionStats(1) -- the trigger is identical to Retreat, besides this
-
-				PassToMap("hq", "Headquarters_enter", 90, false )
-			else
-				trigger:Deactivate()
-
-				TActivate("WarningStart")
-			end
-			
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -484,23 +470,25 @@
 			CreateNewDummyObject( "berth",	"milos_fortress_11", -1, -1, CVector(3087.252, 273.263, 5955.041), Quaternion(0.0000, -0.6428, 0.0000, 0.7660), 1 )
 			CreateNewDummyObject( "berth",	"milos_fortress_12", -1, -1, CVector(3132.177, 273.641, 5946.558), Quaternion(0.0000, 0.7660, 0.0000, 0.6428), 1 )
 			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun01", 1008, CVector(2920.084, 280.000, 5615.984), Quaternion(0.0000, 0.9870, 0.0000, 0.1607), 0)
-			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun02", 1008, CVector(3013.831, 280.000, 5710.072), Quaternion(0.0000, 0.8900, 0.0000, 0.4559), 0)
 			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun03", 1008, CVector(3023.257, 280.000, 5791.831), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 0)
-			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun04", 1008, CVector(2964.947, 280.000, 5799.726), Quaternion(0.0000, 0.2334, 0.0000, 0.9724), 0)
 			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun05", 1008, CVector(3032.168, 280.000, 5953.336), Quaternion(0.0000, 0.7716, 0.0000, 0.6361), 0)
 			CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun06", 1008, CVector(3036.185, 280.000, 5985.753), Quaternion(0.0000, 0.7716, 0.0000, 0.6361), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun01", 1008, CVector(2928.308, 280.000, 5616.266), Quaternion(0.0000, 0.9859, 0.0000, 0.1672), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun02", 1008, CVector(2981.756, 280.000, 5693.411), Quaternion(0.0000, 0.9026, 0.0000, 0.4305), 0)
-			CreateNewBreakableObject("CoastAAMed01", "CITAAGun03", 1008, CVector(2992.333, 280.000, 5705.468), Quaternion(0.0000, 0.9026, 0.0000, 0.4305), 0)
-			CreateNewBreakableObject("CoastAAMed01", "CITAAGun04", 1008, CVector(3006.830, 280.000, 5696.030), Quaternion(0.0000, 0.9026, 0.0000, 0.4305), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun05", 1008, CVector(3024.061, 280.000, 5721.797), Quaternion(0.0000, 0.1370, 0.0000, 0.9906), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun06", 1008, CVector(2973.933, 280.000, 5785.728), Quaternion(0.0000, 0.9893, 0.0000, 0.1457), 0)
-			CreateNewBreakableObject("CoastAAMed01", "CITAAGun07", 1008, CVector(3050.714, 280.000, 5929.966), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun08", 1008, CVector(3056.602, 280.000, 5943.719), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun09", 1008, CVector(3065.868, 280.000, 5975.215), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
-			CreateNewBreakableObject("CoastAAMed01", "CITAAGun10", 1008, CVector(3073.091, 280.000, 5987.503), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun11", 1008, CVector(3031.785, 280.000, 5938.713), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
 			CreateNewBreakableObject("CoastAAMed01", "CITAAGun12", 1008, CVector(3043.649, 280.000, 5995.054), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
+			if HardMode~=nil then
+				CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun02", 1008, CVector(3013.831, 280.000, 5710.072), Quaternion(0.0000, 0.8900, 0.0000, 0.4559), 0)
+				CreateNewBreakableObject("CITCoastMed01", "CITCoastalGun04", 1008, CVector(2964.947, 280.000, 5799.726), Quaternion(0.0000, 0.2334, 0.0000, 0.9724), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CITAAGun03", 1008, CVector(2992.333, 280.000, 5705.468), Quaternion(0.0000, 0.9026, 0.0000, 0.4305), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CITAAGun04", 1008, CVector(3006.830, 280.000, 5696.030), Quaternion(0.0000, 0.9026, 0.0000, 0.4305), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CITAAGun07", 1008, CVector(3050.714, 280.000, 5929.966), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
+				CreateNewBreakableObject("CoastAAMed01", "CITAAGun10", 1008, CVector(3073.091, 280.000, 5987.503), Quaternion(0.0000, 0.7688, 0.0000, 0.6394), 0)
+			end
 
 			-- =============
 			--  CIT Reserves
@@ -569,6 +557,10 @@
 				if Unit then
 					Unit:SetGamePositionOnGround(coords[i+1])
 					Unit:SetRotation(rots[i+1])
+					if i==0 or i==2 then
+						Unit:SetMaxSpeed(0)
+						Unit:SetMaxTorque(1)
+					end
 				end
 			end
 
@@ -760,9 +752,9 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun12" />
 		<script>
 			local Enemies = StringToTable(GetVar("Enemies").AsString)
-			local TargetEnemies = {Enemies[15],Enemies[16],Enemies[17],Enemies[18],Enemies[19],Enemies[20],Enemies[21],Enemies[22],Enemies[23],Enemies[24],Enemies[25],Enemies[26],Enemies[27],Enemies[28],Enemies[29],Enemies[30],Enemies[31],Enemies[32]}
+			local TargetEnemies = {Enemies[31],Enemies[32],Enemies[33],Enemies[34],Enemies[35],Enemies[36],Enemies[37],Enemies[38],Enemies[39],Enemies[40],Enemies[41],Enemies[42]}
 
-			if CheckUnits(TargetEnemies, "dead", 18) then
+			if CheckUnits(TargetEnemies, "dead", 12) then
 				LOG("CIT TURRETS DESTROYED")
 
 				UpdateUnitsStats()
@@ -961,7 +953,7 @@
 				currentVehicleName = vehicles[i]
 				currentVehicle = getObj(currentVehicleName)
 				LOG(i.." 1098")
-				if currentVehicle then
+				if CheckUnits(currentVehicleName) then
 					LOG(i.." 1100")
 					println(currentVehicleName.." exists")
 					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)

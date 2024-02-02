@@ -3270,7 +3270,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "smlboatCITArmanentMod" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITNurs01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" />
+<!-- 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCITMachinegun01" /> -->
 		</Parts>
 	</Prototype>
 
@@ -3283,7 +3283,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
-			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" />
+<!-- 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" /> -->
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
 			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
 		</Parts>
