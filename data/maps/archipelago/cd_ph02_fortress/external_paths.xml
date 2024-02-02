@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="PendulumPath">
+		<Point
+			coord="35 45" />
+
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
+	</Path>
+
+	<Path
+		Name="StartPath_Player">
+		<Point
+			coord="4098 3903" />
+		
+		<Point
+			coord="3959 4142" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter01_vehicle_0_Waypoint1">
+		<Point
+			coord="3080 5339" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter01_vehicle_1_Waypoint1">
+		<Point
+			coord="3118 5343" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter01_vehicle_2_Waypoint1">
+		<Point
+			coord="3164 5333" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter01_vehicle_3_Waypoint1">
+		<Point
+			coord="3192 5353" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter02_vehicle_0_Waypoint1">
+		<Point
+			coord="2998 5171" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter02_vehicle_1_Waypoint1">
+		<Point
+			coord="3035 5174" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter02_vehicle_2_Waypoint1">
+		<Point
+			coord="3082 5164" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter02_vehicle_3_Waypoint1">
+		<Point
+			coord="3110 5184" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter03_vehicle_0_Waypoint1">
+		<Point
+			coord="3277 5208" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter03_vehicle_1_Waypoint1">
+		<Point
+			coord="3314 5112" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter03_vehicle_2_Waypoint1">
+		<Point
+			coord="3361 5202" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter03_vehicle_3_Waypoint1">
+		<Point
+			coord="3388 5222" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter04_vehicle_0_Waypoint1">
+		<Point
+			coord="3160 5077" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter04_vehicle_1_Waypoint1">
+		<Point
+			coord="3198 5080" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter04_vehicle_2_Waypoint1">
+		<Point
+			coord="3245 5070" />
+	</Path>
+
+	<Path
+		Name="CDHelicopter04_vehicle_3_Waypoint1">
+		<Point
+			coord="3272 5090" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_0_Waypoint1">
+		<Point
+			coord="3665 4497" />
+		<Point
+			coord="3238 5416" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_1_Waypoint1">
+		<Point
+			coord="3842 5781" />
+		<Point
+			coord="3991 4605" />
+		<Point
+			coord="3361 6160" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter01_vehicle_0_Waypoint1">
+		<Point
+			coord="3570 5286" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter01_vehicle_1_Waypoint1">
+		<Point
+			coord="3570 5336" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter02_vehicle_0_Waypoint1">		
+		<Point
+			coord="3511 4783" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter02_vehicle_1_Waypoint1">		
+		<Point
+			coord="3455 4804" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter03_vehicle_0_Waypoint1">		
+		<Point
+			coord="3537 5457" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter03_vehicle_1_Waypoint1">		
+		<Point
+			coord="3516 5475" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter04_vehicle_0_Waypoint1">		
+		<Point
+			coord="3654 5730" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter04_vehicle_1_Waypoint1">		
+		<Point
+			coord="3640 6752" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter05_vehicle_0_Waypoint1">		
+		<Point
+			coord="3558 5901" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter05_vehicle_1_Waypoint1">		
+		<Point
+			coord="3577 5951" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter06_vehicle_0_Waypoint1">		
+		<Point
+			coord="3191 5082" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter06_vehicle_1_Waypoint1">		
+		<Point
+			coord="3164 5036" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter07_vehicle_0_Waypoint1">		
+		<Point
+			coord="2889 5320" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter07_vehicle_1_Waypoint1">		
+		<Point
+			coord="2860 5298" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter08_vehicle_0_Waypoint1">		
+		<Point
+			coord="2747 5473" />
+	</Path>
+
+	<Path
+		Name="CITHelicopter08_vehicle_1_Waypoint1">		
+		<Point
+			coord="2712 5479" />
+	</Path>
+</Paths>

@@ -1714,4 +1714,75 @@
 		id="CDPH01_HeliCIT04"
 		locForm="0"
 		value="Вертолёт" />
+
+<!-- CD PH02 Fortress -->
+	<Item
+		id="CDPH02_Player01"
+		locForm="0"
+		value="«Каталунья» (т.к.т. «Фурия»)" />
+
+	<Item
+		id="CDPH02_HeliCD01"
+		locForm="0"
+		value="Москито" />
+	
+	<Item
+		id="CDPH02_HeliCD02"
+		locForm="0"
+		value="Москито" />
+
+	<Item
+		id="CDPH02_HeliCD03"
+		locForm="0"
+		value="Москито" />
+
+	<Item
+		id="CDPH02_HeliCD04"
+		locForm="0"
+		value="Москито" />
+
+	<Item
+		id="CDPH02_SmlboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CDPH02_FastboatCIT01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CDPH02_DestroyerCIT01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CDPH02_OCruiserCIT01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CDPH02_LavCIT01"
+		locForm="0"
+		value="Броневик" />
+
+	<Item
+		id="CDPH02_HeliCIT01"
+		locForm="0"
+		value="Вертолёт" />
+	
+	<Item
+		id="CDPH02_HeliCIT02"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH02_HeliCIT03"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH02_HeliCIT04"
+		locForm="0"
+		value="Вертолёт" />
 </ModelNames>

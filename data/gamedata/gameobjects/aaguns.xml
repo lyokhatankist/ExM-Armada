@@ -448,13 +448,13 @@
 		Damage			= "55"
 		FiringRate		= "200"
 		ChargeSize		= "24"
-		RechargingTime	= "6"
+		RechargingTime	= "12"
 
 		FiringRange		= "370"
 		GroupingAngle	= "0.3"
 
 		ShellsPoolSize		= "24"
-		WithShellsPoolLimit	= "true"
+		WithShellsPoolLimit	= "false"
 
 		TurningSpeed	= "15"
 		Durability		= "5"
@@ -572,8 +572,7 @@
 		RecoilForce			= "600"
 
 		DamageType			= "ENERGY"
-		BlastWavePrototype	= "30mmBlastWave"
-		NumBulletsInShot	= "4"
+		NumBulletsInShot	= "3"
 
 		Damage			= "1"
 		FiringRate		= "300"
@@ -582,6 +581,37 @@
 
 		FiringRange		= "450"
 		GroupingAngle	= "3"
+
+		TurningSpeed	= "35"
+		Durability		= "5" 
+		Price			= "32900" />
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "heliMachinegun03"
+		ModelFile		= "heliMachinegun02"
+		ResourceType	= "HELIPRIMARY_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "600"
+
+		DamageType			= "BLAST"
+
+		Damage			= "18"
+		FiringRate		= "300"
+		ChargeSize     	= "60"
+		RechargingTime 	= "5"
+
+		FiringRange		= "450"
+		GroupingAngle	= "1"
 
 		TurningSpeed	= "35"
 		Durability		= "5" 
@@ -607,7 +637,7 @@
 		DamageType			= "ENERGY"
 		BlastWavePrototype	= "nursBlastWave"
 
-		Damage			= "30"
+		Damage			= "40"
 		FiringRate		= "150"
 		ChargeSize		= "6"
 		RechargingTime	= "4"
@@ -616,7 +646,7 @@
 		GroupingAngle	= "1"
 
 		ShellsPoolSize		= "76"
-		WithShellsPoolLimit	= "true"
+		WithShellsPoolLimit	= "false"
 
 		TurningSpeed	= "35"
 		Durability		= "5"

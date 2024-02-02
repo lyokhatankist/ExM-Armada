@@ -151,7 +151,7 @@
 <!-- battleship cit_ph03_march -->
 	<string
 		id="fm_cit_ph03_merchants"
-		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по торговым судам противника." />
+		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по эсминцам противника." />
 
 	<string
 		id="fm_cit_ph03_cruisers"
@@ -189,6 +189,11 @@
 	<string
 		id="fm_cd_ph01_leave"
 		value="@ffff9c00Срочный приказ:@ffffffff покинуть район боевых действий вместе с дружественными сухогрузами." />
+
+<!-- battleship cd_ph02_fortress -->
+	<string
+		id="fm_cd_ph02_fire"
+		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по бронемашинам противника." />
 
 <!-- vanilla -->
 

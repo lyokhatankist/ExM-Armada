@@ -8,8 +8,8 @@
 	<!-- battleship -->
 		<group 
 			id		= "HELI" 
-			volume	= "150" 
-			minDist	= "25"
+			volume	= "250" 
+			minDist	= "5"
 		/>
 
 		<group

@@ -292,27 +292,11 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning03Loc" />
 		<script>
-			local b = SpawnMessageBox( "1002" ) -- the trigger is identical to Retreat, besides this
-			if b == 1 then
-				trigger:Deactivate()
+			local b = SpawnMessageBox( "1002" )
 
-				if not(IsQuestTaken("CD_Tutorial_Retreat")) then
-					FailQuest("CD_Tutorial")
-				else
-					FailQuest("CD_Tutorial_Retreat") -- the trigger is identical to Retreat, besides this
-				end
+			TActivate("WarningStart")
 
-				UpdateUnitsStats(1) -- the trigger is identical to Retreat, besides this
-
-				CalcMissionStats(1) -- the trigger is identical to Retreat, besides this
-
-				PassToMap("hq", "Headquarters_enter", 90, false )
-			else
-				trigger:Deactivate()
-
-				TActivate("WarningStart")
-			end
-			
+			trigger:Deactivate()
 		</script>
 	</trigger>
 

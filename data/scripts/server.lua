@@ -1586,7 +1586,8 @@ function MissionSetup(missionTime, missionSide, missionName, missionMap, playerV
 	AddPlayerVehicle(playerVehicle)
 	GetPlayerVehicle():SetGamePositionOnGround(plPos)
 	SetVar("MissionLoc", missionMap)
-	TActivate(missionName)
+--	TActivate(missionName)
+	TActivate("MissionStart")
 	local namae = missionName.."_Briefing"
 	AddHistory(namae)
 	if friendlies then
@@ -2485,7 +2486,8 @@ function CalcMissionStats(plDead)
 	println("objectives "..totalObjectives)
 	local totalObjectivesCompleted = GetVar("ObjectivesCompleted").AsInt
 	println("objectives completed "..totalObjectivesCompleted)
-	if totalObjectivesCompleted==(totalObjectives - 2) then
+--	if totalObjectivesCompleted == (totalObjectives - 2) then
+	if totalObjectivesCompleted >= 2 then
 		if getn(friendliesStart) + 1 == friendliesEndCount then
 			totalObjectivesCompleted = totalObjectivesCompleted + 1
 			missionScore = missionScore + objectiveScoreReward
@@ -2545,9 +2547,11 @@ function CalcMissionStats(plDead)
 		isTableEmpty = next(friendliesLostNames)
 		if isTableEmpty ~= nil then
 			for i=1, getn(friendliesLostNames) do
-				gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
-				if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
-					gFriendliesLostNames = gFriendliesLostNames..", "
+				if friendliesLostNames[i] ~= "none" then
+					gFriendliesLostNames = gFriendliesLostNames..friendliesLostNames[i]
+					if i ~= getn(friendliesLostNames) and getn(friendliesLostNames) ~= 1 then
+						gFriendliesLostNames = gFriendliesLostNames..", "
+					end
 				end
 			end
 

@@ -50,7 +50,7 @@
 	<LevelInfo
 		name="archipelago"
 		file="data\maps\archipelago.ssl"
-		fullName="Риджинский архипелаг"
+		fullName="Хаменос"
 		diz0=""
 		diz1=""
 		north="0 0 1"
@@ -62,7 +62,7 @@
 	<LevelInfo
 		name="aegean"
 		file="data\maps\aegean.ssl"
-		fullName="Большие риджинские острова"
+		fullName="Нисия"
 		diz0=""
 		diz1=""
 		north="0 0 1"
@@ -115,6 +115,18 @@
 		diz1=""
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cd_ph01_garrison.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="noblock" />
+
+	<LevelInfo
+		name="cd_ph02_fortress"
+		file="data\maps\cd_ph02_fortress.ssl"
+		fullName="[АР] Крепость"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\missions\cd_ph02_fortress.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
 		musicBlocks="noblock" />
