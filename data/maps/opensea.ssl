@@ -6,7 +6,7 @@
 			name="WEATHERDETAIL">WeatherDetail.xml</Key>
 
 		<Key
-			name="WEATHERTYPE">sea_clear</Key>
+			name="WEATHERTYPE">archipelago_clear</Key>
 
 		<Key
 			name="CURRENTDAYTIME">0</Key>

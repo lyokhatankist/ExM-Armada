@@ -375,13 +375,13 @@
 			-- ----------------
 			-- Units parameters
 
-			Units = getObj("CITBoats01")
+			Units = getObj("CITOldCruiser01")
 			if Units then
 				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
 				Units:_AdjustBehaviour ()
 			end
 
-			Units = getObj("CITBoats02")
+			Units = getObj("CITOldCruiser02")
 			if Units then
 				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
 				Units:_AdjustBehaviour ()

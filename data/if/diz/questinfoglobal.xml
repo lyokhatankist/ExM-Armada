@@ -202,4 +202,27 @@
 			name="cit_ph03_march"
 			targetObjName="MissionStartLoc" />
 	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04"
+		briefDiz="Рутина"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH04_DestroyMerchants"
+		briefDiz="Уничтожить вражеские сухогрузы"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			coordinate="1175.000 279.000 4932.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
 </QuestInfoResource>

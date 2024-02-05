@@ -205,6 +205,31 @@
 			PrecedingQuests="CIT_PH03"
 			OnComplete="CompleteObjective()" />
 	</quest>
+<!--Root/CIT/Placeholder/04_Routine-->
+	<quest
+		Name="CIT_PH04"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="CIT_PH04_DestroyMerchants"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CIT_PH04"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CIT_PH04_Retreat"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CIT_PH04"
+			OnComplete="CompleteObjective()" />
+	</quest>
 
 	<MutuallyExclusives />
 </quests>
