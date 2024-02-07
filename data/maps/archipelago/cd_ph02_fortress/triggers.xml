@@ -695,6 +695,8 @@
 
 			SetCameraBehindPlayerVehicle()
 
+			SetVar("MissionTime", 0)
+
 			trigger:Deactivate()
 		</script>
 	</trigger>

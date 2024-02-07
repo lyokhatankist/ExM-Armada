@@ -225,7 +225,7 @@
 		Velocity			= "60"
 		Acceleration		= "150"
 		MinTurningRadius	= "20000"
-		FlyTime				= "18.75"
+		FlyTime				= "12.25"
 		BlastWavePrototype	= "torp533mmBlastWave"
 
 		Mass			= "0.001"

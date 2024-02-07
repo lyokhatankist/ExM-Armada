@@ -9,7 +9,7 @@
 
 			ShowMap()
 
-			Radar:SetScanRadius(850)
+			Radar:SetScanRadius(750)
 
 			GetPlayerVehicle():setImmortalMode(1)
 			GetPlayerVehicle():SetNameFromScript("MyCar")
@@ -25,25 +25,25 @@
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}
 			enemy[2] = {"CDDestroyer01_vehicle_1", 1600, 1600, 6601, 22}
-			enemy[5] = {"CDMerchant01_vehicle_0", 163, 1500, 0, 4}
-			enemy[6] = {"CDMerchant02_vehicle_0", 163, 1500, 0, 4}
-			enemy[11] = {"CDBoat01_vehicle_0", 46, 200, 265, 35}
-			enemy[12] = {"CDBoat01_vehicle_1", 46, 200, 265, 35}
-			enemy[12] = {"CDBoat01_vehicle_2", 46, 200, 265, 35}
-			enemy[13] = {"CDBoat02_vehicle_0", 46, 200, 265, 35}
-			enemy[13] = {"CDBoat02_vehicle_1", 46, 200, 265, 35}
+			enemy[3] = {"CDMerchant01_vehicle_0", 163, 1500, 0, 4}
+			enemy[4] = {"CDMerchant02_vehicle_0", 163, 1500, 0, 4}
+			enemy[5] = {"CDBoat01_vehicle_0", 46, 200, 265, 35}
+			enemy[6] = {"CDBoat01_vehicle_1", 46, 200, 265, 35}
+			enemy[7] = {"CDBoat01_vehicle_2", 46, 200, 265, 35}
+			enemy[8] = {"CDBoat02_vehicle_0", 46, 200, 265, 35}
+			enemy[9] = {"CDBoat02_vehicle_1", 46, 200, 265, 35}
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 320) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 400) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 40) -- base retreat score that may get multiplied depending on 4 different factors
-			SetVar("RequiredRetreatScore", 50) -- retreat score that needs to be reached for each friendly unit to successfully retreat
+			SetVar("RequiredRetreatScore", 45) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 39)
 			SetVar("PlayerVehicleHealth", 300)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
 			SetVar("PlayerName", "«Корсар» (б.к.т. «Тибурон»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
-			SetVar("ObjectiveScoreReward", 1500) -- how much score each objective gives
-			SetVar("MissionScoreRewardMultiplier", 0.5) -- multiplier that determines how much money the player will receive for each score point
+			SetVar("ObjectiveScoreReward", 3000) -- how much score each objective gives
+			SetVar("MissionScoreRewardMultiplier", 0.85) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
 			local friendlies = {}
@@ -227,6 +227,7 @@
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat02Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat03Loc" />
 		<script>
 			TActivate("Retreat")
 
@@ -238,6 +239,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
 		<script>
 			UpdateUnitsStats()
 
@@ -269,6 +271,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave04Loc" />
 		<script>
 			if not(IsQuestTaken("CIT_PH04_Retreat")) then
 				FailQuest("CIT_PH04")
@@ -293,6 +296,7 @@
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning04Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning05Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning06Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning07Loc" />
 		<script>
 			TActivate("Warning")
 
@@ -307,6 +311,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning04Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning05Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning06Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning07Loc" />
 		<script>
 			local b = SpawnMessageBox( "1002" )
 
@@ -323,6 +328,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion04Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion05Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion06Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion07Loc" />
 		<script>
 			if not(IsQuestTaken("CIT_PH04_Retreat")) then
 				FailQuest("CIT_PH04")
@@ -349,8 +355,8 @@
 			-- ================
 			--  Main CIT Force
 			-- ================
-			TeamCreate("CITTorpedoBoat01", 1002, CVector(2850.000, 275, 6900.000), {"CITPH04_FastboatCIT01", "CITPH04_FastboatCIT03"})
-			TeamCreate("CITTorpedoBoat02", 1002, CVector(2900.000, 275, 7000.000), {"CITPH04_FastboatCIT02"})
+			TeamCreate("CITTorpedoBoat01", 1002, CVector(6570, 275, 1565), {"CITPH04_FastboatCIT01", "CITPH04_FastboatCIT02"})
+			TeamCreate("CITTorpedoBoat02", 1002, CVector(6560, 275, 1657), {"CITPH04_FastboatCIT03"})
 
 			-- ----------------
 			-- Units parameters
@@ -372,33 +378,34 @@
 
 			Unit = getObj("CITTorpedoBoat01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
-				Unit:SetCruisingSpeed(3)
+				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
+				Unit:SetCruisingSpeed(15)
 				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat01")
 			end
 
 			Unit = getObj("CITTorpedoBoat01_vehicle_1")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
-				Unit:SetCruisingSpeed(3)
-				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat03")
+				Unit:SetGamePositionOnGround(CVector(6555, 275, 1544))
+				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
+				Unit:SetCruisingSpeed(15)
+				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat02")
 			end
 
 			Unit = getObj("CITTorpedoBoat02_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
-				Unit:SetCruisingSpeed(3)
-				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat02")
+				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
+				Unit:SetCruisingSpeed(15)
+				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat03")
 			end
 
 			-- ===============
 			--  Main CD Force
 			-- ===============
-			TeamCreate("CDDestroyer01", 1053, CVector(1444, 279, 4962), {"CITPH04_DestroyerCD02", "CITPH04_DestroyerCD01"})
-			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant01_vehicle_0", CVector(1406, 279, 4890), 1051)
-			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant02_vehicle_0", CVector(1175, 279, 4932), 1051)
-			TeamCreate("CDBoat01", 1052, CVector(3202, 279, 3439), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
-			TeamCreate("CDBoat02", 1052, CVector(2614, 279, 3619), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
+			TeamCreate("CDDestroyer01", 1053, CVector(5259, 279, 5774), {"CITPH04_DestroyerCD02", "CITPH04_DestroyerCD01"})
+			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant01_vehicle_0", CVector(5441, 279, 5932), 1051)
+			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant02_vehicle_0", CVector(5608, 279, 6211), 1051)
+			TeamCreate("CDBoat01", 1052, CVector(5601, 279, 5986), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
+			TeamCreate("CDBoat02", 1052, CVector(5535, 279, 5907), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
 
 			-- =============
 			--  CD Reserves
@@ -429,40 +436,40 @@
 			
 			Unit = getObj("CDDestroyer01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 			end
 
 			Unit = getObj("CDDestroyer01_vehicle_1")
 			if Unit then
-				Unit:SetGamePositionOnGround(CVector(1216, 279, 5006))
-				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+				Unit:SetGamePositionOnGround(CVector(5574, 279, 6036))
+				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 			end
 
 			Unit = getObj("CDMerchant01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 			end
 
 			Unit = getObj("CDMerchant02_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, 0.7660, 0.0000, 0.6428))
+				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 			end
 
-			local coords = {CVector(489, 320, 839), CVector(414, 320, 838), CVector(350, 320, 822)}
+			local coords = {CVector(5601, 279, 5986), CVector(5483, 279, 6073), CVector(5526, 279, 6173)}
 			for i=0, 2 do
 				Unit = getObj("CDBoat01_vehicle_"..i)
 				if Unit then
 					Unit:SetGamePositionOnGround(coords[i+1])
-					Unit:SetRotation(Quaternion(0.0000, 0.2588, 0.0000, 0.9659))
+					Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 				end
 			end
 
-			coords = {CVector(7585, 320, 591), CVector(7578, 320, 657)}
+			coords = {CVector(5535, 279, 5907), CVector(5339, 279, 5963)}
 			for i=0, 1 do
 				Unit = getObj("CDBoat02_vehicle_"..i)
 				if Unit then
 					Unit:SetGamePositionOnGround(coords[i+1])
-					Unit:SetRotation(Quaternion(0.0000, -0.4226, 0.0000, 0.9063))
+					Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
 				end
 			end
 
@@ -471,7 +478,7 @@
 			-- =========
 
 			local PlfID = GetPlayerVehicleId()
-			FlyLinked( "CITPH03_Start1", PlfID, 30, 0, 1, PlfID )
+			FlyLinked( "CITPH04_Start1", PlfID, 30, 0, 1, PlfID )
 			StartCinematic()
 
 			AddCinematicMessage( 1, 2)
@@ -480,9 +487,9 @@
 
 			local Plf = GetPlayerVehicle()
 			if Plf then
-				Plf:SetRotation(Quaternion(0.0000, 1.0000, 0.0000, 0.0000))
+				Plf:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
 				Plf:SetExternalPathByName("StartPath_Player")
-				Plf:LimitMaxSpeed(3)
+				Plf:LimitMaxSpeed(16)
 			end
 
 			TActivate("MissionStart_End")
@@ -503,6 +510,65 @@
 				Plf:UnlimitMaxSpeed()
 			end
 
+			Unit = getObj("CITTorpedoBoat01_vehicle_0")
+			if Unit then
+				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat01")
+				Unit:SetExternalPathByName("CITTorpedoBoat01_Waypoint1")
+				Unit:SetCruisingSpeed(40)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CITTorpedoBoat01_vehicle_1")
+			if Unit then
+				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat02")
+				Unit:SetExternalPathByName("CITTorpedoBoat02_Waypoint1")
+				Unit:SetCruisingSpeed(40)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CITTorpedoBoat02_vehicle_0")
+			if Unit then
+				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat03")
+				Unit:SetExternalPathByName("CITTorpedoBoat03_Waypoint1")
+				Unit:SetCruisingSpeed(40)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat01_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat01_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat01_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat02_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat01_vehicle_2")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat03_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat02_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat04_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat02_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat05_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
 			Unit = getObj("CDDestroyer01_vehicle_0")
 			if Unit then
 				Unit:SetExternalPathByName("CDDestroyer01_Waypoint1")
@@ -518,21 +584,28 @@
 			end
 
 			Unit = getObj("CDMerchant01_vehicle_0")
+			LOG(6271)
 			if Unit then
 				Unit:SetExternalPathByName("CDMerchant01_Waypoint1")
+				LOG(6272)
 				Unit:SetCruisingSpeed(3)
+				LOG(6273)
 			end
 
 			Unit = getObj("CDMerchant02_vehicle_0")
+			LOG(6274)
 			if Unit then
 				Unit:SetExternalPathByName("CDMerchant02_Waypoint1")
+				LOG(6275)
 				Unit:SetCruisingSpeed(3)
+				LOG(6276)
 			end
 
-			TActivate("AutoSave")
 			TActivate("CDMerchantsTargetReached")
 			TActivate("CDMerchantsDestroyed")
 			TActivate("CDMerchantsFormationManager")
+			TActivate("CDBoatsTargetReached")
+			TActivate("CITOrder")
 			TActivate("CITCriticalLosses")
 
 			TActivate("RetreatStart")
@@ -541,6 +614,325 @@
 			TakeQuest("CIT_PH04")
 
 			AddImportantFadingMsgByStrIdFormatted("fm_nightvision")
+
+			SetVar("MissionTime", 0)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsTargetReached" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant02_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+
+			UpdateUnitsStats()
+
+			FailQuest("CIT_PH04_DestroyMerchants")
+
+			if not(IsQuestTaken("CIT_PH04_Retreat")) and not(IsQuestTaken("CIT_PH04_DestroyCruisers")) then
+				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_retreat")
+			end
+
+			if CheckUnits(Friendlies, "alive", 1) then
+				TActivate("CITRetreat")
+
+				AddFadingMsgId("fm_cit_ph04_citretreating")
+			end
+
+			TakeQuest("CIT_PH04_Retreat")
+
+			TDeactivate("CDMerchantsFormationManager")
+
+			trigger:Deactivate()
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsDestroyed" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant02_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[3],Enemies[4]}
+
+			if CheckUnits(TargetEnemies, "dead", 2) then
+				UpdateUnitsStats()
+
+				CompleteQuest("CIT_PH04_DestroyMerchants")
+
+				if not(IsQuestTaken("CIT_PH04_Retreat")) then
+					AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_retreat")
+				end
+
+				if CheckUnits(Friendlies, "alive", 1) then
+					TActivate("CITRetreat")
+
+					AddFadingMsgId("fm_cit_ph04_citretreating")
+				end
+
+				TakeQuest("CIT_PH04_Retreat")
+
+				TDeactivate("CDMerchantsTargetReached")
+
+				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+					local b = SpawnMessageBox( "1001" )
+					println("mission end 0")
+					if b == 1 then
+						trigger:Deactivate()
+
+						CompleteQuestIfTaken("CIT_PH04_Retreat")
+
+						println("mission end 1")
+
+						UpdateUnitsStats()
+
+						CalcMissionStats()
+
+						println("mission end 3")
+
+						PassToMap("hq", "Headquarters_enter", 90, false )
+					end
+				end
+
+				trigger:Deactivate()
+			else
+				UpdateQuestCoordinates("CIT_PH04_DestroyMerchants", TargetEnemies)
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDMerchantsFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local CDB01a = getObj("CDBoat01_vehicle_0")
+			local CDB01b = getObj("CDBoat01_vehicle_1")
+			local CDB01c = getObj("CDBoat01_vehicle_2")
+			local CDB02a = getObj("CDBoat02_vehicle_0")
+			local CDB02b = getObj("CDBoat02_vehicle_1")
+			local CDD01a = getObj("CDDestroyer01_vehicle_0")
+			local CDD01b = getObj("CDDestroyer01_vehicle_1")
+			local CDM01a = getObj("CDMerchant01_vehicle_0")
+			local CDM02a = getObj("CDMerchant02_vehicle_0")
+
+			if CheckUnits("CDMerchant01_vehicle_0") or CheckUnits("CDMerchant02_vehicle_0") then
+				if CDB01a then
+					CDB01a:SetCruisingSpeed(3)
+				end
+
+				if CDB01b then
+					CDB01b:SetCruisingSpeed(3)
+				end
+
+				if CDB01c then
+					CDB01c:SetCruisingSpeed(3)
+				end
+
+				if CDB02a then
+					CDB02a:SetCruisingSpeed(3)
+				end
+
+				if CDB02b then
+					CDB02b:SetCruisingSpeed(3)
+				end
+
+				if CDD01a then
+					CDD01a:SetCruisingSpeed(3)
+				end
+
+				if CDD01b then
+					CDD01b:SetCruisingSpeed(3)
+				end
+
+				if CDM01a then
+					CDM01a:SetCruisingSpeed(3)
+				end
+
+				if CDM02a then
+					CDM02a:SetCruisingSpeed(3)
+				end
+			else
+				if CDB01a then
+					CDB01a:SetCruisingSpeed(40)
+				end
+
+				if CDB01b then
+					CDB01b:SetCruisingSpeed(40)
+				end
+
+				if CDB01c then
+					CDB01c:SetCruisingSpeed(40)
+				end
+
+				if CDB02a then
+					CDB02a:SetCruisingSpeed(40)
+				end
+
+				if CDB02b then
+					CDB02b:SetCruisingSpeed(40)
+				end
+
+				if CDD01a then
+					CDD01a:SetCruisingSpeed(40)
+				end
+
+				if CDD01b then
+					CDD01b:SetCruisingSpeed(40)
+				end
+
+				LOG("CD MERCHANT FORMATION MANAGER DISABLED BY ITSELF")
+
+				trigger:Deactivate()
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="CDBoatsTargetReached" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CDBoat01_vehicle_2" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDBoat02_vehicle_1" />
+		<script>
+			local Unit
+
+			UpdateUnitsStats()
+
+			Unit = getObj("CDBoat01_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat01_Waypoint2")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat01_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat02_Waypoint2")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat01_vehicle_2")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat03_Waypoint2")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat02_vehicle_0")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat04_Waypoint2")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			Unit = getObj("CDBoat02_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDBoat05_Waypoint2")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITOrder" active="0">
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDMerchant01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDMerchant02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat02_vehicle_0" />
+		<script>
+			local Units
+			local MerchantsPos
+
+			if CheckUnits("CDMerchant01_vehicle_0") then
+				MerchantsPos = getObj("CDMerchant01_vehicle_0"):GetPosition()
+			elseif CheckUnits("CDMerchant02_vehicle_0") then
+				MerchantsPos = getObj("CDMerchant02_vehicle_0"):GetPosition()
+			else
+				MerchantsPos = CVector(4385, 255, 4175)
+			end
+
+			UpdateUnitsStats()
+
+			Units = getObj("CITTorpedoBoat01")
+			if Units then
+				Units:StackOpen()
+				Units:SetDestination(MerchantsPos)
+				Units:SetDestination(CVector(3273, 255, 2139))
+				Units:StackClose()
+			end
+
+			Units = getObj("CITTorpedoBoat02")
+			if Units then
+				Units:StackOpen()
+				Units:SetDestination(MerchantsPos)
+				Units:SetDestination(CVector(3273, 255, 2139))
+				Units:StackClose()
+			end
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_order")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCriticalLosses" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat02_vehicle_0" />
+		<script>
+			UpdateUnitsStats()
+
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
+			local PlayerHealth = StringToTable(GetVar("PlayerEndHealth").AsString)
+			local TotalHealth = FriendliesHealth[1] + FriendliesHealth[2] + FriendliesHealth[3] + PlayerHealth
+
+			if CheckUnits(Friendlies, "dead", 2) or 48 >= TotalHealth then
+				AddFadingMsgId("fm_critical_loss_ally")
+
+				TActivate("CITRetreat")
+
+				trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CITRetreat" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			local Unit
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+
+			Unit = getObj("CITTorpedoBoat01")
+			if Unit then
+				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				Unit:_AdjustBehaviour ()
+			end
+			Unit = getObj("CITTorpedoBoat02")
+			if Unit then
+				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				Unit:_AdjustBehaviour ()
+			end
+
+			for i=1,3 do
+				Unit = getObj(Friendlies[i])
+				if Unit then
+					Unit:SetExternalPathByName("CITRetreatDirection_"..i)
+					Unit:SetCanBeDistractedFromMoving(false)
+					Unit:SetCruisingSpeed(40)
+				end
+			end
+
+			AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
 
 			trigger:Deactivate()
 		</script>

@@ -165,6 +165,19 @@
 		id="fm_cit_ph03_citretreating"
 		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
 
+<!-- battleship cit_ph04_routine -->
+	<string
+		id="fm_cit_ph04_order"
+		value="Союзники получили сигнал атаковать." />
+
+	<string
+		id="fm_cit_ph04_retreat"
+		value="@ffff9c00Срочный приказ:@ffffffff немедленно покинуть зону боевых действий." />
+
+	<string
+		id="fm_cit_ph04_citretreating"
+		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
+
 <!-- battleship cd_ph01_garrison -->
 	<string
 		id="fm_cd_ph01_boats"

@@ -2005,6 +2005,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "Tutorial_Player01"
 		ParentPrototype 		= "DestroyerCD"
 		LookRadius				= "700.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "dead_destroyerCDTorpedo01" />
@@ -2286,6 +2287,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "CITPH01_Player01"
 		ParentPrototype 		= "SmlboatCIT"
 		LookRadius				= "500.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCITEngine" />
@@ -2445,6 +2447,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "CITPH03_Player01"
 		ParentPrototype 		= "OCruiserCIT"
 		LookRadius				= "1000.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_TURRET_GUN_5"		Prototype = "single130CIT01" />
@@ -2781,7 +2784,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_Player01"
 		ParentPrototype 		= "FastboatCIT"
-		LookRadius				= "1000.0"
+		LookRadius				= "750.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
@@ -2796,7 +2800,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_FastboatCIT01"
 		ParentPrototype 		= "FastboatCIT"
-		LookRadius				= "600.0"
+		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
@@ -2812,7 +2816,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_FastboatCIT02"
 		ParentPrototype 		= "FastboatCIT"
-		LookRadius				= "600.0"
+		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
@@ -2829,7 +2833,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_FastboatCIT03"
 		ParentPrototype 		= "FastboatCIT"
-		LookRadius				= "600.0"
+		LookRadius				= "800.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
@@ -2845,7 +2849,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_SmlboatCD01"
 		ParentPrototype 		= "SmlboatCD"
-		LookRadius				= "400.0"
+		LookRadius				= "650.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"						Prototype = "smlboatCDEngine" />
@@ -2859,7 +2863,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_DestroyerCD01"
 		ParentPrototype 		= "DestroyerCD"
-		LookRadius				= "500.0"
+		LookRadius				= "750.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -2884,7 +2888,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "CITPH04_DestroyerCD02"
 		ParentPrototype 		= "DestroyerCD"
-		LookRadius				= "500.0"
+		LookRadius				= "750.0"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCDTorpedo01" />
@@ -3305,6 +3309,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "CDPH02_Player01"
 		ParentPrototype 		= "HCruiserCD"
 		LookRadius				= "1100.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin203CD01" />

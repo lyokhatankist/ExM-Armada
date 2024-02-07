@@ -542,6 +542,8 @@
 
 			TakeQuest("CIT_PH01")
 
+			SetVar("MissionTime", 0)
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -615,8 +617,8 @@
 	</trigger>
 
 	<trigger Name="CITOrderFire" active="0">
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats02" />
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats04" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoats04_vehicle_0" />
 		<script>
 			UpdateUnitsStats()
 

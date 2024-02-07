@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <Paths>
-	<Path Name = "Trail1follow1">
+
+<!-- 	<Path Name = "Trail1follow1">
 		 <Point  coord="14.000 1.000 9.000"/>
 		 <Point  coord="14.000 4.500 8.000"/>
 	</Path>
@@ -54,7 +55,9 @@
 		<Point  coord="3613.816 280.668 3967.953" rotation="-0.017 0.370 -0.007 0.929" speed="1.3"/>   
 		<Point  coord="3639.085 280.991 3935.373" rotation="-0.021 0.327 -0.007 0.945" speed="1.1"/>   
 		<Point  coord="3656.301 279.450 3902.752" rotation="0.005 0.301 0.002 0.954" speed="0.65"/>   
-		<!-- <Point  coord="3672.585 276.811 3864.049" rotation="0.043 -0.002 -0.000 0.999" speed="0.65"/>    -->
+
+		<Point  coord="3672.585 276.811 3864.049" rotation="0.043 -0.002 -0.000 0.999" speed="0.65"/>
+
 		<Point  coord="3675.915 277.363 3861.666" rotation="0.052 0.245 0.013 0.968" speed="0.45"/>   
 		<Point  coord="3676.602 278.058 3857.461" rotation="0.052 0.212 0.011 0.976" speed="0.5"/>   
 	</Path>
@@ -124,5 +127,5 @@
 	<Path Name = "Trail2follow8">
 		 <Point  coord="3.000 24.000 -40.000"/>
 		 <Point  coord="-3.000 21.500 -50.000"/>
-	</Path>
+	</Path> -->
 </Paths>

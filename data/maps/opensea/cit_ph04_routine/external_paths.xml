@@ -1,20 +1,176 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Paths>
     <Path
-		Name="Merchant01">
+		Name="PendulumPath">
 		<Point
-			coord="4270.000 4360.000" />
+			coord="35 45" />
 
-        <Point
-			coord="4270.000 2360.000" />
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
 	</Path>
 
-    <Path
-		Name="Merchant02">
+	<Path
+		Name="StartPath_Player">
 		<Point
-			coord="4470.000 4660.000" />
+			coord="6593 1667" />
+		
+		<Point
+			coord="6261 2156" />
+	</Path>
 
-        <Point
-			coord="4470.000 2660.000" />
+	<Path
+		Name="StartPath_CITTorpedoBoat01">		
+		<Point
+			coord="6570 1565" />
+
+		<Point
+			coord="6259 2025" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITTorpedoBoat02">
+		<Point
+			coord="6555 1544" />
+
+		<Point
+			coord="6245 2005" />
+	</Path>
+
+	<Path
+		Name="StartPath_CITTorpedoBoat03">
+		<Point
+			coord="6560 1657" />
+
+		<Point
+			coord="6249 2117" />
+	</Path>
+
+	<Path
+		Name="CITTorpedoBoat01_Waypoint1">
+		<Point
+			coord="5999 2325" />
+		<Point
+			coord="5855 2872" />
+	</Path>
+
+	<Path
+		Name="CITTorpedoBoat02_Waypoint1">
+		<Point
+			coord="5985 2305" />
+		<Point
+			coord="5841 2852" />
+	</Path>
+
+	<Path
+		Name="CITTorpedoBoat03_Waypoint1">
+		<Point
+			coord="5989 2417" />
+		<Point
+			coord="5845 2964" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_1">
+		<Point
+			coord="8119 654" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_2">
+		<Point
+			coord="8090 302" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_3">
+		<Point
+			coord="8109 1189" />
+	</Path>
+
+	<Path
+		Name="CDMerchant01_Waypoint1">
+		<Point
+			coord="2063 272" />
+	</Path>
+
+	<Path
+		Name="CDMerchant02_Waypoint1">
+		<Point
+			coord="2168 451" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer01_Waypoint1">
+		<Point
+			coord="1994 285" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer02_Waypoint1">
+		<Point
+			coord="2094 207" />
+	</Path>
+
+	<Path
+		Name="CDBoat01_Waypoint1">
+		<Point
+			coord="4606 4340" />
+	</Path>
+
+	<Path
+		Name="CDBoat02_Waypoint1">
+		<Point
+			coord="4487 4427" />
+	</Path>
+
+	<Path
+		Name="CDBoat03_Waypoint1">
+		<Point
+			coord="4531 4527" />
+	</Path>
+
+	<Path
+		Name="CDBoat04_Waypoint1">
+		<Point
+			coord="4539 4261" />
+	</Path>
+
+	<Path
+		Name="CDBoat05_Waypoint1">
+		<Point
+			coord="4344 4317" />
+	</Path>
+
+	<Path
+		Name="CDBoat01_Waypoint2">
+		<Point
+			coord="7662 8190" />
+	</Path>
+
+	<Path
+		Name="CDBoat02_Waypoint2">
+		<Point
+			coord="6191 8100" />
+	</Path>
+
+	<Path
+		Name="CDBoat03_Waypoint2">
+		<Point
+			coord="5945 8086" />
+	</Path>
+
+	<Path
+		Name="CDBoat04_Waypoint2">
+		<Point
+			coord="7645 8103" />
+	</Path>
+
+	<Path
+		Name="CDBoat05_Waypoint2">
+		<Point
+			coord="5798 8113" />
 	</Path>
 </Paths>

@@ -852,6 +852,8 @@
 
 			TActivate("Leave")
 			TActivate("AutoSave")
+
+			SetVar("MissionTime", 0)
 			
 			trigger:Deactivate()
 		</script>

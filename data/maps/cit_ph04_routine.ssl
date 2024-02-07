@@ -15,7 +15,7 @@
 			name="PATH">data\maps\opensea</Key>
 
 		<Key
-			name="LEVELNAME">opensea</Key>
+			name="LEVELNAME">cit_ph04_routine</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>
@@ -102,7 +102,7 @@
 			name="MAXSAFEY">8152.000</Key>
 
 		<Key
-			name="SERVERDYN">DynamicScene.xml</Key>
+			name="SERVERDYN">cit_ph04_routine\DynamicScene.xml</Key>
 
 		<Key
 			name="SERVERQUESTSTATES">QuestStates.xml</Key>
@@ -111,10 +111,10 @@
 			name="MODELNAMES">data\if\diz\model_names.xml</Key>
 
 		<Key
-			name="OBJECTNAMES">object_names.xml</Key>
+			name="OBJECTNAMES">cit_ph04_routine\object_names.xml</Key>
 
 		<Key
-			name="SERVEREXTERNALPATHS">external_paths.xml</Key>
+			name="SERVEREXTERNALPATHS">cit_ph04_routine\external_paths.xml</Key>
 
 		<Key
 			name="STATICOBSTACLES">static_obstacles.xml</Key>
@@ -135,16 +135,16 @@
 			name="PASSMAPCELLSIZE">16</Key>
 
 		<Key
-			name="TRIGGERSNAME">triggers.xml</Key>
+			name="TRIGGERSNAME">cit_ph04_routine\triggers.xml</Key>
 
 		<Key
-			name="CINEMATRIGGERSNAME">cinemaTriggers.xml</Key>
+			name="CINEMATRIGGERSNAME">cit_ph04_routine\cinemaTriggers.xml</Key>
 
 		<Key
-			name="DLGSTRINGS">strings.xml</Key>
+			name="DLGSTRINGS">cit_ph04_routine\strings.xml</Key>
 
 		<Key
-			name="ICONS">icons.xml</Key>
+			name="ICONS">cit_ph04_routine\icons.xml</Key>
 			
 		<Key
 			name="SKYTYPE">1</Key>

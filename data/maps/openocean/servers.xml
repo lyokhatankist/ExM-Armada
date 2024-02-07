@@ -936,20 +936,14 @@
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
 
+
+
 		<Item 
-			id="lavCDWheel" 
+			id="lavCITWheel" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="lavCDHull" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="lavCDMachinegun01" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="lavCDMachinegun01gun" 
+			id="lavCITHull" 
 			file="data\models\AnimModels.xml"/>
 
 <!-- environment -->

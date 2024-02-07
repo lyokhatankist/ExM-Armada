@@ -75,7 +75,7 @@
 			end
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 320) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 416) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 30) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 42) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 2000)
@@ -833,6 +833,8 @@
 			TActivate("Leave")
 
 			TakeQuest("CIT_PH03")
+
+			SetVar("MissionTime", 0)
 
 			trigger:Deactivate()
 		</script>
