@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="archipelago_clear">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="lightmap_sunrisetime_opensea.dds"
+			CloudsTexture="skycloudy1.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="lightmap_daytime_opensea.dds"
+			CloudsTexture="skyclear2.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="lightmap_sunsettime_opensea.dds"
+			CloudsTexture="skyblight3.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="lightmap_nighttime_opensea.dds"
+			CloudsTexture="skyclear1.dds" />
+	</WeatherItem>
+</Weather>

@@ -2527,6 +2527,115 @@
 	</Sequence>
 
 	<Model
+		Name="Nightvision_CIT">
+		<Unit
+			VarName="Bloom"
+			InitVal="1.000"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="BloomWidth"
+			InitVal="-1.600"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="BloomOrigTerm"
+			InitVal="1.000"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="BloomBlurTerm"
+			InitVal="0.150"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="BloomThreshold"
+			InitVal="0.070"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="BloomIntensity"
+			InitVal="0.420"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="Sepia"
+			InitVal="1.000"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="SepiaIntensity"
+			InitVal="1.000"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="SepiaColorR"
+			InitVal="0.700"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="SepiaColorG"
+			InitVal="0.700"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+
+		<Unit
+			VarName="SepiaColorB"
+			InitVal="0.700"
+			Param1="0"
+			Param2="0"
+			Param3="0"
+			Param4="0"
+			Action="none" />
+	</Model>
+
+	<Sequence
+		Name="Nightvision_CIT"
+		Loop="false">
+		<Unit
+			Name="Nightvision_CIT" />
+	</Sequence>
+
+	<Model
 		Name="Nightvision_CD">
 		<Unit
 			VarName="Bloom"

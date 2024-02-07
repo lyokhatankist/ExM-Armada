@@ -1776,6 +1776,20 @@ function CheckUnits(units, checkT, checkAm, checkEx)
 		return retVal
 	else
 		println("[!] arg is neither table nor string")
+		if checkType == "alive" then
+			checkedUnit = unitNames
+			if (checkedUnit and checkedUnit:IsAlive()) then
+				retVal = true
+				println("the one guy is alive")
+			end
+		else
+			checkedUnit = unitNames
+			if (not(checkedUnit) or not(checkedUnit:IsAlive())) then
+				retVal = true
+				println("the one guy is dead")
+			end
+		end
+
 		return retVal
 	end
 end

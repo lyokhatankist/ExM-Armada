@@ -41,7 +41,6 @@
 
 			println("jopka")
 
-			local b
 			if (IsQuestComplete("CD_Tutorial") or IsQuestFailed("CD_Tutorial")) then
 				TActivate("ShowMissionStats_Tutorial")
 			end
@@ -167,7 +166,16 @@
 	</trigger>
 
 	<trigger Name="CITPH03_March" active="0">
-		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			-- Add reward items to the shop
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITPH04_Routine" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			-- Add reward items to the shop
 
@@ -176,7 +184,7 @@
 	</trigger>
 
 	<trigger Name="CDPH01_Garrison" active="0">
-		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			-- Add reward items to the shop
 
@@ -185,7 +193,7 @@
 	</trigger>
 
 	<trigger Name="CDPH02_Fortress" active="0">
-		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			-- Add reward items to the shop
 

@@ -1624,6 +1624,48 @@
 		locForm="0"
 		value="Вертолёт" />
 
+
+<!-- CIT PH04 Routine -->
+	<Item
+		id="CITPH04_Player01"
+		locForm="0"
+		value="«Корсар» (л.к.т. «Тибурон»)" />
+
+	<Item
+		id="CITPH04_FastboatCIT01"
+		locForm="0"
+		value="«Клин»" />
+
+	<Item
+		id="CITPH04_FastboatCIT02"
+		locForm="0"
+		value="«Туз»" />
+
+	<Item
+		id="CITPH04_FastboatCIT03"
+		locForm="0"
+		value="«Дух»" />
+
+	<Item
+		id="CITPH04_SmlboatCD01"
+		locForm="0"
+		value="Катер" />
+
+	<Item
+		id="CITPH04_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH04_DestroyerCD02"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH04_MerchantCD01"
+		locForm="0"
+		value="Сухогруз" />
+
 <!-- CD PH01 Garrison -->
 	<Item
 		id="CDPH01_Player01"

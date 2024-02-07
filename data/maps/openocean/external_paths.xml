@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="Merchant01">
+		<Point
+			coord="4270.000 4360.000" />
+
+        <Point
+			coord="4270.000 2360.000" />
+	</Path>
+
+    <Path
+		Name="Merchant02">
+		<Point
+			coord="4470.000 4660.000" />
+
+        <Point
+			coord="4470.000 2660.000" />
+	</Path>
+</Paths>

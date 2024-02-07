@@ -24,6 +24,18 @@
 		musicBlocks="noblock" />
 
 	<LevelInfo
+		name="openocean"
+		file="data\maps\openocean.ssl"
+		fullName="Океан"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\blank.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="noblock" />
+
+	<LevelInfo
 		name="opensea"
 		file="data\maps\opensea.ssl"
 		fullName="Море"
@@ -103,6 +115,18 @@
 		diz1=""
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cit_ph03_march.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="noblock" />
+
+	<LevelInfo
+		name="cit_ph04_routine"
+		file="data\maps\cit_ph04_routine.ssl"
+		fullName="[СНГ] Рутина"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\missions\cit_ph04_routine.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
 		musicBlocks="noblock" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Weather>
 	<WeatherItem
-		name="sea_clear">
+		name="islands_clear">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="lightmap_sunrisetime_opensea.dds"
