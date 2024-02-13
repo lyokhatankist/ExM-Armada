@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <Paths>
-
+	<Path Name = "CDPH03_Start1">                         
+		<Point  coord="20.000 1350.000 0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="40.000 12.000 0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
+		<Point  coord="55.000 7.000 110.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="55.000 5.000 110.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+		<Point  coord="70.000 5.000 120.000" rotation="0.000 1.000 0.000 0.000" speed="1" />
+	</Path>
 <!-- 	<Path Name = "Trail1follow1">
 		 <Point  coord="14.000 1.000 9.000"/>
 		 <Point  coord="14.000 4.500 8.000"/>

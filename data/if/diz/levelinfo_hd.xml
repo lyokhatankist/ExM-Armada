@@ -154,4 +154,16 @@
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
 		splashes="data\if\ico\Splashes\noch.dds"
 		musicBlocks="noblock" />
+
+	<LevelInfo
+		name="cd_ph03_armada"
+		file="data\maps\cd_ph03_armada.ssl"
+		fullName="[АР] Армада"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\missions\cd_ph03_armada.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="noblock" />
 </LevelInfoResource>

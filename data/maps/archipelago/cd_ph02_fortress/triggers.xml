@@ -819,6 +819,7 @@
 						if Unit then
 							Unit:SetExternalPathByName("CDHelicopter0"..i.."_vehicle_"..j.."_Waypoint1")
 							Unit:SetCanBeDistractedFromMoving(true)
+							SetVar("CDHelicopter0"..i.."_vehicle_"..j.."WaypointStatus", TableToString({0, 1, 0})) -- waypoints reached, amount of waypoints, amount of cycles with 0 speed
 						end
 					end
 				end

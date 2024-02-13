@@ -888,14 +888,14 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_1" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat02_vehicle_0" />
 		<script>
-			UpdateUnitsStats()
-
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
 			local PlayerHealth = StringToTable(GetVar("PlayerEndHealth").AsString)
 			local TotalHealth = FriendliesHealth[1] + FriendliesHealth[2] + FriendliesHealth[3] + PlayerHealth
 
 			if CheckUnits(Friendlies, "dead", 2) or 48 >= TotalHealth then
+				UpdateUnitsStats()
+				
 				AddFadingMsgId("fm_critical_loss_ally")
 
 				TActivate("CITRetreat")

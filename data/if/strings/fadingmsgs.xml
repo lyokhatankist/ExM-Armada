@@ -208,6 +208,24 @@
 		id="fm_cd_ph02_fire"
 		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по бронемашинам противника." />
 
+<!-- battleship cd_ph03_armada -->
+
+	<string
+		id="fm_cd_ph03_destroybattleship"
+		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по вражескому линкору." />
+
+	<string
+		id="fm_cd_ph03_completemission"
+		value="@ffff9c00Срочный приказ:@ffffffff ракетный крейсер потерян. Уничтожьте вражеский линкор с помощью собственных орудий главного калибра." />
+	
+	<string
+		id="fm_cd_ph03_abortmission"
+		value="@ffff9c00Срочный приказ:@ffffffff успех операции маловероятен. Немедленно отступить из района боевых действий." />
+
+	<string
+		id="fm_cd_ph03_cdretreating"
+		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
+
 <!-- vanilla -->
 
 

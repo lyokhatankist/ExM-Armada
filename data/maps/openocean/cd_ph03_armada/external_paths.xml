@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+    <Path
+		Name="PendulumPath">
+		<Point
+			coord="35 45" />
+
+		<Point
+			coord="30 30" />
+
+		<Point
+			coord="45 30" />
+	</Path>
+
+	<Path
+		Name="StartPath_Player">
+		<Point
+			coord="3192 3937" />
+		
+		<Point
+			coord="3439 4365" />
+	</Path>
+
+	<Path
+		Name="StartPath_CDRocketHeavyCruiser01_vehicle_0">		
+		<Point
+			coord="3136 3709" />
+
+		<Point
+			coord="3383 4137" />
+	</Path>
+
+	<Path
+		Name="StartPath_CDDestroyer01_vehicle_0">
+		<Point
+			coord="3067 4070" />
+
+		<Point
+			coord="3316 4489" />
+	</Path>
+
+	<Path
+		Name="StartPath_CDDestroyer01_vehicle_1">
+		<Point
+			coord="2979 3848" />
+
+		<Point
+			coord="3223 4259" />
+	</Path>
+
+	<Path
+		Name="StartPath_CDDestroyer01_vehicle_2">
+		<Point
+			coord="3089 3932" />
+
+		<Point
+			coord="3336 4342" />
+	</Path>
+
+	<Path
+		Name="CDRocketHeavyCruiser01_vehicle_0_Waypoint1">
+		<Point
+			coord="4187 5522" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer01_vehicle_0_Waypoint1">
+		<Point
+			coord="4114 5861" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer01_vehicle_1_Waypoint1">
+		<Point
+			coord="4021 5631" />
+	</Path>
+
+	<Path
+		Name="CDDestroyer01_vehicle_2_Waypoint1">
+		<Point
+			coord="4134 5714" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_1">
+		<Point
+			coord="1500 100" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_2">
+		<Point
+			coord="1400 100" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_3">
+		<Point
+			coord="1600 100" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_4">
+		<Point
+			coord="1300 100" />
+	</Path>
+
+	<Path
+		Name="CITBattleship01_vehicle_0_Waypoint1">
+		<Point
+			coord="3133 2831" />
+	</Path>
+
+	<Path
+		Name="CITOldCruiser01_vehicle_0_Waypoint1">
+		<Point
+			coord="3088 2636" />
+	</Path>
+
+	<Path
+		Name="CITOldCruiser01_vehicle_1_Waypoint1">
+		<Point
+			coord="3058 2951" />
+	</Path>
+
+	<Path
+		Name="CITOldCruiser01_vehicle_2_Waypoint1">
+		<Point
+			coord="3253 2906" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_0_Waypoint1">
+		<Point
+			coord="3057 2725" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_1_Waypoint1">
+		<Point
+			coord="3154 2703" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_2_Waypoint1">
+		<Point
+			coord="2987 2864" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_3_Waypoint1">
+		<Point
+			coord="3279 2797" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_1">
+		<Point
+			coord="4400 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_2">
+		<Point
+			coord="4500 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_3">
+		<Point
+			coord="4600 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_4">
+		<Point
+			coord="4300 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_5">
+		<Point
+			coord="4700 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_6">
+		<Point
+			coord="4200 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_7">
+		<Point
+			coord="4800 8100" />
+	</Path>
+
+	<Path
+		Name="CITRetreatDirection_8">
+		<Point
+			coord="4100 8100" />
+	</Path>
+</Paths>

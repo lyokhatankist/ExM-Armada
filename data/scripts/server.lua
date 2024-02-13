@@ -1719,7 +1719,7 @@ function CheckUnits(units, checkT, checkAm, checkEx)
 	end
 
 	local checkedUnit = "Unit"
-	
+	LOG(1)
 	if type(unitNames) == "table" then
 		if checkAmount > getn(unitNames) then
 			checkAmount = getn(unitNames)
@@ -1775,6 +1775,7 @@ function CheckUnits(units, checkT, checkAm, checkEx)
 
 		return retVal
 	else
+		LOG(2)
 		println("[!] arg is neither table nor string")
 		if checkType == "alive" then
 			checkedUnit = unitNames
@@ -2175,13 +2176,17 @@ function CalcMissionStats(plDead)
 	local currentShip
 	local currentShipDistance = 0 -- added distance from one friendly ship to all enemy ships
 	local currentEnemy
+	isTableEmpty = next(enemiesEnd)
+	if isTableEmpty ~= nil then
+		enemiesEndCount = getn(enemiesEnd)
+	end
 	isTableEmpty = next(friendliesEnd)
 	if isTableEmpty ~= nil then
 		friendliesEndCount = getn(friendliesEnd)
 		for i=1, friendliesEndCount do
 			currentShip = getObj(friendliesEnd[i])
-			if next(enemiesEnd) ~= nil then
-				enemiesEndCount = getn(enemiesEnd)
+			isTableEmpty = next(enemiesEnd)
+			if enemiesEndCount > 0 then
 				for j=1, enemiesEndCount do
 					currentEnemy = getObj(enemiesEnd[j])
 					if currentEnemy then

@@ -1131,14 +1131,14 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser01_vehicle_0" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser02_vehicle_0" />
 		<script>
-			UpdateUnitsStats()
-
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
 			local PlayerHealth = StringToTable(GetVar("PlayerEndHealth").AsString)
 			local TotalHealth = FriendliesHealth[1] + FriendliesHealth[2] + PlayerHealth
 
 			if CheckUnits(Friendlies, "dead", 1) or 2000 >= TotalHealth then
+				UpdateUnitsStats()
+				
 				TActivate("CITRetreatIfPossible")
 
 				AddFadingMsgId("fm_critical_loss_ally")

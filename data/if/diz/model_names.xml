@@ -1827,4 +1827,65 @@
 		id="CDPH02_HeliCIT04"
 		locForm="0"
 		value="Вертолёт" />
+
+<!-- CD PH03 Armada -->
+	<Item
+		id="CDPH03_Player01"
+		locForm="0"
+		value="«Сарагоса» (л.к.т. «Левиафан»)" />
+
+	<Item
+		id="CDPH03_RHCruiserCD01"
+		locForm="0"
+		value="«Аргументо»" />
+
+	<Item
+		id="CDPH03_DestroyerCD01"
+		locForm="0"
+		value="«Агирре»" />
+
+	<Item
+		id="CDPH03_DestroyerCD02"
+		locForm="0"
+		value="«Андорра»" />
+
+	<Item
+		id="CDPH03_DestroyerCD03"
+		locForm="0"
+		value="«Эсперанса»" />
+
+	<Item
+		id="CDPH03_DestroyerCIT01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CDPH03_OCruiserCIT01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CDPH03_BattleshipCIT01"
+		locForm="0"
+		value="Линкор" />
+
+	<Item
+		id="CDPH03_HeliCIT01"
+		locForm="0"
+		value="Вертолёт" />
+	
+	<Item
+		id="CDPH03_HeliCIT02"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH03_HeliCIT03"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CDPH03_HeliCIT04"
+		locForm="0"
+		value="Вертолёт" />
 </ModelNames>

@@ -716,9 +716,9 @@
 		<script>
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 
-			UpdateUnitsStats()
-
 			if CheckUnits(Friendlies, "dead", 3) then
+				UpdateUnitsStats()
+
 				TActivate("CITRetreat")
 
 				AddFadingMsgId("fm_critical_loss_ally")
@@ -744,9 +744,9 @@
 			local Enemies = StringToTable(GetVar("Enemies").AsString)
 			local TargetEnemies = {Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5],Enemies[6],Enemies[7],Enemies[8]}
 
-			UpdateUnitsStats()
-
 			if CheckUnits(TargetEnemies, "dead", 5) then
+				UpdateUnitsStats()
+				
 				local CDB01a = getObj(Enemies[6])
 				if CDB01a then
 					CDB01a:SetExternalPathByName("CDRetreatDirection_Main")

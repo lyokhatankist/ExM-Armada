@@ -18,13 +18,13 @@
 		text="Выбор миссии (кампания Алого Рассвета)."
 		role="NPC"
 		scriptCondition="GetVar('OnMission').AsInt==0"
-		nextReplies="CD_PH_002_pl CD_PH_001_pl Mission_Cancel" />
+		nextReplies="CD_PH_003_pl CD_PH_002_pl CD_PH_001_pl Mission_Cancel" />
 <!--Root/battleship/Tutorial--><!--Root/battleship/CD/Placeholder-->
 	<Reply
 		name="CD_Placeholder_Main"
 		text="[Placeholder]"
 		role="NPC"
-		nextReplies="CD_PH_002_pl CD_PH_001_pl" />
+		nextReplies="CD_PH_003_pl CD_PH_002_pl CD_PH_001_pl" />
 
 	<Reply
 		name="CD_PH_001_pl"
@@ -49,9 +49,23 @@
 
 	<Reply
 		name="CD_PH_002_npc"
-		text="                                                                             @ff000000«Крепость»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 уничтожить вражеские укрепления на острове Милос.|@ff000000Зона боевых действий:@ff404040 Хаменос.|@ff000000Техника:@ff404040 «Каталунья», тяжёлый крейсер типа «Фурия».|@ff000000Союзники:@ff404040 нет.|@ff000000Противник:@ff404040 крейсер, эсминцы, боевые катера, укрепления СНГ.|@ff000000Поддержка с воздуха:@ff404040 да.|@ff000000Вражеская авиация:@ff404040 возможно.|@ff000000Погода:@ff404040 вечер, ясно.| |                                                                               @ff000000Брифинг|После уничтожения серии укреплений и сокрушительного поражения флота Содружества в Хаменосе, инициатива в регионе полностью в наших руках. В регионе остался последний очаг сопротивления на острове Милос. Остров укреплён фортификационными сооружениями и орудиями береговой артиллерии. Ваша задача их уничтожить. На острове также присутствует некоторое количество зенитных ракетных установок, представляющих угрозу для нашей авиации. Ликвидируйте её, и к вам на помощь прибудут наши вертолёты.|Вы будете действовать самостоятельно до прибытия эскадрильи вертолётов «Москито».| |Приступить к выполнению миссии?"
+		text="                                                                             @ff000000«Крепость»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 уничтожить вражеские укрепления на острове Милос.|@ff000000Зона боевых действий:@ff404040 Хаменос.|@ff000000Техника:@ff404040 «Каталунья», тяжёлый крейсер типа «Фурия».|@ff000000Союзники:@ff404040 нет.|@ff000000Противник:@ff404040 крейсер, эсминцы, боевые катера, укрепления СНГ.|@ff000000Поддержка с воздуха:@ff404040 да.|@ff000000Вражеская авиация:@ff404040 возможно.|@ff000000Погода:@ff404040 вечер, ясно.| |                                                                               @ff000000Брифинг|После уничтожения серии укреплений и сокрушительного поражения флота Содружества в Хаменосе, инициатива в регионе полностью в наших руках. В этой части архипелага остался последний очаг сопротивления - на острове Милос. Остров укреплён фортификационными сооружениями и орудиями береговой артиллерии. Ваша задача их уничтожить. На острове также присутствует некоторое количество зенитных ракетных установок, представляющих угрозу для нашей авиации. Ликвидируйте её, и к вам на помощь прибудут наши вертолёты.|Вы будете действовать самостоятельно до прибытия эскадрильи вертолётов «Москито».| |Приступить к выполнению миссии?"
 		role="NPC"
 		scriptResult="local MissionTime = {19, 56, 29, 4, 2265}; local MissionSide = 'CD'; local MissionName = 'CDPH02_Fortress'; local MissionMap = 'cd_ph02_fortress'; local MissionPlayerPrototype = 'CDPH02_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'smlboatCDMachinegun01', 'smlboatCDMachinegun01', 'smlboatCDRocket01', 'smlboatCDRocket01', 'AA47mmCannon01', 'AA47mmCannon01', 'mun_twin203CD02', 'mun_twin203CD02'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))"
+		nextReplies="Mission_Yes Mission_No" />
+
+	<Reply
+		name="CD_PH_003_pl"
+		text="Армада."
+		role="PLAYER"
+		scriptCondition="not(IsQuestTaken('CD_PH03'))"
+		nextReplies="CD_PH_003_npc" />
+
+	<Reply
+		name="CD_PH_003_npc"
+		text="                                                                               @ff000000«Армада»| |                                                                          @ff000000Детали миссии|@ff000000Цель миссии:@ff404040 уничтожить вражеский флот на подходах у острову Аттанс.|@ff000000Зона боевых действий:@ff404040 Атлантический океан.|@ff000000Техника:@ff404040 «Прието», линкор типа «Левиафан».|@ff000000Союзники:@ff404040 два эсминца класса «Альбедо», ракетный крейсер «Аргументо».|@ff000000Противник:@ff404040 крейсеры, эсминцы СНГ.|@ff000000Поддержка с воздуха:@ff404040 нет.|@ff000000Вражеская авиация:@ff404040 возможно.|@ff000000Погода:@ff404040 день, ясно.| |                                                                               @ff000000Брифинг|Тяжёлый флот СНГ у острова Аттанс препятствует нашей планируемой десантной операции на этом стратегически важном клочке земли в Атлантическом океане. Главная задача - потопить вражеский линкор типа «Либриум». Для этого высшее командование выделило новейший ракетный крейсер «Аргументо», который с лёгкостью сможет расправиться с линкором. Вы должны защищать крейсер пока тот приближается на расстояние выстрела к противнику. Если чё-та пойдёт не так - вы должны завершить миссию самостоятельно. Противник скорее всего задействует авиацию, не теряйте бдительности.Ударная группа для выполнения вашей текущей миссии будет состоять из двух эсминцев «Альбедо», ракетного крейсера «Аргументо» и вашего линкора типа «Левиафан».| |Приступить к выполнению миссии?"
+		role="NPC"
+		scriptResult="local MissionTime = {13, 27, 3, 1, 2266}; local MissionSide = 'CD'; local MissionName = 'CDPH03_Armada'; local MissionMap = 'cd_ph03_armada'; local MissionPlayerPrototype = 'CDPH03_Player01'; local MissionFriendlies = {'Friendly'}; local MissionGunsAndGadgets = {'smlboatCDMachinegun01', 'smlboatCDMachinegun01', 'smlboatCDRocket01', 'smlboatCDRocket01', 'AA47mmCannon01', 'AA47mmCannon01', 'mun_twin203CD02', 'mun_twin203CD02'}; SetVar('MissionParams', TableToString({TableToString(MissionTime, 2), MissionSide, MissionName, MissionMap, MissionPlayerPrototype, TableToString(MissionFriendlies, 2), TableToString(MissionGunsAndGadgets, 2)}))"
 		nextReplies="Mission_Yes Mission_No" />
 <!--Root/battleship/CD/Main Campaign--><!--Root/battleship/CIT/Placeholder-->
 	<Reply
