@@ -116,7 +116,7 @@
 		isMainQuest="1">
 		<Map
 			name="cd_ph03_armada"
-			coordinate="5051.000 255.000 4019.000" />
+			coordinate="4102.000 255.000 6988.000" />
 	</QuestInfo>
 
 	<QuestInfo
@@ -126,7 +126,7 @@
 		isMainQuest="0">
 		<Map
 			name="cd_ph03_armada"
-			targetObjName="CDRHCruiser01_vehicle_0" />
+			targetObjName="CDRocketHeavyCruiser01" />
 	</QuestInfo>
 
 	<QuestInfo

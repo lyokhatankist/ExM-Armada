@@ -52,7 +52,7 @@
 --			enemy[24] = {"CITDestroyer01_vehicle_3", 1200, 1200, 9524, 26}
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 400) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 440) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 40) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 45) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 6000)
@@ -61,7 +61,7 @@
 			SetVar("PlayerName", "«Сарагоса» (л.к.т. «Левиафан»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
-			SetVar("MissionScoreRewardMultiplier", 0.25) -- multiplier that determines how much money the player will receive for each score point
+			SetVar("MissionScoreRewardMultiplier", 0.165) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
 			local friendlies = {}
@@ -243,9 +243,11 @@
 
 				if not(IsQuestTaken("CD_PH03_Retreat")) then
 					FailQuest("CD_PH03")
+					FailQuestIfTaken("CD_PH03_ProtectCruiser")
 				else
 					FailQuestIfTaken("CD_PH03_DestroyBattleship")
 					CompleteQuest("CD_PH03_Retreat")
+					FailQuestIfTaken("CD_PH03_ProtectCruiser")
 				end
 
 				UpdateUnitsStats()
@@ -270,9 +272,11 @@
 		<script>
 			if not(IsQuestTaken("CD_PH03_Retreat")) then
 				FailQuest("CD_PH03")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			else
 				FailQuestIfTaken("CD_PH03_DestroyBattleship")
 				CompleteQuest("CD_PH03_Retreat")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			end
 
 			UpdateUnitsStats()
@@ -351,9 +355,11 @@
 		<script>
 			if not(IsQuestTaken("CD_PH03_Retreat")) then
 				FailQuest("CD_PH03")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			else
 				FailQuest("CD_PH03_Retreat")
 				FailQuest("CD_PH03")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			end
 
 			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
@@ -623,6 +629,8 @@
 
 			SetVar("MissionTime", 0)
 
+			AddFadingMsgId("fm_aircraft_enroute_foe")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -640,8 +648,12 @@
 
 				CompleteQuest("CD_PH03_DestroyBattleship")
 
+				TDeactivate("CDRocketHeavyCruiserDestroyed")
+
 				if CheckUnits(Friendlies, "alive", 1) then
 					TActivate("CDRetreat")
+
+					CompleteQuestIfTaken("CD_PH03_ProtectCruiser")
 
 					AddFadingMsgId("fm_cd_ph03_cdretreating")
 				end
@@ -665,6 +677,8 @@
 						println("mission end 3")
 
 						PassToMap("hq", "Headquarters_enter", 90, false )
+					else
+						TActivate("MissionEnd")
 					end
 				else
 					TActivate("MissionEnd")
@@ -821,9 +835,13 @@
 				LOG("CD destroyers aggroed")
 				for i=0, 2 do
 					Unit = getObj("CDDestroyer01_vehicle_"..i)
-					if Unit then
+					if Unit and not(getObj("")) then
 						Unit:SetCanBeDistractedFromMoving(true)
 					end
+				end
+			elseif 4400 > getObj(TargetFriendlies[1]):GetHealth() then
+				if not(IsQuestTaken("CD_PH03_ProtectCruiser")) then
+					TakeQuest("CD_PH03_ProtectCruiser")
 				end
 			end
 

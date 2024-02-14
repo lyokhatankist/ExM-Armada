@@ -114,9 +114,11 @@
 		<script>
 			if not(IsQuestTaken("CD_PH03_Retreat")) then
 				FailQuest("CD_PH03")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			else
 				FailQuest("CD_PH03_Retreat")
 				FailQuest("CD_PH03")
+				FailQuestIfTaken("CD_PH03_ProtectCruiser")
 			end
 
 			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
