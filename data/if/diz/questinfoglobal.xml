@@ -106,6 +106,39 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="CD_PH03"
+		briefDiz="Армада"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH03_DestroyBattleship"
+		briefDiz="Уничтожить вражеский линкор"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			coordinate="4102.000 255.000 6988.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_ProtectCruiser"
+		briefDiz="Армада - Защитить крейсер «Аргументо»"
+		fullDiz="Задача ракетного крейсера - уничтожить вражеский линкор. Защитите его, чтобы гарантировать успех миссии."
+		isMainQuest="0">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="CDRocketHeavyCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="CD_Tutorial"
 		briefDiz="Крещение огнём"
 		isMainQuest="1" />

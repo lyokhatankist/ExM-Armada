@@ -146,6 +146,40 @@
 		ConditionToGive="all taken"
 		PrecedingQuests="CD_PH02"
 		OnComplete="GiveScore(5000)" />
+<!--Root/CD/Placeholder/03_Armada-->
+	<quest
+		Name="CD_PH03"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="CD_PH03_DestroyBattleship"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CD_PH03"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CD_PH03_Retreat"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CD_PH03"
+			OnComplete="CompleteObjective()" />
+	</quest>
+
+	<quest
+		Name="CD_PH03_ProtectCruiser"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all taken"
+		PrecedingQuests="CD_PH03"
+		OnComplete="GiveScore(20000)" />
 <!--Root/CIT/Placeholder--><!--Root/CIT/Main Campaign--><!--Root/CIT/Placeholder/01_Counterattack-->
 	<quest
 		Name="CIT_PH01"
