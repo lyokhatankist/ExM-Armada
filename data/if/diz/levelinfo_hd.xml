@@ -108,6 +108,18 @@
 		musicBlocks="noblock" />
 
 	<LevelInfo
+		name="cit_ph02_guests"
+		file="data\maps\cit_ph02_guests.ssl"
+		fullName="[СНГ] Незванные гости"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\battleship\missions\cit_ph02_guests.dds"
+		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
+		splashes="data\if\ico\Splashes\noch.dds"
+		musicBlocks="noblock" />
+
+	<LevelInfo
 		name="cit_ph03_march"
 		file="data\maps\cit_ph03_march.ssl"
 		fullName="[СНГ] Марш"

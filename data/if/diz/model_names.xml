@@ -1553,6 +1553,47 @@
 		locForm="0"
 		value="Эсминец" />
 
+<!-- CIT PH02 Guests -->
+	<Item
+		id="CITPH02_Player01"
+		locForm="0"
+		value="«Прованс» (э.м.т. «Лион»)" />
+
+	<Item
+		id="CITPH02_OCruiserCIT01"
+		locForm="0"
+		value="«Эльберет»" />
+
+	<Item
+		id="CITPH02_DestroyerCIT01"
+		locForm="0"
+		value="«Жеводан»" />
+
+	<Item
+		id="CITPH02_DestroyerCIT02"
+		locForm="0"
+		value="«Руан»" />
+
+	<Item
+		id="CITPH02_BattleshipCD01"
+		locForm="0"
+		value="Линкор" />
+
+	<Item
+		id="CITPH02_BattleshipCD02"
+		locForm="0"
+		value="Линкор" />
+
+	<Item
+		id="CITPH02_HCruiserCD01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CITPH02_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
+
 <!-- CIT PH03 March -->
 	<Item
 		id="CITPH03_Player01"

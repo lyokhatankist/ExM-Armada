@@ -932,7 +932,7 @@
 				TDeactivate("CDMerchantsTargetReached")
 
 				if not(IsQuestTaken("CIT_PH03_DestroyCruisers")) and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
-					local b = SpawnMessageBox( "1001" )
+					local b = SpawnMessageBox( "1004" )
 					println("mission end 0")
 					if b == 1 then
 						trigger:Deactivate()

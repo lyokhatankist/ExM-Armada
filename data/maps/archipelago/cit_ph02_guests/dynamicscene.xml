@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="0">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Flags="21"
+		Name="MissionStartLoc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6593.000.000 275.000 1667.000"
+		Radius="650.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5298.000 255.000 798.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6932.000 255.000 2311.000"
+		Radius="700.000" />
+
+	<Object
+		Flags="21"
+		Name="Retreat03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7332.000 255.000 3768.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="5098.000 255.000 398.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7028.000 255.000 303.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7632.000 255.000 2211.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Leave04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7632.000 255.000 3768.000"
+		Radius="900.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="3420.000 255.000 1307.000"
+		Radius="1100.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2280.000 255.000 2228.000"
+		Radius="950.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2265.000 255.000 3987.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="3344.000 255.000 5578.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning05Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="4154.000 255.000 6817.000"
+		Radius="1250.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning06Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6472.000 255.000 7248.000"
+		Radius="1350.000" />
+
+	<Object
+		Flags="21"
+		Name="Warning07Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7508.000 255.000 5426.000"
+		Radius="1000.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion01Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="2982.000 255.000 464.000"
+		Radius="1400.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion02Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1154.000 255.000 2530.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion03Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="1577.000 255.000 5209.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion04Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="3579.000 255.000 7104.000"
+		Radius="1500.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion05Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="6154.000 255.000 7775.000"
+		Radius="1300.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion06Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7861.000 255.000 6357.000"
+		Radius="1200.000" />
+
+	<Object
+		Flags="21"
+		Name="Desertion07Loc"
+		Belong="1500"
+		Prototype="genericLocation"
+		Pos="7676.000 255.000 4924.000"
+		Radius="800.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>

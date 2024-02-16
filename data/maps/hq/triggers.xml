@@ -165,6 +165,15 @@
 		</script>
 	</trigger>
 
+	<trigger Name="CITPH02_Guests" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			-- Add reward items to the shop
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="CITPH03_March" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
