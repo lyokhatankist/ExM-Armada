@@ -15,162 +15,192 @@
 	<Path
 		Name="StartPath_Player">
 		<Point
-			coord="6593 1667" />
+			coord="1158 5818" />
 		
 		<Point
-			coord="6261 2156" />
+			coord="1450 5520" />
 	</Path>
 
 	<Path
-		Name="StartPath_CITTorpedoBoat01">		
+		Name="StartPath_CITOldCruiser01_vehicle_0">		
 		<Point
-			coord="6570 1565" />
+			coord="1061 5954" />
 
 		<Point
-			coord="6259 2025" />
+			coord="1353 5656" />
 	</Path>
 
 	<Path
-		Name="StartPath_CITTorpedoBoat02">
+		Name="StartPath_CITDestroyer01_vehicle_0">
 		<Point
-			coord="6555 1544" />
+			coord="1183 5904" />
 
 		<Point
-			coord="6245 2005" />
+			coord="1474 5607" />
 	</Path>
 
 	<Path
-		Name="StartPath_CITTorpedoBoat03">
+		Name="StartPath_CITDestroyer01_vehicle_1">
 		<Point
-			coord="6560 1657" />
+			coord="987 6076" />
 
 		<Point
-			coord="6249 2117" />
+			coord="1279 5778" />
 	</Path>
 
 	<Path
-		Name="CITTorpedoBoat01_Waypoint1">
+		Name="CITOldCruiser01_vehicle_0_Waypoint1">
 		<Point
-			coord="5999 2325" />
-		<Point
-			coord="5855 2872" />
+			coord="2315 4717" />
 	</Path>
 
 	<Path
-		Name="CITTorpedoBoat02_Waypoint1">
+		Name="CITDestroyer01_vehicle_0_Waypoint1">
 		<Point
-			coord="5985 2305" />
-		<Point
-			coord="5841 2852" />
+			coord="2469 4656" />
 	</Path>
 
 	<Path
-		Name="CITTorpedoBoat03_Waypoint1">
+		Name="CITDestroyer01_vehicle_1_Waypoint1">
 		<Point
-			coord="5989 2417" />
+			coord="2241 4839" />
+	</Path>
+
+	<Path
+		Name="CITOldCruiser01_vehicle_0_Waypoint2">
 		<Point
-			coord="5845 2964" />
+			coord="3275 2883" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_0_Waypoint2">
+		<Point
+			coord="3356 2854" />
+	</Path>
+
+	<Path
+		Name="CITDestroyer01_vehicle_1_Waypoint2">
+		<Point
+			coord="3201 3005" />
 	</Path>
 
 	<Path
 		Name="CITRetreatDirection_1">
 		<Point
-			coord="8119 654" />
+			coord="2879 4421" />
+		<Point
+			coord="1450 5520" />
+		<Point
+			coord="65 6762" />
 	</Path>
 
 	<Path
 		Name="CITRetreatDirection_2">
 		<Point
-			coord="8090 302" />
+			coord="2733 4559" />
+		<Point
+			coord="1757 5452" />
+		<Point
+			coord="45 6334" />
 	</Path>
 
 	<Path
 		Name="CITRetreatDirection_3">
 		<Point
-			coord="8109 1189" />
+			coord="2789 4417" />
+		<Point
+			coord="1960 5530" />
+		<Point
+			coord="581 8137" />
 	</Path>
 
 	<Path
-		Name="CDMerchant01_Waypoint1">
+		Name="CDDestroyer01_vehicle_0_Waypoint1">
 		<Point
-			coord="2063 272" />
+			coord="2531 4442" />
 	</Path>
 
 	<Path
-		Name="CDMerchant02_Waypoint1">
+		Name="CDDestroyer01_vehicle_1_Waypoint1">
 		<Point
-			coord="2168 451" />
+			coord="2662 4514" />
 	</Path>
 
 	<Path
-		Name="CDDestroyer01_Waypoint1">
+		Name="CDHeavyCruiser01_vehicle_0_Waypoint1">
 		<Point
-			coord="1994 285" />
+			coord="2656 4369" />
 	</Path>
 
 	<Path
-		Name="CDDestroyer02_Waypoint1">
+		Name="CDBattleship01_vehicle_0_Waypoint1">
 		<Point
-			coord="2094 207" />
+			coord="2607 4199" />
 	</Path>
 
 	<Path
-		Name="CDBoat01_Waypoint1">
+		Name="CDBattleship01_vehicle_1_Waypoint1">
 		<Point
-			coord="4606 4340" />
+			coord="2826 4319" />
 	</Path>
 
 	<Path
-		Name="CDBoat02_Waypoint1">
+		Name="CDDestroyer01_vehicle_0_Waypoint2">
 		<Point
-			coord="4487 4427" />
+			coord="1863 5565" />
 	</Path>
 
 	<Path
-		Name="CDBoat03_Waypoint1">
+		Name="CDDestroyer01_vehicle_1_Waypoint2">
 		<Point
-			coord="4531 4527" />
+			coord="1995 5637" />
 	</Path>
 
 	<Path
-		Name="CDBoat04_Waypoint1">
+		Name="CDHeavyCruiser01_vehicle_0_Waypoint2">
 		<Point
-			coord="4539 4261" />
+			coord="1989 5491" />
 	</Path>
 
 	<Path
-		Name="CDBoat05_Waypoint1">
+		Name="CDBattleship01_vehicle_0_Waypoint2">
 		<Point
-			coord="4344 4317" />
+			coord="1940 5322" />
 	</Path>
 
 	<Path
-		Name="CDBoat01_Waypoint2">
+		Name="CDBattleship01_vehicle_1_Waypoint2">
 		<Point
-			coord="7662 8190" />
+			coord="2159 5442" />
 	</Path>
 
 	<Path
-		Name="CDBoat02_Waypoint2">
+		Name="CDDestroyer01_vehicle_0_Waypoint3">
 		<Point
-			coord="6191 8100" />
+			coord="1979 7780" />
 	</Path>
 
 	<Path
-		Name="CDBoat03_Waypoint2">
+		Name="CDDestroyer01_vehicle_1_Waypoint3">
 		<Point
-			coord="5945 8086" />
+			coord="2110 7852" />
 	</Path>
 
 	<Path
-		Name="CDBoat04_Waypoint2">
+		Name="CDHeavyCruiser01_vehicle_0_Waypoint3">
 		<Point
-			coord="7645 8103" />
+			coord="2106 7706" />
 	</Path>
 
 	<Path
-		Name="CDBoat05_Waypoint2">
+		Name="CDBattleship01_vehicle_0_Waypoint3">
 		<Point
-			coord="5798 8113" />
+			coord="2055 7537" />
+	</Path>
+
+	<Path
+		Name="CDBattleship01_vehicle_1_Waypoint3">
+		<Point
+			coord="2274 7657" />
 	</Path>
 </Paths>

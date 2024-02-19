@@ -2570,7 +2570,6 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCDMachinegun01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_5"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />
@@ -2603,7 +2602,6 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET_SMALL_GUN_11"		Prototype = "mun_twin127CD01" />
 			<Part id = "BASKET_SMALL_GUN_12"		Prototype = "mun_twin127CD02" />
 			<Part id = "BASKET_SMALL_GUN_13"		Prototype = "mun_twin127CD01" />
-			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "smlboatCDMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_6"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_7"	Prototype = "AA47mmCannon01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_8"	Prototype = "AA47mmCannon01" />

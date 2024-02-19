@@ -22,7 +22,7 @@
 			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Риф»)"}
 			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Молот»)"}
 			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Волк»)"}
-			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Гром»)"}
+			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Гюрза»)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDLavs01_vehicle_0", 26, 375, 265, 0}
 			enemy[2] = {"CDLavs02_vehicle_0", 26, 375, 265, 0}

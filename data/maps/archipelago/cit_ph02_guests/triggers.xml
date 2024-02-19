@@ -22,16 +22,28 @@
 			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "«Эльберет» (л.к.т. «Эгаль»)"}
 			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "«Жеводан» (э.м.т. «Лион»)"}
 			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "«Руан» (э.м.т. «Лион»)"}
+			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Сокол»)"}
+			friendly[5] = {"CITHelicopter01_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
+			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Гром»)"}
+			friendly[7] = {"CITHelicopter02_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
+			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Филин»)"}
+			friendly[9] = {"CITHelicopter03_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
+			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Скиф»)"}
+			friendly[11 ] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}
 			enemy[2] = {"CDDestroyer01_vehicle_1", 1600, 1600, 6601, 22}
-			enemy[3] = {"CDMerchant01_vehicle_0", 163, 1500, 0, 4}
-			enemy[4] = {"CDMerchant02_vehicle_0", 163, 1500, 0, 4}
-			enemy[5] = {"CDBoat01_vehicle_0", 46, 200, 265, 35}
-			enemy[6] = {"CDBoat01_vehicle_1", 46, 200, 265, 35}
-			enemy[7] = {"CDBoat01_vehicle_2", 46, 200, 265, 35}
-			enemy[8] = {"CDBoat02_vehicle_0", 46, 200, 265, 35}
-			enemy[9] = {"CDBoat02_vehicle_1", 46, 200, 265, 35}
+			enemy[3] = {"CDHeavyCruiser01_vehicle_0", 4000, 4000, 18551, 12}
+			enemy[4] = {"CDBattleship01_vehicle_0", 6000, 6000, 20737, 7}
+			enemy[5] = {"CDBattleship01_vehicle_1", 6000, 6000, 40565, 7}
+			enemy[6] = {"CDHelicopter01_vehicle_0", 13, 250, 627, 140}
+			enemy[7] = {"CDHelicopter01_vehicle_1", 13, 250, 627, 140}
+			enemy[8] = {"CDHelicopter01_vehicle_2", 13, 250, 627, 140}
+			enemy[9] = {"CDHelicopter01_vehicle_3", 13, 250, 627, 140}
+			enemy[10] = {"CDHelicopter02_vehicle_0", 13, 250, 627, 140}
+			enemy[11] = {"CDHelicopter02_vehicle_1", 13, 250, 627, 140}
+			enemy[12] = {"CDHelicopter02_vehicle_2", 13, 250, 627, 140}
+			enemy[13] = {"CDHelicopter02_vehicle_3", 13, 250, 627, 140}
 
 			SetVar("MissionTime", 0)
 			SetVar("RequiredMissionTime", 400) -- mission completion time (in s) for getting bonus score
@@ -199,30 +211,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="NightvisionOff"	active="1">
-		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
-		<script>
-			RuleConsole("g_postEffect Nightvision_CIT")
-			
-			trigger:Deactivate()
-
-			TActivate("NightvisionOn")
-			
-		</script>
-	</trigger>
-
-	<trigger	Name="NightvisionOn"	active="0">
-		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
-		<script>
-			RuleConsole("g_postEffect wNight_archipelago_clear")
-
-			trigger:Deactivate()
-
-			TActivate("NightvisionOff")
-
-		</script>
-	</trigger>
-
 	<trigger Name="RetreatStart" active="0">
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
@@ -355,80 +343,112 @@
 			-- ================
 			--  Main CIT Force
 			-- ================
-			TeamCreate("CITTorpedoBoat01", 1002, CVector(6570, 275, 1565), {"CITPH04_FastboatCIT01", "CITPH04_FastboatCIT02"})
-			TeamCreate("CITTorpedoBoat02", 1002, CVector(6560, 275, 1657), {"CITPH04_FastboatCIT03"})
+			TeamCreate("CITOldCruiser01", 1004, CVector(1061, 285, 5954), {"CITPH02_OldCruiserCIT01"})
+			TeamCreate("CITDestroyer01", 1003, CVector(1183, 285, 5904), {"CITPH02_DestroyerCIT01", "CITPH02_DestroyerCIT02"})
+
+			TeamCreate("CITHelicopter01", 1006, CVector(7801, 285, 8004), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter01", 1006, CVector(7895, 285, 7898), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter01", 1006, CVector(8012, 285, 8053), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter01", 1006, CVector(8050, 285, 7939), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
 
 			-- ----------------
 			-- Units parameters
 
-			Units = getObj("CITTorpedoBoat01")
+			Units = getObj("CITOldCruiser01")
 			if Units then
 				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
 				Units:_AdjustBehaviour ()
 			end
 
-			Units = getObj("CITTorpedoBoat02")
+			Units = getObj("CITDestroyer01")
 			if Units then
-				Units:SetProperty ("TeamTacticPrototype", "AssaultBottomTactic")
+				Units:SetProperty ("TeamTacticPrototype", "BoxTactic")
 				Units:_AdjustBehaviour ()
 			end
 
 			-- ---------------
 			-- Unit parameters
 
-			Unit = getObj("CITTorpedoBoat01_vehicle_0")
+			Unit = getObj("CITOldCruiser01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
-				Unit:SetCruisingSpeed(15)
-				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat01")
+				Unit:SetRotation(Quaternion(0.0000, 0.9239, 0.0000, 0.3827))
+				Unit:SetCruisingSpeed(8)
+				Unit:SetExternalPathByName("StartPath_CITOldCruiser01_vehicle_0")
 			end
 
-			Unit = getObj("CITTorpedoBoat01_vehicle_1")
+			Unit = getObj("CITDestroyer01_vehicle_0")
 			if Unit then
-				Unit:SetGamePositionOnGround(CVector(6555, 275, 1544))
-				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
-				Unit:SetCruisingSpeed(15)
-				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat02")
+				Unit:SetRotation(Quaternion(0.0000, 0.9239, 0.0000, 0.3827))
+				Unit:SetCruisingSpeed(8)
+				Unit:SetExternalPathByName("StartPath_CITDestroyer01_vehicle_0")
 			end
 
-			Unit = getObj("CITTorpedoBoat02_vehicle_0")
+			Unit = getObj("CITDestroyer01_vehicle_1")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
-				Unit:SetCruisingSpeed(15)
-				Unit:SetExternalPathByName("StartPath_CITTorpedoBoat03")
+				Unit:SetGamePositionOnGround(CVector(987, 285, 6076))
+				Unit:SetRotation(Quaternion(0.0000, 0.9239, 0.0000, 0.3827))
+				Unit:SetCruisingSpeed(8)
+				Unit:SetExternalPathByName("StartPath_CITDestroyer01_vehicle_1")
+			end
+
+			coords = {{CVector(7801, 285, 8004), CVector(7801, 285, 8054)},
+					  {CVector(7895, 285, 7898), CVector(7923, 285, 7941)},
+					  {CVector(8012, 285, 8053), CVector(8031, 285, 8102)},
+					  {CVector(8050, 285, 7939), CVector(8082, 285, 7997)}}
+			for i=1, 4 do
+				for j=0, 1 do
+					Unit = getObj("CITHelicopter0"..i.."_vehicle_"..j)
+					if Unit then
+						Unit:SetGamePositionOnGround(coords[i][j+1])
+						Unit:SetRotation(Quaternion(0.0000, -0.8660, 0.0000, 0.5000))
+					end
+				end
 			end
 
 			-- ===============
 			--  Main CD Force
 			-- ===============
-			TeamCreate("CDDestroyer01", 1053, CVector(5259, 279, 5774), {"CITPH04_DestroyerCD02", "CITPH04_DestroyerCD01"})
-			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant01_vehicle_0", CVector(5441, 279, 5932), 1051)
-			CreateVehicleEx("CITPH04_MerchantCD01", "CDMerchant02_vehicle_0", CVector(5608, 279, 6211), 1051)
-			TeamCreate("CDBoat01", 1052, CVector(5601, 279, 5986), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
-			TeamCreate("CDBoat02", 1052, CVector(5535, 279, 5907), {"CITPH04_SmlboatCD01", "CITPH04_SmlboatCD01"})
+			TeamCreate("CDDestroyer01", 1053, CVector(3487, 285, 2450), {"CITPH02_DestroyerCD01", "CITPH02_DestroyerCD01"})
+			TeamCreate("CDHeavyCruiser01", 1054, CVector(3612, 285, 2377), {"CITPH02_HCruiserCD01"})
+			TeamCreate("CDBattleship01", 1055, CVector(3563, 285, 2207), {"CITPH02_BattleshipCD01", "CITPH02_BattleshipCD02"})
 
 			-- =============
 			--  CD Reserves
 			-- =============
+			TeamCreate("CDHelicopter01", 1056, CVector(4152, 285, 157), {"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4)})
+			TeamCreate("CDHelicopter02", 1056, CVector(4314, 285, 63), {"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4),"CITPH02_HeliCD0"..math.random(4)})
 
 			-- ----------------
 			-- Units parameters
 
-			for i=1, 2 do
-				Units = getObj("CDDestroyer0"..i)
-				if Units then
-					Units:SetProperty ("TeamTacticPrototype", "BoxTactic")
-					Units:_AdjustBehaviour ()
-				end
+			Units = getObj("CDDestroyer01")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "BoxTactic")
+				Units:_AdjustBehaviour ()
 			end
 
+			Units = getObj("CDHeavyCruiser01")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				Units:_AdjustBehaviour ()
+			end
 	
-			for i=1, 2 do
-				Units = getObj("CDBoat0"..i)
-				if Units then
-					Units:SetProperty ("TeamTacticPrototype", "MeatTeamTactic")
-					Units:_AdjustBehaviour ()
-				end
+			Units = getObj("CDBattleship01")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "SniperTactic")
+				Units:_AdjustBehaviour ()
+			end
+
+			Units = getObj("CDHelicopter01")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "StandardTactic")
+				Units:_AdjustBehaviour ()
+			end
+
+			Units = getObj("CDHelicopter02")
+			if Units then
+				Units:SetProperty ("TeamTacticPrototype", "BoxTactic")
+				Units:_AdjustBehaviour ()
 			end
 
 			-- ---------------
@@ -436,40 +456,40 @@
 			
 			Unit = getObj("CDDestroyer01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
+				Unit:SetRotation(Quaternion(0.0000, -0.2483, 0.0000, 0.9687))
 			end
 
 			Unit = getObj("CDDestroyer01_vehicle_1")
 			if Unit then
-				Unit:SetGamePositionOnGround(CVector(5574, 279, 6036))
-				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
+				Unit:SetGamePositionOnGround(CVector(3618, 285, 2522))
+				Unit:SetRotation(Quaternion(0.0000, -0.2483, 0.0000, 0.9687))
 			end
 
-			Unit = getObj("CDMerchant01_vehicle_0")
+			Unit = getObj("CDHeavyCruiser01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
+				Unit:SetRotation(Quaternion(0.0000, -0.2483, 0.0000, 0.9687))
 			end
 
-			Unit = getObj("CDMerchant02_vehicle_0")
+			Unit = getObj("CDBattleship01_vehicle_0")
 			if Unit then
-				Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
+				Unit:SetRotation(Quaternion(0.0000, -0.2483, 0.0000, 0.9687))
 			end
 
-			local coords = {CVector(5601, 279, 5986), CVector(5483, 279, 6073), CVector(5526, 279, 6173)}
-			for i=0, 2 do
-				Unit = getObj("CDBoat01_vehicle_"..i)
-				if Unit then
-					Unit:SetGamePositionOnGround(coords[i+1])
-					Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
-				end
+			Unit = getObj("CDBattleship01_vehicle_1")
+			if Unit then
+				Unit:SetGamePositionOnGround(CVector(3782, 285, 2327))
+				Unit:SetRotation(Quaternion(0.0000, -0.2483, 0.0000, 0.9687))
 			end
 
-			coords = {CVector(5535, 279, 5907), CVector(5339, 279, 5963)}
-			for i=0, 1 do
-				Unit = getObj("CDBoat02_vehicle_"..i)
-				if Unit then
-					Unit:SetGamePositionOnGround(coords[i+1])
-					Unit:SetRotation(Quaternion(0.0000, -0.9659, 0.0000, 0.2588))
+			coords = {{CVector(4152, 285, 157), CVector(4189, 285, 160), CVector(4236, 285, 150), CVector(4264, 285, 170)},
+					  {CVector(4314, 285, 63), CVector(4352, 285, 66), CVector(4399, 285, 56), CVector(4426, 285, 76)}}
+			for i=1, 2 do
+				for j=0, 3 do
+					Unit = getObj("CDHelicopter0"..i.."_vehicle_"..j)
+					if Unit then
+						Unit:SetGamePositionOnGround(coords[i][j+1])
+						Unit:SetRotation(Quaternion(0.0000, -0.1305, 0.0000, 0.9914))
+					end
 				end
 			end
 
@@ -478,7 +498,7 @@
 			-- =========
 
 			local PlfID = GetPlayerVehicleId()
-			FlyLinked( "CITPH04_Start1", PlfID, 30, 0, 1, PlfID )
+			FlyLinked( "CITPH02_Start1", PlfID, 30, 0, 1, PlfID )
 			StartCinematic()
 
 			AddCinematicMessage( 1, 2)
@@ -487,7 +507,7 @@
 
 			local Plf = GetPlayerVehicle()
 			if Plf then
-				Plf:SetRotation(Quaternion(0.0000, -0.3007, 0.0000, 0.9537))
+				Plf:SetRotation(Quaternion(0.0000, 0.9239, 0.0000, 0.3827))
 				Plf:SetExternalPathByName("StartPath_Player")
 				Plf:LimitMaxSpeed(16)
 			end
@@ -510,110 +530,76 @@
 				Plf:UnlimitMaxSpeed()
 			end
 
-			Unit = getObj("CITTorpedoBoat01_vehicle_0")
+			Unit = getObj("CITOldCruiser01_vehicle_0")
 			if Unit then
-				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat01")
-				Unit:SetExternalPathByName("CITTorpedoBoat01_Waypoint1")
-				Unit:SetCruisingSpeed(40)
+				Unit:PlaceToEndOfPath("StartPath_CITOldCruiser01_vehicle_0")
+				Unit:SetExternalPathByName("CITOldCruiser01_vehicle_0_Waypoint1")
+				Unit:SetCruisingSpeed(9)
 				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
-			Unit = getObj("CITTorpedoBoat01_vehicle_1")
+			Unit = getObj("CITDestroyer01_vehicle_0")
 			if Unit then
-				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat02")
-				Unit:SetExternalPathByName("CITTorpedoBoat02_Waypoint1")
-				Unit:SetCruisingSpeed(40)
+				Unit:PlaceToEndOfPath("StartPath_CITDestroyer01_vehicle_0")
+				Unit:SetExternalPathByName("CITDestroyer01_vehicle_0_Waypoint1")
+				Unit:SetCruisingSpeed(9)
 				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
-			Unit = getObj("CITTorpedoBoat02_vehicle_0")
+			Unit = getObj("CITDestroyer01_vehicle_1")
 			if Unit then
-				Unit:PlaceToEndOfPath("StartPath_CITTorpedoBoat03")
-				Unit:SetExternalPathByName("CITTorpedoBoat03_Waypoint1")
-				Unit:SetCruisingSpeed(40)
+				Unit:PlaceToEndOfPath("StartPath_CITDestroyer01_vehicle_1")
+				Unit:SetExternalPathByName("CITDestroyer01_vehicle_1_Waypoint1")
+				Unit:SetCruisingSpeed(9)
 				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat01_vehicle_0")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat01_Waypoint1")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat01_vehicle_1")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat02_Waypoint1")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat01_vehicle_2")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat03_Waypoint1")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat02_vehicle_0")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat04_Waypoint1")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat02_vehicle_1")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat05_Waypoint1")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
+			end	
 
 			Unit = getObj("CDDestroyer01_vehicle_0")
 			if Unit then
-				Unit:SetExternalPathByName("CDDestroyer01_Waypoint1")
+				Unit:SetExternalPathByName("CDDestroyer01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
 			Unit = getObj("CDDestroyer01_vehicle_1")
 			if Unit then
-				Unit:SetExternalPathByName("CDDestroyer02_Waypoint1")
+				Unit:SetExternalPathByName("CDDestroyer01_vehicle_1_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
-			Unit = getObj("CDMerchant01_vehicle_0")
-			LOG(6271)
+			Unit = getObj("CDHeavyCruiser01_vehicle_0")
 			if Unit then
-				Unit:SetExternalPathByName("CDMerchant01_Waypoint1")
-				LOG(6272)
+				Unit:SetExternalPathByName("CDHeavyCruiser01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
-				LOG(6273)
+				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
-			Unit = getObj("CDMerchant02_vehicle_0")
-			LOG(6274)
+			Unit = getObj("CDBattleship01_vehicle_0")
 			if Unit then
-				Unit:SetExternalPathByName("CDMerchant02_Waypoint1")
-				LOG(6275)
+				Unit:SetExternalPathByName("CDBattleship01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
-				LOG(6276)
+				Unit:SetCanBeDistractedFromMoving(true)
 			end
 
-			TActivate("CDMerchantsTargetReached")
-			TActivate("CDMerchantsDestroyed")
-			TActivate("CDMerchantsFormationManager")
-			TActivate("CDBoatsTargetReached")
-			TActivate("CITOrder")
+			Unit = getObj("CDBattleship01_vehicle_1")
+			if Unit then
+				Unit:SetExternalPathByName("CDBattleship01_vehicle_1_Waypoint1")
+				Unit:SetCruisingSpeed(3)
+				Unit:SetCanBeDistractedFromMoving(true)
+			end
+
+			TActivate("CDDestroyed")
+			TActivate("CDFormationManager")
+			TActivate("CDCriticalLosses")
+			TActivate("CITFormationManager")
 			TActivate("CITCriticalLosses")
+			TActivate("CITOrder")
 
 			TActivate("RetreatStart")
 			TActivate("Leave")
 
-			TakeQuest("CIT_PH04")
-
-			AddImportantFadingMsgByStrIdFormatted("fm_nightvision")
+			TakeQuest("CIT_PH02")
 
 			SetVar("MissionTime", 0)
 

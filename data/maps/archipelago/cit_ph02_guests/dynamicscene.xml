@@ -9,7 +9,7 @@
 		Name="MissionStartLoc"
 		Belong="1500"
 		Prototype="genericLocation"
-		Pos="6593.000.000 275.000 1667.000"
+		Pos="1158.000 285.000 5818.000"
 		Radius="650.000" />
 
 	<Object
