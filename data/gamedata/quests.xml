@@ -205,6 +205,40 @@
 			PrecedingQuests="CIT_PH01_DestroyTargets"
 			OnComplete="CompleteObjective()" />
 	</quest>
+<!--Root/CIT/Placeholder/02_Guests-->
+	<quest
+		Name="CIT_PH02"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="CIT_PH02_DestroyFleet"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CIT_PH02"
+			OnComplete="CompleteObjective()" />
+
+		<quest
+			Name="CIT_PH02_Retreat"
+			Automatic="0"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="any taken"
+			PrecedingQuests="CIT_PH02"
+			OnComplete="CompleteObjective()" />
+	</quest>
+
+	<quest
+		Name="CIT_PH02_DestroyDestroyers"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="any taken"
+		PrecedingQuests="CIT_PH02"
+		OnComplete="GiveScore(10000)" />
 <!--Root/CIT/Placeholder/03_March-->
 	<quest
 		Name="CIT_PH03"

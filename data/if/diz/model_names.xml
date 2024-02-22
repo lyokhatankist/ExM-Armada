@@ -1526,7 +1526,7 @@
 	<Item
 		id="CITPH01_SmlboatCIT04"
 		locForm="0"
-		value="Гром" />
+		value="Гюрза" />
 
 	<Item
 		id="CITPH01_SmlboatCD01"
@@ -1552,6 +1552,87 @@
 		id="CITPH01_DestroyerCD01"
 		locForm="0"
 		value="Эсминец" />
+
+<!-- CIT PH02 Guests -->
+	<Item
+		id="CITPH02_Player01"
+		locForm="0"
+		value="«Прованс» (э.м.т. «Лион»)" />
+
+	<Item
+		id="CITPH02_DestroyerCIT01"
+		locForm="0"
+		value="«Жеводан»" />
+
+	<Item
+		id="CITPH02_DestroyerCIT02"
+		locForm="0"
+		value="«Руан»" />
+
+	<Item
+		id="CITPH02_OCruiserCIT01"
+		locForm="0"
+		value="«Эльберет»" />
+
+	<Item
+		id="CITPH02_HeliCIT01"
+		locForm="0"
+		value="«Кондор»" />
+
+	<Item
+		id="CITPH02_HeliCIT02"
+		locForm="0"
+		value="«Кондор»" />
+
+	<Item
+		id="CITPH02_HeliCIT03"
+		locForm="0"
+		value="«Кондор»" />
+
+	<Item
+		id="CITPH02_HeliCIT04"
+		locForm="0"
+		value="«Кондор»" />
+
+	<Item
+		id="CITPH02_DestroyerCD01"
+		locForm="0"
+		value="Эсминец" />
+
+	<Item
+		id="CITPH02_HCruiserCD01"
+		locForm="0"
+		value="Крейсер" />
+
+	<Item
+		id="CITPH02_BattleshipCD01"
+		locForm="0"
+		value="Линкор" />
+
+	<Item
+		id="CITPH02_BattleshipCD02"
+		locForm="0"
+		value="Линкор" />
+
+	<Item
+		id="CITPH02_HeliCD01"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CITPH02_HeliCD02"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CITPH02_HeliCD03"
+		locForm="0"
+		value="Вертолёт" />
+
+	<Item
+		id="CITPH02_HeliCD04"
+		locForm="0"
+		value="Вертолёт" />
 
 <!-- CIT PH03 March -->
 	<Item

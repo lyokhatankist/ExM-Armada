@@ -148,6 +148,20 @@
 		id="fm_cit_ph01_citretreating"
 		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
 
+<!-- battleship cit_ph02_guests -->
+	<string
+		id="fm_cit_ph02_destroyers"
+		value="@ffff9c00Срочный приказ:@ffffffff сосредоточить огонь по эсминцам противника." />
+
+	<string
+		id="fm_cit_ph02_retreat"
+		value="@ffff9c00Срочный приказ:@ffffffff немедленно покинуть зону боевых действий." />
+
+	<string
+		id="fm_cit_ph02_citretreating"
+		value="Цель миссии выполнена. Дружественные силы готовы к отступлению." />
+
+
 <!-- battleship cit_ph03_march -->
 	<string
 		id="fm_cit_ph03_merchants"

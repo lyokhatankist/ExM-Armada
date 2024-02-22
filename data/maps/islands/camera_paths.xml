@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <Paths>
+	<Path Name = "DeathPath01">                         
+		<Point  coord="4096.000 0.000 4096.000" rotation="0.000 1.000 0.000 0.000" />
+		<Point  coord="4096.000 0.000 4096.000" rotation="0.000 1.000 0.000 0.000" />
+	</Path>
+	
 	<Path Name = "CITPH03_Start1">                         
 		<Point  coord="0.100 1250.000 -0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
 		<Point  coord="0.100 12.000 -0.100" rotation="0.000 1.000 0.000 0.000" speed="10" />
