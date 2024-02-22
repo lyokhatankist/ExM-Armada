@@ -46,7 +46,7 @@
 			enemy[13] = {"CDHelicopter02_vehicle_3", 13, 250, 627, 140}
 
 			SetVar("MissionTime", 0)
-			SetVar("RequiredMissionTime", 400) -- mission completion time (in s) for getting bonus score
+			SetVar("RequiredMissionTime", 576) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 40) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 46) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 1200)

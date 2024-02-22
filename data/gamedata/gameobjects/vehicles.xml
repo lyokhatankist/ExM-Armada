@@ -1828,6 +1828,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class					= "Vehicle"
 		Name					= "HQVehicle01"
 		ParentPrototype 		= "LavCIT"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS"					Prototype = "heliCITChassis" />
@@ -2447,6 +2448,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "CITPH02_Player01"
 		ParentPrototype 		= "DestroyerCIT"
 		LookRadius				= "1000.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_GIANT_GUN_1"		Prototype = "destroyerCITTorpedo01" />
@@ -3945,6 +3947,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Name					= "CDPH03_Player01"
 		ParentPrototype 		= "BattleshipCD"
 		LookRadius				= "1200.0"
+		HornSound				= "ET_S_NOHORN"
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin356CD01" />
