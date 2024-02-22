@@ -203,4 +203,44 @@
 		<Point
 			coord="2274 7657" />
 	</Path>
+
+	<Path
+		Name="CDRetreatDirection_1">
+		<Point
+			coord="3487 2450" />
+		<Point
+			coord="3569 333" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_2">
+		<Point
+			coord="3618 2522" />
+		<Point
+			coord="4053 351" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_3">
+		<Point
+			coord="3612 2377" />
+		<Point
+			coord="3891 379" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_4">
+		<Point
+			coord="3563 2207" />
+		<Point
+			coord="3722 338" />
+	</Path>
+
+	<Path
+		Name="CDRetreatDirection_5">
+		<Point
+			coord="3782 2327" />
+		<Point
+			coord="4200 315" />
+	</Path>
 </Paths>

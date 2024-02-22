@@ -112,11 +112,13 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			if not(IsQuestTaken("CIT_PH04_Retreat")) then
-				FailQuest("CIT_PH04")
+			if not(IsQuestTaken("CIT_PH02_Retreat")) then
+				FailQuest("CIT_PH02")
 			else
-				FailQuest("CIT_PH04_Retreat")
+				FailQuest("CIT_PH02_Retreat")
 			end
+
+			FailQuestIfTaken("CIT_PH02_DestroyDestroyers")
 
 			UpdateUnitsStats(1)
 			

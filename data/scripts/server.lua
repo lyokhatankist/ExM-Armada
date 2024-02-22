@@ -2112,6 +2112,7 @@ function CalcMissionStats(plDead)
 --				d = d + 1
 			else
 --				friendliesEndHealth[p] = 0
+				table.remove(friendliesEndHealth, p)
 				friendliesLostNames[z] = friendliesStartNames[i]
 				println("friendly is dead, removing from health table and adding to lost allies numba"..z)
 				z = z + 1
@@ -2267,13 +2268,13 @@ function CalcMissionStats(plDead)
 		j = getn(friendliesLostNames)
 		for i=1, friendliesEndCount do
 			currentShip = friendliesEndManeuverability[i]
-			maneuverabilityRetreatMultiplier = (currentShip / enemiesEndAverageManeuverability - 1) / 5
-			maneuverabilityRetreatMultiplier = math.clamp(maneuverabilityRetreatMultiplier, -0.2, 0.2)
+			maneuverabilityRetreatMultiplier = (currentShip / enemiesEndAverageManeuverability - 1) / 2.25
+			maneuverabilityRetreatMultiplier = math.clamp(maneuverabilityRetreatMultiplier, -0.125, 0.25)
 			println(i.." friendly ship maneuverability retreat multiplier is "..maneuverabilityRetreatMultiplier)
 			currentShip = distances[i]
 			distanceRetreatMultiplier = (currentShip / 1000 - 1) / 2.85
 			distanceRetreatMultiplier = math.clamp(distanceRetreatMultiplier, -0.35, 0.35)
-			println(i.." friendly ship distance retreat multiplier is "..maneuverabilityRetreatMultiplier)
+			println(i.." friendly ship distance retreat multiplier is "..distanceRetreatMultiplier)
 			currentShip = friendliesEndHealth[i]
 			healthRetreatMultiplier = (currentShip / enemiesEndAverageHealth - 1) / 10
 			healthRetreatMultiplier = math.clamp(healthRetreatMultiplier, -0.2, 0.2)
@@ -2310,6 +2311,8 @@ function CalcMissionStats(plDead)
 		println("updating info")
 		j = 1
 		println("friendlies end count before update is "..friendliesEndCount)
+		println("FRIENDLIES END HEALTH ARE - "..TableToString(friendliesEndHealth))
+		println("FRIENDLIES END ARE - "..TableToString(friendliesEnd))
 		while j<=getn(friendliesStart) do
 			println("updating info for "..j)
 			if friendliesEndHealth[j]==0 then
@@ -2472,7 +2475,7 @@ function CalcMissionStats(plDead)
 			friendliesEndCount = friendliesEndCount + 1 -- adds player vehicle into the friendlies count for determining whether the objective is complete, it's 30 lines below
 			println("player added to alive friendlies")
 		else
-			println("player died, was not added from alive friendlies")
+			println("player died, was not added to alive friendlies")
 		end
 	end
 	println("friendlies total ending health "..friendliesEndTotalHealth)

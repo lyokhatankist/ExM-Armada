@@ -29,7 +29,7 @@
 			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Филин»)"}
 			friendly[9] = {"CITHelicopter03_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Скиф»)"}
-			friendly[11 ] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
+			friendly[11] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}
 			enemy[2] = {"CDDestroyer01_vehicle_1", 1600, 1600, 6601, 22}
@@ -48,7 +48,7 @@
 			SetVar("MissionTime", 0)
 			SetVar("RequiredMissionTime", 400) -- mission completion time (in s) for getting bonus score
 			SetVar("BaseRetreatScore", 40) -- base retreat score that may get multiplied depending on 4 different factors
-			SetVar("RequiredRetreatScore", 45) -- retreat score that needs to be reached for each friendly unit to successfully retreat
+			SetVar("RequiredRetreatScore", 46) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 1200)
 			SetVar("PlayerVehicleHealth", 1200)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
@@ -216,6 +216,7 @@
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat02Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat03Loc" />
+		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat04Loc" />
 		<script>
 			TActivate("Retreat")
 
@@ -228,6 +229,7 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat03Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Retreat04Loc" />
 		<script>
 			UpdateUnitsStats()
 
@@ -235,11 +237,13 @@
 			if b == 1 then
 				trigger:Deactivate()
 
-				if not(IsQuestTaken("CIT_PH04_Retreat")) then
-					FailQuest("CIT_PH04")
+				if not(IsQuestTaken("CIT_PH02_Retreat")) then
+					FailQuest("CIT_PH02")
 				else
-					CompleteQuest("CIT_PH04_Retreat")
+					CompleteQuest("CIT_PH02_Retreat")
 				end
+
+				FailQuestIfTaken("CIT_PH02_DestroyDestroyers")
 
 				UpdateUnitsStats()
 
@@ -260,12 +264,16 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave03Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave04Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave05Loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Leave06Loc" />
 		<script>
-			if not(IsQuestTaken("CIT_PH04_Retreat")) then
-				FailQuest("CIT_PH04")
+			if not(IsQuestTaken("CIT_PH02_Retreat")) then
+				FailQuest("CIT_PH02")
 			else
-				CompleteQuest("CIT_PH04_Retreat")
+				CompleteQuest("CIT_PH02_Retreat")
 			end
+
+			FailQuestIfTaken("CIT_PH02_DestroyDestroyers")
 
 			UpdateUnitsStats()
 
@@ -281,10 +289,6 @@
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning01Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning02Loc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning03Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning04Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning05Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning06Loc" />
-		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Warning07Loc" />
 		<script>
 			TActivate("Warning")
 
@@ -296,10 +300,6 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning03Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning04Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning05Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning06Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Warning07Loc" />
 		<script>
 			local b = SpawnMessageBox( "1002" )
 
@@ -313,17 +313,15 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion01Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion02Loc" />
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion03Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion04Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion05Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion06Loc" />
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Desertion07Loc" />
 		<script>
-			if not(IsQuestTaken("CIT_PH04_Retreat")) then
-				FailQuest("CIT_PH04")
+			if not(IsQuestTaken("CIT_PH02_Retreat")) then
+				FailQuest("CIT_PH02")
 			else
-				FailQuest("CIT_PH04_Retreat")
-				FailQuest("CIT_PH04")
+				FailQuest("CIT_PH02_Retreat")
+				FailQuest("CIT_PH02")
 			end
+
+			FailQuestIfTaken("CIT_PH02_DestroyDestroyers")
 
 			UpdateUnitsStats(1) -- the trigger is identical to Leave, besides this (1)
 
@@ -343,13 +341,13 @@
 			-- ================
 			--  Main CIT Force
 			-- ================
-			TeamCreate("CITOldCruiser01", 1004, CVector(1061, 285, 5954), {"CITPH02_OldCruiserCIT01"})
+			TeamCreate("CITOldCruiser01", 1004, CVector(1061, 285, 5954), {"CITPH02_OCruiserCIT01"})
 			TeamCreate("CITDestroyer01", 1003, CVector(1183, 285, 5904), {"CITPH02_DestroyerCIT01", "CITPH02_DestroyerCIT02"})
 
-			TeamCreate("CITHelicopter01", 1006, CVector(7801, 285, 8004), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
-			TeamCreate("CITHelicopter01", 1006, CVector(7895, 285, 7898), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
-			TeamCreate("CITHelicopter01", 1006, CVector(8012, 285, 8053), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
-			TeamCreate("CITHelicopter01", 1006, CVector(8050, 285, 7939), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter01", 1006, CVector(6322, 285, 4783), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter02", 1006, CVector(6416, 285, 4677), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter03", 1006, CVector(6532, 285, 4832), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
+			TeamCreate("CITHelicopter04", 1006, CVector(6571, 285, 4718), {"CITPH02_HeliCIT0"..math.random(4),"CITPH02_HeliCIT0"..math.random(4)})
 
 			-- ----------------
 			-- Units parameters
@@ -391,16 +389,16 @@
 				Unit:SetExternalPathByName("StartPath_CITDestroyer01_vehicle_1")
 			end
 
-			coords = {{CVector(7801, 285, 8004), CVector(7801, 285, 8054)},
-					  {CVector(7895, 285, 7898), CVector(7923, 285, 7941)},
-					  {CVector(8012, 285, 8053), CVector(8031, 285, 8102)},
-					  {CVector(8050, 285, 7939), CVector(8082, 285, 7997)}}
+			coords = {{CVector(6322, 285, 4783), CVector(6321, 285, 4833)},
+					  {CVector(6416, 285, 4677), CVector(6443, 285, 4720)},
+					  {CVector(6532, 285, 4832), CVector(6552, 285, 4881)},
+					  {CVector(6571, 285, 4718), CVector(6603, 285, 4776)}}
 			for i=1, 4 do
 				for j=0, 1 do
 					Unit = getObj("CITHelicopter0"..i.."_vehicle_"..j)
 					if Unit then
 						Unit:SetGamePositionOnGround(coords[i][j+1])
-						Unit:SetRotation(Quaternion(0.0000, -0.8660, 0.0000, 0.5000))
+						Unit:SetRotation(Quaternion(0.0000, -0.7660, 0.0000, 0.6428))
 					end
 				end
 			end
@@ -509,7 +507,7 @@
 			if Plf then
 				Plf:SetRotation(Quaternion(0.0000, 0.9239, 0.0000, 0.3827))
 				Plf:SetExternalPathByName("StartPath_Player")
-				Plf:LimitMaxSpeed(16)
+				Plf:LimitMaxSpeed(9)
 			end
 
 			TActivate("MissionStart_End")
@@ -534,24 +532,30 @@
 			if Unit then
 				Unit:PlaceToEndOfPath("StartPath_CITOldCruiser01_vehicle_0")
 				Unit:SetExternalPathByName("CITOldCruiser01_vehicle_0_Waypoint1")
-				Unit:SetCruisingSpeed(9)
+				Unit:SetCruisingSpeed(10)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CITOldCruiser01_vehicle_0_WaypointStatus", TableToString({0, 2, 0}))
 			end
 
 			Unit = getObj("CITDestroyer01_vehicle_0")
 			if Unit then
 				Unit:PlaceToEndOfPath("StartPath_CITDestroyer01_vehicle_0")
 				Unit:SetExternalPathByName("CITDestroyer01_vehicle_0_Waypoint1")
-				Unit:SetCruisingSpeed(9)
+				Unit:SetCruisingSpeed(10)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CITDestroyer01_vehicle_0_WaypointStatus", TableToString({0, 2, 0}))
 			end
 
 			Unit = getObj("CITDestroyer01_vehicle_1")
 			if Unit then
 				Unit:PlaceToEndOfPath("StartPath_CITDestroyer01_vehicle_1")
 				Unit:SetExternalPathByName("CITDestroyer01_vehicle_1_Waypoint1")
-				Unit:SetCruisingSpeed(9)
+				Unit:SetCruisingSpeed(10)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CITDestroyer01_vehicle_1_WaypointStatus", TableToString({0, 2, 0}))
 			end	
 
 			Unit = getObj("CDDestroyer01_vehicle_0")
@@ -559,6 +563,8 @@
 				Unit:SetExternalPathByName("CDDestroyer01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDDestroyer01_vehicle_0_WaypointStatus", TableToString({0, 3, 0})) -- waypoints reached, amount of waypoints, amount of cycles with 0 speed
 			end
 
 			Unit = getObj("CDDestroyer01_vehicle_1")
@@ -566,6 +572,8 @@
 				Unit:SetExternalPathByName("CDDestroyer01_vehicle_1_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDDestroyer01_vehicle_1_WaypointStatus", TableToString({0, 3, 0}))
 			end
 
 			Unit = getObj("CDHeavyCruiser01_vehicle_0")
@@ -573,6 +581,8 @@
 				Unit:SetExternalPathByName("CDHeavyCruiser01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDHeavyCruiser01_vehicle_0_WaypointStatus", TableToString({0, 3, 0}))
 			end
 
 			Unit = getObj("CDBattleship01_vehicle_0")
@@ -580,6 +590,8 @@
 				Unit:SetExternalPathByName("CDBattleship01_vehicle_0_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDBattleship01_vehicle_0_WaypointStatus", TableToString({0, 3, 0}))
 			end
 
 			Unit = getObj("CDBattleship01_vehicle_1")
@@ -587,11 +599,14 @@
 				Unit:SetExternalPathByName("CDBattleship01_vehicle_1_Waypoint1")
 				Unit:SetCruisingSpeed(3)
 				Unit:SetCanBeDistractedFromMoving(true)
+
+				SetVar("CDBattleship01_vehicle_1_WaypointStatus", TableToString({0, 3, 0}))
 			end
 
 			TActivate("CDDestroyed")
 			TActivate("CDFormationManager")
 			TActivate("CDCriticalLosses")
+			TActivate("CDOrder")
 			TActivate("CITFormationManager")
 			TActivate("CITCriticalLosses")
 			TActivate("CITOrder")
@@ -607,70 +622,85 @@
 		</script>
 	</trigger>
 
-	<trigger Name="CDMerchantsTargetReached" active="0">
-		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant01_vehicle_0" />
-		<event eventid="GE_TARGET_REACHED" ObjName="CDMerchant02_vehicle_0" />
-		<script>
-			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
-
-			UpdateUnitsStats()
-
-			FailQuest("CIT_PH04_DestroyMerchants")
-
-			if not(IsQuestTaken("CIT_PH04_Retreat")) and not(IsQuestTaken("CIT_PH04_DestroyCruisers")) then
-				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_retreat")
-			end
-
-			if CheckUnits(Friendlies, "alive", 1) then
-				TActivate("CITRetreat")
-
-				AddFadingMsgId("fm_cit_ph04_citretreating")
-			end
-
-			TakeQuest("CIT_PH04_Retreat")
-
-			TDeactivate("CDMerchantsFormationManager")
-
-			trigger:Deactivate()
-
-		</script>
-	</trigger>
-
-	<trigger Name="CDMerchantsDestroyed" active="0">
+	<trigger Name="CDDestroyed" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant01_vehicle_0" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CDMerchant02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_1" />
 		<script>
+			local Units = 0
+			local enemiesPos = CVector(0, 285, 0)
+			local pos = CVector(0, 285, 0)
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 			local Enemies = StringToTable(GetVar("Enemies").AsString)
-			local TargetEnemies = {Enemies[3],Enemies[4]}
+			local TargetEnemies = {Enemies[1],Enemies[2]}
+			local AllEnemies = {Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5]}
 
-			if CheckUnits(TargetEnemies, "dead", 2) then
+			if not(IsQuestComplete("CIT_PH02_DestroyDestroyers")) then
+				if CheckUnits(TargetEnemies, "dead", 2) then
+					AddFadingMsgId("fm_aircraft_enroute_ally")
+
+					CompleteQuest("CIT_PH02_DestroyDestroyers")
+
+					for i=1, 5 do
+						if CheckUnits(AllEnemies[i]) then
+							pos = getObj(AllEnemies[i]):GetPosition()
+							enemiesPos.x = enemiesPos.x + pos.x
+							enemiesPos.z = enemiesPos.z + pos.z
+							Units = Units + 1
+						end
+					end
+
+					enemiesPos.x = enemiesPos.x / Units
+					enemiesPos.z = enemiesPos.z / Units
+
+					println("enemies position for CIT helis is "..enemiesPos.x..", 285, "..enemiesPos.z)
+					LOG("enemies position for CIT helis is "..enemiesPos.x..", 285, "..enemiesPos.z)
+
+					for i=1, 4 do 
+						Units = getObj("CITHelicopter0"..i)
+						if Units then
+							Units:StackOpen()
+							Units:SetDestination(enemiesPos)
+							Units:SetDestination(CVector(3612, 285, 2377))
+							Units:SetDestination(CVector(2106, 285, 7706))
+							Units:StackClose()
+						end
+					end
+
+					println("CIT helicopters are on the way")
+					LOG("CIT helicopters are on the way")
+				else
+					UpdateQuestCoordinates("CIT_PH02_DestroyDestroyers", TargetEnemies)
+				end
+			end
+
+			if CheckUnits(AllEnemies, "dead", 5) then
 				UpdateUnitsStats()
 
-				CompleteQuest("CIT_PH04_DestroyMerchants")
+				CompleteQuest("CIT_PH02_DestroyFleet")
 
-				if not(IsQuestTaken("CIT_PH04_Retreat")) then
-					AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_retreat")
+				if not(IsQuestTaken("CIT_PH02_Retreat")) then
+					AddImportantFadingMsgByStrIdFormatted("fm_cit_ph02_retreat")
 				end
 
 				if CheckUnits(Friendlies, "alive", 1) then
 					TActivate("CITRetreat")
 
-					AddFadingMsgId("fm_cit_ph04_citretreating")
+					AddFadingMsgId("fm_cit_ph02_citretreating")
 				end
 
-				TakeQuest("CIT_PH04_Retreat")
+				TakeQuest("CIT_PH02_Retreat")
 
-				TDeactivate("CDMerchantsTargetReached")
-
-				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 1150 then
 					local b = SpawnMessageBox( "1001" )
 					println("mission end 0")
 					if b == 1 then
 						trigger:Deactivate()
 
-						CompleteQuestIfTaken("CIT_PH04_Retreat")
+						CompleteQuestIfTaken("CIT_PH02_Retreat")
 
 						println("mission end 1")
 
@@ -686,209 +716,433 @@
 
 				trigger:Deactivate()
 			else
-				UpdateQuestCoordinates("CIT_PH04_DestroyMerchants", TargetEnemies)
+				UpdateQuestCoordinates("CIT_PH02_DestroyFleet", AllEnemies)
 			end
 
 		</script>
 	</trigger>
 
-	<trigger Name="CDMerchantsFormationManager" active="0">
+	<trigger Name="CDFormationManager" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDBattleship01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CDBattleship01_vehicle_1" />
 		<script>
-			local CDB01a = getObj("CDBoat01_vehicle_0")
-			local CDB01b = getObj("CDBoat01_vehicle_1")
-			local CDB01c = getObj("CDBoat01_vehicle_2")
-			local CDB02a = getObj("CDBoat02_vehicle_0")
-			local CDB02b = getObj("CDBoat02_vehicle_1")
-			local CDD01a = getObj("CDDestroyer01_vehicle_0")
-			local CDD01b = getObj("CDDestroyer01_vehicle_1")
-			local CDM01a = getObj("CDMerchant01_vehicle_0")
-			local CDM02a = getObj("CDMerchant02_vehicle_0")
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local TargetEnemies = {Enemies[1],Enemies[2],Enemies[3],Enemies[4],Enemies[5]}
+			local Unit
 
-			if CheckUnits("CDMerchant01_vehicle_0") or CheckUnits("CDMerchant02_vehicle_0") then
-				if CDB01a then
-					CDB01a:SetCruisingSpeed(3)
+			for i=1, 5 do
+				Unit = getObj(TargetEnemies[i])
+				if Unit then
+					Unit:SetCruisingSpeed(3)
 				end
+			end
 
-				if CDB01b then
-					CDB01b:SetCruisingSpeed(3)
+			-- ================ --
+			-- Waypoint Manager --
+			-- ================ --
+			local vehicles = TargetEnemies
+			local currentVehicleName -- "CDDestroyer01"
+			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
+			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
+			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksAmount = 0
+			local currentWaypoint = 0
+			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
+			local triggerObjName = trigger:GetCallObjName()
+			for i=1, getn(vehicles) do
+				currentVehicleName = vehicles[i]
+				currentVehicle = getObj(currentVehicleName)
+				if triggerObjName==currentVehicleName then
+					println("trigger object is "..currentVehicleName)
+					LOG("trigger object is "..currentVehicleName)
+					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
+					currentWaypoint = currentVehicleWaypointInfo[1] + 2
+					LOG("currentwaypoint is "..currentWaypoint)
+--					currentWaypoint = currentVehicleWaypointInfo[1] + 1
+					if currentVehicleWaypointInfo[2] >= currentWaypoint then
+						LOG("there are waypoints for "..currentVehicleName)
+						currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
+						currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+--						currentVehicleWaypointInfo[1] = currentWaypoint - 1
+--						SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+						println(currentVehicleName.." is set for a new waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+						LOG(currentVehicleName.." is set for a new waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+					else
+						LOG("maximum waypoints for "..currentVehicleName.." reached")
+						println("maximum waypoints for "..currentVehicleName.." reached")
+					end
+
+					currentWaypoint = currentWaypoint - 1
+					currentVehicleWaypointInfo[1] = currentWaypoint
+					currentVehicleWaypointInfo[3] = checksAmount
+					SetVar(currentVehicleName.."_WaypointStatus", TableToString(currentVehicleWaypointInfo))
+					println(currentVehicleName.." waypoint info updated")
+
+					break
+				elseif triggerObjName=="ThePendulum" then
+					println("trigger object is the pendulum")
+					LOG("trigger object is the pendulum")
+					-- it's pendulum that triggered the activation
+					-- check if the ships are moving
+					-- if they haven't moved for 3 cycles = set them on the current waypoint
+					for j=1, getn(vehicles) do
+						currentVehicleName = vehicles[j]
+						currentVehicle = getObj(currentVehicleName)
+						if CheckUnits(currentVehicleName) then
+							println(currentVehicleName.." exists")
+							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
+							currentWaypoint = currentVehicleWaypointInfo[1] + 1
+							if 3 > GetSpeed(currentVehicle) then
+								println(currentVehicleName.." speed is too low")
+								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
+								println("checks amount is "..checksAmount)
+								if checksAmount >= 3 then
+									println("there have been 3 checks for "..currentVehicleName)
+--									currentWaypoint = currentVehicleWaypointInfo[1] + 1
+									if currentVehicleWaypointInfo[2] >= currentWaypoint then
+										currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
+										currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+										println(currentVehicleName.." set for the current waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+										LOG(currentVehicleName.." set for the current waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+									else
+										vehicleTargetsReached = vehicleTargetsReached + 1
+										LOG("maximum waypoints for "..currentVehicleName.." reached")
+										println("maximum waypoints for "..currentVehicleName.." reached")
+									end
+								end
+							else
+								println(currentVehicleName.." speed is fine")
+								LOG(currentVehicleName.." speed is fine")
+								checksAmount = 0 -- the speed of the vehicle is okay, the checks are dropped
+							end
+
+							currentWaypoint = currentWaypoint - 1
+							currentVehicleWaypointInfo[1] = currentWaypoint
+							currentVehicleWaypointInfo[3] = checksAmount
+							SetVar(currentVehicleName.."_WaypointStatus", TableToString(currentVehicleWaypointInfo))
+							LOG(currentVehicleName.." waypoint info updated - "..TableToString(currentVehicleWaypointInfo))
+							println(currentVehicleName.." waypoint info updated - "..TableToString(currentVehicleWaypointInfo))
+--							if currentVehicleWaypointInfo[1] > currentVehicleWaypointInfo[2] then
+--								vehicleTargetsReached = vehicleTargetsReached + 1
+--							end
+						else
+							vehicleTargetsReached = vehicleTargetsReached + 1
+							LOG(currentVehicleName.." is dead")
+							println(currentVehicleName.." is dead")
+						end
+					end
+
+					break
 				end
+			end
 
-				if CDB01c then
-					CDB01c:SetCruisingSpeed(3)
-				end
-
-				if CDB02a then
-					CDB02a:SetCruisingSpeed(3)
-				end
-
-				if CDB02b then
-					CDB02b:SetCruisingSpeed(3)
-				end
-
-				if CDD01a then
-					CDD01a:SetCruisingSpeed(3)
-				end
-
-				if CDD01b then
-					CDD01b:SetCruisingSpeed(3)
-				end
-
-				if CDM01a then
-					CDM01a:SetCruisingSpeed(3)
-				end
-
-				if CDM02a then
-					CDM02a:SetCruisingSpeed(3)
-				end
-			else
-				if CDB01a then
-					CDB01a:SetCruisingSpeed(40)
-				end
-
-				if CDB01b then
-					CDB01b:SetCruisingSpeed(40)
-				end
-
-				if CDB01c then
-					CDB01c:SetCruisingSpeed(40)
-				end
-
-				if CDB02a then
-					CDB02a:SetCruisingSpeed(40)
-				end
-
-				if CDB02b then
-					CDB02b:SetCruisingSpeed(40)
-				end
-
-				if CDD01a then
-					CDD01a:SetCruisingSpeed(40)
-				end
-
-				if CDD01b then
-					CDD01b:SetCruisingSpeed(40)
-				end
-
-				LOG("CD MERCHANT FORMATION MANAGER DISABLED BY ITSELF")
-
+			LOG("vehicleTargetReached is "..vehicleTargetsReached)
+			if vehicleTargetsReached>=getn(vehicles) then
+				println("all vehicles reached their targets")
+				LOG("ALL CD REACHED THE TARGET")
 				trigger:Deactivate()
 			end
 
 		</script>
 	</trigger>
 
-	<trigger Name="CDBoatsTargetReached" active="0">
-		<event eventid="GE_TARGET_REACHED" ObjName="CDBoat01_vehicle_2" />
-		<event eventid="GE_TARGET_REACHED" ObjName="CDBoat02_vehicle_1" />
+	<trigger Name="CDCriticalLosses" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_1" />
+		<script>
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
+			local EnemiesHealth = StringToTable(GetVar("EnemiesEndHealth").AsString)
+			local TargetEnemies = {}
+			local TotalHealth = 0
+			for i=1, 5 do
+				TargetEnemies[i] = Enemies[i]
+				TotalHealth = TotalHealth + EnemiesHealth[i]
+				LOG("TargetEnemies "..TableToString(TargetEnemies))
+				LOG("Enemies Total Health "..TotalHealth)
+			end
+
+			local triggerObjName = trigger:GetCallObjName()
+			if triggerObjName~="ThePendulum" then
+				UpdateUnitsStats()
+			end
+
+			if CheckUnits(TargetEnemies, "dead", (getn(TargetEnemies) - 1)) or 5000 >= TotalHealth then
+				AddFadingMsgId("fm_critical_loss_foe")
+
+				TDeactivate("CDFormationManager")
+				TActivate("CDRetreat")
+
+				trigger:Deactivate()
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="CDRetreat" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<script>
 			local Unit
+			local Enemies = StringToTable(GetVar("Enemies").AsString)
 
-			UpdateUnitsStats()
+			TDeactivate("CDFormationManager")
 
-			Unit = getObj("CDBoat01_vehicle_0")
+			Unit = getObj("CDDestroyer01")
 			if Unit then
-				Unit:SetExternalPathByName("CDBoat01_Waypoint2")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
+				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				Unit:_AdjustBehaviour ()
+			end
+			Unit = getObj("CDHeavyCruiser01")
+			if Unit then
+				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				Unit:_AdjustBehaviour ()
+			end
+			Unit = getObj("CDBattleship01")
+			if Unit then
+				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+				Unit:_AdjustBehaviour ()
 			end
 
-			Unit = getObj("CDBoat01_vehicle_1")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat02_Waypoint2")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
+			for i=1,5 do
+				Unit = getObj(Enemies[i])
+				if Unit then
+					Unit:SetExternalPathByName("CDRetreatDirection_"..i)
+					Unit:SetCruisingSpeed(40)
+					if i>=4 then
+						Unit:SetCanBeDistractedFromMoving(true)
+					else
+						Unit:SetCanBeDistractedFromMoving(false)
+					end
+				end
 			end
 
-			Unit = getObj("CDBoat01_vehicle_2")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat03_Waypoint2")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat02_vehicle_0")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat04_Waypoint2")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
-
-			Unit = getObj("CDBoat02_vehicle_1")
-			if Unit then
-				Unit:SetExternalPathByName("CDBoat05_Waypoint2")
-				Unit:SetCruisingSpeed(3)
-				Unit:SetCanBeDistractedFromMoving(true)
-			end
+			AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_foe")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="CITOrder" active="0">
-		<event eventid="GE_UNDER_ATTACK" ObjName="CDMerchant01_vehicle_0" />
-		<event eventid="GE_UNDER_ATTACK" ObjName="CDMerchant02_vehicle_0" />
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_0" />
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_1" />
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat01_vehicle_0" />
-		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBoat02_vehicle_0" />
+	<trigger Name="CDOrder" active="0">
+<!--		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITDestroyer01_vehicle_1" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CITOldCruiser01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer01_vehicle_1" /> -->
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITOldCruiser01_vehicle_0" />
 		<script>
-			local Units
-			local MerchantsPos
+			local Units = 0
+			local friendliesPos = CVector(0, 285, 0)
+			local pos = CVector(0, 285, 0)
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local TargetFriendlies = {Friendlies[1],Friendlies[2],Friendlies[3]}
 
-			if CheckUnits("CDMerchant01_vehicle_0") then
-				MerchantsPos = getObj("CDMerchant01_vehicle_0"):GetPosition()
-			elseif CheckUnits("CDMerchant02_vehicle_0") then
-				MerchantsPos = getObj("CDMerchant02_vehicle_0"):GetPosition()
-			else
-				MerchantsPos = CVector(4385, 255, 4175)
+			for i=1, 3 do
+				if CheckUnits(TargetFriendlies[i]) then
+					pos = getObj(TargetFriendlies[i]):GetPosition()
+					friendliesPos.x = friendliesPos.x + pos.x
+					friendliesPos.z = friendliesPos.z + pos.z
+					Units = Units + 1
+				end
 			end
 
-			UpdateUnitsStats()
+			friendliesPos.x = friendliesPos.x / Units
+			friendliesPos.z = friendliesPos.z / Units
 
-			Units = getObj("CITTorpedoBoat01")
-			if Units then
-				Units:StackOpen()
-				Units:SetDestination(MerchantsPos)
-				Units:SetDestination(CVector(3273, 255, 2139))
-				Units:StackClose()
+			println("enemies position for CD helis is "..friendliesPos.x..", 285, "..friendliesPos.z)
+			LOG("enemies position for CD helis is "..friendliesPos.x..", 285, "..friendliesPos.z)
+
+			for i=1, 2 do 
+				Units = getObj("CDHelicopter0"..i)
+				if Units then
+					Units:StackOpen()
+					Units:SetDestination(friendliesPos)
+					Units:SetDestination(CVector(2106, 285, 7706))
+					Units:SetDestination(CVector(3612, 285, 2377))
+					Units:StackClose()
+				end
 			end
 
-			Units = getObj("CITTorpedoBoat02")
-			if Units then
-				Units:StackOpen()
-				Units:SetDestination(MerchantsPos)
-				Units:SetDestination(CVector(3273, 255, 2139))
-				Units:StackClose()
-			end
+			println("CD helicopters are on the way")
+			LOG("CD helicopters are on the way")
 
-			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_order")
+			AddFadingMsgId("fm_aircraft_enroute_foe")
 
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITFormationManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CITDestroyer01_vehicle_1" />
+		<event eventid="GE_TARGET_REACHED" ObjName="CITOldCruiser01_vehicle_0" />
+		<script>
+			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local TargetFriendlies = {Friendlies[1],Friendlies[2],Friendlies[3]}
+			local Unit
+
+			for i=1, 3 do
+				Unit = getObj(TargetFriendlies[i])
+				if Unit then
+					Unit:SetCruisingSpeed(10)
+				end
+			end
+
+			-- ================ --
+			-- Waypoint Manager --
+			-- ================ --
+			local vehicles = TargetFriendlies
+			local currentVehicleName -- "CDDestroyer01"
+			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
+			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
+			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksAmount = 0
+			local currentWaypoint = 0
+			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
+			local triggerObjName = trigger:GetCallObjName()
+			for i=1, getn(vehicles) do
+				currentVehicleName = vehicles[i]
+				currentVehicle = getObj(currentVehicleName)
+				if triggerObjName==currentVehicleName then
+					println("trigger object is "..currentVehicleName)
+					LOG("trigger object is "..currentVehicleName)
+					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
+					currentWaypoint = currentVehicleWaypointInfo[1] + 2
+					LOG("currentwaypoint is "..currentWaypoint)
+--					currentWaypoint = currentVehicleWaypointInfo[1] + 1
+					if currentVehicleWaypointInfo[2] >= currentWaypoint then
+						LOG("there are waypoints for "..currentVehicleName)
+						currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
+						currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+--						currentVehicleWaypointInfo[1] = currentWaypoint - 1
+--						SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
+						println(currentVehicleName.." is set for a new waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+						LOG(currentVehicleName.." is set for a new waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+					else
+						LOG("maximum waypoints for "..currentVehicleName.." reached")
+						println("maximum waypoints for "..currentVehicleName.." reached")
+					end
+
+					currentWaypoint = currentWaypoint - 1
+					currentVehicleWaypointInfo[1] = currentWaypoint
+					currentVehicleWaypointInfo[3] = checksAmount
+					SetVar(currentVehicleName.."_WaypointStatus", TableToString(currentVehicleWaypointInfo))
+					println(currentVehicleName.." waypoint info updated")
+
+					break
+				elseif triggerObjName=="ThePendulum" then
+					println("trigger object is the pendulum")
+					LOG("trigger object is the pendulum")
+					-- it's pendulum that triggered the activation
+					-- check if the ships are moving
+					-- if they haven't moved for 3 cycles = set them on the current waypoint
+					for j=1, getn(vehicles) do
+						currentVehicleName = vehicles[j]
+						currentVehicle = getObj(currentVehicleName)
+						if CheckUnits(currentVehicleName) then
+							println(currentVehicleName.." exists")
+							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
+							currentWaypoint = currentVehicleWaypointInfo[1] + 1
+							if 3 > GetSpeed(currentVehicle) then
+								println(currentVehicleName.." speed is too low")
+								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
+								println("checks amount is "..checksAmount)
+								if checksAmount >= 3 then
+									println("there have been 3 checks for "..currentVehicleName)
+--									currentWaypoint = currentVehicleWaypointInfo[1] + 1
+									if currentVehicleWaypointInfo[2] >= currentWaypoint then
+										currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
+										currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
+										println(currentVehicleName.." set for the current waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+										LOG(currentVehicleName.." set for the current waypoint - "..currentVehicleName.."_Waypoint"..currentWaypoint)
+									else
+										vehicleTargetsReached = vehicleTargetsReached + 1
+										LOG("maximum waypoints for "..currentVehicleName.." reached")
+										println("maximum waypoints for "..currentVehicleName.." reached")
+									end
+								end
+							else
+								println(currentVehicleName.." speed is fine")
+								LOG(currentVehicleName.." speed is fine")
+								checksAmount = 0 -- the speed of the vehicle is okay, the checks are dropped
+							end
+
+							currentWaypoint = currentWaypoint - 1
+							currentVehicleWaypointInfo[1] = currentWaypoint
+							currentVehicleWaypointInfo[3] = checksAmount
+							SetVar(currentVehicleName.."_WaypointStatus", TableToString(currentVehicleWaypointInfo))
+							LOG(currentVehicleName.." waypoint info updated - "..TableToString(currentVehicleWaypointInfo))
+							println(currentVehicleName.." waypoint info updated - "..TableToString(currentVehicleWaypointInfo))
+--							if currentVehicleWaypointInfo[1] > currentVehicleWaypointInfo[2] then
+--								vehicleTargetsReached = vehicleTargetsReached + 1
+--							end
+						else
+							vehicleTargetsReached = vehicleTargetsReached + 1
+							LOG(currentVehicleName.." is dead")
+							println(currentVehicleName.." is dead")
+						end
+					end
+
+					break
+				end
+			end
+
+			LOG("vehicleTargetReached is "..vehicleTargetsReached)
+			if vehicleTargetsReached>=getn(vehicles) then
+				println("all vehicles reached their targets")
+				LOG("ALL CIT REACHED THE TARGET")
+				trigger:Deactivate()
+			end
+
 		</script>
 	</trigger>
 
 	<trigger Name="CITCriticalLosses" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_0" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat01_vehicle_1" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITTorpedoBoat02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITOldCruiser01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITDestroyer01_vehicle_1" />
 		<script>
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 			local FriendliesHealth = StringToTable(GetVar("FriendliesEndHealth").AsString)
 			local PlayerHealth = StringToTable(GetVar("PlayerEndHealth").AsString)
 			local TotalHealth = FriendliesHealth[1] + FriendliesHealth[2] + FriendliesHealth[3] + PlayerHealth
 
-			if CheckUnits(Friendlies, "dead", 2) or 48 >= TotalHealth then
-				UpdateUnitsStats()
-				
+			UpdateUnitsStats()
+
+			if CheckUnits(Friendlies, "dead", 2) or 1200 >= TotalHealth then			
 				AddFadingMsgId("fm_critical_loss_ally")
 
+				TDeactivate("CITFormationManager")
 				TActivate("CITRetreat")
 
 				trigger:Deactivate()
 			end
 			
+		</script>
+	</trigger>
+
+	<trigger Name="CITOrder" active="0">
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDDestroyer01_vehicle_1" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDHeavyCruiser01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBattleship01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CDBattleship01_vehicle_1" />
+		<script>
+			TakeQuest("CIT_PH02_DestroyDestroyers")
+
+			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph02_destroyers")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -898,12 +1152,14 @@
 			local Unit
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
 
-			Unit = getObj("CITTorpedoBoat01")
+			TDeactivate("CITFormationManager")
+
+			Unit = getObj("CITDestroyer01")
 			if Unit then
 				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
 				Unit:_AdjustBehaviour ()
 			end
-			Unit = getObj("CITTorpedoBoat02")
+			Unit = getObj("CITOldCruiser01")
 			if Unit then
 				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
 				Unit:_AdjustBehaviour ()
@@ -913,8 +1169,12 @@
 				Unit = getObj(Friendlies[i])
 				if Unit then
 					Unit:SetExternalPathByName("CITRetreatDirection_"..i)
-					Unit:SetCanBeDistractedFromMoving(false)
 					Unit:SetCruisingSpeed(40)
+					if i~=1 then
+						Unit:SetCanBeDistractedFromMoving(false)
+					else
+						Unit:SetCanBeDistractedFromMoving(true)
+					end
 				end
 			end
 
