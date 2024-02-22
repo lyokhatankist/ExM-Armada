@@ -38,7 +38,7 @@
 
 		TurningSpeed	= "90"
 		Durability		= "5" 
-		Price			= "32900" />
+		Price			= "475" />
 
 	<Prototype
         Class			= "RocketLauncher"
@@ -73,7 +73,7 @@
 
 		TurningSpeed	= "40"
 		Durability		= "3"
-		Price			= "9870" />
+		Price			= "1350" />
 
 <!-- coastal artillery -->
 	<Prototype
@@ -109,7 +109,7 @@
 
 		TurningSpeed	= "40"
 		Durability		= "3"
-		Price			= "9870" />
+		Price			= "1700" />
 
 
 
@@ -154,7 +154,7 @@
 
 		TurningSpeed		= "50"
 		Durability			= "2"
-		Price				= "53408" />
+		Price				= "1375" />
 
 	<Prototype
 		Class			= "MortarShell"
@@ -212,7 +212,7 @@
 
 		TurningSpeed		= "0"
 		Durability			= "6"
-		Price				= "53408" />
+		Price				= "1450" />
  
 	<Prototype
 		Class					= "Rocket"
@@ -260,7 +260,7 @@
 
 		TurningSpeed	= "95"
 		Durability		= "4" 
-		Price			= "32900" />
+		Price			= "200" />
 
 
 
@@ -305,7 +305,7 @@
 
 		TurningSpeed		= "30"
 		Durability			= "10"
-		Price				= "53408" />
+		Price				= "4500" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -359,7 +359,7 @@
 
 		TurningSpeed		= "35"
 		Durability			= "10"
-		Price				= "53408" />
+		Price				= "6750" />
 
 
 <!-- SINGLE 130 MM CIT DESTROYER GUN -->
@@ -395,7 +395,7 @@
 
 		TurningSpeed	= "65"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -441,7 +441,7 @@
 
 		TurningSpeed	= "65"
 		Durability		= "9"
-		Price			= "13310" />
+		Price			= "2375" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -475,7 +475,7 @@
 
 		TurningSpeed	= "65"
 		Durability		= "9"
-		Price			= "13310" />
+		Price			= "2600" />
 
 
 <!-- SINGLE 138 MM CIT DESTROYER GUN -->
@@ -511,7 +511,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -557,7 +557,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "3400" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -591,7 +591,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "3700" />
 
 
 
@@ -635,7 +635,7 @@
 
 		TurningSpeed		= "5"
 		Durability			= "12"
-		Price				= "53408" />
+		Price				= "4000" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -688,7 +688,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -734,7 +734,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "2200" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -768,7 +768,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "2400" />
 
 
 <!-- TWIN 135 MM CD DESTROYER GUN -->
@@ -804,7 +804,7 @@
 
 		TurningSpeed	= "55"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -850,7 +850,7 @@
 
 		TurningSpeed	= "55"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "3800" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -884,7 +884,7 @@
 
 		TurningSpeed	= "55"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "4200" />
 
 
 
@@ -929,7 +929,7 @@
 
 		TurningSpeed		= "0"
 		Durability			= "15"
-		Price				= "53408" />
+		Price				= "1200" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -984,7 +984,7 @@
 
 		TurningSpeed	= "40"
 		Durability		= "9"
-		Price			= "13310" />
+		Price			= "50" />
 
 
 <!-- TWIN 152 MM CIT CRUISER GUN -->
@@ -1020,7 +1020,7 @@
 
 		TurningSpeed	= "45"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1066,7 +1066,7 @@
 
 		TurningSpeed	= "45"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "4700" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1100,7 +1100,7 @@
 
 		TurningSpeed	= "45"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "5200" />
 
 
 <!-- TRIPLE 155 MM CIT CRUISER GUN -->
@@ -1136,7 +1136,7 @@
 
 		TurningSpeed	= "38"
 		Durability		= "12"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1182,7 +1182,7 @@
 
 		TurningSpeed	= "38"
 		Durability		= "12"
-		Price			= "13310" />
+		Price			= "7250" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1216,7 +1216,7 @@
 
 		TurningSpeed	= "38"
 		Durability		= "12"
-		Price			= "13310" />
+		Price			= "8000" />
 
 
 
@@ -1258,7 +1258,7 @@
 
 		TurningSpeed	= "26"
 		Durability		= "16"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1304,7 +1304,7 @@
 
 		TurningSpeed	= "26"
 		Durability		= "16"
-		Price			= "13310" />
+		Price			= "7750" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1338,7 +1338,7 @@
 
 		TurningSpeed	= "26"
 		Durability		= "16"
-		Price			= "13310" />
+		Price			= "8500" />
 
 <!-- coastal artillery -->
  <Prototype
@@ -1373,7 +1373,7 @@
 
 		TurningSpeed	= "26"
 		Durability		= "16"
-		Price			= "13310" />
+		Price			= "10000" />
 
 
 
@@ -1418,7 +1418,7 @@
 
 		TurningSpeed		= "0"
 		Durability			= "20"
-		Price				= "53408" />
+		Price				= "2150" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -1471,7 +1471,7 @@
 
 		TurningSpeed	= "28"
 		Durability		= "14"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1517,7 +1517,7 @@
 
 		TurningSpeed	= "28"
 		Durability		= "14"
-		Price			= "13310" />
+		Price			= "7800" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1551,7 +1551,7 @@
 
 		TurningSpeed	= "28"
 		Durability		= "14"
-		Price			= "13310" />
+		Price			= "8600" />
 
 <!-- coastal artillery -->
 	<Prototype
@@ -1586,7 +1586,7 @@
 
 		TurningSpeed	= "28"
 		Durability		= "14"
-		Price			= "13310" />
+		Price			= "9500" />
 
 
 <!-- CD CRUISER CRUISE MISSILE LAUNCHER -->
@@ -1627,7 +1627,7 @@
 
 		TurningSpeed		= "0"
 		Durability			= "4"
-		Price				= "53408" />
+		Price				= "135000" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -1684,7 +1684,7 @@
 
 		TurningSpeed		= "30"
 		Durability			= "8"
-		Price				= "53408" />
+		Price				= "5850" />
 
 	<Prototype
 		Class					= "Rocket"
@@ -1743,7 +1743,7 @@
 
 		TurningSpeed	= "12"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1789,7 +1789,7 @@
 
 		TurningSpeed	= "12"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "28000" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1823,7 +1823,7 @@
 
 		TurningSpeed	= "12"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "31000" />
 
 
 <!-- QUADRUPLE 380 MM CIT BATLLESHIP GUN -->
@@ -1859,7 +1859,7 @@
 
 		TurningSpeed	= "10"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -1905,7 +1905,7 @@
 
 		TurningSpeed	= "10"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "29000" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -1939,7 +1939,7 @@
 
 		TurningSpeed	= "10"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "32000" />
 
 
 <!-- TRIPLE 457 MM CIT BATLLESHIP GUN -->
@@ -1975,7 +1975,7 @@
 
 		TurningSpeed	= "9"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -2021,7 +2021,7 @@
 
 		TurningSpeed	= "9"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "37000" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -2055,7 +2055,7 @@
 
 		TurningSpeed	= "9"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "41000" />
 
 
 <!-- TWIN 130 MM CIT DESTROYER GUN -->
@@ -2091,7 +2091,7 @@
 
 		TurningSpeed	= "65"
 		Durability		= "8"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -2125,7 +2125,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "4100" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -2159,7 +2159,7 @@
 
 		TurningSpeed	= "60"
 		Durability		= "10"
-		Price			= "13310" />
+		Price			= "4500" />
 
 
 
@@ -2199,7 +2199,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "19"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -2245,7 +2245,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "19"
-		Price			= "13310" />
+		Price			= "12500" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -2279,7 +2279,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "19"
-		Price			= "13310" />
+		Price			= "14000" />
 
 
 
@@ -2315,7 +2315,7 @@
 		
 		TurningSpeed	= "15"
 		Durability		= "19" 
-		Price			= "32900" />
+		Price			= "50" />
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -2347,7 +2347,7 @@
 		
 		TurningSpeed	= "15"
 		Durability		= "19" 
-		Price			= "32900" />
+		Price			= "5650" />
 
 	<Prototype
 		Class			= "Rocket"
@@ -2399,7 +2399,7 @@
 
 		TurningSpeed	= "13"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "50" />
 
 	<Prototype
 		Class					= "MortarShell"
@@ -2445,7 +2445,7 @@
 
 		TurningSpeed	= "13"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "21500" />
 
 	<Prototype
 		Class			= "Mortar"
@@ -2479,7 +2479,7 @@
 
 		TurningSpeed	= "13"
 		Durability		= "21"
-		Price			= "13310" />
+		Price			= "23750" />
 
 
 <!-- |||||||||||||||| CIT LAV |||||||||||||||| -->
@@ -2514,7 +2514,7 @@
 
 		TurningSpeed	= "95"
 		Durability		= "3" 
-		Price			= "32900" />
+		Price			= "200" />
 
 
 <!-- |||||||||||||||| CD LAV |||||||||||||||| -->
@@ -2549,5 +2549,5 @@
 
 		TurningSpeed	= "110"
 		Durability		= "3" 
-		Price			= "32900" />
+		Price			= "185" />
 </Prototypes>

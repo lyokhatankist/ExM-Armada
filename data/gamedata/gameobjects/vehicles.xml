@@ -471,7 +471,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<PartDescription	id = "BASKET"					partResourceType = "FASTBOATCIT_BASKET"	lpName = "LP_CAB01" >
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_1"	partResourceType = "SMLANTIAIR_GUN"			lpName = "LP_FLYGUN01" />
 				<PartDescription	id = "BASKET_SPECIAL_WEAPON_2"	partResourceType = "FASTBOATCITANTIAIR_GUN"	lpName = "LP_FLYGUN02" />
-				<PartDescription	id = "BASKET_SIDE_GUN_1"		partResourceType = "FASTBOATCITTORPEDO_GUN"	lpName = "LP_GIANT01" />
+				<PartDescription	id = "BASKET_GIANT_GUN_20"		partResourceType = "FASTBOATCITTORPEDO_GUN"	lpName = "LP_GIANT01" />
 			</PartDescription>
 		</MainPartDescription>
  
@@ -497,7 +497,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -2247,7 +2247,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3158,7 +3158,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "CABIN"						Prototype = "fastboatCITEngine" />
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3174,7 +3174,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3191,7 +3191,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 <!-- 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" /> -->
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3207,7 +3207,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3419,7 +3419,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITMachinegun01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3434,7 +3434,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" />
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
@@ -3800,7 +3800,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 			<Part id = "BASKET"						Prototype = "fastboatCITArmanent" />
 <!-- 			<Part id = "BASKET_SPECIAL_WEAPON_1"	Prototype = "smlboatCITRocket01" /> -->
 			<Part id = "BASKET_SPECIAL_WEAPON_2"	Prototype = "fastboatCITMachinegun01" />
-			<Part id = "BASKET_SIDE_GUN_1"			Prototype = "fastboatCITTorpedo01" />
+			<Part id = "BASKET_GIANT_GUN_20"		Prototype = "fastboatCITTorpedo01" />
 		</Parts>
 	</Prototype>
 
