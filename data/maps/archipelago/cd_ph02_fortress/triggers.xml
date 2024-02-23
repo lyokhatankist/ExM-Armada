@@ -735,21 +735,15 @@
 	<trigger Name="CITTurretsDestroyed" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun06" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun07" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun08" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun09" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun10" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun11" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun12" />
 		<script>
@@ -849,14 +843,10 @@
 		<event eventid="GE_UNDER_ATTACK" ObjName="CITOldCruiser01_vehicle_0" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun07" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun08" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun09" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun10" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun11" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun12" />
 		<script>
@@ -902,9 +892,7 @@
 	<trigger Name="CITReserves" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun06" />
 		<script>

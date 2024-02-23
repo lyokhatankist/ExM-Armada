@@ -6,16 +6,16 @@
 			local Width = 6 -- width of the vessel
 			local Height = 3 -- height of the vessel
 			local SinkingSpeed = 1500 -- (set to lower numbers for bigger ships)
-			local EffectsAmount = 14 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local EffectsAmount = 16 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
+				"ET_PS_SMLBLAST_HEVEHICLEEXPLOSION",
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
-				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",
-				"ET_PS_SMLBLAST_HEVEHICLEEXPLOSION"
+				"ET_PS_MEDBLAST_HESTATICSEXPLOSION",
+				"ET_PS_MEDBLAST_HEVEHICLEEXPLOSION"
 				}
 			local PossibleEffects_II = {
-				"ET_PS_AUTOCANNONWATERSPLASH",
-				"ET_PS_SMLBLAST_APWATERSPLASH",
-				"ET_PS_SMLBLAST_HEWATERSPLASH"
+				"ET_PS_SMLBLAST_HEWATERSPLASH",
+				"ET_PS_MEDBLAST_APWATERSPLASH"
 				}
 
 			ChangeSide("neutral")
@@ -34,7 +34,7 @@
 				mover:SetObjAndPath( PlfID, "DeathPath01", SinkingSpeed )
 			end
 
-			FlyAround(2, 0.1, (25 + Width), 6, PlfCoor, PlfID, 0, 1)
+			FlyAround(2, 0.1, (25 + Width*Width/4), 6, PlfCoor, PlfID, 0, 1)
 			StartCinematic()
 
 			SetVar("DeathAnimWidth", Width)
@@ -63,7 +63,7 @@
 			local Plf = GetPlayerVehicle()
 			local PlfCoor = Plf:GetPosition()
 			PlfCoor.x = PlfCoor.x - math.random(Width) + math.random(Width)
-			PlfCoor.y = PlfCoor.y - math.random(Height) + math.random(Height)
+			PlfCoor.y = PlfCoor.y - math.random(Height)/4 + math.random(Height)
 			PlfCoor.z = PlfCoor.z - math.random(Width) + math.random(Width)
 			
 			CreateEffectTTLed(PossibleEffects[exrandom(getn(PossibleEffects))], PlfCoor, Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)

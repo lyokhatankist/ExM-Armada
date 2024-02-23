@@ -3,10 +3,10 @@
     <trigger Name="PlayerDead" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="MyCar" />
 		<script>
-			local Width = 2 -- width of the vessel
+			local Width = 3 -- width of the vessel
 			local Height = 1 -- height of the vessel
-			local SinkingSpeed = 2000 -- (set to lower numbers for bigger ships)
-			local EffectsAmount = 4 -- amount of effects for each stage (set to the higher numbers for bigger ships)
+			local SinkingSpeed = 1900 -- (set to lower numbers for bigger ships)
+			local EffectsAmount = 6 -- amount of effects for each stage (set to the higher numbers for bigger ships)
 			local PossibleEffects = {
 				"ET_PS_SMLBLAST_APVEHICLEEXPLOSION",
 				"ET_PS_SMLBLAST_HESTATICSEXPLOSION",
@@ -34,7 +34,7 @@
 				mover:SetObjAndPath( PlfID, "DeathPath01", SinkingSpeed )
 			end
 
-			FlyAround(2, 0.1, (25 + Width), 6, PlfCoor, PlfID, 0, 1)
+			FlyAround(2, 0.1, (25 + Width*Width/4), 6, PlfCoor, PlfID, 0, 1)
 			StartCinematic()
 
 			SetVar("DeathAnimWidth", Width)
@@ -63,7 +63,7 @@
 			local Plf = GetPlayerVehicle()
 			local PlfCoor = Plf:GetPosition()
 			PlfCoor.x = PlfCoor.x - math.random(Width) + math.random(Width)
-			PlfCoor.y = PlfCoor.y - math.random(Height) + math.random(Height)
+			PlfCoor.y = PlfCoor.y - math.random(Height)/4 + math.random(Height)
 			PlfCoor.z = PlfCoor.z - math.random(Width) + math.random(Width)
 			
 			CreateEffectTTLed(PossibleEffects[exrandom(getn(PossibleEffects))], PlfCoor, Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
