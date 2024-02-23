@@ -17,7 +17,7 @@
 
 		BulletPrototype		= "47mmAAshell"
 		ExplosionType		= "AUTOCANNON"
-		FiringType			= "Plasma"
+		FiringType			= "Nail"
 		RecoilForce			= "50"
 		
 		BlastWavePrototype	= "47mmBlastWave"
@@ -197,7 +197,7 @@
 
 		BulletPrototype		= "dot_47mmAAshell"
 		ExplosionType		= "AUTOCANNON"
-		FiringType			= "Plasma"
+		FiringType			= "Nail"
 		RecoilForce			= "50"
 		
 		BlastWavePrototype	= "47mmBlastWave"
@@ -385,7 +385,7 @@
 		
 		BulletPrototype		= "nurs01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Nail"
 
 		FiringRate		= "0"
 		ChargeSize		= "0"
@@ -439,7 +439,7 @@
 
 		BulletPrototype		= "nurs01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Artillery"
 		RecoilForce			= "1200"
 
 		DamageType			= "ENERGY"
@@ -545,7 +545,7 @@
 		
 		BulletPrototype		= "naga01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Nail"
 
 		FiringRate		= "0"
 		ChargeSize		= "0"

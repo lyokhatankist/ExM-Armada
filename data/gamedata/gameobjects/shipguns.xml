@@ -192,7 +192,7 @@
 		
 		BulletPrototype		= "torpedo01"
 		ExplosionType		= "MEDBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -285,7 +285,7 @@
 		
 		BulletPrototype		= "torpedo02"
 		ExplosionType		= "MEDBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -339,7 +339,7 @@
 		
 		BulletPrototype		= "torpedo02"
 		ExplosionType		= "MEDBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -377,7 +377,7 @@
 
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -423,7 +423,7 @@
 		
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -457,7 +457,7 @@
 		
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -493,7 +493,7 @@
 
 		BulletPrototype		= "138mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -539,7 +539,7 @@
 		
 		BulletPrototype		= "138mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -573,7 +573,7 @@
 		
 		BulletPrototype		= "138mmCITshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -615,7 +615,7 @@
 		
 		BulletPrototype		= "torpedo03"
 		ExplosionType		= "BIGBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -670,7 +670,7 @@
 
 		BulletPrototype		= "127mmCDshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -716,7 +716,7 @@
 		
 		BulletPrototype		= "127mmCDshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -750,7 +750,7 @@
 		
 		BulletPrototype		= "127mmCDshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -786,7 +786,7 @@
 
 		BulletPrototype		= "135mmCDshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -832,7 +832,7 @@
 		
 		BulletPrototype		= "135mmCDshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -866,7 +866,7 @@
 		
 		BulletPrototype		= "135mmCDshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "375"
 
 		DamageType			= "PIERCING"
@@ -909,7 +909,7 @@
 		
 		BulletPrototype		= "torpedo04"
 		ExplosionType		= "MEDBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -966,7 +966,7 @@
 
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1002,7 +1002,7 @@
 
 		BulletPrototype		= "152mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1048,7 +1048,7 @@
 		
 		BulletPrototype		= "152mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1082,7 +1082,7 @@
 		
 		BulletPrototype		= "152mmCITshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -1118,7 +1118,7 @@
 
 		BulletPrototype		= "155mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -1164,7 +1164,7 @@
 		
 		BulletPrototype		= "155mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -1198,7 +1198,7 @@
 		
 		BulletPrototype		= "155mmCITshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Cannon"
 		RecoilForce			= "375"
 
 		DamageType			= "PIERCING"
@@ -1240,7 +1240,7 @@
 
 		BulletPrototype		= "152mmCITshell2"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -1286,7 +1286,7 @@
 		
 		BulletPrototype		= "152mmCITshell2"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "375"
 
 		DamageType			= "ENERGY"
@@ -1320,7 +1320,7 @@
 		
 		BulletPrototype		= "152mmCITshell2"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "375"
 
 		DamageType			= "PIERCING"
@@ -1355,7 +1355,7 @@
 		
 		BulletPrototype		= "152mmCITshell2"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "375"
 
 		DamageType			= "PIERCING"
@@ -1398,7 +1398,7 @@
 		
 		BulletPrototype		= "torpedo05"
 		ExplosionType		= "MEDBLAST_AP"
-		FiringType			= "Rocket"
+		FiringType			= "Mine"
 		RecoilForce			= "1"
 
 		DamageType			= "PIERCING"
@@ -1453,7 +1453,7 @@
 
 		BulletPrototype		= "203mmCDshell"
 		ExplosionType		= "MEDBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1499,7 +1499,7 @@
 		
 		BulletPrototype		= "203mmCDshell"
 		ExplosionType		= "MEDBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1533,7 +1533,7 @@
 		
 		BulletPrototype		= "203mmCDshell"
 		ExplosionType		= "MEDBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -1568,7 +1568,7 @@
 		
 		BulletPrototype		= "203mmCDshell"
 		ExplosionType		= "MEDBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Laser"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -1725,7 +1725,7 @@
 
 		BulletPrototype		= "406mmCITshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1771,7 +1771,7 @@
 		
 		BulletPrototype		= "406mmCITshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1805,7 +1805,7 @@
 		
 		BulletPrototype		= "406mmCITshell"
 		ExplosionType		= "BIGBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -1841,7 +1841,7 @@
 
 		BulletPrototype		= "380mmCITshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1887,7 +1887,7 @@
 		
 		BulletPrototype		= "380mmCITshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -1921,7 +1921,7 @@
 		
 		BulletPrototype		= "380mmCITshell"
 		ExplosionType		= "BIGBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -1957,7 +1957,7 @@
 
 		BulletPrototype		= "457mmCITshell"
 		ExplosionType		= "GNTBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2003,7 +2003,7 @@
 		
 		BulletPrototype		= "457mmCITshell"
 		ExplosionType		= "GNTBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2037,7 +2037,7 @@
 		
 		BulletPrototype		= "457mmCITshell"
 		ExplosionType		= "GNTBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -2073,7 +2073,7 @@
 
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2107,7 +2107,7 @@
 		
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2141,7 +2141,7 @@
 		
 		BulletPrototype		= "130mmCITshell"
 		ExplosionType		= "SMLBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "ShotGun"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -2181,7 +2181,7 @@
 
 		BulletPrototype		= "356mmCDshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2227,7 +2227,7 @@
 		
 		BulletPrototype		= "356mmCDshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2261,7 +2261,7 @@
 		
 		BulletPrototype		= "356mmCDshell"
 		ExplosionType		= "BIGBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"
@@ -2300,7 +2300,7 @@
 
 		BulletPrototype		= "356mmAACDshell"
 		ExplosionType		= "MACHINEGUN"
-		FiringType			= "Artillery"
+		FiringType			= "Plasma"
 		RecoilForce			= "50"
 
 		DamageType			= "BLAST"
@@ -2331,7 +2331,7 @@
 
 		BulletPrototype		= "356mmAACDshell"
 		ExplosionType		= "MACHINEGUN"
-		FiringType			= "Artillery"
+		FiringType			= "Plasma"
 		RecoilForce			= "50"
 
 		DamageType			= "BLAST"
@@ -2381,7 +2381,7 @@
 
 		BulletPrototype		= "406mmCDshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2427,7 +2427,7 @@
 		
 		BulletPrototype		= "406mmCDshell"
 		ExplosionType		= "BIGBLAST_HE"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "ENERGY"
@@ -2461,7 +2461,7 @@
 		
 		BulletPrototype		= "406mmCDshell"
 		ExplosionType		= "BIGBLAST_AP"
-        FiringType			= "Artillery"
+        FiringType			= "Plasma"
 		RecoilForce			= "300"
 
 		DamageType			= "PIERCING"

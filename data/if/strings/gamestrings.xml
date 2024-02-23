@@ -433,52 +433,52 @@
 		value="Пулемёт" />
 
 	<string
-		id="Cannon"
-		value="Орудие" />
-
-	<string
-		id="ShotGun"
-		value="Орудие" />
-
-	<string
-		id="Laser"
-		value="Орудие" />
-
-	<string
-		id="Plasma"
-		value="Орудие" />
+		id="Artillery"
+		value="РСЗО" />
 
 	<string
 		id="Rocket"
 		value="Ракетная установка" />
 
 	<string
-		id="Artillery"
-		value="Миномет" />
+		id="Oil"
+		value="Бомбомёт" />
+
+	<string
+		id="Mine"
+		value="Торпедный аппарат" />
+		
+	<string
+		id="Nail"
+		value="Орудие AA" />
+
+	<string
+		id="ShotGun"
+		value="Орудие DD" />
+
+	<string
+		id="Cannon"
+		value="Орудие CL" />
+
+	<string
+		id="Laser"
+		value="Орудие CA" />
+
+	<string
+		id="Plasma"
+		value="Орудие BB" />
+
+	<string
+		id="Type_Smoke"
+		value="Дымовая завеса" />
 
 	<string
 		id="Thunderbolt"
 		value="Молниемет" />
 
 	<string
-		id="Mine"
-		value="Миноукладчик" />
-
-	<string
-		id="Nail"
-		value="Гвозди" />
-
-	<string
 		id="Turbo"
 		value="Турбо-ускоритель" />
-
-	<string
-		id="Oil"
-		value="Масло" />
-
-	<string
-		id="Type_Smoke"
-		value="Дымовая завеса" />
 <!-- Энциклопедия -->
 	<string
 		id="Weapon"
