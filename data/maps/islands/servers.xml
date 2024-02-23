@@ -343,6 +343,12 @@
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 -->
+			
+<!-- items -->
+		<Item 
+			id="blueprint" 
+			file="data\models\AnimModels.xml"/>
+
 <!-- vehicles -->
 		<Item 
 			id="torpedo01" 
