@@ -1171,7 +1171,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 				<PartDescription	id = "BASKET_GIANT_GUN_5"		partResourceType = "QUADRUPLE380MMCIT_GUN"	lpName = "LP_GIANT06" />
 				<PartDescription	id = "BASKET_GIANT_GUN_6"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_GIANT07" />
 				<PartDescription	id = "BASKET_GIANT_GUN_7"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_GIANT08" />
-				<PartDescription	id = "BASKET_GIANT_GUN_8"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_LOAD01" />
+				<PartDescription	id = "BASKET_GIANT_GUN_8"		partResourceType = "TRIPLE457MMCIT_GUN"		lpName = "LP_GIANT09" />
 				<PartDescription	id = "BASKET_SMALL_GUN_10"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML01" />
 				<PartDescription	id = "BASKET_SMALL_GUN_11"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML02" />
 				<PartDescription	id = "BASKET_SMALL_GUN_12"		partResourceType = "SINGLE130MMCIT_GUN"		lpName = "LP_SML03" />
