@@ -2762,3 +2762,35 @@ function ShowMissionStats()
 		println("function end")
 	end
 end
+
+function AddRewardItems(rewards)
+	local allItems
+	if GetVar("RewardItems").AsString~="" then
+		println("reward items existed")
+		allItems = StringToTable(GetVar("RewardItems").AsString)
+	else
+		println("reward items didn't exist, created anew")
+		allItems = {}
+	end
+	local repo = getObj("Headquarters_Shop"):GetRepositoryByTypename("GunsAndGadgets")
+	println("repo got")
+	if rewards~=nil and type(rewards)=="table" then
+		local isTableEmpty = next(rewards)
+		if isTableEmpty ~= nil then
+			println("table aint empty")
+			allItems = ConvergeTables(allItems, rewards)
+		end
+	end
+
+	isTableEmpty = next(allItems)
+	if isTableEmpty ~= nil then
+		for i=1, getn(allItems) do
+			println("adding "..i)
+			repo:AddItems(allItems[i], 1)
+			println(i.." added")
+		end
+
+		SetVar("RewardItems", TableToString(allItems))
+		println("ended")
+	end
+end

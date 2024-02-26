@@ -85,11 +85,11 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 
 	</Folder>
 	
-	<Folder Name="Gadgets" File="Gadgets.xml" />
-	
 	<Folder Name="Wares" File="Wares.xml" />
 
-        <Folder Name="QuestItems" File="QuestItems.xml" />
+	<Folder Name="Gadgets" File="Gadgets.xml" />
+
+    <Folder Name="QuestItems" File="QuestItems.xml" />
 
 	<Folder Name="BreakableObjects" File="BreakableObjects.xml" />
 <!--

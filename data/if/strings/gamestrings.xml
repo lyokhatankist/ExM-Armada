@@ -338,11 +338,11 @@
 
 	<string
 		id="GADGET_COMMON"
-		value="улучшение судна" />
+		value="лёгкий" />
 
 	<string
 		id="GADGET_WEAPON"
-		value="улучшение оружия" />
+		value="тяжёлый" />
 
 	<string
 		id="GADGET_ENGINE"
@@ -350,7 +350,7 @@
 
 	<string
 		id="GadgetType"
-		value="Тип устройства" />
+		value="Тип модернизации" />
 
 	<string
 		id="Piercing"
@@ -486,7 +486,7 @@
 
 	<string
 		id="Gadgets"
-		value="Устройства" />
+		value="Проекты модернизации" />
 
 	<string
 		id="Vehicles"

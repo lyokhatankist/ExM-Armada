@@ -196,54 +196,29 @@
 		value="Система &quot;Сато&quot;" /> -->
 
 	<Item
-		id="potato"
+		id="boss01"
 		locForm="0"
-		value="Картофель" />
+		value="Клешня" />
 
 	<Item
-		id="scrap_metal"
+		id="boss02"
 		locForm="0"
-		value="Металлолом" />
+		value="Погрузчик" />
 
 	<Item
-		id="firewood"
+		id="boss03"
 		locForm="0"
-		value="Дрова" />
+		value="Оракул" />
 
 	<Item
-		id="oil"
+		id="boss04"
 		locForm="0"
-		value="Нефть" />
+		value="База Ньери" />
 
 	<Item
-		id="bottle"
+		id="boss04drone"
 		locForm="0"
-		value="Бутылки" />
-
-	<Item
-		id="fuel"
-		locForm="0"
-		value="Горючее" />
-
-	<Item
-		id="machinery"
-		locForm="0"
-		value="Рабочее оборудование" />
-
-	<Item
-		id="tobacco"
-		locForm="0"
-		value="Табак" />
-
-	<Item
-		id="book"
-		locForm="0"
-		value="Книги" />
-
-	<Item
-		id="electronics"
-		locForm="0"
-		value="Электроника" />
+		value="Дрон" />
 
 <!-- 	<Item
 		id="quest_start_father_letter"
@@ -585,30 +560,6 @@
 		locForm="0"
 		value="Дот" />
 -->
-	<Item
-		id="boss01"
-		locForm="0"
-		value="Клешня" />
-
-	<Item
-		id="boss02"
-		locForm="0"
-		value="Погрузчик" />
-
-	<Item
-		id="boss03"
-		locForm="0"
-		value="Оракул" />
-
-	<Item
-		id="boss04"
-		locForm="0"
-		value="База Ньери" />
-
-	<Item
-		id="boss04drone"
-		locForm="0"
-		value="Дрон" />
 
 <!-- 	<Item
 		id="Smoke"
@@ -616,10 +567,140 @@
 		value="Дымовая завеса" /> -->
 
 	<Item
+		id="potato"
+		locForm="0"
+		value="Картофель" />
+
+	<Item
+		id="scrap_metal"
+		locForm="0"
+		value="Металлолом" />
+
+	<Item
+		id="firewood"
+		locForm="0"
+		value="Дрова" />
+
+	<Item
+		id="oil"
+		locForm="0"
+		value="Нефть" />
+
+	<Item
+		id="bottle"
+		locForm="0"
+		value="Бутылки" />
+
+	<Item
+		id="fuel"
+		locForm="0"
+		value="Горючее" />
+
+	<Item
+		id="machinery"
+		locForm="0"
+		value="Рабочее оборудование" />
+
+	<Item
+		id="tobacco"
+		locForm="0"
+		value="Табак" />
+
+	<Item
+		id="book"
+		locForm="0"
+		value="Книги" />
+
+	<Item
+		id="electronics"
+		locForm="0"
+		value="Электроника" />
+
+<!-- gadgets-->
+	<Item
+		id="torpedo_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование торпедных аппаратов" />
+
+	<Item
+		id="ddguns_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование СУО эсминцев" />
+
+	<Item
+		id="antiair_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование зенитных орудий" />
+
+	<Item
+		id="clguns_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование СУО лёгких крейсеров" />
+
+	<Item
+		id="hp_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование бронирования" />
+
+	<Item
+		id="caguns_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование СУО тяжёлых крейсеров" />
+
+	<Item
+		id="fuel_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование топливной системы" />
+
+	<Item
+		id="bbguns_upgrade"
+		locForm="0"
+		value="Чертёж: усовершенствование СУО линкоров" />
+
+	<Item
 		id="anti_missile_system"
 		locForm="0"
-		value="Противоракетная защита" />
+		value="Чертёж: опытная противоракетная защита" />
 
+	<Item
+		id="antiair_basic"
+		locForm="0"
+		value="Чертёж: модернизация зенитных орудий" />
+
+	<Item
+		id="ddguns_basic"
+		locForm="0"
+		value="Чертёж: модернизация СУО эсминцев" />
+
+	<Item
+		id="clguns_basic"
+		locForm="0"
+		value="Чертёж: модернизация СУО лёгких крейсеров" />
+
+	<Item
+		id="caguns_basic"
+		locForm="0"
+		value="Чертёж: модернизация СУО тяжёлых крейсеров" />
+
+	<Item
+		id="bbguns_basic"
+		locForm="0"
+		value="Чертёж: модернизация СУО линкоров" />
+
+	<Item
+		id="hp_basic"
+		locForm="0"
+		value="Чертёж: модернизация бронирования" />
+
+	<Item
+		id="fuel_basic"
+		locForm="0"
+		value="Чертёж: модернизация топливной системы" />
+
+	<Item
+		id="speed_basic"
+		locForm="0"
+		value="Чертёж: модернизация силовой установки" />
 <!-- vehicles -->
 	<Item
 		id="Heli"

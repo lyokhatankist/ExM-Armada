@@ -436,11 +436,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />          
 			</GadgetDescription>
 		</Prototype>
 
@@ -468,11 +464,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />        
 			</GadgetDescription>
 		</Prototype>
 
@@ -500,11 +492,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
-					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "2" />            
 			</GadgetDescription>
 		</Prototype>
 
@@ -536,7 +524,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />              
 			</GadgetDescription>
 		</Prototype>
 
@@ -564,11 +552,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "5" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />              
 			</GadgetDescription>
 		</Prototype>
 
@@ -596,11 +584,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "5" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "2" />              
 			</GadgetDescription>
 		</Prototype>
 
@@ -632,7 +620,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "1" />              
 			</GadgetDescription>
 		</Prototype>
 
@@ -660,7 +648,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "2" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
@@ -692,7 +680,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "2" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
@@ -724,11 +712,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "2" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />              
+					MaxAmount		= "4" />              
 			</GadgetDescription>
 		</Prototype>
 
@@ -755,12 +743,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			VisibleInEncyclopedia		= "false">
 			<GadgetDescription>
 				<Slot
-					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
-
-				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />
+					MaxAmount		= "5" />
 			</GadgetDescription>
 		</Prototype>
 
@@ -788,11 +772,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount		= "4" />
+					MaxAmount		= "1" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "3" />
+					MaxAmount		= "4" />
 			</GadgetDescription>
 		</Prototype>
 
