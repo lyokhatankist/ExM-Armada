@@ -279,7 +279,7 @@
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
-		DamageType			= "ENERGY"
+		DamageType			= "PIERCING"
 		BlastWavePrototype	= "atgmcdBlastWave"
 
 		Damage			= "120"
