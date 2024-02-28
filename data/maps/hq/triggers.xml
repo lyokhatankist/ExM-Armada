@@ -63,6 +63,14 @@
 						b = SpawnMessageBox( "104" )
 						if b == 1 then
 							ShowMissionStats()
+
+							local items = {
+											"ddguns_upgrade",
+											"antiair_basic",
+											"fuel_basic"
+										}
+	
+							AddRewardItems(items)
 						end
 					end
 				end
@@ -159,7 +167,15 @@
 	<trigger Name="CITPH01_Counterattack" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"antiair_upgrade",
+							"clguns_upgrade",
+							"smlboatCITMachinegun01",
+							"AA47mmCannon01",
+							"antiair_basic"
+						  }
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -168,7 +184,16 @@
 	<trigger Name="CITPH02_Guests" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"caguns_upgrade",
+							"mun_single130CIT01",
+							"mun_single130CIT01",
+							"AA47mmCannon01",
+							"hp_basic",
+							"ddguns_basic"
+						}
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -177,7 +202,19 @@
 	<trigger Name="CITPH03_March" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"fuel_upgrade",
+							"mun_single130CIT02",
+							"mun_single130CIT02",
+							"AA47mmCannon01",
+							"smlboatCITRocket01"
+						}
+
+			if IsQuestComplete("CIT_PH03_DestroyCruisers") then
+				items = ConvergeTables(items, {"smlboatCITRocket01","AA120mmSAMCIT01","AA120mmSAMCIT01"})
+			end
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -186,7 +223,14 @@
 	<trigger Name="CITPH04_Routine" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"torpedo_upgrade",
+							"smlboatCITMachinegun01",
+							"smlboatCITMachinegun01",
+							"smlboatCITRocket01"
+						}
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -195,7 +239,16 @@
 	<trigger Name="CDPH01_Garrison" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"bbguns_upgrade",
+							"mun_twin127CD01",
+							"mun_twin127CD01",
+							"mun_twin356CD02",
+							"AA152mmATGMCD01",
+							"AA152mmATGMCD01"
+						}
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -204,7 +257,32 @@
 	<trigger Name="CDPH02_Fortress" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"anti_missile_system",
+							"mun_twin356CD02",
+							"mun_twin356CD02",
+							"smlboatCDMachinegun01",
+							"smlboatCDMachinegun01",
+							"smlboatCDRocket01",
+							"smlboatCDRocket01"
+						}
+
+			AddRewardItems(items)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDPH03_Armada" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local items = {
+							"hp_upgrade",
+							"AA152mmATGMCD01",
+							"AA152mmATGMCD01"
+						}
+
+			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>

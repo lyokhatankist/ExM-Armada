@@ -125,6 +125,8 @@
 
 			CalcMissionStats(1) -- the trigger is identical to Leave, besides this (1)
 
+			SetVar("PassingToMap", 1)
+			
 			PassToMap("hq", "Headquarters_enter", 90, true)
 
 			trigger:Deactivate()

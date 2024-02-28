@@ -776,7 +776,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount		= "4" />
+					MaxAmount		= "5" />
 			</GadgetDescription>
 		</Prototype>
 

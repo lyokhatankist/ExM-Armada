@@ -749,6 +749,7 @@
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
 			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
 			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksThreshold = 3 -- amount of checks for the vehicle to be deemed suspiciciously still
 			local checksAmount = 0
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
@@ -796,11 +797,11 @@
 							println(currentVehicleName.." exists")
 							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
 							currentWaypoint = currentVehicleWaypointInfo[1] + 1
-							if 3 > GetSpeed(currentVehicle) then
+							if speedThreshold > GetSpeed(currentVehicle) then
 								println(currentVehicleName.." speed is too low")
 								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
 								println("checks amount is "..checksAmount)
-								if checksAmount >= 3 then
+								if checksAmount >= checksThreshold then
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
 									if currentVehicleWaypointInfo[2] >= currentWaypoint then
@@ -1003,6 +1004,7 @@
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
 			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
 			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksThreshold = 3 -- amount of checks for the vehicle to be deemed suspiciciously still
 			local checksAmount = 0
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
@@ -1050,11 +1052,11 @@
 							println(currentVehicleName.." exists")
 							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
 							currentWaypoint = currentVehicleWaypointInfo[1] + 1
-							if 3 > GetSpeed(currentVehicle) then
+							if speedThreshold > GetSpeed(currentVehicle) then
 								println(currentVehicleName.." speed is too low")
 								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
 								println("checks amount is "..checksAmount)
-								if checksAmount >= 3 then
+								if checksAmount >= checksThreshold then
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
 									if currentVehicleWaypointInfo[2] >= currentWaypoint then

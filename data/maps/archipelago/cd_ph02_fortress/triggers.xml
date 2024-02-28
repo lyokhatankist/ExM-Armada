@@ -97,7 +97,7 @@
 			SetVar("PlayerName", "«Каталунья» (т.к.т. «Фурия»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
-			SetVar("MissionScoreRewardMultiplier", 0.13) -- multiplier that determines how much money the player will receive for each score point
+			SetVar("MissionScoreRewardMultiplier", 0.185) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
 			local friendlies = {}
