@@ -567,6 +567,14 @@
 			id="mun_single138CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="AADuet01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AADuet01gun" 
+			file="data\models\AnimModels.xml"/>
+
 
 
 		<Item 

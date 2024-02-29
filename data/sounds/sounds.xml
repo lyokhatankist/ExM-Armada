@@ -436,7 +436,7 @@
 		type="DOUBLE"
 		file_start	="data\sounds\Shooting\BigGun\vulcan_shoot.wav"
 		file_end	="data\sounds\Shooting\BigGun\vulcan_tail_shoot.wav"
-		group="GUNFIRE_SML_MG"
+		group="GUNFIRE_BIG_MG"
 		/>
 
 	<model

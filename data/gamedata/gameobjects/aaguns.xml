@@ -6,6 +6,38 @@
 
 
 	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "AADuet01"
+		ModelFile		= "AADuet01"
+		ResourceType	= "MEDANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "200"
+
+		DamageType			= "BLAST"
+		NumBulletsInShot	= "2"
+
+		Damage			= "10"
+		FiringRate		= "1100"
+		ChargeSize     	= "300"
+		RechargingTime 	= "25"
+
+		FiringRange		= "700"
+		GroupingAngle	= "4"
+
+		TurningSpeed	= "60"
+		Durability		= "9" 
+		Price			= "900" />
+
+	<Prototype
 		Class			= "PlasmaBunchLauncher"
 		Name			= "AA47mmCannon01"
 		ModelFile		= "AA47mmCannon01"

@@ -1073,6 +1073,11 @@
 		value="130-ìì ÎÔ (ÑÍÃ)" />
 
 	<Item
+		id="AADuet01"
+		locForm="0"
+		value="Äóýò" />
+
+	<Item
 		id="AA47mmCannon01"
 		locForm="0"
 		value="Àóãý" />
