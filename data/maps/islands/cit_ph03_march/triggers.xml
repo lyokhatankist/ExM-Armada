@@ -1189,8 +1189,13 @@
 
 			TDeactivate("CITCruisersFormationManager")
 
-			if GetVar("PassingToMap").AsInt ~= 1 and GetVar("RefusedToRetreat").AsInt ~= 1 and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
-				local b = SpawnMessageBox( "1001" )
+			if GetVar("PassingToMap").AsInt ~= 1 and IsQuestComplete("CIT_PH03_DestroyMerchants") and GetVar("RefusedToRetreat").AsInt ~= 1 and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
+				local b
+				if IsQuestComplete("CIT_PH03_DestroyCruisers") then
+					b = SpawnMessageBox( "1001" )
+				else
+					b = SpawnMessageBox( "1004" )
+				end
 				println("mission end 0")
 				if b == 1 then
 					trigger:Deactivate()
