@@ -2794,3 +2794,26 @@ function AddRewardItems(rewards)
 		println("ended")
 	end
 end
+
+function PlayMusic(namae)
+	if namae ~= CustomMusicName then
+		CustomMusicName = namae
+		SetVar("CustomMusicName", namae)
+
+		LOG("sleduyushchaya okhuyennaya pesnya zvuchit spetsialno dlya patsanov") println("sleduyushchaya okhuyennaya pesnya zvuchit spetsialno dlya patsanov")
+		PlayCustomMusic(namae)
+
+		TActivate("trMusicManager")
+	end
+end
+
+function StopMusic()
+	CustomMusicName = "none"
+
+	SetVar("CustomMusicName", "none")
+
+	LOG("igra ne budit") println("igra ne budit")
+	StopPlayingCustomMusic()
+		
+	TDeactivate("trMusicManager")
+end

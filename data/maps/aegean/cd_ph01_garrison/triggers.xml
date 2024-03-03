@@ -229,6 +229,23 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_mooze_quiet")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger	Name="NightvisionOff"	active="1">
 		<event eventid="GE_PLAYER_VEHICLE_HORN" ObjName="Player1" />
 		<script>
@@ -944,6 +961,8 @@
 			end
 
 			println("mission end 0")
+
+			PlayMusic("bs_mooze_retreat")
 			
 			trigger:Deactivate()
 		</script>
@@ -969,6 +988,8 @@
 
 			if CDMerchantsDestroyed >= 2 then
 				TakeQuest("CD_PH01_Retreat")
+
+				PlayMusic("bs_mooze_reinforcements")
 
 				trigger:Deactivate()
 			end
@@ -1064,7 +1085,7 @@
 					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
 					currentWaypoint = currentVehicleWaypointInfo[1] + 2
 					LOG(i.." 1062")
-					if currentVehicleWaypointInfo[2] >= currentWaypoint then
+					if (currentVehicleWaypointInfo[2] + 1) >= currentWaypoint then
 						LOG(i.." 1064")
 						println("there are waypoints for "..currentVehicleName)
 						currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
@@ -1116,7 +1137,7 @@
 									LOG(j.." 1112")
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
-									if currentVehicleWaypointInfo[2] > currentWaypoint then
+									if (currentVehicleWaypointInfo[2] + 1) >= currentWaypoint then
 										LOG(j.." 1116")
 										currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
 										currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
@@ -1310,6 +1331,10 @@
 
 				TDeactivate("CITDestroyersFormationManager")
 
+				if getObj("CITCoastalGunsOrder"):IsActivated()~=1 then
+					PlayMusic("bs_mooze_retreat")
+				end
+
 				trigger:Deactivate()
 			else
 				UpdateQuestCoordinates("CD_PH01_DestroyDestroyers", Enemies)
@@ -1343,6 +1368,8 @@
 
 				CompleteQuest("CD_PH01_DestroyTurrets")
 
+				PlayMusic("bs_mooze_retreat")
+
 				trigger:Deactivate()
 			else
 				UpdateQuestCoordinates("CD_PH01_DestroyTurrets", Enemies)
@@ -1368,6 +1395,8 @@
 				CompleteQuest("CD_PH01_DestroyCruisers")
 
 				TDeactivate("CITCruisersFormationManager")
+
+				PlayMusic("bs_mooze_quiet")
 
 				trigger:Deactivate()
 			else
@@ -1458,6 +1487,8 @@
 
 			SetVar("MissionStage", 2)
 
+			PlayMusic("bs_mooze_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1487,6 +1518,8 @@
 			SetVar("CDDestroyer01WaypointStatus", TableToString({1, 2, 0}))
 			SetVar("CDDestroyer02WaypointStatus", TableToString({1, 2, 0}))
 
+			PlayMusic("bs_mooze_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1509,6 +1542,8 @@
 			TakeQuest("CD_PH01_DestroyCruisers")
 
 			SetVar("MissionStage", 4)
+
+			PlayMusic("bs_mooze_reinforcements")
 
 			trigger:Deactivate()
 		</script>

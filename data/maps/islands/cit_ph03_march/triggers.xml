@@ -240,6 +240,23 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_occupied_quiet")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="RetreatStart" active="0">
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
@@ -937,6 +954,8 @@
 				TDeactivate("CDMerchantsFormationManager")
 				TDeactivate("CDMerchantsTargetReached")
 
+				PlayMusic("bs_occupied_quiet")
+
 				if GetVar("PassingToMap").AsInt ~= 1 and not(IsQuestTaken("CIT_PH03_DestroyCruisers")) and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
 					local b = SpawnMessageBox( "1004" )
 					println("mission end 0")
@@ -990,6 +1009,8 @@
 	
 						AddFadingMsgId("fm_cit_ph03_citretreating")
 					end
+
+					PlayMusic("bs_occupied_quiet")
 
 					if GetVar("PassingToMap").AsInt ~= 1 and IsQuestComplete("CIT_PH03_DestroyMerchants") and CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 950 then
 						local b = SpawnMessageBox( "1001" )
@@ -1243,6 +1264,8 @@
 
 			LOG("enemy reinforcements coming")
 
+			PlayMusic("bs_occupied_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1296,6 +1319,8 @@
 
 			LOG("enemy reserves coming")
 
+			PlayMusic("bs_occupied_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1312,6 +1337,8 @@
 			TakeQuest("CIT_PH03_DestroyCruisers")
 
 			LOG("enemy cruisers encountered")
+
+			PlayMusic("bs_occupied_reinforcements")
 
 			trigger:Deactivate()
 		</script>

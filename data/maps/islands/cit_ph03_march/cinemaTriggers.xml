@@ -49,6 +49,8 @@
 			TActivate("DeathAnim")
 			TActivate("PlayerDead_End")
 
+			PlayMusic("nomusic")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>

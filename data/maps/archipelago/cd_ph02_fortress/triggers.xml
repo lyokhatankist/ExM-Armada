@@ -252,6 +252,23 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_attrition_quiet")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="RetreatStart" active="1">
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="MissionStartLoc" />
 		<event eventid="GE_OBJECT_LEAVES_LOCATION" ObjName="Retreat01Loc" />
@@ -759,6 +776,8 @@
 
 				TakeQuest("CD_PH02_Retreat")
 
+				PlayMusic("bs_attrition_quiet")
+
 				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 1150 then
 					local b = SpawnMessageBox( "1001" )
 					println("mission end 0")
@@ -885,6 +904,8 @@
 			AddFadingMsgId("fm_reinforcements_inbound_foe")
 			AddFadingMsgId("fm_aircraft_enroute_foe")
 
+			PlayMusic("bs_attrition_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -915,6 +936,8 @@
 				end
 
 				AddFadingMsgId("fm_reserves_inbound_foe")
+
+				PlayMusic("bs_attrition_combat")
 
 				trigger:Deactivate()
 			end

@@ -7,6 +7,17 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			StopPlayingCustomMusic()
+
+			println("what kind of code sorcery is this you may ask")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger	Name="trFindThing"	active="1">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
@@ -22,7 +33,7 @@
 			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
-			PlayCustomMusic("bs_mainmenu")
+			PlayMusic("bs_mainmenu")
 
 			trigger:Deactivate()
 		</script>

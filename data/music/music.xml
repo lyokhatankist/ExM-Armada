@@ -8,7 +8,73 @@
 	<model
 		id="bs_mainmenu"
 		file="data\music\battleship\mainmenu.ogg" />
+	<model
+		id="bs_credits"
+		file="data\music\battleship\credits.ogg" />
 
+	<model
+		id="bs_attack_quiet"
+		file="data\music\battleship\attack_quiet.ogg" />
+	<model
+		id="bs_attack_combat"
+		file="data\music\battleship\attack_combat.ogg" />
+
+	<model
+		id="bs_occupied_quiet"
+		file="data\music\battleship\occupied_quiet.ogg" />
+	<model
+		id="bs_occupied_combat"
+		file="data\music\battleship\occupied_combat.ogg" />
+	<model
+		id="bs_occupied_reinforcements"
+		file="data\music\battleship\occupied_reinforcements.ogg" />
+
+	<model
+		id="bs_force_quiet"
+		file="data\music\battleship\force_quiet.ogg" />
+	<model
+		id="bs_force_combat"
+		file="data\music\battleship\force_combat.ogg" />
+
+	<model
+		id="bs_stealth_quiet"
+		file="data\music\battleship\stealth_quiet.ogg" />
+	<model
+		id="bs_stealth_combat"
+		file="data\music\battleship\stealth_combat.ogg" />
+	<model
+		id="bs_stealth_retreat"
+		file="data\music\battleship\stealth_retreat.ogg" />
+
+	<model
+		id="bs_armada_quiet"
+		file="data\music\battleship\armada_quiet.ogg" />
+	<model
+		id="bs_armada_combat"
+		file="data\music\battleship\armada_combat.ogg" />
+	<model
+		id="bs_armada_retreat"
+		file="data\music\battleship\armada_retreat.ogg" />
+
+	<model
+		id="bs_attrition_quiet"
+		file="data\music\battleship\attrition_quiet.ogg" />
+	<model
+		id="bs_attrition_combat"
+		file="data\music\battleship\attrition_combat.ogg" />
+
+	<model
+		id="bs_mooze_quiet"
+		file="data\music\battleship\mooze_quiet.ogg" />
+	<model
+		id="bs_mooze_combat"
+		file="data\music\battleship\mooze_combat.ogg" />
+	<model
+		id="bs_mooze_reinforcements"
+		file="data\music\battleship\mooze_reinforcements.ogg" />
+	<model
+		id="bs_mooze_retreat"
+		file="data\music\battleship\mooze_retreat.ogg" />
 <!-- vanilla -->
 <!-- 	<model
 		id="mainmenu"

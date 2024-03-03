@@ -51,6 +51,25 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			TActivate("trMusicManager_II")
+
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager_II" active="0">
+		<event timeout="0.05" eventid="GE_TIME_PERIOD" />
+		<script>
+			CustomMusicName = "nomusic"
+
+			StopPlayingCustomMusic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="ShowMissionStats_Tutorial" active="0">
 		<event timeout="0.05" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -101,6 +120,12 @@
 	<trigger Name="MissionStart" active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
 		<script>
+			TDeactivate("trMusicManager_II")
+
+			CustomMusicName = "nomusic"
+
+			StopPlayingCustomMusic()
+			
 			local missionLoc = GetVar("MissionLoc").AsString
 			local b = SpawnMessageBox( "1000" )
 			if b == 1 then
@@ -159,6 +184,8 @@
 			if HQ then
 				HQ:SetPosition(CVector(2448, 275, 2448))
 			end
+
+			PlayMusic("nomusic")
 			
 			trigger:Deactivate()
 		</script>
