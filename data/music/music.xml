@@ -11,6 +11,9 @@
 	<model
 		id="bs_credits"
 		file="data\music\battleship\credits.ogg" />
+	<model
+		id="bs_bar"
+		file="data\music\battleship\bar.ogg" />
 
 	<model
 		id="bs_attack_quiet"

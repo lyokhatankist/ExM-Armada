@@ -18,7 +18,7 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trFindThing"	active="1">
+	<trigger	Name="trMusic"	active="1">
 		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
 		<script>
 			local Plf = GetPlayerVehicle()
@@ -33,7 +33,7 @@
 			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
-			PlayMusic("bs_mainmenu")
+			PlayMusic("bs_armada_quiet")
 
 			trigger:Deactivate()
 		</script>

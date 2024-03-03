@@ -25,7 +25,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="2"
-			fontSize="22" />
+			fontSize="30" />
 
 		<Page
 			id="3"
@@ -52,7 +52,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="2"
-			fontSize="22" />
+			fontSize="30" />
 
 		<Page
 			id="6"
@@ -61,7 +61,7 @@
 			modelSkin="1"
 			modelCfg="1531"
 			showTime="0.2"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="7"
@@ -70,7 +70,7 @@
 			modelSkin="1"
 			modelCfg="1531"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="8"
@@ -79,7 +79,7 @@
 			modelSkin="2"
 			modelCfg="168"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="9"
@@ -88,7 +88,7 @@
 			modelSkin="1"
 			modelCfg="761"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="10"
@@ -97,7 +97,7 @@
 			modelSkin="2"
 			modelCfg="1917"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="11"
@@ -106,23 +106,23 @@
 			modelSkin="0"
 			modelCfg="92"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="12"
 			text="Обстаклы, внешние пути для кораблей, контроль качества||Андрей «Linkor» Крылов"
 			modelName="mask_axel"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="13"
-			text="В моде использована музыка от:||MoozE|Simon Viklund|Apachan|Антон Попов"
+			text="В моде использована музыка от:||MoozE|Simon Viklund|Apachan|Keosz|Антон Попов"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
 			showTime="6"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="14"
@@ -131,7 +131,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="15"
@@ -140,7 +140,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="16"
@@ -149,7 +149,16 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
+
+		<Page
+			id="16_1"
+			text="Keosz||Behind The Horizon Of Preconceptions"
+			modelName=""
+			modelSkin="0"
+			modelCfg="0"
+			showTime="5"
+			fontSize="22" />
 
 		<Page
 			id="17"
@@ -158,7 +167,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="5"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="18"
@@ -167,7 +176,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="6"
-			fontSize="18" />
+			fontSize="22" />
 
 		<Page
 			id="19"
@@ -176,7 +185,7 @@
 			modelSkin="0"
 			modelCfg="0"
 			showTime="14"
-			fontSize="18" />
+			fontSize="12.5" />
 
 		<Page
 			id="19"

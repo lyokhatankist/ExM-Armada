@@ -659,6 +659,7 @@
 		
 		<Item id="bs_mainmenu" />
 		<Item id="bs_credits" />
+		<Item id="bs_bar" />
 
 		<Item id="bs_attack_quiet" />
 		<Item id="bs_attack_combat" />
