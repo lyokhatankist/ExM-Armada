@@ -20,6 +20,34 @@
 		<Item
 			id="mask_hero"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mask_axel"
+			file="data\models\AnimModels.xml" />'
+			
+		<Item
+			id="mask_oracul"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r1_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r2_woman"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r3_man"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="r4_man"
+			file="data\models\AnimModels.xml" />
 <!-- objects -->
 		<Item
 			id="exit"
@@ -291,6 +319,11 @@
 			id="plasma_big01" 
 			file="data\models\AnimModels.xml"/>
 			
+<!-- items -->
+		<Item 
+			id="blueprint" 
+			file="data\models\AnimModels.xml"/>
+
 <!-- vehicles -->
 		<Item 
 			id="torpedo01" 
@@ -429,6 +462,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="smlboatCITRocket01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="smlboatCITRocket01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="smlboatCDHull" 
 			file="data\models\AnimModels.xml"/>
 
@@ -554,7 +595,15 @@
 			id="mun_single138CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="AADuet01" 
+			file="data\models\AnimModels.xml"/>
 
+		<Item 
+			id="AADuet01gun" 
+			file="data\models\AnimModels.xml"/>
+
+			
 
 		<Item 
 			id="destroyerCDEngine" 
@@ -639,6 +688,14 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
+			id="AA120mmSAMCIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AA120mmSAMCIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
 			id="ocruiserCIT152Armanent" 
 			file="data\models\AnimModels.xml"/>
 
@@ -684,6 +741,24 @@
 
 		<Item 
 			id="mun_triple155CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+
+
+		<Item 
+			id="triple152CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="triple152CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple152CIT01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="mun_triple152CIT01gun" 
 			file="data\models\AnimModels.xml"/>
 
 
@@ -875,7 +950,7 @@
 		<Item 
 			id="mun_twin356CD03gun" 
 			file="data\models\AnimModels.xml"/> -->
-
+			
 		<Item 
 			id="triple406CD01" 
 			file="data\models\AnimModels.xml"/>
@@ -902,20 +977,14 @@
 			id="merchantCDHull" 
 			file="data\models\AnimModels.xml"/>
 
+
+
 		<Item 
-			id="lavCDWheel" 
+			id="lavCITWheel" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="lavCDHull" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="lavCDMachinegun01" 
-			file="data\models\AnimModels.xml"/>
-
-		<Item 
-			id="lavCDMachinegun01gun" 
+			id="lavCITHull" 
 			file="data\models\AnimModels.xml"/>
 
 <!-- environment -->
@@ -1035,7 +1104,17 @@
 		<Item id="S_TANK_SHOOT" />
 		<Item id="S_SHOOTING_HAMMER" />
 
-<!-- 		<Item id="S_SHOOTING_CRUISERSAM" /> -->
+		<!-- <Item id="S_SHOOTING_CRUISERSAM" /> -->
+		<Item id="S_SHOOTING_BATTLESHIPMOD2" />
+
+		<Item id="S_MG_HIT01" />
+		<Item id="S_MG_HIT02" />
+		<Item id="S_MG_HIT03" />
+		<Item id="S_MG_HIT04" />
+		<Item id="S_MG_HIT05" />
+		<Item id="S_MG_HIT06" />
+		<Item id="S_MG_HIT07" />
+		<Item id="S_MG_HIT08" />
 
 <!-- Explosions --> 
 
@@ -1095,6 +1174,7 @@
 		<Item id="S_WATER_EXPL" />
 		<Item id="S_STATIC_EXPL" />
 		<Item id="S_CAR_EXPL" />
+		<Item id="S_CAR_EXPL_AP" />
 		<Item id="S_ROAD_EXPL" />
 		<Item id="S_ROCK_EXPL" />
 		<Item id="S_SAND_EXPL" />
@@ -1148,6 +1228,16 @@
 		<Item id="S_GROUND_BL" />
 		<Item id="S_SAND_BL" />
 		<Item id="S_WOOD_BL" />
+
+<!-- Cruise shoothits -->
+
+		<Item id="S_WATER_CR" />
+		<Item id="S_STATIC_CR" />
+		<Item id="S_CAR_CR" />
+		<Item id="S_ROAD_CR" />
+		<Item id="S_ROCK_CR" />
+		<Item id="S_GROUND_CR" />
+		<Item id="S_WOOD_CR" />
 
 <!-- Environment -->
 
