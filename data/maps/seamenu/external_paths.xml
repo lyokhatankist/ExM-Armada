@@ -21,7 +21,7 @@
 	<Path
 		Name="veh03_ex">
 		<Point
-			coord="7180 4590" />
+			coord="7175 4775" />
 	</Path>
 
 	<Path
@@ -51,6 +51,126 @@
 	<Path
 		Name="veh08_ex">
 		<Point
-			coord="7175 4775" />
+			coord="7180 4590" />
+	</Path>
+
+	<Path
+		Name="heli_1_ex">
+		<Point
+			coord="8100 4390" />
+	</Path>
+
+	<Path
+		Name="heli_2_ex">
+		<Point
+			coord="8100 4415" />
+	</Path>
+
+	<Path
+		Name="heli_3_ex">
+		<Point
+			coord="8100 4440" />
+	</Path>
+
+	<Path
+		Name="heli_4_ex">
+		<Point
+			coord="8100 4465" />
+	</Path>
+
+	<Path
+		Name="heli_5_ex">
+		<Point
+			coord="8100 4510" />
+	</Path>
+
+	<Path
+		Name="heli_6_ex">
+		<Point
+			coord="8100 4530" />
+	</Path>
+
+	<Path
+		Name="heli_7_ex">
+		<Point
+			coord="8100 4545" />
+	</Path>
+
+	<Path
+		Name="heli_8_ex">
+		<Point
+			coord="8100 4560" />
+	</Path>
+
+	<Path
+		Name="heli_9_ex">
+		<Point
+			coord="8100 4585" />
+	</Path>
+
+	<Path
+		Name="heli_10_ex">
+		<Point
+			coord="8100 4605" />
+	</Path>
+
+	<Path
+		Name="heli_11_ex">
+		<Point
+			coord="8100 4670" />
+	</Path>
+
+	<Path
+		Name="heli_12_ex">
+		<Point
+			coord="8100 4730" />
+	</Path>
+
+	<Path
+		Name="heli_13_ex">
+		<Point
+			coord="8100 4700" />
+	</Path>
+
+	<Path
+		Name="heli_14_ex">
+		<Point
+			coord="8100 4760" />
+	</Path>
+
+	<Path
+		Name="heli_15_ex">
+		<Point
+			coord="8100 4775" />
+	</Path>
+
+	<Path
+		Name="heli_16_ex">
+		<Point
+			coord="8100 4790" />
+	</Path>
+
+	<Path
+		Name="heli_17_ex">
+		<Point
+			coord="8100 4800" />
+	</Path>
+
+	<Path
+		Name="heli_18_ex">
+		<Point
+			coord="8100 4820" />
+	</Path>
+
+	<Path
+		Name="heli_19_ex">
+		<Point
+			coord="8100 4855" />
+	</Path>
+
+	<Path
+		Name="heli_20_ex">
+		<Point
+			coord="8100 4870" />
 	</Path>
 </Paths>

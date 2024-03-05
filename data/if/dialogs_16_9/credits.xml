@@ -184,7 +184,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="14"
+			showTime="8.5"
 			fontSize="12.5" />
 
 		<Page
@@ -292,7 +292,7 @@
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
-			showTime="2.5"
+			showTime="3"
 			fontSize="28" />
 
 		<Page
@@ -301,7 +301,7 @@
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
-			showTime="2.5"
+			showTime="3"
 			fontSize="28" />
 
 		<Page
@@ -346,7 +346,7 @@
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="132"
-			showTime="3.5"
+			showTime="4.5"
 			fontSize="20" />
 
 		<Page
@@ -355,7 +355,7 @@
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="24"
-			showTime="2.5"
+			showTime="3.5"
 			fontSize="22" />
 
 		<Page
@@ -517,7 +517,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="2.5"
+			showTime="1.5"
 			fontSize="34" />
 		
 		<Page
@@ -526,7 +526,7 @@
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="379"
-			showTime="4.5"
+			showTime="4"
 			fontSize="28" />
 		
 		<Page
@@ -562,7 +562,7 @@
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="102"
-			showTime="6.5"
+			showTime="5"
 			fontSize="22" />
 	</Pages>
 </Credits>
