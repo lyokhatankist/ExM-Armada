@@ -9,7 +9,7 @@
 
 	<Block 
 		name	="mainmenu"
-		driving	="bs_armada_quiet"
+		driving	="bs_mainmenu"
 		alarm	="nomusic"
 		battle	="nomusic" />
 		

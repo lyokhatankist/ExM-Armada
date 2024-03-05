@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes"?>
 <!--
-‚ нв®¬ д ©«Ґ б®¤Ґа¦ вбп ЇгвЁ Є ¬Ґа ¤«п а®«ЁЄ®ў
-ЏаЁ¬Ґа:
+пїЅ пїЅв®¬ д ©пїЅпїЅ б®¤пїЅа¦ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ а®«пїЅпїЅпїЅпїЅ
+пїЅаЁ¬пїЅпїЅ:
 
 	<Path Name = "Primer_cam01">                         
 		<Point  coord="1266.468 213.171 1519.520" rotation="0.008 -0.468 -0.004 0.884"/>
@@ -9,5 +9,62 @@
 	</Path>
 -->
 <Paths>
+	<Path Name = "main_start">                         
+		<Point  coord="1204.132 303.561 4680.818" rotation="-0.375 0.588 -0.353 0.624"/>
+		<Point  coord="1301.433 280.492 4656.651" rotation="-0.017 0.504 -0.010 0.864"/>
+		<Point  coord="1416.292 277.106 4651.705" rotation="-0.002 0.458 -0.001 0.889"/>
+	</Path>
 
+	<Path Name = "main01">   
+		<Point  coord="10.000 1.000 -25.000"/>
+	</Path>
+
+	<Path Name = "main02">   
+		<Point  coord="-10.000 1.000 -25.000"/>
+	</Path>
+
+	<Path Name = "main03">   
+		<Point  coord="-12.500 1.000 0.000"/>
+	</Path>
+
+	<Path Name = "main04">   
+		<Point  coord="12.500 1.000 -10.000"/>
+	</Path>
+
+	<Path Name = "main05">   
+		<Point  coord="15.000 4.000 30.000"/>
+	</Path>
+
+	<Path Name = "main06">   
+		<Point  coord="-15.000 4.000 -30.000"/>
+	</Path>
+
+	<Path Name = "main07">   
+		<Point  coord="-17.500 4.000 40.000"/>
+	</Path>
+
+	<Path Name = "main08">   
+		<Point  coord="17.500 4.000 -40.000"/>
+	</Path>
+
+	<Path Name = "main09">   
+		<Point  coord="20.000 4.000 60.000"/>
+	</Path>
+
+	<Path Name = "main10">   
+		<Point  coord="20.000 5.000 -60.000"/>
+	</Path>
+
+	<Path Name = "main_middle">                         
+		<Point  coord="1188.564 278.437 4630.603" rotation="-0.506 0.493 -0.469 0.531" speed="1"/>
+		<Point  coord="1229.247 278.236 4632.639" rotation="-0.153 0.716 -0.166 0.661" speed="2"/>
+		<Point  coord="1265.592 278.624 4635.310" rotation="-0.008 0.734 -0.009 0.679" speed="2.5"/>
+		<Point  coord="1336.692 279.632 4633.082" rotation="-0.011 0.441 -0.006 0.898" speed="3"/>
+		<Point  coord="1402.427 278.265 4615.586" rotation="0.014 0.622 0.011 0.783" speed="2.25"/>
+		<Point  coord="1509.213 276.825 4629.746" rotation="-0.005 0.707 -0.005 0.707" speed="1"/>
+	</Path>
+
+	<Path Name = "main_end">                         
+		<Point  coord="0.000 2.000 150.000"/>
+	</Path>
 </Paths>

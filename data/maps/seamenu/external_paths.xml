@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<Paths />
+ <Paths>
+    <Path
+		Name="pl_ex">
+		<Point
+			coord="7265 4630" />
+	</Path>
+
+	<Path
+		Name="veh01_ex">
+		<Point
+			coord="7190 4480" />
+	</Path>
+
+	<Path
+		Name="veh02_ex">
+		<Point
+			coord="7130 4530" />
+	</Path>
+
+	<Path
+		Name="veh03_ex">
+		<Point
+			coord="7180 4590" />
+	</Path>
+
+	<Path
+		Name="veh04_ex">
+		<Point
+			coord="7035 4600" />
+	</Path>
+
+	<Path
+		Name="veh05_ex">
+		<Point
+			coord="7225 4680" />
+	</Path>
+
+	<Path
+		Name="veh06_ex">
+		<Point
+			coord="7010 4695" />
+	</Path>
+
+	<Path
+		Name="veh07_ex">
+		<Point
+			coord="7100 4730" />
+	</Path>
+
+	<Path
+		Name="veh08_ex">
+		<Point
+			coord="7175 4775" />
+	</Path>
+</Paths>

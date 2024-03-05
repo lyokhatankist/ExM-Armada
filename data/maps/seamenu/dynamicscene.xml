@@ -12,9 +12,9 @@
 		<Object
 			Name="MyCar"
 			Belong="1500"
-			Prototype="DestroyerCD01"
-			Pos="4096.000 273.822 4096.000"
-			Rot="-0.007 1.000 0.001 0.021">
+			Prototype="BattleshipCD02"
+			Pos="1265.000 274.500 4630.000"
+			Rot="0.0000 0.7071 0.0000 0.7071">
 			<Parts />
 
 			<Repository />
