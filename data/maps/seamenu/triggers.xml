@@ -23,12 +23,7 @@
 			CreateVehicleEx("HCruiserCD01", "veh07", CVector(1100, 285, 4730), 1500)
 			CreateVehicleEx("DestroyerCD02", "veh03", CVector(1175, 285, 4775), 1500)
 			
-			local Plf = GetPlayerVehicle()
-			if Plf then
-				Plf:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
-				Plf:SetExternalPathByName("pl_ex")
-				Plf:LimitMaxSpeed(4)
-			end
+			
 			local veh
 			for i=1, 8 do
 				veh = getObj("veh0"..i)
@@ -38,37 +33,36 @@
 					veh:SetCruisingSpeed(4)
 				end
 			end
+			
+			if MenuLoaded~=1 then
+				AddPlayerVehicle("BattleshipCD02")
+				local Plf = GetPlayerVehicle()
+				if Plf then
+					Plf:SetPosition(CVector(1265.000, 274.500, 4630.000))
+					Plf:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					Plf:SetExternalPathByName("pl_ex")
+					Plf:LimitMaxSpeed(4)
+				end
 
-			local PlfID = GetPlayerVehicleId()
-			local veh1ID = getObj("veh0"..math.random(7)):GetId()
-			local veh2ID = getObj("veh0"..math.random(7)):GetId()
-			local veh3ID = getObj("veh0"..math.random(7)):GetId()
-			local veh4ID = getObj("veh0"..math.random(7)):GetId()
-			local veh5ID = getObj("veh0"..math.random(7)):GetId()
-			local veh6ID = getObj("veh0"..math.random(7)):GetId()
-			local veh7ID = getObj("veh0"..math.random(7)):GetId()
-			local veh8ID = getObj("veh0"..math.random(7)):GetId()
-			local veh9ID = getObj("veh0"..math.random(7)):GetId()
-			local veh10ID = getObj("veh0"..math.random(7)):GetId()
---			Fly("main_start", CINEMATIC_NO_AIM, 0, 21.55, 1, 0 )
---			FlyLinked("main01", veh1ID, 2.86, 0, 0, veh1ID )
---			FlyLinked("main02", veh2ID, 2.86, 0, 0, veh2ID )
---			FlyLinked("main03", veh3ID, 2.86, 0, 0, veh3ID )
---			FlyLinked("main04", veh4ID, 2.86, 0, 0, veh4ID )
---			FlyLinked("main05", veh5ID, 2.86, 0, 0, veh5ID )
---			FlyLinked("main06", veh6ID, 2.86, 0, 0, veh6ID )
---			FlyLinked("main07", veh7ID, 2.86, 0, 0, veh7ID )
---			FlyLinked("main08", veh8ID, 2.86, 0, 0, veh8ID )
---			FlyLinked("main09", veh9ID, 2.86, 0, 0, veh9ID )
---			FlyLinked("main10", veh10ID, 2.86, 0, 0, veh10ID )
-			Fly("main_middle", CINEMATIC_NO_AIM, 0, 25, 1, 0 )
-			FlyLinked("main_end", PlfID, 300, 0, 0, PlfID, nil, nil, nil, 1 )
---			Fly("main_end", CINEMATIC_NO_AIM, 0, 200, 0, 0 )
-			-- FlyLinked( PathName, Id, PlayTime, StartFade, EndFade, LookToId, VisPanel, RelativeRotations, WaitWhenStop, InterpolateFromPrevious )
-			StartCinematic()
-			UpdateCinematic( 1 )
+				local PlfID = GetPlayerVehicleId()
+				Fly("main_middle", CINEMATIC_NO_AIM, 0, 25, 1, 0 )
+				FlyLinked("main_end", PlfID, 300, 0, 0, PlfID, nil, nil, nil, 1 )
 
-			TActivate("CinematicUpdate")
+				StartCinematic()
+				UpdateCinematic( 1 )
+
+				TActivate("CinematicUpdate")
+			else
+				CreateVehicleEx("BattleshipCD02", "veh_pl", CVector(1265, 285, 4630), 1500)
+				veh = getObj("veh_pl")
+				if veh then
+					veh:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					veh:SetExternalPathByName("pl_ex")
+					veh:SetCruisingSpeed(4)
+				end
+			end
+			
+			MenuLoaded = 1
 
 			trigger:Deactivate()
 		</script>

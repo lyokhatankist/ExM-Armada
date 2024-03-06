@@ -8,7 +8,7 @@
 		diz1=""
 		image0="data\if\map\battleship\blank.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\main.dds"
 		musicBlocks="mainmenu" />
 
 	<LevelInfo
@@ -20,7 +20,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\symbols.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\main.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -92,7 +92,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\tutorial.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\tutorial_01.dds data\if\ico_hd\Splashes\battleship\tutorial_02.dds data\if\ico_hd\Splashes\battleship\tutorial_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -104,7 +104,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cit_ph01_counterattack.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\citph01_01.dds data\if\ico_hd\Splashes\battleship\citph01_02.dds data\if\ico_hd\Splashes\battleship\citph01_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -116,7 +116,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cit_ph02_guests.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\citph02_01.dds data\if\ico_hd\Splashes\battleship\citph02_02.dds data\if\ico_hd\Splashes\battleship\citph02_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -128,7 +128,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cit_ph03_march.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\citph03_01.dds data\if\ico_hd\Splashes\battleship\citph03_02.dds data\if\ico_hd\Splashes\battleship\citph03_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -140,7 +140,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cit_ph04_routine.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\citph04_01.dds data\if\ico_hd\Splashes\battleship\citph04_02.dds data\if\ico_hd\Splashes\battleship\citph04_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -152,7 +152,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cd_ph01_garrison.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\cdph01_01.dds data\if\ico_hd\Splashes\battleship\cdph01_02.dds data\if\ico_hd\Splashes\battleship\cdph01_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -164,7 +164,7 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cd_ph02_fortress.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\cdph02_01.dds data\if\ico_hd\Splashes\battleship\cdph02_02.dds data\if\ico_hd\Splashes\battleship\cdph02_03.dds"
 		musicBlocks="noblock" />
 
 	<LevelInfo
@@ -176,6 +176,6 @@
 		north="0 0 1"
 		image0="data\if\map\battleship\missions\cd_ph03_armada.dds"
 		image1="data\if\ico\GlobalMap\gmap_ico_2.dds"
-		splashes="data\if\ico\Splashes\noch.dds"
+		splashes="data\if\ico_hd\Splashes\battleship\cdph03_01.dds data\if\ico_hd\Splashes\battleship\cdph03_02.dds data\if\ico_hd\Splashes\battleship\cdph03_03.dds"
 		musicBlocks="noblock" />
 </LevelInfoResource>

@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(800)
@@ -1368,6 +1370,8 @@
 
 				CompleteQuest("CD_PH01_DestroyTurrets")
 
+				TDeactivate("CITCoastalGunsMusic")
+
 				PlayMusic("bs_mooze_retreat")
 
 				trigger:Deactivate()
@@ -1395,6 +1399,7 @@
 				CompleteQuest("CD_PH01_DestroyCruisers")
 
 				TDeactivate("CITCruisersFormationManager")
+				TDeactivate("CITCoastalGunsMusic")
 
 				PlayMusic("bs_mooze_quiet")
 
@@ -1520,7 +1525,31 @@
 
 			PlayMusic("bs_mooze_combat")
 
+			TActivate("CITCoastalGunsMusic")
+
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCoastalGunsMusic" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun01" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun02" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun03" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun04" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat04_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat05_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			PlayMusic("bs_mooze_combat")
+
 		</script>
 	</trigger>
 
@@ -1542,6 +1571,8 @@
 			TakeQuest("CD_PH01_DestroyCruisers")
 
 			SetVar("MissionStage", 4)
+
+			TDeactivate("CITCoastalGunsMusic")
 
 			PlayMusic("bs_mooze_reinforcements")
 
@@ -1725,6 +1756,8 @@
 				LOG("ENEMY REINFORCEMENTS INBOUND")
 
 				TActivate("CITCruisersFormationManager")
+
+				TDeactivate("CITCoastalGunsMusic")
 
 				trigger:Deactivate()
 			end
