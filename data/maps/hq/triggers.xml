@@ -51,6 +51,25 @@
 		</script>
 	</trigger>
 
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			TActivate("trMusicManager_II")
+
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager_II" active="0">
+		<event timeout="0.05" eventid="GE_TIME_PERIOD" />
+		<script>
+			CustomMusicName = "nomusic"
+
+			StopPlayingCustomMusic()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="ShowMissionStats_Tutorial" active="0">
 		<event timeout="0.05" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -63,6 +82,14 @@
 						b = SpawnMessageBox( "104" )
 						if b == 1 then
 							ShowMissionStats()
+
+							local items = {
+											"ddguns_upgrade",
+											"antiair_basic",
+											"fuel_basic"
+										}
+	
+							AddRewardItems(items)
 						end
 					end
 				end
@@ -93,6 +120,12 @@
 	<trigger Name="MissionStart" active="0">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Headquarters" />
 		<script>
+			TDeactivate("trMusicManager_II")
+
+			CustomMusicName = "nomusic"
+
+			StopPlayingCustomMusic()
+			
 			local missionLoc = GetVar("MissionLoc").AsString
 			local b = SpawnMessageBox( "1000" )
 			if b == 1 then
@@ -151,6 +184,8 @@
 			if HQ then
 				HQ:SetPosition(CVector(2448, 275, 2448))
 			end
+
+			PlayMusic("nomusic")
 			
 			trigger:Deactivate()
 		</script>
@@ -159,7 +194,19 @@
 	<trigger Name="CITPH01_Counterattack" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"antiair_upgrade",
+							"clguns_upgrade",
+							"smlboatCITMachinegun01",
+							"AA47mmCannon01",
+							"antiair_basic"
+						  }
+
+			if IsQuestComplete("CIT_PH01_DestroyTargets") then
+				AddRewardItems(items)
+
+				AddBook("book_citph01_success")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -168,7 +215,24 @@
 	<trigger Name="CITPH02_Guests" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"caguns_upgrade",
+							"mun_single130CIT01",
+							"mun_single130CIT01",
+							"AADuet01",
+							"AADuet01",
+							"AA47mmCannon01",
+							"hp_basic",
+							"ddguns_basic"
+						  }
+
+			if IsQuestComplete("CIT_PH02_DestroyFleet") then
+				AddRewardItems(items)
+
+				AddBook("book_citph02_success")
+			else
+				AddBook("book_citph02_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -177,7 +241,27 @@
 	<trigger Name="CITPH03_March" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"fuel_upgrade",
+							"mun_single130CIT02",
+							"mun_single130CIT02",
+							"AA47mmCannon01",
+							"smlboatCITRocket01"
+						  }
+
+			if IsQuestComplete("CIT_PH03_DestroyMerchants") then
+				if IsQuestComplete("CIT_PH03_DestroyCruisers") and not(IsQuestFailed("CIT_PH03_Retreat")) then
+					items = ConvergeTables(items, {"smlboatCITRocket01","AA120mmSAMCIT01","AA120mmSAMCIT01"})
+
+					AddBook("book_citph03_victory")
+				end
+
+				AddRewardItems(items)
+
+				AddBook("book_citph03_success")
+			else
+				AddBook("book_citph03_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -186,7 +270,20 @@
 	<trigger Name="CITPH04_Routine" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"torpedo_upgrade",
+							"smlboatCITMachinegun01",
+							"smlboatCITMachinegun01",
+							"smlboatCITRocket01"
+						  }
+
+			if IsQuestComplete("CIT_PH04_DestroyMerchants") then
+				AddRewardItems(items)
+
+				AddBook("book_citph04_success")
+			else
+				AddBook("book_citph04_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -195,7 +292,27 @@
 	<trigger Name="CDPH01_Garrison" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"bbguns_upgrade",
+							"mun_twin127CD01",
+							"mun_twin127CD01",
+							"mun_twin356CD02",
+							"AA152mmATGMCD01",
+							"AA152mmATGMCD01"
+						  }
+
+			if IsQuestComplete("CD_PH01_EscortFirst") or IsQuestComplete("CD_PH01_EscortSecond") then
+				AddRewardItems(items)
+
+				AddBook("book_cdph01_success")
+				if IsQuestComplete("CD_PH01_DestroyDestroyers") and IsQuestComplete("CD_PH01_DestroyTurrets") and IsQuestComplete("CD_PH01_DestroyCruisers") and IsQuestComplete("CD_PH01_DestroyBoats") then
+					AddBook("book_cdph01_victory")
+				end
+			else
+				if not(IsQuestComplete("CD_PH01_DestroyCruisers")) then
+					AddBook("book_cdph01_failure")
+				end
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -204,7 +321,48 @@
 	<trigger Name="CDPH02_Fortress" active="0">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			-- Add reward items to the shop
+			local items = {
+							"anti_missile_system",
+							"mun_twin356CD02",
+							"mun_twin356CD02",
+							"smlboatCDMachinegun01",
+							"smlboatCDMachinegun01",
+							"smlboatCDRocket01",
+							"smlboatCDRocket01"
+						  }
+
+			if IsQuestComplete("CD_PH02_DestroyTurrets") then
+				AddRewardItems(items)
+
+				AddBook("book_cdph02_success")
+			else
+				AddBook("book_cdph02_failure")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CDPH03_Armada" active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			local items = {
+							"hp_upgrade",
+							"AA152mmATGMCD01",
+							"AA152mmATGMCD01"
+						  }
+
+			if IsQuestComplete("CD_PH03_DestroyBattleship") then
+				AddRewardItems(items)
+
+				if IsQuestFailed("CD_PH03_ProtectCruiser") then
+					AddBook("book_cdph03_success")
+				else
+					AddBook("book_cdph03_victory")
+				end
+			else
+				AddBook("book_cdph03_failure")
+			end
 
 			trigger:Deactivate()
 		</script>

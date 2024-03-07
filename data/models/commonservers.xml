@@ -658,8 +658,34 @@
 		<Item id="nomusic" />
 		
 		<Item id="bs_mainmenu" />
+		<Item id="bs_credits" />
+		<Item id="bs_bar" />
 
+		<Item id="bs_attack_quiet" />
+		<Item id="bs_attack_combat" />
 
+		<Item id="bs_occupied_quiet" />
+		<Item id="bs_occupied_combat" />
+		<Item id="bs_occupied_reinforcements" />
+
+		<Item id="bs_force_quiet" />
+		<Item id="bs_force_combat" />
+
+		<Item id="bs_stealth_quiet" />
+		<Item id="bs_stealth_combat" />
+		<Item id="bs_stealth_retreat" />
+
+		<Item id="bs_armada_quiet" />
+		<Item id="bs_armada_combat" />
+		<Item id="bs_armada_retreat" />
+
+		<Item id="bs_attrition_quiet" />
+		<Item id="bs_attrition_combat" />
+
+		<Item id="bs_mooze_quiet" />
+		<Item id="bs_mooze_combat" />
+		<Item id="bs_mooze_reinforcements" />
+		<Item id="bs_mooze_retreat" />
 	<!-- vanilla -->
 <!-- 		<Item id="mainmenu" /> -->
 

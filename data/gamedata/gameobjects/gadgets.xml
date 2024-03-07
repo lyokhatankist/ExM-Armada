@@ -5,17 +5,182 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 -->
 
 <Prototypes>
+<!-- battleship -->
 
+<!-- unique -->
+	<Prototype
+		Class			= "Gadget"
+		Name			= "torpedo_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "10000"	
+		Modifications	= "Mine ReChargingTime -25"
+		ModelFile		= "blueprint"
+		SkinNum			= "0"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "ddguns_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "10000"	
+		Modifications	= "ShotGun ReChargingTime -20; ShotGun FiringRate 40; MachineGun Damage 20"
+		ModelFile		= "blueprint"
+		SkinNum			= "0"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "antiair_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "10000"	
+		Modifications	= "MachineGun ReChargingTime -40; MachineGun FiringRange 40; MachineGun Accuracy 40; MachineGun Damage 20; Nail ReChargingTime -20; Nail FiringRate 20; Nail Damage 10; Rocket ReChargingTime -20; Rocket FiringRate 20; Rocket Damage 10"
+		ModelFile		= "blueprint"
+		SkinNum			= "1"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "clguns_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "12500"	
+		Modifications	= "Cannon ReChargingTime -15; Cannon FiringRate 20; Cannon Damage 30"
+		ModelFile		= "blueprint"
+		SkinNum			= "1"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "hp_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "20000"	
+		Modifications	= "CHASSIS MaxHealth 25; CABIN MaxSpeed -15"
+		ModelFile		= "blueprint"
+		SkinNum			= "2"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "caguns_upgrade"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "15000"	
+		Modifications	= "Laser ReChargingTime -10; Laser FiringRate 10; Laser Damage 40"
+		ModelFile		= "blueprint"
+		SkinNum			= "2"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "fuel_upgrade"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "5000"	
+		Modifications	= "CHASSIS MaxFuel 40; CABIN MaxSpeed -10"
+		ModelFile		= "blueprint"
+		SkinNum			= "3"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "bbguns_upgrade"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "20000"	
+		Modifications	= "Plasma FiringRate 10; Plasma Damage 60"
+		ModelFile		= "blueprint"
+		SkinNum			= "3"
+		/>
 
 	<Prototype
 		Class			= "Gadget"
 		Name			= "anti_missile_system"
-		ResourceType	= "GADGET_COMMON" 
-		Price			= "57900"	
-		Modifications		= "VEHICLE GadgetAntiMissileRadius += 50"
-		ModelFile		= "gadget_08"
-		SkinNum			= "0"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "25000"	
+		Modifications	= "VEHICLE GadgetAntiMissileRadius += 500"
+		ModelFile		= "blueprint"
+		SkinNum			= "4"
 		/>
+
+<!-- basic -->
+	<Prototype
+		Class			= "Gadget"
+		Name			= "antiair_basic"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "1000"	
+		Modifications	= "MachineGun FiringRate 10; MachineGun Damage 10; Nail FiringRate 5; Nail Damage 5; Rocket FiringRate 5; Rocket Damage 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "7"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "ddguns_basic"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "2500"	
+		Modifications	= "ShotGun Damage 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "5"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "clguns_basic"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "3000"	
+		Modifications	= "Cannon Damage 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "5"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "caguns_basic"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "4000"	
+		Modifications	= "Laser Damage 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "5"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "bbguns_basic"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "5000"	
+		Modifications	= "Plasma Damage 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "5"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "hp_basic"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "4000"	
+		Modifications	= "CHASSIS MaxHealth 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "6"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "fuel_basic"
+		ResourceType	= "GADGET_COMMON" 
+		Price			= "500"	
+		Modifications	= "CHASSIS MaxFuel 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "6"
+		/>
+
+	<Prototype
+		Class			= "Gadget"
+		Name			= "speed_basic"
+		ResourceType	= "GADGET_WEAPON" 
+		Price			= "5000"	
+		Modifications	= "CABIN MaxSpeed 5; CABIN MaxTorque 5"
+		ModelFile		= "blueprint"
+		SkinNum			= "6"
+		/>
+
+
+<!-- vanilla -->	
 
 <!-- Gadgets for weapons -->
 

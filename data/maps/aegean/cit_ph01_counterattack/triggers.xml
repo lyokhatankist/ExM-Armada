@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(500)
@@ -201,6 +203,23 @@
 				end
 			end
 		
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_attrition_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -612,6 +631,8 @@
 			TActivate("CITOrderHurry")
 			TActivate("CDReinforcementsDestroyed")
 
+			PlayMusic("bs_attrition_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -623,6 +644,8 @@
 			UpdateUnitsStats()
 
 			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph01_fire")
+
+			PlayMusic("bs_attrition_combat")
 
 			trigger:Deactivate()
 		</script>
@@ -642,6 +665,8 @@
 				UpdateUnitsStats()
 
 				AddImportantFadingMsgByStrIdFormatted("fm_cit_ph01_hurry")
+
+				PlayMusic("bs_attrition_combat")
 
 				trigger:Deactivate()
 			end
@@ -801,6 +826,8 @@
 
 					AddFadingMsgId("fm_cit_ph01_citretreating")
 				end
+
+				PlayMusic("bs_attrition_quiet")
 
 				if CheckDistBetweenUnits(GetPlayerVehicle(), ReservesEnemies, "least") > 1500 then
 					local b = SpawnMessageBox( "1001" )

@@ -11,6 +11,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(700)
@@ -23,12 +25,12 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName							Type				Prototype		EffHP VehHP FP Maneuv.		FriendlyName}
-			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD01", 1600, 1600, 6752, 22, "«Солидо» (э.м.т. «Альбедо»)"}
-			friendly[2] = {"CDHeavyCruiser01_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD01", 4000, 4000, 18551, 12, "«Валенсия» (т.к.т. «Фурия»)"}
-			friendly[3] = {"CDHeavyCruiser02_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD02", 4000, 4000, 18551, 12, "«Иберия» (т.к.т. «Фурия»)"}
-			friendly[4] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD02", 1600, 1600, 6999, 22, "«Мальвадо» (э.м.т. «Альбедо»)"}
-			friendly[5] = {"CDDestroyer03_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD03", 1600, 1600, 9827, 22, "«Энохадо» (э.м.т. «Альбедо»)"}
-			friendly[6] = {"CDHeavyCruiser03_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD03", 4000, 4000, 18551, 12, "«Вальдивия» (т.к.т. «Фурия»)"}
+			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD01", 1600, 1600, 6752, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[2] = {"CDHeavyCruiser01_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD01", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[3] = {"CDHeavyCruiser02_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD02", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[4] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD02", 1600, 1600, 6999, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[5] = {"CDDestroyer03_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD03", 1600, 1600, 9827, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[6] = {"CDHeavyCruiser03_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD03", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
 			--                {objName		EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITBoat01_vehicle_0", 33, 125, 623, 55}
 			enemy[2] = {"CITBoat02_vehicle_0", 33, 125, 623, 55}
@@ -44,7 +46,7 @@
 			SetVar("PlayerHealth", 1600)
 			SetVar("PlayerVehicleHealth", 1600)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Касадо» (э.м.т. «Альбедо»)")
+			SetVar("PlayerName", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)")
 			SetVar("Objectives", 4) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 2500) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.2) -- multiplier that determines how much money the player will receive for each score point
@@ -203,6 +205,23 @@
 				end
 			end
 		
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_attack_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -819,6 +838,8 @@
 			if MaxHealth > CurHealth then
 				local b = SpawnMessageBox ("104")
 				if b == 1 then
+					PlayMusic("bs_attack_combat")
+
 					trigger:Deactivate()
 				end
 			end
@@ -874,6 +895,8 @@
 				TActivate("EnojadoRetreat")
 				TActivate("GiveGuns")
 
+				PlayMusic("bs_attack_quiet")
+
 				trigger:Deactivate()
 			end
 
@@ -909,6 +932,8 @@
 		<event eventid="GE_NOTICE_ENEMY" ObjName="CITDestroyer01_vehicle_0" />
 		<script>	
 			UpdateUnitsStats()
+
+			PlayMusic("bs_attack_combat")
 
 			local b = SpawnMessageBox ("106")
 
@@ -967,6 +992,8 @@
 				end
 			end
 
+			PlayMusic("bs_attack_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1009,6 +1036,8 @@
 					CDHC02a:SetCustomControlEnabled(0)
 					CDHC02a:SetExternalPathByName("CDHeavyCruiser02_Waypoint1")
 				end
+
+				PlayMusic("bs_attack_quiet")
 
 				if (IsQuestComplete("CD_Tutorial_DestroyDestroyer") and IsQuestComplete("CD_Tutorial_DestroyBoats")) then
 					local b = SpawnMessageBox ("112")

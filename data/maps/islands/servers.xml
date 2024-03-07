@@ -343,6 +343,12 @@
 			id="minoYkladchiK_2" 
 			file="data\models\AnimModels.xml"/>
 -->
+			
+<!-- items -->
+		<Item 
+			id="blueprint" 
+			file="data\models\AnimModels.xml"/>
+
 <!-- vehicles -->
 		<Item 
 			id="torpedo01" 
@@ -612,6 +618,14 @@
 
 		<Item 
 			id="mun_single138CIT01gun" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AADuet01" 
+			file="data\models\AnimModels.xml"/>
+
+		<Item 
+			id="AADuet01gun" 
 			file="data\models\AnimModels.xml"/>
 
 

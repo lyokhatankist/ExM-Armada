@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(1100)
@@ -97,7 +99,7 @@
 			SetVar("PlayerName", "«Каталунья» (т.к.т. «Фурия»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
-			SetVar("MissionScoreRewardMultiplier", 0.13) -- multiplier that determines how much money the player will receive for each score point
+			SetVar("MissionScoreRewardMultiplier", 0.185) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
 			local friendlies = {}
@@ -249,6 +251,23 @@
 				end
 			end
 		
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_attrition_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -735,21 +754,15 @@
 	<trigger Name="CITTurretsDestroyed" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun06" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun07" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun08" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun09" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun10" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun11" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun12" />
 		<script>
@@ -764,6 +777,8 @@
 				CompleteQuest("CD_PH02_DestroyTurrets")
 
 				TakeQuest("CD_PH02_Retreat")
+
+				PlayMusic("bs_attrition_quiet")
 
 				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 1150 then
 					local b = SpawnMessageBox( "1001" )
@@ -849,14 +864,10 @@
 		<event eventid="GE_UNDER_ATTACK" ObjName="CITOldCruiser01_vehicle_0" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun01" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun02" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun06" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun07" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun08" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun09" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun10" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun11" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITAAGun12" />
 		<script>
@@ -895,6 +906,8 @@
 			AddFadingMsgId("fm_reinforcements_inbound_foe")
 			AddFadingMsgId("fm_aircraft_enroute_foe")
 
+			PlayMusic("bs_attrition_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -902,9 +915,7 @@
 	<trigger Name="CITReserves" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun01" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun02" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun03" />
-		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun04" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun05" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CITCoastalGun06" />
 		<script>
@@ -927,6 +938,8 @@
 				end
 
 				AddFadingMsgId("fm_reserves_inbound_foe")
+
+				PlayMusic("bs_attrition_combat")
 
 				trigger:Deactivate()
 			end

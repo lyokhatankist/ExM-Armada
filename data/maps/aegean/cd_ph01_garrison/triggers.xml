@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(800)
@@ -65,7 +67,7 @@
 
 			SetVar("MissionTime", 0)
 			SetVar("RequiredMissionTime", 904) -- mission completion time (in s) for getting bonus score
-			SetVar("BaseRetreatScore", 20) -- base retreat score that may get multiplied depending on 4 different factors
+			SetVar("BaseRetreatScore", 30) -- base retreat score that may get multiplied depending on 4 different factors
 			SetVar("RequiredRetreatScore", 30) -- retreat score that needs to be reached for each friendly unit to successfully retreat
 			SetVar("PlayerHealth", 1600)
 			SetVar("PlayerVehicleHealth", 1600)
@@ -73,7 +75,7 @@
 			SetVar("PlayerName", "«Абогадо» (э.м.т. «Альбедо»)")
 			SetVar("Objectives", 3) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 50000) -- how much score each objective gives
-			SetVar("MissionScoreRewardMultiplier", 0.125) -- multiplier that determines how much money the player will receive for each score point
+			SetVar("MissionScoreRewardMultiplier", 0.175) -- multiplier that determines how much money the player will receive for each score point
 
 			local j = 1
 			local friendlies = {}
@@ -226,6 +228,23 @@
 				end
 			end
 		
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_mooze_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -748,7 +767,7 @@
 				CDD01a:SetExternalPathByName("CDDestroyer01_Waypoint1")
 				CDD01a:SetCanBeDistractedFromMoving(true)
 
-				SetVar("CDDestroyer01WaypointStatus", TableToString({0, 2, 0})) -- waypoints reached, amount of waypoints, amount of cycles with 0 speed
+				SetVar("CDDestroyer01WaypointStatus", TableToString({0, 3, 0})) -- waypoints reached, amount of waypoints, amount of cycles with 0 speed
 			end
 			
 			if CDD02a then
@@ -757,7 +776,7 @@
 				CDD02a:SetExternalPathByName("CDDestroyer02_Waypoint1")
 				CDD02a:SetCanBeDistractedFromMoving(true)
 
-				SetVar("CDDestroyer02WaypointStatus", TableToString({0, 2, 0}))
+				SetVar("CDDestroyer02WaypointStatus", TableToString({0, 3, 0}))
 			end
 
 			if CDM01a then
@@ -944,6 +963,8 @@
 			end
 
 			println("mission end 0")
+
+			PlayMusic("bs_mooze_retreat")
 			
 			trigger:Deactivate()
 		</script>
@@ -969,6 +990,8 @@
 
 			if CDMerchantsDestroyed >= 2 then
 				TakeQuest("CD_PH01_Retreat")
+
+				PlayMusic("bs_mooze_reinforcements")
 
 				trigger:Deactivate()
 			end
@@ -1046,6 +1069,7 @@
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
 			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
 			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksThreshold = 3 -- amount of checks for the vehicle to be deemed suspiciciously still
 			local checksAmount = 0
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
@@ -1063,7 +1087,7 @@
 					currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
 					currentWaypoint = currentVehicleWaypointInfo[1] + 2
 					LOG(i.." 1062")
-					if currentVehicleWaypointInfo[2] > currentWaypoint then
+					if (currentVehicleWaypointInfo[2] + 1) >= currentWaypoint then
 						LOG(i.." 1064")
 						println("there are waypoints for "..currentVehicleName)
 						currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the next waypoint
@@ -1099,29 +1123,30 @@
 						currentVehicleName = vehicles[j]
 						currentVehicle = getObj(currentVehicleName.."_vehicle_0")
 						LOG(j.." 1098")
-						if currentVehicle then
+						if CheckUnits(currentVehicleName.."_vehicle_0") then
 							LOG(j.." 1100")
 							println(currentVehicleName.." exists")
 							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."WaypointStatus").AsString)
 							currentWaypoint = currentVehicleWaypointInfo[1] + 1
 							LOG(j.." 1104")
-							if 3 > GetSpeed(currentVehicle) then
+							if speedThreshold > GetSpeed(currentVehicle) then
 								LOG(j.." 1106")
 								println(currentVehicleName.." speed is too low")
 								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
 								println("checks amount is "..checksAmount)
 								LOG(j.." 1110")
-								if checksAmount >= 3 then
+								if checksAmount >= checksThreshold then
 									LOG(j.." 1112")
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
-									if currentVehicleWaypointInfo[2] > currentWaypoint then
+									if (currentVehicleWaypointInfo[2] + 1) >= currentWaypoint then
 										LOG(j.." 1116")
 										currentVehicle:SetExternalPathByName(currentVehicleName.."_Waypoint"..currentWaypoint) -- the vehicle is set on the path for the current waypoint
 										currentVehicle:SetCanBeDistractedFromMoving(true) -- set this to false or remove the line if this trigger is used for racing, lol
 										println(currentVehicleName.." set for the current waypoint")
 										LOG(j.." 1120")
 									else
+										vehicleTargetsReached = vehicleTargetsReached + 1
 										LOG(j.." 1122")
 										println("maximum waypoints for "..currentVehicleName.." reached")
 									end
@@ -1139,10 +1164,14 @@
 							SetVar(currentVehicleName.."WaypointStatus", TableToString(currentVehicleWaypointInfo))
 							println(currentVehicleName.." waypoint info updated")
 							LOG(j.." 1138")
-							if currentVehicleWaypointInfo[1] >= currentVehicleWaypointInfo[2] then
-								LOG(j.." 1140")
-								vehicleTargetsReached = vehicleTargetsReached + 1
-							end
+--							if currentVehicleWaypointInfo[1] >= currentVehicleWaypointInfo[2] then
+--								LOG(j.." 1140")
+--								vehicleTargetsReached = vehicleTargetsReached + 1
+--							end
+						else
+							vehicleTargetsReached = vehicleTargetsReached + 1
+							LOG(currentVehicleName.." is dead")
+							println(currentVehicleName.." is dead")
 						end
 					end
 
@@ -1151,7 +1180,7 @@
 			end
 
 			LOG("1150")
-			if vehicleTargetsReached==getn(vehicles) then
+			if vehicleTargetsReached>=getn(vehicles) then
 				LOG("1152")
 				println("all vehicles reached their targets")
 				LOG("ALL CD DESTROYERS REACHED THE TARGET")
@@ -1304,6 +1333,10 @@
 
 				TDeactivate("CITDestroyersFormationManager")
 
+				if getObj("CITCoastalGunsOrder"):IsActivated()~=1 then
+					PlayMusic("bs_mooze_retreat")
+				end
+
 				trigger:Deactivate()
 			else
 				UpdateQuestCoordinates("CD_PH01_DestroyDestroyers", Enemies)
@@ -1337,6 +1370,10 @@
 
 				CompleteQuest("CD_PH01_DestroyTurrets")
 
+				TDeactivate("CITCoastalGunsMusic")
+
+				PlayMusic("bs_mooze_retreat")
+
 				trigger:Deactivate()
 			else
 				UpdateQuestCoordinates("CD_PH01_DestroyTurrets", Enemies)
@@ -1362,6 +1399,9 @@
 				CompleteQuest("CD_PH01_DestroyCruisers")
 
 				TDeactivate("CITCruisersFormationManager")
+				TDeactivate("CITCoastalGunsMusic")
+
+				PlayMusic("bs_mooze_quiet")
 
 				trigger:Deactivate()
 			else
@@ -1452,6 +1492,8 @@
 
 			SetVar("MissionStage", 2)
 
+			PlayMusic("bs_mooze_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1481,7 +1523,33 @@
 			SetVar("CDDestroyer01WaypointStatus", TableToString({1, 2, 0}))
 			SetVar("CDDestroyer02WaypointStatus", TableToString({1, 2, 0}))
 
+			PlayMusic("bs_mooze_combat")
+
+			TActivate("CITCoastalGunsMusic")
+
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CITCoastalGunsMusic" active="0">
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun01" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun02" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun03" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITCoastalGun04" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITLav03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat01_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat02_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat03_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat04_vehicle_0" />
+		<event eventid="GE_NOTICE_ENEMY" ObjName="CITBoat05_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav01_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav02_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="CITLav03_vehicle_0" />
+		<script>
+			PlayMusic("bs_mooze_combat")
+
 		</script>
 	</trigger>
 
@@ -1503,6 +1571,10 @@
 			TakeQuest("CD_PH01_DestroyCruisers")
 
 			SetVar("MissionStage", 4)
+
+			TDeactivate("CITCoastalGunsMusic")
+
+			PlayMusic("bs_mooze_reinforcements")
 
 			trigger:Deactivate()
 		</script>
@@ -1684,6 +1756,8 @@
 				LOG("ENEMY REINFORCEMENTS INBOUND")
 
 				TActivate("CITCruisersFormationManager")
+
+				TDeactivate("CITCoastalGunsMusic")
 
 				trigger:Deactivate()
 			end

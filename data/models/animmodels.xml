@@ -1491,6 +1491,17 @@
 				ImmediateRemove="0" />
 		</action>
 	</model>
+
+<!-- battleship -->
+
+<!-- items -->
+	<model
+		id="blueprint"
+		shadow="1"
+		shadowVolume="1"
+		windwavy="0"
+		file="data\models\battleship\items\blueprint.gam" />
+
 <!-- vehicles -->
 	<model
 		id="torpedo01"
@@ -3268,6 +3279,57 @@
 			<lp
 				id="LP_FIRE01"
 				effect_id="ET_PS_CANNON_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AADuet01"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_destroyer\aaduet.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_GUN"
+				effect_id="ET_PS_VULCAN01_FIRE_SOUND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+	</model>
+
+	<model
+		id="AADuet01gun"
+		shadow="0"
+		windwavy="0"
+		file="data\models\battleship\vehicles\cit_destroyer\aaduet_gun.gam">
+		<action
+			name="MOVE1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_VULCAN01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_VULCAN01_FIRE"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+		</action>
+
+		<action
+			name="STAND1">
+			<lp
+				id="LP_FIRE01"
+				effect_id="ET_PS_MACHINEGUN_STAND"
+				restartOnAnimationChange="1"
+				ImmediateRemove="0" />
+
+			<lp
+				id="LP_FIRE02"
+				effect_id="ET_PS_MACHINEGUN_STAND"
 				restartOnAnimationChange="1"
 				ImmediateRemove="0" />
 		</action>
@@ -9946,6 +10008,7 @@
 		windwavy="0"
 		trans="0" />
 -->
+
 	<model
 		id="r1_deadtree1"
 		shadow="1"
@@ -10146,7 +10209,7 @@
 		useImpostors = "1"
 		file="data\models\battleship\environment\trees\r3\palm3.gam" />
 
-<!-- other -->
+<!-- vanilla -->
 	<model
 		id="submarine"
 		file="data\models\monsters\submarine\Submarina.gam"

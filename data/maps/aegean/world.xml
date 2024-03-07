@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="267108052">
+	LastId="267108056">
 	<Node
 		name="Object267100572"
 		class="SgAnimatedModelNode"
@@ -41515,9 +41515,9 @@
 	<Node
 		name="Object267106373"
 		class="SgAnimatedModelNode"
-		org="6644.599 0.008 4107.594"
+		org="6643.627 0.008 4108.762"
 		orgRel="1"
-		rot="0.0000 0.6361 0.0000 -0.7716"
+		rot="0.0000 0.6708 0.0000 -0.7417"
 		scale="0.250 1.000 1.000"
 		id="shipbarrier"
 		ndmAction="0" />
@@ -41525,7 +41525,7 @@
 	<Node
 		name="Object267106376"
 		class="SgAnimatedModelNode"
-		org="6659.215 0.008 4143.500"
+		org="6657.232 0.008 4143.962"
 		orgRel="1"
 		rot="0.0000 0.4617 0.0000 -0.8870"
 		scale="0.250 1.000 1.000"
@@ -41535,9 +41535,9 @@
 	<Node
 		name="Object267106378"
 		class="SgAnimatedModelNode"
-		org="6687.308 0.008 4166.765"
+		org="6686.809 0.008 4167.456"
 		orgRel="1"
-		rot="0.0000 0.1435 0.0000 -0.9897"
+		rot="0.0000 0.1887 0.0000 -0.9820"
 		scale="0.250 1.000 1.000"
 		id="shipbarrier"
 		ndmAction="0" />
@@ -51000,5 +51000,25 @@
 		org="6761.989 0.200 6587.830"
 		orgRel="1"
 		id="buoy"
+		ndmAction="0" />
+
+	<Node
+		name="Object267108053"
+		class="SgAnimatedModelNode"
+		org="6679.807 -1.368 4156.345"
+		orgRel="1"
+		rot="0.1087 -0.8858 -0.3669 -0.2624"
+		scale="0.250 1.000 1.000"
+		id="shipbarrier"
+		ndmAction="0" />
+
+	<Node
+		name="Object267108055"
+		class="SgAnimatedModelNode"
+		org="6654.666 2.649 4129.251"
+		orgRel="1"
+		rot="0.1533 -0.8143 -0.2490 -0.5015"
+		scale="0.250 1.000 1.000"
+		id="shipbarrier"
 		ndmAction="0" />
 </World>

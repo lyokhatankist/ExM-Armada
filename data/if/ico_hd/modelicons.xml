@@ -2,6 +2,24 @@
 <!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
 
 <icons>
+   <Item id="torpedo_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_torp.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="ddguns_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_dd.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="antiair_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_aa.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="clguns_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_cl.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="hp_upgrade"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_hp.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="caguns_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_ca.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="fuel_upgrade"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_fuel.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="bbguns_upgrade"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_bb.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="anti_missile_system"				file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_missile.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="antiair_basic"						file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_aa.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="ddguns_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_dd.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="clguns_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_cl.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="caguns_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_ca.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="bbguns_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_bb.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="hp_basic"								file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_hp.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="fuel_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x1_fuel.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="speed_basic"							file="data\if\ico_hd\InventoryDlg\battleship\gadgets\1x2_speed.dds"			file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+
 	<Item id="smlboatCITNurs01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\Nurs01.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="smlboatCITMachinegun01"			file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITMachinegun01.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="smlboatCITRocket01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITRocket01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
@@ -16,6 +34,7 @@
 	<Item id="mun_single130CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02a.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_single138CIT01"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain01b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_single138CIT02"					file="data\if\ico_hd\InventoryDlg\battleship\weapons\CITDestMain02b.dds"	file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
+   <Item id="AADuet01"						      file="data\if\ico_hd\InventoryDlg\battleship\weapons\AADuet.dds"				file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="destroyerCDTorpedo01"				file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="dead_destroyerCDTorpedo01"	   file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDTorpedo01.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
 	<Item id="mun_twin127CD01"						file="data\if\ico_hd\InventoryDlg\battleship\weapons\CDDestMain01a.dds"		file1="data\if\ico\maingameinterfacewnd\highlight.dds"/>
@@ -91,7 +110,7 @@
 
 
 
-   <Item id="Belong_1000"			file="data\if\ico\clans\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\commonwealth_of independent_towns02.dds"/>
+   <Item id="Belong_1000"			file="data\if\ico_hd\clans\battleship\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\battleship\commonwealth_of independent_towns02.dds"/>
    <Item id="Belong_1050"			file="data\if\ico\clans\crimson_dawn03.dds"								file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1500"			file="data\if\ico\InventoryDlg\Opacity1.dds"								file1="data\if\ico\InventoryDlg\Opacity1.dds"/>	
 

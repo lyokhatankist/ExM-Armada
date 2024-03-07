@@ -48,6 +48,30 @@
 				ModelName="point"
 				helloReplyNames="CD_Mission_Main"
 				SpokenCount="0" />
+
+			<Object
+				Name="EPCgiver"
+				Belong="1500"
+				Prototype="NPC"
+				ModelName="point"
+				helloReplyNames="EPC_Mission_Main"
+				SpokenCount="0" />
+
+			<Object
+				Name="BRCRTgiver"
+				Belong="1500"
+				Prototype="NPC"
+				ModelName="point"
+				helloReplyNames="BRCRT_Mission_Main"
+				SpokenCount="0" />
+
+			<Object
+				Name="Othergiver"
+				Belong="1500"
+				Prototype="NPC"
+				ModelName="point"
+				helloReplyNames="Other_Mission_Main"
+				SpokenCount="0" />
 		</Object>
 
 		<Object

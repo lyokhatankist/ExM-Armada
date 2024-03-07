@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(750)
@@ -196,6 +198,23 @@
 				end
 			end
 
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_stealth_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -878,6 +897,8 @@
 
 			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph04_order")
 
+			PlayMusic("bs_stealth_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -911,30 +932,40 @@
 		<script>
 			local Unit
 			local Friendlies = StringToTable(GetVar("Friendlies").AsString)
+			local RetreatMusic = GetVar("RetreatMusic").AsInt
 
-			Unit = getObj("CITTorpedoBoat01")
-			if Unit then
-				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
-				Unit:_AdjustBehaviour ()
-			end
-			Unit = getObj("CITTorpedoBoat02")
-			if Unit then
-				Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
-				Unit:_AdjustBehaviour ()
-			end
-
-			for i=1,3 do
-				Unit = getObj(Friendlies[i])
+			if RetreatMusic == -1 then
+				Unit = getObj("CITTorpedoBoat01")
 				if Unit then
-					Unit:SetExternalPathByName("CITRetreatDirection_"..i)
-					Unit:SetCanBeDistractedFromMoving(false)
-					Unit:SetCruisingSpeed(40)
+					Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+					Unit:_AdjustBehaviour ()
 				end
+				Unit = getObj("CITTorpedoBoat02")
+				if Unit then
+					Unit:SetProperty ("TeamTacticPrototype", "CowardTeamTactic")
+					Unit:_AdjustBehaviour ()
+				end
+
+				for i=1,3 do
+					Unit = getObj(Friendlies[i])
+					if Unit then
+						Unit:SetExternalPathByName("CITRetreatDirection_"..i)
+						Unit:SetCanBeDistractedFromMoving(false)
+						Unit:SetCruisingSpeed(40)
+					end
+				end
+
+				AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
+			elseif RetreatMusic >= 2 then
+				PlayMusic("bs_stealth_retreat")
+
+				trigger:Deactivate()
+			else
+				RetreatMusic = RetreatMusic + 1
+
+				SetVar("RetreatMusic", RetreatMusic)
 			end
 
-			AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
-
-			trigger:Deactivate()
 		</script>
 	</trigger>
 </triggers>

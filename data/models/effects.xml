@@ -2928,6 +2928,10 @@
 	<Node name="ET_PS_VULCAN01_FIRE" class="SgNode">
 		<Node name="Object0" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN" psNumEmitterMesh="-1" />
 		<Node name="Object1" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+<!-- 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_VULCAN" looped="1" /> -->
+	</Node>
+	
+	<Node name="ET_PS_VULCAN01_FIRE_SOUND" class="SgNode">
 		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_VULCAN" looped="1" />
 	</Node>
 

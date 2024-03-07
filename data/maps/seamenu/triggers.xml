@@ -7,24 +7,265 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trFindThing"	active="1">
-		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+	<trigger	Name="MainStart"	active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
-			local Plf = GetPlayerVehicle()
-			local PlfID = GetPlayerVehicleId()
-			local PlfCoor = Plf:GetPosition()
-			PlfCoor.y = PlfCoor.y + 25*0.74
-			PlfCoor.z = PlfCoor.z + 25*0.74
+			RuleConsole("cinematic_spring_coeff 2.0")
 
-			Plf:SetCustomLinearVelocity(0)
-			Plf:SetThrottle(0)
+			SetGameTime(20,00)
 
-			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
-			StartCinematic()
+			CreateVehicleEx("HCruiserCD01", "veh01", CVector(1190, 285, 4480), 1500)
+			CreateVehicleEx("DestroyerCD02", "veh02", CVector(1130, 285, 4530), 1500)
+			CreateVehicleEx("SemibossCD01", "veh08", CVector(1180, 285, 4590), 1500)
+			CreateVehicleEx("DestroyerCD02", "veh04", CVector(1035, 285, 4600), 1500)
+			CreateVehicleEx("DestroyerCD01", "veh05", CVector(1225, 285, 4680), 1500)
+			CreateVehicleEx("DestroyerCD01", "veh06", CVector(1010, 285, 4695), 1500)
+			CreateVehicleEx("HCruiserCD01", "veh07", CVector(1100, 285, 4730), 1500)
+			CreateVehicleEx("DestroyerCD02", "veh03", CVector(1175, 285, 4775), 1500)
+			
+			
+			local veh
+			for i=1, 8 do
+				veh = getObj("veh0"..i)
+				if veh then
+					veh:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					veh:SetExternalPathByName("veh0"..i.."_ex")
+					veh:SetCruisingSpeed(4)
+				end
+			end
+			
+			if MenuLoaded~=1 then
+				AddPlayerVehicle("BattleshipCD02")
+				local Plf = GetPlayerVehicle()
+				if Plf then
+					Plf:SetPosition(CVector(1265.000, 274.500, 4630.000))
+					Plf:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					Plf:SetExternalPathByName("pl_ex")
+					Plf:LimitMaxSpeed(4)
+				end
 
-			PlayCustomMusic("bs_mainmenu")
+				local PlfID = GetPlayerVehicleId()
+				Fly("main_middle", CINEMATIC_NO_AIM, 0, 25, 1, 0 )
+				FlyLinked("main_end", PlfID, 300, 0, 0, PlfID, nil, nil, nil, 1 )
+
+				StartCinematic()
+				UpdateCinematic( 1 )
+
+				TActivate("CinematicUpdate")
+			else
+				CreateVehicleEx("BattleshipCD02", "veh_pl", CVector(1265, 285, 4630), 1500)
+				veh = getObj("veh_pl")
+				if veh then
+					veh:SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					veh:SetExternalPathByName("pl_ex")
+					veh:SetCruisingSpeed(4)
+				end
+			end
+			
+			MenuLoaded = 1
 
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CinematicUpdate" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			local PlfID = GetPlayerVehicleId()
+			
+			FlyLinked("main_end", PlfID, 300, 0, 0, PlfID, nil, nil, nil, 1 )
+
+			UpdateCinematic( 1 )
+
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			StopPlayingCustomMusic()
+
+			println("what kind of code sorcery is this you may ask")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trMusic" active="1">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_mainmenu")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="HeliSpawn_1"	active="1">
+		<event	timeout="7"		eventid="GE_TIME_PERIOD" />
+		<script>
+			helipos = {	{735, 4390},
+						{385, 4415},
+						{680, 4440},
+						{210, 4465},
+						{850, 4510},
+						{125, 4530},
+						{755, 4545},
+						{380, 4560},
+						{495, 4585},
+						{225, 4605},
+						{905, 4670},
+						{185, 4730},
+						{860, 4700},
+						{345, 4760},
+						{785, 4775},
+						{170, 4790},
+						{365, 4800},
+						{550, 4820},
+						{135, 4855},
+						{690, 4870}
+					  }
+			for i=1, 20 do
+				SetVar("heli1_"..i.."_startpos", TableToString(helipos[i]))
+				CreateVehicleEx("HeliCD0"..math.random(4), "heli1_"..i, CVector(helipos[i][1], 285, helipos[i][2]), 1500)
+				if getObj("heli1_"..i) then
+					getObj("heli1_"..i):SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					getObj("heli1_"..i):SetExternalPathByName("heli_"..i.."_ex")
+					getObj("heli1_"..i):SetCruisingSpeed(math.random(15, 40))
+				end
+			end
+
+			TActivate("HeliManager_1")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="HeliManager_1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_1" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_2" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_3" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_4" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_5" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_6" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_7" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_8" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_9" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_10" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_11" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_12" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_13" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_14" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_15" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_16" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_17" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_18" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_19" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli1_20" />
+		<script>
+			local triggerObjName = trigger:GetCallObjName()
+			local helipos
+
+			for i=1,20 do
+				if triggerObjName=="heli1_"..i then
+					println("trigger obj is heli1_"..i)
+					LOG("trigger obj is heli1_"..i)
+					if getObj("heli1_"..i) then
+						helipos = StringToTable(GetVar("heli1_"..i.."_startpos").AsString)
+						getObj("heli1_"..i):SetGamePositionOnGround(CVector(helipos[1], 285, helipos[2]))
+						getObj("heli1_"..i):SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+						getObj("heli1_"..i):SetExternalPathByName("heli_"..i.."_ex")
+						getObj("heli1_"..i):SetCruisingSpeed(math.random(15, 30))
+					end
+
+					break
+				end
+			end
+
+		</script>
+	</trigger>
+
+	<trigger	Name="HeliSpawn_2"	active="1">
+		<event	timeout="82"	eventid="GE_TIME_PERIOD" />
+		<script>
+			helipos = {	{755, 4390},
+						{345, 4415},
+						{700, 4440},
+						{230, 4465},
+						{820, 4510},
+						{145, 4530},
+						{785, 4545},
+						{410, 4560},
+						{455, 4585},
+						{275, 4605},
+						{935, 4670},
+						{215, 4730},
+						{890, 4700},
+						{375, 4760},
+						{815, 4775},
+						{200, 4790},
+						{335, 4800},
+						{580, 4820},
+						{165, 4855},
+						{650, 4870}
+					  }
+			for i=1, 20 do
+				SetVar("heli2_"..i.."_startpos", TableToString(helipos[i]))
+				CreateVehicleEx("HeliCD0"..math.random(4), "heli2_"..i, CVector(helipos[i][1], 285, helipos[i][2]), 1500)
+				if getObj("heli2_"..i) then
+					getObj("heli2_"..i):SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+					getObj("heli2_"..i):SetExternalPathByName("heli_"..i.."_ex")
+					getObj("heli2_"..i):SetCruisingSpeed(math.random(15, 40))
+				end
+			end
+
+			TActivate("HeliManager_2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="HeliManager_2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_1" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_2" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_3" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_4" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_5" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_6" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_7" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_8" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_9" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_10" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_11" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_12" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_13" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_14" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_15" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_16" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_17" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_18" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_19" />
+		<event eventid="GE_TARGET_REACHED" ObjName="heli2_20" />
+		<script>
+			local triggerObjName = trigger:GetCallObjName()
+			local helipos
+
+			for i=1,20 do
+				if triggerObjName=="heli2_"..i then
+					println("trigger obj is heli2_"..i)
+					LOG("trigger obj is heli2_"..i)
+					if getObj("heli2_"..i) then
+						helipos = StringToTable(GetVar("heli2_"..i.."_startpos").AsString)
+						getObj("heli2_"..i):SetGamePositionOnGround(CVector(helipos[1], 285, helipos[2]))
+						getObj("heli2_"..i):SetRotation(Quaternion(0.0000, 0.7071, 0.0000, 0.7071))
+						getObj("heli2_"..i):SetExternalPathByName("heli_"..i.."_ex")
+						getObj("heli2_"..i):SetCruisingSpeed(math.random(15, 30))
+					end
+
+					break
+				end
+			end
+
 		</script>
 	</trigger>
 </triggers>

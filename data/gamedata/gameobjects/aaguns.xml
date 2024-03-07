@@ -6,6 +6,38 @@
 
 
 	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "AADuet01"
+		ModelFile		= "AADuet01"
+		ResourceType	= "MEDANTIAIR_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		Decal			= "DC_SML_MACHINEGUN"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "true"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringType			= "MachineGun"
+		RecoilForce			= "200"
+
+		DamageType			= "BLAST"
+		NumBulletsInShot	= "2"
+
+		Damage			= "10"
+		FiringRate		= "1100"
+		ChargeSize     	= "300"
+		RechargingTime 	= "25"
+
+		FiringRange		= "700"
+		GroupingAngle	= "4"
+
+		TurningSpeed	= "60"
+		Durability		= "9" 
+		Price			= "900" />
+
+	<Prototype
 		Class			= "PlasmaBunchLauncher"
 		Name			= "AA47mmCannon01"
 		ModelFile		= "AA47mmCannon01"
@@ -17,7 +49,7 @@
 
 		BulletPrototype		= "47mmAAshell"
 		ExplosionType		= "AUTOCANNON"
-		FiringType			= "Plasma"
+		FiringType			= "Nail"
 		RecoilForce			= "50"
 		
 		BlastWavePrototype	= "47mmBlastWave"
@@ -32,7 +64,7 @@
 		
 		TurningSpeed	= "50"
 		Durability		= "10"
-		Price			= "174000" />
+		Price			= "1600" />
 
 	<Prototype
 		Class			= "PlasmaBunch"
@@ -80,7 +112,7 @@
 
 		TurningSpeed	= "40"
 		Durability		= "5"
-		Price			= "9870" />
+		Price			= "2200" />
 			
 	<Prototype
 		Class			= "Rocket"
@@ -132,7 +164,7 @@
 
 		TurningSpeed	= "40"
 		Durability		= "5"
-		Price			= "9870" />
+		Price			= "1400" />
 			
 	<Prototype
 		Class			= "Rocket"
@@ -179,7 +211,7 @@
 		
 		TurningSpeed	= "65"
 		Durability		= "8" 
-		Price			= "32900" />
+		Price			= "500" />
 
 <!-- coastal artillery -->
 	<Prototype
@@ -197,7 +229,7 @@
 
 		BulletPrototype		= "dot_47mmAAshell"
 		ExplosionType		= "AUTOCANNON"
-		FiringType			= "Plasma"
+		FiringType			= "Nail"
 		RecoilForce			= "50"
 		
 		BlastWavePrototype	= "47mmBlastWave"
@@ -212,7 +244,7 @@
 		
 		TurningSpeed	= "50"
 		Durability		= "10"
-		Price			= "174000" />
+		Price			= "2000" />
 
 	<Prototype
 		Class			= "PlasmaBunch"
@@ -260,7 +292,7 @@
 
 		TurningSpeed	= "110"
 		Durability		= "3" 
-		Price			= "32900" />
+		Price			= "185" />
 
 	<Prototype
         Class			= "RocketLauncher"
@@ -279,7 +311,7 @@
 		FiringType			= "Rocket"
 		RecoilForce			= "300"
 
-		DamageType			= "ENERGY"
+		DamageType			= "PIERCING"
 		BlastWavePrototype	= "atgmcdBlastWave"
 
 		Damage			= "120"
@@ -295,7 +327,7 @@
 
 		TurningSpeed	= "80"
 		Durability		= "2"
-		Price			= "9870" />
+		Price			= "1100" />
 
 
 <!-- CIT Small Boat -->
@@ -330,7 +362,7 @@
 
 		TurningSpeed	= "95"
 		Durability		= "4" 
-		Price			= "32900" />
+		Price			= "200" />
 
 	<Prototype
         Class			= "RocketLauncher"
@@ -365,7 +397,7 @@
 
 		TurningSpeed	= "85"
 		Durability		= "3"
-		Price			= "9870" />
+		Price			= "950" />
 
 
 <!-- CIT Helicopter-->
@@ -385,14 +417,14 @@
 		
 		BulletPrototype		= "nurs01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Nail"
 
 		FiringRate		= "0"
 		ChargeSize		= "0"
 
 		TurningSpeed	= "15"
 		Durability		= "0"
-		Price			= "102500" />
+		Price			= "50" />
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -423,7 +455,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "5" 
-		Price			= "32900" />
+		Price			= "250" />
 
 	<Prototype
 		Class			= "PlasmaBunchLauncher"
@@ -439,7 +471,7 @@
 
 		BulletPrototype		= "nurs01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Artillery"
 		RecoilForce			= "1200"
 
 		DamageType			= "ENERGY"
@@ -458,7 +490,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "5"
-		Price			= "102500" />
+		Price			= "3500" />
 
 	<Prototype
 		Class			= "PlasmaBunch"
@@ -508,7 +540,7 @@
 
 		TurningSpeed	= "15"
 		Durability		= "2"
-		Price			= "9870" />
+		Price			= "4650" />
 			
 	<Prototype
 		Class			= "Rocket"
@@ -545,14 +577,14 @@
 		
 		BulletPrototype		= "naga01"
 		ExplosionType		= "SMLBLAST_HE"
-		FiringType			= "Laser"
+		FiringType			= "Nail"
 
 		FiringRate		= "0"
 		ChargeSize		= "0"
 
 		TurningSpeed	= "35"
 		Durability		= "0"
-		Price			= "102500" />
+		Price			= "50" />
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -584,7 +616,7 @@
 
 		TurningSpeed	= "35"
 		Durability		= "5" 
-		Price			= "32900" />
+		Price			= "50" />
 
 	<Prototype
 		Class			= "BulletLauncher"
@@ -615,7 +647,7 @@
 
 		TurningSpeed	= "35"
 		Durability		= "5" 
-		Price			= "32900" />
+		Price			= "1000" />
 
     <Prototype
         Class			= "RocketLauncher"
@@ -650,7 +682,7 @@
 
 		TurningSpeed	= "35"
 		Durability		= "5"
-		Price			= "9870" />
+		Price			= "675" />
 			
 	<Prototype
 		Class			= "Rocket"

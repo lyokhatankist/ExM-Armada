@@ -7,6 +7,8 @@
 			
 			SetWeather(0)
 
+			RuleConsole("cinematic_spring_coeff 0.3")
+
 			ShowMap()
 
 			Radar:SetScanRadius(1000)
@@ -208,6 +210,23 @@
 				end
 			end
 
+		</script>
+	</trigger>
+
+	<trigger Name="trMusicManager" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<script>
+			PlayMusic(GetVar("CustomMusicName").AsString)
+
+		</script>
+	</trigger>
+
+	<trigger Name="MissionMusicStart" active="1">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayMusic("bs_force_quiet")
+
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -694,6 +713,8 @@
 
 				TakeQuest("CIT_PH02_Retreat")
 
+				PlayMusic("bs_force_quiet")
+
 				if CheckDistBetweenUnits(GetPlayerVehicle(), Enemies, "least") >= 1150 then
 					local b = SpawnMessageBox( "1001" )
 					println("mission end 0")
@@ -749,6 +770,7 @@
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
 			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
 			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksThreshold = 3 -- amount of checks for the vehicle to be deemed suspiciciously still
 			local checksAmount = 0
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
@@ -796,11 +818,11 @@
 							println(currentVehicleName.." exists")
 							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
 							currentWaypoint = currentVehicleWaypointInfo[1] + 1
-							if 3 > GetSpeed(currentVehicle) then
+							if speedThreshold > GetSpeed(currentVehicle) then
 								println(currentVehicleName.." speed is too low")
 								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
 								println("checks amount is "..checksAmount)
-								if checksAmount >= 3 then
+								if checksAmount >= checksThreshold then
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
 									if currentVehicleWaypointInfo[2] >= currentWaypoint then
@@ -974,6 +996,8 @@
 
 			AddFadingMsgId("fm_aircraft_enroute_foe")
 
+			PlayMusic("bs_force_combat")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1003,6 +1027,7 @@
 			local currentVehicle -- = getObj("CDDestroyer01_vehicle_0")
 			local currentVehicleWaypointInfo -- = StringToTable(GetVar("CDD01aWaypointStatus").AsString)
 			local speedThreshold = 3 -- the speed at which the vehicle is deemed suspiciously still
+			local checksThreshold = 3 -- amount of checks for the vehicle to be deemed suspiciciously still
 			local checksAmount = 0
 			local currentWaypoint = 0
 			local vehicleTargetsReached = 0 -- the amount of vehicles that reached the targets, if it equals to the amount of entries in the 'vehicles' table - the trigger deactivates
@@ -1050,11 +1075,11 @@
 							println(currentVehicleName.." exists")
 							currentVehicleWaypointInfo = StringToTable(GetVar(currentVehicleName.."_WaypointStatus").AsString)
 							currentWaypoint = currentVehicleWaypointInfo[1] + 1
-							if 3 > GetSpeed(currentVehicle) then
+							if speedThreshold > GetSpeed(currentVehicle) then
 								println(currentVehicleName.." speed is too low")
 								checksAmount = currentVehicleWaypointInfo[3] + 1 -- the speed of the vehicle is too low, the check has passed one more time
 								println("checks amount is "..checksAmount)
-								if checksAmount >= 3 then
+								if checksAmount >= checksThreshold then
 									println("there have been 3 checks for "..currentVehicleName)
 --									currentWaypoint = currentVehicleWaypointInfo[1] + 1
 									if currentVehicleWaypointInfo[2] >= currentWaypoint then
@@ -1141,6 +1166,8 @@
 			TakeQuest("CIT_PH02_DestroyDestroyers")
 
 			AddImportantFadingMsgByStrIdFormatted("fm_cit_ph02_destroyers")
+
+			PlayMusic("bs_force_combat")
 
 			trigger:Deactivate()
 		</script>
