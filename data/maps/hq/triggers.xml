@@ -202,7 +202,11 @@
 							"antiair_basic"
 						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CIT_PH01_DestroyTargets") then
+				AddRewardItems(items)
+
+				AddBook("book_citph01_success")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -220,9 +224,15 @@
 							"AA47mmCannon01",
 							"hp_basic",
 							"ddguns_basic"
-						}
+						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CIT_PH02_DestroyFleet") then
+				AddRewardItems(items)
+
+				AddBook("book_citph02_success")
+			else
+				AddBook("book_citph02_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -237,13 +247,21 @@
 							"mun_single130CIT02",
 							"AA47mmCannon01",
 							"smlboatCITRocket01"
-						}
+						  }
 
-			if IsQuestComplete("CIT_PH03_DestroyCruisers") then
-				items = ConvergeTables(items, {"smlboatCITRocket01","AA120mmSAMCIT01","AA120mmSAMCIT01"})
+			if IsQuestComplete("CIT_PH03_DestroyMerchants") then
+				if IsQuestComplete("CIT_PH03_DestroyCruisers") and not(IsQuestFailed("CIT_PH03_Retreat")) then
+					items = ConvergeTables(items, {"smlboatCITRocket01","AA120mmSAMCIT01","AA120mmSAMCIT01"})
+
+					AddBook("book_citph03_victory")
+				end
+
+				AddRewardItems(items)
+
+				AddBook("book_citph03_success")
+			else
+				AddBook("book_citph03_failure")
 			end
-
-			AddRewardItems(items)
 
 			trigger:Deactivate()
 		</script>
@@ -257,9 +275,15 @@
 							"smlboatCITMachinegun01",
 							"smlboatCITMachinegun01",
 							"smlboatCITRocket01"
-						}
+						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CIT_PH04_DestroyMerchants") then
+				AddRewardItems(items)
+
+				AddBook("book_citph04_success")
+			else
+				AddBook("book_citph04_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -275,9 +299,20 @@
 							"mun_twin356CD02",
 							"AA152mmATGMCD01",
 							"AA152mmATGMCD01"
-						}
+						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CD_PH01_EscortFirst") or IsQuestComplete("CD_PH01_EscortSecond") then
+				AddRewardItems(items)
+
+				AddBook("book_cdph01_success")
+				if IsQuestComplete("CD_PH01_DestroyDestroyers") and IsQuestComplete("CD_PH01_DestroyTurrets") and IsQuestComplete("CD_PH01_DestroyCruisers") and IsQuestComplete("CD_PH01_DestroyBoats") then
+					AddBook("book_cdph01_victory")
+				end
+			else
+				if not(IsQuestComplete("CD_PH01_DestroyCruisers")) then
+					AddBook("book_cdph01_failure")
+				end
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -294,9 +329,15 @@
 							"smlboatCDMachinegun01",
 							"smlboatCDRocket01",
 							"smlboatCDRocket01"
-						}
+						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CD_PH02_DestroyTurrets") then
+				AddRewardItems(items)
+
+				AddBook("book_cdph02_success")
+			else
+				AddBook("book_cdph02_failure")
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -309,9 +350,19 @@
 							"hp_upgrade",
 							"AA152mmATGMCD01",
 							"AA152mmATGMCD01"
-						}
+						  }
 
-			AddRewardItems(items)
+			if IsQuestComplete("CD_PH03_DestroyBattleship") then
+				AddRewardItems(items)
+
+				if IsQuestFailed("CD_PH03_ProtectCruiser") then
+					AddBook("book_cdph03_success")
+				else
+					AddBook("book_cdph03_victory")
+				end
+			else
+				AddBook("book_cdph03_failure")
+			end
 
 			trigger:Deactivate()
 		</script>

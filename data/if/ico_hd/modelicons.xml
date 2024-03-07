@@ -110,7 +110,7 @@
 
 
 
-   <Item id="Belong_1000"			file="data\if\ico\clans\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\commonwealth_of independent_towns02.dds"/>
+   <Item id="Belong_1000"			file="data\if\ico_hd\clans\battleship\commonwealth_of independent_towns03.dds"	file1="data\if\ico_hd\clans\battleship\commonwealth_of independent_towns02.dds"/>
    <Item id="Belong_1050"			file="data\if\ico\clans\crimson_dawn03.dds"								file1="data\if\ico_hd\clans\crimson_dawn02.dds"/>
    <Item id="Belong_1500"			file="data\if\ico\InventoryDlg\Opacity1.dds"								file1="data\if\ico\InventoryDlg\Opacity1.dds"/>	
 
