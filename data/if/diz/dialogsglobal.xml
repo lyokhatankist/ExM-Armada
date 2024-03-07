@@ -19,7 +19,28 @@
 		role="NPC"
 		scriptCondition="GetVar('OnMission').AsInt==0"
 		nextReplies="CD_PH_003_pl CD_PH_002_pl CD_PH_001_pl Mission_Cancel" />
-<!--Root/battleship/Tutorial--><!--Root/battleship/CD/Placeholder-->
+<!--Root/battleship/EPC-->
+	<Reply
+		name="EPC_Mission_Main"
+		text="Выбор миссии."
+		role="NPC"
+		scriptCondition="GetVar('OnMission').AsInt==0 and EPCCampaign==1"
+		nextReplies="Mission_Cancel" />
+<!--Root/battleship/BRCRT-->
+	<Reply
+		name="BRCRT_Mission_Main"
+		text="Выбор миссии."
+		role="NPC"
+		scriptCondition="GetVar('OnMission').AsInt==0 and BRCRTCampaign==1"
+		nextReplies="Mission_Cancel" />
+<!--Root/battleship/Other-->
+	<Reply
+		name="Other_Mission_Main"
+		text="Выбор опций."
+		role="NPC"
+		scriptCondition="GetVar('OnMission').AsInt==0 and OtherCampaign==1"
+		nextReplies="Mission_Cancel" />
+<!--Root/battleship/BRCRT/Main Campaign--><!--Root/battleship/EPC/Main Campaign--><!--Root/battleship/CD/Placeholder-->
 	<Reply
 		name="CD_Placeholder_Main"
 		text="[Placeholder]"
