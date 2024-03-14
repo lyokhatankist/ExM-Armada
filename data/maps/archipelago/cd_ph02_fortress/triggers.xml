@@ -21,19 +21,19 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName							Type				Prototype		EffHP VehHP FP Maneuv.		FriendlyName}
-			friendly[1] = {"CDHelicopter01_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD01", 13, 250, 627, 140, "у.в. «Москито» (л.в.з., поз. «Кочевник»)"}
+			friendly[1] = {"CDHelicopter01_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD01", 13, 250, 627, 140, "поз. «Кочевник» (звено вертолётов «Москито»)"}
 			friendly[2] = {"CDHelicopter01_vehicle_1", "CDHelicopterAegean", "CDPH02_HeliCD02", 13, 250, 627, 140, "none"}
 			friendly[3] = {"CDHelicopter01_vehicle_2", "CDHelicopterAegean", "CDPH02_HeliCD03", 13, 250, 627, 140, "none"}
 			friendly[4] = {"CDHelicopter01_vehicle_3", "CDHelicopterAegean", "CDPH02_HeliCD04", 13, 250, 627, 140, "none"}
-			friendly[5] = {"CDHelicopter02_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD02", 13, 250, 627, 140, "у.в. «Москито» (л.в.з., поз. «Молния»)"}
+			friendly[5] = {"CDHelicopter02_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD02", 13, 250, 627, 140, "поз. «Молния» (звено вертолётов «Москито»)"}
 			friendly[6] = {"CDHelicopter02_vehicle_1", "CDHelicopterAegean", "CDPH02_HeliCD01", 13, 250, 627, 140, "none"}
 			friendly[7] = {"CDHelicopter02_vehicle_2", "CDHelicopterAegean", "CDPH02_HeliCD03", 13, 250, 627, 140, "none"}
 			friendly[8] = {"CDHelicopter02_vehicle_3", "CDHelicopterAegean", "CDPH02_HeliCD04", 13, 250, 627, 140, "none"}
-			friendly[9] = {"CDHelicopter03_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD03", 13, 250, 627, 140, "у.в. «Москито» (л.в.з., поз. «Изгой»)"}
+			friendly[9] = {"CDHelicopter03_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD03", 13, 250, 627, 140, "поз. «Изгой» (звено вертолётов «Москито»)"}
 			friendly[10] = {"CDHelicopter03_vehicle_1", "CDHelicopterAegean", "CDPH02_HeliCD02", 13, 250, 627, 140, "none"}
 			friendly[11] = {"CDHelicopter03_vehicle_2", "CDHelicopterAegean", "CDPH02_HeliCD01", 13, 250, 627, 140, "none"}
 			friendly[12] = {"CDHelicopter03_vehicle_3", "CDHelicopterAegean", "CDPH02_HeliCD04", 13, 250, 627, 140, "none"}
-			friendly[13] = {"CDHelicopter04_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD04", 13, 250, 627, 140, "у.в. «Москито» (л.в.з., поз. «Анхель»)"}
+			friendly[13] = {"CDHelicopter04_vehicle_0", "CDHelicopterLeaderAegean", "CDPH02_HeliCD04", 13, 250, 627, 140, "поз. «Анхель» (звено вертолётов «Москито»)"}
 			friendly[14] = {"CDHelicopter04_vehicle_1", "CDHelicopterAegean", "CDPH02_HeliCD02", 13, 250, 627, 140, "none"}
 			friendly[15] = {"CDHelicopter04_vehicle_2", "CDHelicopterAegean", "CDPH02_HeliCD03", 13, 250, 627, 140, "none"}
 			friendly[16] = {"CDHelicopter04_vehicle_3", "CDHelicopterAegean", "CDPH02_HeliCD01", 13, 250, 627, 140, "none"}
@@ -96,7 +96,7 @@
 			SetVar("PlayerHealth", 4000)
 			SetVar("PlayerVehicleHealth", 4000)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Каталунья» (т.к.т. «Фурия»)")
+			SetVar("PlayerName", "«Каталунья» (тип «Фурия»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.185) -- multiplier that determines how much money the player will receive for each score point

@@ -21,9 +21,9 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "т.р.к. «Аргументо»"}
-			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "«Агирре» (э.м.т. «Альбедо»)"}
-			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "«Андорра» (э.м.т. «Альбедо»)"}
+			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "«Аргументо» (тип «Тоскана»)"}
+			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "«Агирре» (тип «Альбедо»)"}
+			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "«Андорра» (тип «Альбедо»)"}
 --			friendly[4] = {"CDDestroyer01_vehicle_2", "CDDestroyerAtlantic", "CDPH03_DestroyerCD03", 1600, 1600, 9180, 22, "«Эсперанса» (э.м.т. «Альбедо»)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITBattleship01_vehicle_0", 9000, 9000, 43002, 5}
@@ -60,7 +60,7 @@
 			SetVar("PlayerHealth", 6000)
 			SetVar("PlayerVehicleHealth", 6000)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Сарагоса» (л.к.т. «Левиафан»)")
+			SetVar("PlayerName", "«Сарагоса» (тип «Левиафан»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.165) -- multiplier that determines how much money the player will receive for each score point
