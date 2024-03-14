@@ -88,11 +88,6 @@ VS_OUTPUT WaterVS( VS_INPUT v )
 	worldPos.xz += distBetwVert * v.PackedPosInfo.xy;
 	worldPos.w = 1;
 
-	float z = sin(worldPos.z / 10 + timeVal * 25);
-	float x = cos(worldPos.x / 10 + timeVal * 25);
-
-	worldPos.y += (z / 3) * (x / 3) * 2 + 0.5;
-
         o.camDir.xyz = normalize( worldPos.xyz - viewPos.xyz );
 	o.sunDir.xyz = float4( normalize( lightDir - worldPos.xyz ), 0);
         o.camDir.w = length( o.camDir.xyz ) / 35.f;
