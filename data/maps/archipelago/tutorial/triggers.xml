@@ -662,8 +662,15 @@
 					TakeQuest("CD_Tutorial")
 
 					TActivate("NoticeBoats")
-					TActivate("PlayerDamaged")
+					TActivate("PlayerDamaged")				
 				end
+			else
+--				g_Console:executeCommand("/map hq")
+				UpdateUnitsStats()
+
+				CalcMissionStats()
+
+				PassToMap("hq", "Headquarters_enter", 90, true)
 			end
 
 			SetCameraBehindPlayerVehicle()

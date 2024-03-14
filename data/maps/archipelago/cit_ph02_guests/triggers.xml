@@ -689,6 +689,15 @@
 						end
 					end
 
+--					for i=1, 4 do
+--						for j=0, 1 do
+--							Unit = getObj("CITHelicopter0"..i.."_vehicle_"..j)
+--							if Unit then
+--								Unit:SetCustomLinearVelocity( 100 )
+--							end
+--						end
+--					end
+
 					println("CIT helicopters are on the way")
 					LOG("CIT helicopters are on the way")
 				else
