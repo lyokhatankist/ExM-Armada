@@ -1087,7 +1087,7 @@
 			end
 
 			local TargetEnemies = {}
-			k = 0
+			k = 1
 			for i=31, 42 do
 				if CheckUnits(Enemies[i]) then
 					TargetEnemies[k] = Enemies[i]
@@ -1095,6 +1095,8 @@
 					k = k + 1
 				end
 			end
+
+			LOG(TableToString(TargetEnemies))
 
 			if getn(AliveFriendlies)~=0 then
 				LOG(1104)
@@ -1159,7 +1161,15 @@
 	</trigger>
 
 	<trigger Name="CDHelicopters_Shooting" active="0">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<event eventid="GE_TARGET_REACHED" ObjName="ThePendulum" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter01_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter01_vehicle_1" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter01_vehicle_2" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter01_vehicle_3" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter02_vehicle_0" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter02_vehicle_1" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter02_vehicle_2" />
+		<event eventid="GE_UNDER_ATTACK" ObjName="CDHelicopter02_vehicle_3" />
 		<script>
 			LOG("Shooting 1168")
 			local k
