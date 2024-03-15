@@ -650,7 +650,7 @@
 		Price			= "1000" />
 
     <Prototype
-        Class			= "RocketLauncher"
+        Class			= "RocketVolleyLauncher"
         Name			= "heliRockets02"
         ModelFile		= "heliRockets02"
         ResourceType	= "HELISECONDARY_GUN"
