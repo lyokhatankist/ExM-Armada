@@ -621,7 +621,7 @@
 		DamageType			= "PIERCING"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Damage			= "1100"
+		Damage			= "1350"
 		FiringRate		= "350"
 		ChargeSize     	= "5"
 		RechargingTime	= "60"
@@ -648,7 +648,7 @@
 		Velocity			= "25"
 		Acceleration		= "150"
 		MinTurningRadius	= "60000"
-		FlyTime				= "38.5"
+		FlyTime				= "42.5"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
 		Mass			= "0.001"
@@ -893,7 +893,7 @@
 
 
 
-<!-- range - 900 m -->
+<!-- range - 800 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
 		Name			= "ocruiserCITTorpedo01"
@@ -1404,7 +1404,7 @@
 		DamageType			= "PIERCING"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Damage			= "1100"
+		Damage			= "1350"
 		FiringRate		= "350"
 		ChargeSize     	= "5"
 		RechargingTime	= "105"
