@@ -292,6 +292,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
+		BlastWave		= "boatBlastWave"
+
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
 		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
@@ -375,6 +377,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
+		BlastWave		= "boatBlastWave"
+
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
 		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
@@ -457,6 +461,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "600.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
+
+		BlastWave		= "boatBlastWave"
 
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
