@@ -527,6 +527,7 @@
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
 				Plf:UnlimitMaxSpeed()
+				Plf:AddModifier("fuel", "+ 6271337")
 			end
 
 			Unit = getObj("CITTorpedoBoat01_vehicle_0")

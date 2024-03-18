@@ -1290,6 +1290,10 @@
 		
 		<Item id="S_TORPEDOTUBE" />
 
+		<Item id="S_SEAAMBIENT" />
+		<Item id="S_OCEANAMBIENT" />
+		<Item id="S_SHOREAMBIENT" />
+
 <!-- Vanilla -->
 
 		<Item id="S_CRASH_METAL01" />

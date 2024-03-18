@@ -596,6 +596,8 @@
 			local Plf = GetPlayerVehicle()
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 126")
 			end
 
 			local b = SpawnMessageBox ("101")

@@ -702,6 +702,8 @@
 			local Plf = GetPlayerVehicle()
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 434")
 			end
 
 			TakeQuest("CD_PH02")

@@ -503,6 +503,8 @@
 
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 1")
 			end
 
 			local CITB01a = getObj("CITBoats01_vehicle_0")

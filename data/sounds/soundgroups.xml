@@ -50,14 +50,14 @@
 
 		<group 
 			id		= "GUNFIRE_SML_CANNON" 
-			volume	= "125" 
-			minDist	= "30"
+			volume	= "120" 
+			minDist	= "25"
 		/>
 
 		<group 
 			id		= "GUNFIRE_MED_CANNON" 
 			volume	= "140" 
-			minDist	= "35"
+			minDist	= "30"
 		/>
 
 		<group 
@@ -82,6 +82,12 @@
 			id		= "ENGINE_BIG"
 			volume	= "115" 
 			minDist	= "35"
+		/>
+
+		<group
+			id		= "AMBIENT"
+			volume	= "40" 
+			minDist	= "100"
 		/>
 	<!-- vanilla -->
 		<group 
