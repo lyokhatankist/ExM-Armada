@@ -25,12 +25,12 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName							Type				Prototype		EffHP VehHP FP Maneuv.		FriendlyName}
-			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD01", 1600, 1600, 6752, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
-			friendly[2] = {"CDHeavyCruiser01_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD01", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
-			friendly[3] = {"CDHeavyCruiser02_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD02", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
-			friendly[4] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD02", 1600, 1600, 6999, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
-			friendly[5] = {"CDDestroyer03_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD03", 1600, 1600, 9827, 22, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
-			friendly[6] = {"CDHeavyCruiser03_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD03", 4000, 4000, 18551, 12, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)"}
+			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD01", 1600, 1600, 6752, 22, "«Солидо» (тип «Альбедо»)"}
+			friendly[2] = {"CDHeavyCruiser01_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD01", 4000, 4000, 18551, 12, "«Валенсия» (тип «Фурия»)"}
+			friendly[3] = {"CDHeavyCruiser02_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD02", 4000, 4000, 18551, 12, "«Иберия» (тип «Фурия»)"}
+			friendly[4] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD02", 1600, 1600, 6999, 22, "«Мальвадо» (тип «Альбедо»)"}
+			friendly[5] = {"CDDestroyer03_vehicle_0", "CDDestroyerAegean", "Tutorial_DestroyerCD03", 1600, 1600, 9827, 22, "«Энохадо» (тип «Альбедо»)"}
+			friendly[6] = {"CDHeavyCruiser03_vehicle_0", "CDHCruiserAegean", "Tutorial_HCruiserCD03", 4000, 4000, 18551, 12, "«Вальдивия» (тип «Фурия»)"}
 			--                {objName		EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITBoat01_vehicle_0", 33, 125, 623, 55}
 			enemy[2] = {"CITBoat02_vehicle_0", 33, 125, 623, 55}
@@ -46,7 +46,7 @@
 			SetVar("PlayerHealth", 1600)
 			SetVar("PlayerVehicleHealth", 1600)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅ.пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)")
+			SetVar("PlayerName", "«Касадо» (тип «Альбедо»)")
 			SetVar("Objectives", 4) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 2500) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.2) -- multiplier that determines how much money the player will receive for each score point
@@ -596,6 +596,8 @@
 			local Plf = GetPlayerVehicle()
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 126")
 			end
 
 			local b = SpawnMessageBox ("101")
@@ -662,8 +664,15 @@
 					TakeQuest("CD_Tutorial")
 
 					TActivate("NoticeBoats")
-					TActivate("PlayerDamaged")
+					TActivate("PlayerDamaged")				
 				end
+			else
+--				g_Console:executeCommand("/map hq")
+				UpdateUnitsStats()
+
+				CalcMissionStats()
+
+				PassToMap("hq", "Headquarters_enter", 90, true)
 			end
 
 			SetCameraBehindPlayerVehicle()

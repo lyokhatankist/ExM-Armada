@@ -1799,8 +1799,10 @@ end
 -- if checkT is set to "least" - the lowest value will be returned
 -- if "most" - the highest value will be returned
 -- if "average" - the average distance between unit1 and a group of units2 will be returned
+-- valueT is the type of value to be returned
+-- either "distance" or "name"
 -- local b = "CITBoats01_vehicle_0"; println(CheckDistBetweenUnits(b, {"CDLavs01_vehicle_0","CDLavs02_vehicle_0","CDLavs02_vehicle_1","CDLavs03_vehicle_0","CDLavs03_vehicle_1","CDBoats01_vehicle_0","CDBoats02_vehicle_0","CDBoats02_vehicle_1"}, "least"))
-function CheckDistBetweenUnits(unit, units, checkT)
+function CheckDistBetweenUnits(unit, units, checkT, valueT)
 	local unit1Name = GetPlayerVehicle()
 	if unit ~= GetPlayerVehicle() then
 		unit1Name = getObj(unit)
@@ -1817,11 +1819,17 @@ function CheckDistBetweenUnits(unit, units, checkT)
 	if checkT then
 		checkType = checkT
 	end
+	local valueType = "distance"
+	if valueT then
+		valueType = valueT
+	end
 
 	local dist
+	local name = unit2Names
 	local aliveUnit2Names
 
 	if type(unit2Names) == "table" then
+		name = unit2Names[1]
 		if checkType == "least" then
 			retVal = 8192
 			for i=1, getn(unit2Names) do
@@ -1834,6 +1842,7 @@ function CheckDistBetweenUnits(unit, units, checkT)
 
 				if retVal > dist then
 					retVal = dist
+					name = unit2Names[i]
 				end
 			end
 		elseif checkType == "most" then
@@ -1848,6 +1857,7 @@ function CheckDistBetweenUnits(unit, units, checkT)
 
 				if retVal < dist then
 					retVal = dist
+					name = unit2Names[i]
 				end
 			end
 		else
@@ -1865,16 +1875,21 @@ function CheckDistBetweenUnits(unit, units, checkT)
 
 			if aliveUnit2Names ~= 0 then
 				retVal = retVal / aliveUnit2Names
+				name = unit2Names[i]
 			else
 				retVal = 16384
 			end
 		end
 	else
-		retVal = 16384		
+		retVal = 16384
 		if CheckUnits(unit2Name) then
 			unit2Name = getObj(unit2Name)
 			retVal = Dist(unit1Name, unit2Name)
 		end
+	end
+	
+	if valueType=="name" then
+		retVal = name
 	end
 
 	return retVal

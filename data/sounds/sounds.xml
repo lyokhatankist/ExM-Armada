@@ -148,6 +148,24 @@
 		id="S_MG_HIT08"
 		file="data\sounds\battleship\mg_shoothit\hit08.wav"
 		/>
+
+	<model
+		id="S_SEAAMBIENT"
+		file="data\sounds\battleship\ambient\sea.wav"
+		group="AMBIENT"
+		/>
+
+	<model
+		id="S_OCEANAMBIENT"
+		file="data\sounds\battleship\ambient\ocean.wav"
+		group="AMBIENT"
+		/>
+
+	<model
+		id="S_SHOREAMBIENT"
+		file="data\sounds\battleship\ambient\shore.wav"
+		group="AMBIENT"
+		/>
 		
 <!-- Vanilla -->
 

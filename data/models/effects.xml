@@ -412,6 +412,15 @@
 		<Node name="Sound2" class="SgSoundSourceNode" id="S_SHOOTING_BATTLESHIPMOD2" looped="0" />
 	</Node>
 
+	<Node name="ET_PS_BOAT01_EXPL" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_WATER_BLAST_GRASS" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesOpaqueNode" id="PS_WATER_GRENADE_RING1" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_WATER_GRENADE_EXP" psNumEmitterMesh="-1" />
+		<Node name="Object5" class="SgParticlesNode" id="PS_WATER_GRENADE_TRAIL_BIG" psNumEmitterMesh="-1" />
+		<Node name="Object7" class="SgParticlesNode" id="PS_WATER_BLAST_EXP" psNumEmitterMesh="-1" />
+		  <!-- <Node name="Sound4" class="SgSoundSourceNode" id="S_EXPLDIST05" looped="0" /> -->
+	</Node>
+
 	<Node name="ET_PS_HELI01_EXPL" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_FIRE_BLAST_EXP" psNumEmitterMesh="-1" />
 		<Node name="Object2" class="SgParticlesNode" id="PS_BS_GNTBLAST_FLASH" psNumEmitterMesh="-1" />

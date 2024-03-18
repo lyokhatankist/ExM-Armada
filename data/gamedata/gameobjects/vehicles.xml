@@ -292,6 +292,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
+		BlastWave		= "boatBlastWave"
+
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
 		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
@@ -375,6 +377,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
 
+		BlastWave		= "boatBlastWave"
+
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
 		DestroyEffectBlast		= "ET_PS_BOAT_EXPL"
@@ -457,6 +461,8 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		LookRadius			= "600.0"
 		IntersectionRadius	= "10.0"
 		TakingRadius		= "30.0"
+
+		BlastWave		= "boatBlastWave"
 
 		HornSound				= "ET_S_HORN01"
 		DestroyEffectPiercing	= "ET_PS_BOAT_EXPL"
@@ -3986,7 +3992,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CHASSIS"					Prototype = "rhcruiserCDHull" />
-			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "cruiser_rocketCD01" />
+			<Part id = "CHASSIS_SMALL_GUN_1"		Prototype = "cruiser_rocketCD02" />
 			<Part id = "CHASSIS_SMALL_GUN_2"		Prototype = "cruiser_rocketCD01" />
 			<Part id = "CHASSIS_TURRET_GUN_1"		Prototype = "twin203CD01" />
 			<Part id = "CHASSIS_TURRET_GUN_2"		Prototype = "twin203CD01" />

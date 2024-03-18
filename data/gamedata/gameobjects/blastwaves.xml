@@ -328,6 +328,17 @@
 <!-- veh exps -->
         <Prototype
                 Class                   = "BlastWave"
+                Name                    = "boatBlastWave"
+                Effect                  = "ET_PS_BOAT01_EXPL"
+
+                Radius                  = "3.0"
+
+                WaveForceIntensity      = "0.0"
+                WaveDamageIntensity     = "1.0"
+        />
+
+        <Prototype
+                Class                   = "BlastWave"
                 Name                    = "heli01BlastWave"
                 Effect                  = "ET_PS_HELI01_EXPL"
 

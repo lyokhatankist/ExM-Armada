@@ -174,7 +174,7 @@ $Id: Gadgets.xml,v 1.25 2005/11/17 06:42:59 anton Exp $
 		Name			= "speed_basic"
 		ResourceType	= "GADGET_WEAPON" 
 		Price			= "5000"	
-		Modifications	= "CABIN MaxSpeed 5; CABIN MaxTorque 5"
+		Modifications	= "CABIN MaxSpeed 5; CABIN MaxTorque 20"
 		ModelFile		= "blueprint"
 		SkinNum			= "6"
 		/>

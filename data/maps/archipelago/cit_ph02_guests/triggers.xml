@@ -21,16 +21,16 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "«Эльберет» (л.к.т. «Эгаль»)"}
-			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "«Жеводан» (э.м.т. «Лион»)"}
-			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "«Руан» (э.м.т. «Лион»)"}
-			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Сокол»)"}
+			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "«Эльберет» (тип «Эгаль»)"}
+			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "«Жеводан» (тип «Лион»)"}
+			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "«Руан» (тип «Лион»)"}
+			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. «Сокол» (звено вертолётов «Кондор»)"}
 			friendly[5] = {"CITHelicopter01_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Гром»)"}
+			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. «Гром» (звено вертолётов «Кондор»)"}
 			friendly[7] = {"CITHelicopter02_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Филин»)"}
+			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. «Филин» (звено вертолётов «Кондор»)"}
 			friendly[9] = {"CITHelicopter03_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "у.в. «Кондор» (л.в.з., поз. «Скиф»)"}
+			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. «Скиф» (звено вертолётов «Кондор»)"}
 			friendly[11] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}
@@ -54,7 +54,7 @@
 			SetVar("PlayerHealth", 1200)
 			SetVar("PlayerVehicleHealth", 1200)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Прованс» (э.м.т. «Лион»)")
+			SetVar("PlayerName", "«Прованс» (тип «Лион»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 35000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.115) -- multiplier that determines how much money the player will receive for each score point
@@ -545,6 +545,8 @@
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
 				Plf:UnlimitMaxSpeed()
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 48")
 			end
 
 			Unit = getObj("CITOldCruiser01_vehicle_0")
@@ -649,6 +651,7 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_0" />
 		<event eventid="GE_OBJECT_DIE" ObjName="CDBattleship01_vehicle_1" />
 		<script>
+			local coords
 			local Units = 0
 			local enemiesPos = CVector(0, 285, 0)
 			local pos = CVector(0, 285, 0)
@@ -677,6 +680,25 @@
 
 					println("enemies position for CIT helis is "..enemiesPos.x..", 285, "..enemiesPos.z)
 					LOG("enemies position for CIT helis is "..enemiesPos.x..", 285, "..enemiesPos.z)
+					local pPos = GetPlayerVehicle():GetPosition()
+					pPos = ((pPos.x - 4822)^2 + (pPos.z - 4783)^2)^0.5
+					LOG("distance between player and helis warp is "..pPos)
+					if pPos >= 1300 then
+						LOG("its more than 1300")
+						coords = {{CVector(4822, 285, 4783), CVector(4821, 285, 4833)},
+								{CVector(4916, 285, 4677), CVector(4943, 285, 4720)},
+								{CVector(5032, 285, 4832), CVector(5052, 285, 4881)},
+								{CVector(5071, 285, 4718), CVector(5103, 285, 4776)}}
+						for i=1, 4 do
+							for j=0, 1 do
+								Units = getObj("CITHelicopter0"..i.."_vehicle_"..j)
+								if Units then
+									Units:SetGamePositionOnGround(coords[i][j+1])
+								end
+							end
+						end
+						LOG("done warping")
+					end
 
 					for i=1, 4 do 
 						Units = getObj("CITHelicopter0"..i)
@@ -688,6 +710,15 @@
 							Units:StackClose()
 						end
 					end
+
+--					for i=1, 4 do
+--						for j=0, 1 do
+--							Unit = getObj("CITHelicopter0"..i.."_vehicle_"..j)
+--							if Unit then
+--								Unit:SetCustomLinearVelocity( 100 )
+--							end
+--						end
+--					end
 
 					println("CIT helicopters are on the way")
 					LOG("CIT helicopters are on the way")

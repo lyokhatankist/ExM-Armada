@@ -7,7 +7,7 @@
 			ParticleAgeMin="1.000"
 			ParticleAgeMax="2.000"
 			MaxParticles="5"
-			EmitAtPeriod="3000.000"
+			EmitAtPeriod="6000.000"
 			Phase="0.000"
 			EmitLength="22.500"
 			RepeatPeriod="99999999999.000"

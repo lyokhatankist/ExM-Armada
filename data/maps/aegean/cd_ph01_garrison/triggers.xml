@@ -13,6 +13,8 @@
 
 			Radar:SetScanRadius(800)
 
+			Journal:AddPrototypeToEncyclopaedia("triple152CIT01")
+
 			GetPlayerVehicle():setImmortalMode(1)
 			GetPlayerVehicle():SetNameFromScript("MyCar")
 			SetCameraBehindPlayerVehicle()
@@ -21,8 +23,8 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD01", 1600, 1600, 9579, 22, "«Сеута» (э.м.т. «Альбедо»)"}
-			friendly[2] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD02", 1600, 1600, 7247, 22, "«Мелилья» (э.м.т. «Альбедо»)"}
+			friendly[1] = {"CDDestroyer01_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD01", 1600, 1600, 9579, 22, "«Сеута» (тип «Альбедо»)"}
+			friendly[2] = {"CDDestroyer02_vehicle_0", "CDDestroyerAegean", "CDPH01_DestroyerCD02", 1600, 1600, 7247, 22, "«Мелилья» (тип «Альбедо»)"}
 			friendly[3] = {"CDMerchant01_vehicle_0", "CDMerchantAegean", "CDPH01_MerchantCD01", 163, 1500, 0, 4, "сухогруз «Августин Брейн»"}
 			friendly[4] = {"CDMerchant02_vehicle_0", "CDMerchantAegean", "CDPH01_MerchantCD02", 163, 1500, 0, 4, "сухогруз «Хуан Эль-Уэво»"}
 			--                {objName      EffHP VehHP FP Maneuv.}
@@ -72,7 +74,7 @@
 			SetVar("PlayerHealth", 1600)
 			SetVar("PlayerVehicleHealth", 1600)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Абогадо» (э.м.т. «Альбедо»)")
+			SetVar("PlayerName", "«Абогадо» (тип «Альбедо»)")
 			SetVar("Objectives", 3) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 50000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.175) -- multiplier that determines how much money the player will receive for each score point
@@ -754,6 +756,8 @@
 			local Plf = GetPlayerVehicle()
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 101")
 			end
 
 			local CDD01a = getObj("CDDestroyer01_vehicle_0")

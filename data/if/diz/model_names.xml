@@ -920,12 +920,12 @@
 	<Item
 		id="mun_single130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔ (ÑÍÃ)" />
+		value="130-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_single130CIT02"
 		locForm="0"
-		value="130-ìì ÁÁ (ÑÍÃ)" />
+		value="130-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="DestroyerCIT01"
@@ -950,12 +950,12 @@
 	<Item
 		id="mun_single138CIT01"
 		locForm="0"
-		value="138-ìì  ÎÔ (ÑÍÃ)" />
+		value="138-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_single138CIT02"
 		locForm="0"
-		value="138-ìì  ÁÁ (ÑÍÃ)" />
+		value="138-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="DestroyerCIT02"
@@ -1010,12 +1010,12 @@
 	<Item
 		id="mun_twin127CD01"
 		locForm="0"
-		value="127-ìì ÎÔ (ÀÐ)" />
+		value="127-ìì ÎÔÑ (ÀÐ)" />
 
 	<Item
 		id="mun_twin127CD02"
 		locForm="0"
-		value="127-ìì ÁÁ (ÀÐ)" />
+		value="127-ìì ÁÁÑ (ÀÐ)" />
 
 	<Item
 		id="DestroyerCD01"
@@ -1035,12 +1035,12 @@
 	<Item
 		id="mun_twin135CD01"
 		locForm="0"
-		value="135-ìì ÎÔ (ÀÐ)" />
+		value="135-ìì ÎÔÑ (ÀÐ)" />
 
 	<Item
 		id="mun_twin135CD02"
 		locForm="0"
-		value="135-ìì ÁÁ (ÀÐ)" />
+		value="135-ìì ÁÁÑ (ÀÐ)" />
 
 	<Item
 		id="DestroyerCD02"
@@ -1070,7 +1070,7 @@
 	<Item
 		id="sponson130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔ (ÑÍÃ)" />
+		value="130-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="AADuet01"
@@ -1105,12 +1105,12 @@
 	<Item
 		id="mun_twin152CIT01"
 		locForm="0"
-		value="152-ìì ÎÔ (ÑÍÃ)" />
+		value="152-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_twin152CIT02"
 		locForm="0"
-		value="152-ìì ÁÁ (ÑÍÃ)" />
+		value="152-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="OCruiserCIT01"
@@ -1135,12 +1135,12 @@
 	<Item
 		id="mun_triple155CIT01"
 		locForm="0"
-		value="155-ìì ÎÔ (ÑÍÃ)" />
+		value="155-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_triple155CIT02"
 		locForm="0"
-		value="155-ìì ÁÁ (ÑÍÃ)" />
+		value="155-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="OCruiserCIT02"
@@ -1155,12 +1155,12 @@
 	<Item
 		id="mun_triple152CIT01"
 		locForm="0"
-		value="152-ìì ÎÔ (ÑÍÃ)" />
+		value="152-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_triple152CIT02"
 		locForm="0"
-		value="152-ìì ÁÁ (ÑÍÃ)" />
+		value="152-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="HCruiserCD"
@@ -1195,12 +1195,12 @@
 	<Item
 		id="mun_twin203CD01"
 		locForm="0"
-		value="203-ìì ÎÔ (ÀÐ)" />
+		value="203-ìì ÎÔÑ (ÀÐ)" />
 
 	<Item
 		id="mun_twin203CD02"
 		locForm="0"
-		value="203-ìì ÁÁ (ÀÐ)" />
+		value="203-ìì ÁÁÑ (ÀÐ)" />
 
 	<Item
 		id="HCruiserCD01"
@@ -1260,12 +1260,12 @@
 	<Item
 		id="mun_triple406CIT01"
 		locForm="0"
-		value="406-ìì ÎÔ (ÑÍÃ)" />
+		value="406-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_triple406CIT02"
 		locForm="0"
-		value="406-ìì ÁÁ (ÑÍÃ)" />
+		value="406-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="BattleshipCIT01"
@@ -1285,12 +1285,12 @@
 	<Item
 		id="mun_quadruple380CIT01"
 		locForm="0"
-		value="380-ìì ÎÔ (ÑÍÃ)" />
+		value="380-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_quadruple380CIT02"
 		locForm="0"
-		value="380-ìì ÁÁ (ÑÍÃ)" />
+		value="380-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="BattleshipCIT02"
@@ -1310,12 +1310,12 @@
 	<Item
 		id="mun_triple457CIT01"
 		locForm="0"
-		value="457-ìì ÎÔ (ÑÍÃ)" />
+		value="457-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_triple457CIT02"
 		locForm="0"
-		value="457-ìì ÁÁ (ÑÍÃ)" />
+		value="457-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="twin130CIT01"
@@ -1325,12 +1325,12 @@
 	<Item
 		id="mun_twin130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔ (ÑÍÃ)" />
+		value="130-ìì ÎÔÑ (ÑÍÃ)" />
 
 	<Item
 		id="mun_twin130CIT02"
 		locForm="0"
-		value="130-ìì ÁÁ (ÑÍÃ)" />
+		value="130-ìì ÁÁÑ (ÑÍÃ)" />
 
 	<Item
 		id="BossCIT01"
@@ -1365,12 +1365,12 @@
 	<Item
 		id="mun_twin356CD01"
 		locForm="0"
-		value="356-ìì ÎÔ (ÀÐ)" />
+		value="356-ìì ÎÔÑ (ÀÐ)" />
 
 	<Item
 		id="mun_twin356CD02"
 		locForm="0"
-		value="356-ìì ÁÁ (ÀÐ)" />
+		value="356-ìì ÁÁÑ (ÀÐ)" />
 
 	<Item
 		id="mun_twin356CD03"
@@ -1395,12 +1395,12 @@
 	<Item
 		id="mun_triple406CD01"
 		locForm="0"
-		value="406-ìì ÎÔ (ÀÐ)" />
+		value="406-ìì ÎÔÑ (ÀÐ)" />
 
 	<Item
 		id="mun_triple406CD02"
 		locForm="0"
-		value="406-ìì ÁÁ (ÀÐ)" />
+		value="406-ìì ÁÁÑ (ÀÐ)" />
 
 	<Item
 		id="BattleshipCD02"
@@ -1536,7 +1536,7 @@
 	<Item
 		id="Tutorial_Player01"
 		locForm="0"
-		value="«Êàñàäî» (ý.ì.ò. «Àëüáåäî»)" />
+		value="«Êàñàäî» (òèï «Àëüáåäî»)" />
 
 	<Item
 		id="Tutorial_DestroyerCD01"
@@ -1592,7 +1592,7 @@
 	<Item
 		id="CITPH01_Player01"
 		locForm="0"
-		value="«Ëîâ÷èé» (á.ê.ò. «Ìóýòò»)" />
+		value="ïîç. «Ëîâ÷èé» (òèï «Ìóýòò»)" />
 
 	<Item
 		id="CITPH01_SmlboatCIT01"
@@ -1643,7 +1643,7 @@
 	<Item
 		id="CITPH02_Player01"
 		locForm="0"
-		value="«Ïðîâàíñ» (ý.ì.ò. «Ëèîí»)" />
+		value="«Ïðîâàíñ» (òèï «Ëèîí»)" />
 
 	<Item
 		id="CITPH02_DestroyerCIT01"
@@ -1724,7 +1724,7 @@
 	<Item
 		id="CITPH03_Player01"
 		locForm="0"
-		value="«Àðëåòò» (ë.ê.ò. «Ýãàëü»)" />
+		value="«Àðëåòò» (òèï «Ýãàëü»)" />
 
 	<Item
 		id="CITPH03_OCruiserCIT01"
@@ -1796,7 +1796,7 @@
 	<Item
 		id="CITPH04_Player01"
 		locForm="0"
-		value="«Êîðñàð» (ë.ê.ò. «Òèáóðîí»)" />
+		value="ïîç. «Êîðñàð» (òèï «Òèáóðîí»)" />
 
 	<Item
 		id="CITPH04_FastboatCIT01"
@@ -1837,7 +1837,7 @@
 	<Item
 		id="CDPH01_Player01"
 		locForm="0"
-		value="«Àáîãàäî» (ý.ì.ò. «Àëüáåäî»)" />
+		value="«Àáîãàäî» (òèï «Àëüáåäî»)" />
 
 	<Item
 		id="CDPH01_DestroyerCD01"
@@ -1928,7 +1928,7 @@
 	<Item
 		id="CDPH02_Player01"
 		locForm="0"
-		value="«Êàòàëóíüÿ» (ò.ê.ò. «Ôóðèÿ»)" />
+		value="«Êàòàëóíüÿ» (òèï «Ôóðèÿ»)" />
 
 	<Item
 		id="CDPH02_HeliCD01"
@@ -1999,7 +1999,7 @@
 	<Item
 		id="CDPH03_Player01"
 		locForm="0"
-		value="«Ñàðàãîñà» (ë.ê.ò. «Ëåâèàôàí»)" />
+		value="«Ñàðàãîñà» (òèï «Ëåâèàôàí»)" />
 
 	<Item
 		id="CDPH03_RHCruiserCD01"

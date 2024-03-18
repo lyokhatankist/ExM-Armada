@@ -21,10 +21,10 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Риф»)"}
-			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Молот»)"}
-			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "б.к.т. «Муэтт» (поз. «Волк»)"}
-			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "б.к.т. «Муэтт» (поз. «Гюрза»)"}
+			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "поз. «Риф» (тип «Муэтт»)"}
+			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "поз. «Молот» (тип «Муэтт»)"}
+			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "поз. «Волк» (тип «Муэтт»)"}
+			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "поз. «Гюрза» (тип «Муэтт»)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDLavs01_vehicle_0", 26, 375, 265, 0}
 			enemy[2] = {"CDLavs02_vehicle_0", 26, 375, 265, 0}
@@ -47,7 +47,7 @@
 			SetVar("PlayerHealth", 33)
 			SetVar("PlayerVehicleHealth", 125)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "б.к.т. «Муэтт» (поз. «Ловчий»)")
+			SetVar("PlayerName", "поз. «Ловчий» (тип «Муэтт»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 1250) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.65) -- multiplier that determines how much money the player will receive for each score point
@@ -503,6 +503,8 @@
 
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 1")
 			end
 
 			local CITB01a = getObj("CITBoats01_vehicle_0")

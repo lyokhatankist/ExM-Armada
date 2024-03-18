@@ -621,7 +621,7 @@
 		DamageType			= "PIERCING"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Damage			= "1100"
+		Damage			= "1350"
 		FiringRate		= "350"
 		ChargeSize     	= "5"
 		RechargingTime	= "60"
@@ -648,7 +648,7 @@
 		Velocity			= "25"
 		Acceleration		= "150"
 		MinTurningRadius	= "60000"
-		FlyTime				= "38.5"
+		FlyTime				= "42.5"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
 		Mass			= "0.001"
@@ -893,7 +893,7 @@
 
 
 
-<!-- range - 900 m -->
+<!-- range - 800 m -->
 	<Prototype
 		Class			= "RocketVolleyLauncher"
 		Name			= "ocruiserCITTorpedo01"
@@ -1404,7 +1404,7 @@
 		DamageType			= "PIERCING"
 		BlastWavePrototype	= "torp610mmBlastWave"
 
-		Damage			= "1100"
+		Damage			= "1350"
 		FiringRate		= "350"
 		ChargeSize     	= "5"
 		RechargingTime	= "105"
@@ -1644,6 +1644,43 @@
 
 		Mass			= "0.001"
 		Size			= "4 4 6"/>
+
+	<Prototype
+		Class			= "RocketVolleyLauncher"
+		Name			= "cruiser_rocketCD02"
+		ModelFile		= "cruiser_rocketCD01"
+		ResourceType	= "HCRUISERCDROCKET_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		FiringEffect	= "none"
+
+		VisibleInEncyclopedia	= "false"
+		ApplyAffixes			= "false"
+		WithAngleLimit			= "false"
+		
+		BulletPrototype		= "cruise_missile01"
+		ExplosionType		= "GNTBLAST_HE"
+		FiringType			= "Rocket"
+		RecoilForce			= "1"
+
+		DamageType			= "PIERCING"
+		BlastWavePrototype	= "cruiseBlastWave"
+
+		Damage			= "2500"
+		FiringRate		= "20"
+		ChargeSize     	= "2"
+		RechargingTime	= "44"
+
+		FiringRange		= "7000"
+		ActionDist		= "7100"	
+		GroupingAngle	= "1"
+
+		ShellsPoolSize		= "2"
+		WithShellsPoolLimit	= "false"
+
+		TurningSpeed		= "0"
+		Durability			= "4"
+		Price				= "135000" />
 
 
 <!-- CD CRUISER SURFACE-TO-AIR MISSILE LAUNCHER -->

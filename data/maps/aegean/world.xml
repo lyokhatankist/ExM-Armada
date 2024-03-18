@@ -51021,4 +51021,2820 @@
 		scale="0.250 1.000 1.000"
 		id="shipbarrier"
 		ndmAction="0" />
+
+	<Node
+		name="SoundObject_1_1"
+		class="SgNode"
+		org="500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_2"
+		class="SgNode"
+		org="1000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_3"
+		class="SgNode"
+		org="1500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_4"
+		class="SgNode"
+		org="2000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_5"
+		class="SgNode"
+		org="2500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_6"
+		class="SgNode"
+		org="3000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_7"
+		class="SgNode"
+		org="3500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_8"
+		class="SgNode"
+		org="4000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_9"
+		class="SgNode"
+		org="4500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_10"
+		class="SgNode"
+		org="5000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_11"
+		class="SgNode"
+		org="5500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_12"
+		class="SgNode"
+		org="6000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_13"
+		class="SgNode"
+		org="6500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_14"
+		class="SgNode"
+		org="7000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_15"
+		class="SgNode"
+		org="7500.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_1_16"
+		class="SgNode"
+		org="8000.000 0.000 500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_1"
+		class="SgNode"
+		org="500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_2"
+		class="SgNode"
+		org="1000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_3"
+		class="SgNode"
+		org="1500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_4"
+		class="SgNode"
+		org="2000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_5"
+		class="SgNode"
+		org="2500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_6"
+		class="SgNode"
+		org="3000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_7"
+		class="SgNode"
+		org="3500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_8"
+		class="SgNode"
+		org="4000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_9"
+		class="SgNode"
+		org="4500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_10"
+		class="SgNode"
+		org="5000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_11"
+		class="SgNode"
+		org="5500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_12"
+		class="SgNode"
+		org="6000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_13"
+		class="SgNode"
+		org="6550.000 0.000 1205.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_14"
+		class="SgNode"
+		org="7000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_15"
+		class="SgNode"
+		org="7500.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_2_16"
+		class="SgNode"
+		org="8000.000 0.000 1000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_1"
+		class="SgNode"
+		org="500.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_2"
+		class="SgNode"
+		org="1000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_3"
+		class="SgNode"
+		org="1500.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_4"
+		class="SgNode"
+		org="2000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_5"
+		class="SgNode"
+		org="2585.000 0.000 1595.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_6"
+		class="SgNode"
+		org="3000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_7"
+		class="SgNode"
+		org="3500.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_8"
+		class="SgNode"
+		org="4000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_9"
+		class="SgNode"
+		org="4530.000 0.000 1525.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_10"
+		class="SgNode"
+		org="4925.000 0.000 1395.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_11"
+		class="SgNode"
+		org="5500.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_12"
+		class="SgNode"
+		org="6000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_13"
+		class="SgNode"
+		org="6455.000 0.000 1495.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_14"
+		class="SgNode"
+		org="6925.000 0.000 1340.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_15"
+		class="SgNode"
+		org="7500.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_3_16"
+		class="SgNode"
+		org="8000.000 0.000 1500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_1"
+		class="SgNode"
+		org="500.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_2"
+		class="SgNode"
+		org="1000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_3"
+		class="SgNode"
+		org="1500.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_4"
+		class="SgNode"
+		org="2000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_5"
+		class="SgNode"
+		org="2470.000 0.000 1905.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_6"
+		class="SgNode"
+		org="3000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_7"
+		class="SgNode"
+		org="3415.000 0.000 1900.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_8"
+		class="SgNode"
+		org="3800.000 0.000 1995.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_9"
+		class="SgNode"
+		org="4500.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_10"
+		class="SgNode"
+		org="5000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_11"
+		class="SgNode"
+		org="5505.000 0.000 2140.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_12"
+		class="SgNode"
+		org="6000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_13"
+		class="SgNode"
+		org="6500.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_14"
+		class="SgNode"
+		org="7000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_15"
+		class="SgNode"
+		org="7500.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_4_16"
+		class="SgNode"
+		org="8000.000 0.000 2000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_1"
+		class="SgNode"
+		org="500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_2"
+		class="SgNode"
+		org="900.000 0.000 2485.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_3"
+		class="SgNode"
+		org="1535.000 0.000 2485.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_4"
+		class="SgNode"
+		org="2000.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_5"
+		class="SgNode"
+		org="2500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_6"
+		class="SgNode"
+		org="3000.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_7"
+		class="SgNode"
+		org="3500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_8"
+		class="SgNode"
+		org="3945.000 0.000 2340.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_9"
+		class="SgNode"
+		org="4500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_10"
+		class="SgNode"
+		org="5165.000 0.000 2510.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_11"
+		class="SgNode"
+		org="5685.000 0.000 2540.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_12"
+		class="SgNode"
+		org="6000.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_13"
+		class="SgNode"
+		org="6500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_14"
+		class="SgNode"
+		org="7000.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_15"
+		class="SgNode"
+		org="7500.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_5_16"
+		class="SgNode"
+		org="8000.000 0.000 2500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_1"
+		class="SgNode"
+		org="500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_2"
+		class="SgNode"
+		org="1005.000 0.000 2915.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_3"
+		class="SgNode"
+		org="1440.000 0.000 3015.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_4"
+		class="SgNode"
+		org="1935.000 0.000 3015.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_5"
+		class="SgNode"
+		org="2500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_6"
+		class="SgNode"
+		org="3000.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_7"
+		class="SgNode"
+		org="3500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_8"
+		class="SgNode"
+		org="4000.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_9"
+		class="SgNode"
+		org="4500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_10"
+		class="SgNode"
+		org="5000.000 0.000 2975.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_11"
+		class="SgNode"
+		org="5400.000 0.000 2925.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_12"
+		class="SgNode"
+		org="6000.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_13"
+		class="SgNode"
+		org="6500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_14"
+		class="SgNode"
+		org="7000.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_15"
+		class="SgNode"
+		org="7500.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_6_16"
+		class="SgNode"
+		org="8000.000 0.000 3000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_1"
+		class="SgNode"
+		org="500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_2"
+		class="SgNode"
+		org="1000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_3"
+		class="SgNode"
+		org="1500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_4"
+		class="SgNode"
+		org="2000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_5"
+		class="SgNode"
+		org="2500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_6"
+		class="SgNode"
+		org="3000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_7"
+		class="SgNode"
+		org="3500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_8"
+		class="SgNode"
+		org="4000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_9"
+		class="SgNode"
+		org="4500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_10"
+		class="SgNode"
+		org="5000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_11"
+		class="SgNode"
+		org="5500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_12"
+		class="SgNode"
+		org="6000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_13"
+		class="SgNode"
+		org="6495.000 0.000 3650.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_14"
+		class="SgNode"
+		org="7000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_15"
+		class="SgNode"
+		org="7500.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_7_16"
+		class="SgNode"
+		org="8000.000 0.000 3500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_1"
+		class="SgNode"
+		org="500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_2"
+		class="SgNode"
+		org="1035.000 0.000 3860.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_3"
+		class="SgNode"
+		org="1500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_4"
+		class="SgNode"
+		org="2000.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_5"
+		class="SgNode"
+		org="2500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_6"
+		class="SgNode"
+		org="3000.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_7"
+		class="SgNode"
+		org="3500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_8"
+		class="SgNode"
+		org="4000.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_9"
+		class="SgNode"
+		org="4500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_10"
+		class="SgNode"
+		org="5000.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_11"
+		class="SgNode"
+		org="5500.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_12"
+		class="SgNode"
+		org="5995.000 0.000 3980.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_13"
+		class="SgNode"
+		org="6475.000 0.000 4045.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_14"
+		class="SgNode"
+		org="6995.000 0.000 4045.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_15"
+		class="SgNode"
+		org="7460.000 0.000 3975.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_8_16"
+		class="SgNode"
+		org="8000.000 0.000 4000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_1"
+		class="SgNode"
+		org="500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_2"
+		class="SgNode"
+		org="1000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_3"
+		class="SgNode"
+		org="1500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_4"
+		class="SgNode"
+		org="2000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_5"
+		class="SgNode"
+		org="2500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_6"
+		class="SgNode"
+		org="3000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_7"
+		class="SgNode"
+		org="3500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_8"
+		class="SgNode"
+		org="4000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_9"
+		class="SgNode"
+		org="4500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_10"
+		class="SgNode"
+		org="5000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_11"
+		class="SgNode"
+		org="5500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_12"
+		class="SgNode"
+		org="6000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_13"
+		class="SgNode"
+		org="6500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_14"
+		class="SgNode"
+		org="7000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_15"
+		class="SgNode"
+		org="7500.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_9_16"
+		class="SgNode"
+		org="8000.000 0.000 4500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_1"
+		class="SgNode"
+		org="500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_2"
+		class="SgNode"
+		org="1000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_3"
+		class="SgNode"
+		org="1500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_4"
+		class="SgNode"
+		org="2000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_5"
+		class="SgNode"
+		org="2500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_6"
+		class="SgNode"
+		org="3000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_7"
+		class="SgNode"
+		org="3500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_8"
+		class="SgNode"
+		org="4000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_9"
+		class="SgNode"
+		org="4500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_10"
+		class="SgNode"
+		org="5000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_11"
+		class="SgNode"
+		org="5530.000 0.000 5040.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_12"
+		class="SgNode"
+		org="6000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_13"
+		class="SgNode"
+		org="6500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_14"
+		class="SgNode"
+		org="7000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_15"
+		class="SgNode"
+		org="7500.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_10_16"
+		class="SgNode"
+		org="8000.000 0.000 5000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_1"
+		class="SgNode"
+		org="500.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_2"
+		class="SgNode"
+		org="1000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_3"
+		class="SgNode"
+		org="1500.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_4"
+		class="SgNode"
+		org="2000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_5"
+		class="SgNode"
+		org="2565.000 0.000 5525.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_6"
+		class="SgNode"
+		org="3000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_7"
+		class="SgNode"
+		org="3530.000 0.000 5610.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_8"
+		class="SgNode"
+		org="3980.000 0.000 5755.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_9"
+		class="SgNode"
+		org="4500.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_10"
+		class="SgNode"
+		org="5000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_11"
+		class="SgNode"
+		org="5475.000 0.000 5535.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_12"
+		class="SgNode"
+		org="6115.000 0.000 5440.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_13"
+		class="SgNode"
+		org="6500.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_14"
+		class="SgNode"
+		org="7000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_15"
+		class="SgNode"
+		org="7500.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_11_16"
+		class="SgNode"
+		org="8000.000 0.000 5500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_1"
+		class="SgNode"
+		org="655.000 0.000 6030.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_2"
+		class="SgNode"
+		org="980.000 0.000 6005.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_3"
+		class="SgNode"
+		org="1300.000 0.000 6160.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_4"
+		class="SgNode"
+		org="2000.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_5"
+		class="SgNode"
+		org="2500.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_6"
+		class="SgNode"
+		org="3130.000 0.000 6015.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_7"
+		class="SgNode"
+		org="3355.000 0.000 6435.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_8"
+		class="SgNode"
+		org="4110.000 0.000 6215.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_9"
+		class="SgNode"
+		org="4500.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_10"
+		class="SgNode"
+		org="5145.000 0.000 6020.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_11"
+		class="SgNode"
+		org="5500.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_12"
+		class="SgNode"
+		org="5880.000 0.000 5790.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_13"
+		class="SgNode"
+		org="6500.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_14"
+		class="SgNode"
+		org="7000.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_15"
+		class="SgNode"
+		org="7500.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_12_16"
+		class="SgNode"
+		org="8000.000 0.000 6000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_1"
+		class="SgNode"
+		org="685.000 0.000 6415.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_2"
+		class="SgNode"
+		org="1025.000 0.000 6570.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_3"
+		class="SgNode"
+		org="1500.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_4"
+		class="SgNode"
+		org="2000.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_5"
+		class="SgNode"
+		org="2500.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_6"
+		class="SgNode"
+		org="3000.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_7"
+		class="SgNode"
+		org="3630.000 0.000 6710.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_8"
+		class="SgNode"
+		org="4155.000 0.000 6670.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_9"
+		class="SgNode"
+		org="4500.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_10"
+		class="SgNode"
+		org="5010.000 0.000 6555.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_11"
+		class="SgNode"
+		org="5275.000 0.000 6900.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_12"
+		class="SgNode"
+		org="6175.000 0.000 6230.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_13"
+		class="SgNode"
+		org="6500.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_14"
+		class="SgNode"
+		org="7000.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_15"
+		class="SgNode"
+		org="7500.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_13_16"
+		class="SgNode"
+		org="8000.000 0.000 6500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_1"
+		class="SgNode"
+		org="500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_2"
+		class="SgNode"
+		org="1000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_3"
+		class="SgNode"
+		org="1500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_4"
+		class="SgNode"
+		org="2000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_5"
+		class="SgNode"
+		org="2500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_6"
+		class="SgNode"
+		org="3000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_7"
+		class="SgNode"
+		org="3500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_8"
+		class="SgNode"
+		org="4000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_9"
+		class="SgNode"
+		org="4500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_10"
+		class="SgNode"
+		org="5000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_11"
+		class="SgNode"
+		org="5635.000 0.000 7240.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_12"
+		class="SgNode"
+		org="6285.000 0.000 6795.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_13"
+		class="SgNode"
+		org="6805.000 0.000 6700.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_14"
+		class="SgNode"
+		org="7000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_15"
+		class="SgNode"
+		org="7500.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_14_16"
+		class="SgNode"
+		org="8000.000 0.000 7000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_1"
+		class="SgNode"
+		org="500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_2"
+		class="SgNode"
+		org="1000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_3"
+		class="SgNode"
+		org="1500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_4"
+		class="SgNode"
+		org="2000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_5"
+		class="SgNode"
+		org="2500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_6"
+		class="SgNode"
+		org="3000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_7"
+		class="SgNode"
+		org="3500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_8"
+		class="SgNode"
+		org="4000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_9"
+		class="SgNode"
+		org="4500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_10"
+		class="SgNode"
+		org="5000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_11"
+		class="SgNode"
+		org="5500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_12"
+		class="SgNode"
+		org="6105.000 0.000 7310.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SHOREAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_13"
+		class="SgNode"
+		org="6500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_14"
+		class="SgNode"
+		org="7000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_15"
+		class="SgNode"
+		org="7500.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_15_16"
+		class="SgNode"
+		org="8000.000 0.000 7500.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_1"
+		class="SgNode"
+		org="500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_2"
+		class="SgNode"
+		org="1000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_3"
+		class="SgNode"
+		org="1500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_4"
+		class="SgNode"
+		org="2000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_5"
+		class="SgNode"
+		org="2500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_OCEANAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_6"
+		class="SgNode"
+		org="3000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_7"
+		class="SgNode"
+		org="3500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_8"
+		class="SgNode"
+		org="4000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_9"
+		class="SgNode"
+		org="4500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_10"
+		class="SgNode"
+		org="5000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_11"
+		class="SgNode"
+		org="5500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_12"
+		class="SgNode"
+		org="6000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_13"
+		class="SgNode"
+		org="6500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_14"
+		class="SgNode"
+		org="7000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_15"
+		class="SgNode"
+		org="7500.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
+
+	<Node
+		name="SoundObject_16_16"
+		class="SgNode"
+		org="8000.000 0.000 8000.000"
+		orgRel="1">
+		<Node
+			name="noise"
+			class="SgSoundSourceNode"
+			id="S_SEAAMBIENT" />
+	</Node>
 </World>

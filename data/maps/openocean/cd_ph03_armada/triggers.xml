@@ -21,9 +21,9 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "ò.ð.ê. «Àðãóìåíòî»"}
-			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "«Àãèððå» (ý.ì.ò. «Àëüáåäî»)"}
-			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "«Àíäîððà» (ý.ì.ò. «Àëüáåäî»)"}
+			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "«Àðãóìåíòî» (òèï «Òîñêàíà»)"}
+			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "«Àãèððå» (òèï «Àëüáåäî»)"}
+			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "«Àíäîððà» (òèï «Àëüáåäî»)"}
 --			friendly[4] = {"CDDestroyer01_vehicle_2", "CDDestroyerAtlantic", "CDPH03_DestroyerCD03", 1600, 1600, 9180, 22, "«Ýñïåðàíñà» (ý.ì.ò. «Àëüáåäî»)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITBattleship01_vehicle_0", 9000, 9000, 43002, 5}
@@ -60,7 +60,7 @@
 			SetVar("PlayerHealth", 6000)
 			SetVar("PlayerVehicleHealth", 6000)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Ñàðàãîñà» (ë.ê.ò. «Ëåâèàôàí»)")
+			SetVar("PlayerName", "«Ñàðàãîñà» (òèï «Ëåâèàôàí»)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.165) -- multiplier that determines how much money the player will receive for each score point
@@ -574,6 +574,8 @@
 			if Plf then
 				Plf:PlaceToEndOfPath("StartPath_Player")
 				Plf:UnlimitMaxSpeed()
+				Plf:AddModifier("fuel", "+ 6271337")
+				Plf:AddModifier("fuel", "- 1131")
 			end
 
 			Unit = getObj("CDRocketHeavyCruiser01_vehicle_0")
@@ -779,6 +781,16 @@
 				TDeactivate("CITFormationManager")
 				TActivate("CITRetreat")
 
+				if CheckUnits({"CDRocketHeavyCruiser01_vehicle_0","CITBattleship01_vehicle_0"}, "alive", 2) then
+					LOG("CITCriticalLosses Unit Check Passed")
+					getObj("CDRocketHeavyCruiser01"):StackOpen()
+					getObj("CDRocketHeavyCruiser01"):SetDestination(getObj("CITBattleship01_vehicle_0"):GetPosition())
+					getObj("CDRocketHeavyCruiser01"):StackClose()
+					LOG("CITCriticalLosses Unit Check End")
+				end
+
+				LOG("CITCriticalLosses End")
+
 				trigger:Deactivate()
 			end
 			
@@ -860,7 +872,8 @@
 				LOG("CD destroyers aggroed")
 				for i=0, 2 do
 					Unit = getObj("CDDestroyer01_vehicle_"..i)
-					if Unit and not(getObj("")) then
+--					if Unit and not(getObj("")) then
+					if Unit then
 						Unit:SetCanBeDistractedFromMoving(true)
 					end
 				end
@@ -1009,6 +1022,16 @@
 			SetVar("CITBattleshipDetected", 1)
 
 			PlayMusic("bs_armada_combat")
+
+			if CheckUnits({"CDRocketHeavyCruiser01_vehicle_0","CITBattleship01_vehicle_0"}, "alive", 2) and 1700 >= CheckDistBetweenUnits("CDRocketHeavyCruiser01_vehicle_0", Enemies, "least") then
+				LOG("CDOrder Unit Check Passed")
+				getObj("CDRocketHeavyCruiser01"):StackOpen()
+				getObj("CDRocketHeavyCruiser01"):SetDestination(getObj("CITBattleship01_vehicle_0"):GetPosition())
+				getObj("CDRocketHeavyCruiser01"):StackClose()
+				LOG("CDOrder Unit Check End")
+			end
+
+			LOG("CDOrder End")
 			
 			trigger:Deactivate()
 		</script>
