@@ -13,6 +13,8 @@
 
 			Radar:SetScanRadius(1100)
 
+			Journal:AddPrototypeToEncyclopaedia("triple152CIT01")
+
 			GetPlayerVehicle():setImmortalMode(1)
 			GetPlayerVehicle():SetNameFromScript("MyCar")
 			SetCameraBehindPlayerVehicle()
