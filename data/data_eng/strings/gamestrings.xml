@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons--><!-- Общие в игре -->
+	<string
+		id="Price"
+		value="Price" />
+
+	<string
+		id="BasePrice"
+		value="Average price" />
+
+	<string
+		id="Goods"
+		value="Goods" />
+
+	<string
+		id="Amount"
+		value="Amount" />
+
+	<string
+		id="NotEnoughGold"
+		value="Not enough money." />
+
+	<string
+		id="NotEnoughSpace"
+		value="Not enough space in the hold." />
+
+	<string
+		id="Buy"
+		value="Buy" />
+
+	<string
+		id="Sell"
+		value="Sell" />
+
+	<string
+		id="NotSellable"
+		value="@ffff0000Нельзя продать" />
+
+	<string
+		id="NotBuyable"
+		value="@ffff0000Нельзя купить" />
+
+	<string
+		id="NotSelledByTown"
+		value="@ff904040Не продается городом" />
+
+	<string
+		id="NotBuyedByTown"
+		value="@ff904040Не покупается городом" />
+
+	<string
+		id="WareNotSelledByTown"
+		value="Город не продает товары этого типа" />
+
+	<string
+		id="WareNotBuyedByTown"
+		value="Город не покупает товары этого типа" />
+
+	<string
+		id="MoveVehicleItemsFromPlayer"
+		value="Переместить приспособления, товары и оружие в новое судно" />
+
+	<string
+		id="MoveVehicleItemsToPlayer"
+		value="Переместить приспособления, товары и оружие в старое судно" />
+
+	<string
+		id="MoveCabinItemsFromPlayer"
+		value="Переместить приспособления в новую силовую установку" />
+
+	<string
+		id="MoveCabinItemsToPlayer"
+		value="Переместить приспособления в старую силовую установку" />
+
+	<string
+		id="MoveBasketItemsFromPlayer"
+		value="Переместить товары и оружие в новый компонент" />
+
+	<string
+		id="MoveBasketItemsToPlayer"
+		value="Переместить товары и оружие в старый компонент" />
+
+	<string
+		id="TotalPrice"
+		value="Общая стоимость сделки" />
+
+	<string
+		id="NotCompatible"
+		value="Не совместимо с текущей конфигурацией судна" />
+
+	<string
+		id="TooRich"
+		value="Не хватает денег на покупку" />
+
+	<string
+		id="BuyPriceByTown"
+		value="Цена покупки городом" />
+
+	<string
+		id="SellPriceByTown"
+		value="Цена продажи городом" />
+
+	<string
+		id="QuickSave"
+		value="Быстрое сохранение" />
+
+	<string
+		id="AutoSave"
+		value="Автосохранение" />
+
+	<string
+		id="GameWasSaved"
+		value="Игра сохранена: @fffed11b%1s" />
+
+	<string
+		id="GameWasLoaded"
+		value="Игра загружена: @fffed11b%1s" />
+
+	<string
+		id="GameSaving"
+		value="Сохранение" />
+
+	<string
+		id="GameSaving..."
+		value="Сохранение..." />
+
+	<string
+		id="SaveGame"
+		value="Сохранить игру" />
+
+	<string
+		id="AddNavPoint"
+		value="Добавить ориентир" />
+
+	<string
+		id="DeleteNavPoint"
+		value="Удалить ориентир" />
+
+	<string
+		id="ShotInMinute"
+		value="выстр/мин" />
+
+	<string
+		id="Minute"
+		value="мин" />
+
+	<string
+		id="Secunde"
+		value="сек" />
+
+	<string
+		id="Meter"
+		value="м" />
+
+	<string
+		id="KmInSec"
+		value="км/сек" />
+
+	<string
+		id="CurMax"
+		value="тек/макс" />
+
+	<string
+		id="Km"
+		value="км" />
+
+	<string
+		id="m"
+		value="м" />
+
+	<string
+		id="percent"
+		value="%" />
+
+	<string
+		id="PlayerMoney"
+		value="Деньги игрока" />
+
+	<string
+		id="Money"
+		value="Деньги" />
+
+	<string
+		id="QuestItems"
+		value="Специальные предметы" />
+
+	<string
+		id="Broken"
+		value="Выведено из строя" />
+
+	<string
+		id="NoAmmo"
+		value="Нет боеприпасов" />
+<!-- Окно харктеристик машины -->
+	<string
+		id="WeaponGroups"
+		value="Группы оружия" />
+
+	<string
+		id="VehicleCharacteristics"
+		value="Характеристики судна" />
+
+	<string
+		id="CBCharacteristics"
+		value="Характеристики компонентов" />
+
+	<string
+		id="NotInstalled"
+		value="Не установлено" />
+<!-- Игровое меню -->
+	<string
+		id="ExitCurGame"
+		value="Завершить текущую игру?|Внимание: все несохраненные данные будут утеряны." />
+
+	<string
+		id="Quit to Main Menu"
+		value="Выход в главное меню" />
+
+	<string
+		id="Back"
+		value="Назад" />
+
+	<string
+		id="ResumeGame"
+		value="Вернуться в игру" />
+
+	<string
+		id="GameOver"
+		value="Игра окончена" />
+
+	<string
+		id="Load Last Game"
+		value="Загрузить последнюю игру" />
+
+	<string
+		id="Start Game From Begin"
+		value="Начать игру сначала" />
+
+	<string
+		id="quitGameWithSaveWarn"
+		value="Выйти из игры?|Внимание: все несохраненные данные будут утеряны." />
+<!-- Окно сохранения -->
+	<string
+		id="SaveNameDemand"
+		value="Введите название сохранения" />
+
+	<string
+		id="SaveGameExists"
+		value="Перезаписать существующее сохранение?" />
+
+	<string
+		id="SaveGameDeleteWarning"
+		value="Выбранная игра будет удалена. Продолжить?" />
+
+	<string
+		id="SavingCurrentGame"
+		value="Сохранение текущей игры" />
+
+	<string
+		id="DeleteGame"
+		value="Удалить сохраненную игру" />
+<!-- Характеристики машины/кабины/кузова/оружия/гаджетов -->
+	<string
+		id="Power"
+		value="Мощность" />
+
+	<string
+		id="EnginePower"
+		value="Мощность СУ" />
+
+	<string
+		id="Torque"
+		value="Крутящий момент" />
+
+	<string
+		id="Durability"
+		value="Прочность" />
+
+	<string
+		id="Speed"
+		value="Скорость" />
+
+	<string
+		id="MaxSpeed"
+		value="Максимальная скорость" />
+
+	<string
+		id="Weight"
+		value="Масса" />
+
+	<string
+		id="Damage"
+		value="Повреждение" />
+
+	<string
+		id="FiringRate"
+		value="Скорость стрельбы" />
+
+	<string
+		id="FiringRange"
+		value="Дальность поражения" />
+
+	<string
+		id="Armor"
+		value="Броня" />
+
+	<string
+		id="ArmorTip"
+		value="Общая броня компонентов" />
+
+	<string
+		id="MaxArmor"
+		value="Максимальная броня" />
+
+	<string
+		id="Solidity"
+		value="Прочность" />
+
+	<string
+		id="Resistance"
+		value="Сопротивление" />
+
+	<string
+		id="ShellPool"
+		value="Боезапас" />
+
+	<string
+		id="ChargeSize"
+		value="Количество зарядов в обойме" />
+
+	<string
+		id="RechargingTime"
+		value="Время перезарядки" />
+
+	<string
+		id="BasketCapacity"
+		value="Объём трюма" />
+
+	<string
+		id="GADGET_COMMON"
+		value="лёгкий" />
+
+	<string
+		id="GADGET_WEAPON"
+		value="тяжёлый" />
+
+	<string
+		id="GADGET_ENGINE"
+		value="улучшение двигателя" />
+
+	<string
+		id="GadgetType"
+		value="Тип модернизации" />
+
+	<string
+		id="Piercing"
+		value="ББС" />
+
+	<string
+		id="Blast"
+		value="пули" />
+
+	<string
+		id="Energy"
+		value="ОФС" />
+
+	<string
+		id="ResistDamage"
+		value="Сопротивление урону" />
+
+	<string
+		id="PiercingCap"
+		value="ББС" />
+
+	<string
+		id="BlastCap"
+		value="Пули" />
+
+	<string
+		id="EnergyCap"
+		value="ОФС" />
+
+	<string
+		id="Fuel"
+		value="Горючее" />
+
+	<string
+		id="Construction"
+		value="Конструкция" />
+
+	<string
+		id="MaxConstruction"
+		value="Максимальная конструкция" />
+
+	<string
+		id="PiercingResistance"
+		value="Сопротивление бронебойным снарядам" />
+
+	<string
+		id="BlastResistance"
+		value="Сопротивление огнестрельному оружию" />
+
+	<string
+		id="EnergyResistance"
+		value="Сопротивление осколочно-фугасным снарядам" />
+
+	<string
+		id="VehicleControl"
+		value="Управляемость" />
+
+	<string
+		id="FuelTankCapacity"
+		value="Объём топлива" />
+
+	<string
+		id="Accuracy"
+		value="Точность" />
+
+	<string
+		id="CabinDurability"
+		value="Прочность СУ" />
+
+	<string
+		id="BasketDurability"
+		value="Прочность компонента" />
+
+	<string
+		id="GunType"
+		value="Тип оружия" />
+
+	<string
+		id="MachineGun"
+		value="Пулемёт" />
+
+	<string
+		id="Artillery"
+		value="РСЗО" />
+
+	<string
+		id="Rocket"
+		value="Ракетная установка" />
+
+	<string
+		id="Oil"
+		value="Бомбомёт" />
+
+	<string
+		id="Mine"
+		value="Торпедный аппарат" />
+		
+	<string
+		id="Nail"
+		value="Орудие AA" />
+
+	<string
+		id="ShotGun"
+		value="Орудие DD" />
+
+	<string
+		id="Cannon"
+		value="Орудие CL" />
+
+	<string
+		id="Laser"
+		value="Орудие CA" />
+
+	<string
+		id="Plasma"
+		value="Орудие BB" />
+
+	<string
+		id="Type_Smoke"
+		value="Дымовая завеса" />
+
+	<string
+		id="Thunderbolt"
+		value="Молниемет" />
+
+	<string
+		id="Turbo"
+		value="Турбо-ускоритель" />
+<!-- Энциклопедия -->
+	<string
+		id="Weapon"
+		value="Оружие" />
+
+	<string
+		id="Gadgets"
+		value="Проекты модернизации" />
+
+	<string
+		id="Vehicles"
+		value="Техника" />
+
+	<string
+		id="VehicleParts"
+		value="Компоненты" />
+
+	<string
+		id="Affixes"
+		value="Модификаторы" />
+
+	<string
+		id="Clans"
+		value="Группировки" />
+<!-- Окно ремонта -->
+	<string
+		id="Cabin"
+		value="Силовая установка" />
+
+	<string
+		id="Basket"
+		value="Компонент" />
+<!-- Мастерская (гараж) -->
+	<string
+		id="Repairing"
+		value="Починка" />
+
+	<string
+		id="Refuelling"
+		value="Заправка" />
+
+	<string
+		id="Recharging"
+		value="Перезарядка оружия" />
+
+	<string
+		id="BuySkin"
+		value="Перекрасить" />
+
+	<string
+		id="NextSkin"
+		value="Следующая расцветка" />
+
+	<string
+		id="PrevSkin"
+		value="Предыдущая расцветка" />
+
+	<string
+		id="SkinAlreadySet"
+		value="Эта расцветка уже является текущей" />
+
+	<string
+		id="Skinning"
+		value="Покраска судна" />
+
+	<string
+		id="BuyCabin"
+		value="Купить силовую установку" />
+
+	<string
+		id="BuyBasket"
+		value="Купить компонент" />
+
+	<string
+		id="BuyVehicle"
+		value="Купить судно" />
+
+	<string
+		id="RefuelMax"
+		value="Заправить по максимуму" />
+
+	<string
+		id="RepairMax"
+		value="Починить по максимуму" />
+
+	<string
+		id="RechargeMax"
+		value="Зарядить оружие по максимуму" />
+
+	<string
+		id="NextVehicle"
+		value="Следующее судно" />
+
+	<string
+		id="PrevVehicle"
+		value="Предыдущее судно" />
+
+	<string
+		id="NumUnitsToBuy"
+		value="Количество для покупки" />
+
+	<string
+		id="Refuel"
+		value="Заправить" />
+
+	<string
+		id="Repair"
+		value="Починить" />
+
+	<string
+		id="Recharge"
+		value="Перезарядить" />
+
+	<string
+		id="ToAdvancedMode"
+		value="К расширенному режиму" />
+
+	<string
+		id="ToSimpleMode"
+		value="К простому режиму" />
+
+	<string
+		id="More"
+		value="Больше" />
+
+	<string
+		id="Less"
+		value="Меньше" />
+
+	<string
+		id="OneUnitPrice"
+		value="Цена за единицу" />
+
+	<string
+		id="NumUnitsToBuy"
+		value="Количество для покупки" />
+
+	<string
+		id="SummaryPrice"
+		value="Общая стоимость" />
+
+	<string
+		id="RepairNotNeed"
+		value="Починка не требуется" />
+
+	<string
+		id="RepairUnavailable"
+		value="Не хватает денег на починку" />
+
+	<string
+		id="RepairPartial"
+		value="Частичная починка" />
+
+	<string
+		id="RepairFull"
+		value="Полная починка" />
+
+	<string
+		id="RefuelNotNeed"
+		value="Заправка не требуется" />
+
+	<string
+		id="RefuelUnavailable"
+		value="Не хватает денег на заправку" />
+
+	<string
+		id="RefuelPartial"
+		value="Частичная заправка" />
+
+	<string
+		id="RefuelFull"
+		value="Полная заправка" />
+
+	<string
+		id="RechargeNotNeed"
+		value="Зарядка не требуется" />
+
+	<string
+		id="RechargeUnavailable"
+		value="Не хватает денег на зарядку" />
+
+	<string
+		id="RechargePartial"
+		value="Частичная зарядка" />
+
+	<string
+		id="RechargeFull"
+		value="Полная зарядка" />
+
+	<string
+		id="State"
+		value="Статус" />
+
+	<string
+		id="LeftItemsInCabin"
+		value="В силовой установке остались установленные приспособления.|Они будут проданы вместе с силовой установкой.|Продолжить?" />
+
+	<string
+		id="LeftItemsInBasket"
+		value="В трюме остались предметы.|Они будут проданы вместе с компонентом.|Продолжить?" />
+
+	<string
+		id="LeftItemsInVehicle"
+		value="В судне остались установленные приспособления и/или оружие.|Они будут проданы вместе с судном.|Продолжить?" />
+
+	<string
+		id="BuyItemsCost"
+		value="Стоимость покупаемых предметов" />
+
+	<string
+		id="SellItemsCost"
+		value="Стоимость продаваемых предметов" />
+
+	<string
+		id="Sum:"
+		value="Итого:" />
+
+	<string
+		id="Select"
+		value="Выбрать" />
+
+	<string
+		id="EnterVehicleTrade"
+		value="Войти в режим покупки судна" />
+
+	<string
+		id="VehiclePrice"
+		value="Цена судна" />
+
+	<string
+		id="ReturnToWorkshop"
+		value="Вернуться в главное окно дока" />
+<!-- Магазин -->
+	<string
+		id="GunsAndGadgets"
+		value="Оружие и устройства улучшения" />
+
+	<string
+		id="ShowAllWares"
+		value="Показать все товары" />
+
+	<string
+		id="ShowTownSelledWares"
+		value="Показать товары, продаваемые городом" />
+
+	<string
+		id="NoWare"
+		value="Товара нет в наличии" />
+<!-- Комбо-бокс выбора карт -->
+	<string
+		id="All"
+		value="Все" />
+<!-- Карта -->
+	<string
+		id="NavPoint"
+		value="Ориентир" />
+
+	<string
+		id="ToGlobalMap"
+		value="Перейти к карте мира" />
+
+	<string
+		id="ToLocalMap"
+		value="Перейти к карте местности" />
+
+	<string
+		id="MapUnavailable"
+		value="Подробная карта местности пока недоступна." />
+
+	<string
+		id="TradeMode"
+		value="Показать список цен" />
+
+	<string
+		id="InfoMode"
+		value="Показать описание" />
+
+	<string
+		id="SavePrices"
+		value="Добавить город в список для сохранения цен" />
+
+	<string
+		id="RemovePrices"
+		value="Удалить город из списка для сохранения цен" />
+
+	<string
+		id="ShowObjectNames"
+		value="Показать названия объектов" />
+
+	<string
+		id="HideObjectNames"
+		value="Скрыть названия объектов" />
+
+	<string
+		id="Description"
+		value="Описание" />
+
+	<string
+		id="Ruined"
+		value="@ff904040Разрушено" />
+<!-- Список оружия -->
+	<string
+		id="KeySet"
+		value="Сочетание клавиш" />
+<!-- Журнал -->
+	<string
+		id="History"
+		value="История" />
+
+	<string
+		id="Books"
+		value="Книги" />
+
+	<string
+		id="Encyclopaedia"
+		value="Энциклопедия" />
+
+	<string
+		id="Statistic"
+		value="Статистика" />
+
+	<string
+		id="Relations"
+		value="Отношения" />
+<!-- Окно репутации -->
+	<string
+		id="EnemyRelation"
+		value="Враждебное отношение" />
+
+	<string
+		id="FriendlyRelation"
+		value="Дружественное отношение" />
+
+	<string
+		id="NeutralRelation"
+		value="Нейтральное отношение" />
+
+	<string
+		id="Peace"
+		value="Мир" />
+
+	<string
+		id="War"
+		value="Война" />
+
+	<string
+		id="PeaceAvailable"
+		value="Возможно улучшить отношения с группировкой,|если переговорить с её представителями|в одном из городов" />
+<!-- Квестлог -->
+	<string
+		id="ShowAllQuests"
+		value="Показать все задания" />
+
+	<string
+		id="ShowNoncompletedQuests"
+		value="Показать только невыполненные задания" />
+
+	<string
+		id="ShowQuestItems"
+		value="Показать специальные предметы" />
+
+	<string
+		id="ShowQuests"
+		value="Показать задания" />
+
+	<string
+		id="Quests"
+		value="Задания" />
+<!-- Инвентарь -->
+	<string
+		id="PickUpAll"
+		value="Подобрать всё" />
+<!-- Общий интерфейс с закладками -->
+	<string
+		id="TabBtn_Questlog"
+		value="Задания" />
+
+	<string
+		id="TabBtn_Map"
+		value="Карта" />
+
+	<string
+		id="TabBtn_Journal"
+		value="Журнал" />
+
+	<string
+		id="TabBtn_Inventory"
+		value="Содержимое трюма" />
+
+	<string
+		id="TabBtn_Characteristic"
+		value="Информация о судне" />
+<!-- Окно помощи -->
+	<string
+		id="DontShowAutoHelp"
+		value="Не показывать автоматические подсказки" />
+
+	<string
+		id="Radar"
+		value="Радар" />
+
+	<string
+		id="Speedometer"
+		value="Спидометр" />
+
+	<string
+		id="Timer"
+		value="Таймер" />
+
+	<string
+		id="FadingMessages"
+		value="Сообщения" />
+
+	<string
+		id="ImportantFadingMessages"
+		value="Важные сообщения" />
+
+	<string
+		id="TargetInfo"
+		value="Информация о цели" />
+
+	<string
+		id="TargetCapture"
+		value="Захват цели" />
+
+	<string
+		id="ActionIcons"
+		value="Действия" />
+<!-- Окно бара -->
+	<string
+		id="TalkWithNpc"
+		value="Говорить с персонажем" />
+</resource>

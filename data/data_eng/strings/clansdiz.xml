@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons--><!-- Названия -->
+	<string
+		id="Belong_1500"
+		value="Player" />
+
+	<string
+		id="Belong_1500_abb"
+		value="Ally" />
+
+	<string
+		id="Belong_1486"
+		value="Pendulum" />
+
+	<string
+		id="Belong_1486_abb"
+		value="NPP" />
+
+
+<!-- Commonwealth of Independent Towns -->
+
+
+	<string
+		id="Belong_1000"
+		value="Commonwealth of Independent Towns" />
+
+	<string
+		id="Belong_1000_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1001"
+		value="CIT vessel" />
+
+	<string
+		id="Belong_1001_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1002"
+		value="CIT boat" />
+
+	<string
+		id="Belong_1002_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1003"
+		value="CIT destroyer" />
+
+	<string
+		id="Belong_1003_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1004"
+		value="CIT cruiser" />
+
+	<string
+		id="Belong_1004_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1005"
+		value="CIT battleship" />
+
+	<string
+		id="Belong_1005_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1006"
+		value="CIT helicopter" />
+
+	<string
+		id="Belong_1006_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1007"
+		value="CIT airplane" />
+
+	<string
+		id="Belong_1007_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1008"
+		value="CIT ground unit" />
+
+	<string
+		id="Belong_1008_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1009"
+		value="CIT truck" />
+
+	<string
+		id="Belong_1009_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1010"
+		value="CIT armored car" />
+
+	<string
+		id="Belong_1010_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1011"
+		value="CIT tank" />
+
+	<string
+		id="Belong_1011_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1012"
+		value="CIT artillery" />
+
+	<string
+		id="Belong_1012_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1013"
+		value="CIT rocket complex" />
+
+	<string
+		id="Belong_1013_abb"
+		value="CIT" />
+
+
+<!-- Mission-related CIT belongs-->
+	<string
+		id="Belong_1030"
+		value="Brest" />
+
+	<string
+		id="Belong_1030_abb"
+		value="CIT" />
+
+	<string
+		id="Belong_1031"
+		value="Librium" />
+
+	<string
+		id="Belong_1031_abb"
+		value="CIT" />
+
+
+<!-- Crimson Dawn -->
+
+
+	<string
+		id="Belong_1050"
+		value="Crimson Dawn" />
+
+	<string
+		id="Belong_1050_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1051"
+		value="CD vessel" />
+
+	<string
+		id="Belong_1051_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1052"
+		value="CD boat" />
+
+	<string
+		id="Belong_1052_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1053"
+		value="CD destroyer" />
+
+	<string
+		id="Belong_1053_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1054"
+		value="CD cruiser" />
+
+	<string
+		id="Belong_1054_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1055"
+		value="CD battleship" />
+
+	<string
+		id="Belong_1055_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1056"
+		value="CD helicopter" />
+
+	<string
+		id="Belong_1056_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1057"
+		value="CD airplane" />
+
+	<string
+		id="Belong_1057_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1058"
+		value="CD ground unit" />
+
+	<string
+		id="Belong_1058_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1059"
+		value="CD truck" />
+
+	<string
+		id="Belong_1059_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1060"
+		value="CD armored car" />
+
+	<string
+		id="Belong_1060_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1061"
+		value="CD tank" />
+
+	<string
+		id="Belong_1061_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1062"
+		value="CD artillery" />
+
+	<string
+		id="Belong_1062_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1063"
+		value="CD rocket complex" />
+
+	<string
+		id="Belong_1063_abb"
+		value="CD" />
+
+
+<!-- Mission-related CIT belongs-->
+	<string
+		id="Belong_1080"
+		value="Toskana" />
+
+	<string
+		id="Belong_1080_abb"
+		value="CD" />
+
+	<string
+		id="Belong_1081"
+		value="Rocket cruiser" />
+
+	<string
+		id="Belong_1081_abb"
+		value="CD" />
+
+
+
+<!-- Описания -->
+	<string
+		id="Belong_1000_diz"
+		value="30 years since the last war with its southern neighbors, the Commonwealth has significantly expanded its borders and today it is a full-fledged state consisting of many entities endowed with broad autonomy. Besides Librium, the official, internationally recognized borders of the CIT also consist of enclaves in the territories of western Ridzin, Chamenos and Nisia, as well as the temporarily occupied islands of Iles-Neuve. The current president of the country, Charles Fabien, like six of his predecessors after the end of the war with Arjen, could not resolve the issue of the tense internal political situation in the country due to the eternal confrontation between nationalists and socialists in the Senate on a number of government issues. However, Arjen's new so-called “treacherous large-scale invasion” once again rallied the citizens of the Commonwealth around one goal - victory over the aggressor, and even despite the recent series of major defeats at the front, the morale of the CIT army still remains high." />
+
+	<string
+		id="Belong_1050_diz"
+		value="After the signing of the “forced truce” and the subsequent elections organized by the provisional government, an opponent of the Axel regime by the name of Vicente Jaime came to power in Arjen. Thanks to his liberal reforms, industry and agriculture were restored in the country, while special attention was paid to the rapidly developing at that time industries of shipbuilding and maritime trade. Following his re-election against the backdrop of growing nationalist and revanchist sentiments in the country, Jaime declared himself “Gran Timonel” of Arjen by widely expanding the navy. During 15 years of his rule, diplomatic relations with the countries of North America and the Middle East had been established, and thanks to the “hard work” of the Navy Expeditionary Force, the North African and South American colonies were included to the country. When it became clear that the country had finally recovered from the devastating consequences of the previous war, achieving complete self-sufficiency, the ruling party was once again reorganized into... the Crimson Dawn." />
+</resource>

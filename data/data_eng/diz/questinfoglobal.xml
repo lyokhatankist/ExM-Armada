@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+	<QuestInfo
+		questName="CD_PH01"
+		briefDiz="Гарнизон"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyBoats"
+		briefDiz="Гарнизон - Уничтожить вражеские торпедные катера"
+		fullDiz="Конвой был атакован торпедными катерами."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="4128.000 255.000 4179.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyCruisers"
+		briefDiz="Гарнизон - Уничтожить вражескую ударную группу"
+		fullDiz="На помощь гарнизону острова Псарадон прибыла ударная группа, состоящая из нескольких крейсеров. Нужно защитить сухогрузы от артиллерийского огня."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5592.000 255.000 4510.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyDestroyers"
+		briefDiz="Гарнизон - Уничтожить вражеские эсминцы"
+		fullDiz="Вражеские эсминцы заметили наш конвой. Их необходимо уничтожить."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5051.000 255.000 4019.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyTurrets"
+		briefDiz="Гарнизон - Уничтожить вражеские укрепления"
+		fullDiz="На пути следования сухогрузов расположены вражеские орудия береговой артиллерии и фортификационные сооружения. Их следует уничтожить, чтобы обезопасить маршрут для наших торговых судов."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5797.000 281.000 3914.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortFirst"
+		briefDiz="Сопроводить сухогруз «Августин Брейн»"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant01_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortSecond"
+		briefDiz="Сопроводить сухогруз «Хуан Эль-Уэво»"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant02_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="Leave02Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02"
+		briefDiz="Крепость"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH02_DestroyLavs"
+		briefDiz="Крепость - Уничтожить вражеские ЗРК"
+		fullDiz="Вражеские зенитно-ракетные комплексы не дают нашей авиации приблизиться к острову. Уничтожьте вражеские броневики, чтобы получить поддержку с воздуха."
+		isMainQuest="0">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2975.000 279.000 5875.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02_DestroyTurrets"
+		briefDiz="Уничтожить вражеские укрепления на острове Милос"
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2290.000 290.000 5750.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			targetObjName="Leave03Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03"
+		briefDiz="Армада"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH03_DestroyBattleship"
+		briefDiz="Уничтожить вражеский линкор"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			coordinate="4102.000 255.000 6988.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_ProtectCruiser"
+		briefDiz="Армада - Защитить крейсер «Аргументо»"
+		fullDiz="Задача ракетного крейсера - уничтожить вражеский линкор. Защитите его, чтобы гарантировать успех миссии."
+		isMainQuest="0">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="CDRocketHeavyCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial"
+		briefDiz="Крещение огнём"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyBoats"
+		briefDiz="Уничтожить боевые катера СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			coordinate="5525.000 255.000 2282.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyCruiser"
+		briefDiz="Уничтожить крейсер СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITOldCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyDestroyer"
+		briefDiz="Уничтожить эсминец СНГ"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITDestroyer01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_Retreat"
+		briefDiz="Отступить из района боевых действий"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH01"
+		briefDiz="Контратака"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH01_DestroyTargets"
+		briefDiz="Уничтожить противника у острова Кейна"
+		fullDiz="Противник занял позиции на одном из юговосточных островов Большого риджинского архипелага. Силы противника составляют несколько бронемашин и боевых катеров. Необходимо выбить противника с захваченного острова."
+		isMainQuest="1">
+		<Map
+			name="cit_ph01_counterattack"
+			coordinate="4591.000 279.000 1543.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH01_Retreat"
+		briefDiz="Вернуться к точке збора"
+		fullDiz="Успешно отступить после выполнения задания."
+		isMainQuest="1">
+		<Map
+			name="cit_ph01_counterattack"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02"
+		briefDiz="Незванные гости"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH02_DestroyDestroyers"
+		briefDiz="Незванные гости - Уничтожить вражеские эсминцы"
+		fullDiz="Эсминцы обеспечивают противовоздушное прикрытие для флота АР. Пока они не будут уничтожены - наша авиация не сможет начать работу."
+		isMainQuest="0">
+		<Map
+			name="cit_ph02_guests"
+			coordinate="1175.000 279.000 4932.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02_DestroyFleet"
+		briefDiz="Уничтожить флот противника"
+		isMainQuest="1">
+		<Map
+			name="cit_ph02_guests"
+			coordinate="3612.000 285.000 2377.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02_Retreat"
+		briefDiz="Покинуть зону боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cit_ph02_guests"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03"
+		briefDiz="Марш"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyCruisers"
+		briefDiz="Уничтожить крейсера противника"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			coordinate="7811.000 279.000 1959.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyMerchants"
+		briefDiz="Уничтожить вражеские сухогрузы"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			coordinate="1175.000 279.000 4932.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04"
+		briefDiz="Рутина"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH04_DestroyMerchants"
+		briefDiz="Уничтожить вражеские сухогрузы"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			coordinate="6323.000 279.000 7425.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04_Retreat"
+		briefDiz="Покинуть район боевых действий"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+</QuestInfoResource>
