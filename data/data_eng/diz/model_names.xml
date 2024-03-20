@@ -620,92 +620,92 @@
 	<Item
 		id="torpedo_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование торпедных аппаратов" />
+		value="Blueprint: topredo launchers upgrade" />
 
 	<Item
 		id="ddguns_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование СУО эсминцев" />
+		value="Blueprint: destroyers fire control upgrade" />
 
 	<Item
 		id="antiair_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование зенитных орудий" />
+		value="Blueprint: anti-air guns upgrade" />
 
 	<Item
 		id="clguns_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование СУО лёгких крейсеров" />
+		value="Blueprint: light cruisers fire control upgrade" />
 
 	<Item
 		id="hp_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование бронирования" />
+		value="Blueprint: armor upgrade" />
 
 	<Item
 		id="caguns_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование СУО тяжёлых крейсеров" />
+		value="Blueprint: heavy cruisers fire control upgrade" />
 
 	<Item
 		id="fuel_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование топливной системы" />
+		value="Blueprint: fuel system upgrade" />
 
 	<Item
 		id="bbguns_upgrade"
 		locForm="0"
-		value="Чертёж: усовершенствование СУО линкоров" />
+		value="Blueprint: battleships fire control upgrade" />
 
 	<Item
 		id="anti_missile_system"
 		locForm="0"
-		value="Чертёж: опытная противоракетная защита" />
+		value="Blueprint: experimental anti-missile system" />
 
 	<Item
 		id="antiair_basic"
 		locForm="0"
-		value="Чертёж: модернизация зенитных орудий" />
+		value="Blueprint: anti-air guns modernization" />
 
 	<Item
 		id="ddguns_basic"
 		locForm="0"
-		value="Чертёж: модернизация СУО эсминцев" />
+		value="Blueprint: destroyers fire control modernization" />
 
 	<Item
 		id="clguns_basic"
 		locForm="0"
-		value="Чертёж: модернизация СУО лёгких крейсеров" />
+		value="Blueprint: light cruisers fire control modernization" />
 
 	<Item
 		id="caguns_basic"
 		locForm="0"
-		value="Чертёж: модернизация СУО тяжёлых крейсеров" />
+		value="Blueprint: heavy cruisers fire control modernization" />
 
 	<Item
 		id="bbguns_basic"
 		locForm="0"
-		value="Чертёж: модернизация СУО линкоров" />
+		value="Blueprint: battleships fire control modernization" />
 
 	<Item
 		id="hp_basic"
 		locForm="0"
-		value="Чертёж: модернизация бронирования" />
+		value="Blueprint: armor modernization" />
 
 	<Item
 		id="fuel_basic"
 		locForm="0"
-		value="Чертёж: модернизация топливной системы" />
+		value="Blueprint: fuel system modernization" />
 
 	<Item
 		id="speed_basic"
 		locForm="0"
-		value="Чертёж: модернизация силовой установки" />
+		value="Blueprint: generators modernization" />
 <!-- vehicles -->
 	<Item
 		id="Heli"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="HeliCITForEncyclopaedia"
@@ -855,12 +855,12 @@
 	<Item
 		id="FastboatCIT"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="FastboatCITForEncyclopaedia"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="fastboatCITEngine"
@@ -875,7 +875,7 @@
 	<Item
 		id="FastboatCIT01"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="fastboatCITTorpedo01"
@@ -1410,12 +1410,12 @@
 	<Item
 		id="MerchantCD"
 		locForm="0"
-		value="Сухогруз" />
+		value="Cargo ship" />
 
 	<Item
 		id="MerchantCDForEncyclopaedia"
 		locForm="0"
-		value="Сухогруз" />
+		value="Cargo ship" />
 
 	<Item
 		id="merchantCDEngine"
@@ -1430,7 +1430,7 @@
 	<Item
 		id="MerchantCD01"
 		locForm="0"
-		value="Сухогруз" />
+		value="Cargo ship" />
 
 	<Item
 		id="LavCIT"
@@ -1495,17 +1495,17 @@
 	<Item
 		id="CoastAAMed01"
 		locForm="0"
-		value="Орудие" />
+		value="Coastal gun" />
 
 	<Item
 		id="CITCoastMed01"
 		locForm="0"
-		value="Орудие" />
+		value="Coastal gun" />
 
 	<Item
 		id="CDCoastMed01"
 		locForm="0"
-		value="Орудие" />
+		value="Coastal gun" />
 
 	<Item
 		id="heliFuselage01_static01"
@@ -1520,17 +1520,17 @@
 	<Item
 		id="destroyerCDEngineTest"
 		locForm="0"
-		value="Н/Д" />
+		value="N/A" />
 
 	<Item
 		id="fakeCargo"
 		locForm="0"
-		value="Н/Д" />
+		value="N/A" />
 
 	<Item
 		id="HQVehicle01"
 		locForm="0"
-		value="Н/Д" />
+		value="N/A" />
 
 <!-- Tutorial -->
 	<Item
@@ -1571,22 +1571,22 @@
 	<Item
 		id="Tutorial_SmlboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="Tutorial_DestroyerCIT01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="Tutorial_FastboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="Tutorial_OCruiserCIT01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 <!-- CIT PH01 Counterattack -->
 	<Item
@@ -1617,27 +1617,27 @@
 	<Item
 		id="CITPH01_SmlboatCD01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CITPH01_SmlboatCD02"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CITPH01_SmlboatCD03"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CITPH01_LavCD01"
 		locForm="0"
-		value="Броневик" />
+		value="Scout car" />
 
 	<Item
 		id="CITPH01_DestroyerCD01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 <!-- CIT PH02 Guests -->
 	<Item
@@ -1683,42 +1683,42 @@
 	<Item
 		id="CITPH02_DestroyerCD01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CITPH02_HCruiserCD01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CITPH02_BattleshipCD01"
 		locForm="0"
-		value="Линкор" />
+		value="Battleship" />
 
 	<Item
 		id="CITPH02_BattleshipCD02"
 		locForm="0"
-		value="Линкор" />
+		value="Battleship" />
 
 	<Item
 		id="CITPH02_HeliCD01"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CITPH02_HeliCD02"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CITPH02_HeliCD03"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CITPH02_HeliCD04"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 <!-- CIT PH03 March -->
 	<Item
@@ -1739,64 +1739,64 @@
 	<Item
 		id="CITPH03_SmlboatCD01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CITPH03_DestroyerCD01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CITPH03_DestroyerCD02"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CITPH03_HCruiserCD01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CITPH03_HCruiserCD02"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CITPH03_MerchantCD01"
 		locForm="0"
-		value="Сухогруз" />
+		value="Cargo ship" />
 
 	<Item
 		id="CITPH03_LavCD01"
 		locForm="0"
-		value="Броневик" />
+		value="Scout car" />
 
 	<Item
 		id="CITPH03_HeliCD01"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 	
 	<Item
 		id="CITPH03_HeliCD02"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CITPH03_HeliCD03"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CITPH03_HeliCD04"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 
 <!-- CIT PH04 Routine -->
 	<Item
 		id="CITPH04_Player01"
 		locForm="0"
-		value="поз. «Корсар» (тип «Тибурон»)" />
+		value="поз. «Корсар» (тип «Мюрен»)" />
 
 	<Item
 		id="CITPH04_FastboatCIT01"
@@ -1816,22 +1816,22 @@
 	<Item
 		id="CITPH04_SmlboatCD01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CITPH04_DestroyerCD01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CITPH04_DestroyerCD02"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CITPH04_MerchantCD01"
 		locForm="0"
-		value="Сухогруз" />
+		value="Cargo ship" />
 
 <!-- CD PH01 Garrison -->
 	<Item
@@ -1862,67 +1862,67 @@
 	<Item
 		id="CDPH01_SmlboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CDPH01_FastboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CDPH01_FastboatCIT02"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CDPH01_DestroyerCIT01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CDPH01_DestroyerCIT02"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CDPH01_OCruiserCIT01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CDPH01_OCruiserCIT02"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CDPH01_OCruiserCIT03"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CDPH01_LavCIT01"
 		locForm="0"
-		value="Броневик" />
+		value="Scout car" />
 
 	<Item
 		id="CDPH01_HeliCIT01"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 	
 	<Item
 		id="CDPH01_HeliCIT02"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH01_HeliCIT03"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH01_HeliCIT04"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 <!-- CD PH02 Fortress -->
 	<Item
@@ -1953,47 +1953,47 @@
 	<Item
 		id="CDPH02_SmlboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CDPH02_FastboatCIT01"
 		locForm="0"
-		value="Катер" />
+		value="Boat" />
 
 	<Item
 		id="CDPH02_DestroyerCIT01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CDPH02_OCruiserCIT01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CDPH02_LavCIT01"
 		locForm="0"
-		value="Броневик" />
+		value="Scout car" />
 
 	<Item
 		id="CDPH02_HeliCIT01"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 	
 	<Item
 		id="CDPH02_HeliCIT02"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH02_HeliCIT03"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH02_HeliCIT04"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 <!-- CD PH03 Armada -->
 	<Item
@@ -2024,35 +2024,35 @@
 	<Item
 		id="CDPH03_DestroyerCIT01"
 		locForm="0"
-		value="Эсминец" />
+		value="Destroyer" />
 
 	<Item
 		id="CDPH03_OCruiserCIT01"
 		locForm="0"
-		value="Крейсер" />
+		value="Cruiser" />
 
 	<Item
 		id="CDPH03_BattleshipCIT01"
 		locForm="0"
-		value="Линкор" />
+		value="Battleship" />
 
 	<Item
 		id="CDPH03_HeliCIT01"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 	
 	<Item
 		id="CDPH03_HeliCIT02"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH03_HeliCIT03"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 
 	<Item
 		id="CDPH03_HeliCIT04"
 		locForm="0"
-		value="Вертолёт" />
+		value="Helicopter" />
 </ModelNames>

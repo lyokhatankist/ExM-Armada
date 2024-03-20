@@ -855,12 +855,12 @@
 	<Item
 		id="FastboatCIT"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="FastboatCITForEncyclopaedia"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="fastboatCITEngine"
@@ -875,7 +875,7 @@
 	<Item
 		id="FastboatCIT01"
 		locForm="0"
-		value="Тибурон" />
+		value="Мюрен" />
 
 	<Item
 		id="fastboatCITTorpedo01"
@@ -1796,7 +1796,7 @@
 	<Item
 		id="CITPH04_Player01"
 		locForm="0"
-		value="поз. «Корсар» (тип «Тибурон»)" />
+		value="поз. «Корсар» (тип «Мюрен»)" />
 
 	<Item
 		id="CITPH04_FastboatCIT01"

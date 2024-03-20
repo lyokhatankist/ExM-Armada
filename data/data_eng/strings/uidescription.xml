@@ -11,7 +11,7 @@
 
 	<string
 		id="ddguns_upgrade_diz"
-		value="DD guns damage: @ff23941b+20%@ff44403f|Скорость перезарядки орудий DD: @ff23941b+20%@ff44403f|Скорострельность орудий DD: @ff23941b+40%" />
+		value="DD guns damage: @ff23941b+20%@ff44403f|DD guns reload speed: @ff23941b+20%@ff44403f|DD guns firing rate: @ff23941b+40%" />
 
 	<string
 		id="antiair_upgrade_diz"
@@ -71,64 +71,64 @@
 
 	<string
 		id="speed_basic_diz"
-		value="Maximum speed: @ff23941b+5%@ff44403f|Generator power: @ff23941b+20%" />
+		value="Maximum speed: @ff23941b+5%@ff44403f|Generators power: @ff23941b+20%" />
 
 <!-- Vehicles -->
 	<string
 		id="HeliCITForEncyclopaedia_diz"
-		value="Ударный вертолёт Содружества Независимых Городов.| |Основное вооружение: четыре пусковых устройства НАР С-13, крупнокалиберный пулемёт 12,7-мм «Корд-А».|Дополнительное вооружение: два пусковых устройства противокорабельных ракет «Харибда»." />
+		value="Attack helicopter of the Commonwealth of Independent Towns.| |Primary armament: four S-13 rocket launchers, 12.7-mm “Corde-A” heavy machine gun.|Secondary armament: two “Charybdis” anti-ship missile launchers." />
 
 	<string
 		id="HeliCDForEncyclopaedia_diz"
-		value="Ударный вертолёт Алого Рассвета.| |Основное вооружение: две авиационные пушки 30-мм АПЧС.|Дополнительное вооружение: два пусковых устройства управляемых ракет «Нага»." />
+		value="Attack helicopter of the Crimson Dawn.| |Primary armament: two 30-mm APChS automatic cannons.|Secondary armament: two “Naga” guided missile launchers." />
 
 	<string
 		id="SmlboatCITForEncyclopaedia_diz"
-		value="Малый патрульный катер Содружества Независимых Городов типа «Муэтт».| |Основное вооружение: два крупнокалиберных пулемёта «Корд».|Дополнительное вооружение: нет.| |Модернизация: замена одного из пулемётов пусковой установкой реактивных снарядов «Кордаж-80»." />
+		value="Small patrol boat of the Commonwealth of Independent Towns - “Mouette”.| |Primary armament: two “Corde” heavy machine guns.|Secondary armament: none.| |Retrofit: replacement of one of the machine guns with a “Cordage-80” multiple launch rocket system." />
 
 	<string
 		id="SmlboatCDForEncyclopaedia_diz"
-		value="Малый патрульный катер Алого Рассвета типа «Ривер».| |Основное вооружение: две 20-мм автопушки «Биркигт» в башенной установке.|Дополнительное вооружение: крупнокалиберный пулемёт ПКТ." />
+		value="Small patrol boat of the Crimson Dawn - “Reaver”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount.|Secondary armament: PKT heavy machine gun." />
 
 	<string
 		id="FastboatCITForEncyclopaedia_diz"
-		value="Быстроходный торпедный катер Содружества Независимых Городов типа «Тибурон».| |Основное вооружение: 533-мм торпедный аппарат МТА-2.|Дополнительное вооружение: два крупнокалиберных пулемёта «Корд»." />
+		value="Torpedo boat of the Commonwealth of Independent Towns - “Murene”.| |Primary armament: 533-mm STL-2 torpedo launcher.|Secondary armament: two “Corde” heavy machine guns." />
 
 	<string
 		id="DestroyerCITForEncyclopaedia_diz"
-		value="Эсминец Содружества Независимых Городов типа «Лион».| |Основное вооружение: два 533-мм торпедных аппарата, три 130-мм корабельных орудия.|Дополнительное вооружение: нет.|Средства противовоздушной обороны: четыре ед.| |Модернизация: замена основного вооружения 138-мм корабельными орудиями, усовершенствование системы дозарядки торпедных аппаратов, улучшение скоростных характеристик." />
+		value="Destroyer of the Commonwealth of Independent Towns - “Lyon”.| |Primary armament: two 533-mm torpedo launchers, three 130-mm guns in three single gun turrets.|Secondary armament: none.|Anti-aircraft guns: four.| |Retrofit: replacement of the primary armament with single 138-mm gun turrets, modernization of the torpedo launchers reloading system, improvement of mobility parameters." />
 
 	<string
 		id="DestroyerCDForEncyclopaedia_diz"
-		value="Эсминец Алого Рассвета типа «Альбедо».| |Основное вооружение: два 610-мм торпедных аппарата, четыре 127-мм двухорудийные артиллерийские установки.|Дополнительное вооружение: нет.|Средства противовоздушной обороны: три ед.| |Модернизация: замена основного вооружения 135-мм двухорудийными артиллерийскими установками, улучшение бронирования." />
+		value="Destroyer of the Crimson Dawn - “Albedo”.| |Primary armament: two 610-mm torpedo launchers, eight 127-mm guns in four twin gun turrets.|Secondary armament: none.|Anti-aircraft guns: three.| |Retrofit: replacement of the primary armament with twin 135-mm gun turrets, armor reinforcement." />
 
 	<string
 		id="OCruiserCITForEncyclopaedia_diz"
-		value="Крейсер Содружества Независимых Городов типа «Эгаль».| |Основное вооружение: две 152-мм двухорудийные установки.|Дополнительное вооружение: восемь 130-мм орудий (четыре в башенных установках, четыре в спонсонах).|Средства противовоздушной обороны: пять ед.| |Модернизация: замена основного вооружения 155-мм трёхорудийными артиллерийскими установками, установка шести 533-мм торпедных аппаратов МТА-1, улучшение бронирования и скоростных характеристик." />
+		value="Cruiser of the Commonwealth of Independent Towns - “Egale”.| |Primary armament: four 152-mm guns in two twin gun turrets.|Secondary armament: eight 130-mm guns (four in single gun turrets, four in sponson mounts).|Anti-aircraft guns: five.| |Retrofit: replacement of the primary armament with triple 155-mm gun turrets, installation of six 533-mm STL-1 torpedo tubes, imrpovement of mobility parameters, armor reinforcement." />
 
 	<string
 		id="HCruiserCDForEncyclopaedia_diz"
-		value="Крейсер Алого Рассвета типа «Фурия».| |Основное вооружение: четыре 203-мм двухорудийные установки.|Дополнительное вооружение: четыре 610-мм торпедных аппарата.|Средства противовоздушной обороны: десять ед." />
+		value="Cruiser of the Crimson Dawn - “Furia”.| |Primary armament: four 203-mm twin gun turrets.|Secondary armament: four 610-mm torpedo launchers.|Anti-aircraft guns: ten." />
 
 	<string
 		id="BattleshipCDForEncyclopaedia_diz"
-		value="Линкор Алого Рассвета типа «Левиафан».| |Основное вооружение: четыре 356-мм двухорудийные установки.|Дополнительное вооружение: четыре 127-мм двухорудийные артиллерийские установки.|Средства противовоздушной обороны: девять ед.| |Модернизация: замена основного вооружения 406-мм трёхорудийными артиллерийскими установками, улучшение бронирования." />
+		value="Battleship of the Crimson Dawn - “Leviatan”.| |Primary armament: four 356-mm twin gun turrets.|Secondary armament: four 127-mm twin gun turrets.|Anti-aircraft guns: nine.| |Retrofit: replacement of the primary armament with 406-mm triple gun turrets, armor reinforcement." />
 
 	<string
 		id="BattleshipCITForEncyclopaedia_diz"
-		value="Линкор Содружества Независимых Городов типа «Либриум».| |Основное вооружение: три 406-мм двухорудийные установки.|Дополнительное вооружение: восемь 130-мм артиллерийских установок.|Средства противовоздушной обороны: восемнадцать ед.| |Модернизация: замена основного вооружения 380-мм четырёхорудийными артиллерийскими установками, замена вспомогательного вооружения 138-мм артиллерийскими установками." />
+		value="Battleship of the Commonwealth of Independent Towns - “Librium”.| |Primary armament: three 406-mm triple gun turrets.|Secondary armament: eight 130-mm single gun turrets.|Anti-aircraft guns: eighteen.| |Retrofit: replacement of the primary armament with 380-mm quadruple gun turrets." />
 
 	<string
 		id="MerchantCDForEncyclopaedia_diz"
-		value="Сухогруз Торговой Ассоциации.| |Вооружения не имеет." />
+		value="Cargo ship of the Trade Association.| |Unarmed." />
 
 	<string
 		id="LavCIT01_diz"
-		value="Разведывательная бронемашина Содружества Независимых Городов «Варан».| |Основное вооружение: крупнокалиберный пулемёт КПВТ в башенной компоновке.|Дополнительное вооружение: нет." />
+		value="Armored reconnaissance vehicle of the Commonwealth of Independent Towns - “Varan”.| |Primary armament: KPVT heavy machine gun in a turret mount.|Secondary armament: none." />
 
 	<string
 		id="LavCD01_diz"
-		value="Разведывательная бронемашина Алого Рассвета «Скорпион».| |Основное вооружение: две 20-мм автопушки «Биркигт» в башенной компоновке.|Дополнительное вооружение: крупнокалиберный пулемёт ПКТ." />
+		value="Armored reconnaissance vehicle of the Crimson Dawn - “Escorpion”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount.|Secondary armament: PKT heavy machine gun." />
 
 
 <!-- Cabins and baskets ______________________________________________-->
@@ -137,107 +137,107 @@
 <!-- Weapons ______________________________________________-->
 <string
 		id="AADuet01_diz"
-		value="Спаренная пулемётная установка старого образца Содружества Независимых Городов. Используется в качестве средства противовоздушной обороны на кораблях СНГ.| |Боеприпасы: 12.7-мм (СНГ)." />
+		value="Old model of a twin machine gun mount of the Commonwealth of Indepedent Towns. Mainly used in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)." />
 
 	<string
 		id="AA47mmCannon01_diz"
-		value="47-мм артиллерийская установка Торговой Ассоциации. Используется в качестве средства противовоздушной обороны на кораблях СНГ и АР.| |Боеприпасы: 47-мм ОФ (ТА)." />
+		value="47-mm cannon of the Trade Association. Mainly used in anti-aircraft role on CIT and CD warships.| |Ammunition: 47-mm HE (TA)." />
 	
 	<string
 		id="AA120mmSAMCIT01_diz"
-		value="Многоцелевой ракетный комплекс Содружества Независимых Городов. Используется в качестве основного вооружения бронемашин, а также средства противовоздушной обороны на боевых кораблях СНГ.| |Боеприпасы: ЗУР 120-мм (СНГ)." />
+		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as primary armament of CIT reconnaissance vehicles and in anti-aircraft role on CIT warships.| |Ammunition: SAM 120-mm (CIT)." />
 	
 	<string
 		id="AA152mmATGMCD01_diz"
-		value="Многоцелевой ракетный комплекс Алого Рассвета. Используется в качестве основного вооружения бронемашин и боевых катеров, а также средства противовоздушной обороны на боевых кораблях АР.| |Боеприпасы: ПТУР 152-мм (АР)." />
+		value="Multi-purpose missile launcher of the Crimson Dawn. Used as primary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)." />
 
 	<string
 		id="AA23mmGun01_diz"
-		value="Четырёхорудийная 23-мм башенная автопушечная установка Содружества Независимых Городов. Используется в качестве средства противовоздушной обороны на линкорах СНГ.| |Боеприпасы: 23-мм ОФЗ (СНГ)." />
+		value="23-mm quadruple autocannon mount of the Commonwealth of Independent Towns. Mainly used in anti-aircraft role on CIT battleships.| |Ammunition: 23-mm HEI (CIT)." />
 
 	<string
 		id="smlboatCITNurs01_diz"
-		value="Пусковая установка реактивных снарядов «Кордаж-80» Содружества Независимых Городов. Используется в качестве основного и дополнительного вооружения боевых катеров СНГ.| |Боеприпасы: 80-мм ОФРС «Кордаж» (СНГ)." />
+		value="“Cordage-80” multiple rocket launch system of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats.| |Ammunition: 80-mm RHE “Cordage” (CIT)." />
 
 	<string
 		id="smlboatCITMachinegun01_diz"
-		value="Крупнокалиберный пулемёт Содружества Независимых Городов. Используется в качестве основного и дополнительного вооружения бронемашин, боевых катеров и средства противовоздушной обороны на боевых кораблях СНГ.| |Боеприпасы: 12.7-мм (СНГ)." />
+		value="Heavy machine gun of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats and reconnaissance vehicles, as well as in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)." />
 	
 	<string
 		id="smlboatCITRocket01_diz"
-		value="Многоцелевой ракетный комплекс Содружества Независимых Городов. Используется в качестве дополнительного вооружения боевых катеров и средства противовоздушной обороны на боевых кораблях СНГ.| |Боеприпасы: ЗУР 72-мм (СНГ)." />
+		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as secondary armament of CIT patrol boats and in anti-aircraft role on CIT warships.| |Ammunition: SAM 72-mm (CIT)." />
 
 	<string
 		id="smlboatCDCannon01_diz"
-		value="Двухорудийная 20-мм башенная автопушечная установка Алого Рассвета. Используется в качестве основного вооружения малых боевых катеров и лёгких бронемашин АР.| |Боеприпасы: 20-мм ОФЗ (АР)." />
+		value="20-mm twin autocannon mount of the Crimson Dawn. Used as primary armament of CD patrol boats and reconnaissance vehicles.| |Ammunition: 20-mm HEI (CD)." />
 
 	<string
 		id="smlboatCDMachinegun01_diz"
-		value="Крупнокалиберный пулемёт Алого Рассвета. Используется в качестве дополнительного вооружения бронемашин, боевых катеров и средства противовоздушной обороны на боевых кораблях АР.| |Боеприпасы: 12.7-мм (АР)." />
+		value="Heavy machine gun of the Crimson Dawn. Used as secondary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: 12.7-mm (CD)." />
 	
 	<string
 		id="smlboatCDRocket01_diz"
-		value="Многоцелевой ракетный комплекс Алого Рассвета. Используется в качестве дополнительного вооружения боевых катеров и средства противовоздушной обороны на боевых кораблях АР.| |Боеприпасы: ПТУР 152-мм (АР)." />
+		value="Multi-purpose missile launcher of the Crimson Dawn. Used as secondary armament of CD patrol boats and in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)." />
 
 	<string
 		id="single130CIT01_diz"
-		value="130-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения эсминцев и дополнительного вооружения крейсеров и линкоров СНГ.| |Боеприпасы: 130-мм ОФ (СНГ), 130-мм ББ (СНГ)." />
+		value="130-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of CIT destroyers and secondary armament of CIT cruisers and battleships.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)." />
 
 	<string
 		id="single138CIT01_diz"
-		value="138-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения модернизированных эсминцев СНГ.| |Боеприпасы: 138-мм ОФ (СНГ), 138-мм ББ (СНГ)." />
+		value="138-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of modernized CIT destroyers.| |Ammunition: 138-mm HE (CIT), 138-mm AP (CIT)." />
 
 	<string
 		id="twin127CD01_diz"
-		value="Двухорудийная 127-мм артиллерийская установка Алого Рассвета. Используется в качестве основного вооружения эсминцев и дополнительного вооружения линкоров АР.| |Боеприпасы: 127-мм ОФ (АР), 127-мм ББ (АР)." />
+		value="127-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD destroyers and secondary armament of CD battleships.| |Ammunition: 127-mm HE (CD), 127-mm AP (CD)." />
 
 	<string
 		id="twin135CD01_diz"
-		value="Двухорудийная 135-мм артиллерийская установка Алого Рассвета. Используется в качестве основного вооружения модернизированных эсминцев АР.| |Боеприпасы: 135-мм ОФ (АР), 135-мм ББ (АР)." />
+		value="135-mm twin gun turret of the Crimson Dawn. Used as primary armament of modernized CD destroyers.| |Ammunition: 135-mm HE (CD), 135-mm AP (CD)." />
 
 	<string
 		id="twin152CIT01_diz"
-		value="Двухорудийная 152-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения крейсеров СНГ.| |Боеприпасы: 152-мм ОФ (СНГ), 152-мм ББ (СНГ)." />
+		value="152-mm twin gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT cruisers.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)." />
 
 	<string
 		id="triple155CIT01_diz"
-		value="Трёхорудийная 155-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения модернизированных крейсеров СНГ.| |Боеприпасы: 155-мм ОФ (СНГ), 155-мм ББ (СНГ)." />
+		value="155-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT cruisers.| |Ammunition: 155-mm HE (CIT), 155-mm AP (CIT)." />
 
 	<string
 		id="triple152CIT01_diz"
-		value="Трёхорудийная 152-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения тяжёлых крейсеров СНГ.| |Боеприпасы: 152-мм ОФ (СНГ), 152-мм ББ (СНГ)." />
+		value="152-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT heavy cruisers and coastal artillery guns.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)." />
 
 	<string
 		id="twin203CD01_diz"
-		value="Двухорудийная 203-мм артиллерийская установка Алого Рассвета. Используется в качестве основного вооружения крейсеров АР.| |Боеприпасы: 203-мм ОФ (АР), 203-мм ББ (АР)." />
+		value="203-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD cruisers and coastal artillery guns.| |Ammunition: 203-mm HE (CD), 203-mm AP (CD)." />
 
 	<string
 		id="triple406CIT01_diz"
-		value="Трёхорудийная 406-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения линкоров и орудий береговой артиллерии СНГ.| |Боеприпасы: 406-мм ОФ (СНГ), 406-мм ББ (СНГ)." />
+		value="406-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT battleships and heavy coastal artillery guns.| |Ammunition: 406-mm HE (CIT), 406-mm AP (CIT)." />
 
 	<string
 		id="quadruple380CIT01_diz"
-		value="Четырёхорудийная 380-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения модернизированных линкоров СНГ.| |Боеприпасы: 380-мм ОФ (СНГ), 380-мм ББ (СНГ)." />
+		value="380-mm quadruple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT battleships.| |Ammunition: 380-mm HE (CIT), 380-mm AP (CIT)." />
 
 	<string
 		id="triple457CIT01_diz"
-		value="Трёхорудийная 457-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве основного вооружения флагманского корабля Атлантического флота СНГ.| |Боеприпасы: 457-мм ОФ (СНГ), 457-мм ББ (СНГ)." />
+		value="457-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of the CIT Atlantic fleet flagship.| |Ammunition: 457-mm HE (CIT), 457-mm AP (CIT)." />
 
 	<string
 		id="twin130CIT01_diz"
-		value="Двухорудийная 130-мм артиллерийская установка Содружества Независимых Городов. Используется в качестве дополнительного вооружения флагманского корабля Атлантического флота СНГ.| |Боеприпасы: 130-мм ОФ (СНГ), 130-мм ББ (СНГ)." />
+		value="130-mm twin gun turret of the Commonwealth of Independent Towns. Used as secondary armament of the CIT Atlantic fleet flagship.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)." />
 
 	<string
 		id="twin356CD01_diz"
-		value="Двухорудийная 356-мм артиллерийская установка Алого Рассвета. Используется в качестве основного вооружения линкоров АР.| |Боеприпасы: 356-мм ОФ (АР), 356-мм ББ (АР), 356-мм ЗС (АР)." />
+		value="356-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD battleships.| |Ammunition: 356-mm HE (CD), 356-mm AP (CD), 356-mm AA (CD)." />
 
 	<string
 		id="triple406CD01_diz"
-		value="Трёхорудийная 406-мм артиллерийская установка Алого Рассвета. Используется в качестве основного вооружения модернизированных линкоров АР.| |Боеприпасы: 406-мм ОФ (АР), 406-мм ББ (АР)." />
+		value="406-mm triple gun turret of the Crimson Dawn. Used as primary armament of modernized CD battleships.| |Ammunition: 406-mm HE (CD), 406-mm AP (CD)." />
 
 	<string
 		id="lavCITMachinegun01_diz"
-		value="Крупнокалиберный пулемёт Содружества Независимых Городов в башенной компоновке. Используется в качестве основного вооружения бронемашин СНГ.| |Боеприпасы: 14.5-мм (СНГ)." />
+		value="Heavy machine gun of the Commonwealth of Independent Towns in a turret mount. Used as primary armament of CIT reconnaissance vehicles.| |Ammunition: 14.5-mm (CIT)." />
 
 <!-- Gadgets ______________________________________________-->
 <!-- 	<string
