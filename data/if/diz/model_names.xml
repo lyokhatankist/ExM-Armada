@@ -773,7 +773,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="smlboatCITArmanent"
+		id="smlboatCITArmament"
 		locForm="0"
 		value="Лёгкое вооружение" />
 
@@ -793,7 +793,7 @@
 		value="Муэтт" />
 
 	<Item
-		id="smlboatCITArmanentMod"
+		id="smlboatCITArmamentMod"
 		locForm="0"
 		value="РСЗО" />
 
@@ -823,7 +823,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="smlboatCDArmanent"
+		id="smlboatCDArmament"
 		locForm="0"
 		value="Лёгкое вооружение" />
 
@@ -868,7 +868,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="fastboatCITArmanent"
+		id="fastboatCITArmament"
 		locForm="0"
 		value="Торпедный аппарат 533-мм" />
 
@@ -908,7 +908,7 @@
 		value="533-мм СТА-3" />
 
 	<Item
-		id="destroyerCIT130Armanent"
+		id="destroyerCIT130Armament"
 		locForm="0"
 		value="Орудия 130-мм" />
 
@@ -938,7 +938,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="destroyerCIT138Armanent"
+		id="destroyerCIT138Armament"
 		locForm="0"
 		value="Орудия 138-мм" />
 
@@ -963,7 +963,7 @@
 		value="Лион" />
 
 	<Item
-		id="destroyerCIT130ArmanentMod"
+		id="destroyerCIT130ArmamentMod"
 		locForm="0"
 		value="Орудия 130-мм" />
 
@@ -998,7 +998,7 @@
 		value="610-мм УМ-5" />
 
 	<Item
-		id="destroyerCD127Armanent"
+		id="destroyerCD127Armament"
 		locForm="0"
 		value="Орудия 127-мм" />
 
@@ -1023,7 +1023,7 @@
 		value="Альбедо" />
 
 	<Item
-		id="destroyerCD135Armanent"
+		id="destroyerCD135Armament"
 		locForm="0"
 		value="Орудия 135-мм" />
 
@@ -1093,7 +1093,7 @@
 		value="Фаланга-М" />
 
 	<Item
-		id="ocruiserCIT152Armanent"
+		id="ocruiserCIT152Armament"
 		locForm="0"
 		value="Орудия 152-мм" />
 
@@ -1123,7 +1123,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="ocruiserCIT155Armanent"
+		id="ocruiserCIT155Armament"
 		locForm="0"
 		value="Орудия 155-мм" />
 
@@ -1183,7 +1183,7 @@
 		value="610-мм УМ-5" />
 
 	<Item
-		id="hcruiserCD203Armanent"
+		id="hcruiserCD203Armament"
 		locForm="0"
 		value="Орудия 203-мм" />
 
@@ -1208,7 +1208,7 @@
 		value="Фурия" />
 
 	<Item
-		id="semibossCDRocketArmanent"
+		id="semibossCDRocketArmament"
 		locForm="0"
 		value="Крылатые ракеты" />
 
@@ -1248,7 +1248,7 @@
 		value="Спрут-К" />
 
 	<Item
-		id="battleshipCIT406Armanent"
+		id="battleshipCIT406Armament"
 		locForm="0"
 		value="Орудия 406-мм" />
 
@@ -1273,7 +1273,7 @@
 		value="Либриум" />
 
 	<Item
-		id="battleshipCIT380Armanent"
+		id="battleshipCIT380Armament"
 		locForm="0"
 		value="Орудия 380-мм" />
 
@@ -1298,7 +1298,7 @@
 		value="Либриум" />
 
 	<Item
-		id="battleshipCIT457Armanent"
+		id="battleshipCIT457Armament"
 		locForm="0"
 		value="Орудия 457-мм" />
 
@@ -1353,7 +1353,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="battleshipCD356Armanent"
+		id="battleshipCD356Armament"
 		locForm="0"
 		value="Орудия 356-мм" />
 
@@ -1383,7 +1383,7 @@
 		value="Левиафан" />
 
 	<Item
-		id="battleshipCD406Armanent"
+		id="battleshipCD406Armament"
 		locForm="0"
 		value="Орудия 406-мм" />
 
@@ -1423,7 +1423,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="merchantCDArmanent"
+		id="merchantCDArmament"
 		locForm="0"
 		value="Трюм" />
 
@@ -1443,7 +1443,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="lavCITArmanent"
+		id="lavCITArmament"
 		locForm="0"
 		value="Боевое отделение" />
 
@@ -1473,7 +1473,7 @@
 		value="Силовая установка" />
 
 	<Item
-		id="lavCDArmanent"
+		id="lavCDArmament"
 		locForm="0"
 		value="Боевое отделение" />
 

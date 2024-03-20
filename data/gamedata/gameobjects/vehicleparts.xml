@@ -954,8 +954,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "heliCITArmanent"
-			ModelFile					= "heliArmanent"
+			Name						= "heliCITArmament"
+			ModelFile					= "heliArmament"
 			ResourceType				= "FAKE_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -996,8 +996,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "heliCDArmanent"
-			ModelFile					= "heliArmanent"
+			Name						= "heliCDArmament"
+			ModelFile					= "heliArmament"
 			ResourceType				= "FAKE_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1033,8 +1033,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "smlboatCITArmanent"
-			ModelFile					= "smlboatCITArmanent"
+			Name						= "smlboatCITArmament"
+			ModelFile					= "smlboatCITArmament"
 			ResourceType				= "SMLBOATCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1065,8 +1065,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "smlboatCITArmanentMod"
-			ModelFile					= "smlboatCITArmanent"
+			Name						= "smlboatCITArmamentMod"
+			ModelFile					= "smlboatCITArmament"
 			ResourceType				= "SMLBOATCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1092,8 +1092,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "smlboatCDArmanent"
-			ModelFile					= "smlboatCDArmanent"
+			Name						= "smlboatCDArmament"
+			ModelFile					= "smlboatCDArmament"
 			ResourceType				= "SMLBOATCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1124,8 +1124,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "fastboatCITArmanent"
-			ModelFile					= "fastboatCITArmanent"
+			Name						= "fastboatCITArmament"
+			ModelFile					= "fastboatCITArmament"
 			ResourceType				= "FASTBOATCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1151,8 +1151,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerCIT130Armanent"
-			ModelFile					= "destroyerCIT130Armanent"
+			Name						= "destroyerCIT130Armament"
+			ModelFile					= "destroyerCIT130Armament"
 			ResourceType				= "DESTROYERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1208,8 +1208,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerCIT138Armanent"
-			ModelFile					= "destroyerCIT138Armanent"
+			Name						= "destroyerCIT138Armament"
+			ModelFile					= "destroyerCIT138Armament"
 			ResourceType				= "DESTROYERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1265,8 +1265,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerCIT130ArmanentMod"
-			ModelFile					= "destroyerCIT130Armanent"
+			Name						= "destroyerCIT130ArmamentMod"
+			ModelFile					= "destroyerCIT130Armament"
 			ResourceType				= "DESTROYERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1302,8 +1302,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerCD127Armanent"
-			ModelFile					= "destroyerCD127Armanent"
+			Name						= "destroyerCD127Armament"
+			ModelFile					= "destroyerCD127Armament"
 			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1359,8 +1359,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "destroyerCD135Armanent"
-			ModelFile					= "destroyerCD135Armanent"
+			Name						= "destroyerCD135Armament"
+			ModelFile					= "destroyerCD135Armament"
 			ResourceType				= "DESTROYERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1416,8 +1416,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "ocruiserCIT152Armanent"
-			ModelFile					= "ocruiserCIT152Armanent"
+			Name						= "ocruiserCIT152Armament"
+			ModelFile					= "ocruiserCIT152Armament"
 			ResourceType				= "OCRUISERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1493,8 +1493,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "ocruiserCIT155Armanent"
-			ModelFile					= "ocruiserCIT155Armanent"
+			Name						= "ocruiserCIT155Armament"
+			ModelFile					= "ocruiserCIT155Armament"
 			ResourceType				= "OCRUISERCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1570,8 +1570,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "hcruiserCD203Armanent"
-			ModelFile					= "hcruiserCD203Armanent"
+			Name						= "hcruiserCD203Armament"
+			ModelFile					= "hcruiserCD203Armament"
 			ResourceType				= "HCRUISERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1662,8 +1662,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "semibossCDRocketArmanent"
-			ModelFile					= "hcruiserCD203Armanent"
+			Name						= "semibossCDRocketArmament"
+			ModelFile					= "hcruiserCD203Armament"
 			ResourceType				= "HCRUISERCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1744,8 +1744,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "battleshipCIT406Armanent"
-			ModelFile					= "battleshipCIT406Armanent"
+			Name						= "battleshipCIT406Armament"
+			ModelFile					= "battleshipCIT406Armament"
 			ResourceType				= "BATTLESHIPCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -1911,8 +1911,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "battleshipCIT380Armanent"
-			ModelFile					= "battleshipCIT380Armanent"
+			Name						= "battleshipCIT380Armament"
+			ModelFile					= "battleshipCIT380Armament"
 			ResourceType				= "BATTLESHIPCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -2078,8 +2078,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "battleshipCIT457Armanent"
-			ModelFile					= "battleshipCIT457Armanent"
+			Name						= "battleshipCIT457Armament"
+			ModelFile					= "battleshipCIT457Armament"
 			ResourceType				= "BATTLESHIPCIT_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -2245,8 +2245,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "battleshipCD356Armanent"
-			ModelFile					= "battleshipCD356Armanent"
+			Name						= "battleshipCD356Armament"
+			ModelFile					= "battleshipCD356Armament"
 			ResourceType				= "BATTLESHIPCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -2352,8 +2352,8 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "battleshipCD406Armanent"
-			ModelFile					= "battleshipCD406Armanent"
+			Name						= "battleshipCD406Armament"
+			ModelFile					= "battleshipCD406Armament"
 			ResourceType				= "BATTLESHIPCD_BASKET"
 			NodeScale					= "1 1 1"
 
@@ -2459,7 +2459,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "merchantCDArmanent"
+			Name						= "merchantCDArmament"
 			ModelFile					= "point"
 			ResourceType				= "MERCHANTCD_BASKET"
 			NodeScale					= "1 1 1"
@@ -2480,7 +2480,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "lavCITArmanent"
+			Name						= "lavCITArmament"
 			ModelFile					= "point"
 			ResourceType				= "LAVCIT_BASKET"
 			NodeScale					= "1 1 1"
@@ -2501,7 +2501,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 
 		<Prototype
 			Class						= "Basket"
-			Name						= "lavCDArmanent"
+			Name						= "lavCDArmament"
 			ModelFile					= "point"
 			ResourceType				= "LAVCD_BASKET"
 			NodeScale					= "1 1 1"

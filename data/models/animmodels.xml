@@ -1795,10 +1795,10 @@
 		file="data\models\battleship\vehicles\helichassis.gam" />
 
 	<model
-		id="heliArmanent"
+		id="heliArmament"
 		shadow="0"
 		windwavy="0"
-		file="data\models\battleship\vehicles\heliarmanent.gam" />
+		file="data\models\battleship\vehicles\heliarmament.gam" />
 
 	<model
 		id="heliFuselage01"
@@ -2097,8 +2097,8 @@
 		file="data\models\battleship\vehicles\cit_smlboat\hull.gam" />
 
 	<model
-		id="smlboatCITArmanent"
-		file="data\models\battleship\vehicles\cit_smlboat\armanent01.gam"
+		id="smlboatCITArmament"
+		file="data\models\battleship\vehicles\cit_smlboat\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -2228,8 +2228,8 @@
 		file="data\models\battleship\vehicles\cd_smlboat\hull.gam" />
 
 	<model
-		id="smlboatCDArmanent"
-		file="data\models\battleship\vehicles\cd_smlboat\armanent01.gam"
+		id="smlboatCDArmament"
+		file="data\models\battleship\vehicles\cd_smlboat\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -2461,8 +2461,8 @@
 		file="data\models\battleship\vehicles\cit_fastboat\hull.gam" />
 
 	<model
-		id="fastboatCITArmanent"
-		file="data\models\battleship\vehicles\cit_fastboat\armanent01.gam"
+		id="fastboatCITArmament"
+		file="data\models\battleship\vehicles\cit_fastboat\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -2817,8 +2817,8 @@
 		file="data\models\battleship\vehicles\cit_destroyer\torpedo01_gun.gam" />
 
 	<model
-		id="destroyerCIT130Armanent"
-		file="data\models\battleship\vehicles\cit_destroyer\armanent01.gam"
+		id="destroyerCIT130Armament"
+		file="data\models\battleship\vehicles\cit_destroyer\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -2991,8 +2991,8 @@
 	</model>
 
 	<model
-		id="destroyerCIT138Armanent"
-		file="data\models\battleship\vehicles\cit_destroyer\armanent02.gam"
+		id="destroyerCIT138Armament"
+		file="data\models\battleship\vehicles\cit_destroyer\armament02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -3622,8 +3622,8 @@
 		file="data\models\battleship\vehicles\cd_destroyer\torpedo01_gun.gam" />
 
 	<model
-		id="destroyerCD127Armanent"
-		file="data\models\battleship\vehicles\cd_destroyer\armanent01.gam"
+		id="destroyerCD127Armament"
+		file="data\models\battleship\vehicles\cd_destroyer\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -3783,8 +3783,8 @@
 	</model>
 
 	<model
-		id="destroyerCD135Armanent"
-		file="data\models\battleship\vehicles\cd_destroyer\armanent02.gam"
+		id="destroyerCD135Armament"
+		file="data\models\battleship\vehicles\cd_destroyer\armament02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -4487,8 +4487,8 @@
 	</model>
 
 	<model
-		id="ocruiserCIT152Armanent"
-		file="data\models\battleship\vehicles\cit_ocruiser\armanent01.gam"
+		id="ocruiserCIT152Armament"
+		file="data\models\battleship\vehicles\cit_ocruiser\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -4694,8 +4694,8 @@
 	</model>
 
 	<model
-		id="ocruiserCIT155Armanent"
-		file="data\models\battleship\vehicles\cit_ocruiser\armanent02.gam"
+		id="ocruiserCIT155Armament"
+		file="data\models\battleship\vehicles\cit_ocruiser\armament02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -5432,8 +5432,8 @@
 	</model>
 
 	<model
-		id="hcruiserCD203Armanent"
-		file="data\models\battleship\vehicles\cd_hcruiser\armanent01.gam"
+		id="hcruiserCD203Armament"
+		file="data\models\battleship\vehicles\cd_hcruiser\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -6367,8 +6367,8 @@
 	</model>
 
 	<model
-		id="battleshipCIT406Armanent"
-		file="data\models\battleship\vehicles\cit_battleship\armanent01.gam"
+		id="battleshipCIT406Armament"
+		file="data\models\battleship\vehicles\cit_battleship\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -6802,8 +6802,8 @@
 	</model>
 
 	<model
-		id="battleshipCIT380Armanent"
-		file="data\models\battleship\vehicles\cit_battleship\armanent02.gam"
+		id="battleshipCIT380Armament"
+		file="data\models\battleship\vehicles\cit_battleship\armament02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -7237,8 +7237,8 @@
 	</model>
 
 	<model
-		id="battleshipCIT457Armanent"
-		file="data\models\battleship\vehicles\cit_battleship\armanent03.gam"
+		id="battleshipCIT457Armament"
+		file="data\models\battleship\vehicles\cit_battleship\armament03.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -8537,8 +8537,8 @@
 	</model>
 
 	<model
-		id="battleshipCD356Armanent"
-		file="data\models\battleship\vehicles\cd_battleship\armanent01.gam"
+		id="battleshipCD356Armament"
+		file="data\models\battleship\vehicles\cd_battleship\armament01.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"
@@ -8802,8 +8802,8 @@
 	</model>
 
 	<model
-		id="battleshipCD406Armanent"
-		file="data\models\battleship\vehicles\cd_battleship\armanent02.gam"
+		id="battleshipCD406Armament"
+		file="data\models\battleship\vehicles\cd_battleship\armament02.gam"
 		shadow="0"
 		shadowVolume="1"
 		windwavy="0"

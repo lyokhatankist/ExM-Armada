@@ -7,71 +7,71 @@
 <!-- Gadgets -->
 	<string
 		id="torpedo_upgrade_diz"
-		value="Скорость перезарядки торпедных аппаратов: @ff23941b+25%" />
+		value="Torpedo launchers reload speed: @ff23941b+25%" />
 
 	<string
 		id="ddguns_upgrade_diz"
-		value="Урон орудий DD: @ff23941b+20%@ff44403f|Скорость перезарядки орудий DD: @ff23941b+20%@ff44403f|Скорострельность орудий DD: @ff23941b+40%" />
+		value="DD guns damage: @ff23941b+20%@ff44403f|Скорость перезарядки орудий DD: @ff23941b+20%@ff44403f|Скорострельность орудий DD: @ff23941b+40%" />
 
 	<string
 		id="antiair_upgrade_diz"
-		value="Урон пулемётов: @ff23941b+20%@ff44403f|Дальность стрельбы пулемётов: @ff23941b+40%@ff44403f|Точность пулемётов: @ff23941b+40%@ff44403f|Скорость перезарядки пулемётов: @ff23941b+40%@ff44403f|Урон орудий AA: @ff23941b+10%@ff44403f|Скорострельность орудий AA: @ff23941b+20%@ff44403f|Скорость перезарядки орудий AA: @ff23941b+20%@ff44403f|Урон ракетных установок: @ff23941b+10%@ff44403f|Скорострельность ракетных установок: @ff23941b+20%@ff44403f|Скорость перезарядки ракетных установок: @ff23941b+20%" />
+		value="Machine guns damage: @ff23941b+20%@ff44403f|Machine guns firing range: @ff23941b+40%@ff44403f|Machine guns accuracy: @ff23941b+40%@ff44403f|Machine guns reload speed: @ff23941b+40%@ff44403f|AA guns damage: @ff23941b+10%@ff44403f|AA guns firing rate: @ff23941b+20%@ff44403f|AA guns reload speed: @ff23941b+20%@ff44403f|Missile launchers damage: @ff23941b+10%@ff44403f|Missile launchers firing rate: @ff23941b+20%@ff44403f|Missile launchers reload speed: @ff23941b+20%" />
 
 	<string
 		id="clguns_upgrade_diz"
-		value="Урон орудий CL: @ff23941b+30%@ff44403f|Скорость перезарядки орудий CL: @ff23941b+15%@ff44403f|Скорострельность орудий CL: @ff23941b+20%" />
+		value="CL guns damage: @ff23941b+30%@ff44403f||CL guns firing rate: @ff23941b+20%CL guns reload speed: @ff23941b+15%@ff44403f" />
 
 	<string
 		id="hp_upgrade_diz"
-		value="Прочность: @ff23941b+25%@ff44403f|Максимальная скорость: @ff8f3f3f-15%" />
+		value="Structural durability: @ff23941b+25%@ff44403f|Maximum speed: @ff8f3f3f-15%" />
 
 	<string
 		id="caguns_upgrade_diz"
-		value="Урон орудий CA: @ff23941b+40%@ff44403f|Скорость перезарядки орудий CA: @ff23941b+10%@ff44403f|Скорострельность орудий CA: @ff23941b+10%" />
+		value="CA guns damage: @ff23941b+40%@ff44403f|CA guns firing rate: @ff23941b+10%|CA guns reload speed: @ff23941b+10%@ff44403f" />
 
 	<string
 		id="fuel_upgrade_diz"
-		value="Запас топлива: @ff23941b+40%@ff44403f|Максимальная скорость: @ff8f3f3f-10%" />
+		value="Fuel capacity: @ff23941b+40%@ff44403f|Maximum speed: @ff8f3f3f-10%" />
 
 	<string
 		id="bbguns_upgrade_diz"
-		value="Урон орудий BB: @ff23941b+60%@ff44403f|Скорострельность орудий BB: @ff23941b+10%" />
+		value="BB guns damage: @ff23941b+60%@ff44403f|BB guns firing rate: @ff23941b+10%" />
 
 	<string
 		id="anti_missile_system_diz"
-		value="Радиус подавления ракет: 500 м||Примечание: подавляет наведение как вражеских, так и дружественных ракет." />
+		value="Missile guidance suppresion radius: 500 m||Note: suppresses both hostile and friendly missiles." />
 
 	<string
 		id="antiair_basic_diz"
-		value="Урон пулемётов: @ff23941b+10%@ff44403f|Скорострельность пулемётов: @ff23941b+10%@ff44403f|Урон орудий AA: @ff23941b+5%@ff44403f|Скорострельность орудий AA: @ff23941b+5%@ff44403f|Урон ракетных установок: @ff23941b+5%@ff44403f|Скорострельность ракетных установок: @ff23941b+5%" />
+		value="Machine guns damage: @ff23941b+10%@ff44403f|Machine guns firing rate: @ff23941b+10%@ff44403f|AA guns damage: @ff23941b+5%@ff44403f|AA guns firing rate: @ff23941b+5%@ff44403f|Missile launchers damage: @ff23941b+5%@ff44403f|Missile launchers firing rate: @ff23941b+5%" />
 
 	<string
 		id="ddguns_basic_diz"
-		value="Урон орудий DD: @ff23941b+5%" />
+		value="DD guns damage: @ff23941b+5%" />
 
 	<string
 		id="clguns_basic_diz"
-		value="Урон орудий CL: @ff23941b+5%" />
+		value="CL guns damage: @ff23941b+5%" />
 
 	<string
 		id="caguns_basic_diz"
-		value="Урон орудий CA: @ff23941b+5%" />
+		value="CA guns damage: @ff23941b+5%" />
 
 	<string
 		id="bbguns_basic_diz"
-		value="Урон орудий BB: @ff23941b+5%" />
+		value="BB guns damage: @ff23941b+5%" />
 
 	<string
 		id="hp_basic_diz"
-		value="Прочность: @ff23941b+5%" />
+		value="Structural durability: @ff23941b+5%" />
 
 	<string
 		id="fuel_basic_diz"
-		value="Запас топлива: @ff23941b+5%" />
+		value="Fuel capacity: @ff23941b+5%" />
 
 	<string
 		id="speed_basic_diz"
-		value="Максимальная скорость: @ff23941b+5%@ff44403f|Мощность: @ff23941b+20%" />
+		value="Maximum speed: @ff23941b+5%@ff44403f|Generator power: @ff23941b+20%" />
 
 <!-- Vehicles -->
 	<string
