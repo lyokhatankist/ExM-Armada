@@ -25,36 +25,36 @@
 <resource>
 	<string
 		id="1"
-		value="Крепость|Алый Рассвет, «Каталунья»|Хаменос|29 апреля 2265 г., 19:56" 
+		value="Fortress|Crimson Dawn, “Cataluna”|Chamenos|April 29, 2265, 1956" 
 		time="6" />
 
 	<string
 		id="2"
-		value="Цели миссии:|Уничтожить вражеские укрепления на острове Милос." 
+		value="Mission objectives:|Destroy enemy fortifications on the island of Milos." 
 		time="7" />
 
 	<string
 		id="3"
-		value="Второстепенные цели:|Подавить вражеское ПВО; выполнить миссию без потерь в военной технике; уничтожить все силы противника в районе боевых действий." 
+		value="Secondary objectives:|Suppress the enemy anti-aircraft battery; finish the mission without losses of vehicles; destroy all enemy forces." 
 		time="14" />
 
 	<string
 		id="1000"
-		value="Покинуть зону боевых действий?"
+		value="Leave the battle?"
 		numButtons="2" />
 
 	<string
 		id="1001"
-		value="Основные цели миссии достигнуты. Поблизости игрока противник не обнаружен.|Завершить миссию?"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
 		numButtons="2" />
 
 	<string
 		id="1002"
-		value="Вы покидаете зону боевых действий в направлении территории, контролируемой противником.||Продолжение движения в этом направлении приведёт к потере вашей техники и возможному провалу миссии."
+		value="You are leaving the combat zone in a direction of the territory currently under control of the enemy.||This will result in a loss of your vehicle and possible mission failure."
 		numButtons="1" />
 
 	<string
 		id="1003"
-		value="Завершение настройки миссии.|Загрузите автосохранение."
+		value="Finalizing the setup of the mission.|Load the autosave."
 		numButtons="1" />
 </resource>

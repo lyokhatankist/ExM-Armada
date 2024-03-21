@@ -2,31 +2,31 @@
 <resource>
 	<string
 		id="1"
-		value="Рутина|Содружество Независимых Городов, поз. «Корсар»|Средиземное море|16 июня 2265 г., 0:13" 
+		value="Routine|Commonwealth of Independent Towns, call sign “Corsair”|Mediterranean Sea|June 16, 2265, 0013" 
 		time="6" />
 
 	<string
 		id="2"
-		value="Цели миссии:|Уничтожить вражеские сухогрузы." 
+		value="Mission objectives:|Destroy enemy cargo ships." 
 		time="7" />
 
 	<string
 		id="3"
-		value="Второстепенные цели:|Выполнить миссию без потерь в военной технике; уничтожить все суда сопровождения конвоя противника." 
+		value="Secondary objectives:|Finish the mission without losses of vehicles; destroy all enemy convoy escort vessels." 
 		time="13" />
 
 	<string
 		id="1000"
-		value="Покинуть зону боевых действий?"
+		value="Leave the battle?"
 		numButtons="2" />
 
 	<string
 		id="1001"
-		value="Основные цели миссии достигнуты. Поблизости игрока противник не обнаружен.|Завершить миссию?"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
 		numButtons="2" />
 
 	<string
 		id="1002"
-		value="Вы покидаете зону боевых действий в направлении территории, контролируемой противником.||Продолжение движения в этом направлении приведёт к потере вашей техники и возможному провалу миссии."
+		value="You are leaving the combat zone in a direction of the territory currently under control of the enemy.||This will result in a loss of your vehicle and possible mission failure."
 		numButtons="1" />
 </resource>

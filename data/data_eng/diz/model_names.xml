@@ -710,702 +710,702 @@
 	<Item
 		id="HeliCITForEncyclopaedia"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="HeliCIT01"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="HeliCIT02"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="HeliCIT03"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="HeliCIT04"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="HeliCDForEncyclopaedia"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="HeliCD01"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="HeliCD02"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="HeliCD03"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="HeliCD04"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="SmlboatCIT"
 		locForm="0"
-		value="Ìóýòò" />
+		value="Mouette" />
 
 	<Item
 		id="SmlboatCITForEncyclopaedia"
 		locForm="0"
-		value="Ìóýòò" />
+		value="Mouette" />
 
 	<Item
 		id="smlboatCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="smlboatCITArmament"
 		locForm="0"
-		value="Ë¸ãêîå âîîðóæåíèå" />
+		value="Light armament" />
 
 	<Item
 		id="smlboatCITMachinegun01"
 		locForm="0"
-		value="Êîðä" />
+		value="Corde" />
 
 	<Item
 		id="smlboatCITRocket01"
 		locForm="0"
-		value="Ïèê" />
+		value="Pique" />
 
 	<Item
 		id="SmlboatCIT01"
 		locForm="0"
-		value="Ìóýòò" />
+		value="Mouette" />
 
 	<Item
 		id="smlboatCITArmamentMod"
 		locForm="0"
-		value="ÐÑÇÎ" />
+		value="MLRS" />
 
 	<Item
 		id="smlboatCITNurs01"
 		locForm="0"
-		value="Êîðäàæ-80" />
+		value="Cordage-80" />
 
 	<Item
 		id="SmlboatCIT02"
 		locForm="0"
-		value="Ìóýòò" />
+		value="Mouette" />
 
 	<Item
 		id="SmlboatCD"
 		locForm="0"
-		value="Ðèâåð" />
+		value="Reaver" />
 
 	<Item
 		id="SmlboatCDForEncyclopaedia"
 		locForm="0"
-		value="Ðèâåð" />
+		value="Reaver" />
 
 	<Item
 		id="smlboatCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="smlboatCDArmament"
 		locForm="0"
-		value="Ë¸ãêîå âîîðóæåíèå" />
+		value="Light armament" />
 
 	<Item
 		id="smlboatCDCannon01"
 		locForm="0"
-		value="Áèðêèãò" />
+		value="Birkigt" />
 
 	<Item
 		id="smlboatCDMachinegun01"
 		locForm="0"
-		value="ÏÊÒ" />
+		value="PKT" />
 
 	<Item
 		id="smlboatCDRocket01"
 		locForm="0"
-		value="Ôàëàíãà" />
+		value="Falange" />
 
 	<Item
 		id="smlboatCDRocket02"
 		locForm="0"
-		value="Ôàëàíãà-Ì" />
+		value="Falange-M" />
 
 	<Item
 		id="SmlboatCD01"
 		locForm="0"
-		value="Ðèâåð" />
+		value="Reaver" />
 
 	<Item
 		id="FastboatCIT"
 		locForm="0"
-		value="Ìþðåí" />
+		value="Murene" />
 
 	<Item
 		id="FastboatCITForEncyclopaedia"
 		locForm="0"
-		value="Ìþðåí" />
+		value="Murene" />
 
 	<Item
 		id="fastboatCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="fastboatCITArmament"
 		locForm="0"
-		value="Òîðïåäíûé àïïàðàò 533-ìì" />
+		value="533-mm torpedo launcher" />
 
 	<Item
 		id="FastboatCIT01"
 		locForm="0"
-		value="Ìþðåí" />
+		value="Murene" />
 
 	<Item
 		id="fastboatCITTorpedo01"
 		locForm="0"
-		value="533-ìì ÌÒÀ-2" />
+		value="533-mm STL-2" />
 
 	<Item
 		id="fastboatCITMachinegun01"
 		locForm="0"
-		value="Êîðä" />
+		value="Corde" />
 
 	<Item
 		id="DestroyerCIT"
 		locForm="0"
-		value="Ëèîí" />
+		value="Lyon" />
 
 	<Item
 		id="DestroyerCITForEncyclopaedia"
 		locForm="0"
-		value="Ëèîí" />
+		value="Lyon" />
 
 	<Item
 		id="destroyerCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="destroyerCITTorpedo01"
 		locForm="0"
-		value="533-ìì ÑÒÀ-3" />
+		value="533-mm MTL-3" />
 
 	<Item
 		id="destroyerCIT130Armament"
 		locForm="0"
-		value="Îðóäèÿ 130-ìì" />
+		value="130-mm guns" />
 
 	<Item
 		id="single130CIT01"
 		locForm="0"
-		value="130-ìì ÀÓ (ÑÍÃ)" />
+		value="130-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_single130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔÑ (ÑÍÃ)" />
+		value="130-mm HE (CIT)" />
 
 	<Item
 		id="mun_single130CIT02"
 		locForm="0"
-		value="130-ìì ÁÁÑ (ÑÍÃ)" />
+		value="130-mm AP (CIT)" />
 
 	<Item
 		id="DestroyerCIT01"
 		locForm="0"
-		value="Ëèîí" />
+		value="Lyon" />
 
 	<Item
 		id="destroyerCITEngineMod"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="destroyerCIT138Armament"
 		locForm="0"
-		value="Îðóäèÿ 138-ìì" />
+		value="138-mm guns" />
 
 	<Item
 		id="single138CIT01"
 		locForm="0"
-		value="138-ìì ÀÓ (ÑÍÃ)" />
+		value="138-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_single138CIT01"
 		locForm="0"
-		value="138-ìì ÎÔÑ (ÑÍÃ)" />
+		value="138-mm HE (CIT)" />
 
 	<Item
 		id="mun_single138CIT02"
 		locForm="0"
-		value="138-ìì ÁÁÑ (ÑÍÃ)" />
+		value="138-mm AP (CIT)" />
 
 	<Item
 		id="DestroyerCIT02"
 		locForm="0"
-		value="Ëèîí" />
+		value="Lyon" />
 
 	<Item
 		id="destroyerCIT130ArmamentMod"
 		locForm="0"
-		value="Îðóäèÿ 130-ìì" />
+		value="130-mm guns" />
 
 	<Item
 		id="SemibossCIT01"
 		locForm="0"
-		value="Áðåñò" />
+		value="Brest" />
 
 	<Item
 		id="DestroyerCD"
 		locForm="0"
-		value="Àëüáåäî" />
+		value="Albedo" />
 
 	<Item
 		id="DestroyerCDForEncyclopaedia"
 		locForm="0"
-		value="Àëüáåäî" />
+		value="Albedo" />
 
 	<Item
 		id="destroyerCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="destroyerCDTorpedo01"
 		locForm="0"
-		value="610-ìì ÓÌ-5" />
+		value="610-mm TT-5" />
 
 	<Item
 		id="dead_destroyerCDTorpedo01"
 		locForm="0"
-		value="610-ìì ÓÌ-5" />
+		value="610-mm TT-5" />
 
 	<Item
 		id="destroyerCD127Armament"
 		locForm="0"
-		value="Îðóäèÿ 127-ìì" />
+		value="127-mm guns" />
 
 	<Item
 		id="twin127CD01"
 		locForm="0"
-		value="127-ìì ÀÓ (ÀÐ)" />
+		value="127-mm gun turret (CD)" />
 
 	<Item
 		id="mun_twin127CD01"
 		locForm="0"
-		value="127-ìì ÎÔÑ (ÀÐ)" />
+		value="127-mm HE (CD)" />
 
 	<Item
 		id="mun_twin127CD02"
 		locForm="0"
-		value="127-ìì ÁÁÑ (ÀÐ)" />
+		value="127-mm AP (CD)" />
 
 	<Item
 		id="DestroyerCD01"
 		locForm="0"
-		value="Àëüáåäî" />
+		value="Albedo" />
 
 	<Item
 		id="destroyerCD135Armament"
 		locForm="0"
-		value="Îðóäèÿ 135-ìì" />
+		value="135-mm guns" />
 
 	<Item
 		id="twin135CD01"
 		locForm="0"
-		value="135-ìì ÀÓ (ÀÐ)" />
+		value="135-mm gun turret (CD)" />
 
 	<Item
 		id="mun_twin135CD01"
 		locForm="0"
-		value="135-ìì ÎÔÑ (ÀÐ)" />
+		value="135-mm HE (CD)" />
 
 	<Item
 		id="mun_twin135CD02"
 		locForm="0"
-		value="135-ìì ÁÁÑ (ÀÐ)" />
+		value="135-mm AP (CD)" />
 
 	<Item
 		id="DestroyerCD02"
 		locForm="0"
-		value="Àëüáåäî" />
+		value="Albedo" />
 
 	<Item
 		id="OCruiserCIT"
 		locForm="0"
-		value="Ýãàëü" />
+		value="Egale" />
 
 	<Item
 		id="OCruiserCITForEncyclopaedia"
 		locForm="0"
-		value="Ýãàëü" />
+		value="Egale" />
 
 	<Item
 		id="ocruiserCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="ocruiserCITTorpedo01"
 		locForm="0"
-		value="533-ìì ÌÒÀ-1" />
+		value="533-mm STL-1" />
 
 	<Item
 		id="sponson130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔÑ (ÑÍÃ)" />
+		value="130-mm HE (CIT)" />
 
 	<Item
 		id="AADuet01"
 		locForm="0"
-		value="Äóýò" />
+		value="Duet" />
 
 	<Item
 		id="AA47mmCannon01"
 		locForm="0"
-		value="Àóãý" />
+		value="Auge" />
 
 	<Item
 		id="AA120mmSAMCIT01"
 		locForm="0"
-		value="Áåðæå" />
+		value="Berger" />
 
 	<Item
 		id="AA152mmATGMCD01"
 		locForm="0"
-		value="Ôàëàíãà-Ì" />
+		value="Falange-M" />
 
 	<Item
 		id="ocruiserCIT152Armament"
 		locForm="0"
-		value="Îðóäèÿ 152-ìì" />
+		value="152-mm guns" />
 
 	<Item
 		id="twin152CIT01"
 		locForm="0"
-		value="152-ìì ÀÓ (ÑÍÃ)" />
+		value="152-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_twin152CIT01"
 		locForm="0"
-		value="152-ìì ÎÔÑ (ÑÍÃ)" />
+		value="152-mm HE (CIT)" />
 
 	<Item
 		id="mun_twin152CIT02"
 		locForm="0"
-		value="152-ìì ÁÁÑ (ÑÍÃ)" />
+		value="152-mm AP (CIT)" />
 
 	<Item
 		id="OCruiserCIT01"
 		locForm="0"
-		value="Ýãàëü" />
+		value="Egale" />
 
 	<Item
 		id="ocruiserCITEngineMod"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="ocruiserCIT155Armament"
 		locForm="0"
-		value="Îðóäèÿ 155-ìì" />
+		value="155-mm guns" />
 
 	<Item
 		id="triple155CIT01"
 		locForm="0"
-		value="155-ìì ÀÓ (ÑÍÃ)" />
+		value="155-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_triple155CIT01"
 		locForm="0"
-		value="155-ìì ÎÔÑ (ÑÍÃ)" />
+		value="155-mm HE (CIT)" />
 
 	<Item
 		id="mun_triple155CIT02"
 		locForm="0"
-		value="155-ìì ÁÁÑ (ÑÍÃ)" />
+		value="155-mm AP (CIT)" />
 
 	<Item
 		id="OCruiserCIT02"
 		locForm="0"
-		value="Ýãàëü" />
+		value="Egale" />
 		
 	<Item
 		id="triple152CIT01"
 		locForm="0"
-		value="152-ìì ÀÓ (ÑÍÃ)" />
+		value="152-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_triple152CIT01"
 		locForm="0"
-		value="152-ìì ÎÔÑ (ÑÍÃ)" />
+		value="152-mm HE (CIT)" />
 
 	<Item
 		id="mun_triple152CIT02"
 		locForm="0"
-		value="152-ìì ÁÁÑ (ÑÍÃ)" />
+		value="152-mm AP (CIT)" />
 
 	<Item
 		id="HCruiserCD"
 		locForm="0"
-		value="Ôóðèÿ" />
+		value="Furia" />
 
 	<Item
 		id="HCruiserCDForEncyclopaedia"
 		locForm="0"
-		value="Ôóðèÿ" />
+		value="Furia" />
 
 	<Item
 		id="hcruiserCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="hcruiserCDTorpedo01"
 		locForm="0"
-		value="610-ìì ÓÌ-5" />
+		value="610-mm TT-5" />
 
 	<Item
 		id="hcruiserCD203Armament"
 		locForm="0"
-		value="Îðóäèÿ 203-ìì" />
+		value="203-mm guns" />
 
 	<Item
 		id="twin203CD01"
 		locForm="0"
-		value="203-ìì ÀÓ (ÀÐ)" />
+		value="203-mm gun turret (CD)" />
 
 	<Item
 		id="mun_twin203CD01"
 		locForm="0"
-		value="203-ìì ÎÔÑ (ÀÐ)" />
+		value="203-mm HE (CD)" />
 
 	<Item
 		id="mun_twin203CD02"
 		locForm="0"
-		value="203-ìì ÁÁÑ (ÀÐ)" />
+		value="203-mm AP (CD)" />
 
 	<Item
 		id="HCruiserCD01"
 		locForm="0"
-		value="Ôóðèÿ" />
+		value="Furia" />
 
 	<Item
 		id="semibossCDRocketArmament"
 		locForm="0"
-		value="Êðûëàòûå ðàêåòû" />
+		value="Cruise missiles" />
 
 	<Item
 		id="cruiser_rocketCD01"
 		locForm="0"
-		value="Ýñïàíòî" />
+		value="Espanto" />
 
 	<Item
 		id="cruiser_samCD01"
 		locForm="0"
-		value="Òýë¸í" />
+		value="Telon" />
 
 	<Item
 		id="SemibossCD01"
 		locForm="0"
-		value="Òîñêàíà" />
+		value="Toscana" />
 
 	<Item
 		id="BattleshipCIT"
 		locForm="0"
-		value="Ëèáðèóì" />
+		value="Librium" />
 
 	<Item
 		id="BattleshipCITForEncyclopaedia"
 		locForm="0"
-		value="Ëèáðèóì" />
+		value="Librium" />
 
 	<Item
 		id="battleshipCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="AA23mmGun01"
 		locForm="0"
-		value="Ñïðóò-Ê" />
+		value="Octopus-SB" />
 
 	<Item
 		id="battleshipCIT406Armament"
 		locForm="0"
-		value="Îðóäèÿ 406-ìì" />
+		value="406-mm guns" />
 
 	<Item
 		id="triple406CIT01"
 		locForm="0"
-		value="406-ìì ÀÓ (ÑÍÃ)" />
+		value="406-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_triple406CIT01"
 		locForm="0"
-		value="406-ìì ÎÔÑ (ÑÍÃ)" />
+		value="406-mm HE (CIT)" />
 
 	<Item
 		id="mun_triple406CIT02"
 		locForm="0"
-		value="406-ìì ÁÁÑ (ÑÍÃ)" />
+		value="406-mm AP (CIT)" />
 
 	<Item
 		id="BattleshipCIT01"
 		locForm="0"
-		value="Ëèáðèóì" />
+		value="Librium" />
 
 	<Item
 		id="battleshipCIT380Armament"
 		locForm="0"
-		value="Îðóäèÿ 380-ìì" />
+		value="380-mm guns" />
 
 	<Item
 		id="quadruple380CIT01"
 		locForm="0"
-		value="380-ìì ÀÓ (ÑÍÃ)" />
+		value="380-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_quadruple380CIT01"
 		locForm="0"
-		value="380-ìì ÎÔÑ (ÑÍÃ)" />
+		value="380-mm HE (CIT)" />
 
 	<Item
 		id="mun_quadruple380CIT02"
 		locForm="0"
-		value="380-ìì ÁÁÑ (ÑÍÃ)" />
+		value="380-mm AP (CIT)" />
 
 	<Item
 		id="BattleshipCIT02"
 		locForm="0"
-		value="Ëèáðèóì" />
+		value="Librium" />
 
 	<Item
 		id="battleshipCIT457Armament"
 		locForm="0"
-		value="Îðóäèÿ 457-ìì" />
+		value="457-mm guns" />
 
 	<Item
 		id="triple457CIT01"
 		locForm="0"
-		value="457-ìì ÀÓ (ÑÍÃ)" />
+		value="457-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_triple457CIT01"
 		locForm="0"
-		value="457-ìì ÎÔÑ (ÑÍÃ)" />
+		value="457-mm HE (CIT)" />
 
 	<Item
 		id="mun_triple457CIT02"
 		locForm="0"
-		value="457-ìì ÁÁÑ (ÑÍÃ)" />
+		value="457-mm AP (CIT)" />
 
 	<Item
 		id="twin130CIT01"
 		locForm="0"
-		value="130-ìì ÀÓ-II (ÑÍÃ)" />
+		value="130-mm gun turret (CIT)" />
 
 	<Item
 		id="mun_twin130CIT01"
 		locForm="0"
-		value="130-ìì ÎÔÑ (ÑÍÃ)" />
+		value="130-mm HE (CIT)" />
 
 	<Item
 		id="mun_twin130CIT02"
 		locForm="0"
-		value="130-ìì ÁÁÑ (ÑÍÃ)" />
+		value="130-mm AP (CIT)" />
 
 	<Item
 		id="BossCIT01"
 		locForm="0"
-		value="Ãåëüâåöèÿ" />
+		value="Helvetia" />
 
 	<Item
 		id="BattleshipCD"
 		locForm="0"
-		value="Ëåâèàôàí" />
+		value="Leviatan" />
 
 	<Item
 		id="BattleshipCDForEncyclopaedia"
 		locForm="0"
-		value="Ëåâèàôàí" />
+		value="Leviatan" />
 
 	<Item
 		id="battleshipCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="battleshipCD356Armament"
 		locForm="0"
-		value="Îðóäèÿ 356-ìì" />
+		value="356-mm guns" />
 
 	<Item
 		id="twin356CD01"
 		locForm="0"
-		value="356-ìì ÀÓ (ÀÐ)" />
+		value="356-mm gun turret (CD)" />
 
 	<Item
 		id="mun_twin356CD01"
 		locForm="0"
-		value="356-ìì ÎÔÑ (ÀÐ)" />
+		value="356-mm HE (CD)" />
 
 	<Item
 		id="mun_twin356CD02"
 		locForm="0"
-		value="356-ìì ÁÁÑ (ÀÐ)" />
+		value="356-mm AP (CD)" />
 
 	<Item
 		id="mun_twin356CD03"
 		locForm="0"
-		value="356-ìì ÇÑ (ÀÐ)" />
+		value="356-mm AA (CD)" />
 
 	<Item
 		id="BattleshipCD01"
 		locForm="0"
-		value="Ëåâèàôàí" />
+		value="Leviatan" />
 
 	<Item
 		id="battleshipCD406Armament"
 		locForm="0"
-		value="Îðóäèÿ 406-ìì" />
+		value="406-mm guns" />
 
 	<Item
 		id="triple406CD01"
 		locForm="0"
-		value="406-ìì ÀÓ (ÀÐ)" />
+		value="406-mm gun turret (CD)" />
 
 	<Item
 		id="mun_triple406CD01"
 		locForm="0"
-		value="406-ìì ÎÔÑ (ÀÐ)" />
+		value="406-mm HE (CD)" />
 
 	<Item
 		id="mun_triple406CD02"
 		locForm="0"
-		value="406-ìì ÁÁÑ (ÀÐ)" />
+		value="406-mm AP (CD)" />
 
 	<Item
 		id="BattleshipCD02"
 		locForm="0"
-		value="Ëåâèàôàí" />
+		value="Leviatan" />
 
 	<Item
 		id="MerchantCD"
@@ -1420,12 +1420,12 @@
 	<Item
 		id="merchantCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="merchantCDArmament"
 		locForm="0"
-		value="Òðþì" />
+		value="Hold" />
 
 	<Item
 		id="MerchantCD01"
@@ -1435,62 +1435,62 @@
 	<Item
 		id="LavCIT"
 		locForm="0"
-		value="Âàðàí" />
+		value="Varan" />
 
 	<Item
 		id="lavCITEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="lavCITArmament"
 		locForm="0"
-		value="Áîåâîå îòäåëåíèå" />
+		value="Combat compartment" />
 
 	<Item
 		id="LavCIT01"
 		locForm="0"
-		value="Âàðàí" />
+		value="Varan" />
 
 	<Item
 		id="LavCIT02"
 		locForm="0"
-		value="Âàðàí" />
+		value="Varan" />
 
 	<Item
 		id="lavCITMachinegun01"
 		locForm="0"
-		value="ÊÏÂÒ" />
+		value="KPVT" />
 
 	<Item
 		id="LavCD"
 		locForm="0"
-		value="Ñêîðïèîí" />
+		value="Escorpion" />
 
 	<Item
 		id="lavCDEngine"
 		locForm="0"
-		value="Ñèëîâàÿ óñòàíîâêà" />
+		value="Power generator" />
 
 	<Item
 		id="lavCDArmament"
 		locForm="0"
-		value="Áîåâîå îòäåëåíèå" />
+		value="Combat compartment" />
 
 	<Item
 		id="LavCD01"
 		locForm="0"
-		value="Ñêîðïèîí" />
+		value="Escorpion" />
 
 	<Item
 		id="LavCD02"
 		locForm="0"
-		value="Ñêîðïèîí" />
+		value="Escorpion" />
 
 	<Item
 		id="lavCDMachinegun01"
 		locForm="0"
-		value="ÏÊÒ" />
+		value="PKT" />
 
 	<Item
 		id="CoastAAMed01"
@@ -1510,12 +1510,12 @@
 	<Item
 		id="heliFuselage01_static01"
 		locForm="0"
-		value="Êîíäîð" />
+		value="Condor" />
 
 	<Item
 		id="heliFuselage02_static01"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="Mosquito" />
 
 	<Item
 		id="destroyerCDEngineTest"
@@ -1536,37 +1536,37 @@
 	<Item
 		id="Tutorial_Player01"
 		locForm="0"
-		value="«Êàñàäî» (òèï «Àëüáåäî»)" />
+		value="“Casado” (“Albedo”-class)" />
 
 	<Item
 		id="Tutorial_DestroyerCD01"
 		locForm="0"
-		value="«Ñîëèäî»" />
+		value="“Solido”" />
 
 	<Item
 		id="Tutorial_HCruiserCD01"
 		locForm="0"
-		value="«Âàëåíñèÿ»" />
+		value="“Valencia”" />
 
 	<Item
 		id="Tutorial_HCruiserCD02"
 		locForm="0"
-		value="«Èáåðèÿ»" />
+		value="“Iberica”" />
 
 	<Item
 		id="Tutorial_DestroyerCD02"
 		locForm="0"
-		value="«Ìàëüâàäî»" />
+		value="“Malvado”" />
 
 	<Item
 		id="Tutorial_DestroyerCD03"
 		locForm="0"
-		value="«Ýíîõàäî»" />
+		value="“Enojado”" />
 
 	<Item
 		id="Tutorial_HCruiserCD03"
 		locForm="0"
-		value="«Âàëüäèâèÿ»" />
+		value="“Valdivia”" />
 
 	<Item
 		id="Tutorial_SmlboatCIT01"
@@ -1592,27 +1592,27 @@
 	<Item
 		id="CITPH01_Player01"
 		locForm="0"
-		value="ïîç. «Ëîâ÷èé» (òèï «Ìóýòò»)" />
+		value="call sign “Chaser” (“Mouette”-class)" />
 
 	<Item
 		id="CITPH01_SmlboatCIT01"
 		locForm="0"
-		value="Ðèô" />
+		value="Reef" />
 
 	<Item
 		id="CITPH01_SmlboatCIT02"
 		locForm="0"
-		value="Ìîëîò" />
+		value="Hammer" />
 
 	<Item
 		id="CITPH01_SmlboatCIT03"
 		locForm="0"
-		value="Âîëê" />
+		value="Wolf" />
 
 	<Item
 		id="CITPH01_SmlboatCIT04"
 		locForm="0"
-		value="Ãþðçà" />
+		value="Viper" />
 
 	<Item
 		id="CITPH01_SmlboatCD01"
@@ -1643,42 +1643,42 @@
 	<Item
 		id="CITPH02_Player01"
 		locForm="0"
-		value="«Ïðîâàíñ» (òèï «Ëèîí»)" />
+		value="“Provence” (“Lyon”-class)" />
 
 	<Item
 		id="CITPH02_DestroyerCIT01"
 		locForm="0"
-		value="«Æåâîäàí»" />
+		value="“Gevaudan”" />
 
 	<Item
 		id="CITPH02_DestroyerCIT02"
 		locForm="0"
-		value="«Ðóàí»" />
+		value="“Rouen”" />
 
 	<Item
 		id="CITPH02_OCruiserCIT01"
 		locForm="0"
-		value="«Ýëüáåðåò»" />
+		value="“Elbereth”" />
 
 	<Item
 		id="CITPH02_HeliCIT01"
 		locForm="0"
-		value="«Êîíäîð»" />
+		value="“Condor”" />
 
 	<Item
 		id="CITPH02_HeliCIT02"
 		locForm="0"
-		value="«Êîíäîð»" />
+		value="“Condor”" />
 
 	<Item
 		id="CITPH02_HeliCIT03"
 		locForm="0"
-		value="«Êîíäîð»" />
+		value="“Condor”" />
 
 	<Item
 		id="CITPH02_HeliCIT04"
 		locForm="0"
-		value="«Êîíäîð»" />
+		value="“Condor”" />
 
 	<Item
 		id="CITPH02_DestroyerCD01"
@@ -1724,17 +1724,17 @@
 	<Item
 		id="CITPH03_Player01"
 		locForm="0"
-		value="«Àðëåòò» (òèï «Ýãàëü»)" />
+		value="“Arlette” (“Egale”-class)" />
 
 	<Item
 		id="CITPH03_OCruiserCIT01"
 		locForm="0"
-		value="«Ýâð¸»" />
+		value="“Evreux”" />
 
 	<Item
 		id="CITPH03_OCruiserCIT02"
 		locForm="0"
-		value="«Ýòóàëü»" />
+		value="“Etoile”" />
 
 	<Item
 		id="CITPH03_SmlboatCD01"
@@ -1796,22 +1796,22 @@
 	<Item
 		id="CITPH04_Player01"
 		locForm="0"
-		value="ïîç. «Êîðñàð» (òèï «Ìþðåí»)" />
+		value="call sign “Corsair” (“Murene”-class)" />
 
 	<Item
 		id="CITPH04_FastboatCIT01"
 		locForm="0"
-		value="Êëèí" />
+		value="Wedge" />
 
 	<Item
 		id="CITPH04_FastboatCIT02"
 		locForm="0"
-		value="Òóç" />
+		value="Ace" />
 
 	<Item
 		id="CITPH04_FastboatCIT03"
 		locForm="0"
-		value="Äóõ" />
+		value="Specter" />
 
 	<Item
 		id="CITPH04_SmlboatCD01"
@@ -1837,27 +1837,27 @@
 	<Item
 		id="CDPH01_Player01"
 		locForm="0"
-		value="«Àáîãàäî» (òèï «Àëüáåäî»)" />
+		value="“Abogado” (“Albedo”-class)" />
 
 	<Item
 		id="CDPH01_DestroyerCD01"
 		locForm="0"
-		value="«Ñåóòà»" />
+		value="“Ceuta”" />
 
 	<Item
 		id="CDPH01_DestroyerCD02"
 		locForm="0"
-		value="«Ìåëèëüÿ»" />
+		value="“Melilla”" />
 
 	<Item
 		id="CDPH01_MerchantCD01"
 		locForm="0"
-		value="«Àâãóñòèí Áðåéí»" />
+		value="“Agustine Brain”" />
 
 	<Item
 		id="CDPH01_MerchantCD02"
 		locForm="0"
-		value="«Õóàí Ýëü-Óýâî»" />
+		value="“Juan El Huevo”" />
 
 	<Item
 		id="CDPH01_SmlboatCIT01"
@@ -1928,27 +1928,27 @@
 	<Item
 		id="CDPH02_Player01"
 		locForm="0"
-		value="«Êàòàëóíüÿ» (òèï «Ôóðèÿ»)" />
+		value="“Cataluna” (“Furia”-class)" />
 
 	<Item
 		id="CDPH02_HeliCD01"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="“Mosquito”" />
 	
 	<Item
 		id="CDPH02_HeliCD02"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="“Mosquito”" />
 
 	<Item
 		id="CDPH02_HeliCD03"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="“Mosquito”" />
 
 	<Item
 		id="CDPH02_HeliCD04"
 		locForm="0"
-		value="Ìîñêèòî" />
+		value="“Mosquito”" />
 
 	<Item
 		id="CDPH02_SmlboatCIT01"
@@ -1999,27 +1999,27 @@
 	<Item
 		id="CDPH03_Player01"
 		locForm="0"
-		value="«Ñàðàãîñà» (òèï «Ëåâèàôàí»)" />
+		value="“Zaragoza” (“Leviatan”-class)" />
 
 	<Item
 		id="CDPH03_RHCruiserCD01"
 		locForm="0"
-		value="«Àðãóìåíòî»" />
+		value="“Argumento”" />
 
 	<Item
 		id="CDPH03_DestroyerCD01"
 		locForm="0"
-		value="«Àãèððå»" />
+		value="“Aguirre”" />
 
 	<Item
 		id="CDPH03_DestroyerCD02"
 		locForm="0"
-		value="«Àíäîððà»" />
+		value="“Andorra”" />
 
 	<Item
 		id="CDPH03_DestroyerCD03"
 		locForm="0"
-		value="«Ýñïåðàíñà»" />
+		value="“Esperanza”" />
 
 	<Item
 		id="CDPH03_DestroyerCIT01"

@@ -21,16 +21,16 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "ЂЁльберетї (тип ЂЁгальї)"}
-			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "Ђ∆еводанї (тип ЂЋионї)"}
-			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "Ђ–уанї (тип ЂЋионї)"}
-			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. Ђ—околї (звено вертолЄтов Ђ ондорї)"}
+			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "УElberethФ (УEgaleФ-class)"}
+			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "УGevaudanФ (УLyonФ-class)"}
+			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "УRouenФ (УLyonФ-class)"}
+			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign УFalconФ (УCondorФ helicopters flight)"}
 			friendly[5] = {"CITHelicopter01_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. Ђ√ромї (звено вертолЄтов Ђ ондорї)"}
+			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign УThunderФ (УCondorФ helicopters flight)"}
 			friendly[7] = {"CITHelicopter02_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. Ђ‘илинї (звено вертолЄтов Ђ ондорї)"}
+			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign УOwlФ (УCondorФ helicopters flight)"}
 			friendly[9] = {"CITHelicopter03_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "поз. Ђ—кифї (звено вертолЄтов Ђ ондорї)"}
+			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign УScythianФ (УCondorФ helicopters flight)"}
 			friendly[11] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}
@@ -54,7 +54,7 @@
 			SetVar("PlayerHealth", 1200)
 			SetVar("PlayerVehicleHealth", 1200)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "Ђѕровансї (тип ЂЋионї)")
+			SetVar("PlayerName", "УProvenceФ (УLyonФ-class)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 35000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.115) -- multiplier that determines how much money the player will receive for each score point

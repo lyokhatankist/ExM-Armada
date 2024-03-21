@@ -21,10 +21,10 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "«Àğãóìåíòî» (òèï «Òîñêàíà»)"}
-			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "«Àãèğğå» (òèï «Àëüáåäî»)"}
-			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "«Àíäîğğà» (òèï «Àëüáåäî»)"}
---			friendly[4] = {"CDDestroyer01_vehicle_2", "CDDestroyerAtlantic", "CDPH03_DestroyerCD03", 1600, 1600, 9180, 22, "«İñïåğàíñà» (ı.ì.ò. «Àëüáåäî»)"}
+			friendly[1] = {"CDRocketHeavyCruiser01_vehicle_0", "CDRocketHeavyCruiserAtlantic", "CDPH03_RHCruiserCD01", 4500, 4500, 96096, 12, "“Argumento” (“Toscana”-class)"}
+			friendly[2] = {"CDDestroyer01_vehicle_0", "CDDestroyerAtlantic", "CDPH03_DestroyerCD01", 1600, 1600, 9180, 22, "“Aguirre” (“Albedo”-class)"}
+			friendly[3] = {"CDDestroyer01_vehicle_1", "CDDestroyerAtlantic", "CDPH03_DestroyerCD02", 1600, 1600, 9256, 22, "“Andorra” (“Albedo”-class)"}
+--			friendly[4] = {"CDDestroyer01_vehicle_2", "CDDestroyerAtlantic", "CDPH03_DestroyerCD03", 1600, 1600, 9180, 22, "“Esperanza” (“Albedo”-class)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CITBattleship01_vehicle_0", 9000, 9000, 43002, 5}
 			enemy[2] = {"CITOldCruiser01_vehicle_0", 1600, 1600, 10967, 20}
@@ -60,7 +60,7 @@
 			SetVar("PlayerHealth", 6000)
 			SetVar("PlayerVehicleHealth", 6000)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "«Ñàğàãîñà» (òèï «Ëåâèàôàí»)")
+			SetVar("PlayerName", "“Zaragoza” (“Leviatan”-class)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 30000) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.165) -- multiplier that determines how much money the player will receive for each score point

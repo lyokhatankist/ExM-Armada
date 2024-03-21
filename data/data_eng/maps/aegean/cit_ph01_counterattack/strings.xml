@@ -2,26 +2,26 @@
 <resource>
 	<string
 		id="1"
-		value="Контратака|Содружество Независимых Городов, поз. «Ловчий»|Нисия|25 мая 2265 г., 07:23" 
+		value="Counterattack|Commonwealth of Independent Towns, call sign “Chaser”|Nisia|May 25, 2265, 0723" 
 		time="6" />
 
 	<string
 		id="2"
-		value="Цели миссии:|Уничтожить бронемашины и боевые катера Алого Рассвета у острова Кейна. После выполнения задачи покинуть район боевых действий до прибытия подкрепления противника." 
+		value="Mission objectives:|Destroy armored vehicles and patrol boats of the Crimson Dawn at Kane's island. Retreat before the arrival of enemy reinforcements after the main objective is completed." 
 		time="12" />
 
 	<string
 		id="3"
-		value="Второстепенные цели:|Выполнить миссию без потерь в военной технике; уничтожить подкрепление противника." 
+		value="Secondary objectives:|Finish the mission without losses of vehicles; destroy the enemy reinforcements." 
 		time="8" />
 
 	<string
 		id="1000"
-		value="Покинуть зону боевых действий?"
+		value="Leave the battle?"
 		numButtons="2" />
 
 	<string
 		id="1001"
-		value="Основные цели миссии достигнуты. Поблизости игрока противник не обнаружен.|Завершить миссию?"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
 		numButtons="2" />
 </resource>

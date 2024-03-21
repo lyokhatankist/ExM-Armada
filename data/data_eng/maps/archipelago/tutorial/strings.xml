@@ -1,133 +1,110 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
-<!--
-пїЅпїЅа®ЄпїЅпїЅпїЅ пїЅпїЅпїЅпїЅв ­пїЅпїЅ пїЅпїЅпїЅ пїЅлў®пїЅпїЅ б®®пїЅйҐ­пїЅ пїЅ пїЅаЈ пїЅпїЅпїЅпїЅжЁЁ а®«пїЅпїЅпїЅпїЅ.
-пїЅаЁ¬пїЅпїЅ:
-пїЅ г­ЁпїЅпїЅпїЅм­®пїЅ пїЅпїЅбЄ®пїЅ:
-	<string
-		id="1"
-		modelName="mask_hero"
-		value="|пїЅ пїЅпїЅпїЅбҐЄ пїЅпїЅпїЅпїЅпїЅпїЅ б¬ҐпїЅпїЅ! пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - б«ҐпїЅпїЅ зҐ«пїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ в®«мЄ® пїЅо¤Ё пїЅпїЅ бҐ«пїЅпїЅпїЅпїЅ!"
-		sound="data\sounds\Speech\r4m1\r4m1_1_hero.ogg"
-		time="1" />
-
-пїЅ пїЅпїЅпїЅдЁЈпїЅпїЅжЁҐпїЅ пїЅпїЅбЄЁ:
-	<string
-		id="15"
-		modelName="r4_man"
-		modelSkin="0"
-		modelCfg="135"
-		modelSlot="1"
-		value="пїЅпїЅпїЅпїЅпїЅпїЅ|пїЅпїЅпїЅз «пїЅ пїЅ пїЅпїЅ пїЅвҐ« вҐЎпїЅ пїЅв®ЈпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅ зҐ«пїЅпїЅпїЅпїЅ, пїЅ пїЅпїЅпїЅа®¬ пїЅпїЅ пїЅпїЅиЁўпїЅпїЅ, пїЅпїЅпїЅпїЅвўЁвҐ«м­® пїЅпїЅ пїЅ пїЅпїЅиҐ© пїЅпїЅаҐўпїЅпїЅ. пїЅпїЅ пїЅпїЅа ўпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅв®Є. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ вҐЎпїЅ - пїЅпїЅ б«ҐпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ! пїЅпїЅпїЅ вҐЎпїЅ пїЅпїЅпїЅпїЅ в®«мЄ® б¬ҐпїЅпїЅпїЅ. пїЅпїЅпїЅ пїЅ, пїЅпїЅ пїЅг¦Ґ б¬ҐпїЅпїЅ."
-		sound="data\sounds\Speech\r4m1\r4m1_15_oldman.ogg"
-		time="5" />
-
--->
 <resource>
 	<string
 		id="1"
-		value="Крещение огнём|Алый Рассвет, «Касадо»|Хаменос|23 апреля 2265 г., 20:49" 
+		value="Baptism by fire|Crimson Dawn, “Casado”|Chamenos|April 23, 2265, 2049" 
 		time="6" />
 
 	<string
 		id="2"
-		value="Цели миссии:|Защитить дружественный крейсер «Иберия». Обеспечить отход дружественных сил из района боевых действий." 
+		value="Mission objectives:|Protect the friendly heavy cruiser “Iberica”; ensure the safe retreat of the friendly forces from the combat zone." 
 		time="12" />
 
 	<string
 		id="3"
-		value="Второстепенные цели:|Выполнить миссию без потерь в военной технике; уничтожить все вражеские боевые единицы, прибывающие на помощь гарнизону острова Вунсторф." 
+		value="Secondary objectives:|Finish the mission without losses of vehicles; destroy all enemy units that arrive to aid the garrison of Wunstorf island." 
 		time="10" />
 
 	<!-- after cutscene -->
 	<string
 		id="101"
-		value="Добро пожаловать в ExM:Armada.||Эта миссия - обучающая, однако после её прохождения Вы получите полноценную награду. В обучении Вы сможете узнать как вести огонь из всех типов вооружения, которые устанавливаются на корабли, а также некоторые особенности новых игровых механик. Вы можете пропустить обучение, если это не первое Ваше прохождение.||Пройти обучение?"
+		value="Welcome to HTA:Armada.||This is a tutorial mission, but after its completion you will receive a full reward. In a tutorial you will be able to learn how to handle all types of weaponry that may be installed on the ships, as well as some features of newly added game mechanics. You can skip the tutorial if it's not your first time playthrough.||Proceed with the tutorial?"
 		numButtons="2" />
 
 	<string
 		id="102"
-		value="Ваше первое задание - уничтожить боевые катера СНГ, направляющиеся к дружественному крейсеру «Иберия».||Уничтожьте три катера, чтобы перейти к следующему этапу обучения."
+		value="Your first objective is to destroy the CIT patrol boats moving out to attack the friendly cruiser “Iberica”.||Destroy three patrol boats to proceed to the next stage of the tutorial."
 		numButtons="1" />
 
 	<!-- on encounter with boats -->
 	<string
 		id="103"
-		value="Боевые катера противника обнаружены.||Наиболее эффективный метод борьбы с боевыми катерами и авиацией противника - зенитные орудия. По умолчанию орудия ПВО назначены на 5 группу оружия (клавиша Alt).||Пулемёты, являющиеся основным вооружением катеров, не могут повредить Ваш корабль, но в данном случае вражеские лодки также оборудованы РСЗО, представляющими угрозу. Старайтесь не сбавлять ход и маневрировать, чтобы избежать попаданий."
+		value="Enemy patrol boats have been detected.||The most effective way of dealing with the enemy boats and aircraft is using your anti-aircraft guns. AA guns are assigned to the 5th weapon group by default (Alt key).||Machine guns, that constitute the primary weaponry of patrol boats, can not damage your ship, but in this case the boats are also equipped with MLRS, which pose a threat. Try to maintain speed and maneuver around to avoid being hit."
 		numButtons="1" />
 
 	<!-- on damage -->
 	<string
 		id="104"
-		value="Корабли в ExM:Armada имеют свойство автоматического восстановления прочности, поэтому если Вы понимаете, что стычка с противником может оказаться для Вас фатальной - лучше отступите и дождитесь окончания ремонта. Учтите, однако, что враг также может пользоваться этой особенностью в равной мере."
+		value="Ships in HTA:Armada have an ability to repair themselves over time, so if you find yourself in dire straits during the encounter with an enemy, it would be best to retreat and wait for the repairs to be completed. Note, however, that the enemy can use this ability just as well."
 		numButtons="1" />
 
 	<!-- on destruction of boats -->
 	<string
 		id="105"
-		value="Катера СНГ уничтожены. Поблизости также был замечен эсминец СНГ. Уничтожьте его огнём основных орудий."
+		value="CIT patrol boats are destroyed. An enemy destroyer has been spotted nearby. Destroy it with your main battery guns."
 		numButtons="1" />
 
 	<!-- on encounter with destroyer -->
 	<string
 		id="106"
-		value="В оригинальной Ex Machina почти все конфигурации грузовиков позволяли вести огонь под любым углом по направлению к противнику. В ExM:Armada, впрочем, Вам придётся больше внимания уделять секторам обстрела вооружения, установленного на корабле. Чтобы иметь возможность вести огонь со всех орудий, пытайтесь позиционировать Ваш корабль, держа противника по правому или левому борту. Также, некоторые орудия ПВО могут наносить повреждения кораблям (напр. 47-мм пушка Аугэ), поэтому старайтесь эффективно использовать всё наличное у Вас вооружение."
+		value="In the original Hard Truck Apocalypse game, nearly all truck configurations allowed for 360 degree angle of fire. In HTA:Armada, however, you will have to pay closer attention to the firing sectors of the weapons installed on the ship. To be able to fire from all of your weapons at once, try to position yourself in a way to keep the enemy either to the left, or to the right side of your ship. Also, some AA guns can prove to be quite effective against ships (i.e. Auge 47-mm cannon), so try to use all the weaponry that you have effectively."
 		numButtons="1" />
 
 	<!-- on destruction of destroyer -->
 	<string
 		id="107"
-		value="Вам повезло: Ваши орудия были заряжены осколочно-фугасными снарядами, наиболее эффективным видом боеприпасов против слабозащищённых эсминцев и наземных целей. Имейте в виду, что если Вам придётся столкнуться с большим количеством вражеских крейсеров или линкоров - лучше выбрать бронебойные снаряды. Информация о том, какие типы вражеских кораблей могут быть встречены во время миссии, будет предоставляться в штабе во время брифинга."
+		value="You're in luck: your guns were loaded with high-explosive shells that are most effective against lightly armored destroyers and ground targets. Keep in mind that if you have to face a large number of enemy cruisers or battleships, it is better to choose armor-piercing shells. The information about the hull types of the enemy ships that may be encountered on missions will be provided at HQ during briefings."
 		numButtons="1" />
 
 	<string
 		id="108"
-		value="Сопротивление СНГ в этом районе практически подавлено. Однако, по данным разведки, в ударной группе СНГ должен был быть крейсер. Возможно, он находится у острова Миконос, так как подкрепление СНГ прибывало оттуда.||Уничтожьте крейсер СНГ при помощи торпед или основных орудий, чтобы завершить боевую часть обучения."
+		value="CIT resistance in this area has been virtually crushed. However, according to the intelligence reports, the CIT strike force should have been reinforced by a cruiser. Perhaps it is located near the island of Mykonos, since the enemy reinforcements were arriving from that direction.||Destroy the CIT cruiser with torpedoes or main battery guns to complete the combat part of the tutorial."
 		numButtons="1" />
 
 	<!-- on encounter with cruiser -->
 	<string
 		id="109"
-		value="На каждом эсминце установлены два торпедных аппарата: направленный влево (или же по левому борту), по умолчанию стрельба которым производится клавишей Shift, и вправо (по правому борту), который управляется клавишей Ctrl. Иногда на судне могут быть установлены торпедные аппараты, направленные вперёд и назад (носовой и кормовой). Они считаются направленными влево и вправо соответственно и используют те же клавиши управления."
+		value="Each destroyer is equipped with two torpedo launchers: one directed to the left (port side), which by default is fired by pressing the Shift key, and the other directed to the right (starboard side), which by default is fired with the Ctrl key. Sometimes the ship may be equipped with torpedo tubes directed forward and backward. They are considered as directed to the left and to the right respectively and utilize the same control keys."
 		numButtons="1" />
 
 	<string
 		id="110"
-		value="Торпеды особенно эффективны против хорошо бронированных целей, таких как тяжёлые крейсеры и линкоры. Применять их против быстрых эсминцев крайне не рекомендуется, поэтому выбирайте цели для пуска с умом."
+		value="Torpedoes are especially effective against the heavily armored targets, such as heavy cruisers and battleships. Their use against fast moving destroyers and smaller vessels is not recommended, so choose your targets wisely."
 		numButtons="1" />
 
 	<string
 		id="111"
-		value="Торпедные аппараты на Вашем текущем эсминце имеют крайне ограниченные углы поворота, поэтому требуют практически перпендикулярного направления к цели. Перед пуском торпед убедитесь, что ТА направлен на цель. Можете не торопиться - крейсер противника полностью обездвижен, хотя и пытается огрызаться огнём вспомогательных орудий."
+		value="The torpedo launchers installed on your ship are extremely limited in terms of rotation angles, and require the ship to be directed almost perpendicular to the target. Ensure that TL is aimed at the target before launching the torpedoes. You can take your time, as the enemy cruiser is completely immobilized. Its weapons, however, seem to still be functional."
 		numButtons="1" />
 
 	<!-- on destruction of cruiser -->
 	<string
 		id="112"
-		value="Вражеский крейсер уничтожен. Отличная работа!||После выполнения всех целей миссии, Вы должны отступить к месту начала миссии или зоне отступления, отмеченной на карте. Если по завершению последнего задания поблизости Вашего корабля не будет обнаружено противника - Вам будет предоставлен выбор завершить миссию досрочно."
+		value="The enemy cruiser is destroyed. Well done!||After the completion of all main mission objectives you will have to retreat to the starting point of the mission or the retreat zone marked on the map. If, upon the completion of the last objective, no enemy presence is detected near your location, you will be prompted to end the mission immediately."
 		numButtons="1" />
 
 	<string
 		id="113"
-		value="На этом боевая часть обучения завершена. Следующий этап - краткое изложение особенностей штаба и послеигровой статистики."
+		value="This concludes the combat part of the tutorial. The next stage is a quick rundown of the features of headquarters and post-mission statistics."
 		numButtons="1" />
 
 	<string
 		id="114"
-		value="Поблизости игрока обнаружен противник, досрочное выполнение миссии невозможно. Вам придётся следовать к зоне отступления самостоятельно."
+		value="Hostile presence near the player detected. Unable to complete the mission immediately. You will have to proceed to the retreat zone on your own."
 		numButtons="1" />
 
 	<string
 		id="1000"
-		value="Покинуть зону боевых действий?"
+		value="Leave the battle?"
 		numButtons="2" />
 
 	<string
 		id="1001"
-		value="Основные цели миссии достигнуты. Поблизости игрока противник не обнаружен.|Завершить миссию?"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
 		numButtons="2" />
 
 	<string
 		id="1002"
-		value="Вы покидаете зону боевых действий в направлении территории, контролируемой противником.||Продолжение движения в этом направлении приведёт к потере вашей техники и возможному провалу миссии."
+		value="You are leaving the combat zone in a direction of the territory currently under control of the enemy.||This will result in a loss of your vehicle and possible mission failure."
 		numButtons="1" />
 </resource>

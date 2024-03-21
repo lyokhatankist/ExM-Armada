@@ -21,10 +21,10 @@
 			local friendly = {}
 			local enemy = {}
 			--                {objName                  Type               Prototype      EffHP VehHP FP Maneuv.      FriendlyName}
-			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "ïîç. «Ğèô» (òèï «Ìóıòò»)"}
-			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "ïîç. «Ìîëîò» (òèï «Ìóıòò»)"}
-			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "ïîç. «Âîëê» (òèï «Ìóıòò»)"}
-			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "ïîç. «Ãşğçà» (òèï «Ìóıòò»)"}
+			friendly[1] = {"CITBoats01_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT01", 33, 125, 156, 55, "call sign “Reef” (“Mouette”-class)"}
+			friendly[2] = {"CITBoats02_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT02", 33, 125, 623, 55, "call sign “Hammer” (“Mouette”-class)"}
+			friendly[3] = {"CITBoats03_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT03", 33, 125, 156, 55, "call sign “Wolf” (“Mouette”-class)"}
+			friendly[4] = {"CITBoats04_vehicle_0", "CITBoatAegean", "CITPH01_SmlboatCIT04", 33, 125, 623, 55, "call sign “Viper” (“Mouette”-class)"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDLavs01_vehicle_0", 26, 375, 265, 0}
 			enemy[2] = {"CDLavs02_vehicle_0", 26, 375, 265, 0}
@@ -47,7 +47,7 @@
 			SetVar("PlayerHealth", 33)
 			SetVar("PlayerVehicleHealth", 125)
 			SetVar("PlayerEndHealth", GetVar("PlayerHealth").AsInt)
-			SetVar("PlayerName", "ïîç. «Ëîâ÷èé» (òèï «Ìóıòò»)")
+			SetVar("PlayerName", "call sign “Chaser” (“Mouette”-class)")
 			SetVar("Objectives", 2) -- amount of main objectives, excluding destruction of all enemy units and completing the mission without losses
 			SetVar("ObjectiveScoreReward", 1250) -- how much score each objective gives
 			SetVar("MissionScoreRewardMultiplier", 0.65) -- multiplier that determines how much money the player will receive for each score point
