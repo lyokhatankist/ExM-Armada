@@ -198,27 +198,27 @@
 	<Item
 		id="boss01"
 		locForm="0"
-		value="Клешня" />
+		value="Claw" />
 
 	<Item
 		id="boss02"
 		locForm="0"
-		value="Погрузчик" />
+		value="Loader" />
 
 	<Item
 		id="boss03"
 		locForm="0"
-		value="Оракул" />
+		value="Oracle" />
 
 	<Item
 		id="boss04"
 		locForm="0"
-		value="База Ньери" />
+		value="Njeri base" />
 
 	<Item
 		id="boss04drone"
 		locForm="0"
-		value="Дрон" />
+		value="Drone" />
 
 <!-- 	<Item
 		id="quest_start_father_letter"
@@ -569,52 +569,52 @@
 	<Item
 		id="potato"
 		locForm="0"
-		value="Картофель" />
+		value="Potatoes" />
 
 	<Item
 		id="scrap_metal"
 		locForm="0"
-		value="Металлолом" />
+		value="Scrap metal" />
 
 	<Item
 		id="firewood"
 		locForm="0"
-		value="Дрова" />
+		value="Wood" />
 
 	<Item
 		id="oil"
 		locForm="0"
-		value="Нефть" />
+		value="Oil" />
 
 	<Item
 		id="bottle"
 		locForm="0"
-		value="Бутылки" />
+		value="Bottles" />
 
 	<Item
 		id="fuel"
 		locForm="0"
-		value="Горючее" />
+		value="Fuel" />
 
 	<Item
 		id="machinery"
 		locForm="0"
-		value="Рабочее оборудование" />
+		value="Machinery" />
 
 	<Item
 		id="tobacco"
 		locForm="0"
-		value="Табак" />
+		value="Tobacco" />
 
 	<Item
 		id="book"
 		locForm="0"
-		value="Книги" />
+		value="Books" />
 
 	<Item
 		id="electronics"
 		locForm="0"
-		value="Электроника" />
+		value="Electronics" />
 
 <!-- gadgets-->
 	<Item

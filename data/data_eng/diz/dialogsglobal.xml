@@ -159,7 +159,7 @@
 
 	<Reply
 		name="Mission_Yes"
-		text="Да."
+		text="Yes."
 		role="PLAYER"
 		scriptResult="local MissionParams = StringToTable(GetVar('MissionParams').AsString); local MissionTime = StringToTable(MissionParams[1]); local MissionSide = MissionParams[2]; local MissionName = MissionParams[3]; local MissionMap = MissionParams[4]; local MissionPlayerPrototype = MissionParams[5]; local MissionFriendlies = StringToTable(MissionParams[6]); local MissionGunsAndGadgets = StringToTable(MissionParams[7]); MissionSetup(MissionTime, MissionSide, MissionName, MissionMap, MissionPlayerPrototype, MissionFriendlies, MissionGunsAndGadgets); EndConversation()" />
 <!--Root/battleship/CIT/Main Campaign--></DialogsResource>

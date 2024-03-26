@@ -398,51 +398,51 @@
 <!-- Wares ______________________________________________-->
 	<string
 		id="potato_diz"
-		value=" артошка она и есть. „то тут добавишь. ќсновной источник пропитани€ дл€ всех людей." />
+		value="Potatoes it is. What else is there to be said? The main source of food for all people." />
 
 	<string
 		id="scrap_metal_diz"
-		value="»з обломков иногда удаетс€ сколотить неплохие детали дл€ грузовика. ≈ще говор€т, что кто-то научилс€ переплавл€ть ржавый металл в слитки." />
+		value="Sometimes you can make good truck spare parts out of the scraps of rusty metal. Some people also say that someone has learned how to melt rusty metal into steel ingots." />
 
 	<string
 		id="firewood_diz"
-		value="ƒерево всегда было источником тепла, как в качестве топлива, так и в качестве дешевого строительного материала." />
+		value="Wood has always been a source of warmth. Both as a fuel and as a cheap building material." />
 
 	<string
 		id="oil_diz"
-		value="“от, кто контролирует нефть, контролирует грузоперевозки. ѕоэтому вокруг этого ценного товара часто плетутс€ интриги." />
+		value="Whoever controls oil also controls transportation. Therefore, there is much intrigue surrounding this valuable commodity." />
 
 	<string
 		id="gear_diz"
-		value="—менные детали механизмов, без которых не может обойтись не один механик." />
+		value="Replacement parts of mechanisms that no mechanic can do without." />
 
 	<string
 		id="bottle_diz"
-		value="”крашение из разноцветного стекла приносит удачу и привлекает деньги. „ем больше целый кусок, тем выше ценность." />
+		value="A piece of multicolored glass jewelry brings good luck and attracts money. The larger the piece, the higher the value." />
 
 	<string
 		id="fuel_diz"
-		value="¬ысокооктановое горючее встречаетс€ очень редко и обладает немалой стоимостью." />
+		value="High-octane fuel is very rare and comes at a considerable premium." />
 
 	<string
 		id="fibreboard_diz"
-		value="ƒома из переработанной древесины прочнее и теплее, чем мазанки и избы." />
+		value="Houses made of processed wood are stronger and warmer than shacks and huts." />
 
 	<string
 		id="machinery_diz"
-		value="»ногда шахтерам удаетс€ откопать целые агрегаты, которые выгл€д€т работающими. ѕри должной сноровке из них  можно создать по-насто€щему ценную технику." />
+		value="Sometimes miners manage to dig up entire aggregates that look like they could be operational. With proper skill, they can be used to create truly valuable machinery." />
 
 	<string
 		id="tobacco_diz"
-		value="Ќеизвестно, что делали в прошлом при помощи этих вонючих палочек, но сегодн€ они активно используютс€ в качестве ингредиента дл€ снадобий." />
+		value="It is unknown what was done in the past with these smelly sticks, but today they are actively used as an ingredient for remedies." />
 
 	<string
 		id="book_diz"
-		value="—тарые книги. —егодн€ немногие умеют читать, но те, кто умеет, готовы заплатить неплохие деньги за мудрость веков, сокрытую среди пожелтевших листов." />
+		value="Old books. Few people today can read, but those who can, are willing to pay good money for the wisdom of the ages hidden among the yellowing pages." />
 
 	<string
 		id="electronics_diz"
-		value="—амые продвинутые модели техники нуждаютс€ в тонкой высокотехнологичной начинке. —трашно подумать, что случитс€, когда месторождени€ электроники исс€кнут." />
+		value="The most advanced models of machines need delicate high-tech components. It's scary to think what will happen when the deposits of electronics run out." />
 
 <!-- QuestItems ___________________________________________-->
 <!-- 	<string
