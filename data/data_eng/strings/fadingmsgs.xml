@@ -138,7 +138,7 @@
 
 	<string
 		id="fm_cit_ph01_hurry"
-		value="@ffff9c00Urgent order:@ffffffff destroy the hostiles before the enemy reinforcements arrival." />
+		value="@ffff9c00Urgent order:@ffffffff destroy the hostiles before the enemy reinforcements arrive." />
 
 	<string
 		id="fm_cit_ph01_retreat"
@@ -199,11 +199,11 @@
 
 	<string
 		id="fm_cd_ph01_destroyers"
-		value="@ffff9c00Urgent order:@ffffffff destroy the enemy destroyers." />
+		value="@ffff9c00Urgent order:@ffffffff eliminate the enemy destroyers." />
 
 	<string
 		id="fm_cd_ph01_garrison"
-		value="@ffff9c00Urgent order:@ffffffff protect the merchant ships from the enemy coastal artillery fire. " />
+		value="@ffff9c00Urgent order:@ffffffff protect the merchant ships from the enemy coastal artillery fire." />
 
 	<string
 		id="fm_cd_ph01_helicopters"

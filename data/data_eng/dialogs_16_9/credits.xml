@@ -11,7 +11,7 @@
 	<Pages>
 		<Page
 			id="1"
-			text="Êîìïàíèÿ|«DOLBOYASCHERS TEAM»"
+			text="Developer studio|“DOLBOYASCHERS TEAM”"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -29,7 +29,7 @@
 
 		<Page
 			id="3"
-			text="ExM:Armada| "
+			text="ExM:Armada"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -38,7 +38,7 @@
 
 		<Page
 			id="4"
-			text="ExM:Armada|a.k.a. «a chto esli korabli dobavit'?)»"
+			text="ExM:Armada|a.k.a. “that mod about ships”"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -47,7 +47,7 @@
 
 		<Page
 			id="5"
-			text="Ó÷àñòèå â ðàçðàáîòêå"
+			text="Contributors"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -55,26 +55,17 @@
 			fontSize="30" />
 
 		<Page
-			id="6"
-			text="Ãëàâíûé äåãåíåðàò||Àëåêñåé «__nEmPoBu4__» Ñêóôîâ"
-			modelName="r3_man"
-			modelSkin="1"
-			modelCfg="1531"
-			showTime="0.2"
-			fontSize="22" />
-
-		<Page
 			id="7"
-			text="Ãëàâíûé äåãåíåðàò||Àëåêñåé «__nEmPoBu4__» Ñìèðíîâ"
+			text="CEO of moronic||Alexey “__nEmPoBu4__” Smirnov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
-			showTime="5"
+			showTime="5.7"
 			fontSize="22" />
 
 		<Page
 			id="8"
-			text="Òåõïîääåðæêà, êîíòðîëü êà÷åñòâà||Èâàí «ICAS-14» ×åðåïàíîâ"
+			text="Technical support, QA||Ivan “ICAS-14” Cherepanov"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="168"
@@ -83,7 +74,7 @@
 
 		<Page
 			id="9"
-			text="Ïðàâêè äâèæêà||Àëåêñàíäð «Seel» Ïàðôåíåíêîâ"
+			text="Binary edits, commod adaptation||Aleksandr “Seel” Parfenenkov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -92,7 +83,7 @@
 
 		<Page
 			id="10"
-			text="Êîíòðîëü êà÷åñòâà||Äìèòðèé «Gnome627» Ñàùåíêî"
+			text="QA||Dmitry “Gnome627” Saschenko"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -101,7 +92,7 @@
 
 		<Page
 			id="11"
-			text="Êîíòðîëü êà÷åñòâà||Íèêèòà «Traygen»"
+			text="QA||Nikita “Traygen”"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="92"
@@ -110,14 +101,14 @@
 
 		<Page
 			id="12"
-			text="Îáñòàêëû, âíåøíèå ïóòè äëÿ êîðàáëåé, êîíòðîëü êà÷åñòâà||Àíäðåé «Linkor» Êðûëîâ"
+			text="Obstacle boxes, ships' external paths, QA||Adnrey “Linkor” Krylov"
 			modelName="mask_axel"
 			showTime="5"
 			fontSize="22" />
 
 		<Page
 			id="13"
-			text="Â ìîäå èñïîëüçîâàíà ìóçûêà îò:||MoozE|Simon Viklund|Apachan|Keosz|Àíòîí Ïîïîâ"
+			text="Mod uses music by following composers:||MoozE|Simon Viklund|Apachan|Keosz|Anton Popov"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -162,7 +153,7 @@
 
 		<Page
 			id="17"
-			text="Àíòîí Ïîïîâ||Àðæàí (driving5)|Ëèáðèóì (driving6)"
+			text="Anton Popov||Arjen (driving5)|Librium (driving6)"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -171,7 +162,7 @@
 
 		<Page
 			id="18"
-			text="Îòäåëüíàÿ áëàãîäàðíîñòü:||EM2ch|DeusExMachina|ExMachina2|Ïàâëèê RPG"
+			text="Special thanks:||EM2ch|DeusExMachina|ExMachina2|Pavlik RPG"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -189,7 +180,7 @@
 
 		<Page
 			id="19"
-			text="Êîìïàíèÿ|«Targem Games»"
+			text="Developer studio|“Targem Games”"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -198,7 +189,7 @@
 
 		<Page
 			id="20"
-			text="Ïðîäþñåð||Ñòàíèñëàâ «scorp» Ñêîðá"
+			text="Internal producer||Stanislav “scorp” Skorb"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="294"
@@ -207,7 +198,7 @@
 
 		<Page
 			id="21"
-			text="Òåõíè÷åñêèé äèðåêòîð ïðîåêòà||Àëåêñåé Ñêðÿáèí"
+			text="Technical director||Alexey Skriabin"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="182"
@@ -216,7 +207,7 @@
 
 		<Page
 			id="22"
-			text="Ìåíåäæåð ïðîåêòà||Åâãåíèé «Hrrr» Õðóíîâ"
+			text="Project manager||Evgeniy “Hrrr” Khrunov"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="368"
@@ -225,7 +216,7 @@
 
 		<Page
 			id="23"
-			text="Ñöåíàðèé||Àëåêñåé «Alex TG» ×åñòíûõ"
+			text="Writer||Alexey “Alex TG” Tchestnikh"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
@@ -234,7 +225,7 @@
 
 		<Page
 			id="24"
-			text="Âåäóùèé ïðîãðàììèñò ïðîåêòà||Àíòîí «anger» Ñàâèí"
+			text="Lead programmer||Anton “anger” Savin"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="20"
@@ -243,7 +234,7 @@
 
 		<Page
 			id="25"
-			text="Ãëàâíûé äèçàéíåð ïðîåêòà||Àëåêñåé «Alex TG» ×åñòíûõ"
+			text="Lead designer||Alexey “Alex TG” Tchestnikh"
 			modelName="r2_man"
 			modelSkin="0"
 			modelCfg="87"
@@ -252,7 +243,7 @@
 
 		<Page
 			id="26"
-			text="Âåäóùèé õóäîæíèê ïðîåêòà||Àëåêñàíäð «Alex ML» Ìàðãóøèí"
+			text="Lead artist||Alexander “Alex ML” Magrushin"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="8"
@@ -261,7 +252,7 @@
 
 		<Page
 			id="27"
-			text="Äèçàéí èãðû||Äåíèñ «mif2000» Ãàëàíèí|Ñåðãåé «JSinx» Óäþðìèíñêèé|Àëåêñåé «Razaz» Àíóôðèåâ|Ñòàíèñëàâ «scorp» Ñêîðá|Áîðèñ «borg» Ñìèðíîâ"
+			text="Designers||Denis “mif2000” Galanin|Sergey “JSinx” Udurminskiy|Alexey “Razaz” Anufriev|Stanislav “scorp” Skorb|Boris “borg” Smirnov"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -270,7 +261,7 @@
 
 		<Page
 			id="28"
-			text="Ïðîãðàììèðîâàíèå||Åëåíà «SoftKitty» Åâäîêèìîâà|Èâàí «Vano» Âëàñîâ|Èëüÿ «phosgen» Ðóçàêîâ|Ìàêñèì «Shadow» Ñàðìàíîâ|Ñåðãåé «Ice Cat» Êëþ÷êîâñêèé|Èãîðü «Goryh» Äåãòÿðåâ"
+			text="Programmers||Elena “SoftKitty” Evdokimova|Ivan “Vano” Vlasov|Ilya “phosgen” Ruzakov|Maxim “Shadow” Sarmanov|Sergey “Ice Cat” Kluchkovsky|Igor “Goryh” Dyagterev"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="140"
@@ -279,7 +270,7 @@
 
 		<Page
 			id="29"
-			text="Ãðàôèêà|Àëåêñàíäð «Alex ML» Ìàðãóøèí|Èâàí Ñíèãèðåâ|Åâãåíèé «Dzhin» Ãîëüöîâ|Âëàäèìèð «Price» Ñåëåçíåâ|Ñòàíèñëàâ «Staz» ×åðâà"
+			text="Artists||Ivan Snigirev|Evgeny “Dzhin” Goltsov|Vladimir “Price” Seleznev|Stanislav “Staz” Cherva"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
@@ -288,7 +279,7 @@
 
 		<Page
 			id="30"
-			text="Ãðàôèêà||Ðóñòàì «Rychi» Òóðåé|Åâãåíèé Òîêàðåâ|Ñåðãåé «Sega» Ìèòðÿåâ|Âèêòîð «isymbosi» Êîðüÿêèí|Ðîìàí Ëàòûíîâ"
+			text="Artists||Rustam “Rychi” Turey|Evgeny  Tokarev|Sergey “Sega” Mitryaev|Viktor “isymbosi” Koryakin|Roman Latynov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1529"
@@ -297,7 +288,7 @@
 
 		<Page
 			id="31"
-			text="Äèçàéí ìèññèé||Äåíèñ «mif2000» Ãàëàíèí|Ñåðãåé «JSinx» Óäþðìèíñêèé|Àðòåì «solo» Ñîëîâüåâ|Êîíäðàòüåâ «HiKiller» Äàíèèë|Ñòàíèñëàâ «Staz» ×åðâà"
+			text="Level designers||Denis “mif2000” Galanin|Sergey “JSinx” Udurminskiy|Artem “solo” Solovev|Daniil “HiKiller” Kondratiev|Stanislav “Staz” Cherva"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -306,7 +297,7 @@
 
 		<Page
 			id="32"
-			text="Ðàçðàáîòêà èíòåðôåéñîâ||Ìèõàèë «Rai» Ìàòâèåíêî||Ñïåöýôôåêòû||Àëåêñåé «Hal» Ëîáàíîâ"
+			text="Interface designer||Mikhail “Rai” Matvienko||FX||Alexey “Hal” Lobanov"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="104"
@@ -315,7 +306,7 @@
 
 		<Page
 			id="33"
-			text="Ìóçûêà/çâóêè||Àíòîí Ïîïîâ|Åêàòåðèíà Øâåììåð"
+			text="Sound director||Anton Popov|Ekaterina Shvemmer"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="330"
@@ -324,7 +315,7 @@
 
 		<Page
 			id="34"
-			text="Òåñòèðîâàíèå||Âÿ÷åñëàâ «ls» Àâäååâ"
+			text="Quality assurance||Vyacheslav “ls” Avdeev"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="84"
@@ -333,7 +324,7 @@
 
 		<Page
 			id="35"
-			text="PR-ìåíåäæåð||Ñâåòëàíà|«Ñrystal» ×åñòíûõ"
+			text="PR-manager||Svetlana “Ñrystal” Tchestnikh"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="20"
@@ -342,7 +333,7 @@
 
 		<Page
 			id="36"
-			text="Â èãðå èñïîëüçîâàëèñü êîìïîçèöèè ïîáåäèòåëåé ìóçûêàëüíîãî êîíêóðñà:||Àëåêñàíäð ×åêñòåð|Áîðèñ Âåäåíñêèé è Àëåêñàíäð Òðåãåð|Ìèõàèë Ñèäîðîâ|Àëåêñàíäð Ëèñåíêîâ|Paralaxeen|Èãîðü Áåëîóñîâ"
+			text="The soundtrack includes tracks of the music contest winners:||Alexander Chekster|Boris Vedensky and Alexander Treger|Mikhail Sidorov|Alexander Lisenkov|Paralaxeen|Igor Belousov"
 			modelName="r2_man"
 			modelSkin="1"
 			modelCfg="132"
@@ -351,7 +342,7 @@
 
 		<Page
 			id="37"
-			text="ÒÀÊ ÆÅ ÏÐÈÍÈÌÀËÈ Ó×ÀÑÒÈÅ ÍÀ ÐÀÇÍÛÕ ÝÒÀÏÀÕ||Êîíñòàíòèí Ñîõàðåâ - ïðîãðàììèðîâàíèå|Ñâÿòîñëàâ Ïàòàøíèêîâ - ðóêîâîäñòâî|Àëåêñåé Àíäðóùåíêî-Âåá-äèçàéí"
+			text="Special thanks to:||Constantine Sokharev - programming|Svyatoslav Patashnikov - management|Alexey Andruschenko – web design"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="24"
@@ -369,7 +360,7 @@
 
 		<Page
 			id="69"
-			text="Êîìàíäà ðàçðàáîòêè"
+			text="Development team"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -378,7 +369,7 @@
 		
 			<Page
 			id="70"
-			text="Àëåêñàíäð «Seel» Ïàðôåíåíêîâ|Àëåêñàíäð «ThePlain» Ôàòååâ|Àëåêñåé «__nEmPoBu4__» Ñìèðíîâ|Àííà Æóêîâà|Àíòîí Ïîïîâ|Âëàäèñëàâ «OverLine» Êóðî÷êèí|Äìèòðèé «Ãíîì» Ñàùåíêî|Èâàí «ICAS-14» ×åðåïàíîâ|Ëåîíèä «KoYoT» Êî÷åòîâ|Ìàêñèì «Spok» Áåðäíèêîâ|Ìàðê «Apocalypse007» Ìàëûãèí|Íèê «EL_BIBIKA» Êîíîíåíêî|Ïàâåë «pavlikrpg» Èâàíîâ|Ñåðàôèì «Varisane» Øàãèí"
+			text="Aleksandr “Seel” Parfenenkov|Aleksandr “ThePlain” Fateev|Alexei “__nEmPoBu4__” Smirnov|Anna Zhukova|Anton Popov|Vladislav “OverLine” Kurochkin|Dmitry “Gnome” Saschenko|Ivan “ICAS-14” Cherepanov|Leonid “KoYoT” Kochetov|Maxim “Spok” Berdnikov|Mark “Apocalypse007” Malygin|Nick “BIBIKUZ” Kononenko|Pavel “pavlikrpg” Ivanov|Serafim “Varisane” Shagin"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -387,7 +378,7 @@
 
 		<Page
 			id="71"
-			text="Àëåêñàíäð «Seel» Ïàðôåíåíêîâ||ìåíåäæåð ïðîåêòà, èíñòðóìåíòàðèé, äèçàéí"
+			text="Aleksandr “Seel” Parfenenkov||project manager, tools, design"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -396,7 +387,7 @@
 		
 		<Page
 			id="72"
-			text="Àëåêñàíäð «ThePlain» Ôàòååâ||èíñòðóìåíòàðèé, ãðàôèêà,|3D ìîäåëèðîâàíèå"
+			text="Aleksandr “ThePlain” Fateev||tools, graphics,|3D modeling"
 			modelName="mask_oracul"
 			modelSkin="0"
 			modelCfg="0"
@@ -405,7 +396,7 @@
 		
 		<Page
 			id="73"
-			text="Àëåêñåé «__nEmPoBu4__» Ñìèðíîâ||3D ìîäåëèðîâàíèå, ñêðèïòû, êâåñòû"
+			text="Alexei “__nEmPoBu4__” Smirnov||3D modeling, scripting, quests"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
@@ -414,7 +405,7 @@
 		
 		<Page
 			id="74"
-			text="Àííà Æóêîâà||ãðàôè÷åñêèé äèçàéí"
+			text="Anna Zhukova||graphic design"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="104"
@@ -423,7 +414,7 @@
 		
 		<Page
 			id="75"
-			text="Àíòîí Ïîïîâ||ìóçûêà"
+			text="Anton Popov||music"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="381"
@@ -432,7 +423,7 @@
 		
 		<Page
 			id="76"
-			text="Âëàäèñëàâ «OverLine» Êóðî÷êèí||êîíòåíò-äèçàéí, êàðòîñòðîåíèå"
+			text="Vladislav “OverLine” Kurochkin||content design, level design"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="765"
@@ -441,7 +432,7 @@
 		
 		<Page
 			id="77"
-			text="Äìèòðèé «Ãíîì» Ñàùåíêî||ñêðèïòû, êâåñòû,|3D ìîäåëèðîâàíèå"
+			text="Dmitry “Gnome” Saschenko||scripting, quests,|3D modeling"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -450,7 +441,7 @@
 		
 		<Page
 			id="78"
-			text="Èâàí «ICAS-14» ×åðåïàíîâ||3D ìîäåëèðîâàíèå"
+			text="Ivan “ICAS-14” Cherepanov||3D modeling"
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="168"
@@ -459,7 +450,7 @@
 		
 		<Page
 			id="79"
-			text="Ëåîíèä «KoYoT» Êî÷åòîâ||èñïðàâëåíèå îøèáîê"
+			text="Leonid “KoYoT” Kochetov||bugfixes"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="91"
@@ -468,7 +459,7 @@
 		
 		<Page
 			id="80"
-			text="Ìàêñèì «Spok» Áåðäíèêîâ||3D ìîäåëèðîâàíèå"
+			text="Maxim “Spok” Berdnikov||3D modeling"
 			modelName="r1_man"
 			modelSkin="0"
 			modelCfg="14"
@@ -477,7 +468,7 @@
 		
 		<Page
 			id="81"
-			text="Ìàðê «Apocalypse007» Ìàëûãèí||òåêñòîâûå ïðàâêè"
+			text="Mark “Apocalypse007” Malygin||text proofreading"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="2169"
@@ -486,7 +477,7 @@
 		
 		<Page
 			id="82"
-			text="Íèê «EL_BIBIKA» Êîíîíåíêî||3D ìîäåëèðîâàíèå"
+			text="Nick “BIBIKUZ” Kononenko||3D modeling"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="4"
@@ -495,7 +486,7 @@
 		
 		<Page
 			id="83"
-			text="Ïàâåë «pavlikrpg» Èâàíîâ||ñêðèïòû, êâåñòû"
+			text="Pavel “pavlikrpg” Ivanov||scripting, quests"
 			modelName="r2_woman"
 			modelSkin="1"
 			modelCfg="91"
@@ -504,7 +495,7 @@
 		
 		<Page
 			id="84"
-			text="Ñåðàôèì «Varisane» Øàãèí||êîíòåíò-äèçàéí"
+			text="Serafim “Varisane” Shagin||content design"
 			modelName="r4_man"
 			modelSkin="2"
 			modelCfg="85"
@@ -513,7 +504,7 @@
 		
 		<Page
 			id="85"
-			text="Ýêñïåðòíûé ñîâåò"
+			text="Expert’s council"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -522,7 +513,7 @@
 		
 		<Page
 			id="86"
-			text="Buba|Oracle|Rusya_27|Traygen|Ëåîíèä «KoYoT» Êî÷åòîâ|Ñåìèìàõîâ"
+			text="Buba|Oracle|Rusya_27|Traygen|Leonid “KoYoT” Kochetov|Semimahov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="379"
@@ -531,7 +522,7 @@
 		
 		<Page
 			id="87"
-			text="Òåñòèðîâàíèå"
+			text="Testing"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
@@ -540,7 +531,7 @@
 		
 		<Page
 			id="88"
-			text="Suslo Red|Èâàí «MrKarfen» Àòàìàíîâ|Ñåì¸í «Omezera» Îçåðèöêèé|Pushistik_7977|Anarxolis|ScorpyX|Àëåêñàíäð192|Terorchat"
+			text="Suslo Red|Ivan “MrKarfen” Atamanov|Semen “Omezera” Ozeritsky|Pushistik_7977|Anarxolis|ScorpyX|Alexander192|Terorchat"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="635"
@@ -549,7 +540,7 @@
 		
 		<Page
 			id="89"
-			text="Îòäåëüíîå ñïàñèáî:||Ñîîáùåñòâó Deus Ex Machina|discord.gg/qKK2Efx||Ñîîáùåñòâó EM2ch|vk.com/em2ch||Ïàáëèêó Ex Machina Âêîíòàêòå|vk.com/exmachina2"
+			text="Special thanks to:||Deus Ex Machina community|discord.gg/qKK2Efx||EM2ch community|vk.com/em2ch||Ex Machina VK public page|vk.com/exmachina2"
 			modelName="r1_man"
 			modelSkin="2"
 			modelCfg="92"
@@ -558,7 +549,7 @@
 
 		<Page
 			id="90"
-			text="À òàêæå:||Çðèòåëÿì êàíàëà «Ïàâëèê RPG»||Íàøèì æ¸íàì, äåâóøêàì, ðîäñòâåííèêàì è êîøêàì, êîòîðûå òåðïåëè íàñ âî âðåìÿ ðàçðàáîòêè||Âñåì òåì, êòî æäàë è ïîääåðæèâàë ýòîò ïðîåêò"
+			text="As well as:||“Ïàâëèê RPG”’s channel viewers||Our wifes, girlfriends, husbands, relatives and cats, who tolerated us during the development||To all of those who waited for and supported this project"
 			modelName="r1_man"
 			modelSkin="1"
 			modelCfg="102"

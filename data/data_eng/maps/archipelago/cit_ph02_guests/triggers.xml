@@ -24,13 +24,13 @@
 			friendly[1] = {"CITOldCruiser01_vehicle_0", "CITOldCruiserAegean", "CITPH02_OCruiserCIT01", 2000, 2000, 10967, 20, "“Elbereth” (“Egale”-class)"}
 			friendly[2] = {"CITDestroyer01_vehicle_0", "CITDestroyerAegean", "CITPH02_DestroyerCIT01", 1200, 1200, 9680, 30, "“Gevaudan” (“Lyon”-class)"}
 			friendly[3] = {"CITDestroyer01_vehicle_1", "CITDestroyerAegean", "CITPH02_DestroyerCIT02", 1200, 1200, 6868, 26, "“Rouen” (“Lyon”-class)"}
-			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Falcon” (“Condor” helicopters flight)"}
+			friendly[4] = {"CITHelicopter01_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Falcon” (flight of “Condor” helicopters)"}
 			friendly[5] = {"CITHelicopter01_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Thunder” (“Condor” helicopters flight)"}
+			friendly[6] = {"CITHelicopter02_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Thunder” (flight of “Condor” helicopters)"}
 			friendly[7] = {"CITHelicopter02_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Owl” (“Condor” helicopters flight)"}
+			friendly[8] = {"CITHelicopter03_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Owl” (flight of “Condor” helicopters)"}
 			friendly[9] = {"CITHelicopter03_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
-			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Scythian” (“Condor” helicopters flight)"}
+			friendly[10] = {"CITHelicopter04_vehicle_0", "CITHelicopterLeaderAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "call sign “Scythian” (flight of “Condor” helicopters)"}
 			friendly[11] = {"CITHelicopter04_vehicle_1", "CITHelicopterAegean", "CITPH02_HeliCIT02", 20, 500, 2864, 110, "none"}
 			--                {objName      EffHP VehHP FP Maneuv.}
 			enemy[1] = {"CDDestroyer01_vehicle_0", 1600, 1600, 6601, 22}

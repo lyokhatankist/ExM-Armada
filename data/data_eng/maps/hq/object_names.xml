@@ -16,33 +16,33 @@
 <ObjectNames>
 	<Object
 		Name="Headquarters"
-		FullName="Штаб" />
+		FullName="Headquarters" />
 
 	<Object
 		Name="Headquarters_Shop"
-		FullName="Отдел обеспечения" />
+		FullName="Procurement department" />
 
 	<Object
 		Name="Headquarters_Main"
-		FullName="Отдел планирования" />
+		FullName="Planning department" />
 
 	<Object
 		Name="CITgiver"
-		FullName="Кампания СНГ" />
+		FullName="CIT Campaign" />
 
 	<Object
 		Name="CDgiver"
-		FullName="Кампания АР" />
+		FullName="CD Campaign" />
 
 	<Object
 		Name="EPCgiver"
-		FullName="Кампания КЕП" />
+		FullName="EPC Campaign" />
 
 	<Object
 		Name="BRCRTgiver"
-		FullName="Кампания БРКРТ" />
+		FullName="BRCRT Campaign" />
 
 	<Object
 		Name="Othergiver"
-		FullName="Другие опции" />
+		FullName="Other options" />
 </ObjectNames>

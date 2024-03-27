@@ -35,7 +35,7 @@
 	<!-- on damage -->
 	<string
 		id="104"
-		value="Ships in HTA:Armada have an ability to repair themselves over time, so if you find yourself in dire straits during the encounter with an enemy, it would be best to retreat and wait for the repairs to be completed. Note, however, that the enemy can use this ability just as well."
+		value="Ships in HTA:Armada have an ability to repair themselves over time, so if you find yourself in dire straits during the encounter with an enemy, it would be best to retreat and wait for the repairs to complete. Note, however, that the enemy can use this ability just as well."
 		numButtons="1" />
 
 	<!-- on destruction of boats -->
@@ -64,7 +64,7 @@
 	<!-- on encounter with cruiser -->
 	<string
 		id="109"
-		value="Each destroyer is equipped with two torpedo launchers: one directed to the left (port side), which by default is fired by pressing the Shift key, and the other directed to the right (starboard side), which by default is fired with the Ctrl key. Sometimes the ship may be equipped with torpedo tubes directed forward and backward. They are considered as directed to the left and to the right respectively and utilize the same control keys."
+		value="Each destroyer is equipped with two torpedo launchers: one directed to the left (port side), which by default is fired by pressing the Shift key, and the other directed to the right (starboard side), which by default is fired with the Ctrl key. Sometimes the ship may be equipped with torpedo tubes that are directed forward and backward. They are considered as directed to the left and to the right respectively and utilize the same control keys."
 		numButtons="1" />
 
 	<string
@@ -90,7 +90,7 @@
 
 	<string
 		id="114"
-		value="Hostile presence near the player detected. Unable to complete the mission immediately. You will have to proceed to the retreat zone on your own."
+		value="Hostile presence near the player detected. Unable to complete the mission immediately. You will have to proceed to the retreat zone manually."
 		numButtons="1" />
 
 	<string

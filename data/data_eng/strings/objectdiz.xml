@@ -2,5 +2,5 @@
 <resource>
     <string
 		id="hq_Headquarters_diz"
-		value="Headquarters, where the player can choose missions to complete." />
+		value="Headquarters, where the player can take missions from different factions." />
 </resource>

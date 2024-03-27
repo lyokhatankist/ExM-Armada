@@ -7,7 +7,7 @@
 
 	<string
 		id="book_citph01_success_diz"
-		value="Yesterday, May 24, the Nisia defense forces launched a counter-offensive! Three weeks ago, Crimson Dawn captured Kane's Island in the central part of the archipelago, landing several armored vehicles with anti-aircraft weaponry on the island, which constrained the actions of our aviation in the region. Just five artillery boats were enough to completely eliminate the invaders, after which the attack helicopters were able to sink the enemy destroyers and patrol boats, which belatedly arrived to help their brothers who had already gone to their forefathers. There is reason to believe that this operation is just the beginning of a whole series of planned actions by the defense forces to regain control of the archipelago. Our cause is right!" />
+		value="Yesterday, May 24, the Nisia defense forces launched a counter-offensive! Three weeks ago, Crimson Dawn captured Kane's Island in the central part of the archipelago, landing several armored vehicles with anti-aircraft weaponry on the island, which constrained the actions of our aviation in the region. Just five artillery boats were enough to completely eliminate the invaders, after which the attack helicopters were able to sink the enemy destroyers and patrol boats, which belatedly arrived to help their brothers who had already gone to their forefathers. There is reason to believe that this operation is just the beginning of a whole series of planned actions by the defense forces to regain control of the archipelago. Our cause is just!" />
 
 <!-- Guests -->
 	<string
@@ -24,7 +24,7 @@
 
 	<string
 		id="book_citph02_failure_diz"
-		value="Yesterday, the Commonwealth again tried to disrupt the plans of our command to establish complete control over the archipelago. On June 4, a skirmish occurred between the naval heavy strike group of the Crimson Dawn and CIT warships. Complete superiority in firepower allowed our ships to crush the resistance and reach the island of Ellinika as planned. As a result of the skirmish, several “Lyon”-class destroyers and the enemy “Touse”-class heavy cruiser were sunk. There are no casualties on our side." />
+		value="Yesterday, the Commonwealth again tried to disrupt the plans of our command to establish complete control over the archipelago. On June 4, a skirmish occurred between the naval heavy strike group of the Crimson Dawn and CIT warships. Complete superiority in firepower allowed our ships to crush the enemy resistance and reach the island of Ellinika as planned. As a result of the skirmish, several “Lyon”-class destroyers and the enemy “Touse”-class heavy cruiser were sunk. As expected, there are no casualties on our side." />
 
 <!-- March -->
 	<string
@@ -58,7 +58,7 @@
 
 	<string
 		id="book_citph04_success_diz"
-		value="On June 16, the Commonwealth of Independent Towns once again attacked merchant ships flying the flag of Arjen in the Mediterranean Sea. Two cargo ships were heading to Arjen from Porto; both were sunk as a result of the attack. It is not known for certain what was on board the ships, but whatever it was, the cargo must have been of some value to the Crimson Dawn's war effort. In any other case, we find it rather difficult to explain the heavy security of the convoy (which consisted of two destroyers and five patrol boats), as well as the motivation of the Commonwealth command for this operation. At the time of writing, there has still been no official response from the Arjen government regarding the incident, but our agency is taking all measures to investigate the purpose of the cargo and the goals of the CIT." />
+		value="On June 16, the Commonwealth of Independent Towns once again attacked merchant ships flying the flag of Arjen in the Mediterranean Sea. Two cargo ships were heading to Arjen from Porto; both were sunk as a result of the attack. It is not known for certain what was on board the ships, but whatever it was, the cargo must have been of some value to the Crimson Dawn's war effort. In any other case, we find it rather difficult to explain the heavy security of the convoy (which consisted of two destroyers and five patrol boats), as well as the motivation of the Commonwealth's command to conduct this operation. At the time of writing, there has still been no official response from the Arjen government regarding the incident, but our agency is taking all measures to investigate the purpose of the cargo and the goals of the CIT." />
 
 	<string
 		id="book_citph04_failure"
@@ -83,7 +83,7 @@
 
 	<string
 		id="book_cdph01_victory_diz"
-		value="This night, August 27, our valiant sailors once again proved to the whole world the indestructibility of the Arjen fleet. The destroyers “Ceuta”, “Melilla” and “Abogado” were tasked with escorting merchant ships carrying valuable cargo for our eastern partners through the hostile waters of Nisia under cover of darkness. As a result of the selfless actions of our sailors, the cargo ships reached their destination safe and sound, and if that wasn't enough, the CIT forces in the region suffered significant losses. According to reports from the fleet command, the garrison of Psaradon island was completely destroyed, as well as about a dozen Commonwealth ships patrolling the archipelago. This operation has brought a truly decisive victory for our troops significantly closer, and thanks to the destruction of anti-ship artillery on one of the islands closest to the main center of CIT operations in the region, we can expect our final offensive in Nisia in the near future." />
+		value="This night, August 27, our valiant sailors once again proved to the whole world the invincibility of the Arjen fleet. The destroyers “Ceuta”, “Melilla” and “Abogado” were tasked with escorting merchant ships carrying valuable cargo for our eastern partners through the hostile waters of Nisia under cover of darkness. As a result of the selfless actions of our sailors, the cargo ships reached their destination safe and sound, and if that wasn't enough, the CIT forces in the region suffered significant losses. According to the reports from the fleet command, the garrison of Psaradon island was completely destroyed, as well as about a dozen of Commonwealth ships patrolling the archipelago. This operation has brought a truly decisive victory for our troops significantly closer, and thanks to the destruction of anti-ship artillery on one of the islands closest to the main center of CIT operations in the region, we can expect our final offensive in Nisia in the nearest future." />
 
 	<string
 		id="book_cdph01_failure"
@@ -100,7 +100,7 @@
 
 	<string
 		id="book_cdph02_success_diz"
-		value="God's punishment reached the northerners on April 29 in Chamenos, when one of the ships of the Holy Legion, “Cataluna”, under the command of Captain Malachi, appeared on the battlefield. “Cataluna” acted alone, supported by the Templars' faith in God, and defeated the enemies one by one before the arrival of their brothers. The result of this battle was the fall of the fortress on the island of Milos and, as a result, the complete victory of our righteous warriors in the region. Believe, brothers and sisters, in the future salvation that the Church of Light will give you, and pray for the soldiers who are fighting for the future of the great Arjen and at the end of our journey we shall feel the joy of a long-awaited victory. Amen." />
+		value="God's punishment reached the northerners on April 29 in Chamenos, when one of the ships of the Holy Legion, “Cataluna”, under the command of Captain Malachi, appeared on the battlefield. “Cataluna” acted alone, supported by the Templars' faith in God, and defeated the enemies one by one before the arrival of her brothers. The result of this battle was the fall of the fortress on the island of Milos and, as a result, the complete victory of our righteous warriors in the region. Believe, brothers and sisters, in the future salvation that the Church of Light will give you, and pray for the soldiers who are fighting for the future of the great Arjen and at the end of our journey we shall feel the joy of a long-awaited victory. Amen." />
 
 	<string
 		id="book_cdph02_failure"
@@ -133,5 +133,5 @@
 
 	<string
 		id="book_cdph03_failure_diz"
-		value="On January 3, Crimson Dawn forces launched an attack on Attans island's defensive fleet. The strike group included the newest missile cruiser “Argumento”, which was successfully struck by artillery fire from our ships with air support. The day that was supposed to be “Arjen’s triumph in the Atlantic Ocean” turned out to be a completely crushing defeat for CD. Praise to our armed forces! Long live the Commonwealth!" />
+		value="On January 3, Crimson Dawn forces launched an attack on Attans island's defensive fleet. The strike group included the newest missile cruiser “Argumento”, which was successfully struck by artillery fire of our ships as well as the attack helicopters that came to aid our defenders. The day that was supposed to be “Arjen’s triumph in the Atlantic Ocean” turned out to be a completely crushing defeat for the Crimson Dawn. Praise to our armed forces! Long live the Commonwealth!" />
 </resource>

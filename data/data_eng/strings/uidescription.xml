@@ -76,11 +76,11 @@
 <!-- Vehicles -->
 	<string
 		id="HeliCITForEncyclopaedia_diz"
-		value="Attack helicopter of the Commonwealth of Independent Towns.| |Primary armament: four S-13 rocket launchers, 12.7-mm “Corde-A” heavy machine gun.|Secondary armament: two “Charybdis” anti-ship missile launchers." />
+		value="Attack helicopter of the Commonwealth of Independent Towns - “Condor”.| |Primary armament: four S-13 rocket launchers, 12.7-mm “Corde-A” heavy machine gun.|Secondary armament: two “Charybdis” anti-ship missile launchers." />
 
 	<string
 		id="HeliCDForEncyclopaedia_diz"
-		value="Attack helicopter of the Crimson Dawn.| |Primary armament: two 30-mm APChS automatic cannons.|Secondary armament: two “Naga” guided missile launchers." />
+		value="Attack helicopter of the Crimson Dawn - “Mosquito”.| |Primary armament: two 30-mm APChS automatic cannons.|Secondary armament: two “Naga” guided missile launchers." />
 
 	<string
 		id="SmlboatCITForEncyclopaedia_diz"

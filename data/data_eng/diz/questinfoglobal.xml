@@ -18,7 +18,7 @@
 	<QuestInfo
 		questName="CD_PH01_DestroyCruisers"
 		briefDiz="Garrison - Destroy enemy strike force"
-		fullDiz="A strike force consisting of several cruisers arrived to help the garrison of Psaradon island. It is necessary to protect cargo ships from artillery fire."
+		fullDiz="A strike force consisting of several cruisers arrived to help the garrison of Psaradon island. You have to protect cargo ships from artillery fire."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -38,7 +38,7 @@
 	<QuestInfo
 		questName="CD_PH01_DestroyTurrets"
 		briefDiz="Garrison - Destroy enemy fortifications"
-		fullDiz="Enemy coastal artillery guns and fortifications are located along the route of the cargo ships. They must be destroyed to secure the route for our merchant ships."
+		fullDiz="Enemy coastal artillery guns and fortifications are located along the route of the cargo ships. They must be destroyed in order to secure the route for our merchant ships."
 		isMainQuest="0">
 		<Map
 			name="cd_ph01_garrison"
@@ -89,7 +89,7 @@
 
 	<QuestInfo
 		questName="CD_PH02_DestroyTurrets"
-		briefDiz="Destroy enemy fortifications on the Milos island"
+		briefDiz="Destroy enemy fortifications on Milos island"
 		isMainQuest="1">
 		<Map
 			name="cd_ph02_fortress"
@@ -122,7 +122,7 @@
 	<QuestInfo
 		questName="CD_PH03_ProtectCruiser"
 		briefDiz="Armada - Protect “Argumento” missile cruiser"
-		fullDiz="The task of a missile cruiser is to destroy the enemy battleship. Protect it to ensure mission success."
+		fullDiz="The purpose of the missile cruiser is to destroy the enemy battleship. Protect it to ensure mission success."
 		isMainQuest="0">
 		<Map
 			name="cd_ph03_armada"
