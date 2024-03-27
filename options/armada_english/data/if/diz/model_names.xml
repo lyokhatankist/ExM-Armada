@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
+<ModelNames>
+<!-- 	<Item
+		id="cooling_system_guns"
+		locForm="0"
+		value="Водяная система охлаждения  для огнестрельного оружия" />
+
+	<Item
+		id="cooling_system_energy"
+		locForm="0"
+		value="Водяная система охлаждения для энергетического оружия" />
+
+	<Item
+		id="cooling_system_explosion"
+		locForm="0"
+		value="Водяная система охлаждения для артиллерии" />
+
+	<Item
+		id="firing_rate_guns"
+		locForm="0"
+		value="Оптимизированный механический спуск" />
+
+	<Item
+		id="firing_range_guns"
+		locForm="0"
+		value="Магнитный ускоритель" />
+
+	<Item
+		id="firing_rate_energy"
+		locForm="0"
+		value="Кабель низкого сопротивления" />
+
+	<Item
+		id="add_damage_guns"
+		locForm="0"
+		value="Полусвободный затвор" />
+
+	<Item
+		id="add_damage_energy"
+		locForm="0"
+		value="Зеркально-серебренный световой резонатор" />
+
+	<Item
+		id="add_damage_explosion"
+		locForm="0"
+		value="Магнитная катапульта" />
+
+	<Item
+		id="grouping_angle_guns"
+		locForm="0"
+		value="Оптический прицел" />
+
+	<Item
+		id="cooling_system_guns2"
+		locForm="0"
+		value="Воздушная система охлаждения пулемета" />
+
+	<Item
+		id="cooling_system_energy2"
+		locForm="0"
+		value="Воздушная система охлаждения лазера" />
+
+	<Item
+		id="cooling_system_explosion2"
+		locForm="0"
+		value="Воздушная система охлаждения артиллерии" />
+
+	<Item
+		id="firing_rate_guns2"
+		locForm="0"
+		value="Электроспуск" />
+
+	<Item
+		id="firing_rate_energy2"
+		locForm="0"
+		value="Сверхпроводящий кабель" />
+
+	<Item
+		id="grouping_angle_guns2"
+		locForm="0"
+		value="Оптический прицел с просветленной оптикой и антибликовой защитой." />
+
+	<Item
+		id="add_damage_guns2"
+		locForm="0"
+		value="Свободный затвор с плавающей муфтой" />
+
+	<Item
+		id="add_damage_energy2"
+		locForm="0"
+		value="Кварцевый резонатор" />
+
+	<Item
+		id="add_damage_explosion2"
+		locForm="0"
+		value="Магнитная катапульта на базе генератора вихревых полей" />
+
+	<Item
+		id="cooling_system_guns_and_firing_rate_guns"
+		locForm="0"
+		value="Система &quot;Гномон&quot;" />
+
+	<Item
+		id="cooling_system_energy_and_firing_rate_energy"
+		locForm="0"
+		value="Комплекс &quot;Алгор&quot;" />
+
+	<Item
+		id="cooling_system_explosion_and_firing_rate_explosion"
+		locForm="0"
+		value="Система &quot;Самум&quot;" />
+
+	<Item
+		id="firing_rate_guns_and_add_damage_guns"
+		locForm="0"
+		value="Электромеханический комплекс &quot;Сфено&quot;  " />
+
+	<Item
+		id="firing_rate_energy_and_add_damage_energy"
+		locForm="0"
+		value="Магнитно-оптическая система &quot;Квазар&quot;" />
+
+	<Item
+		id="firing_rate_explosion_and_add_damage_explosion"
+		locForm="0"
+		value="Электромеханический комплекс &quot;Огненный шторм&quot;." />
+
+	<Item
+		id="add_damage_guns_and_grouping_angle_guns"
+		locForm="0"
+		value="Комплекс &quot;FireEye&quot;" />
+
+	<Item
+		id="add_damage_energy_and_firing_rate_energy"
+		locForm="0"
+		value="Система &quot;Doom-4&quot;" />
+
+	<Item
+		id="add_damage_explosion_firing_rate_explosion"
+		locForm="0"
+		value="Электромеханический комплекс &quot;Давид&quot;" />
+
+	<Item
+		id="additional_fuel_tank"
+		locForm="0"
+		value="Обычная канистра." />
+
+	<Item
+		id="additional_torque"
+		locForm="0"
+		value="Дополнительная выхлопная труба." />
+
+	<Item
+		id="additional_durability"
+		locForm="0"
+		value="Катанные броневые листы на корпус кабины" />
+
+	<Item
+		id="additional_stability"
+		locForm="0"
+		value="Гидроусилитель руля" />
+
+	<Item
+		id="additional_fuel_tank2"
+		locForm="0"
+		value="Большая канистра" />
+
+	<Item
+		id="additional_torque2"
+		locForm="0"
+		value="Турбонаддув" />
+
+	<Item
+		id="additional_durability2"
+		locForm="0"
+		value="Катанные броневые листы с дополнительным цементированием" />
+
+	<Item
+		id="add_speed_and_torque"
+		locForm="0"
+		value="Электронная инжекторная система" />
+
+	<Item
+		id="add_stability_and_speed"
+		locForm="0"
+		value="Система &quot;Sagitta&quot;  " />
+
+	<Item
+		id="add_torque_and_stability"
+		locForm="0"
+		value="Система &quot;Альбатрос&quot;" />
+
+	<Item
+		id="additional_fuel_tank2_add_damage_guns"
+		locForm="0"
+		value="Система &quot;Сато&quot;" /> -->
+
+	<Item
+		id="boss01"
+		locForm="0"
+		value="Claw" />
+
+	<Item
+		id="boss02"
+		locForm="0"
+		value="Loader" />
+
+	<Item
+		id="boss03"
+		locForm="0"
+		value="Oracle" />
+
+	<Item
+		id="boss04"
+		locForm="0"
+		value="Njeri base" />
+
+	<Item
+		id="boss04drone"
+		locForm="0"
+		value="Drone" />
+
+<!-- 	<Item
+		id="quest_start_father_letter"
+		locForm="0"
+		value="Письмо" />
+
+	<Item
+		id="quest_potato"
+		locForm="0"
+		value="Пакет" />
+
+	<Item
+		id="quest_medicine_box"
+		locForm="0"
+		value="Медикаменты" />
+
+	<Item
+		id="quest_explosive"
+		locForm="0"
+		value="Взрывчатка" />
+
+	<Item
+		id="quest_wine_barrels"
+		locForm="0"
+		value="Бочки с вином" />
+
+	<Item
+		id="quest_komp_splav"
+		locForm="0"
+		value="Редкий сплав" />
+
+	<Item
+		id="quest_shaman_head1"
+		locForm="0"
+		value="Голова сектанта" />
+
+	<Item
+		id="quest_shaman_head2"
+		locForm="0"
+		value="Голова язычника" />
+
+	<Item
+		id="quest_old_digital"
+		locForm="0"
+		value="Старый двигатель" />
+
+	<Item
+		id="quest_art_masterpice"
+		locForm="0"
+		value="Произведение искусства" />
+
+	<Item
+		id="quest_mafia_narcotik"
+		locForm="0"
+		value="Наркотики" />
+
+	<Item
+		id="quest_first_canistra"
+		locForm="0"
+		value="Канистра нефти" />
+
+	<Item
+		id="quest_disk_1"
+		locForm="0"
+		value="Диск" />
+
+	<Item
+		id="quest_disk_2"
+		locForm="0"
+		value="Второй диск" />
+
+	<Item
+		id="quest_key_for_submarine"
+		locForm="0"
+		value="Ключ от морских врат" />
+
+	<Item
+		id="quest_key_for_tunnel"
+		locForm="0"
+		value="Ключ к тоннелю" />
+
+	<Item
+		id="quest_repair_robot3"
+		locForm="0"
+		value="Робот-настройщик" />
+
+	<Item
+		id="quest_repair_robot1"
+		locForm="0"
+		value="Робот-помощник" />
+
+	<Item
+		id="quest_repair_robot2"
+		locForm="0"
+		value="Робот-ремонтник" />
+
+	<Item
+		id="quest_explosion_stone"
+		locForm="0"
+		value="Камень с рунами" />
+
+	<Item
+		id="quest_magic_thing2"
+		locForm="0"
+		value="Сломанный прибор" />
+
+	<Item
+		id="quest_magic_thing1"
+		locForm="0"
+		value="Старинный артефакт" />
+
+	<Item
+		id="quest_monster_head"
+		locForm="0"
+		value="Голова монстра" />
+
+	<Item
+		id="someTurboAccelerationPusher"
+		locForm="0"
+		value="Турбо-ускорение" />
+
+	<Item
+		id="engineOilPusher"
+		locForm="0"
+		value="Машинное масло" />
+
+	<Item
+		id="nailsPusher"
+		locForm="0"
+		value="Шип" />
+
+	<Item
+		id="minePusher"
+		locForm="0"
+		value="Еж-1" />
+
+	<Item
+		id="cyclops01"
+		locForm="0"
+		value="Циклоп" />
+
+	<Item
+		id="big_swingfire01"
+		locForm="0"
+		value="Свингфайр" />
+
+	<Item
+		id="rocketLauncher"
+		locForm="0"
+		value="Дракон" />
+
+	<Item
+		id="storm01"
+		locForm="0"
+		value="Шторм" />
+
+	<Item
+		id="tank01"
+		locForm="0"
+		value="Танк" />
+
+	<Item
+		id="hornet01"
+		locForm="0"
+		value="Шершень" />
+
+	<Item
+		id="specter01"
+		locForm="0"
+		value="Спектр" />
+
+	<Item
+		id="pkt01"
+		locForm="0"
+		value="ПКТ" />
+
+	<Item
+		id="kord01"
+		locForm="0"
+		value="Корд" />
+
+	<Item
+		id="vector01"
+		locForm="0"
+		value="Вектор" />
+
+	<Item
+		id="vulcan01"
+		locForm="0"
+		value="Вулкан" />
+
+	<Item
+		id="maxim01"
+		locForm="0"
+		value="Максим" />
+
+	<Item
+		id="rapier01"
+		locForm="1"
+		value="Рапира" />
+
+	<Item
+		id="fagot01"
+		locForm="0"
+		value="Фагот" />
+
+	<Item
+		id="kpvt01"
+		locForm="0"
+		value="КПВТ" />
+
+	<Item
+		id="rainmetal01"
+		locForm="0"
+		value="Рейнметалл" />
+
+	<Item
+		id="octopus01"
+		locForm="0"
+		value="Спрут" />
+
+	<Item
+		id="elephant01"
+		locForm="0"
+		value="Слон" />
+
+	<Item
+		id="flag01"
+		locForm="0"
+		value="Флаг" />
+
+	<Item
+		id="hurricane01"
+		locForm="0"
+		value="Ураган" />
+
+	<Item
+		id="hailSideGun"
+		locForm="0"
+		value="Град" />
+
+	<Item
+		id="odin01"
+		locForm="0"
+		value="Один" />
+
+	<Item
+		id="hammer01"
+		locForm="0"
+		value="Молот Тора" />
+
+	<Item
+		id="bumblebee01"
+		locForm="0"
+		value="Шмель" />
+
+	<Item
+		id="omega01"
+		locForm="1"
+		value="Омега" />
+
+	<Item
+		id="mrakSideGun"
+		locForm="0"
+		value="Мрак" />
+
+	<Item
+		id="hunterSideGun"
+		locForm="0"
+		value="Охотник" />
+
+	<Item
+		id="zeusSideGun"
+		locForm="0"
+		value="Зевс" />
+
+	<Item
+		id="marsSideGun"
+		locForm="0"
+		value="Марс" />
+
+	<Item
+		id="minePusher_1"
+		locForm="0"
+		value="Еж-2" />
+
+	<Item
+		id="minePusher_2"
+		locForm="0"
+		value="Вихрь" /> -->
+<!--
+	<Item
+		id="staticAutoGun01"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun02"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun03"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun04"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun05"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun06"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="staticAutoGun07"
+		locForm="0"
+		value="Баррикада" />
+
+	<Item
+		id="staticAutoGun08"
+		locForm="0"
+		value="Засада" />
+
+	<Item
+		id="sack_dot2_kord"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="brick_dot1_vulcan"
+		locForm="0"
+		value="Дот" />
+-->
+
+<!-- 	<Item
+		id="Smoke"
+		locForm="0"
+		value="Дымовая завеса" /> -->
+
+	<Item
+		id="potato"
+		locForm="0"
+		value="Potatoes" />
+
+	<Item
+		id="scrap_metal"
+		locForm="0"
+		value="Scrap metal" />
+
+	<Item
+		id="firewood"
+		locForm="0"
+		value="Wood" />
+
+	<Item
+		id="oil"
+		locForm="0"
+		value="Oil" />
+
+	<Item
+		id="bottle"
+		locForm="0"
+		value="Bottles" />
+
+	<Item
+		id="fuel"
+		locForm="0"
+		value="Fuel" />
+
+	<Item
+		id="machinery"
+		locForm="0"
+		value="Machinery" />
+
+	<Item
+		id="tobacco"
+		locForm="0"
+		value="Tobacco" />
+
+	<Item
+		id="book"
+		locForm="0"
+		value="Books" />
+
+	<Item
+		id="electronics"
+		locForm="0"
+		value="Electronics" />
+
+<!-- gadgets-->
+	<Item
+		id="torpedo_upgrade"
+		locForm="0"
+		value="Blueprint: topredo launchers upgrade" />
+
+	<Item
+		id="ddguns_upgrade"
+		locForm="0"
+		value="Blueprint: destroyers fire control upgrade" />
+
+	<Item
+		id="antiair_upgrade"
+		locForm="0"
+		value="Blueprint: anti-air guns upgrade" />
+
+	<Item
+		id="clguns_upgrade"
+		locForm="0"
+		value="Blueprint: light cruisers fire control upgrade" />
+
+	<Item
+		id="hp_upgrade"
+		locForm="0"
+		value="Blueprint: armor upgrade" />
+
+	<Item
+		id="caguns_upgrade"
+		locForm="0"
+		value="Blueprint: heavy cruisers fire control upgrade" />
+
+	<Item
+		id="fuel_upgrade"
+		locForm="0"
+		value="Blueprint: fuel system upgrade" />
+
+	<Item
+		id="bbguns_upgrade"
+		locForm="0"
+		value="Blueprint: battleships fire control upgrade" />
+
+	<Item
+		id="anti_missile_system"
+		locForm="0"
+		value="Blueprint: experimental anti-missile system" />
+
+	<Item
+		id="antiair_basic"
+		locForm="0"
+		value="Blueprint: anti-air guns modernization" />
+
+	<Item
+		id="ddguns_basic"
+		locForm="0"
+		value="Blueprint: destroyers fire control modernization" />
+
+	<Item
+		id="clguns_basic"
+		locForm="0"
+		value="Blueprint: light cruisers fire control modernization" />
+
+	<Item
+		id="caguns_basic"
+		locForm="0"
+		value="Blueprint: heavy cruisers fire control modernization" />
+
+	<Item
+		id="bbguns_basic"
+		locForm="0"
+		value="Blueprint: battleships fire control modernization" />
+
+	<Item
+		id="hp_basic"
+		locForm="0"
+		value="Blueprint: armor modernization" />
+
+	<Item
+		id="fuel_basic"
+		locForm="0"
+		value="Blueprint: fuel system modernization" />
+
+	<Item
+		id="speed_basic"
+		locForm="0"
+		value="Blueprint: generators modernization" />
+<!-- vehicles -->
+	<Item
+		id="Heli"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="HeliCITForEncyclopaedia"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="HeliCIT01"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="HeliCIT02"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="HeliCIT03"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="HeliCIT04"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="HeliCDForEncyclopaedia"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="HeliCD01"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="HeliCD02"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="HeliCD03"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="HeliCD04"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="SmlboatCIT"
+		locForm="0"
+		value="Mouette" />
+
+	<Item
+		id="SmlboatCITForEncyclopaedia"
+		locForm="0"
+		value="Mouette" />
+
+	<Item
+		id="smlboatCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="smlboatCITArmament"
+		locForm="0"
+		value="Light armament" />
+
+	<Item
+		id="smlboatCITMachinegun01"
+		locForm="0"
+		value="Corde" />
+
+	<Item
+		id="smlboatCITRocket01"
+		locForm="0"
+		value="Pique" />
+
+	<Item
+		id="SmlboatCIT01"
+		locForm="0"
+		value="Mouette" />
+
+	<Item
+		id="smlboatCITArmamentMod"
+		locForm="0"
+		value="MLRS" />
+
+	<Item
+		id="smlboatCITNurs01"
+		locForm="0"
+		value="Cordage-80" />
+
+	<Item
+		id="SmlboatCIT02"
+		locForm="0"
+		value="Mouette" />
+
+	<Item
+		id="SmlboatCD"
+		locForm="0"
+		value="Reaver" />
+
+	<Item
+		id="SmlboatCDForEncyclopaedia"
+		locForm="0"
+		value="Reaver" />
+
+	<Item
+		id="smlboatCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="smlboatCDArmament"
+		locForm="0"
+		value="Light armament" />
+
+	<Item
+		id="smlboatCDCannon01"
+		locForm="0"
+		value="Birkigt" />
+
+	<Item
+		id="smlboatCDMachinegun01"
+		locForm="0"
+		value="PKT" />
+
+	<Item
+		id="smlboatCDRocket01"
+		locForm="0"
+		value="Falange" />
+
+	<Item
+		id="smlboatCDRocket02"
+		locForm="0"
+		value="Falange-M" />
+
+	<Item
+		id="SmlboatCD01"
+		locForm="0"
+		value="Reaver" />
+
+	<Item
+		id="FastboatCIT"
+		locForm="0"
+		value="Murene" />
+
+	<Item
+		id="FastboatCITForEncyclopaedia"
+		locForm="0"
+		value="Murene" />
+
+	<Item
+		id="fastboatCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="fastboatCITArmament"
+		locForm="0"
+		value="533-mm torpedo launcher" />
+
+	<Item
+		id="FastboatCIT01"
+		locForm="0"
+		value="Murene" />
+
+	<Item
+		id="fastboatCITTorpedo01"
+		locForm="0"
+		value="533-mm STL-2" />
+
+	<Item
+		id="fastboatCITMachinegun01"
+		locForm="0"
+		value="Corde" />
+
+	<Item
+		id="DestroyerCIT"
+		locForm="0"
+		value="Lyon" />
+
+	<Item
+		id="DestroyerCITForEncyclopaedia"
+		locForm="0"
+		value="Lyon" />
+
+	<Item
+		id="destroyerCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="destroyerCITTorpedo01"
+		locForm="0"
+		value="533-mm MTL-3" />
+
+	<Item
+		id="destroyerCIT130Armament"
+		locForm="0"
+		value="130-mm guns" />
+
+	<Item
+		id="single130CIT01"
+		locForm="0"
+		value="130-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_single130CIT01"
+		locForm="0"
+		value="130-mm HE (CIT)" />
+
+	<Item
+		id="mun_single130CIT02"
+		locForm="0"
+		value="130-mm AP (CIT)" />
+
+	<Item
+		id="DestroyerCIT01"
+		locForm="0"
+		value="Lyon" />
+
+	<Item
+		id="destroyerCITEngineMod"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="destroyerCIT138Armament"
+		locForm="0"
+		value="138-mm guns" />
+
+	<Item
+		id="single138CIT01"
+		locForm="0"
+		value="138-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_single138CIT01"
+		locForm="0"
+		value="138-mm HE (CIT)" />
+
+	<Item
+		id="mun_single138CIT02"
+		locForm="0"
+		value="138-mm AP (CIT)" />
+
+	<Item
+		id="DestroyerCIT02"
+		locForm="0"
+		value="Lyon" />
+
+	<Item
+		id="destroyerCIT130ArmamentMod"
+		locForm="0"
+		value="130-mm guns" />
+
+	<Item
+		id="SemibossCIT01"
+		locForm="0"
+		value="Brest" />
+
+	<Item
+		id="DestroyerCD"
+		locForm="0"
+		value="Albedo" />
+
+	<Item
+		id="DestroyerCDForEncyclopaedia"
+		locForm="0"
+		value="Albedo" />
+
+	<Item
+		id="destroyerCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="destroyerCDTorpedo01"
+		locForm="0"
+		value="610-mm TT-5" />
+
+	<Item
+		id="dead_destroyerCDTorpedo01"
+		locForm="0"
+		value="610-mm TT-5" />
+
+	<Item
+		id="destroyerCD127Armament"
+		locForm="0"
+		value="127-mm guns" />
+
+	<Item
+		id="twin127CD01"
+		locForm="0"
+		value="127-mm gun turret (CD)" />
+
+	<Item
+		id="mun_twin127CD01"
+		locForm="0"
+		value="127-mm HE (CD)" />
+
+	<Item
+		id="mun_twin127CD02"
+		locForm="0"
+		value="127-mm AP (CD)" />
+
+	<Item
+		id="DestroyerCD01"
+		locForm="0"
+		value="Albedo" />
+
+	<Item
+		id="destroyerCD135Armament"
+		locForm="0"
+		value="135-mm guns" />
+
+	<Item
+		id="twin135CD01"
+		locForm="0"
+		value="135-mm gun turret (CD)" />
+
+	<Item
+		id="mun_twin135CD01"
+		locForm="0"
+		value="135-mm HE (CD)" />
+
+	<Item
+		id="mun_twin135CD02"
+		locForm="0"
+		value="135-mm AP (CD)" />
+
+	<Item
+		id="DestroyerCD02"
+		locForm="0"
+		value="Albedo" />
+
+	<Item
+		id="OCruiserCIT"
+		locForm="0"
+		value="Egale" />
+
+	<Item
+		id="OCruiserCITForEncyclopaedia"
+		locForm="0"
+		value="Egale" />
+
+	<Item
+		id="ocruiserCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="ocruiserCITTorpedo01"
+		locForm="0"
+		value="533-mm STL-1" />
+
+	<Item
+		id="sponson130CIT01"
+		locForm="0"
+		value="130-mm HE (CIT)" />
+
+	<Item
+		id="AADuet01"
+		locForm="0"
+		value="Duet" />
+
+	<Item
+		id="AA47mmCannon01"
+		locForm="0"
+		value="Auge" />
+
+	<Item
+		id="AA120mmSAMCIT01"
+		locForm="0"
+		value="Berger" />
+
+	<Item
+		id="AA152mmATGMCD01"
+		locForm="0"
+		value="Falange-M" />
+
+	<Item
+		id="ocruiserCIT152Armament"
+		locForm="0"
+		value="152-mm guns" />
+
+	<Item
+		id="twin152CIT01"
+		locForm="0"
+		value="152-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_twin152CIT01"
+		locForm="0"
+		value="152-mm HE (CIT)" />
+
+	<Item
+		id="mun_twin152CIT02"
+		locForm="0"
+		value="152-mm AP (CIT)" />
+
+	<Item
+		id="OCruiserCIT01"
+		locForm="0"
+		value="Egale" />
+
+	<Item
+		id="ocruiserCITEngineMod"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="ocruiserCIT155Armament"
+		locForm="0"
+		value="155-mm guns" />
+
+	<Item
+		id="triple155CIT01"
+		locForm="0"
+		value="155-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_triple155CIT01"
+		locForm="0"
+		value="155-mm HE (CIT)" />
+
+	<Item
+		id="mun_triple155CIT02"
+		locForm="0"
+		value="155-mm AP (CIT)" />
+
+	<Item
+		id="OCruiserCIT02"
+		locForm="0"
+		value="Egale" />
+		
+	<Item
+		id="triple152CIT01"
+		locForm="0"
+		value="152-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_triple152CIT01"
+		locForm="0"
+		value="152-mm HE (CIT)" />
+
+	<Item
+		id="mun_triple152CIT02"
+		locForm="0"
+		value="152-mm AP (CIT)" />
+
+	<Item
+		id="HCruiserCD"
+		locForm="0"
+		value="Furia" />
+
+	<Item
+		id="HCruiserCDForEncyclopaedia"
+		locForm="0"
+		value="Furia" />
+
+	<Item
+		id="hcruiserCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="hcruiserCDTorpedo01"
+		locForm="0"
+		value="610-mm TT-5" />
+
+	<Item
+		id="hcruiserCD203Armament"
+		locForm="0"
+		value="203-mm guns" />
+
+	<Item
+		id="twin203CD01"
+		locForm="0"
+		value="203-mm gun turret (CD)" />
+
+	<Item
+		id="mun_twin203CD01"
+		locForm="0"
+		value="203-mm HE (CD)" />
+
+	<Item
+		id="mun_twin203CD02"
+		locForm="0"
+		value="203-mm AP (CD)" />
+
+	<Item
+		id="HCruiserCD01"
+		locForm="0"
+		value="Furia" />
+
+	<Item
+		id="semibossCDRocketArmament"
+		locForm="0"
+		value="Cruise missiles" />
+
+	<Item
+		id="cruiser_rocketCD01"
+		locForm="0"
+		value="Espanto" />
+
+	<Item
+		id="cruiser_samCD01"
+		locForm="0"
+		value="Telon" />
+
+	<Item
+		id="SemibossCD01"
+		locForm="0"
+		value="Toscana" />
+
+	<Item
+		id="BattleshipCIT"
+		locForm="0"
+		value="Librium" />
+
+	<Item
+		id="BattleshipCITForEncyclopaedia"
+		locForm="0"
+		value="Librium" />
+
+	<Item
+		id="battleshipCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="AA23mmGun01"
+		locForm="0"
+		value="Octopus-SB" />
+
+	<Item
+		id="battleshipCIT406Armament"
+		locForm="0"
+		value="406-mm guns" />
+
+	<Item
+		id="triple406CIT01"
+		locForm="0"
+		value="406-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_triple406CIT01"
+		locForm="0"
+		value="406-mm HE (CIT)" />
+
+	<Item
+		id="mun_triple406CIT02"
+		locForm="0"
+		value="406-mm AP (CIT)" />
+
+	<Item
+		id="BattleshipCIT01"
+		locForm="0"
+		value="Librium" />
+
+	<Item
+		id="battleshipCIT380Armament"
+		locForm="0"
+		value="380-mm guns" />
+
+	<Item
+		id="quadruple380CIT01"
+		locForm="0"
+		value="380-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_quadruple380CIT01"
+		locForm="0"
+		value="380-mm HE (CIT)" />
+
+	<Item
+		id="mun_quadruple380CIT02"
+		locForm="0"
+		value="380-mm AP (CIT)" />
+
+	<Item
+		id="BattleshipCIT02"
+		locForm="0"
+		value="Librium" />
+
+	<Item
+		id="battleshipCIT457Armament"
+		locForm="0"
+		value="457-mm guns" />
+
+	<Item
+		id="triple457CIT01"
+		locForm="0"
+		value="457-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_triple457CIT01"
+		locForm="0"
+		value="457-mm HE (CIT)" />
+
+	<Item
+		id="mun_triple457CIT02"
+		locForm="0"
+		value="457-mm AP (CIT)" />
+
+	<Item
+		id="twin130CIT01"
+		locForm="0"
+		value="130-mm gun turret (CIT)" />
+
+	<Item
+		id="mun_twin130CIT01"
+		locForm="0"
+		value="130-mm HE (CIT)" />
+
+	<Item
+		id="mun_twin130CIT02"
+		locForm="0"
+		value="130-mm AP (CIT)" />
+
+	<Item
+		id="BossCIT01"
+		locForm="0"
+		value="Helvetia" />
+
+	<Item
+		id="BattleshipCD"
+		locForm="0"
+		value="Leviatan" />
+
+	<Item
+		id="BattleshipCDForEncyclopaedia"
+		locForm="0"
+		value="Leviatan" />
+
+	<Item
+		id="battleshipCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="battleshipCD356Armament"
+		locForm="0"
+		value="356-mm guns" />
+
+	<Item
+		id="twin356CD01"
+		locForm="0"
+		value="356-mm gun turret (CD)" />
+
+	<Item
+		id="mun_twin356CD01"
+		locForm="0"
+		value="356-mm HE (CD)" />
+
+	<Item
+		id="mun_twin356CD02"
+		locForm="0"
+		value="356-mm AP (CD)" />
+
+	<Item
+		id="mun_twin356CD03"
+		locForm="0"
+		value="356-mm AA (CD)" />
+
+	<Item
+		id="BattleshipCD01"
+		locForm="0"
+		value="Leviatan" />
+
+	<Item
+		id="battleshipCD406Armament"
+		locForm="0"
+		value="406-mm guns" />
+
+	<Item
+		id="triple406CD01"
+		locForm="0"
+		value="406-mm gun turret (CD)" />
+
+	<Item
+		id="mun_triple406CD01"
+		locForm="0"
+		value="406-mm HE (CD)" />
+
+	<Item
+		id="mun_triple406CD02"
+		locForm="0"
+		value="406-mm AP (CD)" />
+
+	<Item
+		id="BattleshipCD02"
+		locForm="0"
+		value="Leviatan" />
+
+	<Item
+		id="MerchantCD"
+		locForm="0"
+		value="Cargo ship" />
+
+	<Item
+		id="MerchantCDForEncyclopaedia"
+		locForm="0"
+		value="Cargo ship" />
+
+	<Item
+		id="merchantCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="merchantCDArmament"
+		locForm="0"
+		value="Hold" />
+
+	<Item
+		id="MerchantCD01"
+		locForm="0"
+		value="Cargo ship" />
+
+	<Item
+		id="LavCIT"
+		locForm="0"
+		value="Varan" />
+
+	<Item
+		id="lavCITEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="lavCITArmament"
+		locForm="0"
+		value="Combat compartment" />
+
+	<Item
+		id="LavCIT01"
+		locForm="0"
+		value="Varan" />
+
+	<Item
+		id="LavCIT02"
+		locForm="0"
+		value="Varan" />
+
+	<Item
+		id="lavCITMachinegun01"
+		locForm="0"
+		value="KPVT" />
+
+	<Item
+		id="LavCD"
+		locForm="0"
+		value="Escorpion" />
+
+	<Item
+		id="lavCDEngine"
+		locForm="0"
+		value="Power generator" />
+
+	<Item
+		id="lavCDArmament"
+		locForm="0"
+		value="Combat compartment" />
+
+	<Item
+		id="LavCD01"
+		locForm="0"
+		value="Escorpion" />
+
+	<Item
+		id="LavCD02"
+		locForm="0"
+		value="Escorpion" />
+
+	<Item
+		id="lavCDMachinegun01"
+		locForm="0"
+		value="PKT" />
+
+	<Item
+		id="CoastAAMed01"
+		locForm="0"
+		value="Coastal gun" />
+
+	<Item
+		id="CITCoastMed01"
+		locForm="0"
+		value="Coastal gun" />
+
+	<Item
+		id="CDCoastMed01"
+		locForm="0"
+		value="Coastal gun" />
+
+	<Item
+		id="heliFuselage01_static01"
+		locForm="0"
+		value="Condor" />
+
+	<Item
+		id="heliFuselage02_static01"
+		locForm="0"
+		value="Mosquito" />
+
+	<Item
+		id="destroyerCDEngineTest"
+		locForm="0"
+		value="N/A" />
+
+	<Item
+		id="fakeCargo"
+		locForm="0"
+		value="N/A" />
+
+	<Item
+		id="HQVehicle01"
+		locForm="0"
+		value="N/A" />
+
+<!-- Tutorial -->
+	<Item
+		id="Tutorial_Player01"
+		locForm="0"
+		value="“Casado” (“Albedo”-class)" />
+
+	<Item
+		id="Tutorial_DestroyerCD01"
+		locForm="0"
+		value="“Solido”" />
+
+	<Item
+		id="Tutorial_HCruiserCD01"
+		locForm="0"
+		value="“Valencia”" />
+
+	<Item
+		id="Tutorial_HCruiserCD02"
+		locForm="0"
+		value="“Iberica”" />
+
+	<Item
+		id="Tutorial_DestroyerCD02"
+		locForm="0"
+		value="“Malvado”" />
+
+	<Item
+		id="Tutorial_DestroyerCD03"
+		locForm="0"
+		value="“Enojado”" />
+
+	<Item
+		id="Tutorial_HCruiserCD03"
+		locForm="0"
+		value="“Valdivia”" />
+
+	<Item
+		id="Tutorial_SmlboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="Tutorial_DestroyerCIT01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="Tutorial_FastboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="Tutorial_OCruiserCIT01"
+		locForm="0"
+		value="Cruiser" />
+
+<!-- CIT PH01 Counterattack -->
+	<Item
+		id="CITPH01_Player01"
+		locForm="0"
+		value="call sign “Chaser” (“Mouette”-class)" />
+
+	<Item
+		id="CITPH01_SmlboatCIT01"
+		locForm="0"
+		value="Reef" />
+
+	<Item
+		id="CITPH01_SmlboatCIT02"
+		locForm="0"
+		value="Hammer" />
+
+	<Item
+		id="CITPH01_SmlboatCIT03"
+		locForm="0"
+		value="Wolf" />
+
+	<Item
+		id="CITPH01_SmlboatCIT04"
+		locForm="0"
+		value="Viper" />
+
+	<Item
+		id="CITPH01_SmlboatCD01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CITPH01_SmlboatCD02"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CITPH01_SmlboatCD03"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CITPH01_LavCD01"
+		locForm="0"
+		value="Scout car" />
+
+	<Item
+		id="CITPH01_DestroyerCD01"
+		locForm="0"
+		value="Destroyer" />
+
+<!-- CIT PH02 Guests -->
+	<Item
+		id="CITPH02_Player01"
+		locForm="0"
+		value="“Provence” (“Lyon”-class)" />
+
+	<Item
+		id="CITPH02_DestroyerCIT01"
+		locForm="0"
+		value="“Gevaudan”" />
+
+	<Item
+		id="CITPH02_DestroyerCIT02"
+		locForm="0"
+		value="“Rouen”" />
+
+	<Item
+		id="CITPH02_OCruiserCIT01"
+		locForm="0"
+		value="“Elbereth”" />
+
+	<Item
+		id="CITPH02_HeliCIT01"
+		locForm="0"
+		value="“Condor”" />
+
+	<Item
+		id="CITPH02_HeliCIT02"
+		locForm="0"
+		value="“Condor”" />
+
+	<Item
+		id="CITPH02_HeliCIT03"
+		locForm="0"
+		value="“Condor”" />
+
+	<Item
+		id="CITPH02_HeliCIT04"
+		locForm="0"
+		value="“Condor”" />
+
+	<Item
+		id="CITPH02_DestroyerCD01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CITPH02_HCruiserCD01"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CITPH02_BattleshipCD01"
+		locForm="0"
+		value="Battleship" />
+
+	<Item
+		id="CITPH02_BattleshipCD02"
+		locForm="0"
+		value="Battleship" />
+
+	<Item
+		id="CITPH02_HeliCD01"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CITPH02_HeliCD02"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CITPH02_HeliCD03"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CITPH02_HeliCD04"
+		locForm="0"
+		value="Helicopter" />
+
+<!-- CIT PH03 March -->
+	<Item
+		id="CITPH03_Player01"
+		locForm="0"
+		value="“Arlette” (“Egale”-class)" />
+
+	<Item
+		id="CITPH03_OCruiserCIT01"
+		locForm="0"
+		value="“Evreux”" />
+
+	<Item
+		id="CITPH03_OCruiserCIT02"
+		locForm="0"
+		value="“Etoile”" />
+
+	<Item
+		id="CITPH03_SmlboatCD01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CITPH03_DestroyerCD01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CITPH03_DestroyerCD02"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CITPH03_HCruiserCD01"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CITPH03_HCruiserCD02"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CITPH03_MerchantCD01"
+		locForm="0"
+		value="Cargo ship" />
+
+	<Item
+		id="CITPH03_LavCD01"
+		locForm="0"
+		value="Scout car" />
+
+	<Item
+		id="CITPH03_HeliCD01"
+		locForm="0"
+		value="Helicopter" />
+	
+	<Item
+		id="CITPH03_HeliCD02"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CITPH03_HeliCD03"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CITPH03_HeliCD04"
+		locForm="0"
+		value="Helicopter" />
+
+
+<!-- CIT PH04 Routine -->
+	<Item
+		id="CITPH04_Player01"
+		locForm="0"
+		value="call sign “Corsair” (“Murene”-class)" />
+
+	<Item
+		id="CITPH04_FastboatCIT01"
+		locForm="0"
+		value="Wedge" />
+
+	<Item
+		id="CITPH04_FastboatCIT02"
+		locForm="0"
+		value="Ace" />
+
+	<Item
+		id="CITPH04_FastboatCIT03"
+		locForm="0"
+		value="Specter" />
+
+	<Item
+		id="CITPH04_SmlboatCD01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CITPH04_DestroyerCD01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CITPH04_DestroyerCD02"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CITPH04_MerchantCD01"
+		locForm="0"
+		value="Cargo ship" />
+
+<!-- CD PH01 Garrison -->
+	<Item
+		id="CDPH01_Player01"
+		locForm="0"
+		value="“Abogado” (“Albedo”-class)" />
+
+	<Item
+		id="CDPH01_DestroyerCD01"
+		locForm="0"
+		value="“Ceuta”" />
+
+	<Item
+		id="CDPH01_DestroyerCD02"
+		locForm="0"
+		value="“Melilla”" />
+
+	<Item
+		id="CDPH01_MerchantCD01"
+		locForm="0"
+		value="“Agustine Brain”" />
+
+	<Item
+		id="CDPH01_MerchantCD02"
+		locForm="0"
+		value="“Juan El Huevo”" />
+
+	<Item
+		id="CDPH01_SmlboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CDPH01_FastboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CDPH01_FastboatCIT02"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CDPH01_DestroyerCIT01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CDPH01_DestroyerCIT02"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CDPH01_OCruiserCIT01"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CDPH01_OCruiserCIT02"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CDPH01_OCruiserCIT03"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CDPH01_LavCIT01"
+		locForm="0"
+		value="Scout car" />
+
+	<Item
+		id="CDPH01_HeliCIT01"
+		locForm="0"
+		value="Helicopter" />
+	
+	<Item
+		id="CDPH01_HeliCIT02"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH01_HeliCIT03"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH01_HeliCIT04"
+		locForm="0"
+		value="Helicopter" />
+
+<!-- CD PH02 Fortress -->
+	<Item
+		id="CDPH02_Player01"
+		locForm="0"
+		value="“Cataluna” (“Furia”-class)" />
+
+	<Item
+		id="CDPH02_HeliCD01"
+		locForm="0"
+		value="“Mosquito”" />
+	
+	<Item
+		id="CDPH02_HeliCD02"
+		locForm="0"
+		value="“Mosquito”" />
+
+	<Item
+		id="CDPH02_HeliCD03"
+		locForm="0"
+		value="“Mosquito”" />
+
+	<Item
+		id="CDPH02_HeliCD04"
+		locForm="0"
+		value="“Mosquito”" />
+
+	<Item
+		id="CDPH02_SmlboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CDPH02_FastboatCIT01"
+		locForm="0"
+		value="Boat" />
+
+	<Item
+		id="CDPH02_DestroyerCIT01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CDPH02_OCruiserCIT01"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CDPH02_LavCIT01"
+		locForm="0"
+		value="Scout car" />
+
+	<Item
+		id="CDPH02_HeliCIT01"
+		locForm="0"
+		value="Helicopter" />
+	
+	<Item
+		id="CDPH02_HeliCIT02"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH02_HeliCIT03"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH02_HeliCIT04"
+		locForm="0"
+		value="Helicopter" />
+
+<!-- CD PH03 Armada -->
+	<Item
+		id="CDPH03_Player01"
+		locForm="0"
+		value="“Zaragoza” (“Leviatan”-class)" />
+
+	<Item
+		id="CDPH03_RHCruiserCD01"
+		locForm="0"
+		value="“Argumento”" />
+
+	<Item
+		id="CDPH03_DestroyerCD01"
+		locForm="0"
+		value="“Aguirre”" />
+
+	<Item
+		id="CDPH03_DestroyerCD02"
+		locForm="0"
+		value="“Andorra”" />
+
+	<Item
+		id="CDPH03_DestroyerCD03"
+		locForm="0"
+		value="“Esperanza”" />
+
+	<Item
+		id="CDPH03_DestroyerCIT01"
+		locForm="0"
+		value="Destroyer" />
+
+	<Item
+		id="CDPH03_OCruiserCIT01"
+		locForm="0"
+		value="Cruiser" />
+
+	<Item
+		id="CDPH03_BattleshipCIT01"
+		locForm="0"
+		value="Battleship" />
+
+	<Item
+		id="CDPH03_HeliCIT01"
+		locForm="0"
+		value="Helicopter" />
+	
+	<Item
+		id="CDPH03_HeliCIT02"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH03_HeliCIT03"
+		locForm="0"
+		value="Helicopter" />
+
+	<Item
+		id="CDPH03_HeliCIT04"
+		locForm="0"
+		value="Helicopter" />
+</ModelNames>

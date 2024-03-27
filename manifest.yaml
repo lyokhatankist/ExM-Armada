@@ -1,0 +1,84 @@
+# unique service name
+name: armada
+language: ru
+installment: exmachina
+ 
+# required human readable info
+display_name: Armada
+release_date: "25.03.2024"
+
+version: "0.1"
+build: "240325a"
+
+description: |
+  ExM:Armada — необычный мод для Ex Machina, в котором стандартные для оригинальной игры грузовики сменились боевыми кораблями. Действия мода разворачиваются спустя 30 лет после событий оригинальной игры, а основное внимание уделено борьбе АР и СНГ за господство в океане.
+authors: DOLBOYASCHERS TEAM
+
+# optional human readable info
+logo: assets/armada_logo.png
+install_banner: assets/armada_banner.jpg
+
+link: https://vk.com/em2ch
+
+tags: [gameplay]
+
+screenshots:
+  - img: assets/screen_1.jpg
+  - img: assets/screen_2.jpg
+  - img: assets/screen_3.jpg
+  - img: assets/screen_4.jpg
+  - img: assets/screen_5.jpg
+  - img: assets/screen_6.jpg
+#    text: sample text
+# change_log: assets/change_list_ru.md # [optional] change log file with Markdown formating
+# other_info: assets/faq_ru.md # [optional] additional Markdown file, can show any other info
+
+# has no translations
+translations: [eng]
+
+# Installation configuration
+patcher_version_requirement: "2.1"
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14"
+      
+incompatible:
+  - name: community_remaster
+    versions: []
+    optional_content:
+    - english_localization
+
+patcher_options:
+  slow_brake: true
+  hq_reflections: true
+  draw_distance_limit: true
+  vanilla_fov: true
+  game_font: Tahoma
+  
+config_options:
+    ai_clash_coeff: 0.0001
+    ai_enemies_ramming_damage_coeff: 1
+    ai_min_hit_velocity: 5
+    firstLevel: tutorial
+    g_impostorThreshold: 500
+    mainMenuLevelName: data\maps\seamenu.ssl
+    mus_Volume: 30
+    snd_2dVolume: 37
+    snd_3dVolume: 22
+    
+options_base_dir: "options"
+
+# default_option: skip
+
+optional_content:
+  - name: armada_cinematic
+    display_name: Кинематографический аддон
+    default_option: skip
+    description: |
+      Делает мод более похожим на показанный в трейлере. Включает:
+      - более детализированные модели кораблей и оружия;
+      - анимированные детали кораблей и более сложные анимации вертолётов;
+      - анимированная вода (также ломает отражения на воде)
+      
+      Может негативно сказаться на стабильности мода, не рекомендуется к установке.
