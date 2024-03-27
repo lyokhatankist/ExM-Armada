@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="101"
+		value="After completing the mission, you are transferred to the headquarters. Statistics on the progress of the mission will be displayed here."
+		numButtons="1" />
+
+	<string
+		id="102"
+		value="After reading the statistics, you will be able to select a new mission at the headquarters. To open the headquarters menu, you must press the horn key (H by default)."
+		numButtons="1" />	
+
+	<string
+		id="103"
+		value="After selecting a mission, you will be given a new vehicle and access to new weapons in the warehouse. Before starting the mission, make sure that all the necessary weapons are installed on the vessel."
+		numButtons="1" />	
+
+	<string
+		id="104"
+		value="The briefing text for the selected mission is automatically recorded in the log. Once the selection of a mission has been confirmed, it cannot be canceled.||That concludes the tutorial. The statistics of your first completed mission now will be displayed."
+		numButtons="1" />	
+
+	<string
+		id="1000"
+		value="Proceed to the chosen mission?"
+		numButtons="2" />
+
+	<string
+		id="9000"
+		value="Losses of the friendly forces."
+		numButtons="1" />
+
+	<string
+		id="9001"
+		value="Enemy losses."
+		numButtons="1" />
+
+	<string
+		id="9002"
+		value="Operation results."
+		numButtons="1" />
+</resource>

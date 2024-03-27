@@ -110,7 +110,7 @@
 	<LevelInfo
 		name="cit_ph02_guests"
 		file="data\maps\cit_ph02_guests.ssl"
-		fullName="[СНГ] Незванные гости"
+		fullName="[СНГ] Незваные гости"
 		diz0=""
 		diz1=""
 		north="0 0 1"

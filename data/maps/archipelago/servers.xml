@@ -346,7 +346,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="heliArmanent" 
+			id="heliArmament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -414,7 +414,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="smlboatCITArmanent" 
+			id="smlboatCITArmament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -446,7 +446,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="smlboatCDArmanent" 
+			id="smlboatCDArmament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -486,7 +486,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="fastboatCITArmanent" 
+			id="fastboatCITArmament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -528,11 +528,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerCIT130Armanent" 
+			id="destroyerCIT130Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerCIT138Armanent" 
+			id="destroyerCIT138Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -594,11 +594,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerCD127Armanent" 
+			id="destroyerCD127Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="destroyerCD135Armanent" 
+			id="destroyerCD135Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -668,11 +668,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="ocruiserCIT152Armanent" 
+			id="ocruiserCIT152Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="ocruiserCIT155Armanent" 
+			id="ocruiserCIT155Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -744,7 +744,7 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="hcruiserCD203Armanent" 
+			id="hcruiserCD203Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -798,15 +798,15 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="battleshipCIT406Armanent" 
+			id="battleshipCIT406Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="battleshipCIT380Armanent" 
+			id="battleshipCIT380Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="battleshipCIT457Armanent" 
+			id="battleshipCIT457Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -884,11 +884,11 @@
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="battleshipCD356Armanent" 
+			id="battleshipCD356Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="battleshipCD406Armanent" 
+			id="battleshipCD406Armament" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 

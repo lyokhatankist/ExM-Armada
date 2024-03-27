@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+	<QuestInfo
+		questName="CD_PH01"
+		briefDiz="Garrison"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH01_DestroyBoats"
+		briefDiz="Garrison - Destroy enemy torpedo boats"
+		fullDiz="The convoy was attacked by torpedo boats."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="4128.000 255.000 4179.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyCruisers"
+		briefDiz="Garrison - Destroy enemy strike force"
+		fullDiz="A strike force consisting of several cruisers arrived to help the garrison of Psaradon island. You have to protect cargo ships from artillery fire."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5592.000 255.000 4510.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyDestroyers"
+		briefDiz="Garrison - Destroy enemy destroyers"
+		fullDiz="Enemy destroyers spotted our convoy. They must be destroyed."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5051.000 255.000 4019.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_DestroyTurrets"
+		briefDiz="Garrison - Destroy enemy fortifications"
+		fullDiz="Enemy coastal artillery guns and fortifications are located along the route of the cargo ships. They must be destroyed in order to secure the route for our merchant ships."
+		isMainQuest="0">
+		<Map
+			name="cd_ph01_garrison"
+			coordinate="5797.000 281.000 3914.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortFirst"
+		briefDiz="Escort “Agustine Brain” merchant ship"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant01_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_EscortSecond"
+		briefDiz="Escort “Juan El Huevo” merchant ship"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="CDMerchant02_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH01_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cd_ph01_garrison"
+			targetObjName="Leave02Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02"
+		briefDiz="Fortress"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH02_DestroyLavs"
+		briefDiz="Fortress - Destroy enemy SAM"
+		fullDiz="Enemy anti-aircraft missile systems do prevent our aircraft from approaching the island. Destroy enemy armored vehicles to gain air support."
+		isMainQuest="0">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2975.000 279.000 5875.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02_DestroyTurrets"
+		briefDiz="Destroy enemy fortifications on Milos island"
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			coordinate="2290.000 290.000 5750.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH02_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cd_ph02_fortress"
+			targetObjName="Leave03Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03"
+		briefDiz="Armada"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_PH03_DestroyBattleship"
+		briefDiz="Destroy enemy battleship"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			coordinate="4102.000 255.000 6988.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_ProtectCruiser"
+		briefDiz="Armada - Protect “Argumento” missile cruiser"
+		fullDiz="The purpose of the missile cruiser is to destroy the enemy battleship. Protect it to ensure mission success."
+		isMainQuest="0">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="CDRocketHeavyCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_PH03_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cd_ph03_armada"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial"
+		briefDiz="Baptism by fire"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyBoats"
+		briefDiz="Destroy CIT patrol boats"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			coordinate="5525.000 255.000 2282.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyCruiser"
+		briefDiz="Destroy CIT cruiser"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITOldCruiser01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_DestroyDestroyer"
+		briefDiz="Destroy CIT destroyer"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="CITDestroyer01" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CD_Tutorial_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="tutorial"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH01"
+		briefDiz="Counterattack"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH01_DestroyTargets"
+		briefDiz="Destroy the enemy at Kane's island"
+		fullDiz=""
+		isMainQuest="1">
+		<Map
+			name="cit_ph01_counterattack"
+			coordinate="4591.000 279.000 1543.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH01_Retreat"
+		briefDiz="Return to the rally point"
+		fullDiz=""
+		isMainQuest="1">
+		<Map
+			name="cit_ph01_counterattack"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02"
+		briefDiz="Uninvited guests"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH02_DestroyDestroyers"
+		briefDiz="Uninvited guests - Destroy enemy destroyers"
+		fullDiz=""
+		isMainQuest="0">
+		<Map
+			name="cit_ph02_guests"
+			coordinate="1175.000 279.000 4932.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02_DestroyFleet"
+		briefDiz="Destroy enemy fleet"
+		isMainQuest="1">
+		<Map
+			name="cit_ph02_guests"
+			coordinate="3612.000 285.000 2377.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH02_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cit_ph02_guests"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03"
+		briefDiz="March"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyCruisers"
+		briefDiz="Destroy enemy cruisers"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			coordinate="7811.000 279.000 1959.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_DestroyMerchants"
+		briefDiz="Destroy enemy merchant ships"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			coordinate="1175.000 279.000 4932.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH03_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cit_ph03_march"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04"
+		briefDiz="Routine"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="CIT_PH04_DestroyMerchants"
+		briefDiz="Destroy enemy merchant ships"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			coordinate="6323.000 279.000 7425.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="CIT_PH04_Retreat"
+		briefDiz="Leave the combat zone"
+		isMainQuest="1">
+		<Map
+			name="cit_ph04_routine"
+			targetObjName="MissionStartLoc" />
+	</QuestInfo>
+</QuestInfoResource>

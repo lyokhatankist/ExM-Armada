@@ -85,24 +85,24 @@
 	<Item id="battleshipCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
 	<Item id="merchantCDEngine"					file="data\if\ico_hd\InventoryDlg\battleship\components\ship.dds" file1=""/>
 
-   <Item id="smlboatCITArmanent"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds"			file1=""/>
-	<Item id="smlboatCITArmanentMod"				file="data\if\ico_hd\InventoryDlg\battleship\components\nurs.dds"					file1=""/>
-	<Item id="smlboatCDArmanent"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds"			file1=""/>
-	<Item id="fastboatCITArmanent"				file="data\if\ico_hd\InventoryDlg\battleship\components\lighttorp.dds"			file1=""/>
-	<Item id="destroyerCIT130Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm.dds"		file1=""/>
-	<Item id="destroyerCIT138Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit138mm.dds"		file1=""/>
-   <Item id="destroyerCIT130ArmanentMod"		file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm2.dds"	file1=""/>
-	<Item id="destroyerCD127Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd127mm.dds"		file1=""/>
-	<Item id="destroyerCD135Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd135mm.dds"		file1=""/>
-	<Item id="ocruiserCIT152Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit152mm.dds"		file1=""/>
-	<Item id="ocruiserCIT155Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit155mm.dds"		file1=""/>
-	<Item id="hcruiserCD203Armanent"				file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds"		file1=""/>
-	<Item id="semibossCDRocketArmanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds"		file1=""/>
-   <Item id="battleshipCIT406Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit406mm.dds"		file1=""/>
-	<Item id="battleshipCIT380Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit380mm.dds"		file1=""/>
-	<Item id="battleshipCIT457Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit457mm.dds"		file1=""/>
-	<Item id="battleshipCD356Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd356mm.dds"		file1=""/>
-	<Item id="battleshipCD406Armanent"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd406mm.dds"		file1=""/>
+   <Item id="smlboatCITArmament"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds"			file1=""/>
+	<Item id="smlboatCITArmamentMod"				file="data\if\ico_hd\InventoryDlg\battleship\components\nurs.dds"					file1=""/>
+	<Item id="smlboatCDArmament"					file="data\if\ico_hd\InventoryDlg\battleship\components\lightarm.dds"			file1=""/>
+	<Item id="fastboatCITArmament"				file="data\if\ico_hd\InventoryDlg\battleship\components\lighttorp.dds"			file1=""/>
+	<Item id="destroyerCIT130Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm.dds"		file1=""/>
+	<Item id="destroyerCIT138Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit138mm.dds"		file1=""/>
+   <Item id="destroyerCIT130ArmamentMod"		file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cit130mm2.dds"	file1=""/>
+	<Item id="destroyerCD127Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd127mm.dds"		file1=""/>
+	<Item id="destroyerCD135Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\dest_cd135mm.dds"		file1=""/>
+	<Item id="ocruiserCIT152Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit152mm.dds"		file1=""/>
+	<Item id="ocruiserCIT155Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\ocru_cit155mm.dds"		file1=""/>
+	<Item id="hcruiserCD203Armament"				file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds"		file1=""/>
+	<Item id="semibossCDRocketArmament"			file="data\if\ico_hd\InventoryDlg\battleship\components\hcru_cd203mm.dds"		file1=""/>
+   <Item id="battleshipCIT406Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit406mm.dds"		file1=""/>
+	<Item id="battleshipCIT380Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit380mm.dds"		file1=""/>
+	<Item id="battleshipCIT457Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cit457mm.dds"		file1=""/>
+	<Item id="battleshipCD356Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd356mm.dds"		file1=""/>
+	<Item id="battleshipCD406Armament"			file="data\if\ico_hd\InventoryDlg\battleship\components\batt_cd406mm.dds"		file1=""/>
 
 
 

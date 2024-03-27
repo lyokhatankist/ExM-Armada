@@ -3026,7 +3026,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
 		waterSpecularS="0.004"
-		reduceDistFactor="0.450">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="66.300 76.500 94.350"
 			dayColor="168.300 160.650 168.300"
@@ -3112,7 +3112,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.450">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="63.750 56.100 56.100"
 			dayColor="128.000 132.600 140.250"
@@ -3198,7 +3198,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.165">
+		reduceDistFactor="0.330">
 		<Sky
 			sunriseColor="96.900 94.350 94.350"
 			dayColor="122.400 145.350 153.000"
@@ -3284,7 +3284,7 @@
 		waterCourseAngle="2.530"
 		waterSpecularM="200.000"
 		waterSpecularS="0.010"
-		reduceDistFactor="0.120"
+		reduceDistFactor="0.240"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="10"
@@ -3380,7 +3380,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="134.000"
 		waterSpecularS="0.004"
-		reduceDistFactor="0.450">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="58.650 63.750 86.700"
 			dayColor="168.300 160.650 153.000"
@@ -3466,7 +3466,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.450">
+		reduceDistFactor="0.900">
 		<Sky
 			sunriseColor="79.050 63.750 56.100"
 			dayColor="128.000 132.600 140.250"
@@ -3552,7 +3552,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.165">
+		reduceDistFactor="0.330">
 		<Sky
 			sunriseColor="96.900 94.350 94.350"
 			dayColor="150.450 145.350 153.000"
@@ -3638,7 +3638,7 @@
 		waterCourseAngle="2.530"
 		waterSpecularM="200.000"
 		waterSpecularS="0.010"
-		reduceDistFactor="0.120"
+		reduceDistFactor="0.240"
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN"
 		density="10"
@@ -3734,7 +3734,7 @@
 		waterCourseAngle="1.040"
 		waterSpecularM="98.000"
 		waterSpecularS="0.006"
-		reduceDistFactor="0.165">
+		reduceDistFactor="0.005">
 		<Sky
 			sunriseColor="0.000 0.000 0.000"
 			dayColor="0.000 0.000 0.000"

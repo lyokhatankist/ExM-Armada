@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		value="Baptism by fire|Crimson Dawn, “Casado”|Chamenos|April 23, 2265, 2049" 
+		time="6" />
+
+	<string
+		id="2"
+		value="Mission objectives:|Protect the friendly heavy cruiser “Iberica”; ensure the safe retreat of the friendly forces from the combat zone." 
+		time="12" />
+
+	<string
+		id="3"
+		value="Secondary objectives:|Finish the mission without losses of vehicles; destroy all enemy units that arrive to aid the garrison of Wunstorf island." 
+		time="10" />
+
+	<!-- after cutscene -->
+	<string
+		id="101"
+		value="Welcome to HTA:Armada.||This is a tutorial mission, but after its completion you will receive a full reward. In a tutorial you will be able to learn how to handle all types of weaponry that may be installed on the ships, as well as some features of newly added game mechanics. You can skip the tutorial if it's not your first time playthrough.||Proceed with the tutorial?"
+		numButtons="2" />
+
+	<string
+		id="102"
+		value="Your first objective is to destroy the CIT patrol boats moving out to attack the friendly cruiser “Iberica”.||Destroy three patrol boats to proceed to the next stage of the tutorial."
+		numButtons="1" />
+
+	<!-- on encounter with boats -->
+	<string
+		id="103"
+		value="Enemy patrol boats have been detected.||The most effective way of dealing with the enemy boats and aircraft is using your anti-aircraft guns. AA guns are assigned to the 5th weapon group by default (Alt key).||Machine guns, that constitute the primary weaponry of patrol boats, can not damage your ship, but in this case the boats are also equipped with MLRS, which pose a threat. Try to maintain speed and maneuver around to avoid being hit."
+		numButtons="1" />
+
+	<!-- on damage -->
+	<string
+		id="104"
+		value="Ships in HTA:Armada have an ability to repair themselves over time, so if you find yourself in dire straits during the encounter with an enemy, it would be best to retreat and wait for the repairs to complete. Note, however, that the enemy can use this ability just as well."
+		numButtons="1" />
+
+	<!-- on destruction of boats -->
+	<string
+		id="105"
+		value="CIT patrol boats are destroyed. An enemy destroyer has been spotted nearby. Destroy it with your main battery guns."
+		numButtons="1" />
+
+	<!-- on encounter with destroyer -->
+	<string
+		id="106"
+		value="In the original Hard Truck Apocalypse game, nearly all truck configurations allowed for 360 degree angle of fire. In HTA:Armada, however, you will have to pay closer attention to the firing sectors of the weapons installed on the ship. To be able to fire from all of your weapons at once, try to position yourself in a way to keep the enemy either to the left, or to the right side of your ship. Also, some AA guns can prove to be quite effective against ships (i.e. Auge 47-mm cannon), so try to use all the weaponry that you have effectively."
+		numButtons="1" />
+
+	<!-- on destruction of destroyer -->
+	<string
+		id="107"
+		value="You're in luck: your guns were loaded with high-explosive shells that are most effective against lightly armored destroyers and ground targets. Keep in mind that if you have to face a large number of enemy cruisers or battleships, it is better to choose armor-piercing shells. The information about the hull types of the enemy ships that may be encountered on missions will be provided at HQ during briefings."
+		numButtons="1" />
+
+	<string
+		id="108"
+		value="CIT resistance in this area has been virtually crushed. However, according to the intelligence reports, the CIT strike force should have been reinforced by a cruiser. Perhaps it is located near the island of Mykonos, since the enemy reinforcements were arriving from that direction.||Destroy the CIT cruiser with torpedoes or main battery guns to complete the combat part of the tutorial."
+		numButtons="1" />
+
+	<!-- on encounter with cruiser -->
+	<string
+		id="109"
+		value="Each destroyer is equipped with two torpedo launchers: one directed to the left (port side), which by default is fired by pressing the Shift key, and the other directed to the right (starboard side), which by default is fired with the Ctrl key. Sometimes the ship may be equipped with torpedo tubes that are directed forward and backward. They are considered as directed to the left and to the right respectively and utilize the same control keys."
+		numButtons="1" />
+
+	<string
+		id="110"
+		value="Torpedoes are especially effective against the heavily armored targets, such as heavy cruisers and battleships. Their use against fast moving destroyers and smaller vessels is not recommended, so choose your targets wisely."
+		numButtons="1" />
+
+	<string
+		id="111"
+		value="The torpedo launchers installed on your ship are extremely limited in terms of rotation angles, and require the ship to be directed almost perpendicular to the target. Ensure that TL is aimed at the target before launching the torpedoes. You can take your time, as the enemy cruiser is completely immobilized. Its weapons, however, seem to still be functional."
+		numButtons="1" />
+
+	<!-- on destruction of cruiser -->
+	<string
+		id="112"
+		value="The enemy cruiser is destroyed. Well done!||After the completion of all main mission objectives you will have to retreat to the starting point of the mission or the retreat zone marked on the map. If, upon the completion of the last objective, no enemy presence is detected near your location, you will be prompted to end the mission immediately."
+		numButtons="1" />
+
+	<string
+		id="113"
+		value="This concludes the combat part of the tutorial. The next stage is a quick rundown of the features of headquarters and post-mission statistics."
+		numButtons="1" />
+
+	<string
+		id="114"
+		value="Hostile presence near the player detected. Unable to complete the mission immediately. You will have to proceed to the retreat zone manually."
+		numButtons="1" />
+
+	<string
+		id="1000"
+		value="Leave the battle?"
+		numButtons="2" />
+
+	<string
+		id="1001"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
+		numButtons="2" />
+
+	<string
+		id="1002"
+		value="You are leaving the combat zone in a direction of the territory currently under control of the enemy.||This will result in a loss of your vehicle and possible mission failure."
+		numButtons="1" />
+</resource>

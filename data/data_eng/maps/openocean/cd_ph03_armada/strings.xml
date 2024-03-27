@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		value="Armada|Crimson Dawn, “Zaragoza”|Atlantic Ocean|January 3, 2266, 1327" 
+		time="6" />
+
+	<string
+		id="2"
+		value="Mission objectives:|Destroy the enemy fleet in the vicinity of Attans island." 
+		time="6" />
+
+	<string
+		id="3"
+		value="Secondary objectives:|Protect the guided-missile cruiser “Argumento”; finish the mission without losses of vehicles; destroy all enemy forces." 
+		time="14" />
+
+	<string
+		id="1000"
+		value="Leave the battle?"
+		numButtons="2" />
+
+	<string
+		id="1001"
+		value="Primary mission objectives completed. Hostile presence near the player is absent.|Do you wish to end the mission?"
+		numButtons="2" />
+
+	<string
+		id="1002"
+		value="You are leaving the combat zone in a direction of the territory currently under control of the enemy.||This will result in a loss of your vehicle and possible mission failure."
+		numButtons="1" />
+</resource>
