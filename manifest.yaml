@@ -41,7 +41,7 @@ patcher_version_requirement: "2.1"
 prerequisites: 
   - name: community_remaster
     versions:
-      - ">=1.14"
+      - ">=1.14.1"
       
 incompatible:
   - name: community_remaster

@@ -38,7 +38,7 @@ patcher_version_requirement: "2.1"
 prerequisites: 
   - name: community_remaster
     versions:
-      - ">=1.14"
+      - ">=1.14.1"
     optional_content:
       - "english_localization"
 
