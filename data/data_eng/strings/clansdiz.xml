@@ -126,7 +126,7 @@
 
 	<string
 		id="Belong_1013"
-		value="CIT rocket complex" />
+		value="CIT missile complex" />
 
 	<string
 		id="Belong_1013_abb"
@@ -260,7 +260,7 @@
 
 	<string
 		id="Belong_1063"
-		value="CD rocket complex" />
+		value="CD missile complex" />
 
 	<string
 		id="Belong_1063_abb"
@@ -278,7 +278,7 @@
 
 	<string
 		id="Belong_1081"
-		value="Rocket cruiser" />
+		value="Missile cruiser" />
 
 	<string
 		id="Belong_1081_abb"

@@ -76,47 +76,47 @@
 <!-- Vehicles -->
 	<string
 		id="HeliCITForEncyclopaedia_diz"
-		value="Attack helicopter of the Commonwealth of Independent Towns - “Condor”.| |Primary armament: four S-13 rocket launchers, 12.7-mm “Corde-A” heavy machine gun.|Secondary armament: two “Charybdis” anti-ship missile launchers." />
+		value="Attack helicopter of the Commonwealth of Independent Towns - “Condor”.| |Primary armament: four S-13 rocket launchers, 12.7-mm “Corde-A” heavy machine gun|Secondary armament: two “Charybdis” anti-ship missile launchers" />
 
 	<string
 		id="HeliCDForEncyclopaedia_diz"
-		value="Attack helicopter of the Crimson Dawn - “Mosquito”.| |Primary armament: two 30-mm APChS automatic cannons.|Secondary armament: two “Naga” guided missile launchers." />
+		value="Attack helicopter of the Crimson Dawn - “Mosquito”.| |Primary armament: two 30-mm APChS automatic cannons|Secondary armament: two “Naga” guided missile launchers" />
 
 	<string
 		id="SmlboatCITForEncyclopaedia_diz"
-		value="Small patrol boat of the Commonwealth of Independent Towns - “Mouette”.| |Primary armament: two “Corde” heavy machine guns.|Secondary armament: none.| |Retrofit: replacement of one of the machine guns with a “Cordage-80” multiple launch rocket system." />
+		value="Small patrol boat of the Commonwealth of Independent Towns - “Mouette”.| |Primary armament: two “Corde” heavy machine guns|Secondary armament: none| |Retrofit: replacement of one of the machine guns with a “Cordage-80” multiple launch rocket system" />
 
 	<string
 		id="SmlboatCDForEncyclopaedia_diz"
-		value="Small patrol boat of the Crimson Dawn - “Reaver”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount.|Secondary armament: PKT heavy machine gun." />
+		value="Small patrol boat of the Crimson Dawn - “Reaver”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount|Secondary armament: PKT heavy machine gun" />
 
 	<string
 		id="FastboatCITForEncyclopaedia_diz"
-		value="Torpedo boat of the Commonwealth of Independent Towns - “Murene”.| |Primary armament: 533-mm STL-2 torpedo launcher.|Secondary armament: two “Corde” heavy machine guns." />
+		value="Torpedo boat of the Commonwealth of Independent Towns - “Murene”.| |Primary armament: 533-mm STL-2 torpedo launcher|Secondary armament: two “Corde” heavy machine guns" />
 
 	<string
 		id="DestroyerCITForEncyclopaedia_diz"
-		value="Destroyer of the Commonwealth of Independent Towns - “Lyon”.| |Primary armament: two 533-mm torpedo launchers, three 130-mm guns in three single gun turrets.|Secondary armament: none.|Anti-aircraft guns: four.| |Retrofit: replacement of the primary armament with single 138-mm gun turrets, modernization of the torpedo launchers reloading system, improvement of mobility parameters." />
+		value="Destroyer of the Commonwealth of Independent Towns - “Lyon”.| |Primary armament: two 533-mm torpedo launchers, three 130-mm guns in three single gun turrets|Secondary armament: none|Anti-aircraft guns: four| |Retrofit: replacement of the primary armament with single 138-mm gun turrets, modernization of the torpedo launchers reloading system, improvement of mobility parameters" />
 
 	<string
 		id="DestroyerCDForEncyclopaedia_diz"
-		value="Destroyer of the Crimson Dawn - “Albedo”.| |Primary armament: two 610-mm torpedo launchers, eight 127-mm guns in four twin gun turrets.|Secondary armament: none.|Anti-aircraft guns: three.| |Retrofit: replacement of the primary armament with twin 135-mm gun turrets, armor reinforcement." />
+		value="Destroyer of the Crimson Dawn - “Albedo”.| |Primary armament: two 610-mm torpedo launchers, eight 127-mm guns in four twin gun turrets|Secondary armament: none|Anti-aircraft guns: three| |Retrofit: replacement of the primary armament with twin 135-mm gun turrets, armor reinforcement" />
 
 	<string
 		id="OCruiserCITForEncyclopaedia_diz"
-		value="Cruiser of the Commonwealth of Independent Towns - “Egale”.| |Primary armament: four 152-mm guns in two twin gun turrets.|Secondary armament: eight 130-mm guns (four in single gun turrets, four in sponson mounts).|Anti-aircraft guns: five.| |Retrofit: replacement of the primary armament with triple 155-mm gun turrets, installation of six 533-mm STL-1 torpedo tubes, imrpovement of mobility parameters, armor reinforcement." />
+		value="Cruiser of the Commonwealth of Independent Towns - “Egale”.| |Primary armament: four 152-mm guns in two twin gun turrets|Secondary armament: eight 130-mm guns (four in single gun turrets, four in sponson mounts)|Anti-aircraft guns: five| |Retrofit: replacement of the primary armament with triple 155-mm gun turrets, installation of six 533-mm STL-1 torpedo tubes, imrpovement of mobility parameters, armor reinforcement" />
 
 	<string
 		id="HCruiserCDForEncyclopaedia_diz"
-		value="Cruiser of the Crimson Dawn - “Furia”.| |Primary armament: four 203-mm twin gun turrets.|Secondary armament: four 610-mm torpedo launchers.|Anti-aircraft guns: ten." />
+		value="Cruiser of the Crimson Dawn - “Furia”.| |Primary armament: four 203-mm twin gun turrets|Secondary armament: four 610-mm torpedo launchers|Anti-aircraft guns: ten" />
 
 	<string
 		id="BattleshipCDForEncyclopaedia_diz"
-		value="Battleship of the Crimson Dawn - “Leviatan”.| |Primary armament: four 356-mm twin gun turrets.|Secondary armament: four 127-mm twin gun turrets.|Anti-aircraft guns: nine.| |Retrofit: replacement of the primary armament with 406-mm triple gun turrets, armor reinforcement." />
+		value="Battleship of the Crimson Dawn - “Leviatan”.| |Primary armament: four 356-mm twin gun turrets|Secondary armament: four 127-mm twin gun turrets|Anti-aircraft guns: nine| |Retrofit: replacement of the primary armament with 406-mm triple gun turrets, armor reinforcement" />
 
 	<string
 		id="BattleshipCITForEncyclopaedia_diz"
-		value="Battleship of the Commonwealth of Independent Towns - “Librium”.| |Primary armament: three 406-mm triple gun turrets.|Secondary armament: eight 130-mm single gun turrets.|Anti-aircraft guns: eighteen.| |Retrofit: replacement of the primary armament with 380-mm quadruple gun turrets." />
+		value="Battleship of the Commonwealth of Independent Towns - “Librium”.| |Primary armament: three 406-mm triple gun turrets|Secondary armament: eight 130-mm single gun turrets|Anti-aircraft guns: eighteen| |Retrofit: replacement of the primary armament with 380-mm quadruple gun turrets" />
 
 	<string
 		id="MerchantCDForEncyclopaedia_diz"
@@ -124,11 +124,11 @@
 
 	<string
 		id="LavCIT01_diz"
-		value="Armored reconnaissance vehicle of the Commonwealth of Independent Towns - “Varan”.| |Primary armament: KPVT heavy machine gun in a turret mount.|Secondary armament: none." />
+		value="Armored reconnaissance vehicle of the Commonwealth of Independent Towns - “Varan”.| |Primary armament: KPVT heavy machine gun in a turret mount|Secondary armament: none" />
 
 	<string
 		id="LavCD01_diz"
-		value="Armored reconnaissance vehicle of the Crimson Dawn - “Escorpion”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount.|Secondary armament: PKT heavy machine gun." />
+		value="Armored reconnaissance vehicle of the Crimson Dawn - “Escorpion”.| |Primary armament: two 20-mm “Birkigt” automatic cannons in a turret mount|Secondary armament: PKT heavy machine gun" />
 
 
 <!-- Cabins and baskets ______________________________________________-->
@@ -137,107 +137,107 @@
 <!-- Weapons ______________________________________________-->
 <string
 		id="AADuet01_diz"
-		value="Old model of a twin machine gun mount of the Commonwealth of Indepedent Towns. Mainly used in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)." />
+		value="Old model of a twin machine gun mount of the Commonwealth of Indepedent Towns. Mainly used in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)" />
 
 	<string
 		id="AA47mmCannon01_diz"
-		value="47-mm cannon of the Trade Association. Mainly used in anti-aircraft role on CIT and CD warships.| |Ammunition: 47-mm HE (TA)." />
+		value="47-mm cannon of the Trade Association. Mainly used in anti-aircraft role on CIT and CD warships.| |Ammunition: 47-mm HE (TA)" />
 	
 	<string
 		id="AA120mmSAMCIT01_diz"
-		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as primary armament of CIT reconnaissance vehicles and in anti-aircraft role on CIT warships.| |Ammunition: SAM 120-mm (CIT)." />
+		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as primary armament of CIT reconnaissance vehicles and in anti-aircraft role on CIT warships.| |Ammunition: SAM 120-mm (CIT)" />
 	
 	<string
 		id="AA152mmATGMCD01_diz"
-		value="Multi-purpose missile launcher of the Crimson Dawn. Used as primary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)." />
+		value="Multi-purpose missile launcher of the Crimson Dawn. Used as primary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)" />
 
 	<string
 		id="AA23mmGun01_diz"
-		value="23-mm quadruple autocannon mount of the Commonwealth of Independent Towns. Mainly used in anti-aircraft role on CIT battleships.| |Ammunition: 23-mm HEI (CIT)." />
+		value="23-mm quadruple autocannon mount of the Commonwealth of Independent Towns. Mainly used in anti-aircraft role on CIT battleships.| |Ammunition: 23-mm HEI (CIT)" />
 
 	<string
 		id="smlboatCITNurs01_diz"
-		value="“Cordage-80” multiple rocket launch system of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats.| |Ammunition: 80-mm RHE “Cordage” (CIT)." />
+		value="“Cordage-80” multiple rocket launch system of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats.| |Ammunition: 80-mm RHE “Cordage” (CIT)" />
 
 	<string
 		id="smlboatCITMachinegun01_diz"
-		value="Heavy machine gun of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats and reconnaissance vehicles, as well as in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)." />
+		value="Heavy machine gun of the Commonwealth of Independent Towns. Used as primary and secondary armament of CIT patrol boats and reconnaissance vehicles, as well as in anti-aircraft role on CIT warships.| |Ammunition: 12.7-mm (CIT)" />
 	
 	<string
 		id="smlboatCITRocket01_diz"
-		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as secondary armament of CIT patrol boats and in anti-aircraft role on CIT warships.| |Ammunition: SAM 72-mm (CIT)." />
+		value="Multi-purpose missile launcher of the Commonwealth of Independent Towns. Used as secondary armament of CIT patrol boats and in anti-aircraft role on CIT warships.| |Ammunition: SAM 72-mm (CIT)" />
 
 	<string
 		id="smlboatCDCannon01_diz"
-		value="20-mm twin autocannon mount of the Crimson Dawn. Used as primary armament of CD patrol boats and reconnaissance vehicles.| |Ammunition: 20-mm HEI (CD)." />
+		value="20-mm twin autocannon mount of the Crimson Dawn. Used as primary armament of CD patrol boats and reconnaissance vehicles.| |Ammunition: 20-mm HEI (CD)" />
 
 	<string
 		id="smlboatCDMachinegun01_diz"
-		value="Heavy machine gun of the Crimson Dawn. Used as secondary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: 12.7-mm (CD)." />
+		value="Heavy machine gun of the Crimson Dawn. Used as secondary armament of CD reconnaissance vehicles and patrol boats, as well as in anti-aircraft role on CD warships.| |Ammunition: 12.7-mm (CD)" />
 	
 	<string
 		id="smlboatCDRocket01_diz"
-		value="Multi-purpose missile launcher of the Crimson Dawn. Used as secondary armament of CD patrol boats and in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)." />
+		value="Multi-purpose missile launcher of the Crimson Dawn. Used as secondary armament of CD patrol boats and in anti-aircraft role on CD warships.| |Ammunition: ATGM 152-mm (CD)" />
 
 	<string
 		id="single130CIT01_diz"
-		value="130-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of CIT destroyers and secondary armament of CIT cruisers and battleships.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)." />
+		value="130-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of CIT destroyers and secondary armament of CIT cruisers and battleships.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)" />
 
 	<string
 		id="single138CIT01_diz"
-		value="138-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of modernized CIT destroyers.| |Ammunition: 138-mm HE (CIT), 138-mm AP (CIT)." />
+		value="138-mm single gun turret the Commonwealth of Independent Towns. Used as primary armament of modernized CIT destroyers.| |Ammunition: 138-mm HE (CIT), 138-mm AP (CIT)" />
 
 	<string
 		id="twin127CD01_diz"
-		value="127-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD destroyers and secondary armament of CD battleships.| |Ammunition: 127-mm HE (CD), 127-mm AP (CD)." />
+		value="127-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD destroyers and secondary armament of CD battleships.| |Ammunition: 127-mm HE (CD), 127-mm AP (CD)" />
 
 	<string
 		id="twin135CD01_diz"
-		value="135-mm twin gun turret of the Crimson Dawn. Used as primary armament of modernized CD destroyers.| |Ammunition: 135-mm HE (CD), 135-mm AP (CD)." />
+		value="135-mm twin gun turret of the Crimson Dawn. Used as primary armament of modernized CD destroyers.| |Ammunition: 135-mm HE (CD), 135-mm AP (CD)" />
 
 	<string
 		id="twin152CIT01_diz"
-		value="152-mm twin gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT cruisers.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)." />
+		value="152-mm twin gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT cruisers.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)" />
 
 	<string
 		id="triple155CIT01_diz"
-		value="155-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT cruisers.| |Ammunition: 155-mm HE (CIT), 155-mm AP (CIT)." />
+		value="155-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT cruisers.| |Ammunition: 155-mm HE (CIT), 155-mm AP (CIT)" />
 
 	<string
 		id="triple152CIT01_diz"
-		value="152-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT heavy cruisers and coastal artillery guns.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)." />
+		value="152-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT heavy cruisers and coastal artillery guns.| |Ammunition: 152-mm HE (CIT), 152-mm AP (CIT)" />
 
 	<string
 		id="twin203CD01_diz"
-		value="203-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD cruisers and coastal artillery guns.| |Ammunition: 203-mm HE (CD), 203-mm AP (CD)." />
+		value="203-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD cruisers and coastal artillery guns.| |Ammunition: 203-mm HE (CD), 203-mm AP (CD)" />
 
 	<string
 		id="triple406CIT01_diz"
-		value="406-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT battleships and heavy coastal artillery guns.| |Ammunition: 406-mm HE (CIT), 406-mm AP (CIT)." />
+		value="406-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of CIT battleships and heavy coastal artillery guns.| |Ammunition: 406-mm HE (CIT), 406-mm AP (CIT)" />
 
 	<string
 		id="quadruple380CIT01_diz"
-		value="380-mm quadruple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT battleships.| |Ammunition: 380-mm HE (CIT), 380-mm AP (CIT)." />
+		value="380-mm quadruple gun turret of the Commonwealth of Independent Towns. Used as primary armament of modernized CIT battleships.| |Ammunition: 380-mm HE (CIT), 380-mm AP (CIT)" />
 
 	<string
 		id="triple457CIT01_diz"
-		value="457-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of the CIT Atlantic fleet flagship.| |Ammunition: 457-mm HE (CIT), 457-mm AP (CIT)." />
+		value="457-mm triple gun turret of the Commonwealth of Independent Towns. Used as primary armament of the CIT Atlantic fleet flagship.| |Ammunition: 457-mm HE (CIT), 457-mm AP (CIT)" />
 
 	<string
 		id="twin130CIT01_diz"
-		value="130-mm twin gun turret of the Commonwealth of Independent Towns. Used as secondary armament of the CIT Atlantic fleet flagship.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)." />
+		value="130-mm twin gun turret of the Commonwealth of Independent Towns. Used as secondary armament of the CIT Atlantic fleet flagship.| |Ammunition: 130-mm HE (CIT), 130-mm AP (CIT)" />
 
 	<string
 		id="twin356CD01_diz"
-		value="356-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD battleships.| |Ammunition: 356-mm HE (CD), 356-mm AP (CD), 356-mm AA (CD)." />
+		value="356-mm twin gun turret of the Crimson Dawn. Used as primary armament of CD battleships.| |Ammunition: 356-mm HE (CD), 356-mm AP (CD), 356-mm AA (CD)" />
 
 	<string
 		id="triple406CD01_diz"
-		value="406-mm triple gun turret of the Crimson Dawn. Used as primary armament of modernized CD battleships.| |Ammunition: 406-mm HE (CD), 406-mm AP (CD)." />
+		value="406-mm triple gun turret of the Crimson Dawn. Used as primary armament of modernized CD battleships.| |Ammunition: 406-mm HE (CD), 406-mm AP (CD)" />
 
 	<string
 		id="lavCITMachinegun01_diz"
-		value="Heavy machine gun of the Commonwealth of Independent Towns in a turret mount. Used as primary armament of CIT reconnaissance vehicles.| |Ammunition: 14.5-mm (CIT)." />
+		value="Heavy machine gun of the Commonwealth of Independent Towns in a turret mount. Used as primary armament of CIT reconnaissance vehicles.| |Ammunition: 14.5-mm (CIT)" />
 
 <!-- Gadgets ______________________________________________-->
 <!-- 	<string
