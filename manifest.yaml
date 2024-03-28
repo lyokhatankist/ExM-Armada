@@ -55,6 +55,7 @@ patcher_options:
   draw_distance_limit: true
   vanilla_fov: true
   game_font: Tahoma
+  sell_price_coeff: 1.0
   
 config_options:
     ai_clash_coeff: 0.0001

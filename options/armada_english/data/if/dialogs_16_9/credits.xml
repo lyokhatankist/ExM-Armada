@@ -74,7 +74,7 @@
 
 		<Page
 			id="9"
-			text="Binary edits, commod adaptation||Aleksandr “Seel” Parfenenkov"
+			text="Binary edits, technical support||Aleksandr “Seel” Parfenenkov"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
@@ -83,7 +83,7 @@
 
 		<Page
 			id="10"
-			text="QA||Dmitry “Gnome627” Saschenko"
+			text="Testing, QA||Dmitry “Gnome627” Saschenko"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
@@ -92,7 +92,7 @@
 
 		<Page
 			id="11"
-			text="QA||Nikita “Traygen”"
+			text="Testing, QA||Nikita “Traygen”"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="92"
@@ -162,7 +162,7 @@
 
 		<Page
 			id="18"
-			text="Special thanks:||EM2ch|DeusExMachina|ExMachina2|Pavlik RPG"
+			text="Special thanks:||EM2ch|DeusExMachina|ExMachina2|C.O.B.A.|Pavlik RPG"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
