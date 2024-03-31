@@ -26,6 +26,21 @@
 		numButtons="2" />
 
 	<string
+		id="1486"
+		value="Thanks for playing HTA:Armada!"
+		numButtons="1" />
+
+	<string
+		id="1487"
+		value="CIT Campaign results."
+		numButtons="1" />
+
+	<string
+		id="1488"
+		value="CD Campaign results."
+		numButtons="1" />
+
+	<string
 		id="9000"
 		value="Losses of the friendly forces."
 		numButtons="1" />

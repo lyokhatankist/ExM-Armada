@@ -26,6 +26,21 @@
 		numButtons="2" />
 
 	<string
+		id="1486"
+		value="Спасибо за то, что играли в ExM:Armada!"
+		numButtons="1" />
+
+	<string
+		id="1487"
+		value="Итоги кампании СНГ."
+		numButtons="1" />
+
+	<string
+		id="1488"
+		value="Итоги кампании АР."
+		numButtons="1" />
+
+	<string
 		id="9000"
 		value="Потери дружественных сил."
 		numButtons="1" />
