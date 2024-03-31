@@ -22,7 +22,7 @@
 				"ET_PS_BIGBLAST_HEWATERSPLASH"
 				}
 
-			ChangeSide("neutral")
+			ChangeSide("dead")
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()

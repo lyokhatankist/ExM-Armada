@@ -178,7 +178,7 @@
 	</trigger>
 
 	<trigger Name="MyFinalMessageGoodbye" active="0">
-		<event timeout="0.06" eventid="GE_TIME_PERIOD" />
+		<event timeout="0.07" eventid="GE_TIME_PERIOD" />
 		<script>
 			println("Change the world. My final message.")
 			LOG("Change the world. My final message.")
@@ -207,6 +207,8 @@
 			end
 			println("Goodbye.")
 			LOG("Goodbye.")
+
+			PlayCustomMusic("bs_bar")
 
 			trigger:Deactivate()
 		</script>

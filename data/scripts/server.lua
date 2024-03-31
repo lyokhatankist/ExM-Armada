@@ -1371,8 +1371,8 @@ end
 -- ExM:Rise of Clans functions --
 
 function CreateCaravanTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWares, Rotate)
--- Создает команду-караван машин из списка ListOfVehicle
--- см. CreateTeam()
+-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ ListOfVehicle
+-- пїЅпїЅ. CreateTeam()
 	if CreatePos==nil then
 		LOG("No position")
 		return
@@ -1419,10 +1419,10 @@ function CreateCaravanTeam(Name, Belong, CreatePos, ListOfVehicle, WalkPos, IsWa
 				vehicle:AddItemsToRepository(RandWarez[r], 1)
 			end
 				
-			-- by Anton: это не нужно, т.к. вызываем SetGamePositionOnGround()
+			-- by Anton: пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅ.пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ SetGamePositionOnGround()
 			-- CreatePos.y = g_ObjCont:GetHeight(CreatePos.x, CreatePos.z) + 1.3 * vehicle:GetSize().y
 			if Rotate then
-				-- by Anton: Устанавливаем вращение перед тем как поставить машинку на землю, ибо это правильно
+				-- by Anton: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 					if type(Rotate)=="table" then
 						if Rotate[i]~=nil then	_Rotate=Rotate[i] end
 					end
@@ -1618,6 +1618,9 @@ function ChangeSide(sideName)
 		relationCIT = 0
 		relationCD = 3
 	end
+
+	-- for the case in which the playerside is 'dead'
+	local savedRelation = {GetTolerance(1500, 1000), GetTolerance(1500, 1050)}
 	
 	local numa = 1000
 	for i=0, unitsCommon do
@@ -1639,6 +1642,11 @@ function ChangeSide(sideName)
 		numa = numa + 50
 		SetTolerance(1500, numa, relationCD)
 		numa = 1000
+	end
+
+	if sideName=="dead" then
+		SetTolerance(1500, 1000, savedRelation[1])
+		SetTolerance(1500, 1050, savedRelation[2])
 	end
 end
 

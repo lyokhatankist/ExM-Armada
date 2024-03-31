@@ -20,7 +20,7 @@
 				"ET_PS_MEDBLAST_APWATERSPLASH"
 				}
 
-			ChangeSide("neutral")
+			ChangeSide("dead")
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
