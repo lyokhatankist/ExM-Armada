@@ -15,17 +15,8 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="3"
 			fontSize="40" />
-
-		<Page
-			id="2"
-			text="proudly presents"
-			modelName=""
-			modelSkin="0"
-			modelCfg="0"
-			showTime="2"
-			fontSize="30" />
 
 		<Page
 			id="3"
@@ -33,7 +24,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="2"
+			showTime="1.5"
 			fontSize="40" />
 
 		<Page
@@ -42,7 +33,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="3"
 			fontSize="40" />
 
 		<Page
@@ -60,7 +51,7 @@
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
-			showTime="5.7"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -69,7 +60,7 @@
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="168"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -78,7 +69,7 @@
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -87,7 +78,7 @@
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -96,32 +87,32 @@
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="92"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="12"
 			text="Obstacle boxes, ships' external paths, QA||Adnrey “Linkor” Krylov"
 			modelName="mask_axel"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="13"
-			text="Mod uses music by following composers:||MoozE|Simon Viklund|Apachan|Keosz|Anton Popov"
+			text="Mod uses music by the following composers:||MoozE|Simon Viklund|Apachan|Keosz|Anton Popov"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="14"
-			text="MoozE||Trailer Pt. 2|Test Amb|Mechanized Patrol|Ammo Feeder|Infiltrator|Enemy Unit|Outside The Machine"
+			text="MoozE||Trailer Pt. 2|Test Amb|Butcher's Tunnels|Mechanized Patrol|Ammo Feeder|Infiltrator|Enemy Unit|Outside The Machine"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -130,7 +121,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -139,7 +130,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -148,7 +139,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="2"
 			fontSize="22" />
 
 		<Page
@@ -157,7 +148,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -166,17 +157,8 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="5"
 			fontSize="22" />
-
-		<Page
-			id="19"
-			text=" "
-			modelName=""
-			modelSkin="0"
-			modelCfg="0"
-			showTime="8.5"
-			fontSize="12.5" />
 
 		<Page
 			id="19"
