@@ -15,17 +15,8 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="3"
 			fontSize="40" />
-
-		<Page
-			id="2"
-			text="proudly presents"
-			modelName=""
-			modelSkin="0"
-			modelCfg="0"
-			showTime="2"
-			fontSize="30" />
 
 		<Page
 			id="3"
@@ -33,7 +24,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="2"
+			showTime="1.5"
 			fontSize="40" />
 
 		<Page
@@ -42,7 +33,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="3"
 			fontSize="40" />
 
 		<Page
@@ -56,7 +47,7 @@
 
 		<Page
 			id="6"
-			text="Главный дегенерат||Алексей «__nEmPoBu4__» Скуфов"
+			text="Главный дегенерат||Алексей «0JQu0JUu0JMu0KAu0JAu0JQu0JAu0J0u0KIu» Смирнофф"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
@@ -69,7 +60,7 @@
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="1531"
-			showTime="5"
+			showTime="3.3"
 			fontSize="22" />
 
 		<Page
@@ -78,41 +69,41 @@
 			modelName="r2_man"
 			modelSkin="2"
 			modelCfg="168"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="9"
-			text="Правки движка||Александр «Seel» Парфененков"
+			text="Правки движка, техподдержка||Александр «Seel» Парфененков"
 			modelName="r3_man"
 			modelSkin="1"
 			modelCfg="761"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="10"
-			text="Контроль качества||Дмитрий «Gnome627» Сащенко"
+			text="Тестирование, контроль качества||Дмитрий «Gnome627» Сащенко"
 			modelName="r3_man"
 			modelSkin="2"
 			modelCfg="1917"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="11"
-			text="Контроль качества||Никита «Traygen»"
+			text="Тестирование, контроль качества||Никита «Traygen»"
 			modelName="r2_woman"
 			modelSkin="0"
 			modelCfg="92"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="12"
 			text="Обстаклы, внешние пути для кораблей, контроль качества||Андрей «Linkor» Крылов"
 			modelName="mask_axel"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -121,16 +112,16 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
 			id="14"
-			text="MoozE||Trailer Pt. 2|Test Amb|Mechanized Patrol|Ammo Feeder|Infiltrator|Enemy Unit|Outside The Machine"
+			text="MoozE||Trailer Pt. 2|Test Amb|Butcher's Tunnels|Mechanized Patrol|Ammo Feeder|Infiltrator|Enemy Unit|Outside The Machine"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="4"
 			fontSize="22" />
 
 		<Page
@@ -139,7 +130,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -148,7 +139,7 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -157,16 +148,16 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="2"
 			fontSize="22" />
 
 		<Page
 			id="17"
-			text="Антон Попов||Аржан (driving5)|Либриум (driving6)"
+			text="Антон Попов||Аржан (driving3)|Либриум (driving6)"
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="5"
+			showTime="3"
 			fontSize="22" />
 
 		<Page
@@ -175,17 +166,8 @@
 			modelName=""
 			modelSkin="0"
 			modelCfg="0"
-			showTime="6"
+			showTime="5"
 			fontSize="22" />
-
-		<Page
-			id="19"
-			text=" "
-			modelName=""
-			modelSkin="0"
-			modelCfg="0"
-			showTime="8.5"
-			fontSize="12.5" />
 
 		<Page
 			id="19"

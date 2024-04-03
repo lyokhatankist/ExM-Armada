@@ -957,6 +957,8 @@
 				end
 
 				AddImportantFadingMsgByStrIdFormatted("fm_retreat_attempt_ally")
+
+				SetVar("RetreatMusic", 1)
 			elseif RetreatMusic >= 2 then
 				PlayMusic("bs_stealth_retreat")
 

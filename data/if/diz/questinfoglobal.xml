@@ -206,12 +206,12 @@
 
 	<QuestInfo
 		questName="CIT_PH02"
-		briefDiz="Незванные гости"
+		briefDiz="Незваные гости"
 		isMainQuest="1" />
 
 	<QuestInfo
 		questName="CIT_PH02_DestroyDestroyers"
-		briefDiz="Незванные гости - Уничтожить вражеские эсминцы"
+		briefDiz="Незваные гости - Уничтожить вражеские эсминцы"
 		fullDiz="Эсминцы обеспечивают противовоздушное прикрытие для флота АР. Пока они не будут уничтожены - наша авиация не сможет начать работу."
 		isMainQuest="0">
 		<Map

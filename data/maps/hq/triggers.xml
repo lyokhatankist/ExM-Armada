@@ -177,6 +177,43 @@
 		</script>
 	</trigger>
 
+	<trigger Name="MyFinalMessageGoodbye" active="0">
+		<event timeout="0.07" eventid="GE_TIME_PERIOD" />
+		<script>
+			println("Change the world. My final message.")
+			LOG("Change the world. My final message.")
+			AddImportantFadingMsgByStrIdFormatted("fm_empty")
+			AddImportantFadingMsgByStrIdFormatted("fm_empty")
+			AddImportantFadingMsgByStrIdFormatted("fm_empty")
+			AddImportantFadingMsgByStrIdFormatted("fm_empty")
+			AddFadingMsgByStrIdFormatted("fm_empty")
+			AddFadingMsgByStrIdFormatted("fm_empty")
+			AddFadingMsgByStrIdFormatted("fm_empty")
+			AddFadingMsgByStrIdFormatted("fm_empty")
+			local b = SpawnMessageBox( "1486" )
+			if b == 1 then
+				AddFadingMsgByStrIdFormatted("fm_missionstats_points", GetVar("CITTotalPoints").AsInt)
+				AddFadingMsgByStrIdFormatted("fm_missionstats_allieslost_manpower", GetVar("CITTotalManpowerLosses").AsInt)
+				AddFadingMsgByStrIdFormatted("fm_missionstats_enemiesdestroyed_manpower", GetVar("CITTotalManpowerDestroyed").AsInt)
+				AddFadingMsgByStrIdFormatted("fm_empty")
+				b = SpawnMessageBox( "1487" )
+				if b == 1 then
+					AddFadingMsgByStrIdFormatted("fm_missionstats_points", GetVar("CDTotalPoints").AsInt)
+					AddFadingMsgByStrIdFormatted("fm_missionstats_allieslost_manpower", GetVar("CDTotalManpowerLosses").AsInt)
+					AddFadingMsgByStrIdFormatted("fm_missionstats_enemiesdestroyed_manpower", GetVar("CDTotalManpowerDestroyed").AsInt)
+					AddFadingMsgByStrIdFormatted("fm_empty")
+					b = SpawnMessageBox( "1488" )
+				end
+			end
+			println("Goodbye.")
+			LOG("Goodbye.")
+
+			PlayCustomMusic("bs_bar")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="HQMove" active="1">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -208,6 +245,23 @@
 				AddBook("book_citph01_success")
 			end
 
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -232,6 +286,23 @@
 				AddBook("book_citph02_success")
 			else
 				AddBook("book_citph02_failure")
+			end
+
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
 			end
 
 			trigger:Deactivate()
@@ -263,6 +334,23 @@
 				AddBook("book_citph03_failure")
 			end
 
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -283,6 +371,23 @@
 				AddBook("book_citph04_success")
 			else
 				AddBook("book_citph04_failure")
+			end
+
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
 			end
 
 			trigger:Deactivate()
@@ -314,6 +419,23 @@
 				end
 			end
 
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -339,6 +461,23 @@
 				AddBook("book_cdph02_failure")
 			end
 
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -362,6 +501,23 @@
 				end
 			else
 				AddBook("book_cdph03_failure")
+			end
+
+			-- the thank you message
+			local PHMissionsComplete = GetVar("PHMissionsComplete").AsInt
+			if PHMissionsComplete ~= -1 then
+				PHMissionsComplete = PHMissionsComplete + 1
+				println("some missions were completed before, setting to "..PHMissionsComplete)
+				LOG("some missions were completed before, setting to "..PHMissionsComplete)
+				SetVar("PHMissionsComplete", PHMissionsComplete)
+			else
+				println("no missions were completed before, setting to 1")
+				LOG("no missions were completed before, setting to 1")
+				SetVar("PHMissionsComplete", 1)
+			end
+
+			if PHMissionsComplete >= 7 then
+				TActivate("MyFinalMessageGoodbye")
 			end
 
 			trigger:Deactivate()

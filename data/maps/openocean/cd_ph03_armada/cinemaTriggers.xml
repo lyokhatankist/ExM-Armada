@@ -26,7 +26,7 @@
 				"ET_PS_GNTBLAST_APWATERSPLASH"
 				}
 
-			ChangeSide("neutral")
+			ChangeSide("dead")
 
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()

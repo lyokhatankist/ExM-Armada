@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+<!-- Counterattack -->
+	<string
+		id="book_citph01_success"
+		value="“Helvetia Weekdays” newspaper, №104 (2265)" />
+
+	<string
+		id="book_citph01_success_diz"
+		value="Yesterday, May 24, the Nisia defense forces launched a counter-offensive! Three weeks ago, Crimson Dawn captured Kane's Island in the central part of the archipelago, landing several armored vehicles with anti-aircraft weaponry on the island, which constrained the actions of our aviation in the region. Just five artillery boats were enough to completely eliminate the invaders, after which the attack helicopters were able to sink the enemy destroyers and patrol boats, which belatedly arrived to help their brothers who had already gone to their forefathers. There is reason to believe that this operation is just the beginning of a whole series of planned actions by the defense forces to regain control of the archipelago. Our cause is just!" />
+
+<!-- Guests -->
+	<string
+		id="book_citph02_success"
+		value="“Helvetia Weekdays” newspaper, №108 (2265)" />
+
+	<string
+		id="book_citph02_success_diz"
+		value="As we predicted earlier, the enemy nevertheless attempted to transfer troops to the island of Ellinika. On June 4, the Commonwealth Defense Force fleet disrupted the enemy plans and attacked the enemy ship formation with use of destroyers and attack helicopters. As a result of the heroic actions of our sailors, two battleships, a heavy cruiser and two destroyers of the Crimson Dawn were sunk. The intercepted initiative allows the Commonwealth to regain partial control over the archipelago for future operations in the region aimed at the complete elimination of the aggressor's troops off the island of Crete. Freedom shall prevail!" />
+
+	<string
+		id="book_citph02_failure"
+		value="“Voice of Argen” newspaper, №154 (2265)" />
+
+	<string
+		id="book_citph02_failure_diz"
+		value="Yesterday, the Commonwealth again tried to disrupt the plans of our command to establish complete control over the archipelago. On June 4, a skirmish occurred between the naval heavy strike group of the Crimson Dawn and CIT warships. Complete superiority in firepower allowed our ships to crush the enemy resistance and reach the island of Ellinika as planned. As a result of the skirmish, several “Lyon”-class destroyers and the enemy “Touse”-class heavy cruiser were sunk. As expected, there are no casualties on our side." />
+
+<!-- March -->
+	<string
+		id="book_citph03_success"
+		value="“Asgard. Recap” newspaper, №17 (2265)" />
+
+	<string
+		id="book_citph03_success_diz"
+		value="On April 22, the navy of the Commonwealth of Independent Towns made another attack on Argen's cargo ships in the Atlantic Ocean. Unlike previous similar incidents, this one occurred in close proximity to the territory controlled by the Crimson Dawn - the Newfoundisles archipelago. The success of this truly daring attack, which resulted in the sinking of three merchant ships carrying valuable cargo from America, casts doubt on the reliability of Argen's defenses in this region." />
+
+	<string
+		id="book_citph03_victory"
+		value="“Helvetia Weekdays” newspaper, №80 (2265)" />
+
+	<string
+		id="book_citph03_victory_diz"
+		value="On April 22, our sailors dealt a crushing blow to the defenses of the Crimson Dawn on the occupied Iles-Neuve islands! Three “Egale”-class light cruisers destroyed a guarded convoy carrying valuable cargo from America, as well as, astoundingly, three “Furia”-class heavy cruisers! After such a decisive success, we can safely assume that the initiative in the region belongs to us. Port Helena is tired of waiting for liberation, but the day will come very soon when Iles-Neuve will finally return to the Commonwealth!" />
+
+	<string
+		id="book_citph03_failure"
+		value="“Voice of Argen” newspaper, №112 (2265)" />
+
+	<string
+		id="book_citph03_failure_diz"
+		value="Yesterday, April 22, off the island of San Miguel, the enemy attempted a surprise attack on one of our convoys heading to Port Helena from America. This strange attempt to take our valiant defenders by surprise was not crowned with success - all enemy ships, namely three “Egale”-class cruisers, were sunk. The borders of Argen are reliably protected, and all sabotage attempts by the northerners will continue to be suppressed in the name of ensuring the safety of our citizens." />
+
+<!-- Routine-->
+	<string
+		id="book_citph04_success"
+		value="“Asgard. Recap” newspaper, №24 (2265)" />
+
+	<string
+		id="book_citph04_success_diz"
+		value="On June 16, the Commonwealth of Independent Towns once again attacked merchant ships flying the flag of Argen in the Mediterranean Sea. Two cargo ships were heading to Argen from Porto; both were sunk as a result of the attack. It is not known for certain what was on board the ships, but whatever it was, the cargo must have been of some value to the Crimson Dawn's war effort. In any other case, we find it rather difficult to explain the heavy security of the convoy (which consisted of two destroyers and five patrol boats), as well as the motivation of the Commonwealth's command to conduct this operation. At the time of writing, there has still been no official response from the Argen government regarding the incident, but our agency is taking all measures to investigate the purpose of the cargo and the goals of the CIT." />
+
+	<string
+		id="book_citph04_failure"
+		value="“Asgard. Recap” newspaper, №24 (2265)" />
+
+	<string
+		id="book_citph04_failure_diz"
+		value="According to reports from Argen officials, on June 16, the defense forces of the Commonwealth of Independent Towns made another attempt to attack merchant ships in the Mediterranean Sea. Under the cover of darkness, four CIT torpedo boats attacked a convoy of cargo ships en route to Argen from Porto; the attack was repulsed by the actions of the Crimson Dawn sailors. The Consulate General of the Trade Association condemns any attempt to impede maritime trade and once again calls on Librium to end the unauthorized blockade of trade routes in Nisia, Chamenos and off the southern coast of Ridzin." />
+
+<!-- Garrison-->
+	<string
+		id="book_cdph01_success"
+		value="“Asgard. Recap” newspaper, №35 (2265)" />
+
+	<string
+		id="book_cdph01_success_diz"
+		value="Last week, on August 27, 2265, the Crimson Dawn Navy in Nisia successfully escorted cargo ships through waters under the control of the Commonwealth of Independent Towns. The choice of such a dangerous route was justified by the urgency of the cargo and unfavorable weather conditions in the safer southern direction. The success of this operation is a powerful signal to Helvetia, indicating that even if the Commonwealth does not agree to open routes for merchant ships in the archipelago, Argen is can ensure the safety of the route despite any opposition from the CIT. According to the Trade Association and much of the world community, military operations should not interfere with trade, and any actions aimed at stopping it should be severely punished." />
+
+	<string
+		id="book_cdph01_victory"
+		value="“Voice of Argen” newspaper, №238 (2265)" />
+
+	<string
+		id="book_cdph01_victory_diz"
+		value="This night, August 27, our valiant sailors once again proved to the whole world the invincibility of the Argen fleet. The destroyers “Ceuta”, “Melilla” and “Abogado” were tasked with escorting merchant ships carrying valuable cargo for our eastern partners through the hostile waters of Nisia under cover of darkness. As a result of the selfless actions of our sailors, the cargo ships reached their destination safe and sound, and if that wasn't enough, the CIT forces in the region suffered significant losses. According to the reports from the fleet command, the garrison of Psaradon island was completely destroyed, as well as about a dozen of Commonwealth ships patrolling the archipelago. This operation has brought a truly decisive victory for our troops significantly closer, and thanks to the destruction of anti-ship artillery on one of the islands closest to the main center of CIT operations in the region, we can expect our final offensive in Nisia in the nearest future." />
+
+	<string
+		id="book_cdph01_failure"
+		value="“Helvetia Weekdays” newspaper, №166 (2265)" />
+
+	<string
+		id="book_cdph01_failure_diz"
+		value="On August 27, Crimson Dawn attempted to attack our positions on Psaradon island with three destroyers (according to the military report, of “Albedo”-class) and three large warships of an unknown type (most likely “Ganador” or “Furia”-class cruisers). All enemy units were destroyed using coastal artillery, warships and aircraft, and about a hundred enemy sailors were captured. Casualties on our side are minimal. It is not completely known what the butchers from the CD command were counting on when carrying out such a risky operation. Our analysts are inclined to believe that this was a reconnaissance mission with an attempt of partial suppression of the coastal artillery in the region. The ultimate objective of these sailors sent to the meatgrinder was to prepare the ground for the next, more massive attack, but thanks to the heroic actions of the garrison of the Psaradon fortress, the enemy plans were disrupted. They shall not pass!" />
+
+<!-- Fortress -->
+	<string
+		id="book_cdph02_success"
+		value="“Herald of Light” newspaper, №17 (2265)" />
+
+	<string
+		id="book_cdph02_success_diz"
+		value="God's punishment reached the northerners on April 29 in Chamenos, when one of the ships of the Holy Legion, “Cataluna”, under the command of Captain Malachi, appeared on the battlefield. “Cataluna” acted alone, supported by the Templars' faith in God, and defeated the enemies one by one before the arrival of her brothers. The result of this battle was the fall of the fortress on the island of Milos and, as a result, the complete victory of our righteous warriors in the region. Believe, brothers and sisters, in the future salvation that the Church of Light will give you, and pray for the soldiers who are fighting for the future of the great Argen and at the end of our journey we shall feel the joy of a long-awaited victory. Amen." />
+
+	<string
+		id="book_cdph02_failure"
+		value="“Helvetia Weekdays” newspaper, №86 (2265)" />
+
+	<string
+		id="book_cdph02_failure_diz"
+		value="On April 29, Milos fortress, the Commonwealth's stronghold of resistance in Chamenos, was attacked by the Crimson Dawn fleet with air support. The siege ended when, after another salvo of coastal artillery, the flagship of the strike group, a “Furia”-class heavy cruiser, was destroyed, after which the remaining CD ships were forced to retreat. The defenders of the Milos fortress continue to heroically fulfill their duty, preventing the aggressors from advancing further to Nisia. No pasaran!" />
+
+<!-- Armada -->
+	<string
+		id="book_cdph03_success"
+		value="“Asgard. Recap” newspaper, №1 (2266)" />
+
+	<string
+		id="book_cdph03_success_diz"
+		value="On January 3, the Crimson Dawn naval fleet attempted to destroy the strike group of the Commonwealth of Independent Towns on the approaches to Attans island. Despite the fact that the operation ended in success for Argen, the newest missile cruiser “Argumento” was lost during the clash. Of course, a big media victory for the CIT, which is only partially offset by Commonwealth losses of at least one “Lyon”-class destroyer, several “Egale”-class cruisers, a “Librium”-class battleship and a group of “Condor” attack helicopters." />
+
+	<string
+		id="book_cdph03_victory"
+		value="“Voice of Argen” newspaper, №4 (2266)" />
+
+	<string
+		id="book_cdph03_victory_diz"
+		value="On January 3, our fleet attacked the enemy off Attans island using the latest missile cruiser “Argumento”! During this clash, the enemy suffered crushing losses. Anti-ship missiles sent one of the CIT “Librium”-class battleships to the bottom of the Atlantic Ocean, which marked the transition to a new era - the era of Argen's total naval dominance. Finally, our complete victory over the vile northerners is at hand!" />
+
+	<string
+		id="book_cdph03_failure"
+		value="“Helvetia Weekdays” newspaper, №4 (2266)" />
+
+	<string
+		id="book_cdph03_failure_diz"
+		value="On January 3, Crimson Dawn forces launched an attack on Attans island's defensive fleet. The strike group included the newest missile cruiser “Argumento”, which was successfully struck by artillery fire of our ships as well as the attack helicopters that came to aid our defenders. The day that was supposed to be “Argen’s triumph in the Atlantic Ocean” turned out to be a completely crushing defeat for the Crimson Dawn. Praise to our armed forces! Long live the Commonwealth!" />
+</resource>

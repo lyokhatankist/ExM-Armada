@@ -1,0 +1,85 @@
+# unique service name
+name: armada
+language: eng
+installment: exmachina
+ 
+# required human readable info
+display_name: Armada
+release_date: "04.04.2024"
+
+#version: "1.0"
+#build: "240404a"
+
+description: |
+  HTA: Armada is an unusual mod in which the traditional — for the original game — trucks have been replaced by warships. The action of the mod's storyline takes place 30 years after the events of the original game and focuses on the struggle between Crimson Dawn and Commonwealth of Independent Towns for supremacy in the ocean.
+authors: DOLBOYASCHERS TEAM
+
+# optional human readable info
+logo: assets/armada_logo.png
+install_banner: assets/armada_banner.jpg
+
+link: https://discord.com/invite/AzZQsgDJaD
+
+tags: [gameplay]
+
+screenshots:
+  - img: assets/screen_1.jpg
+  - img: assets/screen_2.jpg
+  - img: assets/screen_3.jpg
+  - img: assets/screen_4.jpg
+  - img: assets/screen_5.jpg
+  - img: assets/screen_6.jpg
+#    text: sample text
+# change_log: assets/change_list_ru.md # [optional] change log file with Markdown formating
+# other_info: assets/faq_ru.md # [optional] additional Markdown file, can show any other info
+
+# Installation configuration
+patcher_version_requirement: "2.1"
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14.1"
+    optional_content:
+      - "english_localization"
+
+patcher_options:
+  slow_brake: true
+  hq_reflections: true
+  draw_distance_limit: true
+  vanilla_fov: true
+  game_font: Tahoma
+  sell_price_coeff: 1.0
+  
+config_options:
+    ai_clash_coeff: 0.0001
+    ai_enemies_ramming_damage_coeff: 1
+    ai_min_hit_velocity: 5
+    firstLevel: tutorial
+    g_impostorThreshold: 500
+    mainMenuLevelName: data\maps\seamenu.ssl
+    mus_Volume: 30
+    snd_2dVolume: 37
+    snd_3dVolume: 22
+    
+options_base_dir: "options"
+
+# default_option: skip
+
+optional_content:
+  - name: armada_english
+    display_name: English Localization
+    forced_option: True
+    description: |
+        Translate mod "Armada" to English.
+        
+  - name: armada_cinematic
+    display_name: Cinematic Addon
+    default_option: skip
+    description: |
+      Makes the mod look more like how it was showcased in the trailer. That includes:
+      - more detailed models of ships and guns;
+      - animated ship details and more complex helicopters animations;
+      - animated water (also makes the reflections on the water look worse in a way)
+      
+      May affect the performance and result in reduced stability of the mod, so it's not recommended.
+    
