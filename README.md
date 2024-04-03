@@ -1,4 +1,4 @@
-![armada_header](https://github.com/lyokhatankist/battleship/assets/46862904/fa2423ed-07a6-4cdc-ad4f-38bc31dfd449)
+![armada_header](https://github.com/lyokhatankist/exm-armada/assets/46862904/fa2423ed-07a6-4cdc-ad4f-38bc31dfd449)
 
 ExM:Armada — необычный мод для Ex Machina, в котором стандартные для оригинальной игры грузовики сменились боевыми кораблями. Действия мода разворачиваются спустя 30 лет после событий оригинальной игры, а основное внимание уделено борьбе АР и СНГ за господство в океане. 
 
