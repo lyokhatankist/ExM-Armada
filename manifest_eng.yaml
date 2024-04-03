@@ -5,10 +5,10 @@ installment: exmachina
  
 # required human readable info
 display_name: Armada
-release_date: "25.03.2024"
+release_date: "04.04.2024"
 
-#version: "0.1"
-#build: "240325a"
+#version: "1.0"
+#build: "240404a"
 
 description: |
   HTA: Armada is an unusual mod in which the traditional — for the original game — trucks have been replaced by warships. The action of the mod's storyline takes place 30 years after the events of the original game and focuses on the struggle between Crimson Dawn and Commonwealth of Independent Towns for supremacy in the ocean.

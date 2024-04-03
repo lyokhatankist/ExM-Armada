@@ -5,10 +5,10 @@ installment: exmachina
  
 # required human readable info
 display_name: Armada
-release_date: "25.03.2024"
+release_date: "04.04.2024"
 
-version: "0.1"
-build: "240325a"
+version: "1.0"
+build: "240404a"
 
 description: |
   ExM:Armada — необычный мод для Ex Machina, в котором стандартные для оригинальной игры грузовики сменились боевыми кораблями. Действия мода разворачиваются спустя 30 лет после событий оригинальной игры, а основное внимание уделено борьбе АР и СНГ за господство в океане.
